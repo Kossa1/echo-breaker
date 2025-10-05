@@ -1,0 +1,388 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-08-18T15:25:42.908826Z",
+      "description": "Voting Rights for Men and Women | August 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30722,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Voting Rights for Men and Women | August 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Voting_Rights_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-03-15T14:56:40.707013Z",
+      "description": "Americans' Views on Abortion | February 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28005,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Views on Abortion | February 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Views_on_Abortion.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-03-15T14:31:05.777115Z",
+      "description": "Americans' Views on Abortion | March 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28004,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Views on Abortion | March 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Abortion.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-12-21T22:20:53.289694Z",
+      "description": "Abortion | December 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 27357,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion | December 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Abortion_poll_results_MFfOkFq.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-11-29T15:41:19.195981Z",
+      "description": "Americans' Views on Abortion | November 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 27269,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Views on Abortion | November 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Abortion_poll_results_Sl5CDsK.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-30T18:28:14Z",
+      "description": "Women's Rights | YouGov Survey Crosstabs May 18 - 21, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20528,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Women's Rights | YouGov Survey Crosstabs May 18 - 21, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_Womens_Rights_in_the_US_20220518_1.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-30T18:25:54Z",
+      "description": "Women's Rights | YouGov Survey Toplines May 18 - 21, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20527,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Women's Rights | YouGov Survey Toplines May 18 - 21, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Womens_Rights_in_the_US_20220518.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-24T13:47:24Z",
+      "description": "Abortion | YouGov Survey Crosstabs May 17 - 20, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20505,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion | YouGov Survey Crosstabs May 17 - 20, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Abortion_Opinions_JSruq9x.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-13T16:12:33Z",
+      "description": "Abortion and the Supreme Court | YouGov Survey Crosstabs May 3 - 6, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20473,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion and the Supreme Court | YouGov Survey Crosstabs May 3 - 6, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_Abortion_20220503_1.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-13T16:07:06Z",
+      "description": "Abortion and the Supreme Court | YouGov Survey Toplines May 3 - 6, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20472,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion and the Supreme Court | YouGov Survey Toplines May 3 - 6, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Abortion_and_the_Supreme_Court.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-10T12:58:55Z",
+      "description": "Abortion | YouGov Survey Crosstabs May 4 - 8, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20454,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion | YouGov Survey Crosstabs May 4 - 8, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Abortion_Opinions.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-05-10T12:56:17Z",
+      "description": "Abortion | YouGov Survey Toplines May 4 - 8, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20453,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Abortion | YouGov Survey Toplines May 4 - 8, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Abortion_Opinions.pdf"
+    }
+  ],
+  "hits": 12,
+  "totals": {
+    "categories": {
+      "health": 4,
+      "politics": 12,
+      "society": 4
+    },
+    "types": {
+      "article": 19,
+      "survey": 12
+    }
+  }
+}

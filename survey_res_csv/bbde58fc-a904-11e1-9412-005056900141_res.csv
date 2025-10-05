@@ -1,0 +1,7 @@
+,qnum,question,prompt,response,dem,ind,rep
+0,1,VotingRightsforMen,Do you think that men should or should not be allowed to vote in national elections in the U.S.?,Should be allowed to vote,96,97,96
+1,1,VotingRightsforMen,Do you think that men should or should not be allowed to vote in national elections in the U.S.?,Should NOT be allowed to vote,2,2,1
+2,1,VotingRightsforMen,Do you think that men should or should not be allowed to vote in national elections in the U.S.?,Not sure,3,2,3
+3,2,VotingRightsforWomen,Do you think that women should or should not be allowed to vote in national elections in the U.S.?,Should be allowed to vote,97,93,94
+4,2,VotingRightsforWomen,Do you think that women should or should not be allowed to vote in national elections in the U.S.?,Should NOT be allowed to vote,2,5,3
+5,2,VotingRightsforWomen,Do you think that women should or should not be allowed to vote in national elections in the U.S.?,Not sure,1,2,3

@@ -1,0 +1,201 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Very happy,15,24,12,10
+1,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Somewhat happy,25,25,23,27
+2,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Neither happy nor sad,19,17,20,21
+3,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Somewhat sad,22,19,21,26
+4,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Very sad,14,9,18,13
+5,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",I didn’t attend school,2,2,3,2
+6,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Not sure,3,3,4,1
+7,1,1,Memory of Back to School,"When you were a child and summer ended, how did you usually feel about going back to school in the fall?",Totals,100,99,101,100
+8,2,2,Parent K-12 School Age,Are you the parent or guardian of one or more children in grades K-12?,Yes,23,24,26,19
+9,2,2,Parent K-12 School Age,Are you the parent or guardian of one or more children in grades K-12?,No,77,76,74,81
+10,2,2,Parent K-12 School Age,Are you the parent or guardian of one or more children in grades K-12?,Totals,100,100,100,100
+11,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Totals,102,101,100,100
+12,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Very happy,24,19,29,17
+13,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Somewhat happy,23,27,16,31
+14,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Neither happy nor sad,26,24,27,25
+15,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Somewhat sad,14,19,13,10
+16,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Very sad,6,4,6,8
+17,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",school,4,1,6,2
+18,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Not sure,5,6,3,6
+19,3,3,Parent Feelings Back to School,"As a parent, how do you usually feel when summer ends and your children return to school in the fall?",Totals,102,100,100,99
+20,4,4,Local Teacher Shortage,Do you think there is a shortage of K-12 teachers in your local area?,Yes,44,55,40,38
+21,4,4,Local Teacher Shortage,Do you think there is a shortage of K-12 teachers in your local area?,No,20,14,22,25
+22,4,4,Local Teacher Shortage,Do you think there is a shortage of K-12 teachers in your local area?,Not sure,35,30,38,37
+23,4,4,Local Teacher Shortage,Do you think there is a shortage of K-12 teachers in your local area?,Totals,99,99,100,100
+24,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,A very big problem,27,33,27,16
+25,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,Somewhat of a problem,50,45,50,61
+26,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,Not a very big problem,12,12,12,14
+27,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,Not a problem,3,2,4,2
+28,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,Not sure,8,9,8,6
+29,5,5,Size of Teacher Shortage,How big of a problem is the K-12 teacher shortage in your local area?,Totals,100,101,101,99
+30,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,48,68,45,30
+31,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,25,18,26,31
+32,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,18,10,20,24
+33,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,5,3,5,8
+34,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,5,2,5,7
+35,6,6A,Support for Solutions Local Teacher Shortage — Paying teachers more,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,101,101,101,100
+36,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,4,4,3,4
+37,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,6,6,5,8
+38,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,14,8,18,16
+39,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,15,10,15,20
+40,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,62,73,59,53
+41,7,6B,Support for Solutions Local Teacher Shortage — Paying teachers less,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,101,101,100,101
+42,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,8,8,9,8
+43,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,21,20,21,23
+44,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,24,20,27,23
+45,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,20,20,18,23
+46,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,27,32,25,23
+47,8,6C,Support for Solutions Local Teacher Shortage — Allowing people who did not graduate college to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,100,100,100,100
+48,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,9,6,10,9
+49,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,17,16,13,25
+50,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,32,27,36,32
+51,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,18,20,16,20
+52,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,24,32,25,13
+53,9,6D,Support for Solutions Local Teacher Shortage — Recruiting uncertified veterans to teach,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,100,101,100,99
+54,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,16,18,17,11
+55,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,22,25,23,18
+56,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,23,22,24,22
+57,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,16,16,15,17
+58,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,24,20,22,32
+59,10,6E,Support for Solutions Local Teacher Shortage — Reducing the school week from five days to four days,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,101,101,101,100
+60,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly support,8,15,5,3
+61,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat support,17,26,15,9
+62,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,oppose,28,26,34,22
+63,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Somewhat oppose,18,14,16,25
+64,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Strongly oppose,30,19,30,41
+65,11,6F,Support for Solutions Local Teacher Shortage — Increasing taxes on local residents to fund schools,Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...,Totals,101,100,100,100
+66,12,13,Is or Knows School Teacher,Do you know anyone who is or was a K-12 public school teacher? Select all that apply.,Yes me,8,11,7,6
+67,12,13,Is or Knows School Teacher,Do you know anyone who is or was a K-12 public school teacher? Select all that apply.,Yes a family member,29,32,27,29
+68,12,13,Is or Knows School Teacher,Do you know anyone who is or was a K-12 public school teacher? Select all that apply.,Yes a close friend,28,28,27,28
+69,12,13,Is or Knows School Teacher,Do you know anyone who is or was a K-12 public school teacher? Select all that apply.,None of the above,46,46,46,46
+70,13,14A,Local School Concerns — Teacher shortages,How concerned are you about the following issues in public schools in your local area?,Very concerned,38,50,39,23
+71,13,14A,Local School Concerns — Teacher shortages,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,40,35,40,46
+72,13,14A,Local School Concerns — Teacher shortages,How concerned are you about the following issues in public schools in your local area?,Not very concerned,14,9,12,22
+73,13,14A,Local School Concerns — Teacher shortages,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,8,6,9,9
+74,13,14A,Local School Concerns — Teacher shortages,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,100,100
+75,14,14B,Local School Concerns — Funding shortages,How concerned are you about the following issues in public schools in your local area?,Very concerned,35,47,35,21
+76,14,14B,Local School Concerns — Funding shortages,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,38,37,38,40
+77,14,14B,Local School Concerns — Funding shortages,How concerned are you about the following issues in public schools in your local area?,Not very concerned,17,10,16,27
+78,14,14B,Local School Concerns — Funding shortages,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,10,7,11,12
+79,14,14B,Local School Concerns — Funding shortages,How concerned are you about the following issues in public schools in your local area?,Totals,100,101,100,100
+80,15,14C,Local School Concerns — Students not meeting learning objectives,How concerned are you about the following issues in public schools in your local area?,Very concerned,44,44,45,41
+81,15,14C,Local School Concerns — Students not meeting learning objectives,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,38,39,35,43
+82,15,14C,Local School Concerns — Students not meeting learning objectives,How concerned are you about the following issues in public schools in your local area?,Not very concerned,12,11,14,10
+83,15,14C,Local School Concerns — Students not meeting learning objectives,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,6,6,7,5
+84,15,14C,Local School Concerns — Students not meeting learning objectives,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,101,99
+85,16,14D,Local School Concerns — A lack of parent involvement,How concerned are you about the following issues in public schools in your local area?,Very concerned,35,32,37,37
+86,16,14D,Local School Concerns — A lack of parent involvement,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,40,36,40,43
+87,16,14D,Local School Concerns — A lack of parent involvement,How concerned are you about the following issues in public schools in your local area?,Not very concerned,17,24,15,12
+88,16,14D,Local School Concerns — A lack of parent involvement,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,8,8,9,7
+89,16,14D,Local School Concerns — A lack of parent involvement,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,101,99
+90,17,14E,Local School Concerns — A lack of access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Very concerned,24,28,25,17
+91,17,14E,Local School Concerns — A lack of access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,39,45,36,36
+92,17,14E,Local School Concerns — A lack of access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Not very concerned,26,17,27,35
+93,17,14E,Local School Concerns — A lack of access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,12,10,12,12
+94,17,14E,Local School Concerns — A lack of access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Totals,101,100,100,100
+95,18,14F,Local School Concerns — Depression and anxiety among students,How concerned are you about the following issues in public schools in your local area?,Very concerned,43,48,46,31
+96,18,14F,Local School Concerns — Depression and anxiety among students,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,38,37,36,43
+97,18,14F,Local School Concerns — Depression and anxiety among students,How concerned are you about the following issues in public schools in your local area?,Not very concerned,13,10,11,18
+98,18,14F,Local School Concerns — Depression and anxiety among students,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,6,5,7,7
+99,18,14F,Local School Concerns — Depression and anxiety among students,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,100,99
+100,19,14G,Local School Concerns — Bullying,How concerned are you about the following issues in public schools in your local area?,Very concerned,50,55,55,36
+101,19,14G,Local School Concerns — Bullying,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,31,31,22,43
+102,19,14G,Local School Concerns — Bullying,How concerned are you about the following issues in public schools in your local area?,Not very concerned,14,9,16,16
+103,19,14G,Local School Concerns — Bullying,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,6,5,7,5
+104,19,14G,Local School Concerns — Bullying,How concerned are you about the following issues in public schools in your local area?,Totals,101,100,100,100
+105,20,14H,Local School Concerns — Sexual abuse,How concerned are you about the following issues in public schools in your local area?,Very concerned,40,41,42,35
+106,20,14H,Local School Concerns — Sexual abuse,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,30,29,27,35
+107,20,14H,Local School Concerns — Sexual abuse,How concerned are you about the following issues in public schools in your local area?,Not very concerned,22,22,23,22
+108,20,14H,Local School Concerns — Sexual abuse,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,8,8,9,7
+109,20,14H,Local School Concerns — Sexual abuse,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,101,99
+110,21,14I,Local School Concerns — Students being indoctrinated with liberal ideas,How concerned are you about the following issues in public schools in your local area?,Very concerned,37,16,37,62
+111,21,14I,Local School Concerns — Students being indoctrinated with liberal ideas,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,21,18,23,22
+112,21,14I,Local School Concerns — Students being indoctrinated with liberal ideas,How concerned are you about the following issues in public schools in your local area?,Not very concerned,19,24,20,12
+113,21,14I,Local School Concerns — Students being indoctrinated with liberal ideas,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,23,43,20,5
+114,21,14I,Local School Concerns — Students being indoctrinated with liberal ideas,How concerned are you about the following issues in public schools in your local area?,Totals,100,101,100,101
+115,22,14J,Local School Concerns — Students being indoctrinated with conservative ideas,How concerned are you about the following issues in public schools in your local area?,Very concerned,22,34,22,9
+116,22,14J,Local School Concerns — Students being indoctrinated with conservative ideas,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,27,28,30,19
+117,22,14J,Local School Concerns — Students being indoctrinated with conservative ideas,How concerned are you about the following issues in public schools in your local area?,Not very concerned,22,23,22,22
+118,22,14J,Local School Concerns — Students being indoctrinated with conservative ideas,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,29,15,26,50
+119,22,14J,Local School Concerns — Students being indoctrinated with conservative ideas,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,100,100
+120,23,14K,Local School Concerns — The spread of COVID-19,How concerned are you about the following issues in public schools in your local area?,Very concerned,27,44,24,12
+121,23,14K,Local School Concerns — The spread of COVID-19,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,28,35,26,24
+122,23,14K,Local School Concerns — The spread of COVID-19,How concerned are you about the following issues in public schools in your local area?,Not very concerned,25,16,29,29
+123,23,14K,Local School Concerns — The spread of COVID-19,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,20,5,22,36
+124,23,14K,Local School Concerns — The spread of COVID-19,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,101,101
+125,24,14L,Local School Concerns — COVID-19 restrictions,How concerned are you about the following issues in public schools in your local area?,Very concerned,26,24,27,29
+126,24,14L,Local School Concerns — COVID-19 restrictions,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,29,24,30,32
+127,24,14L,Local School Concerns — COVID-19 restrictions,How concerned are you about the following issues in public schools in your local area?,Not very concerned,27,29,29,22
+128,24,14L,Local School Concerns — COVID-19 restrictions,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,18,23,15,17
+129,24,14L,Local School Concerns — COVID-19 restrictions,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,101,100
+130,25,14M,Local School Concerns — Learning loss due to COVID-19,How concerned are you about the following issues in public schools in your local area?,Very concerned,39,40,38,39
+131,25,14M,Local School Concerns — Learning loss due to COVID-19,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,34,35,34,35
+132,25,14M,Local School Concerns — Learning loss due to COVID-19,How concerned are you about the following issues in public schools in your local area?,Not very concerned,18,19,20,15
+133,25,14M,Local School Concerns — Learning loss due to COVID-19,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,8,7,8,10
+134,25,14M,Local School Concerns — Learning loss due to COVID-19,How concerned are you about the following issues in public schools in your local area?,Totals,99,101,100,99
+135,26,14N,Local School Concerns — Too much parent involvement,How concerned are you about the following issues in public schools in your local area?,Very concerned,12,16,13,6
+136,26,14N,Local School Concerns — Too much parent involvement,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,21,28,20,13
+137,26,14N,Local School Concerns — Too much parent involvement,How concerned are you about the following issues in public schools in your local area?,Not very concerned,32,31,31,36
+138,26,14N,Local School Concerns — Too much parent involvement,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,35,26,36,44
+139,26,14N,Local School Concerns — Too much parent involvement,How concerned are you about the following issues in public schools in your local area?,Totals,100,101,100,99
+140,27,14O,Local School Concerns — Too much access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Very concerned,11,13,10,12
+141,27,14O,Local School Concerns — Too much access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,21,16,22,24
+142,27,14O,Local School Concerns — Too much access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Not very concerned,38,34,38,42
+143,27,14O,Local School Concerns — Too much access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,30,38,31,22
+144,27,14O,Local School Concerns — Too much access to classroom technology,How concerned are you about the following issues in public schools in your local area?,Totals,100,101,101,100
+145,28,14P,Local School Concerns — The banning of books,How concerned are you about the following issues in public schools in your local area?,Very concerned,45,57,46,28
+146,28,14P,Local School Concerns — The banning of books,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,28,25,26,35
+147,28,14P,Local School Concerns — The banning of books,How concerned are you about the following issues in public schools in your local area?,Not very concerned,17,10,18,23
+148,28,14P,Local School Concerns — The banning of books,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,10,9,9,13
+149,28,14P,Local School Concerns — The banning of books,How concerned are you about the following issues in public schools in your local area?,Totals,100,101,99,99
+150,29,14Q,Local School Concerns — The availability of inappropriate books,How concerned are you about the following issues in public schools in your local area?,Very concerned,25,16,24,36
+151,29,14Q,Local School Concerns — The availability of inappropriate books,How concerned are you about the following issues in public schools in your local area?,Somewhat concerned,21,20,18,25
+152,29,14Q,Local School Concerns — The availability of inappropriate books,How concerned are you about the following issues in public schools in your local area?,Not very concerned,28,25,32,26
+153,29,14Q,Local School Concerns — The availability of inappropriate books,How concerned are you about the following issues in public schools in your local area?,Not concerned at all,26,39,26,13
+154,29,14Q,Local School Concerns — The availability of inappropriate books,How concerned are you about the following issues in public schools in your local area?,Totals,100,100,100,100
+155,30,15A,Support for Schools Providing Free Meals — Free breakfast,Do you think public schools should provide the following to...,All students,55,66,55,42
+156,30,15A,Support for Schools Providing Free Meals — Free breakfast,Do you think public schools should provide the following to...,only,32,27,31,38
+157,30,15A,Support for Schools Providing Free Meals — Free breakfast,Do you think public schools should provide the following to...,No students,7,3,7,11
+158,30,15A,Support for Schools Providing Free Meals — Free breakfast,Do you think public schools should provide the following to...,Not sure,7,4,7,9
+159,30,15A,Support for Schools Providing Free Meals — Free breakfast,Do you think public schools should provide the following to...,Totals,101,100,100,100
+160,31,15B,Support for Schools Providing Free Meals — Free lunch,Do you think public schools should provide the following to...,All students,52,60,56,38
+161,31,15B,Support for Schools Providing Free Meals — Free lunch,Do you think public schools should provide the following to...,only,34,30,31,45
+162,31,15B,Support for Schools Providing Free Meals — Free lunch,Do you think public schools should provide the following to...,No students,6,4,7,7
+163,31,15B,Support for Schools Providing Free Meals — Free lunch,Do you think public schools should provide the following to...,Not sure,7,6,6,10
+164,31,15B,Support for Schools Providing Free Meals — Free lunch,Do you think public schools should provide the following to...,Totals,99,100,100,100
+165,32,15C,Support for Schools Providing Free Meals — Free dinner,Do you think public schools should provide the following to...,All students,31,35,36,21
+166,32,15C,Support for Schools Providing Free Meals — Free dinner,Do you think public schools should provide the following to...,only,31,32,29,32
+167,32,15C,Support for Schools Providing Free Meals — Free dinner,Do you think public schools should provide the following to...,No students,22,14,23,30
+168,32,15C,Support for Schools Providing Free Meals — Free dinner,Do you think public schools should provide the following to...,Not sure,16,19,12,17
+169,32,15C,Support for Schools Providing Free Meals — Free dinner,Do you think public schools should provide the following to...,Totals,100,100,100,100
+170,33,16,Ever Been to Fraternity Party,Have you ever attended a party hosted by a college fraternity?,Yes,25,29,24,23
+171,33,16,Ever Been to Fraternity Party,Have you ever attended a party hosted by a college fraternity?,No,70,67,70,73
+172,33,16,Ever Been to Fraternity Party,Have you ever attended a party hosted by a college fraternity?,Not sure,5,4,7,4
+173,33,16,Ever Been to Fraternity Party,Have you ever attended a party hosted by a college fraternity?,Totals,100,100,101,100
+174,34,17,Ever Been to Sorority Party,Have you ever attended a party hosted by a college sorority?,Yes,18,20,19,16
+175,34,17,Ever Been to Sorority Party,Have you ever attended a party hosted by a college sorority?,No,76,76,75,78
+176,34,17,Ever Been to Sorority Party,Have you ever attended a party hosted by a college sorority?,Not sure,5,5,6,5
+177,34,17,Ever Been to Sorority Party,Have you ever attended a party hosted by a college sorority?,Totals,99,101,100,99
+178,35,18,Problem of Hazing in Fraternities,"Hazing is a ritual that involves risk, pain, or harm, as part of initiation into a group. How big of a problem do you think hazing is in American college",A big problem,50,63,45,42
+179,35,18,Problem of Hazing in Fraternities,"Hazing is a ritual that involves risk, pain, or harm, as part of initiation into a group. How big of a problem do you think hazing is in American college",A small problem,26,21,25,36
+180,35,18,Problem of Hazing in Fraternities,"Hazing is a ritual that involves risk, pain, or harm, as part of initiation into a group. How big of a problem do you think hazing is in American college",Not a problem,7,5,7,9
+181,35,18,Problem of Hazing in Fraternities,"Hazing is a ritual that involves risk, pain, or harm, as part of initiation into a group. How big of a problem do you think hazing is in American college",Not sure,17,11,23,14
+182,35,18,Problem of Hazing in Fraternities,"Hazing is a ritual that involves risk, pain, or harm, as part of initiation into a group. How big of a problem do you think hazing is in American college",Totals,100,100,100,101
+183,36,19,Problem of Hazing in Sororities,How big of a problem do you think hazing is in American college sororities?,A big problem,40,51,36,34
+184,36,19,Problem of Hazing in Sororities,How big of a problem do you think hazing is in American college sororities?,A small problem,30,23,30,36
+185,36,19,Problem of Hazing in Sororities,How big of a problem do you think hazing is in American college sororities?,Not a problem,8,6,8,12
+186,36,19,Problem of Hazing in Sororities,How big of a problem do you think hazing is in American college sororities?,Not sure,22,20,26,18
+187,36,19,Problem of Hazing in Sororities,How big of a problem do you think hazing is in American college sororities?,Totals,100,100,100,100
+188,37,20,Punishment for Hazing,"If a college fraternity or sorority is caught hazing its members, should it be suspended from the campus?",Yes permanently,40,49,36,34
+189,37,20,Punishment for Hazing,"If a college fraternity or sorority is caught hazing its members, should it be suspended from the campus?",Yes temporarily,39,34,40,43
+190,37,20,Punishment for Hazing,"If a college fraternity or sorority is caught hazing its members, should it be suspended from the campus?",No,8,6,7,11
+191,37,20,Punishment for Hazing,"If a college fraternity or sorority is caught hazing its members, should it be suspended from the campus?",Not sure,14,12,17,12
+192,37,20,Punishment for Hazing,"If a college fraternity or sorority is caught hazing its members, should it be suspended from the campus?",Totals,101,101,100,100
+193,38,21,Allow Men-Only Fraternities,"Should college fraternities be allowed to remain men-only, or should they be required to include both women and men?",to remain men-only,52,38,52,67
+194,38,21,Allow Men-Only Fraternities,"Should college fraternities be allowed to remain men-only, or should they be required to include both women and men?",and men,20,25,20,14
+195,38,21,Allow Men-Only Fraternities,"Should college fraternities be allowed to remain men-only, or should they be required to include both women and men?",Not sure,28,37,28,19
+196,38,21,Allow Men-Only Fraternities,"Should college fraternities be allowed to remain men-only, or should they be required to include both women and men?",Totals,100,100,100,100
+197,39,22,Member of Fraternity or Sorority,"When you were in college, were you a member of...?",A fraternity,7,7,6,10
+198,39,22,Member of Fraternity or Sorority,"When you were in college, were you a member of...?",A sorority,7,6,7,9
+199,39,22,Member of Fraternity or Sorority,"When you were in college, were you a member of...?",None of the above,83,87,81,81
