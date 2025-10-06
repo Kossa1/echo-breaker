@@ -1,0 +1,471 @@
+[
+  {
+    "name": "communism",
+    "score": 0.015118698512,
+    "notes": "Communist ideology and theory",
+    "ideology": "left",
+    "sub_count": 260797
+  },
+  {
+    "name": "socialism",
+    "score": 0.016549234385,
+    "notes": "Democratic socialist / anti-capitalist",
+    "ideology": "left",
+    "sub_count": 476496
+  },
+  {
+    "name": "socialism_101",
+    "score": 0.01429311104,
+    "notes": "Socialist education and discussion",
+    "ideology": "left",
+    "sub_count": 179357
+  },
+  {
+    "name": "alltheleft",
+    "score": 0.012001500251,
+    "notes": "Unified left discussion",
+    "ideology": "left",
+    "sub_count": 55947
+  },
+  {
+    "name": "latestageimperialism",
+    "score": 0.011632851926,
+    "notes": "Anti-imperialism critique",
+    "ideology": "left",
+    "sub_count": 45441
+  },
+  {
+    "name": "latestagecapitalism",
+    "score": 0.017993239409,
+    "notes": "Anti-capitalist critique",
+    "ideology": "left",
+    "sub_count": 832279
+  },
+  {
+    "name": "anticapitalism",
+    "score": 0.009792650454,
+    "notes": "Left activism",
+    "ideology": "left",
+    "sub_count": 14417
+  },
+  {
+    "name": "antiwork",
+    "score": 0.021673691401,
+    "notes": "Labor critique and reform",
+    "ideology": "left",
+    "sub_count": 2878011
+  },
+  {
+    "name": "anarchism",
+    "score": 0.01530466617,
+    "notes": "Anarchist theory/discussion",
+    "ideology": "left",
+    "sub_count": 282943
+  },
+  {
+    "name": "completeanarchy",
+    "score": 0.013979462052,
+    "notes": "Anarchist memes and discussion",
+    "ideology": "left",
+    "sub_count": 154695
+  },
+  {
+    "name": "anarchocommunism",
+    "score": 0.010866191162,
+    "notes": "Anarcho-communist ideology",
+    "ideology": "left",
+    "sub_count": 28844
+  },
+  {
+    "name": "leftcommunism",
+    "score": 0.009314078783,
+    "notes": "Left communist theory",
+    "ideology": "left",
+    "sub_count": 10323
+  },
+  {
+    "name": "breadtube",
+    "score": 0.014066966075,
+    "notes": "Left video essays and creators",
+    "ideology": "left",
+    "sub_count": 161266
+  },
+  {
+    "name": "shitliberalssay",
+    "score": 0.014377316357,
+    "notes": "Left critique of liberalism",
+    "ideology": "left",
+    "sub_count": 186520
+  },
+  {
+    "name": "dankleft",
+    "score": 0.014320029986,
+    "notes": "Leftist memes",
+    "ideology": "left",
+    "sub_count": 181621
+  },
+  {
+    "name": "leftist",
+    "score": 0.011355875241,
+    "notes": "General left ideology discussion",
+    "ideology": "left",
+    "sub_count": 38697
+  },
+  {
+    "name": "democraticsocialism",
+    "score": 0.014126794247,
+    "notes": "Democratic socialist movement",
+    "ideology": "left",
+    "sub_count": 165894
+  },
+  {
+    "name": "labour",
+    "score": 0.010715325919,
+    "notes": "UK Labour discussion",
+    "ideology": "left",
+    "sub_count": 26277
+  },
+  {
+    "name": "greenparty",
+    "score": 0.010436898101,
+    "notes": "Green Party politics",
+    "ideology": "left",
+    "sub_count": 22047
+  },
+  {
+    "name": "progressive",
+    "score": 0.012664447204,
+    "notes": "Progressive US politics",
+    "ideology": "center-left",
+    "sub_count": 80066
+  },
+  {
+    "name": "political_revolution",
+    "score": 0.014468026759,
+    "notes": "Progressive political movement",
+    "ideology": "center-left",
+    "sub_count": 194507
+  },
+  {
+    "name": "sandersforpresident",
+    "score": 0.016666409101,
+    "notes": "Bernie Sanders support",
+    "ideology": "center-left",
+    "sub_count": 499444
+  },
+  {
+    "name": "wayofthebern",
+    "score": 0.012891659289,
+    "notes": "Progressive / Sanders focused",
+    "ideology": "center-left",
+    "sub_count": 90143
+  },
+  {
+    "name": "ourpresident",
+    "score": 0.013668109532,
+    "notes": "Progressive presidential politics",
+    "ideology": "center-left",
+    "sub_count": 133126
+  },
+  {
+    "name": "politics",
+    "score": 0.02567747694,
+    "notes": "US politics (left-leaning aggregate)",
+    "ideology": "center-left",
+    "sub_count": 8910229
+  },
+  {
+    "name": "politicalhumor",
+    "score": 0.019947138752,
+    "notes": "Political satire and memes",
+    "ideology": "center-left",
+    "sub_count": 1654794
+  },
+  {
+    "name": "politicaldiscussion",
+    "score": 0.020806713191,
+    "notes": "In-depth political discussion",
+    "ideology": "center-left",
+    "sub_count": 2192282
+  },
+  {
+    "name": "esist",
+    "score": 0.013453906813,
+    "notes": "Anti-authoritarian / pro-democracy activism",
+    "ideology": "center-left",
+    "sub_count": 119820
+  },
+  {
+    "name": "marchagainstnazis",
+    "score": 0.014437361025,
+    "notes": "Anti-fascist activism",
+    "ideology": "center-left",
+    "sub_count": 191775
+  },
+  {
+    "name": "fuckthealtright",
+    "score": 0.014536696677,
+    "notes": "Anti-alt-right activism",
+    "ideology": "center-left",
+    "sub_count": 200745
+  },
+  {
+    "name": "democrats",
+    "score": 0.01681053676,
+    "notes": "US Democratic Party",
+    "ideology": "center-left",
+    "sub_count": 528953
+  },
+  {
+    "name": "liberal",
+    "score": 0.013587795018,
+    "notes": "Liberal political discussion",
+    "ideology": "center-left",
+    "sub_count": 127997
+  },
+  {
+    "name": "voteblue",
+    "score": 0.012064242243,
+    "notes": "Democratic voter mobilization",
+    "ideology": "center-left",
+    "sub_count": 57926
+  },
+  {
+    "name": "neutralpolitics",
+    "score": 0.017224930251,
+    "notes": "Moderated evidence-based debate",
+    "ideology": "center",
+    "sub_count": 622190
+  },
+  {
+    "name": "neutralnews",
+    "score": 0.01549511165,
+    "notes": "Fact-based news discussion",
+    "ideology": "center",
+    "sub_count": 307259
+  },
+  {
+    "name": "changemyview",
+    "score": 0.022874095161,
+    "notes": "Structured viewpoint debate",
+    "ideology": "center",
+    "sub_count": 4122551
+  },
+  {
+    "name": "askpolitics",
+    "score": 0.01249457957,
+    "notes": "Q&A style politics",
+    "ideology": "center",
+    "sub_count": 73173
+  },
+  {
+    "name": "politicalcompassmemes",
+    "score": 0.017071905652,
+    "notes": "Political compass humor",
+    "ideology": "center",
+    "sub_count": 586255
+  },
+  {
+    "name": "worldnews",
+    "score": 0.032939220186,
+    "notes": "Global news aggregation",
+    "ideology": "center",
+    "sub_count": 46877233
+  },
+  {
+    "name": "news",
+    "score": 0.030949778615,
+    "notes": "General news (mixed)",
+    "ideology": "center",
+    "sub_count": 30944979
+  },
+  {
+    "name": "truereddit",
+    "score": 0.017094863777,
+    "notes": "Long-form discussion",
+    "ideology": "center",
+    "sub_count": 591531
+  },
+  {
+    "name": "moderatepolitics",
+    "score": 0.015497410298,
+    "notes": "Self-described moderate space",
+    "ideology": "center",
+    "sub_count": 307563
+  },
+  {
+    "name": "centrist",
+    "score": 0.012503934095,
+    "notes": "Centrist political discussion",
+    "ideology": "center",
+    "sub_count": 73539
+  },
+  {
+    "name": "tuesday",
+    "score": 0.010194089431,
+    "notes": "Center-right to moderate discussion",
+    "ideology": "center",
+    "sub_count": 18845
+  },
+  {
+    "name": "libertarian",
+    "score": 0.016679878025,
+    "notes": "Libertarian ideology",
+    "ideology": "center-right",
+    "sub_count": 502141
+  },
+  {
+    "name": "goldandblack",
+    "score": 0.012921749811,
+    "notes": "Anarcho-capitalist discussion",
+    "ideology": "center-right",
+    "sub_count": 91555
+  },
+  {
+    "name": "anarcho_capitalism",
+    "score": 0.014456811223,
+    "notes": "Anarcho-capitalist ideology",
+    "ideology": "center-right",
+    "sub_count": 193504
+  },
+  {
+    "name": "shitstatistssay",
+    "score": 0.012820714772,
+    "notes": "Libertarian critique",
+    "ideology": "center-right",
+    "sub_count": 86887
+  },
+  {
+    "name": "libertarianmeme",
+    "score": 0.01384251133,
+    "notes": "Libertarian themed memes",
+    "ideology": "center-right",
+    "sub_count": 144868
+  },
+  {
+    "name": "classical_liberals",
+    "score": 0.009382734332,
+    "notes": "Classical liberal theory",
+    "ideology": "center-right",
+    "sub_count": 10841
+  },
+  {
+    "name": "neoliberal",
+    "score": 0.014501314829,
+    "notes": "Neoliberal economics and policy",
+    "ideology": "center-right",
+    "sub_count": 197510
+  },
+  {
+    "name": "conservatives",
+    "score": 0.01336480496,
+    "notes": "Broad conservative community",
+    "ideology": "right",
+    "sub_count": 114628
+  },
+  {
+    "name": "askaconservative",
+    "score": 0.011111164798,
+    "notes": "Q&A with conservatives",
+    "ideology": "right",
+    "sub_count": 33466
+  },
+  {
+    "name": "conservativememes",
+    "score": 0.012639058701,
+    "notes": "Conservative humor",
+    "ideology": "right",
+    "sub_count": 79002
+  },
+  {
+    "name": "republican",
+    "score": 0.014718031998,
+    "notes": "US Republican Party",
+    "ideology": "right",
+    "sub_count": 218041
+  },
+  {
+    "name": "republicans",
+    "score": 0.0103830011,
+    "notes": "Republican discussion",
+    "ideology": "right",
+    "sub_count": 21299
+  },
+  {
+    "name": "capitalism",
+    "score": 0.011929064688,
+    "notes": "Capitalist economic advocacy",
+    "ideology": "right",
+    "sub_count": 53734
+  },
+  {
+    "name": "askthe_donald",
+    "score": 0.013697514194,
+    "notes": "Q&A Trump supporters",
+    "ideology": "right",
+    "sub_count": 135047
+  },
+  {
+    "name": "trump",
+    "score": 0.013998622294,
+    "notes": "Pro-Trump discussion",
+    "ideology": "right",
+    "sub_count": 156114
+  },
+  {
+    "name": "walkaway",
+    "score": 0.013475017622,
+    "notes": "Former Democrats discussion",
+    "ideology": "right",
+    "sub_count": 121079
+  },
+  {
+    "name": "benshapiro",
+    "score": 0.012002015025,
+    "notes": "Ben Shapiro discussion",
+    "ideology": "right",
+    "sub_count": 55963
+  },
+  {
+    "name": "timpool",
+    "score": 0.01095292337,
+    "notes": "Tim Pool community",
+    "ideology": "right",
+    "sub_count": 30414
+  },
+  {
+    "name": "kotakuinaction",
+    "score": 0.014028050731,
+    "notes": "Media ethics and culture",
+    "ideology": "right",
+    "sub_count": 158315
+  },
+  {
+    "name": "shitpoliticssays",
+    "score": 0.012798159351,
+    "notes": "Critique of r/politics",
+    "ideology": "right",
+    "sub_count": 85873
+  },
+  {
+    "name": "asktrumpsupporters",
+    "score": 0.013072550163,
+    "notes": "Q&A with Trump supporters",
+    "ideology": "right",
+    "sub_count": 98918
+  },
+  {
+    "name": "conservative",
+    "score": 0.01921441506,
+    "notes": "Conservative discussion",
+    "ideology": "right",
+    "sub_count": 1289400
+  },
+  {
+    "name": "racialrealism",
+    "score": 0.005976456137,
+    "notes": "Racial realism discussion",
+    "ideology": "right",
+    "sub_count": 536
+  }
+]
