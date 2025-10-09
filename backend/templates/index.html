@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reddit Post Ranking</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .post { margin-bottom: 40px; }
+    .post img { max-width: 600px; display: block; margin-bottom: 10px; }
+    .slider-label { display: inline-block; width: 50px; }
+  </style>
+</head>
+<body>
+  <h1>Rank Reddit Posts</h1>
+
+  {% for post in posts %}
+    <div class="post">
+      <h3>{{ post.title }}</h3>
+      <img src="{{ post.image_url }}" alt="Post image">
+      <div>
+        <span class="slider-label">-50</span>
+        <input type="range" min="-50" max="50" value="0" step="1">
+        <span class="slider-label">50</span>
+      </div>
+    </div>
+  {% endfor %}
+
+</body>
+</html>

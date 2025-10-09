@@ -1,7 +1,8 @@
-from subreddit_list import sample_subreddit
-from reddit_api import reddit_get
+from .reddit_api import reddit_get
 from html import unescape
 import random
+from .subreddit_list import sample_subreddit
+
 
 def fetch_top_post(subreddit_name: str, limit: int = 5):
     """Fetch one random post from the top posts in the past day."""
