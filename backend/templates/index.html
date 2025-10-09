@@ -12,18 +12,25 @@
 </head>
 <body>
   <h1>Rank Reddit Posts</h1>
+  <form method="POST" action="{{ url_for('submit') }}">
+    {% for post in posts %}
+      <div class="post">
+        <h3>{{ post.title }}</h3>
+        {% if post.image_url %}
+          <img src="{{ post.image_url }}" alt="Post image">
+        {% endif %}
+        {% if post.selftext %}
+          <p>{{ post.selftext }}</p>
+        {% endif %}
 
-  {% for post in posts %}
-    <div class="post">
-      <h3>{{ post.title }}</h3>
-      <img src="{{ post.image_url }}" alt="Post image">
-      <div>
-        <span class="slider-label">-50</span>
-        <input type="range" min="-50" max="50" value="0" step="1">
-        <span class="slider-label">50</span>
+        <div>
+          <span class="slider-label">-50</span>
+          <input type="range" name="score_{{ loop.index0 }}" min="-50" max="50" value="0" step="1">
+          <span class="slider-label">50</span>
+        </div>
       </div>
-    </div>
-  {% endfor %}
-
+    {% endfor %}
+    <button type="submit">Submit Scores</button>
+  </form>
 </body>
 </html>
