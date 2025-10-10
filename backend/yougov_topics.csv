@@ -1,0 +1,775 @@
+id,name,slug,type
+34aeadd0-5f33-11e2-812d-005056a8759d,AARP,AARP,Topic
+bb13b605-a904-11e1-9412-005056900141,Abortion,Abortion,Issue
+94f584a0-66dd-11e2-97e1-005056a8759d,Abuse,Abuse,Topic
+be22f1c6-a904-11e1-9412-005056900141,Academic Publishing,Academic_Publishing,Topic
+b8678b10-1122-11e2-8d8e-005056a8759d,Actors,Actors,Topic
+3dbf2fc0-b944-11e1-8e9d-00505690014d,Adam Schiff,Adam_Schiff,Public Figure
+bb13b608-a904-11e1-9412-005056900141,Addiction,Addiction,Topic
+9d086a00-8837-11e3-920a-005056a8759d,Addiction counseling,Addiction_counseling,Topic
+c7f27290-66f2-11e2-97e1-005056a8759d,Adulthood,Adulthood,Topic
+748676e0-b49d-11e1-88b7-00505690014d,Advertising Strategy,Advertising_Strategy,Topic
+418cc7c0-56c8-11e3-9e30-005056a8759d,Affirmative Action,Affirmative_Action,Issue
+92222a20-b153-11e1-91b8-00505690014d,African American History,African_American_History,Topic
+1278a9f0-c695-11e1-beea-005056a8759d,AIDS,AIDS,Topic
+dfda2050-c1f8-11e1-939f-005056a8759d,Air conditioning,Air_conditioning,Topic
+bd411d54-a904-11e1-9412-005056900141,Airlines,Airlines,Topic
+c21d50ee-a904-11e1-9412-005056900141,Airplanes,Airplanes,Topic
+bd78a808-a904-11e1-9412-005056900141,Airports,Airports,Topic
+93328030-7ffd-11e2-8fef-005056a8759d,Alarm Systems,Alarm_Systems,Topic
+28b4feb0-1f47-11e9-ada2-9df9636d6146,Alexandria Ocasio-Cortez,Alexandria_Ocasio_Cortez-Public_Figure,Public Figure
+0b54b2f0-dcbf-11e1-9d69-005056a8759d,Alternative energy,Alternative_energy,Topic
+bd37f580-a904-11e1-9412-005056900141,Alternative Medicine,Alternative_Medicine,Topic
+aababbc0-f842-11e1-8e7c-005056a8759d,Amateur astronomy,Amateur_astronomy,Topic
+bb736239-a904-11e1-9412-005056900141,Ambulance and Paramedics,Ambulance_and_Paramedics,Topic
+34c03a00-5f33-11e2-812d-005056a8759d,American Civil Liberties Union,American_Civil_Liberties_Union,Topic
+bbf626a7-a904-11e1-9412-005056900141,American Civil War,American_Civil_War,Historical Event
+6c9d6580-3af1-11e2-bcb0-005056a8759d,American culture,American_culture,Topic
+bb6dbcc2-a904-11e1-9412-005056900141,American History,American_History,Topic
+bb747389-a904-11e1-9412-005056900141,American Politics,American_Politics,Topic
+95f99a90-9184-11e2-9a4b-005056a8759d,American Revolutionary War,American_Revolutionary_War,Historical Event
+864a2940-66e4-11e2-97e1-005056a8759d,American way,American_way,Topic
+704ce1f0-b929-11e1-8e9d-00505690014d,Amy Klobuchar,Amy_Klobuchar,Public Figure
+c15f0a03-a904-11e1-9412-005056900141,Ancestry,Ancestry,Topic
+cb372ef0-b9eb-11e1-94b1-00505690014d,Andrew Cuomo,Andrew_Cuomo,Public Figure
+9a52adfa-a2e9-11e9-a6bc-9309e0e6c01a,Andrew Yang,Andrew_Yang,Public Figure
+4cf22234-018b-11ea-a7ee-31603736b29c,Andy Beshear,Andy_Beshear,Public Figure
+bb13dcfa-a904-11e1-9412-005056900141,Animal cruelty,Animal_cruelty,Topic
+6639a080-c12c-11e1-939f-005056a8759d,Animal rights,Animal_rights,Issue
+b866eed0-1122-11e2-8d8e-005056a8759d,Animals,Animals,Topic
+bb750fe6-a904-11e1-9412-005056900141,Animals and Pets Retail,Animals_and_Pets_Retail,Topic
+77c1ad5d-bfb1-11eb-a339-4186f803948b,Anthony Fauci,Anthony_Fauci,Public Figure
+1beeda40-c6a4-11e1-beea-005056a8759d,Anti-aging,Anti_aging,Topic
+bb13dd00-a904-11e1-9412-005056900141,Anxiety,Anxiety,Topic
+62fcd670-c9bb-11e1-beea-005056a8759d,Army Counterintelligence,Army_Counterintelligence,Topic
+83d6f8b0-c122-11e4-b8ee-005056a8759d,Asa Hutchinson,Asa_Hutchinson,Public Figure
+d2bad960-c503-11e1-beea-005056a8759d,Asian studies,Asian_studies,Topic
+a94cc820-96d8-11e2-9a4b-005056a8759d,Assisted Suicide,Assisted_Suicide,Issue
+0a4a24a0-3ae1-11e2-bcb0-005056a8759d,Astronauts,Astronauts,Topic
+bb731417-a904-11e1-9412-005056900141,Astronomy,Astronomy-Topic,Topic
+bb749ac2-a904-11e1-9412-005056900141,Atheism,Atheism,Topic
+bfbddd05-a904-11e1-9412-005056900141,Audiobooks,Audiobooks,Topic
+b6034740-328a-11e2-8a8a-005056a8759d,Augmented reality,Augmented_reality,Topic
+bbb32a53-a904-11e1-9412-005056900141,Autism,Autism,Topic
+bd02b4b4-a904-11e1-9412-005056900141,Automation,Automation,Topic
+bb74e8db-a904-11e1-9412-005056900141,Automobile Manufacturing,Automobile_Manufacturing,Topic
+e77e586f-1411-11ed-a799-8b0ab3bed59a,Automotive Industry,Automotive_Industry,Topic
+b4e516b0-2c91-11e4-abe8-005056a8759d,The American Federation of Teachers,The_American_Federation_of_Teachers,Institution
+b8610890-0bd6-11e2-8e7c-005056a8759d,Babies,Babies,Topic
+921e1620-3af5-11e2-bcb0-005056a8759d,Bad behavior,Bad_behavior,Topic
+bb7bc690-a904-11e1-9412-005056900141,Barack Obama,Barack_Obama,Public Figure
+22a2e880-cb41-11e1-beea-005056a8759d,Barbecue,Barbecue,Topic
+bb7b9f96-a904-11e1-9412-005056900141,Bashar al-Assad,Bashar_al_Assad,Public Figure
+bbfb08af-a904-11e1-9412-005056900141,Beaches and Coastline,Beaches_and_Coastline,Topic
+bd8b6ca2-a904-11e1-9412-005056900141,Beer,Beer,Topic
+bb7bed99-a904-11e1-9412-005056900141,Benjamin Netanyahu,Benjamin_Netanyahu,Public Figure
+72165750-b929-11e1-8e9d-00505690014d,Bernie Sanders,Bernie_Sanders,Public Figure
+a31345d0-e11c-11e3-82d3-005056a8759d,Beto O'Rourke,Beto_ORourke,Public Figure
+a6afc360-06ff-11e2-8e7c-005056a8759d,Bigfoot,Bigfoot,Topic
+bb7bc68f-a904-11e1-9412-005056900141,Bill Clinton,Bill_Clinton,Public Figure
+52c8f1f0-cf36-11e1-beea-005056a8759d,Bill of rights,Bill_of_rights,Topic
+46e54cc0-1483-11e2-8b86-005056a8759d,Biography,Biography-Topic,Topic
+cb6bf410-071a-11e2-8e7c-005056a8759d,Bipartisanship,Bipartisanship,Topic
+8327fdd0-d7ee-11e1-8a26-005056a8759d,Birth order,Birth_order,Topic
+d7741a3f-a8f7-11ea-9109-01705199481b,Black Lives Matter,Black_Lives_Matter,Issue
+eff03a50-029f-11e2-8e7c-005056a8759d,Border Control,Border_Control,Topic
+b8687570-1122-11e2-8d8e-005056a8759d,Brands,Brands,Topic
+f6abee40-ca76-11e1-beea-005056a8759d,Bras and Brassieres,Bras_and_Brassieres,Topic
+c5bff190-064f-11e2-8e7c-005056a8759d,Breastfeeding,Breastfeeding,Topic
+bb74738b-a904-11e1-9412-005056900141,British Politics,British_Politics,Topic
+bb82081a-a904-11e1-9412-005056900141,British Royal,British_Royal,Title
+bb73fe5e-a904-11e1-9412-005056900141,Broadcast Journalism,Broadcast_Journalism,Topic
+bb13dd13-a904-11e1-9412-005056900141,Bullying,Bullying,Topic
+51995520-b6d8-11e1-ab28-00505690014d,Bus Driving,Bus_Driving,Topic
+fa1e3b60-3af5-11e2-bcb0-005056a8759d,Business news,Business_news,Topic
+bb73d75e-a904-11e1-9412-005056900141,Business Regulation,Business_Regulation,Topic
+93816740-c202-11e1-939f-005056a8759d,The Bible,The_Bible-Topic,Topic
+03852c30-42d6-11e2-9aac-005056a8759d,Cameras,Cameras,Topic
+c703a150-2606-11e3-b3f1-005056a8759d,Camp Counselor,Camp_Counselor,Topic
+9846bf46-c830-11ea-a97d-95af75ea3b67,Campaign Advertisements,Campaign_Advertisements,Issue
+8a999560-072d-11e2-8e7c-005056a8759d,Campaign Finance Reform,Campaign_Finance_Reform,Issue
+bbdcf95a-a904-11e1-9412-005056900141,Cancer,Cancer,Topic
+be6578f1-a904-11e1-9412-005056900141,Cannabis,Cannabis,Topic
+064667e0-6c7f-11e2-8fef-005056a8759d,Cannabis Law,Cannabis_Law,Topic
+39406420-66f8-11e2-97e1-005056a8759d,Cannabis smoking,Cannabis_smoking,Topic
+89877e70-c458-11e1-beea-005056a8759d,Card games,Card_games,Topic
+1d829000-c9cd-11e1-beea-005056a8759d,Career counseling,Career_counseling,Topic
+ccdbd7d0-5e3a-11e2-812d-005056a8759d,Career development,Career_development,Topic
+f9f86510-6701-11e2-97e1-005056a8759d,Careers,Careers,Topic
+9f69f020-c581-11e3-89b8-005056a8759d,Caregiving,Caregiving,Topic
+ff581800-66ea-11e2-97e1-005056a8759d,Cars,Cars-Topic,Topic
+47d3557b-a9ad-11ea-9778-717482b21447,CBS News / YouGov polls,CBS_News_YouGov_polls,Topic
+dfea5c70-f83c-11e1-8e7c-005056a8759d,CD collecting,CD_collecting,Topic
+bb9f5423-a904-11e1-9412-005056900141,Celebrity Culture,Celebrity_Culture,Topic
+533f21d0-3fd0-11e2-bcb0-005056a8759d,Censorship,Censorship,Topic
+4ef12470-24f5-11e2-8a8a-005056a8759d,Central Intelligence Agency,Central_Intelligence_Agency,Institution
+7100efb0-b929-11e1-8e9d-00505690014d,Charles Schumer,Charles_Schumer,Public Figure
+bbcd68fe-a904-11e1-9412-005056900141,Child Care,Child_Care,Topic
+5b0e5090-0702-11e2-8e7c-005056a8759d,Childhood,Childhood,Topic
+be552770-147f-11e2-8b86-005056a8759d,Children,Children,Topic
+bbdc3612-a904-11e1-9412-005056900141,Children's Literature,Childrens_Literature,Topic
+cb16aea0-b9eb-11e1-94b1-00505690014d,Chris Christie,Chris_Christie,Public Figure
+6f90e4f0-b929-11e1-8e9d-00505690014d,Chuck Grassley,Chuck_Grassley,Public Figure
+35b4d330-5f33-11e2-812d-005056a8759d,Church of Jesus Christ of Latter-Day Saints,Church_of_Jesus_Christ_of_Latter_Day_Saints,Topic
+b2a5e990-ccff-11e1-beea-005056a8759d,Cigars,Cigars,Topic
+fced9070-b3dc-11e1-993a-00505690014d,City Government,City_Government,Topic
+4f0f8710-ccff-11e1-beea-005056a8759d,Civil Rights,Civil_Rights,Topic
+ecdb5b80-4b6f-11e5-9438-005056a8759d,Civil Rights Act of 1964,Civil_Rights_Act_of_1964,Historical Event
+bb13dd1b-a904-11e1-9412-005056900141,Civil War,Civil_War,Topic
+bae293d0-a904-11e1-9412-005056900141,Climate,Climate,Topic
+bcb4bbb5-a904-11e1-9412-005056900141,Coffee,Coffee,Topic
+bb74739b-a904-11e1-9412-005056900141,Collective Behavior and Social Movements,Collective_Behavior_and_Social_Movements,Topic
+2c766eb0-abcd-11e1-90a3-00505690014d,College,College,Topic
+c261fb22-a904-11e1-9412-005056900141,Colonialism,Colonialism,Topic
+49cf41f0-4b73-11e5-9438-005056a8759d,Columbine shootings,Columbine_shootings,Historical Event
+bb79559d-a904-11e1-9412-005056900141,Communities & Local Government,Communities_Local_Government,Topic
+bb736230-a904-11e1-9412-005056900141,Community Health,Community_Health,Topic
+b86938c0-1122-11e2-8d8e-005056a8759d,Companies,Companies,Topic
+bb74258f-a904-11e1-9412-005056900141,Competition/Antitrust Law,Competition_Antitrust_Law,Topic
+04c13d00-c121-11e1-939f-005056a8759d,Composting,Composting,Topic
+bb73b032-a904-11e1-9412-005056900141,Computer Security,Computer_Security,Topic
+b24bbc10-1f87-11e2-8b86-005056a8759d,Computers,Computers,Topic
+26adb4f0-c4f7-11e1-beea-005056a8759d,Computing,Computing,Topic
+e047da60-37e5-11e2-bcb0-005056a8759d,Concert tickets,Concert_tickets,Topic
+b8695fd0-1122-11e2-8d8e-005056a8759d,Confectionery,Confectionery,Topic
+4ac14040-87b7-11e2-9a4b-005056a8759d,Congressional Budget Office,Congressional_Budget_Office,Institution
+8b4c2ea0-493b-11e2-9aac-005056a8759d,Conservation,Conservation,Topic
+bc5c3b90-a904-11e1-9412-005056900141,Conspiracy theories,Conspiracy_theories,Topic
+c244fd4a-a904-11e1-9412-005056900141,Contraception,Contraception,Issue
+bb742591-a904-11e1-9412-005056900141,Contract Law,Contract_Law,Topic
+4c1aec90-c456-11e1-beea-005056a8759d,Copyright,Copyright,Topic
+395c809a-637f-11e8-8687-21314c1431ce,Corporate Regulation,Corporate_Regulation,Issue
+3d431020-56c8-11e3-9e30-005056a8759d,Corporate Tax,Corporate_Tax,Issue
+7f7ca846-4a6d-11ed-8a49-2749c670a5e1,Cost of Living & Inflation,Cost_of_Living_Inflation,Issue
+bb742564-a904-11e1-9412-005056900141,Costume Design,Costume_Design,Topic
+08ebd060-c4f1-11e1-beea-005056a8759d,Counseling,Counseling,Topic
+a1b92cd0-6ef0-11e2-8fef-005056a8759d,Counter-terrorism,Counter_terrorism,Topic
+bb140410-a904-11e1-9412-005056900141,Crime & Policing,Crime_Policing,Topic
+0a563630-1f90-11e2-8b86-005056a8759d,Crime Prevention,Crime_Prevention,Topic
+ccd9d6f0-ec76-11e1-af10-005056a8759d,Criminal Justice,Criminal_Justice,Topic
+ac8149f0-06f3-11e2-8e7c-005056a8759d,Criminals,Criminals,Topic
+bb79077c-a904-11e1-9412-005056900141,Criminology and Criminal Justice,Criminology_and_Criminal_Justice,Topic
+bf0dc6fc-a904-11e1-9412-005056900141,Cruises,Cruises,Topic
+d2c6f9d4-732a-11ee-9a9d-176130db486a,Cryptocurrencies,Cryptocurrencies,Topic
+58d5e450-dbe2-11e1-8a26-005056a8759d,Crystal healing,Crystal_healing,Topic
+d07cba90-883b-11e3-920a-005056a8759d,Cults,Cults-Topic,Topic
+bee30d6e-a904-11e1-9412-005056900141,Culture,Culture,Topic
+bb7536ea-a904-11e1-9412-005056900141,Currency and Foreign Exchange,Currency_and_Foreign_Exchange,Topic
+823e6920-4b07-11e4-9feb-005056a8759d,Current Events,Current_Events,Topic
+ff4bfe50-ca8f-11e1-beea-005056a8759d,Curriculum,Curriculum,Topic
+e24aa6a0-3b03-11e2-bcb0-005056a8759d,Cybersecurity,Cybersecurity,Topic
+1fe6d0e0-06f9-11e2-8e7c-005056a8759d,The Cold War,The_Cold_War,Topic
+bb74c1bd-a904-11e1-9412-005056900141,Dairy Farming,Dairy_Farming,Topic
+bb140419-a904-11e1-9412-005056900141,Dating,Dating,Topic
+08362f80-c6b3-11e1-beea-005056a8759d,Deafness,Deafness,Topic
+c1f0c29e-a904-11e1-9412-005056900141,Death Penalty,Death_Penalty,Issue
+9a191670-e6b5-11e1-af10-005056a8759d,Debt collection,Debt_collection,Topic
+b86ede10-1122-11e2-8d8e-005056a8759d,Decades,Decades,browsing node
+ad9abb00-4b6f-11e5-9438-005056a8759d,Declaration of Independence,Declaration_of_Independence,Historical Event
+f395a220-c687-11e1-beea-005056a8759d,Decriminalization of Marijuana,Decriminalization_of_Marijuana,Topic
+71166cd0-794b-11e3-a1c6-005056a8759d,Delivery Services,Delivery_Services,Topic
+bb744c9c-a904-11e1-9412-005056900141,Democracy,Democracy,Topic
+1879b610-8796-11e2-9a4b-005056a8759d,Democratic National Committee,Democratic_National_Committee,Institution
+bb7b0348-a904-11e1-9412-005056900141,Democratic Party,Democratic_Party,Institution
+efbd0a00-c130-11e1-939f-005056a8759d,Demography,Demography,Topic
+bb733b13-a904-11e1-9412-005056900141,Dentistry,Dentistry,Topic
+350cac50-5f33-11e2-812d-005056a8759d,Department of Energy,Department_of_Energy,Institution
+bb140433-a904-11e1-9412-005056900141,Depression,Depression,Topic
+6e6cfe60-b929-11e1-8e9d-00505690014d,Dianne Feinstein,Dianne_Feinstein,Public Figure
+bb7f973a-a904-11e1-9412-005056900141,Dick Cheney,Dick_Cheney,Public Figure
+be8228c7-a904-11e1-9412-005056900141,Diets,Diets,Topic
+bc6f4e53-a904-11e1-9412-005056900141,Digital Media,Digital_Media,Topic
+bb140426-a904-11e1-9412-005056900141,Dinosaurs,Dinosaurs,Topic
+bb74738d-a904-11e1-9412-005056900141,Diplomacy,Diplomacy-Topic,Topic
+bbb32a51-a904-11e1-9412-005056900141,Disability,Disability,Topic
+694d9d20-f828-11e1-8e7c-005056a8759d,Disability Law,Disability_Law,Topic
+bb14042b-a904-11e1-9412-005056900141,Diseases,Diseases,Topic
+ac2c67b0-aa25-11e3-aa94-005056a8759d,Dishes,Dishes,Topic
+c1d9df36-a904-11e1-9412-005056900141,Divorce,Divorce-Topic,Topic
+556e4e20-dbc8-11e1-8a26-005056a8759d,DNA,DNA-Topic,Topic
+632a0ba0-66e5-11e2-97e1-005056a8759d,Doctors,Doctors,Topic
+bb742565-a904-11e1-9412-005056900141,Documentaries and Documentary-making,Documentaries_and_Documentary_making,Topic
+c21d50f8-a904-11e1-9412-005056900141,Dog breeding,Dog_breeding,Topic
+dd685df0-c522-11e1-beea-005056a8759d,Domestic violence,Domestic_violence,Topic
+bb6b72f6-a904-11e1-9412-005056900141,Donald Trump,Donald_Trump,Public Figure
+cc64b260-3250-11e2-8a8a-005056a8759d,Drag,Drag,Topic
+2e3add10-5abb-11e2-812d-005056a8759d,Dream Interpretation,Dream_Interpretation,Topic
+bc28f691-a904-11e1-9412-005056900141,Driving,Driving,Topic
+f82a5d70-f27c-11e4-bd10-005056a8759d,Drones,Drones,Issue
+bb142b19-a904-11e1-9412-005056900141,Drug Abuse,Drug_Abuse,Topic
+bc043063-a904-11e1-9412-005056900141,Drug Rehabilitation,Drug_Rehabilitation,Topic
+2f62c3b0-c9de-11e1-beea-005056a8759d,Dungeons & Dragons,Dungeons_Dragons-Topic,Topic
+a9ed1c00-fda7-11e1-8e7c-005056a8759d,DVD/Movie Collecting,DVD_Movie_Collecting,Topic
+1930a0d0-3261-11e2-8a8a-005056a8759d,Dysfunctional relationships,Dysfunctional_relationships,Topic
+ac5f2dd0-c832-11ea-8947-7bc7ee38143c,The Daily Show / YouGov,The_Daily_Show_YouGov,Topic
+8508a680-56a7-11e2-9aac-005056a8759d,Early Middle Ages,Early_Middle_Ages,Topic
+a2114b50-1f85-11e2-8b86-005056a8759d,Earth,Earth,Topic
+bca72723-a904-11e1-9412-005056900141,Earthquakes,Earthquakes,Topic
+bb73fe89-a904-11e1-9412-005056900141,Education Policy,Education_Policy,Issue
+47d11220-d4fb-11e2-be1c-005056a8759d,Edward Snowden,Edward_Snowden,Public Figure
+bb142b1d-a904-11e1-9412-005056900141,Elderly care,Elderly_care,Topic
+be426092-a904-11e1-9412-005056900141,Election reform,Election_reform,Topic
+c271d999-a904-11e1-9412-005056900141,Elections,Elections,Topic
+c043d5e9-a904-11e1-9412-005056900141,Electric cars,Electric_cars,Topic
+7dd361a0-5f00-11e2-812d-005056a8759d,Electricity,Electricity,Topic
+bb74e8e2-a904-11e1-9412-005056900141,Electricity Production and Distribution,Electricity_Production_and_Distribution,Topic
+bce875fe-a904-11e1-9412-005056900141,Electronics,Electronics,Topic
+3fcbb920-b3d4-11e1-993a-00505690014d,Elementary Education,Elementary_Education,Topic
+19625200-c4ee-11e1-beea-005056a8759d,Elevator manufacturing,Elevator_manufacturing,Topic
+609fd2cf-638d-11ef-8795-517cd4aa4e3f,Elissa Slotkin,Elissa_Slotkin,Public Figure
+0a66ea80-c0c6-11e1-939f-005056a8759d,Elizabeth Warren,Elizabeth_Warren,Public Figure
+044c5490-66f8-11e2-97e1-005056a8759d,Embarrassment,Embarrassment,Topic
+bb797c98-a904-11e1-9412-005056900141,Emergency Care,Emergency_Care,Topic
+dffc3a50-0730-11e2-8e7c-005056a8759d,Emergency Management,Emergency_Management-Topic,Topic
+b9900890-f1f3-11e6-bb23-5f289599fa0a,Emmanuel Macron,Emmanuel_Macron,Public Figure
+bc1128bb-a904-11e1-9412-005056900141,Employee Relations,Employee_Relations,Topic
+bb790775-a904-11e1-9412-005056900141,Employment and Labour Law,Employment_and_Labour_Law,Topic
+4f014560-f824-11e1-8e7c-005056a8759d,Energy Healing,Energy_Healing,Topic
+9f84ba80-3b04-11e2-bcb0-005056a8759d,Energy policy,Energy_policy,Topic
+bb6dbce2-a904-11e1-9412-005056900141,English Grammar,English_Grammar,Topic
+d327f8e0-fcc3-11e1-8e7c-005056a8759d,Environmental disaster,Environmental_disaster,Topic
+f4032120-24e6-11e2-8a8a-005056a8759d,Environmental Issues,Environmental_Issues,Topic
+43fb0060-b3d3-11e1-993a-00505690014d,Environmental Protection and Conservation,Environmental_Protection_and_Conservation,Topic
+3985854d-c789-11ea-adf1-19e6e59e2551,Eric Adams,Eric_Adams,Public Figure
+bb744c78-a904-11e1-9412-005056900141,Ethics,Ethics-Topic,Topic
+15184c50-9620-11e2-9a4b-005056a8759d,Evangelical Religion,Evangelical_Religion,Topic
+53f375d0-2b71-11e3-b3f1-005056a8759d,Event Planning,Event_Planning,Topic
+5b22a250-bf79-11e1-881b-005056a8759d,Evolution,Evolution-Issue,Issue
+d5a449a0-072e-11e2-8e7c-005056a8759d,Expansionism,Expansionism,Topic
+acb22300-fc34-11e1-8e7c-005056a8759d,Extended Family,Extended_Family,Topic
+054e5fbd-a9ad-11ea-9ea1-97964cefe3ae,The Economist / YouGov polls,The_Economist_YouGov_polls,Topic
+ce8d3850-4b70-11e5-9438-005056a8759d,Fair Housing Act,Fair_Housing_Act,Historical Event
+5a7e2286-17b3-11e7-b082-7946860c2270,Fake news,Fake_news,Issue
+beec5c34-3139-11eb-a0a0-b397615df548,Family & Parenting,Family_Parenting,Issue
+f559edc0-4b70-11e5-9438-005056a8759d,Family and Medical Leave Act,Family_and_Medical_Leave_Act,Historical Event
+d9dfd660-24fc-11e2-8a8a-005056a8759d,Family History,Family_History,Topic
+e85fbed0-d7ef-11e1-8a26-005056a8759d,Family medicine,Family_medicine,Topic
+843b8810-244a-11e2-8a8a-005056a8759d,Family Relations,Family_Relations,Topic
+67d84560-fcc1-11e1-8e7c-005056a8759d,Family Therapy,Family_Therapy,Topic
+2d2bd030-96d6-11e2-9a4b-005056a8759d,Family Traditions,Family_Traditions,Topic
+80380df0-db1c-11e1-8a26-005056a8759d,Fantasy football,Fantasy_football,Topic
+eb5362f0-8720-11e2-9a4b-005056a8759d,Father-son relationships,Father_son_relationships,Topic
+ac7e2810-a6d5-11e2-959a-005056a8759d,Federal Aviation Regulations,Federal_Aviation_Regulations,Topic
+714fe130-8839-11e2-9a4b-005056a8759d,Federal Reserve Police,Federal_Reserve_Police,Institution
+2e2d7b40-878c-11e2-9a4b-005056a8759d,Federal Trade Commission,Federal_Trade_Commission,Institution
+e498acf0-7a8b-11e2-8fef-005056a8759d,Federalism,Federalism,Issue
+bdff3d16-a904-11e1-9412-005056900141,Fertility,Fertility,Topic
+e9625140-e130-11e1-9d69-005056a8759d,Fiction,Fiction-Topic,Topic
+ba7c7ef2-a904-11e1-9412-005056900141,Fiction Books,Fiction_Books,Topic
+35aac110-5f33-11e2-812d-005056a8759d,FIFA,FIFA,Topic
+bb145222-a904-11e1-9412-005056900141,Fighting,Fighting-Topic,Topic
+517aeb20-be40-11e1-9cb6-00505690014d,Financial regulation,Financial_regulation,Topic
+c621c0c0-c06b-11e1-939f-005056a8759d,Firearms,Firearms,Topic
+4f17d990-24e5-11e2-8a8a-005056a8759d,First Amendment,First_Amendment,Topic
+bb7b2a52-a904-11e1-9412-005056900141,First Lady of the United States,First_Lady_of_the_United_States,Title
+bb797cba-a904-11e1-9412-005056900141,Fitness,Fitness,Topic
+4fb77b80-3b0b-11e2-bcb0-005056a8759d,Flower gardening,Flower_gardening,Topic
+0edcfb70-26bb-11e3-b3f1-005056a8759d,Food Allergies,Food_Allergies,Topic
+bb750fe8-a904-11e1-9412-005056900141,Food and Beverage Products,Food_and_Beverage_Products,Topic
+86cef970-b3d6-11e1-993a-00505690014d,Food Preparation and Cooking,Food_Preparation_and_Cooking,Topic
+e7747320-66f7-11e2-97e1-005056a8759d,Foreign affairs,Foreign_affairs,Topic
+15531060-56c8-11e3-9e30-005056a8759d,Foreign Aid,Foreign_Aid,Issue
+bb747390-a904-11e1-9412-005056900141,Foreign Policy and Foreign Relations,Foreign_Policy_and_Foreign_Relations,Topic
+b2bf9c40-dd8b-11e1-9d69-005056a8759d,Forensic DNA analysis,Forensic_DNA_analysis,Topic
+2ed6bdc0-56c8-11e3-9e30-005056a8759d,Fracking,Fracking,Issue
+90145ce0-ca7a-11e1-beea-005056a8759d,Fraternal and Service Organizations,Fraternal_and_Service_Organizations,Topic
+bbfb2fc9-a904-11e1-9412-005056900141,Fuel Sales and Distribution,Fuel_Sales_and_Distribution,Topic
+bb14522f-a904-11e1-9412-005056900141,Funeral services,Funeral_services,Topic
+bb74e8d0-a904-11e1-9412-005056900141,Furniture Manufacturing,Furniture_Manufacturing,Topic
+ba44f433-a904-11e1-9412-005056900141,Games,Games,Topic
+5b4a3d10-c172-11e1-939f-005056a8759d,Gavin Newsom,Gavin_Newsom,Public Figure
+72d558c0-6708-11e2-97e1-005056a8759d,Gay cinema,Gay_cinema,Topic
+bb9f5425-a904-11e1-9412-005056900141,Gay Marriage,Gay_Marriage,Issue
+bbbe26b3-a904-11e1-9412-005056900141,Gay Rights,Gay_Rights,Topic
+3bbddb87-42c5-11ea-ad6c-f58df2eb70ac,Gender,Gender,Topic
+6f672270-3262-11e2-8a8a-005056a8759d,Gender equality,Gender_equality,Topic
+212ac194-683e-11e6-ba16-01ae966df402,Gender inequality,Gender_inequality,Issue
+718c2450-326d-11e2-8a8a-005056a8759d,Gender roles,Gender_roles,Topic
+e7c9d490-e84f-11e1-af10-005056a8759d,Generational differences,Generational_differences,Topic
+653ce160-1799-11e2-8b86-005056a8759d,Genetically Modified Organisms,Genetically_Modified_Organisms,Topic
+bb72ed0b-a904-11e1-9412-005056900141,Genetics,Genetics,Topic
+f48cd8e0-06fd-11e2-8e7c-005056a8759d,Genocide,Genocide,Topic
+bb6d95b4-a904-11e1-9412-005056900141,Geography,Geography,Topic
+bb267aaa-a904-11e1-9412-005056900141,George W. Bush,George_W_Bush,Public Figure
+6af181a0-7ffa-11e2-8fef-005056a8759d,Gifted education,Gifted_education,Topic
+2a50e840-02a7-11e9-a6bb-7196d0cb067d,Gig economy,Gig_economy,Issue
+1df860d0-6650-11e2-97e1-005056a8759d,Global politics,Global_politics,Topic
+51ab5680-b6d8-11e1-ab28-00505690014d,Government Budget Analysis,Government_Budget_Analysis,Topic
+faa7d650-b575-11e1-9b52-00505690014d,Government Prosecution,Government_Prosecution,Topic
+04077930-b9ea-11e1-94b1-00505690014d,Governor,Governor,Title
+c4aef5b0-c2c2-11e1-939f-005056a8759d,Greg Abbott,Greg_Abbott,Public Figure
+e7612542-0599-11ea-a7ee-31603736b29c,Gretchen Whitmer,Gretchen_Whitmer,Public Figure
+bb79a3a0-a904-11e1-9412-005056900141,Guitar,Guitar,Topic
+9986b760-4b5e-11e5-9438-005056a8759d,Gulf War,Gulf_War,Historical Event
+49f7a8d0-be3f-11e1-9cb6-00505690014d,Gun control,Gun_control,Issue
+28e77ef0-f2c3-11e1-af10-005056a8759d,Gun Law,Gun_Law,Topic
+f4fe7590-963b-11e2-9a4b-005056a8759d,Hakeem Jeffries,Hakeem_Jeffries,Public Figure
+81497a70-6ef7-11e2-8fef-005056a8759d,Hate speech,Hate_speech,Topic
+bb750fec-a904-11e1-9412-005056900141,Health and Pharmaceutical Products,Health_and_Pharmaceutical_Products,Topic
+bb753707-a904-11e1-9412-005056900141,Health Insurance,Health_Insurance,Topic
+5a375ba0-be3f-11e1-9cb6-00505690014d,Healthcare,Healthcare,Issue
+bda2ec40-a904-11e1-9412-005056900141,Heart Disease,Heart_Disease,Topic
+bb7f7027-a904-11e1-9412-005056900141,Henry Kissinger,Henry_Kissinger,Public Figure
+be01fc38-a904-11e1-9412-005056900141,Herbs and Herbalism,Herbs_and_Herbalism,Topic
+563f7220-06fc-11e2-8e7c-005056a8759d,High School,High_School,Topic
+a01e1ef0-06fc-11e2-8e7c-005056a8759d,High school education,High_school_education,Topic
+bb73fe8d-a904-11e1-9412-005056900141,Higher Education,Higher_Education,Issue
+bb7f9733-a904-11e1-9412-005056900141,Hillary Clinton,Hillary_Clinton,Public Figure
+923c68e0-b153-11e1-91b8-00505690014d,History of the Civil War and Reconstruction Era,History_of_the_Civil_War_and_Reconstruction_Era,Topic
+bb6d95e6-a904-11e1-9412-005056900141,History of the Middle Ages,History_of_the_Middle_Ages,Topic
+b9c033d2-a904-11e1-9412-005056900141,Hobbies,Hobbies,Topic
+b9c081f1-a904-11e1-9412-005056900141,Holidays,Holidays,Topic
+bb74e8bc-a904-11e1-9412-005056900141,Home Construction,Home_Construction,Topic
+eae89da0-0744-11e2-8e7c-005056a8759d,Home Economics,Home_Economics,Topic
+bca5eeb6-a904-11e1-9412-005056900141,Homeland security,Homeland_security,Topic
+bb14793b-a904-11e1-9412-005056900141,Homelessness,Homelessness,Issue
+01491e70-c1eb-11e1-939f-005056a8759d,Homeschooling,Homeschooling,Topic
+bb14793d-a904-11e1-9412-005056900141,Homosexuality,Homosexuality,Topic
+ae55c770-878a-11e2-9a4b-005056a8759d,Hoover Institution,Hoover_Institution,Institution
+fe866a30-77d8-11e3-a1c6-005056a8759d,Horoscope,Horoscope-Topic,Topic
+61691090-2acb-11e3-b3f1-005056a8759d,Hosting,Hosting,Topic
+bb750fd5-a904-11e1-9412-005056900141,Hotels and Guest House Management,Hotels_and_Guest_House_Management,Topic
+c176b0a3-a904-11e1-9412-005056900141,Housing policy,Housing_policy,Topic
+820858ce-a9ae-11ea-9109-01705199481b,HuffPost / YouGov polls,HuffPost_YouGov_polls,Topic
+bbf71114-a904-11e1-9412-005056900141,Human behavior,Human_behavior,Topic
+abc778a0-d0b5-11e1-beea-005056a8759d,Human body,Human_body,Topic
+52c9d450-3afa-11e2-bcb0-005056a8759d,Humanitarianism,Humanitarianism,Topic
+5557a2e9-535a-11ea-b4c5-d5012d8559f3,Hunter Biden,Hunter_Biden,Public Figure
+efc75beb-ce2a-11eb-a27f-7519e694646e,Hygiene,Hygiene,Issue
+108b80c0-c4a6-11e3-89b8-005056a8759d,The Holocaust,The_Holocaust,Topic
+b391e580-66f5-11e2-97e1-005056a8759d,Illegal drug trade,Illegal_drug_trade,Topic
+5d6036b0-00ea-11e2-8e7c-005056a8759d,Illegal immigration,Illegal_immigration,Issue
+2f1fc210-2445-11e2-8a8a-005056a8759d,Illness,Illness,Topic
+85d7dc40-b718-11e1-ab28-00505690014d,Imagination,Imagination,Topic
+bb147939-a904-11e1-9412-005056900141,Immigration,Immigration,Issue
+bb0229d9-a904-11e1-9412-005056900141,Immigration law,Immigration_law,Topic
+5ce000d0-0103-11e2-8e7c-005056a8759d,Immigration to the United States,Immigration_to_the_United_States,Topic
+c78e4210-fdc1-11e1-8e7c-005056a8759d,In vitro fertilization,In_vitro_fertilization,Topic
+a6df88b0-be3f-11e1-9cb6-00505690014d,Income inequality,Income_inequality,Topic
+372f46e0-56c8-11e3-9e30-005056a8759d,Income Tax,Income_Tax,Issue
+7306d670-c9bf-11e1-beea-005056a8759d,Indigenous peoples,Indigenous_peoples,Topic
+f41171e0-6635-11e2-8c5f-005056a8759d,Inequality,Inequality,Issue
+68d71c50-f822-11e1-8e7c-005056a8759d,Infection control,Infection_control,Topic
+3f09d390-788c-11e3-a1c6-005056a8759d,Infrastructure,Infrastructure,Topic
+38e49f20-76c8-11e2-8fef-005056a8759d,Insects,Insects,Topic
+b9ffadd6-a904-11e1-9412-005056900141,Interior Design,Interior_Design,Topic
+95cf9990-9704-11e2-9a4b-005056a8759d,International news,International_news,Topic
+bb744ca7-a904-11e1-9412-005056900141,International Relations,International_Relations,Topic
+bb73b06b-a904-11e1-9412-005056900141,International Trade,International_Trade,Topic
+70e95e70-0106-11e2-8e7c-005056a8759d,Internet freedom,Internet_freedom,Topic
+bb73fe67-a904-11e1-9412-005056900141,Internet Media,Internet_Media,Topic
+bb14794a-a904-11e1-9412-005056900141,Interracial relationships,Interracial_relationships,Topic
+289a24b0-8720-11e2-9a4b-005056a8759d,Investment,Investment,Topic
+5a54d4c0-3269-11e2-8a8a-005056a8759d,Investment advice,Investment_advice,Topic
+db2019e0-179b-11e2-8b86-005056a8759d,iOS,iOS,Topic
+491a1a80-0703-11e2-8e7c-005056a8759d,Iraq War,Iraq_War,Issue
+95cc03a5-9d94-11ee-bc97-e3ddfd692400,Israel-Palestine Conflict,Israel_Palestine_Conflict,Issue
+1a7e9e40-fae4-11e3-bfad-005056a8759d,Israeli-Palestinian Conflict,Israeli_Palestinian_Conflict,Issue
+4a70eb10-4b71-11e5-9438-005056a8759d,Japanese-American Internment,Japanese_American_Internment,Historical Event
+f4b3350d-1f04-11ef-ac26-6194739fe6ec,JD Vance,JD_Vance,Public Figure
+ea5b1a83-c3ca-11e9-804b-8d27303a2093,Jeffrey Epstein,Jeffrey_Epstein,Public Figure
+bbb15583-a904-11e1-9412-005056900141,Jewelry,Jewelry,Topic
+bf00a792-a904-11e1-9412-005056900141,Jewish History,Jewish_History,Topic
+483c8c50-b952-11e1-8e9d-00505690014d,Jim Jordan,Jim_Jordan,Public Figure
+243adfd0-bae9-11e1-9641-00505690014d,Joe Arpaio,Joe_Arpaio,Public Figure
+bb7f9738-a904-11e1-9412-005056900141,Joe Biden,Joe_Biden,Public Figure
+72564680-b929-11e1-8e9d-00505690014d,Joe Manchin,Joe_Manchin,Public Figure
+71eb4fb0-b929-11e1-8e9d-00505690014d,John Cornyn,John_Cornyn,Public Figure
+100ab800-c4a6-11e3-89b8-005056a8759d,John F. Kennedy Assassination,John_F_Kennedy_Assassination,Historical Event
+4a63fcea-caec-11e9-804b-8d27303a2093,John Fetterman,John_Fetterman,Public Figure
+71c35550-b929-11e1-8e9d-00505690014d,John Thune,John_Thune,Public Figure
+c2718b5e-a904-11e1-9412-005056900141,Joseph Kony,Joseph_Kony,Topic
+f49fd3fa-1f04-11ef-ac26-6194739fe6ec,Josh Shapiro,Josh_Shapiro,Public Figure
+bb88e605-a904-11e1-9412-005056900141,Julian Assange,Julian_Assange,Public Figure
+c9ebe840-cffa-11e1-beea-005056a8759d,Juvenile detention,Juvenile_detention,Topic
+c02dca40-f83f-11e1-8e7c-005056a8759d,Kamala Harris,Kamala_Harris,Public Figure
+f54a10a0-0430-11e3-95fc-005056a8759d,Kari Lake,Kari_Lake,TV Personality
+486c9d00-b952-11e1-8e9d-00505690014d,Kevin McCarthy,Kevin_McCarthy,Public Figure
+86f8fb60-7c23-11e2-8fef-005056a8759d,Kim Jong-un,Kim_Jong_un,Public Figure
+578504b0-6bc9-11e2-a9c1-005056a8759d,Knives,Knives,Topic
+860de060-b718-11e1-ab28-00505690014d,Knowledge,Knowledge,Topic
+44598a60-7a09-11e3-84c2-005056a8759d,Korean War,Korean_War,Historical Event
+4f0107f0-b952-11e1-8e9d-00505690014d,Kristi Noem,Kristi_Noem,Public Figure
+c7e9e410-07dc-11e2-8e7c-005056a8759d,Ku Klux Klan,Ku_Klux_Klan-Topic,Topic
+903cc110-0f05-11e2-8e7c-005056a8759d,Labor relations,Labor_relations,Topic
+38914800-b636-11e1-a3e3-00505690014d,Labor Unions,Labor_Unions,Topic
+bb733b0c-a904-11e1-9412-005056900141,Laboratory Science,Laboratory_Science,Topic
+0cdc73a0-5a6f-11e2-812d-005056a8759d,Land Use Planning,Land_Use_Planning,Topic
+2565b6d0-75cb-11e2-8fef-005056a8759d,Landscaping,Landscaping,Topic
+bb797c95-a904-11e1-9412-005056900141,Law Enforcement,Law_Enforcement,Issue
+9de260c0-96fc-11e2-9a4b-005056a8759d,Lawn Care,Lawn_Care,Topic
+583c6ed0-b4a3-11e1-88b7-00505690014d,Legal,Legal,Professional Area
+c25c079a-a904-11e1-9412-005056900141,Legislation,Legislation,Topic
+00b20f50-fd17-11e1-8e7c-005056a8759d,LGBT history,LGBT_history,Topic
+1179f9ec-f3fe-11e9-945a-757ffe8f386b,LGBT Issues,LGBT_Issues,Topic
+bb792ea2-a904-11e1-9412-005056900141,Libraries and Archives,Libraries_and_Archives,Topic
+8e225dd0-97c3-11e2-9a4b-005056a8759d,Library Services,Library_Services,Topic
+e6f9d6d0-66f5-11e2-97e1-005056a8759d,Lies,Lies,Topic
+185d3080-f853-11e1-8e7c-005056a8759d,Lieutenant Governor,Lieutenant_Governor,Title
+bd2fb823-a904-11e1-9412-005056900141,Lifeguards,Lifeguards,Topic
+bbdd6e9c-a904-11e1-9412-005056900141,Lighting,Lighting,Topic
+71a2fc10-b929-11e1-8e9d-00505690014d,Lindsey Graham,Lindsey_Graham,Public Figure
+6e24aac0-b929-11e1-8e9d-00505690014d,Lisa Murkowski,Lisa_Murkowski,Public Figure
+43e4fb10-c1ef-11e1-939f-005056a8759d,Liz Cheney,Liz_Cheney,Public Figure
+eee11ca0-188a-11e2-8b86-005056a8759d,Local politics,Local_politics,Topic
+a5b0ee26-890d-11ee-9fa6-999f205b1353,Los Angeles Times / YouGov polls,Los_Angeles_Times_YouGov_polls,Topic
+d667fb10-d1b5-11e1-beea-005056a8759d,Lottery,Lottery,Topic
+236ddc10-0f0d-11e2-8e7c-005056a8759d,Mail,Mail,Topic
+4bfdb9a0-f835-11e1-8e7c-005056a8759d,Major Appliances,Major_Appliances,Topic
+bcf01720-a904-11e1-9412-005056900141,Makeup Artistry,Makeup_Artistry,Topic
+b3f2a320-3d74-11e2-bcb0-005056a8759d,Maps,Maps,Topic
+794b9fc0-fccd-11e1-8e7c-005056a8759d,March Madness,March_Madness,Topic
+6ef36c70-b929-11e1-8e9d-00505690014d,Marco Rubio,Marco_Rubio,Public Figure
+1d28f9f0-f5a1-11e1-af10-005056a8759d,Marijuana,Marijuana,Issue
+14567114-fd8d-11ef-9cc2-23cc3d30cd35,Mark Carney,Mark_Carney,Public Figure
+a5a6bd3a-48d0-11ef-8425-29ea78174f53,Mark Kelly,Mark_Kelly,Public Figure
+bb792e85-a904-11e1-9412-005056900141,Marketing Strategy,Marketing_Strategy,Topic
+bb79077a-a904-11e1-9412-005056900141,Marriage Law,Marriage_Law,Topic
+69d4e9f0-3ae1-11e2-bcb0-005056a8759d,Mars Rover,Mars_Rover,Topic
+80cc8dfb-d6fa-11ec-abc3-b184435755ad,Mass shootings in the United States,Mass_shootings_in_the_United_States,Issue
+7526df60-7a24-11e3-84c2-005056a8759d,Matt Gaetz,Matt_Gaetz,Public Figure
+6a474080-24f8-11e2-8a8a-005056a8759d,Meaning of life,Meaning_of_life,Topic
+bb792e7c-a904-11e1-9412-005056900141,Media Planning and Buying,Media_Planning_and_Buying,Topic
+bc5361d5-a904-11e1-9412-005056900141,Media studies,Media_studies,Topic
+2dc0a6f0-6ee6-11e2-8fef-005056a8759d,Medical procedures,Medical_procedures,Topic
+3bd746c0-00de-11e2-8e7c-005056a8759d,Medical Technology,Medical_Technology,Topic
+b2391cd0-be3f-11e1-9cb6-00505690014d,Medicare,Medicare,Topic
+c0176ece-a904-11e1-9412-005056900141,Medication,Medication,Topic
+bb6d95e7-a904-11e1-9412-005056900141,Medieval History,Medieval_History,Topic
+85cc1c70-b718-11e1-ab28-00505690014d,Memory,Memory,Topic
+bd8a5b3e-a904-11e1-9412-005056900141,Mental Health Law,Mental_Health_Law,Topic
+dfb95365-11d7-11ef-9b67-4d937f6599ac,Mike Johnson,Mike_Johnson,Public Figure
+3d70c1a0-b944-11e1-8e9d-00505690014d,Mike Pence,Mike_Pence,Public Figure
+efe323a0-b09d-11e1-a8bb-00505690014d,Military and Defense,Military_and_Defense,Issue
+1b68ffe0-b576-11e1-9b52-00505690014d,Military Combat,Military_Combat,Topic
+be4016cb-a904-11e1-9412-005056900141,Military logistics,Military_logistics,Topic
+2634ff80-c518-11e1-beea-005056a8759d,Military strategy,Military_strategy,Topic
+d0c40a5f-e5e9-11e9-8836-652c8f74ee79,Millennials,Millennials,Issue
+07e28320-56c8-11e3-9e30-005056a8759d,Minimum Wage,Minimum_Wage,Issue
+0f9fa660-072d-11e2-8e7c-005056a8759d,Mining,Mining,Topic
+6fcb55e0-b929-11e1-8e9d-00505690014d,Mitch McConnell,Mitch_McConnell,Public Figure
+bb7fbe3a-a904-11e1-9412-005056900141,Mitt Romney,Mitt_Romney,Public Figure
+bf2d35e9-a904-11e1-9412-005056900141,Mobile and Wireless Telecoms Services,Mobile_and_Wireless_Telecoms_Services,Topic
+e26efff0-35a8-11e3-b3f1-005056a8759d,Models of phone,Models_of_phone,Topic
+beec352e-a904-11e1-9412-005056900141,Monarchy,Monarchy-Topic,Topic
+592621a0-3ae1-11e2-bcb0-005056a8759d,Moon landing,Moon_landing-Topic,Topic
+ed61e940-4b72-11e5-9438-005056a8759d,Moon landing,Moon_landing,Historical Event
+9593e5c0-1f87-11e2-8b86-005056a8759d,Morality,Morality,Topic
+e89b97b0-08b5-11e2-8e7c-005056a8759d,Mortgage Banking,Mortgage_Banking,Topic
+bbdbc0e1-a904-11e1-9412-005056900141,Mortgages Broking,Mortgages_Broking,Topic
+bb14a065-a904-11e1-9412-005056900141,Murder,Murder,Topic
+2b4bda90-0d37-11e2-8e7c-005056a8759d,Mushrooms,Mushrooms,Topic
+bb74257b-a904-11e1-9412-005056900141,Music Performance,Music_Performance,Topic
+e911ea20-c12d-11e1-939f-005056a8759d,Musical instruments,Musical_instruments,Topic
+bb742583-a904-11e1-9412-005056900141,Musical Theatre,Musical_Theatre,Topic
+bb747399-a904-11e1-9412-005056900141,The Middle East,The_Middle_East,Topic
+bb91ba90-66e5-11e2-97e1-005056a8759d,The military,The_military,Topic
+35bfcfb0-5f33-11e2-812d-005056a8759d,NAACP,NAACP,Topic
+bc139cc0-b936-11e1-8e9d-00505690014d,Nancy Pelosi,Nancy_Pelosi,Public Figure
+bb9b3575-a904-11e1-9412-005056900141,Napoleonic Era,Napoleonic_Era,Topic
+27841840-2f7e-11e3-b3f1-005056a8759d,Narendra Modi,Narendra_Modi,Public Figure
+df6ce2d0-86f9-11e2-9a4b-005056a8759d,National Oceanic and Atmospheric Administration,National_Oceanic_and_Atmospheric_Administration,Institution
+bb792ea5-a904-11e1-9412-005056900141,National Parks Service,National_Parks_Service,Institution
+0963d9e0-0d5b-11e2-8e7c-005056a8759d,National Security,National_Security-Topic,Topic
+5a9c69c0-6bbc-11e2-a9c1-005056a8759d,National Security Agency,National_Security_Agency,Institution
+1d06b9f0-e338-11e2-942e-005056a8759d,Native American Civil Rights,Native_American_Civil_Rights,Topic
+bb74e8e0-a904-11e1-9412-005056900141,Natural Gas Refining and Production,Natural_Gas_Refining_and_Production,Topic
+bffe6889-a904-11e1-9412-005056900141,Natural health,Natural_health,Topic
+c16e2680-07b6-11e2-8e7c-005056a8759d,Nature,Nature-Topic,Topic
+38e007b0-da3a-11e1-8a26-005056a8759d,Navigation,Navigation,Topic
+a90e4820-8738-11e2-9a4b-005056a8759d,Nazi Germany,Nazi_Germany,Topic
+4526ae50-0705-11e2-8e7c-005056a8759d,Nazism,Nazism,Topic
+35cf3900-5f33-11e2-812d-005056a8759d,NCAA,NCAA,Topic
+5f057c70-abde-11e1-90a3-00505690014d,NCAA Basketball,NCAA_Basketball,Topic
+5b1e5730-abde-11e1-90a3-00505690014d,NCAA Football,NCAA_Football,Topic
+bb7b9f92-a904-11e1-9412-005056900141,Nelson Mandela,Nelson_Mandela,Public Figure
+2bb56897-a58f-11ef-8383-23ee0821cc01,Neurodiversity,Neurodiversity,Topic
+bb72ed12-a904-11e1-9412-005056900141,Neuroscience,Neuroscience,Topic
+bb733b35-a904-11e1-9412-005056900141,Neurosurgery,Neurosurgery,Topic
+5be036b0-c1ce-11e1-939f-005056a8759d,New Age belief,New_Age_belief,Topic
+b86bd0d0-1122-11e2-8d8e-005056a8759d,Newspapers,Newspapers,Topic
+f38b5650-a5cd-11e2-959a-005056a8759d,Nicolás Maduro,Nicolas_Maduro,Public Figure
+cbacfb30-b9eb-11e1-94b1-00505690014d,Nikki Haley,Nikki_Haley,Public Figure
+69459dd0-e132-11e1-9d69-005056a8759d,Non-fiction,Non_fiction,Topic
+b86bf7e0-1122-11e2-8d8e-005056a8759d,Non-Fiction Books,Non_Fiction_Books,Topic
+51d796a0-b6d8-11e1-ab28-00505690014d,Non-fiction Writing,Non_fiction_Writing,Topic
+d9e7c100-5b33-11e2-812d-005056a8759d,NRA,NRA,Topic
+bc627d19-a904-11e1-9412-005056900141,Nuclear Power,Nuclear_Power,Topic
+5940d610-c202-11e1-939f-005056a8759d,Nuclear weapons,Nuclear_weapons,Topic
+bb72ed13-a904-11e1-9412-005056900141,Nutrition,Nutrition,Topic
+b636d750-be3f-11e1-9cb6-00505690014d,The National Debt,The_National_Debt,Topic
+201eb770-66f9-11e2-97e1-005056a8759d,The near future,The_near_future,Topic
+bbde58ff-a904-11e1-9412-005056900141,Obesity,Obesity,Topic
+bb731419-a904-11e1-9412-005056900141,Observational Astronomy,Observational_Astronomy,Topic
+ed662991-d009-11ea-bfba-791c12d16c40,Ocean Conservancy,Ocean_Conservancy,Not-for-profit
+13e4c890-b3c7-11e1-993a-00505690014d,Office Management,Office_Management,Topic
+0b34aeb0-cf54-11e1-beea-005056a8759d,Oil Refining,Oil_Refining,Topic
+b8807010-1fba-11e3-b3f1-005056a8759d,Online Dating,Online_Dating,Topic
+0d2bffc0-09c9-11e2-8e7c-005056a8759d,Online education,Online_education,Topic
+bb73621a-a904-11e1-9412-005056900141,Optometry,Optometry,Topic
+39fba150-d858-11e2-be1c-005056a8759d,Organ donation,Organ_donation,Topic
+764c2710-cf49-11e1-beea-005056a8759d,Organic food,Organic_food,Topic
+de98a0d0-d0b8-11e1-beea-005056a8759d,Organic gardening,Organic_gardening,Topic
+bb733b1a-a904-11e1-9412-005056900141,Orthodontics,Orthodontics,Topic
+eb127910-6705-11e2-97e1-005056a8759d,Outdoors,Outdoors,Topic
+e95836a3-0f68-11eb-b57e-a1a5e93d1443,Outer Space,Outer_Space,Issue
+cee1cbc0-7f7d-11e2-8fef-005056a8759d,Panama Canal,Panama_Canal,Topic
+c2348263-a904-11e1-9412-005056900141,Patience,Patience,Topic
+0acff190-14f1-11e2-8b86-005056a8759d,Patrick Kennedy,Patrick_Kennedy,Public Figure
+4d786c20-b952-11e1-8e9d-00505690014d,Paul Gosar,Paul_Gosar,Public Figure
+3c0ec0a0-b944-11e1-8e9d-00505690014d,Paul Ryan,Paul_Ryan,Public Figure
+11828af0-c4a6-11e3-89b8-005056a8759d,Pearl Harbor,Pearl_Harbor,Historical Event
+112e8490-06fd-11e2-8e7c-005056a8759d,People,People-Topic,Topic
+b8620cd0-1122-11e2-8d8e-005056a8759d,People and Celebrities,People_and_Celebrities,Topic
+bfa6ab8a-a904-11e1-9412-005056900141,Performance Evaluation,Performance_Evaluation,Topic
+bb736247-a904-11e1-9412-005056900141,Personality Psychology,Personality_Psychology,Topic
+bd765e01-a904-11e1-9412-005056900141,Pest control,Pest_control,Topic
+1ca306d0-37e9-11e2-bcb0-005056a8759d,Pesticides,Pesticides,Topic
+77387400-068d-11e2-8e7c-005056a8759d,PETA,PETA,Topic
+9eadc5ba-467f-11e9-9562-cd57a898ae9f,Pete Buttigieg,Pete_Buttigieg,Public Figure
+517c3baf-b2dc-11ef-b965-6973764f9303,Pete Hegseth,Pete_Hegseth,Public Figure
+bfa720b3-a904-11e1-9412-005056900141,Pets,Pets,Topic
+b921c940-0730-11e2-8e7c-005056a8759d,Pharmaceutical sales,Pharmaceutical_sales,Topic
+bb73622e-a904-11e1-9412-005056900141,Physical Health and Fitness,Physical_Health_and_Fitness,Topic
+bb79a3a2-a904-11e1-9412-005056900141,Piano,Piano,Topic
+02dd6a40-1f86-11e2-8b86-005056a8759d,Planets,Planets-Topic,Topic
+6e7ac4e0-874c-11e2-9a4b-005056a8759d,Planned Parenthood,Planned_Parenthood,Institution
+bbb3515e-a904-11e1-9412-005056900141,Plants,Plants,Topic
+bb733b3a-a904-11e1-9412-005056900141,Plastic Surgery,Plastic_Surgery,Topic
+2cc5b980-4585-11e4-8a09-005056a8759d,Police Brutality,Police_Brutality,Issue
+bb742584-a904-11e1-9412-005056900141,Police corruption,Police_corruption,Topic
+00bf65a0-0f06-11e2-8e7c-005056a8759d,Police studies,Police_studies,Topic
+403827bc-76f1-11eb-bcf8-2de7d1dc9a7f,Policing,Policing,Issue
+bb79559a-a904-11e1-9412-005056900141,Political activism,Political_activism,Topic
+bb790789-a904-11e1-9412-005056900141,Political Journalism,Political_Journalism,Topic
+bb7adc40-a904-11e1-9412-005056900141,Political Parties,Political_Parties,Topic
+94bcf1d0-8681-11e2-9a4b-005056a8759d,Politicians,Politicians,Topic
+8b7b1330-616b-11e2-812d-005056a8759d,Politics of Aging,Politics_of_Aging,Topic
+4edeb5b0-c05f-11e1-8cfe-005056900141,Pollution,Pollution,Topic
+cfda7c80-09b1-11e2-8e7c-005056a8759d,Polyamory,Polyamory,Topic
+bc6ed91c-a904-11e1-9412-005056900141,Pop Culture,Pop_Culture,Topic
+06b30020-664f-11e2-97e1-005056a8759d,Population control,Population_control,Topic
+bbb52612-a904-11e1-9412-005056900141,Pornography,Pornography,Topic
+e1ab4ba0-0f0c-11e2-8e7c-005056a8759d,Postage stamps,Postage_stamps,Topic
+0653c2d0-c1f0-11e1-939f-005056a8759d,Prayer,Prayer,Topic
+11259ac0-02a6-11e2-8e7c-005056a8759d,Pregnancy,Pregnancy,Topic
+87df7a40-bb85-11e1-9617-00505690014d,President of Iran,President_of_Iran,Title
+bb7b515c-a904-11e1-9412-005056900141,President of the United States,President_of_the_United_States,Title
+877ebca0-bb85-11e1-9617-00505690014d,Prime Minister of Canada,Prime_Minister_of_Canada,Title
+bb820823-a904-11e1-9412-005056900141,"Prince Philip, Duke of Edinburgh",Prince_Philip_Duke_of_Edinburgh,Public Figure
+bb822f22-a904-11e1-9412-005056900141,Princess Diana,Princess_Diana,Public Figure
+bb73fe6d-a904-11e1-9412-005056900141,Print Media,Print_Media,Topic
+c3089b33-a904-11e1-9412-005056900141,Prison,Prison,Issue
+a7cef9f0-7798-11e2-8fef-005056a8759d,Prison reform,Prison_reform,Topic
+435a5050-24e1-11e2-8a8a-005056a8759d,Privacy,Privacy,Issue
+bc5c1474-a904-11e1-9412-005056900141,Private Schools,Private_Schools,Topic
+ad8089b0-cf49-11e1-beea-005056a8759d,Produce,Produce,Topic
+c967ac30-fc30-11e1-8e7c-005056a8759d,Propaganda,Propaganda-Topic,Topic
+bb750ffc-a904-11e1-9412-005056900141,Property Development,Property_Development,Topic
+77fee680-9c65-11e2-9a4b-005056a8759d,Property maintenance,Property_maintenance,Topic
+cea9e350-e855-11e1-af10-005056a8759d,Prostitution,Prostitution,Topic
+bc62f248-a904-11e1-9412-005056900141,Psychiatry,Psychiatry,Topic
+4e4cf600-cf52-11e1-beea-005056a8759d,Public education,Public_education,Topic
+b86e41d0-1122-11e2-8d8e-005056a8759d,Public Figures,Public_Figures,Topic
+bb795587-a904-11e1-9412-005056900141,Public Opinion Polling,Public_Opinion_Polling,Topic
+bb744caf-a904-11e1-9412-005056900141,Public Policy,Public_Policy,Topic
+428bf740-24f6-11e2-8a8a-005056a8759d,Public Safety,Public_Safety,Topic
+bb750fc8-a904-11e1-9412-005056900141,Public Transportation Operations,Public_Transportation_Operations,Topic
+be8a5760-be3f-11e1-9cb6-00505690014d,The Prison System,The_Prison_System,Topic
+bb731413-a904-11e1-9412-005056900141,Quantum Physics,Quantum_Physics,Topic
+6d9cd2a0-01a2-11e2-8e7c-005056a8759d,Race and ethnicity in the United States,Race_and_ethnicity_in_the_United_States,Topic
+cbe0a780-1f87-11e2-8b86-005056a8759d,Race relations,Race_relations,Topic
+bb0277d7-a904-11e1-9412-005056900141,Racism,Racism,Issue
+2c939f20-b3da-11e1-993a-00505690014d,Rail Services,Rail_Services,Topic
+bd04fea8-a904-11e1-9412-005056900141,Railroads,Railroads,Topic
+75a5f86a-bfb1-11eb-a339-4186f803948b,Raphael Warnock,Raphael_Warnock,Public Figure
+bb750ff9-a904-11e1-9412-005056900141,Real Estate Appraisal,Real_Estate_Appraisal,Topic
+bb751002-a904-11e1-9412-005056900141,Real Estate Brokerage,Real_Estate_Brokerage,Topic
+bb750fff-a904-11e1-9412-005056900141,Real Estate Investment,Real_Estate_Investment,Topic
+392d4470-b3c6-11e1-993a-00505690014d,Real Estate Leasing and Acquisition,Real_Estate_Leasing_and_Acquisition,Topic
+bb750ffe-a904-11e1-9412-005056900141,Real Estate Marketing,Real_Estate_Marketing,Topic
+bb750ffa-a904-11e1-9412-005056900141,Real Estate Sales,Real_Estate_Sales,Topic
+e6cefdb0-9702-11e2-9a4b-005056a8759d,Reality TV,Reality_TV,Topic
+307fee00-4083-11e2-bcb0-005056a8759d,Recep Tayyip Erdoğan,Recep_Tayyip_Erdogan,Public Figure
+be1cb027-a904-11e1-9412-005056900141,Recipes,Recipes,Topic
+8fba5c80-c689-11e1-beea-005056a8759d,Recreation,Recreation,Topic
+bbf75f39-a904-11e1-9412-005056900141,Recycling,Recycling,Topic
+bfaf1004-a904-11e1-9412-005056900141,Refugee Law,Refugee_Law,Topic
+6cdfdd40-a840-11e2-959a-005056a8759d,Refugees,Refugees,Topic
+bb744c71-a904-11e1-9412-005056900141,Regulation,Regulation,Topic
+bb14ee62-a904-11e1-9412-005056900141,Relationships,Relationships,Topic
+948ead50-9c63-11e2-9a4b-005056a8759d,Relaxation techniques,Relaxation_techniques,Topic
+bc10daa6-a904-11e1-9412-005056900141,Religion,Religion,Topic
+bd67df29-a904-11e1-9412-005056900141,Renewable Energy,Renewable_Energy,Topic
+02cd0150-8796-11e2-9a4b-005056a8759d,Republican National Committee,Republican_National_Committee,Institution
+bb7b0353-a904-11e1-9412-005056900141,Republican Party,Republican_Party,Institution
+bb750fd7-a904-11e1-9412-005056900141,Restaurants and Eatery Management,Restaurants_and_Eatery_Management,Topic
+bbbe26b0-a904-11e1-9412-005056900141,Retail Buying,Retail_Buying,Topic
+e2e74590-b3dc-11e1-993a-00505690014d,Retail Customer Service,Retail_Customer_Service,Topic
+b0c2afd0-b6f4-11e1-ab28-00505690014d,Retail Management,Retail_Management,Topic
+bb73d775-a904-11e1-9412-005056900141,Retailing,Retailing,Topic
+6e471ff0-c9c9-11e1-beea-005056a8759d,Road trips,Road_trips,Topic
+ad41f990-ce16-11e1-beea-005056a8759d,"Robert F. Kennedy, Jr.",Robert_F_Kennedy_Jr,Public Figure
+bb14ee70-a904-11e1-9412-005056900141,Robots,Robots-Topic,Topic
+3207b540-c078-11e1-939f-005056a8759d,Rodeo,Rodeo,Topic
+9ccf30d0-3e0c-11e2-bcb0-005056a8759d,Roman Catholic Church,Roman_Catholic_Church,Topic
+7552d9f0-4bd8-11e3-8d05-005056a8759d,Ron DeSantis,Ron_DeSantis,Public Figure
+c1ab3880-c673-11e4-b8ee-005056a8759d,Ruben Gallego,Ruben_Gallego,Public Figure
+72186e00-66df-11e2-97e1-005056a8759d,Rural life,Rural_life,Topic
+bb7fbe3b-a904-11e1-9412-005056900141,Sarah Palin,Sarah_Palin,Public Figure
+91dff9c0-0702-11e2-8e7c-005056a8759d,School,School,Topic
+bd2b9961-a904-11e1-9412-005056900141,Science Fiction,Science_Fiction,Topic
+c057f000-3b05-11e2-bcb0-005056a8759d,Scientific Research,Scientific_Research,Topic
+bb6dbceb-a904-11e1-9412-005056900141,Screenwriting,Screenwriting,Topic
+bc045770-a904-11e1-9412-005056900141,Search Engine Optimization,Search_Engine_Optimization,Topic
+639988b8-0f62-11eb-9dd3-4d8efd613521,"Seasons (Spring, Summer, Autumn, Winter)",Seasons_Spring_Summer_Autumn_Winter,Issue
+0d25bde0-c45f-11e1-beea-005056a8759d,Second Amendment,Second_Amendment,Topic
+c57a1e70-b3db-11e1-993a-00505690014d,Security Intelligence & Analysis,Security_Intelligence_Analysis,Topic
+886de760-9188-11e2-9a4b-005056a8759d,Self-confidence,Self_confidence,Topic
+c26a1171-a904-11e1-9412-005056900141,Self-esteem,Self_esteem,Topic
+bb14ee84-a904-11e1-9412-005056900141,Sexism,Sexism,Issue
+c1ab2e56-a904-11e1-9412-005056900141,Sexual abuse,Sexual_abuse,Topic
+76461fcb-5bb4-11eb-9ff9-0939558d77f8,Sexual assault & Sexual harrassment,Sexual_assault_Sexual_harrassment,Issue
+bcefa1d1-a904-11e1-9412-005056900141,Sexuality and gender,Sexuality_and_gender,Topic
+7cbe4580-f8e1-11e1-8e7c-005056a8759d,Shark Attack,Shark_Attack,Topic
+decdf200-4b6f-11e5-9438-005056a8759d,Sherman Anti-trust Act,Sherman_Anti_trust_Act,Historical Event
+ef59cf30-0d3e-11e2-8e7c-005056a8759d,Shipping,Shipping,Topic
+9d3c87d0-2411-11e2-8a8a-005056a8759d,Shortwave listening,Shortwave_listening,Topic
+6c136aa0-6707-11e2-97e1-005056a8759d,Single life,Single_life,Topic
+6980ce88-dd3f-11ec-9592-edbe0cc5a2e4,Sleep,Sleep,Topic
+841b3620-ab52-11e2-959a-005056a8759d,Smoking meat,Smoking_meat,Topic
+bb7955b7-a904-11e1-9412-005056900141,Social Care Services,Social_Care_Services,Topic
+18f13590-0669-11e2-8e7c-005056a8759d,Social change,Social_change,Topic
+b687cff0-24e9-11e2-8a8a-005056a8759d,Social Interaction,Social_Interaction,Topic
+92fde320-ca21-11e2-959a-005056a8759d,Social mobility,Social_mobility,Topic
+bb7473ab-a904-11e1-9412-005056900141,Social Networks,Social_Networks,Topic
+bb73624b-a904-11e1-9412-005056900141,Social Psychology,Social_Psychology,Topic
+bb749a92-a904-11e1-9412-005056900141,Social Security,Social_Security,Issue
+f1d9ca30-1f90-11e2-8b86-005056a8759d,Social status,Social_status,Topic
+bb744cb1-a904-11e1-9412-005056900141,Socialism,Socialism,Issue
+bb7473b2-a904-11e1-9412-005056900141,Sociology of Gender,Sociology_of_Gender,Topic
+8065b510-c45c-11e1-beea-005056a8759d,Software,Software,Topic
+bf2c246a-a904-11e1-9412-005056900141,Space exploration,Space_exploration,Topic
+897fa9f0-2305-11e2-8b86-005056a8759d,Spelling,Spelling,Topic
+bc21a377-a904-11e1-9412-005056900141,Spiritualism,Spiritualism,Topic
+84b5d338-c8e3-11e8-8e97-116fc86b01d6,Stacey Abrams,Stacey_Abrams,Public Figure
+61c73730-ca6c-11e1-beea-005056a8759d,Stars,Stars,Topic
+fd1033a0-b3dc-11e1-993a-00505690014d,State Government,State_Government,Topic
+bb6d95c4-a904-11e1-9412-005056900141,Statistics,Statistics,Topic
+4980cc20-b952-11e1-8e9d-00505690014d,Steve Scalise,Steve_Scalise,Public Figure
+b8c64a10-efec-11e3-9a2e-005056a8759d,Stimulus Spending,Stimulus_Spending,Issue
+334c2d60-0d3e-11e2-8e7c-005056a8759d,Stock Markets,Stock_Markets,Topic
+d8a44960-7c9a-11e3-a4d4-005056a8759d,Student Debt,Student_Debt,Topic
+bf4c2fa0-a904-11e1-9412-005056900141,Submarines,Submarines,Topic
+bb15157a-a904-11e1-9412-005056900141,Suicide,Suicide-Topic,Topic
+be2318cf-a904-11e1-9412-005056900141,Supermarkets,Supermarkets,Topic
+39a398b0-8737-11e2-9a4b-005056a8759d,Supernatural Horror,Supernatural_Horror,Topic
+822e1f20-c503-11e1-beea-005056a8759d,Supply chain management,Supply_chain_management,Topic
+67075900-5ab6-11e4-80f9-005056a8759d,Supreme Leader of Iran,Supreme_Leader_of_Iran,Title
+bbfbf303-a904-11e1-9412-005056900141,Surveys,Surveys,Topic
+6ffcc620-b929-11e1-8e9d-00505690014d,Susan Collins,Susan_Collins,Public Figure
+6a680f00-c4fd-11e1-beea-005056a8759d,Sweepstakes,Sweepstakes,Topic
+c49c9980-c45f-11e1-beea-005056a8759d,Swimming pools,Swimming_pools,Topic
+d1820f19-02ad-11e9-a6bb-7196d0cb067d,Takeaways & Delivery,Takeaways_Delivery,Issue
+3b8ac390-b944-11e1-8e9d-00505690014d,Tammy Baldwin,Tammy_Baldwin,Public Figure
+bda25014-a904-11e1-9412-005056900141,Tattoos,Tattoos,Topic
+bb9f5424-a904-11e1-9412-005056900141,Tax,Tax,Topic
+bb790774-a904-11e1-9412-005056900141,Tax Law,Tax_Law,Topic
+c555d4f0-f834-11e1-8e7c-005056a8759d,Tax preparation,Tax_preparation,Topic
+bb73d756-a904-11e1-9412-005056900141,Taxation and Tax Policy,Taxation_and_Tax_Policy,Topic
+8196a150-3e29-11e2-bcb0-005056a8759d,Taxes,Taxes,Topic
+bce7b29e-a904-11e1-9412-005056900141,Teaching,Teaching,Topic
+44e9c560-c085-11e1-939f-005056a8759d,Ted Cruz,Ted_Cruz,Public Figure
+2dbb5c90-66df-11e2-97e1-005056a8759d,Teenage life,Teenage_life,Topic
+bb742570-a904-11e1-9412-005056900141,Television Drama and Comedy,Television_Drama_and_Comedy,Topic
+bb73fe72-a904-11e1-9412-005056900141,Television Media,Television_Media,Topic
+bb79077f-a904-11e1-9412-005056900141,Television Programming,Television_Programming,Topic
+b1a8c430-dcbe-11e1-9d69-005056a8759d,Term limits in the United States,Term_limits_in_the_United_States,Topic
+bb151588-a904-11e1-9412-005056900141,Terrorism,Terrorism,Issue
+bb74e8ce-a904-11e1-9412-005056900141,Textiles and Clothes Manufacturing,Textiles_and_Clothes_Manufacturing,Topic
+bb750fe9-a904-11e1-9412-005056900141,Textiles and Clothing Products,Textiles_and_Clothing_Products,Topic
+c3bcc01d-4326-11ef-88e8-3ba216102649,The Times Poll,The_Times_Poll,Topic
+45b92f50-83aa-11e3-a265-005056a8759d,Theocracy,Theocracy,Topic
+beeecd33-a904-11e1-9412-005056900141,Therapy,Therapy,Topic
+500de410-b952-11e1-8e9d-00505690014d,Tim Scott,Tim_Scott,Public Figure
+48e9e350-b952-11e1-8e9d-00505690014d,Tim Walz,Tim_Walz,Public Figure
+6f81cd60-c9ca-11e1-beea-005056a8759d,Tobacco pipes,Tobacco_pipes,Topic
+bba96631-a904-11e1-9412-005056900141,Trains,Trains-Topic,Topic
+4be40e90-c9bb-11e1-beea-005056a8759d,Transgender rights,Transgender_rights,Topic
+532505b0-56c8-11e3-9e30-005056a8759d,Transport,Transport,Issue
+bb750fd2-a904-11e1-9412-005056900141,Travel and Tourism,Travel_and_Tourism,Topic
+ae0b2560-3fb6-11e2-bcb0-005056a8759d,True crime,True_crime,Topic
+496d6af0-1e0a-11e2-8b86-005056a8759d,Tulsi Gabbard,Tulsi_Gabbard,Public Figure
+1609b880-b3d4-11e1-993a-00505690014d,U.S. Army,U_S_Army,Institution
+d49e64c0-8706-11e2-9a4b-005056a8759d,U.S. Bureau of Labor Statistics,U_S_Bureau_of_Labor_Statistics,Institution
+af77a220-24e5-11e2-8a8a-005056a8759d,U.S. Congress,U_S_Congress,Topic
+12c97540-c525-11e1-beea-005056a8759d,U.S. Constitution,U_S_Constitution,Topic
+85d66d40-87bc-11e2-9a4b-005056a8759d,U.S. Equal Employment Opportunity Commission,U_S_Equal_Employment_Opportunity_Commission,Institution
+35f8e110-5f33-11e2-812d-005056a8759d,U.S. House of Representatives,U_S_House_of_Representatives,Institution
+9e2d9e10-86f7-11e2-9a4b-005056a8759d,U.S. Immigration and Customs Enforcement,U_S_Immigration_and_Customs_Enforcement,Institution
+f5351620-87ba-11e2-9a4b-005056a8759d,U.S. Intelligence Community,U_S_Intelligence_Community,Institution
+162556d0-b3d4-11e1-993a-00505690014d,U.S. Marine Corps,U_S_Marine_Corps,Institution
+16132e60-b3d4-11e1-993a-00505690014d,U.S. Navy,U_S_Navy,Institution
+3603b680-5f33-11e2-812d-005056a8759d,U.S. Senate,U_S_Senate,Institution
+85efaed0-5f31-11e2-812d-005056a8759d,U.S. Supreme Court,U_S_Supreme_Court,Institution
+db6ae35e-9d94-11ee-84a7-adce7c9145d6,Ukraine - Russia War,Ukraine_Russia_War,Issue
+6ca683d0-f772-11e1-8e7c-005056a8759d,Underwear,Underwear,Topic
+bb7955a1-a904-11e1-9412-005056900141,Unions,Unions,Issue
+36151ba0-5f33-11e2-812d-005056a8759d,United Auto Workers,United_Auto_Workers,Institution
+30d022c0-8701-11e2-9a4b-005056a8759d,United States Border Patrol,United_States_Border_Patrol,Institution
+9ebf5c40-300f-11e2-8a8a-005056a8759d,United States Census,United_States_Census,Topic
+85d24690-76fd-11e2-8fef-005056a8759d,United States Census Bureau,United_States_Census_Bureau,Institution
+f61fa100-5906-11e2-9aac-005056a8759d,United States legal system,United_States_legal_system,Topic
+b0daa4a0-b6f4-11e1-ab28-00505690014d,United States National Guard,United_States_National_Guard,Topic
+b7065050-86f5-11e2-9a4b-005056a8759d,United States Secret Service,United_States_Secret_Service,Institution
+bbfb7dd6-a904-11e1-9412-005056900141,Universities and Colleges,Universities_and_Colleges,Topic
+bb750fdc-a904-11e1-9412-005056900141,University Education,University_Education,Topic
+bb6e0b09-a904-11e1-9412-005056900141,Urban Planning and Design,Urban_Planning_and_Design,Topic
+466bcd80-be40-11e1-9cb6-00505690014d,US foreign policy,US_foreign_policy,Topic
+bc2266cc-a904-11e1-9412-005056900141,Veganism,Veganism,Topic
+e8a2d4c0-ee08-11e1-af10-005056a8759d,Vegetable Gardening,Vegetable_Gardening,Topic
+149f6110-aa28-11e3-aa94-005056a8759d,Vegetarian Cuisine,Vegetarian_Cuisine,Topic
+bc5c1473-a904-11e1-9412-005056900141,Vegetarianism,Vegetarianism,Topic
+1a677ad0-ca71-11e1-beea-005056a8759d,Veterans Affairs,Veterans_Affairs,Topic
+95dfd6b0-9c69-11e2-9a4b-005056a8759d,Veterans and Homelessness,Veterans_and_Homelessness,Topic
+47f881a0-ca6d-11e1-beea-005056a8759d,Vietnam veterans,Vietnam_veterans,Topic
+31cdaaa0-3254-11e2-8a8a-005056a8759d,Vietnam War,Vietnam_War,Historical Event
+15d555d0-c185-11e2-959a-005056a8759d,Virtualization,Virtualization,Topic
+2f70883b-1cbb-11ee-9913-812e6a1ae28a,Vivek Ramaswamy,Vivek_Ramaswamy,Public Figure
+bb7b9f90-a904-11e1-9412-005056900141,Vladimir Putin,Vladimir_Putin,Public Figure
+bea039f4-9a2d-11ec-9686-5bc4f7b14930,Volodymyr Zelenskyy,Volodymyr_Zelenskyy,Public Figure
+56dc8f70-56c8-11e3-9e30-005056a8759d,Voter Law,Voter_Law,Issue
+0b504e40-f82b-11e1-8e7c-005056a8759d,Voter Registration,Voter_Registration,Topic
+406a4160-eaae-11e1-af10-005056a8759d,Voting,Voting,Topic
+c032c040-4b70-11e5-9438-005056a8759d,Voting Rights Act,Voting_Rights_Act,Historical Event
+85f86160-5f31-11e2-812d-005056a8759d,The White House,The_White_House,Institution
+bb153c94-a904-11e1-9412-005056900141,War & Military,War_Military,Topic
+bbde58f3-a904-11e1-9412-005056900141,War in Afghanistan,War_in_Afghanistan,Issue
+1c524e70-b576-11e1-9b52-00505690014d,War Journalism,War_Journalism,Topic
+d113fbaa-07fd-11eb-b982-690f8453bb00,Washington Examiner / YouGov polls,Washington_Examiner_YouGov_polls,Topic
+bb73b048-a904-11e1-9412-005056900141,Waste Management,Waste_Management,Topic
+1da64bc0-fdae-11e1-8e7c-005056a8759d,Water,Water,Topic
+69268080-6bc0-11e2-a9c1-005056a8759d,Weapons,Weapons,Topic
+4596b480-6708-11e2-97e1-005056a8759d,Weather disasters,Weather_disasters,Topic
+fe35a570-5e41-11e2-812d-005056a8759d,Wedding planning,Wedding_planning,Topic
+bb6d47ad-a904-11e1-9412-005056900141,Weddings,Weddings,Topic
+bd035111-a904-11e1-9412-005056900141,Weight loss,Weight_loss,Topic
+331810f0-56c8-11e3-9e30-005056a8759d,Welfare,Welfare,Issue
+bc020d8a-a904-11e1-9412-005056900141,Wildlife conservation,Wildlife_conservation,Topic
+bbf71119-a904-11e1-9412-005056900141,Wine,Wine,Topic
+68c2bb30-ed04-11e1-af10-005056a8759d,Women,Women-Topic,Topic
+bd6742dc-a904-11e1-9412-005056900141,Women's Health,Womens_Health-Topic,Topic
+bbde58fc-a904-11e1-9412-005056900141,Women's rights,Womens_rights,Topic
+67c191e0-4b64-11e5-9438-005056a8759d,Women's suffrage,Womens_suffrage,Historical Event
+36421710-3fce-11e2-bcb0-005056a8759d,Words,Words,Topic
+1ce72450-df64-11e2-be1c-005056a8759d,Workers' compensation,Workers_compensation,Topic
+b9d76170-96ea-11e2-9a4b-005056a8759d,Workforce Planning,Workforce_Planning,Topic
+bae293cc-a904-11e1-9412-005056900141,World News,World_News,Topic
+bb6dbcdb-a904-11e1-9412-005056900141,World War I,World_War_I,Historical Event
+bb6dbcdd-a904-11e1-9412-005056900141,World War II,World_War_II,Historical Event
+b7255480-67fd-11e2-94b7-005056a8759d,Xi Jinping,Xi_Jinping,Public Figure
+cde42a10-a9ad-11ea-9ea1-97964cefe3ae,Yahoo News / YouGov polls,Yahoo_News_YouGov_polls,Topic
+e4d768aa-cf31-11e9-804b-8d27303a2093,YouGov's Curiosity,YouGovs_Curiosity,Issue
+da7e4c20-cb5e-11e1-beea-005056a8759d,Youth development,Youth_development,Topic
+7cc4516d-5648-11f0-a85d-b3763ad4cba9,Zohran Mamdani,Zohran_Mamdani,Public Figure
+448496f0-ca75-11e1-beea-005056a8759d,Zoning,Zoning,Topic

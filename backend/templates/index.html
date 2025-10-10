@@ -1,36 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Reddit Post Ranking</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .post { margin-bottom: 40px; }
-    .post img { max-width: 600px; display: block; margin-bottom: 10px; }
-    .slider-label { display: inline-block; width: 50px; }
-  </style>
+  <title>Guess the Poll</title>
 </head>
 <body>
-  <h1>Rank Reddit Posts</h1>
-  <form method="POST" action="{{ url_for('submit') }}">
-    {% for post in posts %}
-      <div class="post">
-        <h3>{{ post.title }}</h3>
-        {% if post.image_url %}
-          <img src="{{ post.image_url }}" alt="Post image">
-        {% endif %}
-        {% if post.selftext %}
-          <p>{{ post.selftext }}</p>
-        {% endif %}
-
-        <div>
-          <span class="slider-label">-50</span>
-          <input type="range" name="score_{{ loop.index0 }}" min="-50" max="50" value="0" step="1">
-          <span class="slider-label">50</span>
-        </div>
-      </div>
-    {% endfor %}
-    <button type="submit">Submit Scores</button>
-  </form>
+<h1>Guess the % of Democrats and Republicans who support the tweet</h1>
+<form method="POST" action="{{ url_for('results') }}">
+  {% for i, tweet in enumerate(tweets) %}
+    <div>
+      <p>{{ tweet.text }}</p>
+      {% if tweet.media_url %}
+        <img src="{{ tweet.media_url }}" width="300">
+      {% endif %}
+      <label>Democrats %:</label>
+      <input type="number" name="dem_{{ i }}" step="0.1" min="0" max="100">
+      <label>Republicans %:</label>
+      <input type="number" name="rep_{{ i }}" step="0.1" min="0" max="100">
+    </div>
+    <hr>
+  {% endfor %}
+  <button type="submit">Submit guesses</button>
+</form>
 </body>
 </html>
