@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phone Auth Test</title>
+  </head>
+  <body>
+    <!-- Phone input -->
+    <input type="text" id="phone-number" placeholder="+15555550100" />
+    <button id="sign-in-button">Send Code</button>
+
+    <!-- Code input -->
+    <input type="text" id="verification-code" placeholder="123456" />
+    <button id="verify-button">Verify Code</button>
+
+    <!-- Required for visible reCAPTCHA (invisible works too) -->
+    <div id="recaptcha-container"></div>
+
+    <div id="status"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
