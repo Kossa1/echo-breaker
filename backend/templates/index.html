@@ -1,25 +1,351 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guess the Poll</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background-color: #fafafa;
+      color: #2c2c2c;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 40px;
+    }
+
+    .header h1 {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .header p {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 300;
+    }
+
+    .tweet-container {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .tweet-container:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .tweet-content {
+      padding: 30px;
+    }
+
+    .tweet-text {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.7;
+      color: #2c2c2c;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .tweet-media {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .tweet-media img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .prediction-form {
+      background: #f8f8f8;
+      padding: 30px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-group input {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.1rem;
+      padding: 12px 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      background: white;
+      color: #2c2c2c;
+      transition: all 0.3s ease;
+      outline: none;
+    }
+
+    .form-group input:focus {
+      border-color: #4a90e2;
+      box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    }
+
+    .form-group input:hover {
+      border-color: #c0c0c0;
+    }
+
+    .submit-section {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 40px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .submit-btn {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      background: #2c2c2c;
+      color: white;
+      border: none;
+      padding: 16px 40px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      min-width: 200px;
+    }
+
+    .submit-btn:hover {
+      background: #1a1a1a;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .submit-btn:active {
+      transform: translateY(0);
+    }
+
+    .submit-btn:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .loading {
+      display: none;
+      margin-top: 20px;
+      color: #666;
+      font-style: italic;
+    }
+
+    .success {
+      display: none;
+      margin-top: 20px;
+      color: #4a90e2;
+      font-weight: 600;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px 15px;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .tweet-content {
+        padding: 20px;
+      }
+
+      .prediction-form {
+        padding: 20px;
+      }
+
+      .submit-btn {
+        width: 100%;
+        min-width: auto;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      .tweet-text {
+        font-size: 1.1rem;
+      }
+    }
+
+    /* Animation for form submission */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .tweet-container {
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    /* Focus states for accessibility */
+    .form-group input:focus,
+    .submit-btn:focus {
+      outline: 2px solid #4a90e2;
+      outline-offset: 2px;
+    }
+  </style>
 </head>
 <body>
-<h1>Guess the % of Democrats and Republicans who support the tweet</h1>
-<form method="POST" action="{{ url_for('results') }}">
-  {% for i, tweet in enumerate(tweets) %}
-    <div>
-      <p>{{ tweet.text }}</p>
-      {% if tweet.media_url %}
-        <img src="{{ tweet.media_url }}" width="300">
-      {% endif %}
-      <label>Democrats %:</label>
-      <input type="number" name="dem_{{ i }}" step="0.1" min="0" max="100">
-      <label>Republicans %:</label>
-      <input type="number" name="rep_{{ i }}" step="0.1" min="0" max="100">
+  <div class="container">
+    <div class="header">
+      <h1>Guess the Poll</h1>
+      <p>Predict what percentage of Democrats and Republicans support each tweet</p>
     </div>
-    <hr>
-  {% endfor %}
-  <button type="submit">Submit guesses</button>
-</form>
+
+    <form method="POST" action="{{ url_for('results') }}" id="predictionForm">
+      {% for i, tweet in enumerate(tweets) %}
+        <div class="tweet-container">
+          <div class="tweet-content">
+            <div class="tweet-text">{{ tweet.text }}</div>
+            {% if tweet.media_url %}
+              <div class="tweet-media">
+                <img src="{{ tweet.media_url }}" alt="Tweet media">
+              </div>
+            {% endif %}
+          </div>
+          
+          <div class="prediction-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="dem_{{ i }}">Democrats %</label>
+                <input 
+                  type="number" 
+                  id="dem_{{ i }}" 
+                  name="dem_{{ i }}" 
+                  step="0.1" 
+                  min="0" 
+                  max="100" 
+                  placeholder="0.0"
+                  required
+                >
+              </div>
+              <div class="form-group">
+                <label for="rep_{{ i }}">Republicans %</label>
+                <input 
+                  type="number" 
+                  id="rep_{{ i }}" 
+                  name="rep_{{ i }}" 
+                  step="0.1" 
+                  min="0" 
+                  max="100" 
+                  placeholder="0.0"
+                  required
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+      <div class="submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">
+          Submit Predictions
+        </button>
+        <div class="loading" id="loading">
+          Processing your predictions...
+        </div>
+        <div class="success" id="success">
+          Predictions submitted successfully!
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('predictionForm').addEventListener('submit', function(e) {
+      const submitBtn = document.getElementById('submitBtn');
+      const loading = document.getElementById('loading');
+      const success = document.getElementById('success');
+      
+      // Show loading state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+      loading.style.display = 'block';
+      
+      // Simulate processing time for better UX
+      setTimeout(() => {
+        loading.style.display = 'none';
+        success.style.display = 'block';
+      }, 1000);
+    });
+
+    // Add input validation and real-time feedback
+    const inputs = document.querySelectorAll('input[type="number"]');
+    inputs.forEach(input => {
+      input.addEventListener('input', function() {
+        const value = parseFloat(this.value);
+        if (value < 0) this.value = 0;
+        if (value > 100) this.value = 100;
+        
+        // Add visual feedback for valid/invalid ranges
+        if (value >= 0 && value <= 100) {
+          this.style.borderColor = '#4a90e2';
+        } else {
+          this.style.borderColor = '#e74c3c';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
