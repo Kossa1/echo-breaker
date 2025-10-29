@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-10-18T17:15:57.721657Z",
+      "description": "Systems of Government | September 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29182,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Systems of Government | September 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Systems_of_Government_20241018.pdf"
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "politics": 1
+    },
+    "types": {
+      "survey": 1
+    }
+  }
+}

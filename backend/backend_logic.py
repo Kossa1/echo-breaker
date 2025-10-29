@@ -1,6 +1,6 @@
 import pickle
-from backend.db import SessionLocal
-from backend.models import Survey, Post, Question, Response
+from db import SessionLocal
+from models import Survey, Post, Question, Response
 from sqlalchemy import select, desc
 
 def load_posts(limit=50, topic_id=None):
@@ -33,8 +33,8 @@ def get_question_with_responses(question_id: int):
 
 # backend/backend_logic.py
 from sqlalchemy import select
-from .db import SessionLocal
-from .models import Response
+from db import SessionLocal
+from models import Response
 
 def get_actual_for_question(question_id: int, response_text: str) -> dict:
     """

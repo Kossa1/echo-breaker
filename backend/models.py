@@ -3,7 +3,7 @@ from sqlalchemy import (
     Column, Integer, String, Float, DateTime, ForeignKey, Text, Index
 )
 from sqlalchemy.orm import relationship, Mapped, mapped_column
-from .db import Base
+from db import Base
 from datetime import datetime
 
 class Topic(Base):

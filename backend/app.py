@@ -1,10 +1,10 @@
 import os
 
 from flask import Flask, render_template, request, jsonify
-from backend.backend_logic import load_posts, get_question_with_responses, get_actual_for_question
+from backend_logic import load_posts, get_question_with_responses, get_actual_for_question
 
-from backend.db import SessionLocal
-from backend.models import Question
+from db import SessionLocal
+from models import Question
 from sqlalchemy import select
 
 app = Flask(__name__)

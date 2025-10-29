@@ -1,0 +1,268 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,56,72,47,49
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,24,21,25,27
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,8,2,12,10
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,5,2,5,8
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,7,3,12,5
+1,1A,Favorability of Forms of Government — Democracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,100,100,101,99
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,41,43,36,44
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,29,33,31,21
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,8,7,10,6
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,9,5,5,17
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,14,12,18,12
+2,1B,Favorability of Forms of Government — Democratic republic,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,101,100,100,100
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,10,8,8,14
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,22,27,19,18
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,17,14,17,19
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,18,20,14,22
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,34,32,41,27
+3,1C,Favorability of Forms of Government — Federalism,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,101,101,99,100
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,6,9,6,2
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,21,38,17,8
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,19,21,23,10
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,41,16,39,71
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,14,15,15,10
+4,1D,Favorability of Forms of Government — Socialism,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,101,99,100,101
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,3,4,2,2
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,15,18,11,17
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,22,20,22,24
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,34,37,31,34
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,26,21,34,23
+5,1E,Favorability of Forms of Government — Constitutional monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,100,100,100,100
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,2,3,3,1
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,8,12,8,3
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,13,20,13,5
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,68,59,63,85
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,9,7,13,6
+6,1F,Favorability of Forms of Government — Communism,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,100,101,100,100
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,2,3,2,1
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,8,10,5,10
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,14,15,12,16
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,41,47,42,35
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,34,26,40,38
+7,1G,Favorability of Forms of Government — Theocracy,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,99,101,101,100
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,2,4,1,0
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,6,8,7,3
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,12,11,12,12
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,65,63,62,72
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,15,14,17,13
+8,1H,Favorability of Forms of Government — Anarchism,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,100,100,99,100
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,1,2,1,2
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,4,5,3,4
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,6,5,7,4
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,81,81,78,85
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,8,7,11,5
+9,1I,Favorability of Forms of Government — Dictatorship,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,100,100,100,100
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,1,3,1,1
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,5,6,4,6
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,15,14,16,14
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,66,66,63,70
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,12,11,16,9
+10,1J,Favorability of Forms of Government — Absolute monarchy,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,99,100,100,100
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very favorable,1,1,1,0
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat favorable,5,6,4,5
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Somewhat unfavorable,7,8,6,7
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Very unfavorable,74,72,73,76
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Don’t know,14,12,17,13
+11,1K,Favorability of Forms of Government — Fascism,Do you have a favorable or an unfavorable opinion of the following system of government?,Totals,101,99,101,101
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Totals,101,99,100,100
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Democratic republic,72,74,68,77
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Dictatorship,2,2,2,1
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Constitutional monarchy,3,3,3,3
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Absolute monarchy,1,1,1,1
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Theocracy,1,3,1,0
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Fascism,2,2,1,1
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Communism,1,1,0,1
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,None of these,11,12,11,10
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Not sure,8,3,13,6
+12,2A,Countries’ Systems of Government — The United States,Which system of government do you think best describes the following?,Totals,101,101,100,100
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Totals,100,100,99,99
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Democratic republic,17,18,17,15
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Dictatorship,1,0,1,3
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Constitutional monarchy,49,51,45,50
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Absolute monarchy,11,12,12,10
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Theocracy,1,2,1,1
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Fascism,1,0,1,0
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Communism,1,2,1,2
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,None of these,3,2,3,3
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Not sure,16,13,19,16
+13,2B,Countries’ Systems of Government — The United Kingdom,Which system of government do you think best describes the following?,Totals,100,100,100,100
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Totals,102,100,99,99
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Democratic republic,4,6,3,2
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Dictatorship,22,24,19,22
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Constitutional monarchy,2,2,2,1
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Absolute monarchy,2,3,1,2
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Theocracy,2,1,2,2
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Fascism,2,3,2,2
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Communism,49,45,48,55
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,None of these,2,2,3,1
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Not sure,17,14,21,15
+14,2C,Countries’ Systems of Government — China,Which system of government do you think best describes the following?,Totals,102,100,101,102
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Totals,100,100,101,100
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Democratic republic,5,5,7,5
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Dictatorship,38,48,33,33
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Constitutional monarchy,2,3,2,2
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Absolute monarchy,2,3,1,2
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Theocracy,2,3,2,2
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Fascism,4,4,5,3
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Communism,29,22,27,39
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,None of these,4,2,5,3
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Not sure,14,10,19,11
+15,2D,Countries’ Systems of Government — Russia,Which system of government do you think best describes the following?,Totals,100,100,101,100
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Totals,100,100,100,100
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Democratic republic,2,3,3,1
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Dictatorship,12,14,11,13
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Constitutional monarchy,7,8,6,7
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Absolute monarchy,29,27,27,34
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Theocracy,10,11,9,8
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Fascism,2,2,1,2
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Communism,3,4,2,4
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,None of these,2,2,2,2
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Not sure,33,29,39,29
+16,2E,Countries’ Systems of Government — Saudi Arabia,Which system of government do you think best describes the following?,Totals,100,100,100,100
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Totals,101,101,100,100
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Democratic republic,4,7,4,1
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Dictatorship,28,25,22,38
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Constitutional monarchy,1,1,1,1
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Absolute monarchy,5,6,5,5
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Theocracy,26,27,28,22
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Fascism,3,3,4,3
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Communism,5,5,3,7
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,None of these,4,4,3,5
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Not sure,25,22,32,19
+17,2F,Countries’ Systems of Government — Iran,Which system of government do you think best describes the following?,Totals,101,100,102,101
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Totals,100,100,101,101
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Democratic republic,36,32,31,45
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Dictatorship,5,9,4,3
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Constitutional monarchy,2,3,2,3
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Absolute monarchy,1,0,1,1
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Theocracy,7,9,9,3
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Fascism,4,5,4,2
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Communism,2,1,1,3
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,None of these,9,7,7,13
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Not sure,34,34,41,27
+18,2G,Countries’ Systems of Government — Israel,Which system of government do you think best describes the following?,Totals,100,100,100,100
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Totals,99,101,101,99
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Democratic republic,25,29,24,21
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Dictatorship,3,4,2,4
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Constitutional monarchy,5,5,6,5
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Absolute monarchy,3,4,2,3
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Theocracy,5,3,7,6
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Fascism,2,4,1,2
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Communism,3,4,1,4
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,None of these,7,5,7,10
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Not sure,46,42,50,44
+19,2H,Countries’ Systems of Government — India,Which system of government do you think best describes the following?,Totals,99,100,100,99
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Totals,99,102,100,100
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Democratic republic,16,9,18,22
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Dictatorship,11,19,10,3
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Constitutional monarchy,3,5,2,3
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Absolute monarchy,2,2,1,3
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Theocracy,2,3,1,1
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Fascism,4,7,4,2
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Communism,5,7,2,6
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,None of these,6,4,5,9
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Not sure,50,42,58,50
+20,2I,Countries’ Systems of Government — Hungary,Which system of government do you think best describes the following?,Totals,99,98,101,99
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Totals,99,100,101,99
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Democratic republic,27,27,29,26
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Dictatorship,6,8,4,5
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Constitutional monarchy,20,22,19,19
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Absolute monarchy,3,4,3,4
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Theocracy,1,1,1,1
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Fascism,2,3,1,1
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Communism,4,4,3,5
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,None of these,3,2,3,5
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Not sure,33,29,37,34
+21,2J,Countries’ Systems of Government — Japan,Which system of government do you think best describes the following?,Totals,99,100,100,100
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Totals,98,100,100,101
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Democratic republic,24,26,23,23
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Dictatorship,1,1,0,1
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Constitutional monarchy,19,22,19,17
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Absolute monarchy,3,4,1,5
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Theocracy,1,2,0,1
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Fascism,1,1,1,2
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Communism,2,2,3,2
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,None of these,5,5,5,6
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Not sure,42,36,47,42
+22,2K,Countries’ Systems of Government — Denmark,Which system of government do you think best describes the following?,Totals,98,99,99,99
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Totals,100,98,99,101
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Democratic republic,2,5,0,1
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Dictatorship,55,56,55,55
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Constitutional monarchy,1,1,0,1
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Absolute monarchy,5,5,4,6
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Theocracy,0,1,1,0
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Fascism,2,3,2,2
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Communism,20,16,20,24
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,None of these,1,0,1,1
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Not sure,14,13,17,11
+23,2L,Countries’ Systems of Government — North Korea,Which system of government do you think best describes the following?,Totals,100,100,100,101
+24,3,Fascism vs. Communism,"If you HAD to choose between communism and fascism, which would you choose?",Fascism,17,11,16,24
+24,3,Fascism vs. Communism,"If you HAD to choose between communism and fascism, which would you choose?",Communism,28,43,25,14
+24,3,Fascism vs. Communism,"If you HAD to choose between communism and fascism, which would you choose?",Don’t know,56,46,59,62
+24,3,Fascism vs. Communism,"If you HAD to choose between communism and fascism, which would you choose?",Totals,101,100,100,100
+25,4,Why Fascism vs. Communism,And which of the following comes closest to your reason for choosing that system?,worse than the other,82,82,80,84
+25,4,Why Fascism vs. Communism,And which of the following comes closest to your reason for choosing that system?,is a good system,18,18,20,16
+25,4,Why Fascism vs. Communism,And which of the following comes closest to your reason for choosing that system?,Totals,100,100,100,100
+26,5,Dictatorship vs. Theocracy,"If you HAD to choose between dictatorship and theocracy, which would you choose?",Dictatorship,8,8,10,7
+26,5,Dictatorship vs. Theocracy,"If you HAD to choose between dictatorship and theocracy, which would you choose?",Theocracy,39,39,36,43
+26,5,Dictatorship vs. Theocracy,"If you HAD to choose between dictatorship and theocracy, which would you choose?",Don’t know,52,53,54,50
+26,5,Dictatorship vs. Theocracy,"If you HAD to choose between dictatorship and theocracy, which would you choose?",Totals,99,100,100,100
+27,6,Why Dictatorship vs. Theocracy,And which of the following comes closest to your reason for choosing that system?,worse than the other,77,70,81,81
+27,6,Why Dictatorship vs. Theocracy,And which of the following comes closest to your reason for choosing that system?,is a good system,23,30,19,19
+27,6,Why Dictatorship vs. Theocracy,And which of the following comes closest to your reason for choosing that system?,Totals,100,100,100,100
+28,7,Democracy vs. Constitutional Monarchy,"If you HAD to choose between a democratic republic and a constitutional monarchy, which would you choose?",Democratic republic,78,86,73,77
+28,7,Democracy vs. Constitutional Monarchy,"If you HAD to choose between a democratic republic and a constitutional monarchy, which would you choose?",Constitutional monarchy,6,4,6,8
+28,7,Democracy vs. Constitutional Monarchy,"If you HAD to choose between a democratic republic and a constitutional monarchy, which would you choose?",Don’t know,16,10,21,15
+28,7,Democracy vs. Constitutional Monarchy,"If you HAD to choose between a democratic republic and a constitutional monarchy, which would you choose?",Totals,100,100,100,100
+29,8,Why Democracy vs. Constitutional Monarchy,And which of the following comes closest to your reason for choosing that system?,worse than the other,17,15,21,16
+29,8,Why Democracy vs. Constitutional Monarchy,And which of the following comes closest to your reason for choosing that system?,is a good system,83,85,79,84
+29,8,Why Democracy vs. Constitutional Monarchy,And which of the following comes closest to your reason for choosing that system?,Totals,100,100,100,100
+30,9,Views on Voting Rights,Where do your views lie between the following statements?,Not sure,7,8,6,15
+30,9,Views on Voting Rights,Where do your views lie between the following statements?,Totals,101,101,99,100
+30,9,Views on Voting Rights,Where do your views lie between the following statements?,allowed to vote,25,41,20,13
+30,9,Views on Voting Rights,Where do your views lie between the following statements?,vote,27,12,23,50
+30,9,Views on Voting Rights,Where do your views lie between the following statements?,Not sure,7,7,9,4
+31,10,Views on Religious Principles,Where do your views lie between the following statements?,principles,27,25,28,30
+31,10,Views on Religious Principles,Where do your views lie between the following statements?,Not sure,17,15,20,25
+31,10,Views on Religious Principles,Where do your views lie between the following statements?,Totals,100,100,100,100
+31,10,Views on Religious Principles,Where do your views lie between the following statements?,principles,14,2,14,29
+32,11,Views on National vs. Regional Government,Where do your views lie between the following statements?,Not sure,16,13,18,21
+32,11,Views on National vs. Regional Government,Where do your views lie between the following statements?,Totals,99,100,99,100
+32,11,Views on National vs. Regional Government,Where do your views lie between the following statements?,more powerful,9,18,6,5
+32,11,Views on National vs. Regional Government,Where do your views lie between the following statements?,powerful,10,2,11,19
+32,11,Views on National vs. Regional Government,Where do your views lie between the following statements?,Not sure,16,14,20,12
+33,12,Views on Promoting Social Equality,Where do your views lie between the following statements?,Not sure,9,9,10,14
+33,12,Views on Promoting Social Equality,Where do your views lie between the following statements?,Totals,99,99,100,100
+33,12,Views on Promoting Social Equality,Where do your views lie between the following statements?,social equality,21,36,19,8
+33,12,Views on Promoting Social Equality,Where do your views lie between the following statements?,promote social equality,18,6,16,34
+33,12,Views on Promoting Social Equality,Where do your views lie between the following statements?,Not sure,9,8,13,6
+34,13,Views on Leadership Tenure,Where do your views lie between the following statements?,periods,2,1,2,3
+34,13,Views on Leadership Tenure,Where do your views lie between the following statements?,Not sure,12,9,14,16
+34,13,Views on Leadership Tenure,Where do your views lie between the following statements?,Totals,101,100,98,99
+34,13,Views on Leadership Tenure,Where do your views lie between the following statements?,regularly,40,47,34,37
+35,14,Views on Executive vs. Legislative Power,Where do your views lie between the following statements?,Not sure,18,13,23,25
+35,14,Views on Executive vs. Legislative Power,Where do your views lie between the following statements?,Totals,100,100,100,100
+35,14,Views on Executive vs. Legislative Power,Where do your views lie between the following statements?,powerful,4,5,2,4
+35,14,Views on Executive vs. Legislative Power,Where do your views lie between the following statements?,powerful,9,7,10,8
+35,14,Views on Executive vs. Legislative Power,Where do your views lie between the following statements?,Not sure,18,16,24,14
+36,15,Views on Leaders as Political Figures,Where do your views lie between the following statements?,Not sure,16,11,21,20
+36,15,Views on Leaders as Political Figures,Where do your views lie between the following statements?,Totals,99,100,101,101
+36,15,Views on Leaders as Political Figures,Where do your views lie between the following statements?,leader,18,27,12,14
+36,15,Views on Leaders as Political Figures,Where do your views lie between the following statements?,politics,11,9,12,12
+36,15,Views on Leaders as Political Figures,Where do your views lie between the following statements?,Not sure,16,15,16,18
+37,16,Views on Individualism vs. Collectivism,Where do your views lie between the following statements?,Not sure,10,7,12,19
+37,16,Views on Individualism vs. Collectivism,Where do your views lie between the following statements?,Totals,101,100,102,100
+37,16,Views on Individualism vs. Collectivism,Where do your views lie between the following statements?,should come first,9,10,7,9
+37,16,Views on Individualism vs. Collectivism,Where do your views lie between the following statements?,first,17,17,12,24
+37,16,Views on Individualism vs. Collectivism,Where do your views lie between the following statements?,Not sure,10,8,16,4
+38,17,Views on the Speed of Government,Where do your views lie between the following statements?,Not sure,9,8,10,15
+38,17,Views on the Speed of Government,Where do your views lie between the following statements?,Totals,100,100,99,99
+38,17,Views on the Speed of Government,Where do your views lie between the following statements?,implement new policies,4,7,3,3
+38,17,Views on the Speed of Government,Where do your views lie between the following statements?,and thoughtful process,17,11,17,25
+38,17,Views on the Speed of Government,Where do your views lie between the following statements?,Not sure,9,11,10,6
+39,18,Views on the Number of Top Leaders,Where do your views lie between the following statements?,Not sure,14,12,16,19
+39,18,Views on the Number of Top Leaders,Where do your views lie between the following statements?,Totals,100,101,100,99
+39,18,Views on the Number of Top Leaders,Where do your views lie between the following statements?,leader,9,11,8,9
+39,18,Views on the Number of Top Leaders,Where do your views lie between the following statements?,leaders,20,27,14,19
+39,18,Views on the Number of Top Leaders,Where do your views lie between the following statements?,Not sure,14,11,19,11
