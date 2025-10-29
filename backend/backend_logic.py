@@ -1,4 +1,7 @@
 import pickle
+import random
+import os
+from pathlib import Path
 from db import SessionLocal
 from models import Survey, Post, Question, Response
 from sqlalchemy import select, desc
@@ -88,4 +91,10 @@ def get_actual_for_question(question_id: int, response_text: str) -> dict:
 #     In the future, you can match using slug or topic.
 #     """
 #     return SURVEY_HARDCODED["Should NOT be allowed to vote"]
+
+def load_random_tweet_image():
+    """Load a random tweet image from the tweet_images directory."""
+    img_dir = Path(__file__).resolve().parents[1] / "tweet_images"
+    imgs = [f.name for f in img_dir.glob("*") if f.suffix.lower() in [".png", ".jpg", ".jpeg"]]
+    return f"tweet_images/{random.choice(imgs)}" if imgs else None
     

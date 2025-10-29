@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask, render_template, request, jsonify
-from backend_logic import load_posts, get_question_with_responses, get_actual_for_question
+from backend_logic import load_posts, get_question_with_responses, get_actual_for_question, load_random_tweet_image
 
 from db import SessionLocal
 from models import Question
@@ -42,7 +42,8 @@ RESOLVED_QUESTION_ID = _resolve_target_question_id()
 def index():
     topic_id = request.args.get("topic_id")
     posts = load_posts(topic_id=topic_id, limit=20)
-    return render_template("index.html", tweets=posts, enumerate=enumerate)
+    tweet_image = load_random_tweet_image()
+    return render_template("index.html", tweets=posts, enumerate=enumerate, tweet_image=tweet_image)
 
 @app.post("/results")
 def results():
