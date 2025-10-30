@@ -1,0 +1,29 @@
+{
+  "file_source": "bb750fdc-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 36,
+  "orig_label": "19",
+  "question": "Problem of Hazing in Sororities",
+  "prompt": "How big of a problem do you think hazing is in American college sororities?",
+  "responses": [
+    {
+      "response": "A big problem",
+      "dem": 51.0,
+      "rep": 34.0
+    },
+    {
+      "response": "A small problem",
+      "dem": 23.0,
+      "rep": 36.0
+    },
+    {
+      "response": "Not a problem",
+      "dem": 6.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 20.0,
+      "rep": 18.0
+    }
+  ]
+}
