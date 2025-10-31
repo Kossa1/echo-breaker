@@ -2,7 +2,7 @@ import os, random, pandas as pd, json
 
 # directory containing parsed survey csvs
 csv_dir = "survey_res_csv"
-out_dir = "survey_json"
+out_dir = "survey_metadata"
 os.makedirs(out_dir, exist_ok=True)
 
 # sample a random csv file
@@ -48,8 +48,12 @@ data = {
     "responses": responses
 }
 
-# save to JSON file
-out_path = os.path.join(out_dir, f"{os.path.splitext(sampled_csv)[0]}_q{qnum}.json")
+# make output dir for this question
+qid_dir = os.path.join(out_dir, f"{os.path.splitext(sampled_csv)[0]}_q{qnum}")
+os.makedirs(qid_dir, exist_ok=True)
+
+# save json inside it
+out_path = os.path.join(qid_dir, "ground_truth.json")
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 

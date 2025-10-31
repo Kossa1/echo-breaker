@@ -95,6 +95,17 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
+    .error-message {
+      background: #ffebee;
+      border-left: 4px solid #c53030;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      color: #c53030;
+      font-weight: 500;
+      text-align: center;
+    }
+
     .slider-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -488,19 +499,23 @@
       <p>Predict what percentage of Democrats and Republicans support each tweet</p>
     </div>
 
-    {% if tweet_image %}
+    {% if post_image %}
       <div class="tweet-image-section">
         <div class="instruction-text">
-          Below is a tweet. Estimate the percentage of Democrats and Republicans who agree with the sentiment expressed.
+          Below is a social media post. Estimate the percentage of Democrats and Republicans who agree with the sentiment expressed.
         </div>
         <div class="tweet-image-container">
-          <img src="{{ url_for('static', filename=tweet_image) }}" alt="Tweet image" class="tweet-image">
+          <img src="{{ url_for('serve_survey_image', filename=post_image) }}" alt="Social media post" class="tweet-image">
         </div>
+      </div>
+    {% elif error %}
+      <div class="error-message">
+        <p>{{ error }}</p>
       </div>
     {% endif %}
 
     <form method="POST" action="{{ url_for('results') }}" id="predictionForm">
-      {% if tweet_image %}
+      {% if post_image %}
         <div class="prediction-form-single">
           <div class="slider-container">
             <div class="party-block democrat">

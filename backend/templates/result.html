@@ -79,6 +79,26 @@
       margin-bottom: 0;
     }
 
+    .result-image {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .error-message {
+      background: #ffebee;
+      border-left: 4px solid #c53030;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      color: #c53030;
+      font-weight: 500;
+    }
+
     .data-section {
       padding: 30px;
       background: #f8f8f8;
@@ -177,6 +197,57 @@
       color: #4a90e2;
     }
 
+    .scores-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .score-item {
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+      text-align: center;
+      border: 2px solid #e0e0e0;
+    }
+
+    .score-item.total {
+      grid-column: span 3;
+      border-color: #4a90e2;
+      background: #f0f8ff;
+    }
+
+    .score-label {
+      display: block;
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    .score-value {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2c2c2c;
+    }
+
+    .score-value.dem {
+      color: #2b6cb0;
+    }
+
+    .score-value.rep {
+      color: #c53030;
+    }
+
+    .score-value.total {
+      color: #4a90e2;
+      font-size: 1.8rem;
+    }
+
     .navigation {
       text-align: center;
       margin-top: 60px;
@@ -254,6 +325,14 @@
       .percentage-value {
         font-size: 1.2rem;
       }
+
+      .scores-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .score-item.total {
+        grid-column: span 1;
+      }
     }
 
     /* Animation for result cards */
@@ -306,56 +385,88 @@
     </div>
 
     <div class="results-container">
-{% for r in comparison %}
-        <div class="result-card">
-          <div class="tweet-section">
-            <div class="tweet-text">{{ r.tweet.text }}</div>
-          </div>
-          
-          <div class="data-section">
-            <div class="data-grid">
-              <div class="data-group">
-                <h3>Your Predictions</h3>
-                <div class="percentage-row">
-                  <span class="party-label">Democrats</span>
-                  <span class="percentage-value dem">{{ r.user.dem }}%</span>
+      {% if comparison %}
+        {% for r in comparison %}
+          <div class="result-card">
+            {% if r.post_image %}
+              <div class="tweet-section">
+                <img src="{{ url_for('serve_survey_image', filename=r.post_image) }}" alt="Social media post" class="result-image">
+              </div>
+            {% elif r.tweet %}
+              <div class="tweet-section">
+                <div class="tweet-text">{{ r.tweet.text }}</div>
+              </div>
+            {% endif %}
+            
+            <div class="data-section">
+              <div class="data-grid">
+                <div class="data-group">
+                  <h3>Your Predictions</h3>
+                  <div class="percentage-row">
+                    <span class="party-label">Democrats</span>
+                    <span class="percentage-value dem">{{ "%.1f"|format(r.user.dem) }}%</span>
+                  </div>
+                  <div class="percentage-row">
+                    <span class="party-label">Republicans</span>
+                    <span class="percentage-value rep">{{ "%.1f"|format(r.user.rep) }}%</span>
+                  </div>
                 </div>
-                <div class="percentage-row">
-                  <span class="party-label">Republicans</span>
-                  <span class="percentage-value rep">{{ r.user.rep }}%</span>
+                
+                <div class="data-group actual">
+                  <h3>Actual Results</h3>
+                  <div class="percentage-row">
+                    <span class="party-label">Democrats</span>
+                    <span class="percentage-value dem">{{ "%.1f"|format(r.actual.dem) }}%</span>
+                  </div>
+                  <div class="percentage-row">
+                    <span class="party-label">Republicans</span>
+                    <span class="percentage-value rep">{{ "%.1f"|format(r.actual.rep) }}%</span>
+                  </div>
                 </div>
               </div>
               
-              <div class="data-group actual">
-                <h3>Actual Results</h3>
-                <div class="percentage-row">
-                  <span class="party-label">Democrats</span>
-                  <span class="percentage-value dem">{{ r.actual.dem }}%</span>
+              {% if r.scores %}
+                <div class="accuracy-section">
+                  <div class="accuracy-title">Scores</div>
+                  <div class="scores-grid">
+                    <div class="score-item">
+                      <span class="score-label">Democrat Score</span>
+                      <span class="score-value dem">{{ "%.1f"|format(r.scores.dem_score) }}%</span>
+                    </div>
+                    <div class="score-item">
+                      <span class="score-label">Republican Score</span>
+                      <span class="score-value rep">{{ "%.1f"|format(r.scores.rep_score) }}%</span>
+                    </div>
+                    <div class="score-item total">
+                      <span class="score-label">Total Score</span>
+                      <span class="score-value total">{{ "%.1f"|format(r.scores.total_score) }}%</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="percentage-row">
-                  <span class="party-label">Republicans</span>
-                  <span class="percentage-value rep">{{ r.actual.rep }}%</span>
+              {% else %}
+                <div class="accuracy-section">
+                  <div class="accuracy-title">Accuracy Score</div>
+                  <div class="accuracy-score">
+                    {% set dem_diff = (r.user.dem - r.actual.dem)|abs %}
+                    {% set rep_diff = (r.user.rep - r.actual.rep)|abs %}
+                    {% set total_diff = dem_diff + rep_diff %}
+                    {% set accuracy = 100 - (total_diff / 2) %}
+                    {{ "%.1f"|format(accuracy) }}%
+                  </div>
                 </div>
-              </div>
-            </div>
-            
-            <div class="accuracy-section">
-              <div class="accuracy-title">Accuracy Score</div>
-              <div class="accuracy-score">
-                {% set dem_diff = (r.user.dem - r.actual.dem)|abs %}
-                {% set rep_diff = (r.user.rep - r.actual.rep)|abs %}
-                {% set total_diff = dem_diff + rep_diff %}
-                {% set accuracy = 100 - (total_diff / 2) %}
-                {{ "%.1f"|format(accuracy) }}%
-              </div>
+              {% endif %}
             </div>
           </div>
+          
+          {% if not loop.last %}
+            <div class="divider"></div>
+          {% endif %}
+        {% endfor %}
+      {% elif error %}
+        <div class="error-message">
+          <p>{{ error }}</p>
         </div>
-        
-        {% if not loop.last %}
-          <div class="divider"></div>
-        {% endif %}
-      {% endfor %}
+      {% endif %}
     </div>
 
     <div class="navigation">

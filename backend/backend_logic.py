@@ -1,6 +1,7 @@
 import pickle
 import random
 import os
+import json
 from pathlib import Path
 from db import SessionLocal
 from models import Survey, Post, Question, Response
@@ -97,4 +98,64 @@ def load_random_tweet_image():
     img_dir = Path(__file__).resolve().parents[1] / "tweet_images"
     imgs = [f.name for f in img_dir.glob("*") if f.suffix.lower() in [".png", ".jpg", ".jpeg"]]
     return f"tweet_images/{random.choice(imgs)}" if imgs else None
+
+def get_random_post(base_dir="survey_metadata"):
+    """
+    Randomly sample one subdirectory from survey_metadata/, 
+    randomly pick one image from that subdirectory,
+    read the corresponding JSON file, and return image path and ground truth values.
+    
+    Returns:
+        tuple: (image_path, dem_value, rep_value) or (None, None, None) if no posts found
+    """
+    base_path = Path(__file__).resolve().parents[1] / base_dir
+    
+    if not base_path.exists():
+        return None, None, None
+    
+    # Get all subdirectories
+    subdirs = [d for d in base_path.iterdir() if d.is_dir()]
+    
+    if not subdirs:
+        return None, None, None
+    
+    # Randomly choose a subdirectory
+    subdir = random.choice(subdirs)
+    
+    # Find all image files in the subdirectory
+    img_files = [
+        f for f in subdir.iterdir() 
+        if f.suffix.lower() in [".png", ".jpg", ".jpeg"]
+    ]
+    
+    if not img_files:
+        return None, None, None
+    
+    # Randomly choose an image
+    img_path = random.choice(img_files)
+    
+    # Find corresponding JSON file (same basename)
+    json_path = subdir / (img_path.stem + ".json")
+    
+    if not json_path.exists():
+        return None, None, None
+    
+    # Read ground truth from JSON
+    try:
+        with open(json_path, 'r') as f:
+            gt = json.load(f)
+        
+        dem_value = gt.get("dem", None)
+        rep_value = gt.get("rep", None)
+        
+        # Return relative path from project root for serving
+        # relative_path = img_path.relative_to(Path(__file__).resolve().parents[1])
+        
+        relative_path = img_path.relative_to(base_path.parent)
+        print("Relative path:", relative_path)
+        
+        return str(relative_path), dem_value, rep_value
+    
+    except (json.JSONDecodeError, KeyError, IOError) as e:
+        return None, None, None
     
