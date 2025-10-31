@@ -10,3 +10,19 @@ Components:
 2. (Async) run link_survey_q_post.py to sample survey question from survey results, save associated ground truth to json file (file name is topic id plus question number)
 3. (Async) sample survey question, get and save appropriate social media post, save as image, also save corresponding ground truth.
 4. (Sync) when running app, fetch random social media post and corresponding ground truth etc. 
+
+## Frontend (React) pages
+
+- The Jinja templates in `backend/templates` have been ported to React:
+  - Guess page: `frontend/src/pages/GuessPage.tsx` at route `/guess`
+  - Results page: `frontend/src/pages/ResultsPage.tsx` at route `/guess/results`
+- These are integrated into the existing React app (`frontend`), alongside Login and Leaderboard.
+
+### Running
+
+1. Ensure the `survey_metadata` folder exists at the repo root with at least one `tweet*.png` and matching `tweet*.json` inside a subfolder (as produced by the pipeline).
+2. From `frontend/`, run `npm run dev` and open the app. Use the “Guess” nav item to access the new pages.
+
+Notes:
+- The React app discovers survey images/JSON at build time using a symlink `frontend/src/survey_metadata -> ../../survey_metadata`. This allows one npm command to serve all pages without running the Flask server.
+- Vite is configured to allow reading from the project root for this purpose.

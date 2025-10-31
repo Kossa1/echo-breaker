@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import {
   createUserWithEmailAndPassword,
   getAuth,
@@ -68,7 +68,7 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
           value={email}
           onChange={(event) => setEmail(event.target.value)}
           placeholder="you@example.com"
-          style={{ width: '100%', padding: 8, marginTop: 4 }}
+          className="input"
         />
       </label>
 
@@ -80,7 +80,7 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           placeholder="••••••••"
-          style={{ width: '100%', padding: 8, marginTop: 4 }}
+          className="input"
         />
       </label>
 
@@ -91,22 +91,21 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
           value={displayName}
           onChange={(event) => setDisplayName(event.target.value)}
           placeholder="Eg. EchoMaster"
-          style={{ width: '100%', padding: 8, marginTop: 4 }}
+          className="input"
         />
       </label>
 
       <div style={{ display: 'flex', gap: 12 }}>
-        <button onClick={signIn} disabled={disabled} style={{ padding: '8px 12px' }}>
+        <button onClick={signIn} disabled={disabled} className="btn btn--primary">
           {loading ? 'Working…' : 'Sign In'}
         </button>
-        <button onClick={createAccount} disabled={disabled} style={{ padding: '8px 12px' }}>
+        <button onClick={createAccount} disabled={disabled} className="btn btn--primary">
           {loading ? 'Working…' : 'Create Account'}
         </button>
       </div>
 
-      <div style={{ marginTop: 12, color: '#374151' }}>Status: {status}</div>
-      {error && <div style={{ marginTop: 8, color: '#b91c1c' }}>Error: {error}</div>}
+      <div className="muted" style={{ marginTop: 12 }}>Status: {status}</div>
+      {error && <div style={{ marginTop: 8, color: 'var(--red-500)' }}>Error: {error}</div>}
     </div>
   )
 }
-

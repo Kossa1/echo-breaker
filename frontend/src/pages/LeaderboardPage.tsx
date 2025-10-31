@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { collection, limit, onSnapshot, orderBy, query } from 'firebase/firestore'
 import type { User } from 'firebase/auth'
 import { db } from '../firebase'
@@ -46,23 +46,23 @@ export default function LeaderboardPage({ currentUser }: LeaderboardPageProps) {
   const highlightId = useMemo(() => currentUser.uid, [currentUser.uid])
 
   return (
-    <div style={{ maxWidth: 720, margin: '40px auto', padding: 16 }}>
-      <h1 style={{ marginTop: 0 }}>Leaderboard</h1>
-      <p style={{ color: '#4b5563' }}>
-        Scores update automatically as players progress through the game.
-      </p>
+    <div className="container-narrow" style={{ maxWidth: 900 }}>
+      <header className="page-header">
+        <h1 className="page-title">Leaderboard</h1>
+        <p className="page-subtitle">Scores update automatically as players progress through the game.</p>
+      </header>
 
       {loading ? (
-        <div>Loading leaderboard…</div>
+        <div className="muted" style={{ padding: 16 }}>Loading leaderboard…</div>
       ) : entries.length === 0 ? (
-        <div>No players yet. Be the first to score!</div>
+        <div className="muted" style={{ padding: 16 }}>No players yet. Be the first to score!</div>
       ) : (
-        <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: 16 }}>
+        <table className="modern" style={{ marginTop: 12 }}>
           <thead>
-            <tr style={{ textAlign: 'left', borderBottom: '1px solid #e5e7eb' }}>
-              <th style={{ padding: '8px 4px' }}>Rank</th>
-              <th style={{ padding: '8px 4px' }}>Player</th>
-              <th style={{ padding: '8px 4px' }}>Score</th>
+            <tr>
+              <th>Rank</th>
+              <th>Player</th>
+              <th>Score</th>
             </tr>
           </thead>
           <tbody>
@@ -74,14 +74,11 @@ export default function LeaderboardPage({ currentUser }: LeaderboardPageProps) {
               return (
                 <tr
                   key={entry.id}
-                  style={{
-                    backgroundColor: isCurrentUser ? '#ecfeff' : 'transparent',
-                    borderBottom: '1px solid #f3f4f6',
-                  }}
+                  style={{ background: isCurrentUser ? 'linear-gradient(90deg, rgba(29,78,216,0.15), rgba(220,38,38,0.12))' : 'transparent' }}
                 >
-                  <td style={{ padding: '8px 4px' }}>{index + 1}</td>
-                  <td style={{ padding: '8px 4px' }}>{label}</td>
-                  <td style={{ padding: '8px 4px' }}>{score}</td>
+                  <td>{index + 1}</td>
+                  <td>{label}</td>
+                  <td>{score}</td>
                 </tr>
               )
             })}
@@ -91,4 +88,3 @@ export default function LeaderboardPage({ currentUser }: LeaderboardPageProps) {
     </div>
   )
 }
-

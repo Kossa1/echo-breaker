@@ -1,15 +1,18 @@
-import React, { useEffect, useMemo, useState } from 'react'
-import { Link, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
-import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth'
+import { useEffect, useMemo, useState } from 'react'
+import { Link, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
+import { getAuth, onAuthStateChanged } from 'firebase/auth'
 import type { User } from 'firebase/auth'
 import LoginPage from './pages/LoginPage'
 import LeaderboardPage from './pages/LeaderboardPage'
+import GuessPage from './pages/GuessPage'
+import ResultsPage from './pages/ResultsPage'
+import CanvasBackground from './ui/CanvasBackground'
+import SideNav from './ui/SideNav'
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null)
   const [initializing, setInitializing] = useState(true)
   const navigate = useNavigate()
-  const location = useLocation()
   const auth = useMemo(() => getAuth(), [])
 
   useEffect(() => {
@@ -21,84 +24,52 @@ export default function App() {
     return () => unsubscribe()
   }, [auth])
 
-  const handleSignOut = async () => {
-    await signOut(auth)
-    navigate('/', { replace: true })
-  }
-
   if (initializing) {
     return <div style={{ padding: 32 }}>Loading…</div>
   }
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, sans-serif',
-        backgroundColor: '#f9fafb',
-      }}
-    >
-      <header
-        style={{
-          borderBottom: '1px solid #e5e7eb',
-          backgroundColor: '#ffffff',
-          padding: '12px 24px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
-      >
-        <Link to={user ? '/leaderboard' : '/'} style={{ textDecoration: 'none', color: '#111827', fontWeight: 600 }}>
-          Echo Breaker
-        </Link>
-
-        <nav style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-          <Link
-            to="/leaderboard"
-            style={{
-              color: location.pathname === '/leaderboard' ? '#2563eb' : '#4b5563',
-              pointerEvents: user ? 'auto' : 'none',
-              opacity: user ? 1 : 0.4,
-            }}
-          >
-            Leaderboard
+    <div className="app-shell">
+      <CanvasBackground />
+      <header className="nav">
+        <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Link to={user ? '/guess' : '/'} className="brand" style={{ textDecoration: 'none' }}>
+            EchoBreaker
           </Link>
-          {user ? (
-            <button onClick={handleSignOut} style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer' }}>
-              Sign out
-            </button>
-          ) : (
-            <Link
-              to="/"
-              style={{
-                color: location.pathname === '/' ? '#2563eb' : '#4b5563',
-              }}
-            >
-              Login
-            </Link>
-          )}
-        </nav>
+        </div>
       </header>
 
-      <main>
+      <SideNav user={user} />
+
+      <main className="container" style={{ paddingTop: 24, paddingBottom: 40 }}>
         <Routes>
           <Route
             path="/"
             element={
               user ? (
-                <Navigate to="/leaderboard" replace />
+                <Navigate to="/guess" replace />
               ) : (
-                <LoginPage onSignedIn={() => navigate('/leaderboard', { replace: true })} />
+                <div className="glass-panel panel-pad">
+                  <LoginPage onSignedIn={() => navigate('/guess', { replace: true })} />
+                </div>
               )
             }
           />
           <Route
             path="/leaderboard"
             element={
-              user ? <LeaderboardPage currentUser={user} /> : <Navigate to="/" replace />
+              user ? (
+                <div className="glass-panel panel-pad">
+                  <LeaderboardPage currentUser={user} />
+                </div>
+              ) : (
+                <Navigate to="/" replace />
+              )
             }
           />
-          <Route path="*" element={<Navigate to={user ? '/leaderboard' : '/'} replace />} />
+          <Route path="/guess" element={<div className="glass-panel panel-pad panel-solid"><GuessPage /></div>} />
+          <Route path="/guess/results" element={<div className="glass-panel panel-pad panel-solid"><ResultsPage /></div>} />
+          <Route path="*" element={<Navigate to={user ? '/guess' : '/'} replace />} />
         </Routes>
       </main>
     </div>

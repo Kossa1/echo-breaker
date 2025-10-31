@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth'
 import type { ConfirmationResult, User } from 'firebase/auth'
 import { ensureUserDocument } from '../data/users'
@@ -104,11 +104,11 @@ export default function PhoneAuth({ onSignedIn, displayName }: PhoneAuthProps) {
           value={phoneNumber}
           onChange={(e) => setPhoneNumber(e.target.value)}
           placeholder={TEST_PHONE_NUMBER}
-          style={{ width: '100%', padding: 8, marginTop: 4 }}
+          className="input"
         />
       </label>
 
-      <button onClick={sendCode} disabled={loading || !hasName} style={{ padding: '8px 12px' }}>
+      <button onClick={sendCode} disabled={loading || !hasName} className="btn btn--primary">
         {loading ? 'Working…' : 'Send Code'}
       </button>
 
@@ -121,7 +121,7 @@ export default function PhoneAuth({ onSignedIn, displayName }: PhoneAuthProps) {
           value={code}
           onChange={(e) => setCode(e.target.value)}
           placeholder={TEST_VERIFICATION_CODE}
-          style={{ width: '100%', padding: 8, marginTop: 4 }}
+          className="input"
         />
       </label>
 
