@@ -158,4 +158,81 @@ def get_random_post(base_dir="survey_metadata"):
     
     except (json.JSONDecodeError, KeyError, IOError) as e:
         return None, None, None
+
+def sample_unique_posts(n=5, base_dir="survey_metadata"):
+    """
+    Return list of n unique (img_path, dem, rep) tuples without duplicates.
+    Tracks (subdir, image_name) pairs to ensure uniqueness.
+    
+    Returns:
+        list: List of dicts with keys: img_path, dem_gt, rep_gt
+    """
+    base_path = Path(__file__).resolve().parents[1] / base_dir
+    
+    if not base_path.exists():
+        return []
+    
+    # Get all subdirectories
+    subdirs = [d for d in base_path.iterdir() if d.is_dir()]
+    
+    if not subdirs:
+        return []
+    
+    # Collect all available posts with their identifiers
+    all_posts = []
+    for subdir in subdirs:
+        img_files = [
+            f for f in subdir.iterdir() 
+            if f.suffix.lower() in [".png", ".jpg", ".jpeg"]
+        ]
+        
+        for img_path in img_files:
+            json_path = subdir / (img_path.stem + ".json")
+            
+            if not json_path.exists():
+                continue
+            
+            try:
+                with open(json_path, 'r') as f:
+                    gt = json.load(f)
+                
+                dem_value = gt.get("dem", None)
+                rep_value = gt.get("rep", None)
+                
+                if dem_value is None or rep_value is None:
+                    continue
+                
+                # Create unique identifier: (subdir_name, image_name)
+                identifier = (subdir.name, img_path.name)
+                
+                # Get relative path from survey_metadata directory
+                # This will be like: "subdir_name/image.png"
+                relative_path = img_path.relative_to(base_path)
+                
+                all_posts.append({
+                    "identifier": identifier,
+                    "img_path": str(relative_path),
+                    "dem_gt": dem_value,
+                    "rep_gt": rep_value
+                })
+            except (json.JSONDecodeError, KeyError, IOError):
+                continue
+    
+    # Randomly sample n unique posts
+    if len(all_posts) < n:
+        # If not enough posts, return what we have
+        selected = all_posts
+    else:
+        # Sample without replacement
+        selected = random.sample(all_posts, n)
+    
+    # Return just the data we need (without identifier)
+    return [
+        {
+            "img_path": post["img_path"],
+            "dem_gt": post["dem_gt"],
+            "rep_gt": post["rep_gt"]
+        }
+        for post in selected
+    ]
     

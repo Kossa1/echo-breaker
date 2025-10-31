@@ -49,6 +49,21 @@
       font-weight: 300;
     }
 
+    .progress-indicator {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1rem;
+      color: #666;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 30px;
+      padding: 12px 24px;
+      background: #f0f8ff;
+      border-radius: 6px;
+      display: inline-block;
+      border-left: 4px solid #4a90e2;
+    }
+
     .tweet-image-section {
       text-align: center;
       margin-bottom: 50px;
@@ -497,6 +512,11 @@
     <div class="header">
       <h1>Guess the Poll</h1>
       <p>Predict what percentage of Democrats and Republicans support each tweet</p>
+      {% if question_number and total_questions %}
+        <div class="progress-indicator">
+          Question {{ question_number }} of {{ total_questions }}
+        </div>
+      {% endif %}
     </div>
 
     {% if post_image %}
@@ -514,7 +534,7 @@
       </div>
     {% endif %}
 
-    <form method="POST" action="{{ url_for('results') }}" id="predictionForm">
+    <form method="POST" action="{{ url_for('submit_answer') }}" id="predictionForm">
       {% if post_image %}
         <div class="prediction-form-single">
           <div class="slider-container">
@@ -602,7 +622,11 @@
 
       <div class="submit-section">
         <button type="submit" class="submit-btn" id="submitBtn">
-          Submit Predictions
+          {% if question_number and total_questions and question_number < total_questions %}
+            Next Question
+          {% else %}
+            Submit
+          {% endif %}
         </button>
         <div class="loading" id="loading">
           Processing your predictions...

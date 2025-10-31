@@ -248,11 +248,46 @@
       font-size: 1.8rem;
     }
 
+    .average-score-section {
+      text-align: center;
+      margin: 60px 0 40px;
+      padding: 40px;
+      background: linear-gradient(135deg, #f0f8ff 0%, #e3f2fd 100%);
+      border-radius: 12px;
+      border: 2px solid #4a90e2;
+      box-shadow: 0 4px 16px rgba(74, 144, 226, 0.2);
+    }
+
+    .average-score-title {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    .average-score-value {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      color: #4a90e2;
+      letter-spacing: -0.02em;
+    }
+
     .navigation {
       text-align: center;
       margin-top: 60px;
       padding-top: 40px;
       border-top: 2px solid #e0e0e0;
+    }
+
+    .navigation-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
     .try-again-btn {
@@ -375,6 +410,20 @@
       background: linear-gradient(to right, transparent, #e0e0e0, transparent);
       margin: 30px 0;
     }
+
+    @media (max-width: 768px) {
+      .average-score-value {
+        font-size: 2.5rem;
+      }
+
+      .navigation-buttons {
+        flex-direction: column;
+      }
+
+      .navigation-buttons .try-again-btn {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -469,10 +518,25 @@
       {% endif %}
     </div>
 
+    {% if average_score is defined %}
+      <div class="average-score-section">
+        <div class="average-score-title">Average Score</div>
+        <div class="average-score-value">{{ "%.1f"|format(average_score) }}%</div>
+        <p style="margin-top: 15px; color: #666; font-size: 0.95rem;">
+          Out of {{ total_questions }} question{{ 's' if total_questions != 1 else '' }}
+        </p>
+      </div>
+    {% endif %}
+
     <div class="navigation">
-      <a href="{{ url_for('index') }}" class="try-again-btn">
-        Try Again
-      </a>
+      <div class="navigation-buttons">
+        <a href="{{ url_for('reset_quiz') }}" class="try-again-btn">
+          Start New Quiz
+        </a>
+        <a href="{{ url_for('index') }}" class="try-again-btn" style="background: #666;">
+          Home
+        </a>
+      </div>
     </div>
   </div>
 </body>
