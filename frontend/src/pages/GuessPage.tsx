@@ -42,42 +42,483 @@ export default function GuessPage() {
   const css = useMemo(
     () => `
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    .container { max-width: 860px; margin: 0 auto; padding: 24px 10px; }
-    .header { text-align: center; margin-bottom: 32px; border-bottom: 1px solid var(--panel-border); padding-bottom: 20px; }
-    .header h1 { font-family: 'Georgia', 'Times New Roman', serif; font-size: 2.2rem; font-weight: 700; color: var(--text); margin-bottom: 10px; letter-spacing: -0.02em; }
-    .header p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1.05rem; color: var(--muted); font-weight: 400; }
-    .progress-indicator { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1rem; color: #666; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 12px; margin-bottom: 30px; padding: 12px 24px; background: #f0f8ff; border-radius: 6px; display: inline-block; border-left: 4px solid #4a90e2; }
-    .tweet-image-section { text-align: center; margin-bottom: 28px; padding: 20px 0; background: rgba(255,255,255,0.03); border: 1px solid var(--panel-border); border-radius: 12px; }
-    .instruction-text { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1.2rem; color: #2c2c2c; margin-bottom: 30px; font-weight: 400; line-height: 1.6; padding: 0 20px; }
-    .tweet-image-container { display: flex; justify-content: center; align-items: center; }
-    .tweet-image { max-width: 620px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35); transition: transform 0.3s ease; }
-    .tweet-image:hover { transform: scale(1.02); }
-    .prediction-form-single { background: rgba(255,255,255,0.03); border: 1px solid var(--panel-border); padding: 20px; border-radius: 12px; margin-bottom: 24px; }
-    .error-message { background: rgba(185,28,28,.15); border-left: 4px solid var(--red-700); padding: 16px; border-radius: 10px; margin-bottom: 20px; color: #fecaca; font-weight: 600; text-align: center; }
-    .slider-container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 30px; }
-    .party-block { display: flex; flex-direction: column; align-items: center; text-align: center; }
-    .party-block label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1rem; font-weight: 600; color: #555; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .slider-wrapper { position: relative; width: 100%; margin-bottom: 15px; }
-    .party-block input[type="range"] { width: 100%; height: 8px; border-radius: 4px; background: #e0e0e0; outline: none; -webkit-appearance: none; appearance: none; cursor: pointer; transition: all 0.3s ease; }
-    .party-block input[type="range"]:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .party-block.democrat input[type="range"] { background: linear-gradient(to right, #e3f2fd 0%, #2b6cb0 100%); }
-    .party-block.democrat input[type="range"]::-webkit-slider-thumb { background: #2b6cb0; border: 3px solid white; box-shadow: 0 2px 8px rgba(43,108,176,0.3); }
-    .party-block.democrat input[type="range"]::-moz-range-thumb { background: #2b6cb0; border: 3px solid white; box-shadow: 0 2px 8px rgba(43,108,176,0.3); }
-    .party-block.republican input[type="range"] { background: linear-gradient(to right, #ffebee 0%, #c53030 100%); }
-    .party-block.republican input[type="range"]::-webkit-slider-thumb { background: #c53030; border: 3px solid white; box-shadow: 0 2px 8px rgba(197,48,48,0.3); }
-    .party-block.republican input[type="range"]::-moz-range-thumb { background: #c53030; border: 3px solid white; box-shadow: 0 2px 8px rgba(197,48,48,0.3); }
-    .party-block input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 24px; height: 24px; border-radius: 50%; cursor: pointer; transition: all 0.3s ease; }
-    .party-block input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius: 50%; cursor: pointer; border: none; transition: all 0.3s ease; }
-    .party-block input[type="range"]::-webkit-slider-thumb:hover, .party-block input[type="range"]::-moz-range-thumb:hover { transform: scale(1.1); box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
-    .value-display { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1.6rem; font-weight: 800; color: var(--text); background: rgba(255,255,255,0.04); padding: 10px 16px; border-radius: 10px; border: 1px solid var(--panel-border); min-width: 80px; text-align: center; transition: all 0.3s ease; }
-    .value-display.democrat { color: var(--blue-600); background: rgba(37,99,235,.1); }
-    .value-display.republican { color: var(--red-600); background: rgba(220,38,38,.1); }
-    .submit-section { text-align: center; margin-top: 24px; padding-top: 18px; border-top: 1px dashed var(--panel-border); }
-    .submit-btn { all: unset; }
-    .loading { display: none; margin-top: 20px; color: #666; font-style: italic; }
-    @media (max-width: 768px) { .container { padding: 20px 15px; } .header h1 { font-size: 2rem; } .tweet-image-section { padding: 30px 0; margin-bottom: 30px; } .instruction-text { font-size: 1.1rem; padding: 0 15px; } .tweet-image { max-width: 100%; margin: 0 15px; } .prediction-form-single { padding: 20px; margin-bottom: 30px; } .slider-container { grid-template-columns: 1fr; gap: 30px; } .submit-btn { width: 100%; min-width: auto; } }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    .tweet-container { animation: fadeIn 0.6s ease-out; }
+    
+    body {
+      background-color: #faf9f6;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+      animation: fadeIn 0.8s ease-out;
+    }
+    
+    /* Header - NYT style typography */
+    .header {
+      text-align: center;
+      margin-bottom: 56px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    
+    .header h1 {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    
+    .header p {
+      font-family: 'Helvetica Neue', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    /* Progress indicator - subtle and refined */
+    .progress-indicator {
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 0.75rem;
+      color: #888;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 24px;
+      margin-bottom: 0;
+      padding: 8px 16px;
+      background: transparent;
+      border-radius: 4px;
+      display: inline-block;
+      border: none;
+    }
+    
+    /* Tweet image section - spacious and clean */
+    .tweet-image-section {
+      text-align: center;
+      margin-bottom: 48px;
+      padding: 0;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+    }
+    
+    .instruction-text {
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 1.05rem;
+      color: #4a4a4a;
+      margin-bottom: 32px;
+      font-weight: 400;
+      line-height: 1.7;
+      padding: 0;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .tweet-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px;
+    }
+    
+    .tweet-image {
+      max-width: 100%;
+      width: 100%;
+      max-width: 620px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease, opacity 0.4s ease;
+      animation: fadeIn 0.6s ease-out;
+    }
+    
+    .tweet-image:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Prediction form - minimal and elegant */
+    .prediction-form-single {
+      background: transparent;
+      border: none;
+      padding: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      animation: fadeInUp 0.8s ease-out 0.4s both;
+    }
+    
+    /* Error message - refined styling */
+    .error-message {
+      background: #fff5f5;
+      border-left: 3px solid #c53030;
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin-bottom: 32px;
+      color: #742a2a;
+      font-weight: 500;
+      text-align: center;
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 0.95rem;
+    }
+    
+    /* Slider container - elegant grid layout */
+    .slider-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      margin-bottom: 48px;
+      padding-top: 8px;
+    }
+    
+    /* Party block - centered and spacious */
+    .party-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .party-block label {
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .slider-wrapper {
+      position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0 4px;
+    }
+    
+    /* Sliders - NYT style flat design */
+    .party-block input[type="range"] {
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background: #e5e5e5;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .party-block input[type="range"]:hover {
+      height: 5px;
+    }
+    
+    .party-block input[type="range"]:active {
+      height: 5px;
+    }
+    
+    /* Democrat slider - muted blue */
+    .party-block.democrat input[type="range"] {
+      background: linear-gradient(to right, #e8f2fb 0%, #5a9fd4 50%, #3b82f6 100%);
+    }
+    
+    .party-block.democrat input[type="range"]::-webkit-slider-thumb {
+      background: #3b82f6;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(59, 130, 246, 0.25), 0 0 0 0 rgba(59, 130, 246, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .party-block.democrat input[type="range"]::-moz-range-thumb {
+      background: #3b82f6;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(59, 130, 246, 0.25), 0 0 0 0 rgba(59, 130, 246, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .party-block.democrat input[type="range"]:hover::-webkit-slider-thumb,
+    .party-block.democrat input[type="range"]:active::-webkit-slider-thumb {
+      box-shadow: 0 3px 10px rgba(59, 130, 246, 0.35), 0 0 0 4px rgba(59, 130, 246, 0.1);
+      transform: scale(1.05);
+    }
+    
+    .party-block.democrat input[type="range"]:hover::-moz-range-thumb,
+    .party-block.democrat input[type="range"]:active::-moz-range-thumb {
+      box-shadow: 0 3px 10px rgba(59, 130, 246, 0.35), 0 0 0 4px rgba(59, 130, 246, 0.1);
+      transform: scale(1.05);
+    }
+    
+    /* Republican slider - muted red */
+    .party-block.republican input[type="range"] {
+      background: linear-gradient(to right, #fee2e2 0%, #f87171 50%, #ef4444 100%);
+    }
+    
+    .party-block.republican input[type="range"]::-webkit-slider-thumb {
+      background: #ef4444;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(239, 68, 68, 0.25), 0 0 0 0 rgba(239, 68, 68, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .party-block.republican input[type="range"]::-moz-range-thumb {
+      background: #ef4444;
+      border: 2px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(239, 68, 68, 0.25), 0 0 0 0 rgba(239, 68, 68, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .party-block.republican input[type="range"]:hover::-webkit-slider-thumb,
+    .party-block.republican input[type="range"]:active::-webkit-slider-thumb {
+      box-shadow: 0 3px 10px rgba(239, 68, 68, 0.35), 0 0 0 4px rgba(239, 68, 68, 0.1);
+      transform: scale(1.05);
+    }
+    
+    .party-block.republican input[type="range"]:hover::-moz-range-thumb,
+    .party-block.republican input[type="range"]:active::-moz-range-thumb {
+      box-shadow: 0 3px 10px rgba(239, 68, 68, 0.35), 0 0 0 4px rgba(239, 68, 68, 0.1);
+      transform: scale(1.05);
+    }
+    
+    /* Slider thumb base styles */
+    .party-block input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    
+    .party-block input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+    }
+    
+    /* Value display - elegant and minimal */
+    .value-display {
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      background: transparent;
+      padding: 12px 20px;
+      border-radius: 6px;
+      border: none;
+      min-width: 100px;
+      text-align: center;
+      transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s ease;
+      letter-spacing: -0.02em;
+      display: inline-block;
+    }
+    
+    .value-display.democrat {
+      color: #3b82f6;
+    }
+    
+    .value-display.republican {
+      color: #ef4444;
+    }
+    
+    /* Subtle pulse animation when value changes */
+    @keyframes valueUpdate {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .value-display.updated {
+      animation: valueUpdate 0.3s ease-out;
+    }
+    
+    /* Submit section - refined spacing */
+    .submit-section {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    
+    /* Button - NYT style minimal and elegant */
+    .submit-btn {
+      all: unset;
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffffff;
+      background: #1a1a1a;
+      padding: 14px 32px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      letter-spacing: 0.01em;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .submit-btn:hover:not(:disabled) {
+      background: #2d2d2d;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    .submit-btn:active:not(:disabled) {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    }
+    
+    .submit-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      background: #999;
+    }
+    
+    .submit-btn:focus-visible {
+      outline: 2px solid #1a1a1a;
+      outline-offset: 2px;
+    }
+    
+    .loading {
+      display: none;
+      margin-top: 20px;
+      color: #888;
+      font-style: italic;
+      font-family: 'Helvetica Neue', 'Inter', sans-serif;
+      font-size: 0.9rem;
+    }
+    
+    /* Smooth animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    .tweet-container {
+      animation: fadeIn 0.6s ease-out;
+    }
+    
+    /* Question transition animation */
+    .question-transition {
+      animation: fadeInUp 0.6s ease-out;
+    }
+    
+    /* Mobile responsive - refined breakpoints */
+    @media (max-width: 768px) {
+      .container {
+        padding: 32px 20px 48px;
+      }
+      
+      .header {
+        margin-bottom: 40px;
+        padding-bottom: 24px;
+      }
+      
+      .header h1 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+      }
+      
+      .header p {
+        font-size: 1rem;
+      }
+      
+      .progress-indicator {
+        font-size: 0.7rem;
+        margin-top: 20px;
+      }
+      
+      .tweet-image-section {
+        margin-bottom: 36px;
+      }
+      
+      .instruction-text {
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+      }
+      
+      .tweet-image {
+        max-width: 100%;
+        border-radius: 6px;
+      }
+      
+      .prediction-form-single {
+        margin-bottom: 0;
+      }
+      
+      .slider-container {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        margin-bottom: 40px;
+      }
+      
+      .party-block label {
+        margin-bottom: 20px;
+      }
+      
+      .value-display {
+        font-size: 1.75rem;
+      }
+      
+      .submit-section {
+        margin-top: 40px;
+        padding-top: 24px;
+      }
+      
+      .submit-btn {
+        width: 100%;
+        padding: 16px 32px;
+        font-size: 1rem;
+      }
+    }
+    
+    /* Respect reduced motion preferences */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
   `,
     []
   )
@@ -127,12 +568,17 @@ export default function GuessPage() {
         </div>
 
         {post ? (
-          <div className="tweet-image-section">
+          <div key={`tweet-${qIndex}`} className="tweet-image-section question-transition">
             <div className="instruction-text">
               Below is a social media post. Estimate the percentage of Democrats and Republicans who agree with the sentiment expressed.
             </div>
             <div className="tweet-image-container">
-              <img src={post.imageUrl} alt="Social media post" className="tweet-image" />
+              <img 
+                key={`img-${qIndex}`}
+                src={post.imageUrl} 
+                alt="Social media post" 
+                className="tweet-image" 
+              />
             </div>
           </div>
         ) : (
@@ -140,7 +586,7 @@ export default function GuessPage() {
         )}
 
         <form onSubmit={onSubmit} id="predictionForm">
-          <div className="prediction-form-single">
+          <div key={`form-${qIndex}`} className="prediction-form-single question-transition">
             <div className="slider-container">
               <div className="party-block democrat">
                 <label htmlFor="dem_0">Democrat %</label>
@@ -179,7 +625,7 @@ export default function GuessPage() {
           </div>
 
           <div className="submit-section">
-            <button type="submit" className="btn btn--primary" id="submitBtn" disabled={!post || loading}>
+            <button type="submit" className="submit-btn" id="submitBtn" disabled={!post || loading}>
               {loading
                 ? 'Submitting…'
                 : totalQuestions > 1 && qIndex + 1 < totalQuestions
