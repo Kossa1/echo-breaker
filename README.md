@@ -21,7 +21,7 @@ Components:
 ### Running
 
 1. Ensure the `survey_metadata` folder exists at the repo root with at least one `tweet*.png` and matching `tweet*.json` inside a subfolder (as produced by the pipeline).
-2. From `frontend/`, run `npm run dev` and open the app. Use the “Guess” nav item to access the new pages.
+2. From `frontend/`, run `npm run dev`, from 'backend/' run 'python app.py', and open the app.
 
 Notes:
 - The React app discovers survey images/JSON at build time using a symlink `frontend/src/survey_metadata -> ../../survey_metadata`. This allows one npm command to serve all pages without running the Flask server.
