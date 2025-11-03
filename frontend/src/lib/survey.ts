@@ -51,10 +51,14 @@ export function loadAllSurveyPosts(): SurveyPost[] {
   return posts
 }
 
+// DEPRECATED: This function is disabled. Use /api/random_tweet backend endpoint instead.
+// Kept for interface compatibility only.
 export function getRandomSurveyPost(): SurveyPost | null {
-  const all = loadAllSurveyPosts()
-  if (!all.length) return null
-  const idx = Math.floor(Math.random() * all.length)
-  return all[idx]
+  // Disabled: frontend now loads posts from backend API
+  // const all = loadAllSurveyPosts()
+  // if (!all.length) return null
+  // const idx = Math.floor(Math.random() * all.length)
+  // return all[idx]
+  return null
 }
 

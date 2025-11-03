@@ -1,7 +1,9 @@
 import os
+import random
+import json
 from pathlib import Path
 
-from flask import Flask, render_template, request, redirect, url_for, session, send_from_directory
+from flask import Flask, render_template, request, redirect, url_for, session, send_from_directory, jsonify
 from backend_logic import sample_unique_posts
 
 app = Flask(__name__)
@@ -9,6 +11,57 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-product
 
 # Default number of questions per quiz
 DEFAULT_NUM_QUESTIONS = 5
+
+# Cache available tweet posts on startup for performance
+def _load_all_posts():
+    """Load all available posts and cache them."""
+    base_path = Path(__file__).resolve().parents[1] / "survey_metadata"
+    
+    if not base_path.exists():
+        return []
+    
+    all_posts = []
+    subdirs = [d for d in base_path.iterdir() if d.is_dir()]
+    
+    for subdir in subdirs:
+        img_files = [
+            f for f in subdir.iterdir() 
+            if f.suffix.lower() in [".png", ".jpg", ".jpeg"]
+        ]
+        
+        for img_path in img_files:
+            json_path = subdir / (img_path.stem + ".json")
+            
+            if not json_path.exists():
+                continue
+            
+            try:
+                with open(json_path, 'r') as f:
+                    gt = json.load(f)
+                
+                dem_value = gt.get("dem", None)
+                rep_value = gt.get("rep", None)
+                
+                if dem_value is None or rep_value is None:
+                    continue
+                
+                # Get relative path from survey_metadata directory
+                relative_path = img_path.relative_to(base_path)
+                
+                all_posts.append({
+                    "id": f"{subdir.name}/{img_path.stem}",
+                    "img_path": str(relative_path),
+                    "topic": subdir.name,
+                    "dem": dem_value,
+                    "rep": rep_value
+                })
+            except (json.JSONDecodeError, KeyError, IOError):
+                continue
+    
+    return all_posts
+
+# Cache posts on startup
+_cached_posts = _load_all_posts()
 
 @app.route("/")
 def index():
@@ -158,6 +211,35 @@ def reset_quiz():
     """Clear session and start a new quiz."""
     session.clear()
     return redirect(url_for('start_quiz'))
+
+@app.route("/api/random_tweet", methods=['GET'])
+def random_tweet():
+    """Return one randomly sampled tweet + metadata."""
+    global _cached_posts
+    
+    # Reload cache if empty (in case survey_metadata was updated)
+    if not _cached_posts:
+        _cached_posts = _load_all_posts()
+    
+    if not _cached_posts:
+        return jsonify({"error": "No posts available"}), 404
+    
+    # Randomly sample one post
+    post = random.choice(_cached_posts)
+    
+    # Build image URL using url_for to point to the Flask-served static path
+    image_url = url_for('serve_survey_image', filename=post['img_path'])
+    
+    # Return JSON without ground-truth for gameplay fairness
+    # The frontend will get dem/rep values after submission if needed
+    return jsonify({
+        "id": post["id"],
+        "image_url": image_url,
+        "topic": post["topic"],
+        # Include dem/rep in response (can be hidden later if needed for fairness)
+        "dem": post["dem"],
+        "rep": post["rep"]
+    })
 
 @app.route("/survey_metadata/<path:filename>")
 def serve_survey_image(filename):

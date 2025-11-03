@@ -9,6 +9,17 @@ export default defineConfig({
     // survey_metadata into src and have Vite resolve real paths.
     fs: {
       allow: ['..']
+    },
+    // Proxy API requests and static images to Flask backend
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+      },
+      '/survey_metadata': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+      }
     }
   }
 })

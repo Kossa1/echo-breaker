@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { getRandomSurveyPost, type SurveyPost } from '../lib/survey'
+import { type SurveyPost } from '../lib/survey'
 
 export default function GuessPage() {
   const navigate = useNavigate()
@@ -16,8 +16,27 @@ export default function GuessPage() {
   const [answers, setAnswers] = useState<Array<{ post: SurveyPost; user: { dem: number; rep: number } }>>([])
 
   useEffect(() => {
-    const p = getRandomSurveyPost()
-    setPost(p)
+    async function load() {
+      try {
+        const res = await fetch('/api/random_tweet')
+        if (!res.ok) {
+          setPost(null)
+          return
+        }
+        const data = await res.json()
+        // Map backend response to frontend SurveyPost interface
+        setPost({
+          id: data.id,
+          imageUrl: data.image_url,
+          dem: data.dem,
+          rep: data.rep
+        })
+      } catch (error) {
+        console.error('Failed to load tweet:', error)
+        setPost(null)
+      }
+    }
+    load()
   }, [qIndex])
 
   const css = useMemo(
@@ -176,3 +195,4 @@ export default function GuessPage() {
     </div>
   )
 }
+
