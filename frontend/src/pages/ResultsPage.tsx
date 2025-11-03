@@ -2,8 +2,12 @@ import React, { useMemo } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import type { SurveyPost } from '../lib/survey'
 
-type ResultItem = { post: SurveyPost; user: { dem: number; rep: number } }
-type LocationState = ResultItem | { items: ResultItem[] }
+type ResultItem = { 
+  post: SurveyPost
+  user: { dem: number; rep: number }
+  scores?: { dem_score: number; rep_score: number; total_score: number }
+}
+type LocationState = ResultItem | { items: ResultItem[]; average_score?: number }
 
 export default function ResultsPage() {
   const location = useLocation()
@@ -485,9 +489,10 @@ export default function ResultsPage() {
 
         <div className="results-container">
           {items.map((it, idx) => {
-            const demScore = 100 - Math.abs(it.user.dem - it.post.dem)
-            const repScore = 100 - Math.abs(it.user.rep - it.post.rep)
-            const totalScore = (demScore + repScore) / 2
+            // Use scores from backend if available, otherwise compute client-side
+            const demScore = it.scores?.dem_score ?? Math.max(0, 100 - Math.abs(it.user.dem - it.post.dem))
+            const repScore = it.scores?.rep_score ?? Math.max(0, 100 - Math.abs(it.user.rep - it.post.rep))
+            const totalScore = it.scores?.total_score ?? (demScore + repScore) / 2
             return (
               <React.Fragment key={`${it.post.id}-${idx}`}>
                 <div className="result-card">

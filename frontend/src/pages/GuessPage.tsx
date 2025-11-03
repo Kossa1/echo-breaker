@@ -10,34 +10,73 @@ export default function GuessPage() {
   const [rep, setRep] = useState<number>(50)
   const [loading, setLoading] = useState(false)
 
-  // Multi-question support via ?total=N (defaults to 1)
-  const totalQuestions = Math.max(1, Number(searchParams.get('total') || '1'))
+  // Multi-question support - always use 5 questions for multi-question flow
+  const totalQuestions = 5
   const [qIndex, setQIndex] = useState<number>(0) // 0-based
   const [answers, setAnswers] = useState<Array<{ post: SurveyPost; user: { dem: number; rep: number } }>>([])
+  const [gameStarted, setGameStarted] = useState<boolean>(false)
+  const [error, setError] = useState<string | null>(null)
 
+  // Initialize game on mount
   useEffect(() => {
-    async function load() {
+    async function startGame() {
       try {
-        const res = await fetch('/api/random_tweet')
+        const res = await fetch('/api/start_game', { method: 'POST' })
         if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}))
+          setError(errorData.error || 'Failed to start game')
+          setPost(null)
+          return
+        }
+        const data = await res.json()
+        setGameStarted(true)
+        setError(null)
+      } catch (error) {
+        console.error('Failed to start game:', error)
+        setError('Failed to start game. Please try again.')
+        setPost(null)
+      }
+    }
+    
+    if (!gameStarted && qIndex === 0) {
+      startGame()
+    }
+  }, [gameStarted, qIndex])
+
+  // Load question when game is started and qIndex changes
+  useEffect(() => {
+    async function loadQuestion() {
+      if (!gameStarted) return
+      
+      try {
+        const res = await fetch(`/api/get_question/${qIndex}`)
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}))
+          setError(errorData.error || 'Failed to load question')
           setPost(null)
           return
         }
         const data = await res.json()
         // Map backend response to frontend SurveyPost interface
+        // Note: dem/rep will be populated later from submit_results response
         setPost({
           id: data.id,
           imageUrl: data.image_url,
-          dem: data.dem,
-          rep: data.rep
+          dem: 0, // Will be set from backend results
+          rep: 0  // Will be set from backend results
         })
+        setError(null)
       } catch (error) {
-        console.error('Failed to load tweet:', error)
+        console.error('Failed to load question:', error)
+        setError('Failed to load question. Please try again.')
         setPost(null)
       }
     }
-    load()
-  }, [qIndex])
+    
+    if (gameStarted) {
+      loadQuestion()
+    }
+  }, [gameStarted, qIndex])
 
   const css = useMemo(
     () => `
@@ -523,35 +562,75 @@ export default function GuessPage() {
     []
   )
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!post) return
     setLoading(true)
 
     const nextAnswers = [...answers, { post, user: { dem, rep } }]
 
-    // If we have more questions to go, advance and reset sliders; otherwise navigate to results
+    // If we have more questions to go, advance and reset sliders
     if (qIndex + 1 < totalQuestions) {
-      setTimeout(() => {
-        setAnswers(nextAnswers)
-        setQIndex((i) => i + 1)
-        setDem(50)
-        setRep(50)
-        setLoading(false)
-        // Maintain the total in the URL for clarity
-        setSearchParams((prev) => {
-          const p = new URLSearchParams(prev)
-          p.set('total', String(totalQuestions))
-          return p
-        })
-      }, 200)
+      setAnswers(nextAnswers)
+      setQIndex((i) => i + 1)
+      setDem(50)
+      setRep(50)
+      setLoading(false)
+      // Maintain the total in the URL for clarity
+      setSearchParams((prev) => {
+        const p = new URLSearchParams(prev)
+        p.set('total', String(totalQuestions))
+        return p
+      })
     } else {
-      setTimeout(() => {
+      // All questions answered - submit to backend and get results
+      try {
+        const submitData = {
+          answers: nextAnswers.map((ans) => ({
+            id: ans.post.id,
+            user: ans.user
+          }))
+        }
+
+        const res = await fetch('/api/submit_results', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(submitData),
+        })
+
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}))
+          setError(errorData.error || 'Failed to submit results')
+          setLoading(false)
+          return
+        }
+
+        const resultData = await res.json()
+
+        // Transform backend results to frontend format
+        const resultItems = resultData.results.map((r: any) => ({
+          post: {
+            id: r.id,
+            imageUrl: r.image_url,
+            dem: r.actual.dem,
+            rep: r.actual.rep,
+          },
+          user: r.user,
+          scores: r.scores,
+        }))
+
+        // Navigate to results with backend data
         navigate('/guess/results', {
           replace: false,
-          state: totalQuestions > 1 ? { items: nextAnswers } : nextAnswers[0],
+          state: { items: resultItems, average_score: resultData.average_score },
         })
-      }, 300)
+      } catch (error) {
+        console.error('Failed to submit results:', error)
+        setError('Failed to submit results. Please try again.')
+        setLoading(false)
+      }
     }
   }
 
@@ -562,10 +641,12 @@ export default function GuessPage() {
         <div className="header">
           <h1>Guess the Poll</h1>
           <p>Predict what percentage of Democrats and Republicans support each tweet</p>
-          {totalQuestions > 1 && (
-            <div className="progress-indicator">Question {qIndex + 1} of {totalQuestions}</div>
-          )}
+          <div className="progress-indicator">Question {qIndex + 1} of {totalQuestions}</div>
         </div>
+
+        {error && (
+          <div className="error-message">{error}</div>
+        )}
 
         {post ? (
           <div key={`tweet-${qIndex}`} className="tweet-image-section question-transition">

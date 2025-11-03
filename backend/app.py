@@ -212,6 +212,146 @@ def reset_quiz():
     session.clear()
     return redirect(url_for('start_quiz'))
 
+@app.route("/api/restart", methods=['POST', 'GET'])
+def restart_game():
+    """Clear current game session to allow starting a new game."""
+    session.pop('game_questions', None)
+    session.pop('game_started', None)
+    return jsonify({"message": "Game session cleared. Call /api/start_game to begin a new game."})
+
+@app.route("/api/start_game", methods=['POST', 'GET'])
+def start_game():
+    """Initialize a game session with 5 unique questions."""
+    global _cached_posts
+    
+    # Reload cache if empty (in case survey_metadata was updated)
+    if not _cached_posts:
+        _cached_posts = _load_all_posts()
+    
+    if not _cached_posts:
+        return jsonify({"error": "No posts available"}), 404
+    
+    # Sample 5 unique posts (ensuring no duplicates)
+    if len(_cached_posts) < DEFAULT_NUM_QUESTIONS:
+        # If not enough posts, use what we have
+        selected_posts = _cached_posts
+    else:
+        # Sample without replacement
+        selected_posts = random.sample(_cached_posts, DEFAULT_NUM_QUESTIONS)
+    
+    # Store full question data in session (including ground truth)
+    session['game_questions'] = selected_posts
+    session['game_started'] = True
+    
+    # Return list of question indices and total count
+    return jsonify({
+        "total_questions": len(selected_posts),
+        "question_ids": list(range(len(selected_posts)))
+    })
+
+@app.route("/api/get_question/<int:index>", methods=['GET'])
+def get_question(index):
+    """Return question at specified index (0-based) without ground truth."""
+    questions = session.get('game_questions')
+    
+    if not questions:
+        return jsonify({"error": "Game not started. Call /api/start_game first"}), 400
+    
+    if index < 0 or index >= len(questions):
+        return jsonify({"error": f"Invalid question index. Must be between 0 and {len(questions)-1}"}), 400
+    
+    post = questions[index]
+    
+    # Build image URL using url_for to point to the Flask-served static path
+    image_url = url_for('serve_survey_image', filename=post['img_path'])
+    
+    # Return only ID and image URL (no ground truth)
+    return jsonify({
+        "id": post["id"],
+        "image_url": image_url,
+        "topic": post.get("topic", "unknown"),
+        "index": index
+    })
+
+@app.route("/api/submit_results", methods=['POST'])
+def submit_results():
+    """Accept user answers for all questions and return scored feedback."""
+    questions = session.get('game_questions')
+    
+    if not questions:
+        return jsonify({"error": "Game not started. Call /api/start_game first"}), 400
+    
+    # Get user answers from request
+    data = request.get_json()
+    if not data or 'answers' not in data:
+        return jsonify({"error": "Missing 'answers' in request body"}), 400
+    
+    user_answers = data['answers']
+    
+    if len(user_answers) < len(questions):
+        return jsonify({"error": f"Expected at least {len(questions)} answers, got {len(user_answers)}"}), 400
+    
+    # Process each answer and compute scores
+    # Create a lookup map by question ID for efficient matching
+    question_map = {q['id']: q for q in questions}
+    
+    results = []
+    total_score_sum = 0
+    
+    for answer in user_answers:
+        answer_id = answer.get('id')
+        if not answer_id or answer_id not in question_map:
+            continue
+        
+        question = question_map[answer_id]
+        user_dem = float(answer.get('user', {}).get('dem', 0))
+        user_rep = float(answer.get('user', {}).get('rep', 0))
+        
+        # Get ground truth
+        dem_gt = question['dem']
+        rep_gt = question['rep']
+        
+        # Compute scores (100 - absolute difference)
+        dem_score = max(0, 100 - abs(user_dem - dem_gt))
+        rep_score = max(0, 100 - abs(user_rep - rep_gt))
+        total_score = (dem_score + rep_score) / 2
+        total_score_sum += total_score
+        
+        # Build image URL
+        image_url = url_for('serve_survey_image', filename=question['img_path'])
+        
+        results.append({
+            "id": question["id"],
+            "image_url": image_url,
+            "topic": question.get("topic", "unknown"),
+            "user": {
+                "dem": user_dem,
+                "rep": user_rep
+            },
+            "actual": {
+                "dem": dem_gt,
+                "rep": rep_gt
+            },
+            "scores": {
+                "dem_score": round(dem_score, 2),
+                "rep_score": round(rep_score, 2),
+                "total_score": round(total_score, 2)
+            }
+        })
+    
+    # Calculate average score
+    average_score = round(total_score_sum / len(results), 2) if results else 0
+    
+    # Clear game session
+    session.pop('game_questions', None)
+    session.pop('game_started', None)
+    
+    return jsonify({
+        "results": results,
+        "average_score": average_score,
+        "total_questions": len(results)
+    })
+
 @app.route("/api/random_tweet", methods=['GET'])
 def random_tweet():
     """Return one randomly sampled tweet + metadata."""
