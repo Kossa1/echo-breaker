@@ -540,7 +540,7 @@ export default function ResultsPage() {
     let cancelled = false
     ;(async () => {
       try {
-        const res = await fetch('/api/leaderboard?limit=25')
+        const res = await fetch('/api/leaderboard?limit=1000')
         const data = await res.json().catch(() => ({}))
         if (!cancelled) setLbExpanded(data.entries || [])
       } catch {
@@ -681,9 +681,7 @@ export default function ResultsPage() {
                 </tbody>
               </table>
             )}
-            <div style={{ marginTop: 8 }} onClick={(e) => e.stopPropagation()}>
-              <Link to="/leaderboard" style={{ fontWeight: 600 }}>View full leaderboard →</Link>
-            </div>
+            {/* Full leaderboard shown on click via overlay; link removed */}
           </div>
           <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('today', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('today', e), undefined) : undefined)}>
             <h3>Today's Stats</h3>
@@ -762,9 +760,7 @@ export default function ResultsPage() {
                     ))}
                   </tbody>
                 </table>
-                <div style={{ marginTop: 10 }}>
-                  <Link to="/leaderboard">View full leaderboard →</Link>
-                </div>
+                {/* Full leaderboard shown here; no separate link needed */}
               </div>
             )}
             {expanded === 'today' && (
