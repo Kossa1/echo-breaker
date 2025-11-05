@@ -19,259 +19,174 @@ export default function ResultsPage() {
     ? [{ post: (state as any).post as SurveyPost, user: (state as any).user as { dem: number; rep: number } }]
     : []
 
+  // Calculate average score and find best/worst questions
+  const comparison = useMemo(() => {
+    return items.map((it, idx) => {
+      const demScore = it.scores?.dem_score ?? Math.max(0, 100 - Math.abs(it.user.dem - it.post.dem))
+      const repScore = it.scores?.rep_score ?? Math.max(0, 100 - Math.abs(it.user.rep - it.post.rep))
+      const totalScore = it.scores?.total_score ?? (demScore + repScore) / 2
+      return {
+        item: it,
+        index: idx + 1,
+        scores: { dem_score: demScore, rep_score: repScore, total_score: totalScore }
+      }
+    })
+  }, [items])
+
+  const average_score = useMemo(() => {
+    if (!comparison.length) return 0
+    return comparison.reduce((sum, c) => sum + c.scores.total_score, 0) / comparison.length
+  }, [comparison])
+
+  const best_question = useMemo(() => {
+    if (!comparison.length) return 1
+    const best = comparison.reduce((best, current) => 
+      current.scores.total_score > best.scores.total_score ? current : best
+    )
+    return best.index
+  }, [comparison])
+
+  const worst_question = useMemo(() => {
+    if (!comparison.length) return 1
+    const worst = comparison.reduce((worst, current) => 
+      current.scores.total_score < worst.scores.total_score ? current : worst
+    )
+    return worst.index
+  }, [comparison])
+
   const css = useMemo(
     () => `
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
       background-color: #faf9f6;
-      color: #1a1a1a;
+      color: #111;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
     
-    .container {
-      max-width: 800px;
+    .results-page {
+      background: #faf9f6;
+      color: #111;
+      font-family: 'Inter', sans-serif;
+      padding: 40px 24px;
+      max-width: 1200px;
       margin: 0 auto;
-      padding: 48px 24px 64px;
       animation: fadeIn 0.8s ease-out;
     }
     
-    /* Header - NYT style typography */
-    .header {
+    .results-header {
       text-align: center;
-      margin-bottom: 56px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      position: sticky;
+      top: 0;
+      background: #faf9f6;
+      z-index: 10;
+      padding: 20px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      border-radius: 8px;
     }
     
-    .header h1 {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      font-size: 3rem;
-      font-weight: 300;
-      color: #1a1a1a;
-      margin-bottom: 16px;
-      letter-spacing: -0.03em;
-      line-height: 1.1;
-    }
-    
-    .header p {
-      font-family: 'Helvetica Neue', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-      font-size: 1.1rem;
-      color: #666;
+    .results-header h1 {
+      font-family: Georgia, 'Times New Roman', serif;
       font-weight: 400;
-      line-height: 1.6;
-      max-width: 600px;
-      margin: 0 auto;
+      font-size: 2rem;
+      margin-bottom: 8px;
+      color: #111;
     }
     
-    /* Results container - spacious grid */
-    .results-container {
-      display: grid;
-      gap: 48px;
-      margin-bottom: 64px;
+    .results-header p {
+      color: #555;
+      font-size: 1rem;
     }
     
-    /* Result card - flat white with soft shadow */
-    .result-card {
-      background: #ffffff;
-      border: none;
-      border-radius: 12px;
+    .results-summary {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .results-summary h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #111;
+    }
+    
+    .summary-bar {
+      display: flex;
+      height: 8px;
+      border-radius: 8px;
       overflow: hidden;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06), 0 0 1px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
-      animation: fadeInUp 0.6s ease-out;
+      margin: 12px auto;
+      width: 60%;
+      background: #eee;
+    }
+    
+    .summary-segment {
+      transition: width 0.3s ease;
+    }
+    
+    .summary-note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 12px;
+    }
+    
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+    
+    .result-card {
+      display: flex;
+      gap: 16px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 16px;
+      align-items: center;
+      transition: transform 0.2s ease;
+      min-height: 250px;
     }
     
     .result-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     
-    /* Tweet section - elegant spacing */
-    .tweet-section {
-      padding: 32px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    .tweet-thumb {
+      width: 50%;
+      max-width: 500px;
+      height: 220px;
+      object-fit: contain;        /* show entire tweet */
+      border-radius: 12px;        /* smoother rounding */
+      background: #f9f9f9;        /* neutral backdrop */
+      padding: 6px;               /* small breathing room around edges */
+      border: 1px solid #ddd;     /* subtle outline for definition */
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      flex-shrink: 0;
     }
     
-    .result-image {
-      max-width: 100%;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.1);
-      display: block;
-      margin: 0 auto;
-      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    .result-data {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
     }
     
-    .result-image:hover {
-      transform: translateY(-2px);
-    }
-    
-    /* Error message - refined styling */
-    .error-message {
-      background: #fff5f5;
-      border-left: 3px solid #c53030;
-      padding: 16px 20px;
-      border-radius: 4px;
-      margin-bottom: 32px;
-      color: #742a2a;
-      font-weight: 500;
-      text-align: center;
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.95rem;
-    }
-    
-    /* Data section - clean padding */
-    .data-section {
-      padding: 32px;
-      background: transparent;
-    }
-    
-    /* Data grid - elegant two-column layout */
-    .data-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      margin-bottom: 32px;
-    }
-    
-    /* Data group - minimal card style */
-    .data-group {
-      background: transparent;
-      padding: 0;
-      border-radius: 0;
-      border: none;
-      border-left: 3px solid #3b82f6;
-    }
-    
-    .data-group.actual {
-      border-left-color: #10b981;
-    }
-    
-    .data-group h3 {
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #666;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-    
-    /* Percentage row - clean layout */
-    .percentage-row {
+    .score-row {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      padding: 12px 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    }
-    
-    .percentage-row:last-child {
-      border-bottom: none;
-      margin-bottom: 0;
-    }
-    
-    .party-label {
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.95rem;
-      color: #666;
-      font-weight: 500;
-    }
-    
-    /* Percentage value - elegant display */
-    .percentage-value {
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #1a1a1a;
-      background: transparent;
-      padding: 0;
-      border-radius: 0;
-      min-width: 80px;
-      text-align: right;
-      border: none;
-      letter-spacing: -0.02em;
-    }
-    
-    .percentage-value.dem {
-      color: #3b82f6;
-    }
-    
-    .percentage-value.rep {
-      color: #ef4444;
-    }
-    
-    /* Accuracy section - refined styling */
-    .accuracy-section {
-      margin-top: 32px;
-      padding: 24px;
-      background: rgba(0, 0, 0, 0.02);
-      border-radius: 8px;
-      border: 1px solid rgba(0, 0, 0, 0.06);
-    }
-    
-    .accuracy-title {
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.8rem;
-      color: #666;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: 600;
-    }
-    
-    /* Scores grid - three column layout */
-    .scores-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-top: 0;
-    }
-    
-    /* Score item - minimal card */
-    .score-item {
-      background: #ffffff;
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    
-    .score-item:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
-    
-    .score-item.total {
-      grid-column: span 3;
-      border-color: rgba(59, 130, 246, 0.3);
-      background: rgba(59, 130, 246, 0.04);
-    }
-    
-    .score-label {
-      display: block;
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.75rem;
-      color: #666;
-      margin-bottom: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: 600;
+      font-size: 0.9rem;
+      color: #333;
+      padding: 4px 0;
     }
     
     .score-value {
-      display: block;
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: #1a1a1a;
-      letter-spacing: -0.02em;
+      font-weight: 600;
     }
     
     .score-value.dem {
@@ -282,71 +197,54 @@ export default function ResultsPage() {
       color: #ef4444;
     }
     
-    .score-value.total {
-      color: #1a1a1a;
-      font-size: 2rem;
+    .total-score {
+      text-align: right;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 8px;
+      color: #111;
     }
     
-    /* Navigation - refined spacing */
-    .navigation {
-      text-align: center;
-      margin-top: 48px;
-      padding-top: 32px;
-      border-top: 1px solid rgba(0, 0, 0, 0.08);
+    .results-actions {
       display: flex;
-      gap: 12px;
       justify-content: center;
-      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 48px;
     }
     
-    /* Button - NYT style minimal */
-    .btn {
-      all: unset;
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      color: #ffffff;
-      background: #1a1a1a;
-      padding: 14px 32px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      letter-spacing: 0.01em;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-      display: inline-block;
-      text-align: center;
-    }
-    
-    .btn:hover {
-      background: #2d2d2d;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-    
-    .btn:active {
-      transform: translateY(0);
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-    }
-    
-    .btn:focus-visible {
-      outline: 2px solid #1a1a1a;
-      outline-offset: 2px;
-    }
-    
-    .try-again-btn {
-      display: inline-block;
-    }
-    
-    /* Divider - subtle separator */
-    .divider {
-      height: 1px;
-      background: rgba(0, 0, 0, 0.08);
-      margin: 48px 0;
+    .results-actions button,
+    .results-actions a {
+      background: #111;
+      color: white;
       border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.2s ease;
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
     }
     
-    /* Smooth animations */
+    .results-actions button:hover,
+    .results-actions a:hover {
+      background: #333;
+    }
+    
+    .error-message {
+      background: #fff5f5;
+      border-left: 3px solid #c53030;
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin-bottom: 32px;
+      color: #742a2a;
+      font-weight: 500;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+    }
+    
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -356,99 +254,50 @@ export default function ResultsPage() {
       }
     }
     
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    /* Mobile responsive - refined breakpoints */
     @media (max-width: 768px) {
-      .container {
-        padding: 32px 20px 48px;
+      .results-page {
+        padding: 32px 16px;
       }
       
-      .header {
-        margin-bottom: 40px;
-        padding-bottom: 24px;
+      .results-header {
+        padding: 16px 0;
       }
       
-      .header h1 {
-        font-size: 2.2rem;
-        line-height: 1.2;
+      .results-header h1 {
+        font-size: 1.6rem;
       }
       
-      .header p {
-        font-size: 1rem;
+      .summary-bar {
+        width: 80%;
       }
       
-      .results-container {
-        gap: 36px;
-        margin-bottom: 48px;
-      }
-      
-      .tweet-section {
-        padding: 24px;
-      }
-      
-      .data-section {
-        padding: 24px;
-      }
-      
-      .data-grid {
+      .results-grid {
         grid-template-columns: 1fr;
-        gap: 32px;
       }
       
-      .data-group {
-        border-left-width: 2px;
+      .result-card {
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: auto;
       }
       
-      .percentage-row {
-        padding: 10px 0;
-      }
-      
-      .accuracy-section {
-        margin-top: 24px;
-        padding: 20px;
-      }
-      
-      .scores-grid {
-        grid-template-columns: 1fr;
-        gap: 12px;
-      }
-      
-      .score-item.total {
-        grid-column: span 1;
-      }
-      
-      .navigation {
-        margin-top: 40px;
-        padding-top: 24px;
-      }
-      
-      .try-again-btn {
+      .tweet-thumb {
         width: 100%;
-        display: block;
-        margin-bottom: 12px;
+        max-width: none;
+        height: auto;
+        max-height: 300px;
       }
       
-      .btn {
+      .results-actions {
+        flex-direction: column;
+      }
+      
+      .results-actions button,
+      .results-actions a {
         width: 100%;
-        padding: 16px 32px;
-      }
-      
-      .divider {
-        margin: 36px 0;
       }
     }
     
-    /* Respect reduced motion preferences */
     @media (prefers-reduced-motion: reduce) {
       *,
       *::before,
@@ -467,10 +316,10 @@ export default function ResultsPage() {
     return (
       <div>
         <style>{css}</style>
-        <div className="container">
+        <div className="results-page">
           <div className="error-message">Missing results context. Please try again.</div>
-          <div className="navigation">
-            <button onClick={() => navigate('/guess')} className="btn">Go to Guess</button>
+          <div className="results-actions">
+            <button onClick={() => navigate('/guess')}>Go to Guess</button>
           </div>
         </div>
       </div>
@@ -481,77 +330,62 @@ export default function ResultsPage() {
   return (
     <div>
       <style>{css}</style>
-      <div className="container">
-        <div className="header">
+      <div className="results-page">
+        <header className="results-header">
           <h1>Your Results</h1>
-          <p>See how your predictions compare to the actual survey data</p>
-        </div>
+          <p>See how your predictions compare to the actual survey data.</p>
+        </header>
 
-        <div className="results-container">
-          {items.map((it, idx) => {
-            // Use scores from backend if available, otherwise compute client-side
-            const demScore = it.scores?.dem_score ?? Math.max(0, 100 - Math.abs(it.user.dem - it.post.dem))
-            const repScore = it.scores?.rep_score ?? Math.max(0, 100 - Math.abs(it.user.rep - it.post.rep))
-            const totalScore = it.scores?.total_score ?? (demScore + repScore) / 2
-            return (
-              <React.Fragment key={`${it.post.id}-${idx}`}>
-                <div className="result-card">
-                  <div className="tweet-section">
-                    <img src={it.post.imageUrl} alt="Social media post" className="result-image" />
-                  </div>
-                  <div className="data-section">
-                    <div className="data-grid">
-                      <div className="data-group">
-                        <h3>Your Predictions</h3>
-                        <div className="percentage-row">
-                          <span className="party-label">Democrats</span>
-                          <span className="percentage-value dem">{it.user.dem.toFixed(1)}%</span>
-                        </div>
-                        <div className="percentage-row">
-                          <span className="party-label">Republicans</span>
-                          <span className="percentage-value rep">{it.user.rep.toFixed(1)}%</span>
-                        </div>
-                      </div>
-                      <div className="data-group actual">
-                        <h3>Actual Results</h3>
-                        <div className="percentage-row">
-                          <span className="party-label">Democrats</span>
-                          <span className="percentage-value dem">{it.post.dem.toFixed(1)}%</span>
-                        </div>
-                        <div className="percentage-row">
-                          <span className="party-label">Republicans</span>
-                          <span className="percentage-value rep">{it.post.rep.toFixed(1)}%</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accuracy-section">
-                      <div className="accuracy-title">Scores</div>
-                      <div className="scores-grid">
-                        <div className="score-item">
-                          <span className="score-label">Democrat Score</span>
-                          <span className="score-value dem">{demScore.toFixed(1)}%</span>
-                        </div>
-                        <div className="score-item">
-                          <span className="score-label">Republican Score</span>
-                          <span className="score-value rep">{repScore.toFixed(1)}%</span>
-                        </div>
-                        <div className="score-item total">
-                          <span className="score-label">Total Score</span>
-                          <span className="score-value total">{totalScore.toFixed(1)}%</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <section className="results-summary">
+          <h2>Average Score: {average_score.toFixed(1)}%</h2>
+          <div className="summary-bar">
+            {comparison.map((item, i) => (
+              <div
+                key={i}
+                className="summary-segment"
+                style={{
+                  width: `${100 / comparison.length}%`,
+                  background: `linear-gradient(90deg, #3b82f6 ${item.scores.total_score}%, #ef4444 ${100 - item.scores.total_score}%)`,
+                  opacity: 0.8,
+                }}
+              />
+            ))}
+          </div>
+          <p className="summary-note">
+            You were closest on #{best_question} and furthest off on #{worst_question}.
+          </p>
+        </section>
+
+        <section className="results-grid">
+          {comparison.map((item, i) => (
+            <div key={i} className="result-card">
+              <img 
+                src={item.item.post.imageUrl} 
+                alt="tweet" 
+                className="tweet-thumb" 
+              />
+              <div className="result-data">
+                <div className="score-row">
+                  <span>Democrat:</span>
+                  <span className="score-value dem">
+                    {item.item.user.dem.toFixed(1)}% → {item.item.post.dem.toFixed(1)}%
+                  </span>
                 </div>
-                {idx !== items.length - 1 && <div className="divider" />}
-              </React.Fragment>
-            )
-          })}
-        </div>
+                <div className="score-row">
+                  <span>Republican:</span>
+                  <span className="score-value rep">
+                    {item.item.user.rep.toFixed(1)}% → {item.item.post.rep.toFixed(1)}%
+                  </span>
+                </div>
+                <div className="total-score">{item.scores.total_score.toFixed(1)}%</div>
+              </div>
+            </div>
+          ))}
+        </section>
 
-        <div className="navigation">
-          <Link to="/guess" className="btn try-again-btn">Try Again</Link>
-          <Link to="/leaderboard" className="btn">View Leaderboard</Link>
+        <div className="results-actions">
+          <button onClick={() => navigate('/guess')}>Try Again</button>
+          <Link to="/leaderboard">View Leaderboard</Link>
         </div>
       </div>
     </div>
