@@ -20,10 +20,9 @@ export default function SideNav({ user }: SideNavProps) {
         {user ? (
           <button className="side-link" onClick={() => signOut(auth)}>↩︎ Sign out</button>
         ) : (
-          <Link to="/" className={`side-link ${isActive('/') ? 'active' : ''}`}>Login</Link>
+          <Link to="/login" className={`side-link ${isActive('/login') ? 'active' : ''}`}>Login</Link>
         )}
       </div>
     </aside>
   )
 }
-

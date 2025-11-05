@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
+import { getAuth } from 'firebase/auth'
 import { type SurveyPost } from '../lib/survey'
 
 export default function GuessPage() {
@@ -9,6 +10,7 @@ export default function GuessPage() {
   const [dem, setDem] = useState<number>(50)
   const [rep, setRep] = useState<number>(50)
   const [loading, setLoading] = useState(false)
+  const auth = useMemo(() => getAuth(), [])
 
   // Multi-question support - always use 5 questions for multi-question flow
   const totalQuestions = 5
@@ -585,6 +587,12 @@ export default function GuessPage() {
 
     // If we have more questions to go, advance and reset sliders
     if (qIndex + 1 < totalQuestions) {
+      // Require sign-in to continue beyond first question
+      if (!auth.currentUser) {
+        setLoading(false)
+        navigate('/login')
+        return
+      }
       setAnswers(nextAnswers)
       setQIndex((i) => i + 1)
       setDem(50)
@@ -747,4 +755,3 @@ export default function GuessPage() {
     </div>
   )
 }
-

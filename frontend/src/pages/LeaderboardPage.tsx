@@ -1,7 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { collection, limit, onSnapshot, orderBy, query } from 'firebase/firestore'
 import type { User } from 'firebase/auth'
-import { db } from '../firebase'
 
 interface LeaderboardEntry {
   id: string
@@ -18,29 +16,32 @@ export default function LeaderboardPage({ currentUser }: LeaderboardPageProps) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const leaderboardQuery = query(
-      collection(db, 'users'),
-      orderBy('score', 'desc'),
-      limit(50)
-    )
-
-    const unsubscribe = onSnapshot(
-      leaderboardQuery,
-      (snapshot) => {
-        const next = snapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...((({ id, ...rest }) => rest)(doc.data() as LeaderboardEntry)),
+    let cancelled = false
+    async function load() {
+      try {
+        const res = await fetch('/api/leaderboard?limit=50')
+        if (!res.ok) throw new Error('Failed to load leaderboard')
+        const data = await res.json()
+        const next = (data.entries || []).map((e: any) => ({
+          id: e.id,
+          displayName: e.displayName,
+          score: e.score,
         }))
-        setEntries(next)
-        setLoading(false)
-      },
-      () => {
-        setEntries([])
-        setLoading(false)
+        if (!cancelled) {
+          setEntries(next)
+          setLoading(false)
+        }
+      } catch (e) {
+        if (!cancelled) {
+          setEntries([])
+          setLoading(false)
+        }
       }
-    )
-
-    return () => unsubscribe()
+    }
+    load()
+    return () => {
+      cancelled = true
+    }
   }, [])
 
   const highlightId = useMemo(() => currentUser.uid, [currentUser.uid])

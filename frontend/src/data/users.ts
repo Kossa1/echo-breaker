@@ -1,49 +1,29 @@
-import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore'
 import type { User } from 'firebase/auth'
 import { updateProfile } from 'firebase/auth'
-import { db } from '../firebase'
 
 export interface UserProfile {
   displayName?: string
-  score: number
-  createdAt?: unknown
-  updatedAt?: unknown
+  score?: number
 }
 
 export async function ensureUserDocument(user: User, displayNameOverride?: string) {
-  if (!user?.uid) {
-    return
-  }
+  if (!user?.uid) return
 
-  const userRef = doc(db, 'users', user.uid)
-
-  const snapshot = await getDoc(userRef)
   const chosenName =
     displayNameOverride?.trim() ||
     user.displayName ||
     user.email ||
     'Anonymous Player'
 
-  const baseProfile = {
-    displayName: chosenName,
-    updatedAt: serverTimestamp(),
-  }
-
-  if (snapshot.exists()) {
-    await setDoc(userRef, baseProfile, { merge: true })
-    if (user.displayName !== chosenName) {
-      await updateProfile(user, { displayName: chosenName }).catch(() => undefined)
-    }
-    return
-  }
-
-  await setDoc(userRef, {
-    ...baseProfile,
-    score: 0,
-    createdAt: serverTimestamp(),
-  })
-
+  // Update Firebase auth profile locally for UI consistency
   if (user.displayName !== chosenName) {
     await updateProfile(user, { displayName: chosenName }).catch(() => undefined)
   }
+
+  // Inform backend to ensure the user exists in SQL DB
+  await fetch('/api/users/ensure', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ uid: user.uid, displayName: chosenName }),
+  }).catch(() => undefined)
 }
