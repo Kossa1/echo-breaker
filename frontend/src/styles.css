@@ -100,13 +100,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-md) var(--space-lg);
+  padding: 8px var(--space-lg);
   position: sticky;
   top: 0;
   background: #ffffff;
   border-bottom: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
   z-index: 10;
+  min-height: 48px;
 }
 
 .nav a,
@@ -492,9 +493,12 @@ table.modern tbody tr:hover {
 /* Legacy compatibility - transparent overrides */
 .panel-border {
   border-color: var(--border-light);
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-/* Ensure page-level styles take precedence */
+/* Ensure page-level styles take precedence - clean flat backgrounds */
 .glass-panel {
   background: transparent !important;
   border: none !important;
@@ -504,6 +508,8 @@ table.modern tbody tr:hover {
 
 .panel-solid {
   background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .panel-pad {

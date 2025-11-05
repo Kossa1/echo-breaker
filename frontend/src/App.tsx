@@ -6,7 +6,6 @@ import LoginPage from './pages/LoginPage'
 import LeaderboardPage from './pages/LeaderboardPage'
 import GuessPage from './pages/GuessPage'
 import ResultsPage from './pages/ResultsPage'
-import CanvasBackground from './ui/CanvasBackground'
 import SideNav from './ui/SideNav'
 
 export default function App() {
@@ -30,7 +29,6 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <CanvasBackground />
       <header className="nav">
         <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Link to={user ? '/guess' : '/'} className="brand" style={{ textDecoration: 'none' }}>

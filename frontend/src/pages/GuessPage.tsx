@@ -96,49 +96,32 @@ export default function GuessPage() {
       animation: fadeIn 0.8s ease-out;
     }
     
-    /* Header - NYT style typography */
+    /* Header - slim NYT style */
     .header {
       text-align: center;
-      margin-bottom: 56px;
-      padding-bottom: 32px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
       border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
     
     .header h1 {
       font-family: 'Georgia', 'Times New Roman', serif;
-      font-size: 3rem;
+      font-size: 1.8rem;
       font-weight: 300;
       color: #1a1a1a;
-      margin-bottom: 16px;
-      letter-spacing: -0.03em;
-      line-height: 1.1;
+      margin-bottom: 4px;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
     }
     
     .header p {
       font-family: 'Helvetica Neue', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-      font-size: 1.1rem;
+      font-size: 0.95rem;
       color: #666;
       font-weight: 400;
-      line-height: 1.6;
+      line-height: 1.5;
       max-width: 600px;
       margin: 0 auto;
-    }
-    
-    /* Progress indicator - subtle and refined */
-    .progress-indicator {
-      font-family: 'Helvetica Neue', 'Inter', sans-serif;
-      font-size: 0.75rem;
-      color: #888;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-top: 24px;
-      margin-bottom: 0;
-      padding: 8px 16px;
-      background: transparent;
-      border-radius: 4px;
-      display: inline-block;
-      border: none;
     }
     
     /* Tweet image section - spacious and clean */
@@ -383,6 +366,33 @@ export default function GuessPage() {
       animation: valueUpdate 0.3s ease-out;
     }
     
+    /* Progress bar - professional NYT style */
+    .progress-wrapper {
+      margin: 30px auto;
+      max-width: 400px;
+      text-align: center;
+    }
+    
+    .progress-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 8px;
+    }
+    
+    .progress-bar {
+      height: 10px;
+      border-radius: 10px;
+      background: #e5e5e5;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #3b82f6, #ef4444);
+      transition: width 0.4s ease;
+    }
+    
     /* Submit section - refined spacing */
     .submit-section {
       text-align: center;
@@ -486,22 +496,26 @@ export default function GuessPage() {
       }
       
       .header {
-        margin-bottom: 40px;
-        padding-bottom: 24px;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
       }
       
       .header h1 {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         line-height: 1.2;
       }
       
       .header p {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
       
-      .progress-indicator {
-        font-size: 0.7rem;
-        margin-top: 20px;
+      .progress-wrapper {
+        margin: 24px auto;
+        max-width: 100%;
+      }
+      
+      .progress-label {
+        font-size: 0.85rem;
       }
       
       .tweet-image-section {
@@ -641,7 +655,6 @@ export default function GuessPage() {
         <div className="header">
           <h1>Guess the Poll</h1>
           <p>Predict what percentage of Democrats and Republicans support each tweet</p>
-          <div className="progress-indicator">Question {qIndex + 1} of {totalQuestions}</div>
         </div>
 
         {error && (
@@ -702,6 +715,18 @@ export default function GuessPage() {
                 </div>
                 <div className="value-display republican" id="rep_val">{rep}%</div>
               </div>
+            </div>
+          </div>
+
+          <div className="progress-wrapper">
+            <div className="progress-label">
+              Question {qIndex + 1} of {totalQuestions}
+            </div>
+            <div className="progress-bar">
+              <div
+                className="progress-fill"
+                style={{ width: `${((qIndex + 1) / totalQuestions) * 100}%` }}
+              />
             </div>
           </div>
 
