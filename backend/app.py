@@ -12,6 +12,11 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-product
 # Default number of questions per quiz
 DEFAULT_NUM_QUESTIONS = 5
 
+def nonlinear_score(user, truth, alpha=0.3, beta=5):
+    diff = abs(user - truth)
+    denom = alpha * truth + beta
+    return 100 / (1 + (diff / denom)**2)
+
 # Cache available tweet posts on startup for performance
 def _load_all_posts():
     """Load all available posts and cache them."""
@@ -134,8 +139,12 @@ def submit_answer():
     img_path = current_problem['img_path']
     
     # Compute scores
-    dem_score = 100 - abs(dem_guess - dem_gt)
-    rep_score = 100 - abs(rep_guess - rep_gt)
+    # dem_score = 100 - abs(dem_guess - dem_gt)
+    # rep_score = 100 - abs(rep_guess - rep_gt)
+    # total_score = (dem_score + rep_score) / 2
+
+    dem_score = nonlinear_score(dem_guess, dem_gt)
+    rep_score = nonlinear_score(rep_guess, rep_gt)
     total_score = (dem_score + rep_score) / 2
     
     # Store response
@@ -312,9 +321,12 @@ def submit_results():
         rep_gt = question['rep']
         
         # Compute scores (100 - absolute difference)
-        dem_score = max(0, 100 - abs(user_dem - dem_gt))
-        rep_score = max(0, 100 - abs(user_rep - rep_gt))
+        dem_score = nonlinear_score(user_dem, dem_gt)
+        rep_score = nonlinear_score(user_rep, rep_gt)
         total_score = (dem_score + rep_score) / 2
+        # dem_score = max(0, 100 - abs(user_dem - dem_gt))
+        # rep_score = max(0, 100 - abs(user_rep - rep_gt))
+        # total_score = (dem_score + rep_score) / 2
         total_score_sum += total_score
         
         # Build image URL
