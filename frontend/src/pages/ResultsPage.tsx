@@ -59,157 +59,198 @@ export default function ResultsPage() {
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
-      background-color: #faf9f6;
-      color: #111;
+      background: #faf9f6;
+      color: #222;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
     
     .results-page {
       background: #faf9f6;
-      color: #111;
-      font-family: 'Inter', sans-serif;
-      padding: 40px 24px;
-      max-width: 1200px;
+      color: #222;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      padding: 0 16px;
+      max-width: 900px;
       margin: 0 auto;
       animation: fadeIn 0.8s ease-out;
     }
     
-    .results-header {
+    .results-overview {
       text-align: center;
-      margin-bottom: 40px;
-      position: sticky;
-      top: 0;
-      background: #faf9f6;
-      z-index: 10;
-      padding: 20px 0;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      border-radius: 8px;
+      margin-bottom: 32px;
+      padding-top: 32px;
     }
     
-    .results-header h1 {
+    .results-overview h1 {
       font-family: Georgia, 'Times New Roman', serif;
       font-weight: 400;
       font-size: 2rem;
       margin-bottom: 8px;
-      color: #111;
+      color: #222;
     }
     
-    .results-header p {
-      color: #555;
-      font-size: 1rem;
+    .results-overview .subtitle {
+      color: #444;
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+      font-weight: 400;
     }
     
-    .results-summary {
-      text-align: center;
-      margin-bottom: 48px;
+    .score-summary {
+      margin-top: 24px;
     }
     
-    .results-summary h2 {
-      font-size: 1.4rem;
-      font-weight: 600;
+    .score-summary h2 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      font-size: 1.5rem;
       margin-bottom: 12px;
-      color: #111;
+      color: #222;
     }
     
-    .summary-bar {
-      display: flex;
-      height: 8px;
-      border-radius: 8px;
-      overflow: hidden;
-      margin: 12px auto;
-      width: 60%;
+    .progress-bar {
+      height: 6px;
+      border-radius: 3px;
       background: #eee;
+      overflow: hidden;
+      margin: 12px auto 16px;
+      max-width: 400px;
     }
     
-    .summary-segment {
-      transition: width 0.3s ease;
+    .progress-bar .fill {
+      height: 100%;
+      background: linear-gradient(90deg, #3b82f6, #ef4444);
+      transition: width 0.6s ease;
     }
     
-    .summary-note {
+    .score-summary .note {
       font-size: 0.9rem;
       color: #666;
-      margin-top: 12px;
+      margin-top: 8px;
+      font-weight: 400;
     }
     
     .results-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 32px;
+      gap: 24px;
+      margin-top: 32px;
       margin-bottom: 48px;
     }
     
     .result-card {
       display: flex;
-      gap: 16px;
-      background: white;
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      padding: 16px;
-      align-items: center;
-      transition: transform 0.2s ease;
-      min-height: 250px;
+      flex-direction: column;
+      padding: 16px 0;
+      border-bottom: 1px solid #eee;
+      animation: fadeInCard 0.5s ease-out both;
     }
     
-    .result-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    .result-card:nth-child(1) { animation-delay: 0.1s; }
+    .result-card:nth-child(2) { animation-delay: 0.15s; }
+    .result-card:nth-child(3) { animation-delay: 0.2s; }
+    .result-card:nth-child(4) { animation-delay: 0.25s; }
+    .result-card:nth-child(5) { animation-delay: 0.3s; }
+    .result-card:nth-child(n+6) { animation-delay: 0.35s; }
+    
+    .result-card:last-child {
+      border-bottom: none;
     }
     
     .tweet-thumb {
-      width: 50%;
-      max-width: 500px;
+      width: 100%;
       height: 220px;
-      object-fit: contain;        /* show entire tweet */
-      border-radius: 12px;        /* smoother rounding */
-      background: #f9f9f9;        /* neutral backdrop */
-      padding: 6px;               /* small breathing room around edges */
-      border: 1px solid #ddd;     /* subtle outline for definition */
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      flex-shrink: 0;
+      object-fit: contain;
+      border-radius: 12px;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
     }
     
     .result-data {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      margin-top: 8px;
+      font-size: 0.95rem;
+      gap: 8px;
+      color: #444;
     }
     
-    .score-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9rem;
-      color: #333;
-      padding: 4px 0;
+    .data-label {
+      font-weight: 500;
+      color: #666;
     }
     
-    .score-value {
+    .data-value {
       font-weight: 600;
+      text-align: right;
     }
     
-    .score-value.dem {
+    .data-value.dem {
       color: #3b82f6;
     }
     
-    .score-value.rep {
+    .data-value.rep {
       color: #ef4444;
     }
     
-    .total-score {
-      text-align: right;
-      font-size: 1.4rem;
+    .data-value.total {
+      color: #222;
+      font-size: 1.1rem;
       font-weight: 700;
-      margin-top: 8px;
-      color: #111;
+      margin-top: 4px;
+      padding-top: 8px;
+      border-top: 1px solid #eee;
+    }
+    
+    .prediction-table {
+      display: grid;
+      grid-template-columns: auto 1fr 1fr;
+      gap: 12px 16px;
+      margin-top: 12px;
+      font-size: 0.9rem;
+      padding: 12px 0;
+    }
+    
+    .prediction-table-header {
+      font-size: 0.75rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    
+    .prediction-table-header:first-child {
+      grid-column: 1;
+    }
+    
+    .prediction-row-label {
+      font-weight: 500;
+      color: #666;
+      font-size: 0.85rem;
+    }
+    
+    .prediction-value {
+      font-weight: 600;
+      text-align: right;
+    }
+    
+    .prediction-value.dem {
+      color: #3b82f6;
+    }
+    
+    .prediction-value.rep {
+      color: #ef4444;
     }
     
     .results-actions {
       display: flex;
       justify-content: center;
-      gap: 12px;
+      gap: 16px;
       margin-top: 48px;
+      margin-bottom: 48px;
     }
     
     .results-actions button,
@@ -217,14 +258,14 @@ export default function ResultsPage() {
       background: #111;
       color: white;
       border: none;
-      padding: 12px 20px;
-      border-radius: 8px;
+      padding: 10px 20px;
+      border-radius: 6px;
       cursor: pointer;
       font-weight: 600;
       transition: background 0.2s ease;
       text-decoration: none;
       font-family: 'Inter', sans-serif;
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
     
     .results-actions button:hover,
@@ -254,42 +295,77 @@ export default function ResultsPage() {
       }
     }
     
+    @keyframes fadeInCard {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
     @media (max-width: 768px) {
       .results-page {
-        padding: 32px 16px;
+        padding: 0 16px;
       }
       
-      .results-header {
-        padding: 16px 0;
+      .results-overview {
+        padding-top: 24px;
+        margin-bottom: 24px;
       }
       
-      .results-header h1 {
-        font-size: 1.6rem;
+      .results-overview h1 {
+        font-size: 1.75rem;
       }
       
-      .summary-bar {
-        width: 80%;
+      .score-summary h2 {
+        font-size: 1.3rem;
+      }
+      
+      .progress-bar {
+        max-width: 100%;
       }
       
       .results-grid {
-        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 24px;
       }
       
       .result-card {
-        flex-direction: column;
-        align-items: flex-start;
-        min-height: auto;
+        padding: 12px 0;
       }
       
       .tweet-thumb {
-        width: 100%;
-        max-width: none;
         height: auto;
-        max-height: 300px;
+        max-height: 220px;
+      }
+      
+      .result-data {
+        font-size: 0.9rem;
+      }
+      
+      .prediction-table {
+        grid-template-columns: auto 1fr 1fr;
+        gap: 8px 10px;
+      }
+      
+      .prediction-table-header:first-child {
+        display: none;
+      }
+      
+      .prediction-row-label {
+        font-size: 0.8rem;
+      }
+      
+      .prediction-value {
+        font-size: 0.85rem;
       }
       
       .results-actions {
         flex-direction: column;
+        gap: 12px;
       }
       
       .results-actions button,
@@ -331,29 +407,16 @@ export default function ResultsPage() {
     <div>
       <style>{css}</style>
       <div className="results-page">
-        <header className="results-header">
+        <section className="results-overview">
           <h1>Your Results</h1>
-          <p>See how your predictions compare to the actual survey data.</p>
-        </header>
-
-        <section className="results-summary">
-          <h2>Average Score: {average_score.toFixed(1)}%</h2>
-          <div className="summary-bar">
-            {comparison.map((item, i) => (
-              <div
-                key={i}
-                className="summary-segment"
-                style={{
-                  width: `${100 / comparison.length}%`,
-                  background: `linear-gradient(90deg, #3b82f6 ${item.scores.total_score}%, #ef4444 ${100 - item.scores.total_score}%)`,
-                  opacity: 0.8,
-                }}
-              />
-            ))}
+          <p className="subtitle">See how your predictions compare to the actual survey data.</p>
+          <div className="score-summary">
+            <h2>Average Score: {average_score.toFixed(1)}%</h2>
+            <div className="progress-bar">
+              <div className="fill" style={{ width: `${average_score}%` }} />
+            </div>
+            <p className="note">You were closest on #{best_question} and furthest off on #{worst_question}.</p>
           </div>
-          <p className="summary-note">
-            You were closest on #{best_question} and furthest off on #{worst_question}.
-          </p>
         </section>
 
         <section className="results-grid">
@@ -364,20 +427,20 @@ export default function ResultsPage() {
                 alt="tweet" 
                 className="tweet-thumb" 
               />
+              <div className="prediction-table">
+                <div className="prediction-table-header"></div>
+                <div className="prediction-table-header">Your Prediction</div>
+                <div className="prediction-table-header">Actual Result</div>
+                <div className="prediction-row-label">Democrat</div>
+                <div className="prediction-value dem">{item.item.user.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{item.item.post.dem.toFixed(1)}%</div>
+                <div className="prediction-row-label">Republican</div>
+                <div className="prediction-value rep">{item.item.user.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{item.item.post.rep.toFixed(1)}%</div>
+              </div>
               <div className="result-data">
-                <div className="score-row">
-                  <span>Democrat:</span>
-                  <span className="score-value dem">
-                    {item.item.user.dem.toFixed(1)}% → {item.item.post.dem.toFixed(1)}%
-                  </span>
-                </div>
-                <div className="score-row">
-                  <span>Republican:</span>
-                  <span className="score-value rep">
-                    {item.item.user.rep.toFixed(1)}% → {item.item.post.rep.toFixed(1)}%
-                  </span>
-                </div>
-                <div className="total-score">{item.scores.total_score.toFixed(1)}%</div>
+                <span className="data-label">Accuracy Score</span>
+                <span className="data-value total">{item.scores.total_score.toFixed(1)}%</span>
               </div>
             </div>
           ))}
