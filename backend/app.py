@@ -593,14 +593,58 @@ def get_results():
         # Get rankings
         rankings = compute_rankings_for_date(date)
         
-        # Get user's ranks
+        # Get total users for the day (count of users who completed all questions)
+        total_users_today = len(rankings['daily_ranks'])
+        
+        # Get user's daily rank
         daily_rank = rankings['daily_ranks'].get(user_id)
-        question_ranks = {}
+        
+        # Build enhanced question results with ranks and total counts
+        questions = []
+        best_question_idx = None
+        worst_question_idx = None
+        best_score = -1
+        worst_score = 101
+        
         for result in results:
-            question_ranks[result['id']] = rankings['question_ranks'].get(result['id'], {}).get(user_id)
+            question_id = result['id']
+            question_rank = rankings['question_ranks'].get(question_id, {}).get(user_id)
+            
+            # Count total users for this question
+            total_users_for_question = len(rankings['question_ranks'].get(question_id, {}))
+            
+            # Track best/worst question (using question_order + 1 as the display index)
+            question_score = result['scores']['total_score']
+            if question_score > best_score:
+                best_score = question_score
+                best_question_idx = result['question_order'] + 1  # 1-indexed for display
+            if question_score < worst_score:
+                worst_score = question_score
+                worst_question_idx = result['question_order'] + 1  # 1-indexed for display
+            
+            questions.append({
+                "question_id": question_id,
+                "tweet_image_url": result['image_url'],
+                "user_prediction": {
+                    "dem": round(result['user']['dem'], 1),
+                    "rep": round(result['user']['rep'], 1)
+                },
+                "ground_truth": {
+                    "dem": round(result['actual']['dem'], 1),
+                    "rep": round(result['actual']['rep'], 1)
+                },
+                "score": round(result['scores']['total_score'], 1),
+                "rank": question_rank,
+                "total_users": total_users_for_question
+            })
         
         # Get historical average
         historical_avg = get_user_historical_average(user_id)
+        
+        # Calculate delta from historical average
+        delta_from_historical = None
+        if historical_avg is not None:
+            delta_from_historical = round(avg_score - historical_avg, 1)
         
         # Get daily score if exists
         daily_score = session.execute(
@@ -613,14 +657,14 @@ def get_results():
         completed = daily_score is not None
     
     return jsonify({
-        "date": date,
-        "results": results,
-        "average_score": round(avg_score, 2),
-        "daily_rank": daily_rank,
-        "question_ranks": question_ranks,
-        "historical_average": round(historical_avg, 2) if historical_avg else None,
-        "completed": completed,
-        "total_questions": len(results)
+        "today_avg_score": round(avg_score, 1),
+        "today_rank": daily_rank,
+        "total_users_today": total_users_today,
+        "historical_avg": round(historical_avg, 1) if historical_avg else None,
+        "delta_from_historical": delta_from_historical,
+        "best_question": best_question_idx,
+        "worst_question": worst_question_idx,
+        "questions": questions
     })
 
 @app.route("/api/random_tweet", methods=['GET'])

@@ -1,26 +1,35 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
-import type { SurveyPost } from '../lib/survey'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 
-type ResultItem = { 
-  post: SurveyPost
-  user: { dem: number; rep: number }
-  scores?: { dem_score: number; rep_score: number; total_score: number }
-  question_rank?: number
+type QuestionResult = {
+  question_id: string
+  tweet_image_url: string
+  user_prediction: { dem: number; rep: number }
+  ground_truth: { dem: number; rep: number }
+  score: number
+  rank: number | null
+  total_users: number
+}
+
+type ResultsData = {
+  today_avg_score: number
+  today_rank: number | null
+  total_users_today: number
+  historical_avg: number | null
+  delta_from_historical: number | null
+  best_question: number | null
+  worst_question: number | null
+  questions: QuestionResult[]
 }
 
 export default function ResultsPage() {
   const navigate = useNavigate()
   const auth = getAuth()
   const [searchParams] = useSearchParams()
-  const [items, setItems] = useState<ResultItem[]>([])
-  const [averageScore, setAverageScore] = useState<number>(0)
-  const [dailyRank, setDailyRank] = useState<number | null>(null)
-  const [historicalAverage, setHistoricalAverage] = useState<number | null>(null)
+  const [resultsData, setResultsData] = useState<ResultsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [date, setDate] = useState<string>('')
 
   // Load results from backend API
   useEffect(() => {
@@ -48,24 +57,8 @@ export default function ResultsPage() {
 
         const data = await res.json()
         
-        // Transform backend results to frontend format
-        const resultItems: ResultItem[] = (data.results || []).map((r: any) => ({
-          post: {
-            id: r.id,
-            imageUrl: r.image_url,
-            dem: r.actual.dem,
-            rep: r.actual.rep,
-          },
-          user: r.user,
-          scores: r.scores,
-          question_rank: data.question_ranks?.[r.id] || null
-        }))
-
-        setItems(resultItems)
-        setAverageScore(data.average_score || 0)
-        setDailyRank(data.daily_rank || null)
-        setHistoricalAverage(data.historical_average || null)
-        setDate(data.date || '')
+        // Backend now returns the new structure directly
+        setResultsData(data)
         setError(null)
       } catch (error) {
         console.error('Failed to load results:', error)
@@ -153,6 +146,71 @@ export default function ResultsPage() {
       color: #666;
       margin-top: 8px;
       font-weight: 400;
+    }
+    
+    .results-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      justify-items: center;
+      align-items: center;
+      padding: 24px 0 32px 0;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      margin-top: 24px;
+    }
+    
+    .summary-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .summary-label {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.03em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    
+    .summary-value {
+      font-size: 15px;
+      font-weight: 600;
+      color: #111;
+    }
+    
+    .summary-sub {
+      font-size: 12px;
+      color: #888;
+      margin-left: 4px;
+    }
+    
+    .delta {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 6px;
+    }
+    
+    .delta.up {
+      color: #16a34a; /* green */
+    }
+    
+    .delta.down {
+      color: #dc2626; /* red */
+    }
+    
+    .question-rank {
+      text-align: right;
+      font-size: 13px;
+      color: #666;
+      margin-top: 4px;
+    }
+    
+    .question-rank strong {
+      font-weight: 600;
+      color: #111;
     }
     
     .dashboard-grid {
@@ -271,7 +329,8 @@ export default function ResultsPage() {
       display: flex;
       flex-direction: column;
       padding: 16px 0;
-      border-bottom: 1px solid #eee;
+      margin-bottom: 32px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
       animation: fadeInCard 0.5s ease-out both;
     }
     
@@ -468,6 +527,13 @@ export default function ResultsPage() {
       
       .result-card {
         padding: 12px 0;
+        margin-bottom: 24px;
+      }
+      
+      .results-summary-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 0 24px 0;
       }
       
       .tweet-thumb {
@@ -520,24 +586,20 @@ export default function ResultsPage() {
     []
   )
 
-  // Calculate best/worst questions for display
-  const best_question = useMemo(() => {
-    if (!items.length) return 1
-    const best = items.reduce((best, current, idx) => 
-      (current.scores?.total_score || 0) > (best.scores?.total_score || 0) ? {item: current, index: idx + 1} : best,
-      {item: items[0], index: 1}
-    )
-    return best.index
-  }, [items])
+  // Calculate best/worst question scores for display
+  const bestQuestionScore = useMemo(() => {
+    if (!resultsData?.questions.length || !resultsData.best_question) return null
+    // Find question by index (best_question is 1-indexed)
+    const bestQuestion = resultsData.questions[resultsData.best_question - 1]
+    return bestQuestion?.score || null
+  }, [resultsData])
 
-  const worst_question = useMemo(() => {
-    if (!items.length) return 1
-    const worst = items.reduce((worst, current, idx) => 
-      (current.scores?.total_score || 0) < (worst.scores?.total_score || 0) ? {item: current, index: idx + 1} : worst,
-      {item: items[0], index: 1}
-    )
-    return worst.index
-  }, [items])
+  const worstQuestionScore = useMemo(() => {
+    if (!resultsData?.questions.length || !resultsData.worst_question) return null
+    // Find question by index (worst_question is 1-indexed)
+    const worstQuestion = resultsData.questions[resultsData.worst_question - 1]
+    return worstQuestion?.score || null
+  }, [resultsData])
 
   if (loading) {
     return (
@@ -550,7 +612,7 @@ export default function ResultsPage() {
     )
   }
 
-  if (error || !items.length) {
+  if (error || !resultsData || !resultsData.questions.length) {
     return (
       <div>
         <style>{css}</style>
@@ -572,22 +634,54 @@ export default function ResultsPage() {
           <h1>Your Results</h1>
           <p className="subtitle">See how your predictions compare to the actual survey data.</p>
           <div className="score-summary">
-            <h2>Average Score: {averageScore.toFixed(1)}%</h2>
+            <h2>Average Score: {resultsData.today_avg_score.toFixed(1)}%</h2>
             <div className="progress-bar">
-              <div className="fill" style={{ width: `${averageScore}%` }} />
+              <div className="fill" style={{ width: `${resultsData.today_avg_score}%` }} />
             </div>
-            {dailyRank !== null && (
-              <p className="note">Your rank today: #{dailyRank} | Historical average: {historicalAverage?.toFixed(1) || 'N/A'}%</p>
-            )}
-            <p className="note">You were closest on #{best_question} and furthest off on #{worst_question}.</p>
+            <section className="results-summary-grid">
+              <div className="summary-item">
+                <span className="summary-label">Best Question</span>
+                <span className="summary-value">
+                  {resultsData.best_question ? `#${resultsData.best_question}` : 'N/A'}
+                  {bestQuestionScore !== null && ` (${bestQuestionScore.toFixed(1)}%)`}
+                </span>
+              </div>
+              <div className="summary-item">
+                <span className="summary-label">Worst Question</span>
+                <span className="summary-value">
+                  {resultsData.worst_question ? `#${resultsData.worst_question}` : 'N/A'}
+                  {worstQuestionScore !== null && ` (${worstQuestionScore.toFixed(1)}%)`}
+                </span>
+              </div>
+              <div className="summary-item">
+                <span className="summary-label">Today's Rank</span>
+                <span className="summary-value">
+                  {resultsData.today_rank ? `#${resultsData.today_rank}` : 'N/A'}
+                  {resultsData.total_users_today > 0 && (
+                    <span className="summary-sub">of {resultsData.total_users_today} users</span>
+                  )}
+                </span>
+              </div>
+              <div className="summary-item">
+                <span className="summary-label">Historical Avg</span>
+                <span className="summary-value">
+                  {resultsData.historical_avg !== null ? `${resultsData.historical_avg.toFixed(1)}%` : 'N/A'}
+                  {resultsData.delta_from_historical !== null && (
+                    <span className={`delta ${resultsData.delta_from_historical >= 0 ? 'up' : 'down'}`}>
+                      {resultsData.delta_from_historical >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical).toFixed(1)}%
+                    </span>
+                  )}
+                </span>
+              </div>
+            </section>
           </div>
         </section>
 
         <section className="results-grid">
-          {items.map((item, i) => (
-            <div key={i} className="result-card">
+          {resultsData.questions.map((question, i) => (
+            <div key={question.question_id} className="result-card">
               <img 
-                src={item.post.imageUrl} 
+                src={question.tweet_image_url} 
                 alt="tweet" 
                 className="tweet-thumb" 
               />
@@ -596,20 +690,19 @@ export default function ResultsPage() {
                 <div className="prediction-table-header">Your Prediction</div>
                 <div className="prediction-table-header">Actual Result</div>
                 <div className="prediction-row-label">Democrat</div>
-                <div className="prediction-value dem">{item.user.dem.toFixed(1)}%</div>
-                <div className="prediction-value dem">{item.post.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{question.user_prediction.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{question.ground_truth.dem.toFixed(1)}%</div>
                 <div className="prediction-row-label">Republican</div>
-                <div className="prediction-value rep">{item.user.rep.toFixed(1)}%</div>
-                <div className="prediction-value rep">{item.post.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{question.user_prediction.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{question.ground_truth.rep.toFixed(1)}%</div>
               </div>
               <div className="result-data">
                 <span className="data-label">Accuracy Score</span>
-                <span className="data-value total">{item.scores?.total_score.toFixed(1) || 0}%</span>
+                <span className="data-value total">{question.score.toFixed(1)}%</span>
               </div>
-              {item.question_rank !== null && item.question_rank !== undefined && (
-                <div className="result-data">
-                  <span className="data-label">Question Rank</span>
-                  <span className="data-value">#{item.question_rank}</span>
+              {question.rank !== null && question.rank !== undefined && (
+                <div className="question-rank">
+                  Question Rank: <strong>#{question.rank}</strong> of {question.total_users}
                 </div>
               )}
             </div>
