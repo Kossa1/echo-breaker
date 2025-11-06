@@ -1,0 +1,256 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Religion in Public Schools,Do you believe religion plays too much or not enough of a role in public schools today?,Too much of a role,26,48,24,6
+1,1,1,Religion in Public Schools,Do you believe religion plays too much or not enough of a role in public schools today?,About the right amount,26,25,29,24
+2,1,1,Religion in Public Schools,Do you believe religion plays too much or not enough of a role in public schools today?,Not enough of a role,34,15,29,60
+3,1,1,Religion in Public Schools,Do you believe religion plays too much or not enough of a role in public schools today?,Not sure,14,12,18,11
+4,1,1,Religion in Public Schools,Do you believe religion plays too much or not enough of a role in public schools today?,Totals,100,100,100,101
+5,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,Only teach about Christianity,13,12,13,7
+6,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,"Teach about all religions, but give more emphasis to Christianity",100,100,100,99
+7,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,Teach about all religions equally,9,4,8,15
+8,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,Not teach about any religions,12,5,8,24
+9,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,Not sure,38,47,38,28
+10,2,2,Emphasis of Religion in Public Schools,Do you think public schools should...?,religions,28,38,29,17
+11,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,education classes,61,81,42,60
+12,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,religious symbols,53,73,41,43
+13,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,social studies curricula,22,14,20,32
+14,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,religious holidays,7,3,10,7
+15,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,science classes,7,3,10,8
+16,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,school property,12,8,19,10
+17,3,3A,Support or Oppose Religion in Schools — Teaching about contraception in sex education classes,Do you support or oppose the following in public schools?,topics on religious grounds,101,101,100,100
+18,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,people should live today,54,53,48,63
+19,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,my daily life,37,38,32,42
+20,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,how people should behave,33,32,32,34
+21,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,God to Moses,9,10,8,8
+22,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,"people, not given by God -",7,8,8,4
+23,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,certain religions -,15,12,19,12
+24,4,3B,Support or Oppose Religion in Schools — Allowing students to wear clothing or jewelry with religious symbols,Do you agree or disagree with the following regarding the Ten Commandments?,society -,101,100,99,100
+25,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",10,51,58,35,58
+26,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",9,33,41,29,28
+27,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",8,36,32,29,45
+28,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",7,10,5,15,10
+29,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",6,8,10,8,5
+30,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",5,14,12,19,12
+31,5,3C,Support or Oppose Religion in Schools — Teaching about world religions as part of required social studies curricula,"HowmanyoftheTenCommandmentsdoyouthinkyoucouldcurrentlylist,withoutconsultingoutsidesources?",4,101,100,100,100
+32,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Catholicism,49,51,47,49
+33,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Protestantism,32,34,30,32
+34,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Judaism,35,36,34,34
+35,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Jehovah’s Witnesses,9,10,8,10
+36,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Latter Day Saints (Mormonism),9,9,9,8
+37,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",Islam,15,12,19,15
+38,6,3D,Support or Oppose Religion in Schools — Requiring schools to accommodate students’ religious holidays,"Toyourknowledge,whichofthefollowingreligionsbelievethattheTenCommandmentsareadirectexpression",None of the above,100,101,100,99
+39,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,The Bible is the literal word of God,47,69,35,36
+40,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,The Bible is inspired by God but not all of it should be taken literally,44,65,36,32
+41,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,The Bible is a human-written book of history and moral teachings,24,15,24,33
+42,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,Not sure,8,8,10,6
+43,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,Strongly oppose,13,3,14,22
+44,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,Not sure,11,9,15,8
+45,7,3E,Support or Oppose Religion in Schools — Teaching about evolution in science classes,Which of the following comes closest to your view about the Bible?,Totals,100,100,99,101
+46,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Very religious,37,25,19,67
+47,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Somewhat religious,28,17,20,48
+48,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Not very religious,32,40,27,30
+49,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Not at all religious,11,14,13,7
+50,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Not sure,12,17,15,5
+51,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Not sure,16,12,25,11
+52,8,3F,Support or Oppose Religion in Schools — Allowing student-led religious clubs to meet on school property,"Would you say that when you were growing up, your family was...?",Totals,99,100,100,101
+53,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Protestant,33,33,74,73
+54,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Roman Catholic,41,19,36,69
+55,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Mormon,18,21,20,14
+56,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Eastern or Greek Orthodox,10,16,10,3
+57,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Jewish,17,33,13,6
+58,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Muslim,14,11,20,9
+59,9,3G,Support or Oppose Religion in Schools — Allowing parents to opt their children out of lessons involving LGBTQ+-related topics on religious,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Buddhist,100,100,99,101
+60,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",More than once a week,24,9,15,53
+61,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Once a week,26,22,20,39
+62,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Once or twice a month,29,27,26,33
+63,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",A few times a year,13,17,15,4
+64,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Seldom,19,24,17,15
+65,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Never,14,10,21,9
+66,10,3H,Support or Oppose Religion in Schools — Allowing time during the school day for student prayer or religious reflection,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Don’t know,101,100,99,100
+67,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,A public school,18,1,17,36
+68,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,A private religious school,20,14,20,25
+69,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,A private non-religious school,29,27,26,33
+70,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,Homeschool,14,16,15,11
+71,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,Other,17,24,15,11
+72,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,Did not go to school,21,19,24,20
+73,11,3I,"Support or Oppose Religion in Schools — Allowing religious texts — such as the Bible, Torah, or Quran — to be used in literature classes",Which of the following types of schools have you attended? Select all that apply.,Totals,101,100,100,100
+74,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,schools,10,5,50,47
+75,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Public schools,20,5,19,34
+76,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Private religious schools,26,21,23,34
+77,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Homeschool,13,15,17,8
+78,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Strongly oppose,23,42,20,9
+79,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Not sure,18,16,21,16
+80,12,3J,Support or Oppose Religion in Schools — Teaching about Christianity as part of a required social studies curricula,Do you have a favorable or an unfavorable opinion of the following types of schools?,Totals,100,99,100,101
+81,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Net Support - Oppose,8,45,48,15
+82,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Strongly support,23,13,18,37
+83,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Somewhat support,22,21,18,26
+84,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Somewhat oppose,10,11,10,9
+85,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Strongly oppose,26,41,28,8
+86,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Not sure,20,14,25,19
+87,13,3K,Support or Oppose Religion in Schools — Providing public vouchers that can be used for tuition at religious schools,Do you support or oppose the following in public schools?,Totals,101,100,99,99
+88,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Net Support - Oppose,3,42,40,15
+89,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Strongly support,20,15,17,27
+90,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Somewhat support,22,18,13,37
+91,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Somewhat oppose,14,14,16,11
+92,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Strongly oppose,25,37,26,11
+93,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Not sure,19,16,28,14
+94,14,3L,Support or Oppose Religion in Schools — Allowing school staff to lead students in silent non-denominational prayer,Do you support or oppose the following in public schools?,Totals,100,100,100,100
+95,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Net Support - Oppose,0,36,33,12
+96,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Strongly support,18,13,14,26
+97,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Somewhat support,22,12,21,33
+98,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Somewhat oppose,13,9,18,13
+99,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Strongly oppose,27,48,23,11
+100,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Not sure,20,19,25,17
+101,15,3M,Support or Oppose Religion in Schools — Requiring the teaching of creationism in science classes that teach evolution,Do you support or oppose the following in public schools?,Totals,100,101,101,100
+102,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Net Support - Oppose -,38,38,4,20
+103,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Strongly support,17,9,12,30
+104,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Somewhat support,22,16,20,29
+105,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Somewhat oppose,14,14,16,10
+106,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Strongly oppose,28,46,27,11
+107,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Not sure,20,16,25,19
+108,16,3N,Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students,Do you support or oppose the following in public schools?,Totals,101,101,100,99
+109,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Net Support - Oppose -,28,23,4,7
+110,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Strongly support,18,13,13,29
+111,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Somewhat support,19,10,23,23
+112,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Somewhat oppose,16,17,15,16
+113,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Strongly oppose,26,39,29,9
+114,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Not sure,22,20,22,23
+115,17,3O,Support or Oppose Religion in Schools — Teaching abstinence-only sex education classes,Do you support or oppose the following in public schools?,Totals,101,99,102,100
+116,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Net Support - Oppose -,45,39,8,24
+117,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Strongly support,19,11,10,35
+118,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Somewhat support,19,9,18,29
+119,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Somewhat oppose,13,13,18,8
+120,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Strongly oppose,30,52,29,10
+121,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Not sure,19,16,25,17
+122,18,3P,Support or Oppose Religion in Schools — Allowing school staff to lead students in Christian prayer,Do you support or oppose the following in public schools?,Totals,100,101,100,99
+123,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Net Support - Oppose -,43,52,1,7
+124,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Strongly support,23,47,19,4
+125,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Somewhat support,16,21,17,10
+126,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Somewhat oppose,11,6,14,14
+127,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Strongly oppose,35,19,32,54
+128,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Not sure,15,8,18,17
+129,20,3R,Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes,Do you support or oppose the following in public schools?,Totals,100,101,100,99
+130,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Strongly support,9,7,7,13
+131,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Somewhat support,20,19,20,22
+132,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Somewhat oppose,18,21,16,18
+133,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Strongly oppose,37,45,36,31
+134,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Not sure,15,8,21,17
+135,24,3V,Support or Oppose Religion in Schools — Allowing teachers to express their personal religious beliefs to students,Do you support or oppose the following in public schools?,Totals,99,100,100,101
+136,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Strongly support,6,9,7,2
+137,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Somewhat support,10,14,10,7
+138,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Somewhat oppose,15,18,15,13
+139,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Strongly oppose,52,46,48,62
+140,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Not sure,17,12,20,17
+141,25,3W,Support or Oppose Religion in Schools — Allowing teachers to criticize religion to students,Do you support or oppose the following in public schools?,Totals,100,99,100,101
+142,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Net Agree - Disagree,54,35,44,83
+143,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,40,23,32,64
+144,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,31,38,31,24
+145,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,8,15,7,3
+146,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,9,11,12,3
+147,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,12,13,17,5
+148,26,4A,Believe Statements About Ten Commandments — They are relevant to how people should live today,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,100,100,99,99
+149,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Net Agree - Disagree,46,29,37,71
+150,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,35,22,27,57
+151,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,32,38,32,27
+152,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,8,9,7,8
+153,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,13,22,15,4
+154,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,11,9,18,5
+155,27,4B,Believe Statements About Ten Commandments — I attempt to follow them in my daily life,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,99,100,99,101
+156,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Net Agree - Disagree,36,10,31,68
+157,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,40,23,33,65
+158,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,20,24,23,14
+159,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,9,10,8,7
+160,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,16,26,16,5
+161,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,15,17,19,8
+162,28,4C,Believe Statements About Ten Commandments — They are a direct expression of God’s will for how people should behave,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,100,100,99,99
+163,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Net Agree - Disagree,31,4,27,63
+164,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,39,25,34,59
+165,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,15,14,15,16
+166,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,6,8,6,5
+167,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,16,27,15,7
+168,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,23,27,30,13
+169,29,4D,Believe Statements About Ten Commandments — They were directly given by God to Moses,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,99,101,100,100
+170,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,10,17,8,4
+171,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,11,15,13,6
+172,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,22,30,20,14
+173,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,46,27,42,70
+174,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,11,11,16,6
+175,32,4G,Believe Statements About Ten Commandments — They are outdated and no longer relevant to modern society,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,100,100,99,100
+176,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly agree,8,13,8,3
+177,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat agree,9,11,11,4
+178,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Somewhat disagree,19,22,21,15
+179,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Strongly disagree,47,32,39,71
+180,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Not sure,17,22,21,7
+181,33,4H,Believe Statements About Ten Commandments — They have done more harm than good,Do you agree or disagree with the following regarding the Ten Commandments?,Totals,100,100,100,100
+182,34,5,Number of Ten Commandments Known,"How many of the Ten Commandments do you think you could currently list, without consulting outside sources?",Not sure,20,21,18,27
+183,34,5,Number of Ten Commandments Known,"How many of the Ten Commandments do you think you could currently list, without consulting outside sources?",Totals,101,101,100,99
+184,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Catholicism,57,56,51,65
+185,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Protestantism,45,42,39,55
+186,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Judaism,29,25,32,31
+187,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Jehovah’s Witnesses,24,21,28,24
+188,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Mormonism,22,19,19,28
+189,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Islam,8,7,10,5
+190,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",None of the above,6,6,10,3
+191,35,6,Religions Believe Ten Commandments,"To your knowledge, which of the following religions believe that the Ten Commandments are a direct expression of God’s will? Select all that apply.",Not sure,24,27,26,18
+192,36,7,Belief in Bible,Which of the following comes closest to your view about the Bible?,Totals,101,100,100,101
+193,36,7,Belief in Bible,Which of the following comes closest to your view about the Bible?,word of God,32,17,33,46
+194,36,7,Belief in Bible,Which of the following comes closest to your view about the Bible?,should be taken literally,30,32,24,33
+195,36,7,Belief in Bible,Which of the following comes closest to your view about the Bible?,teachings,29,41,30,14
+196,36,7,Belief in Bible,Which of the following comes closest to your view about the Bible?,Not sure,10,10,12,6
+197,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Very religious,25,21,24,30
+198,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Somewhat religious,44,42,43,48
+199,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Not very religious,17,17,19,16
+200,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Not at all religious,12,18,12,5
+201,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Not sure,2,2,2,0
+202,37,8,Religious Upbringing,"Would you say that when you were growing up, your family was...?",Totals,100,100,100,99
+203,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Atheist,2,2,2,9
+204,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Agnostic,1,1,2,3
+205,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Nothing in particular,14,13,15,22
+206,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Something else,19,16,21,14
+207,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Protestant,33,32,25,41
+208,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Roman Catholic,30,31,27,32
+209,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Mormon,1,2,1,1
+210,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Orthodox,1,0,1,2
+211,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Jewish,3,4,3,1
+212,38,9,Religion Growing Up,"What religion, if any, was your family affiliated with when you were growing up? Select all that apply.",Muslim,1,1,1,2
+213,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",More than once a week,18,13,21,19
+214,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Once a week,34,32,27,42
+215,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Once or twice a month,9,12,11,5
+216,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",A few times a year,13,12,16,11
+217,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Seldom,13,15,12,13
+218,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Never,12,14,11,9
+219,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Don’t know,2,2,2,1
+220,39,10,Church Attendance Growing Up,"Aside from weddings and funerals, how often did you attend religious services when you were growing up?",Totals,101,100,100,100
+221,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,A public school,90,91,91,88
+222,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,A private religious school,18,16,17,22
+223,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,school,7,10,7,4
+224,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,Homeschool,5,4,7,4
+225,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,Other,1,0,2,2
+226,40,11,Type of Schools,Which of the following types of schools have you attended? Select all that apply.,Did not go to school,1,1,2,0
+227,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Unfavorable,41,48,32,42
+228,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very favorable,19,20,16,21
+229,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat favorable,41,45,37,42
+230,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat unfavorable,13,12,14,14
+231,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very unfavorable,6,5,6,8
+232,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Don’t know,20,17,27,15
+233,41,12A,Favorability of Schools — Private non-religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Totals,99,99,100,100
+234,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Unfavorable,40,63,34,24
+235,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very favorable,27,39,25,17
+236,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat favorable,40,39,37,44
+237,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat unfavorable,18,12,20,22
+238,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very unfavorable,9,3,8,15
+239,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Don’t know,6,6,10,3
+240,42,12B,Favorability of Schools — Public schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Totals,100,99,100,101
+241,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Unfavorable,22,9,63,0
+242,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very favorable,23,17,16,38
+243,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat favorable,30,25,26,38
+244,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat unfavorable,17,24,18,10
+245,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very unfavorable,14,22,15,3
+246,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Don’t know,16,12,24,11
+247,43,12C,Favorability of Schools — Private religious schools,Do you have a favorable or an unfavorable opinion of the following types of schools?,Totals,100,100,99,100
+248,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Unfavorable,19,22,39,43
+249,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very favorable,22,13,19,33
+250,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat favorable,31,28,32,33
+251,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Somewhat unfavorable,21,26,19,19
+252,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Very unfavorable,12,19,9,8
+253,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Don’t know,14,14,20,7
+254,44,12D,Favorability of Schools — Homeschool,Do you have a favorable or an unfavorable opinion of the following types of schools?,Totals,100,100,99,100

@@ -1,0 +1,246 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",A lot,19,16,21,19
+1,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",A fair amount,30,32,31,28
+2,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",Not very much,29,29,29,28
+3,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",Not at all,19,19,15,23
+4,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",Don’t know,3,3,5,2
+5,1,1,Miss Being Child,"How much, if at all, do you miss being a child?",Totals,100,99,101,100
+6,2,2,Happier Now or as Child,Do you think you are generally happier now or were you happier when you were a child?,Happier now,24,26,18,28
+7,2,2,Happier Now or as Child,Do you think you are generally happier now or were you happier when you were a child?,Happier as a child,38,38,41,34
+8,2,2,Happier Now or as Child,Do you think you are generally happier now or were you happier when you were a child?,About equal,29,27,29,31
+9,2,2,Happier Now or as Child,Do you think you are generally happier now or were you happier when you were a child?,Don’t know,10,9,12,7
+10,2,2,Happier Now or as Child,Do you think you are generally happier now or were you happier when you were a child?,Totals,101,100,100,100
+11,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Trick-or-treating,3,3,3,4
+12,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Dolls,100,101,99,101
+13,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",bowling,57,54,63,53
+14,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Stuffed animals,24,25,15,33
+15,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Coloring books,14,19,15,10
+16,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Lego,1,1,1,2
+17,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Dressing up in costumes,1,0,0,1
+18,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Harry Potter,3,2,6,1
+19,3,3A,Child vs. Adult Activities — Trick-or-treating,"Do you see the following as more for children, more for adults, or equally for children and adults?",Disney films,100,101,100,100
+20,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,4,3,0
+21,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,99,98
+22,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,41,35,35,53
+23,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,35,42,28,36
+24,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,18,17,28,8
+25,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,2,1,4,0
+26,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,1,2
+27,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,5,4,1
+28,4,3B,Child vs. Adult Activities — Dolls,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,100
+29,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,13,14,11,14
+30,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,99
+31,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,35,25,36,42
+32,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,27,33,21,27
+33,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,21,26,25,14
+34,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,4,4,5,2
+35,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,0,2
+36,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,13,11,14,13
+37,5,3C,Child vs. Adult Activities — Using bumper guards while bowling,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,101,100
+38,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,6,3,8
+39,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,100,100
+40,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,28,17,25,44
+41,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,42,51,36,41
+42,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,24,26,32,12
+43,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,1,1,1,3
+44,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,0,1,0,0
+45,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,5,6,1
+46,6,3D,Child vs. Adult Activities — Stuffed animals,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,100,101
+47,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,0,0,1,0
+48,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,100,100,100
+49,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,24,20,19,34
+50,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,40,39,39,41
+51,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,34,39,41,23
+52,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,1,1,1,2
+53,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,0,0,0,1
+54,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,0,0,1,0
+55,7,3E,Child vs. Adult Activities — Coloring books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,99,101,101
+56,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,2,4,6
+57,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,100,100,100
+58,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,20,23,17,21
+59,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,36,30,31,46
+60,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,37,44,41,28
+61,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,1,2,2,1
+62,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,2,1,1,3
+63,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,1,7,1
+64,8,3F,Child vs. Adult Activities — Lego,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,99,100
+65,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,2,1
+66,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,101
+67,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,14,9,13,18
+68,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,39,34,37,43
+69,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,42,52,43,34
+70,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,3,4,1,4
+71,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,1,2
+72,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,0,5,0
+73,9,3G,Child vs. Adult Activities — Dressing up in costumes,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,101
+74,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,9,7,11,6
+75,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,101,100
+76,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,12,11,12,13
+77,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,28,30,25,29
+78,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,45,48,45,43
+79,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,4,3,3,7
+80,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,2,1,1,4
+81,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,9,8,14,3
+82,10,3H,Child vs. Adult Activities — Harry Potter,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,100,99
+83,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,3,4,0
+84,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,100,101
+85,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,11,10,11,13
+86,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,38,40,33,42
+87,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,43,45,49,35
+88,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,4,2,3,5
+89,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,0,0,0,1
+90,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,4,3,3
+91,11,3I,Child vs. Adult Activities — Disney films,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,99,99
+92,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,5,7,8
+93,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+94,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,11,6,9,17
+95,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,27,28,24,31
+96,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,45,48,50,38
+97,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,7,8,5,9
+98,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,4,4,4,2
+99,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,6,9,2
+100,12,3J,Child vs. Adult Activities — Trading cards,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,101,99
+101,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,1,1,1,0
+102,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,99,100,101
+103,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,10,7,7,15
+104,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,47,46,41,53
+105,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,40,44,47,30
+106,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,2,2,3,0
+107,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,0,0,0,1
+108,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,1,1,1,0
+109,13,3K,Child vs. Adult Activities — Watching cartoons,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,99,99
+110,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,4,4,3
+111,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,101,100
+112,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,11,10,9,14
+113,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,30,31,25,33
+114,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,52,52,58,45
+115,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,2,3,2,3
+116,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,2,2
+117,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,4,4,4,3
+118,14,3L,Child vs. Adult Activities — Being interested in dinosaurs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+119,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,3,2,2
+120,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,99,100,99
+121,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,10,9,10,12
+122,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,38,39,39,34
+123,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,47,41,50,49
+124,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,3,5,0,3
+125,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,0,2
+126,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,6,1,1
+127,15,3M,Child vs. Adult Activities — Making snowmen,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,101
+128,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,4,2,2
+129,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,99,101,100
+130,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,10,7,6,16
+131,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,40,34,40,46
+132,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,45,51,49,34
+133,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,2,3,1,1
+134,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,1,1
+135,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,4,3,1
+136,16,3N,Child vs. Adult Activities — Having birthday parties,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,99,100,99
+137,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,16,11,21,10
+138,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,99
+139,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,10,5,10,13
+140,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,15,16,14,15
+141,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,33,31,37,32
+142,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,17,17,18,16
+143,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,9,9,6,11
+144,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,16,22,15,13
+145,17,3O,Child vs. Adult Activities — Dungeons and Dragons (D&D),"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+146,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,3,9,5
+147,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,100,100
+148,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,8,8,6,11
+149,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,13,19,9,12
+150,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,53,51,61,47
+151,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,16,16,13,20
+152,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,3,3,1,6
+153,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,3,10,5
+154,18,3P,Child vs. Adult Activities — Star Wars,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,100,100,101
+155,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,8,13,4,5
+156,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,101,99,99
+157,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,8,8,6,9
+158,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,9,11,5,12
+159,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,70,66,76,66
+160,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,5,3,2,8
+161,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,0,1
+162,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,8,11,11,3
+163,19,3Q,Child vs. Adult Activities — Ketchup on hot dogs,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,101,100,100,99
+164,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,3,3,1
+165,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,99,101,100
+166,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,7,6,4,14
+167,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,29,30,24,34
+168,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,53,51,64,44
+169,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,6,7,7,6
+170,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,0,3
+171,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,6,2,0
+172,20,3R,Child vs. Adult Activities — Comic books,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,101,101
+173,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,3,0
+174,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+175,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,6,4,6,8
+176,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,18,22,14,21
+177,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,64,66,69,54
+178,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,9,5,7,15
+179,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,0,2
+180,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,3,3,0
+181,21,3S,Child vs. Adult Activities — Video games,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,99,100
+182,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,12,8,16,8
+183,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,101,99
+184,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,6,4,7,7
+185,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,12,13,10,13
+186,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,38,36,42,37
+187,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,22,21,22,22
+188,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,10,13,7,10
+189,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,12,14,11,12
+190,22,3T,Child vs. Adult Activities — Lord of the Rings,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,99,101
+191,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,3,1
+192,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,101,100,100
+193,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,5,6,4,6
+194,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,18,20,19,16
+195,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,71,70,71,71
+196,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,2,2,2,4
+197,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,0,0,3
+198,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,4,0
+199,23,3U,Child vs. Adult Activities — Eating sweets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,99,99,100,100
+200,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,1,0,2,1
+201,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+202,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,5,3,4,7
+203,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,25,28,20,31
+204,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,66,66,70,60
+205,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,1,3,0,1
+206,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,2,0,4,1
+207,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,1,0,2,0
+208,24,3V,Child vs. Adult Activities — Receiving birthday presents,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+209,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,5,6,4
+210,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,99,99
+211,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,5,3,6,6
+212,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,28,29,17,37
+213,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,46,49,50,39
+214,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,14,12,17,14
+215,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,3,1
+216,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,6,6,7,3
+217,25,3W,Child vs. Adult Activities — Model train sets,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,100,100
+218,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,3,1
+219,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,100,100
+220,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,5,1,1,11
+221,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,23,23,23,23
+222,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,64,65,67,60
+223,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,5,7,5,3
+224,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,2,0,2
+225,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,2,3,2
+226,26,3X,Child vs. Adult Activities — Riding amusement park rides,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,99,101
+227,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,4,3,2
+228,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,100,101,100
+229,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,5,2,3,9
+230,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,21,21,18,23
+231,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,70,70,74,66
+232,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,1,2,2,0
+233,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,0,0,0,0
+234,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,3,6,3,1
+235,27,3Y,Child vs. Adult Activities — Crying,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,100,99
+236,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,1,3,0
+237,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,99,100,99
+238,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for children,4,4,4,5
+239,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",also for adults,25,24,20,33
+240,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",adults,63,67,66,57
+241,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",for children,5,3,7,3
+242,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Entirely for adults,1,1,0,2
+243,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Don’t know,2,2,4,0
+244,28,3Z,Child vs. Adult Activities — Visiting theme parks,"Do you see the following as more for children, more for adults, or equally for children and adults?",Totals,100,101,101,100

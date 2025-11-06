@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "society",
+      "published_at": "2021-06-15T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Buy",
+          "value": 74
+        },
+        {
+          "label": "Rent",
+          "value": 17
+        }
+      ],
+      "survey_id": "6d0fe",
+      "survey_uuid": "7dd6d0fe-cd50-11eb-a494-0bc339b94993",
+      "title": "Given the choice, would you prefer to rent a home or buy a home?",
+      "total": 6168
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "politics": 1,
+      "society": 1
+    },
+    "types": {
+      "survey": 1
+    }
+  }
+}

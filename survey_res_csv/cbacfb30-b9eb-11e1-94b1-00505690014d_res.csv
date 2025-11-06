@@ -1,0 +1,173 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Already voted (absentee ballot),2,2,3,2
+1,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Definitely will vote,52,48,77,44
+2,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Probably will vote,12,16,11,15
+3,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",May or may not vote,7,11,3,10
+4,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Probably will not vote,4,3,3,4
+5,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Definitely will not vote,21,17,2,23
+6,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Don’t know,2,3,1,2
+7,1,1,Likely to Vote in SC Republican Primary,"How likely is it that you will vote in the Republican presidential primary in South Carolina on February 24,",Totals,100,100,100,100
+8,2,2,Republican Presidential Primary Vote,"If the 2024 Republican presidential primary in South Carolina were held today, which one of these candidates",Donald Trump,65,53,74,40
+9,2,2,Republican Presidential Primary Vote,"If the 2024 Republican presidential primary in South Carolina were held today, which one of these candidates",Nikki Haley,30,42,24,55
+10,2,2,Republican Presidential Primary Vote,"If the 2024 Republican presidential primary in South Carolina were held today, which one of these candidates",Someone else,4,5,2,5
+11,2,2,Republican Presidential Primary Vote,"If the 2024 Republican presidential primary in South Carolina were held today, which one of these candidates",Totals,99,100,100,100
+12,3,3,Decision on Trump,Which best describes your vote right now?,I’ve firmly decided on Trump,87,83,88,80
+13,3,3,Decision on Trump,Which best describes your vote right now?,I could still change to Haley,13,17,12,20
+14,3,3,Decision on Trump,Which best describes your vote right now?,Totals,100,100,100,100
+15,4,4,Decision on Haley,Which best describes your vote right now?,I’ve firmly decided on Haley,78,89,67,89
+16,4,4,Decision on Haley,Which best describes your vote right now?,I could still change to Trump,22,11,33,11
+17,4,4,Decision on Haley,Which best describes your vote right now?,Totals,100,100,100,100
+18,5,5A,Reasons to Consider Voting for Haley — Her record as governor,Are any of these reasons you might consider voting for Nikki Haley?,Her record as governor,34,31,35,32
+19,5,5A,Reasons to Consider Voting for Haley — Her record as governor,Are any of these reasons you might consider voting for Nikki Haley?,Concern about Trump’s legal fights,66,69,65,68
+20,5,5A,Reasons to Consider Voting for Haley — Her record as governor,Are any of these reasons you might consider voting for Nikki Haley?,The party needs someone new,100,100,100,100
+21,6,5B,Reasons to Consider Voting for Haley — Concern about Trump’s legal fights,Are any of these reasons you might consider voting for Donald Trump?,His record as president,23,25,22,29
+22,6,5B,Reasons to Consider Voting for Haley — Concern about Trump’s legal fights,Are any of these reasons you might consider voting for Donald Trump?,To show support during his legal fights,77,75,78,71
+23,6,5B,Reasons to Consider Voting for Haley — Concern about Trump’s legal fights,Are any of these reasons you might consider voting for Donald Trump?,Know what to expect from him,100,100,100,100
+24,7,5C,Reasons to Consider Voting for Haley — The party needs someone new,Please check the box if you think each word below describes Nikki Haley well... CHECK ALL THAT APPLY,Likable,23,22,23,24
+25,7,5C,Reasons to Consider Voting for Haley — The party needs someone new,Please check the box if you think each word below describes Nikki Haley well... CHECK ALL THAT APPLY,Honest,77,78,77,76
+26,7,5C,Reasons to Consider Voting for Haley — The party needs someone new,Please check the box if you think each word below describes Nikki Haley well... CHECK ALL THAT APPLY,Prepared,100,100,100,100
+27,8,5D,Reasons to Consider Voting for Haley — Prefer a woman as president,Please check the box if you think each word below describes Donald Trump well... CHECK ALL THAT APPLY,Likable,5,5,5,12
+28,8,5D,Reasons to Consider Voting for Haley — Prefer a woman as president,Please check the box if you think each word below describes Donald Trump well... CHECK ALL THAT APPLY,Honest,95,95,95,88
+29,8,5D,Reasons to Consider Voting for Haley — Prefer a woman as president,Please check the box if you think each word below describes Donald Trump well... CHECK ALL THAT APPLY,Prepared,100,100,100,100
+30,9,6A,Reasons to Consider Voting for Trump — His record as president,"Looking back, do you approve or disapprove of the way Nikki Haley handled her job as Governor of South",Approve,46,30,64,29
+31,9,6A,Reasons to Consider Voting for Trump — His record as president,"Looking back, do you approve or disapprove of the way Nikki Haley handled her job as Governor of South",Disapprove,54,70,36,71
+32,9,6A,Reasons to Consider Voting for Trump — His record as president,"Looking back, do you approve or disapprove of the way Nikki Haley handled her job as Governor of South",Not sure,100,100,100,100
+33,10,6B,Reasons to Consider Voting for Trump — To show support during his legal fights,"Lookingback,doyouapproveordisapproveofthewayDonaldTrumphandledhisjobasU.S.presidentfrom",Approve,16,9,22,3
+34,10,6B,Reasons to Consider Voting for Trump — To show support during his legal fights,"Lookingback,doyouapproveordisapproveofthewayDonaldTrumphandledhisjobasU.S.presidentfrom",Disapprove,84,91,78,97
+35,10,6B,Reasons to Consider Voting for Trump — To show support during his legal fights,"Lookingback,doyouapproveordisapproveofthewayDonaldTrumphandledhisjobasU.S.presidentfrom",Not sure,100,100,100,100
+36,11,6C,Reasons to Consider Voting for Trump — Know what to expect from him,"Whether or not you support her, do you consider Nikki Haley to be part of the MAGA movement, or not?","Yes, she is",40,24,56,28
+37,11,6C,Reasons to Consider Voting for Trump — Know what to expect from him,"Whether or not you support her, do you consider Nikki Haley to be part of the MAGA movement, or not?","No, she is not",60,76,44,72
+38,11,6C,Reasons to Consider Voting for Trump — Know what to expect from him,"Whether or not you support her, do you consider Nikki Haley to be part of the MAGA movement, or not?",Totals,100,100,100,100
+39,12,6D,Reasons to Consider Voting for Trump — Prefer a man as president,"Whether or not you support her, do you consider Nikki Haley to be part of the Republican establishment or","Yes, she is",8,5,10,3
+40,12,6D,Reasons to Consider Voting for Trump — Prefer a man as president,"Whether or not you support her, do you consider Nikki Haley to be part of the Republican establishment or","No, she is not",92,95,90,97
+41,12,6D,Reasons to Consider Voting for Trump — Prefer a man as president,"Whether or not you support her, do you consider Nikki Haley to be part of the Republican establishment or",Totals,100,100,100,100
+42,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment","Yes, he is",52,50,54,50
+43,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment","No, he is not",34,34,35,36
+44,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Prepared,42,47,41,49
+45,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Reasonable,41,48,40,51
+46,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Role model,31,34,31,37
+47,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Conservative,49,45,51,48
+48,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Strong leader,39,43,39,47
+49,13,7,Describes Nikki Haley,"Whether or not you support him, do you consider Donald Trump to be part of the Republican establishment",Tough,35,39,35,40
+50,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Positive,32,20,39,16
+51,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Negative,41,28,48,18
+52,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Neither,56,46,63,26
+53,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Reasonable,36,26,42,18
+54,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Role model,23,14,29,8
+55,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Conservative,64,50,72,34
+56,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Strong leader,75,62,84,53
+57,14,8,Describes Donald Trump,"When you hear the term ""Republican establishment"", do you think of it as something positive or something",Tough,78,70,86,59
+58,15,9,Haley Job Approval,"Do you think Nikki Haley fights for people like you, or not?",Yes,60,63,60,70
+59,15,9,Haley Job Approval,"Do you think Nikki Haley fights for people like you, or not?",No,22,22,22,18
+60,15,9,Haley Job Approval,"Do you think Nikki Haley fights for people like you, or not?",Not sure,17,15,18,12
+61,15,9,Haley Job Approval,"Do you think Nikki Haley fights for people like you, or not?",Totals,99,100,100,100
+62,16,10,Trump Job Approval,"Do you think Donald Trump fights for people like you, or not?",Yes,82,67,92,58
+63,16,10,Trump Job Approval,"Do you think Donald Trump fights for people like you, or not?",No,15,29,5,36
+64,16,10,Trump Job Approval,"Do you think Donald Trump fights for people like you, or not?",Not sure,3,4,2,6
+65,16,10,Trump Job Approval,"Do you think Donald Trump fights for people like you, or not?",Totals,100,100,99,100
+66,17,11,Haley MAGA or Not,Does Nikki Haley being from South Carolina make you...,More likely to vote for her in the Republican primary,24,20,24,22
+67,17,11,Haley MAGA or Not,Does Nikki Haley being from South Carolina make you...,Less likely to vote for her in the Republican primary,76,80,76,78
+68,17,11,Haley MAGA or Not,Does Nikki Haley being from South Carolina make you...,Doesn’t make a difference either way,100,100,100,100
+69,18,12,Is Haley GOP Establishment,"Do you give Donald Trump credit, blame, or neither for the overturn of Roe v. Wade?",Credit,75,78,73,78
+70,18,12,Is Haley GOP Establishment,"Do you give Donald Trump credit, blame, or neither for the overturn of Roe v. Wade?",Blame,25,22,27,22
+71,18,12,Is Haley GOP Establishment,"Do you give Donald Trump credit, blame, or neither for the overturn of Roe v. Wade?",Neither,100,100,100,100
+72,19,13,Is Trump GOP Establishment,"If Donald Trump were convicted of any of the crimes for which he is currently facing charges, would you",Yes,58,43,65,56
+73,19,13,Is Trump GOP Establishment,"If Donald Trump were convicted of any of the crimes for which he is currently facing charges, would you",No,42,57,35,44
+74,19,13,Is Trump GOP Establishment,"If Donald Trump were convicted of any of the crimes for which he is currently facing charges, would you",Depends on which charge,100,100,100,100
+75,20,14,Think of GOP Establishment,"DoyouthinkNikkiHaley’scriticismsofDonaldTrumponeachofthefollowingtopicsarefairorunfair,orhave",Trump’s mental fitness,42,15,53,29
+76,20,14,Think of GOP Establishment,"DoyouthinkNikkiHaley’scriticismsofDonaldTrumponeachofthefollowingtopicsarefairorunfair,orhave",Trump not debating,33,46,26,29
+77,20,14,Think of GOP Establishment,"DoyouthinkNikkiHaley’scriticismsofDonaldTrumponeachofthefollowingtopicsarefairorunfair,orhave","""Chaos"" following Trump",25,39,21,42
+78,20,14,Think of GOP Establishment,"DoyouthinkNikkiHaley’scriticismsofDonaldTrumponeachofthefollowingtopicsarefairorunfair,orhave",Totals,100,100,100,100
+79,21,15,Haley Fight for People Like You,"DoyouthinkDonaldTrump’scriticismsofNikkiHaleyoneachofthefollowingtopicsarefairorunfair,orhave",Haley’s intelligence,56,57,57,67
+80,21,15,Haley Fight for People Like You,"DoyouthinkDonaldTrump’scriticismsofNikkiHaleyoneachofthefollowingtopicsarefairorunfair,orhave",Haley’s clothing,44,43,43,33
+81,21,15,Haley Fight for People Like You,"DoyouthinkDonaldTrump’scriticismsofNikkiHaleyoneachofthefollowingtopicsarefairorunfair,orhave",Haley’s name,100,100,100,100
+82,22,16,Trump Fight for People Like You,"IfNikkiHaleyweretobecometheRepublicannomineein2024,howwouldyoudescribeherchancesagainst",She would be a long shot to beat Biden,81,65,93,55
+83,22,16,Trump Fight for People Like You,"IfNikkiHaleyweretobecometheRepublicannomineein2024,howwouldyoudescribeherchancesagainst",She might beat Biden,19,35,7,45
+84,22,16,Trump Fight for People Like You,"IfNikkiHaleyweretobecometheRepublicannomineein2024,howwouldyoudescribeherchancesagainst",She would definitely beat Biden,100,100,100,100
+85,23,17,Haley Being from South Carolina,"If Donald Trump were to become the Republican nominee in 2024, how would you describe his chances",He would be a long shot to beat Biden,20,20,20,27
+86,23,17,Haley Being from South Carolina,"If Donald Trump were to become the Republican nominee in 2024, how would you describe his chances",He might beat Biden,5,3,5,2
+87,23,17,Haley Being from South Carolina,"If Donald Trump were to become the Republican nominee in 2024, how would you describe his chances",He would definitely beat Biden,75,77,75,71
+88,23,17,Haley Being from South Carolina,"If Donald Trump were to become the Republican nominee in 2024, how would you describe his chances",Totals,100,100,100,100
+89,24,18,Trump Get Credit or Blame for Overturning Roe v. Wade,Do you want abortion in South Carolina to be...,Legal in all cases,33,22,38,13
+90,24,18,Trump Get Credit or Blame for Overturning Roe v. Wade,Do you want abortion in South Carolina to be...,Legal in most cases,8,18,2,23
+91,24,18,Trump Get Credit or Blame for Overturning Roe v. Wade,Do you want abortion in South Carolina to be...,Illegal in most cases,59,60,60,64
+92,24,18,Trump Get Credit or Blame for Overturning Roe v. Wade,Do you want abortion in South Carolina to be...,Illegal in all cases,100,100,100,100
+93,25,19,Trump Fit for Presidency if Convicted,"Whenyouthinkaboutyour2024Republicanprimaryvote,what’smoreimportanttoyou? Howthecandidates",State and local issues in South Carolina,49,36,57,24
+94,25,19,Trump Fit for Presidency if Convicted,"Whenyouthinkaboutyour2024Republicanprimaryvote,what’smoreimportanttoyou? Howthecandidates",National issues in the country,22,37,12,49
+95,25,19,Trump Fit for Presidency if Convicted,"Whenyouthinkaboutyour2024Republicanprimaryvote,what’smoreimportanttoyou? Howthecandidates",Depends on which charge,29,27,31,27
+96,25,19,Trump Fit for Presidency if Convicted,"Whenyouthinkaboutyour2024Republicanprimaryvote,what’smoreimportanttoyou? Howthecandidates",Totals,100,100,100,100
+97,26,20A,Haley’s Criticisms of Trump — Trump’s mental fitness,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Financially better off,21,32,13,42
+98,26,20A,Haley’s Criticisms of Trump — Trump’s mental fitness,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Financially worse off,61,53,69,41
+99,26,20A,Haley’s Criticisms of Trump — Trump’s mental fitness,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Stay about the same,18,15,18,17
+100,26,20A,Haley’s Criticisms of Trump — Trump’s mental fitness,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Totals,100,100,100,100
+101,27,20B,Haley’s Criticisms of Trump — Trump not debating,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Financially better off,43,53,38,63
+102,27,20B,Haley’s Criticisms of Trump — Trump not debating,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Financially worse off,38,29,43,20
+103,27,20B,Haley’s Criticisms of Trump — Trump not debating,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Stay about the same,19,18,18,17
+104,27,20B,Haley’s Criticisms of Trump — Trump not debating,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Totals,100,100,99,100
+105,28,20C,"Haley’s Criticisms of Trump — ""Chaos"" following Trump","If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico",More secure,43,54,36,67
+106,28,20C,"Haley’s Criticisms of Trump — ""Chaos"" following Trump","If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico",Less secure,45,33,53,22
+107,28,20C,"Haley’s Criticisms of Trump — ""Chaos"" following Trump","If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico",Not change things either way,12,13,11,11
+108,28,20C,"Haley’s Criticisms of Trump — ""Chaos"" following Trump","If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico",Totals,100,100,100,100
+109,29,21A,Trump’s Criticisms of Haley — Haley’s intelligence,"Ifelectedpresidentin2024,doyouthinkDonaldTrump’spoliciesandapproachwouldmaketheU.S.-Mexico",More secure,18,14,20,13
+110,29,21A,Trump’s Criticisms of Haley — Haley’s intelligence,"Ifelectedpresidentin2024,doyouthinkDonaldTrump’spoliciesandapproachwouldmaketheU.S.-Mexico",Less secure,48,56,44,61
+111,29,21A,Trump’s Criticisms of Haley — Haley’s intelligence,"Ifelectedpresidentin2024,doyouthinkDonaldTrump’spoliciesandapproachwouldmaketheU.S.-Mexico",Not change things either way,33,30,35,26
+112,29,21A,Trump’s Criticisms of Haley — Haley’s intelligence,"Ifelectedpresidentin2024,doyouthinkDonaldTrump’spoliciesandapproachwouldmaketheU.S.-Mexico",Totals,99,100,99,100
+113,30,21B,Trump’s Criticisms of Haley — Haley’s clothing,Would you prefer the Republican 2024 nominee...,Support U.S. aid to Ukraine in its fight against Russia,8,4,9,6
+114,30,21B,Trump’s Criticisms of Haley — Haley’s clothing,Would you prefer the Republican 2024 nominee...,Oppose U.S. aid to Ukraine in its fight against Russia,50,55,48,64
+115,30,21B,Trump’s Criticisms of Haley — Haley’s clothing,Would you prefer the Republican 2024 nominee...,Haven’t heard,42,41,43,30
+116,30,21B,Trump’s Criticisms of Haley — Haley’s clothing,Would you prefer the Republican 2024 nominee...,Totals,100,100,100,100
+117,31,21C,Trump’s Criticisms of Haley — Haley’s name,"If elected president in 2024, do you think Nikki Haley’s policies would...",Increase U.S. military involvement overseas,11,8,12,8
+118,31,21C,Trump’s Criticisms of Haley — Haley’s name,"If elected president in 2024, do you think Nikki Haley’s policies would...",Decrease U.S. military involvement overseas,52,56,50,65
+119,31,21C,Trump’s Criticisms of Haley — Haley’s name,"If elected president in 2024, do you think Nikki Haley’s policies would...",No change either way,37,36,38,26
+120,31,21C,Trump’s Criticisms of Haley — Haley’s name,"If elected president in 2024, do you think Nikki Haley’s policies would...",Totals,100,100,100,99
+121,32,22,Haley’s Chances of Beating Biden,"If elected president in 2024, do you think Donald Trump’s policies would...",Increase U.S. military involvement overseas,25,24,25,20
+122,32,22,Haley’s Chances of Beating Biden,"If elected president in 2024, do you think Donald Trump’s policies would...",Decrease U.S. military involvement overseas,42,40,42,44
+123,32,22,Haley’s Chances of Beating Biden,"If elected president in 2024, do you think Donald Trump’s policies would...",No change either way,33,36,33,36
+124,32,22,Haley’s Chances of Beating Biden,"If elected president in 2024, do you think Donald Trump’s policies would...",Totals,100,100,100,100
+125,33,23,Trump’s Chances of Beating Biden,"If elected president in 2024, do you think Nikki Haley would...",Support a national abortion ban,11,22,5,27
+126,33,23,Trump’s Chances of Beating Biden,"If elected president in 2024, do you think Nikki Haley would...",Oppose a national abortion ban,34,35,32,38
+127,33,23,Trump’s Chances of Beating Biden,"If elected president in 2024, do you think Nikki Haley would...",Neither,55,42,63,34
+128,33,23,Trump’s Chances of Beating Biden,"If elected president in 2024, do you think Nikki Haley would...",Totals,100,99,100,99
+129,34,24,Abortion Legal in South Carolina,"If elected president in 2024, do you think Donald Trump would...",Support a national abortion ban,7,6,5,13
+130,34,24,Abortion Legal in South Carolina,"If elected president in 2024, do you think Donald Trump would...",Oppose a national abortion ban,20,28,16,39
+131,34,24,Abortion Legal in South Carolina,"If elected president in 2024, do you think Donald Trump would...",Neither,55,56,58,42
+132,34,24,Abortion Legal in South Carolina,"If elected president in 2024, do you think Donald Trump would...",Illegal in all cases,18,10,21,6
+133,34,24,Abortion Legal in South Carolina,"If elected president in 2024, do you think Donald Trump would...",Totals,100,100,100,100
+134,35,25,State vs. National Issues,"When you think about your 2024 Republican primary vote, what’s more important to you? How the candidates address...",State and local issues in South Ca,11,9,10,20
+135,35,25,State vs. National Issues,"When you think about your 2024 Republican primary vote, what’s more important to you? How the candidates address...",National issues in the country,89,91,90,80
+136,35,25,State vs. National Issues,"When you think about your 2024 Republican primary vote, what’s more important to you? How the candidates address...",Totals,100,100,100,100
+137,36,26,Financial Condition if Haley Wins,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Financially better off,32,30,34,30
+138,36,26,Financial Condition if Haley Wins,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Financially worse off,21,20,21,14
+139,36,26,Financial Condition if Haley Wins,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Stay about the same,47,50,45,56
+140,36,26,Financial Condition if Haley Wins,"If Nikki Haley wins the presidency in 2024, do you think her policies would make you...",Totals,100,100,100,100
+141,37,27,Financial Condition if Trump Wins,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Financially better off,73,57,83,45
+142,37,27,Financial Condition if Trump Wins,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Financially worse off,9,20,2,26
+143,37,27,Financial Condition if Trump Wins,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Stay about the same,18,22,15,29
+144,37,27,Financial Condition if Trump Wins,"If Donald Trump wins the presidency in 2024, do you think his policies would make you...",Totals,100,99,100,100
+145,38,28,Haley Approach to Border Security,"If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico border...",More secure,53,52,55,53
+146,38,28,Haley Approach to Border Security,"If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico border...",Less secure,17,13,19,10
+147,38,28,Haley Approach to Border Security,"If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico border...",Not change things either way,30,35,26,37
+148,38,28,Haley Approach to Border Security,"If elected president in 2024, do you think Nikki Haley’s policies and approach would make the U.S.-Mexico border...",Totals,100,100,100,100
+149,39,29,Trump Approach to Border Security,"If elected president in 2024, do you think Donald Trump’s policies and approach would make the U.S.-Mexico border...",More secure,88,79,97,70
+150,39,29,Trump Approach to Border Security,"If elected president in 2024, do you think Donald Trump’s policies and approach would make the U.S.-Mexico border...",Less secure,4,4,1,8
+151,39,29,Trump Approach to Border Security,"If elected president in 2024, do you think Donald Trump’s policies and approach would make the U.S.-Mexico border...",Not change things either way,8,16,2,22
+152,39,29,Trump Approach to Border Security,"If elected president in 2024, do you think Donald Trump’s policies and approach would make the U.S.-Mexico border...",Totals,100,99,100,100
+153,40,30,Republican Nominee - Ukraine,Would you prefer the Republican 2024 nominee...,Support US aid to Ukraine in its fi,48,51,46,59
+154,40,30,Republican Nominee - Ukraine,Would you prefer the Republican 2024 nominee...,Oppose US aid to Ukraine in its fig,52,49,54,41
+155,40,30,Republican Nominee - Ukraine,Would you prefer the Republican 2024 nominee...,Totals,100,100,100,100
+156,41,31,Haley and Military Involvements Overseas,"If elected president in 2024, do you think Nikki Haley’s policies would...",Increase US military involvement,41,45,42,33
+157,41,31,Haley and Military Involvements Overseas,"If elected president in 2024, do you think Nikki Haley’s policies would...",Decrease US military involvement,15,12,16,17
+158,41,31,Haley and Military Involvements Overseas,"If elected president in 2024, do you think Nikki Haley’s policies would...",No change either way,44,43,42,50
+159,41,31,Haley and Military Involvements Overseas,"If elected president in 2024, do you think Nikki Haley’s policies would...",Totals,100,100,100,100
+160,42,32,Trump and Military Involvements Overseas,"If elected president in 2024, do you think Donald Trump’s policies would...",Increase US military involvement,33,26,36,31
+161,42,32,Trump and Military Involvements Overseas,"If elected president in 2024, do you think Donald Trump’s policies would...",Decrease US military involvement,47,55,45,43
+162,42,32,Trump and Military Involvements Overseas,"If elected president in 2024, do you think Donald Trump’s policies would...",No change either way,20,19,19,26
+163,42,32,Trump and Military Involvements Overseas,"If elected president in 2024, do you think Donald Trump’s policies would...",Totals,100,100,100,100
+164,43,33,Haley and an Abortion Ban,"If elected president in 2024, do you think Nikki Haley would...",Support a national abortion ban,26,22,26,23
+165,43,33,Haley and an Abortion Ban,"If elected president in 2024, do you think Nikki Haley would...",Oppose a national abortion ban,37,41,36,39
+166,43,33,Haley and an Abortion Ban,"If elected president in 2024, do you think Nikki Haley would...",Neither,37,37,38,37
+167,43,33,Haley and an Abortion Ban,"If elected president in 2024, do you think Nikki Haley would...",Totals,100,100,100,99
+168,44,34,Trump and an Abortion Ban,"If elected president in 2024, do you think Donald Trump would...",Support a national abortion ban,47,46,46,48
+169,44,34,Trump and an Abortion Ban,"If elected president in 2024, do you think Donald Trump would...",Oppose a national abortion ban,18,18,19,20
+170,44,34,Trump and an Abortion Ban,"If elected president in 2024, do you think Donald Trump would...",Neither,35,36,35,32
+171,44,34,Trump and an Abortion Ban,"If elected president in 2024, do you think Donald Trump would...",Totals,100,100,100,100

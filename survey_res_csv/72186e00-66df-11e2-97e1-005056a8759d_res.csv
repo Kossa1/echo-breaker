@@ -1,0 +1,140 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,Very urban,19,26,13,16
+1,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,Somewhat urban,24,28,22,20
+2,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,More urban than rural,23,22,24,23
+3,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,More rural than urban,13,11,14,15
+4,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,Somewhat rural,14,9,18,15
+5,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,Very rural,7,4,8,10
+6,1,1,Currently Live in Urban or Rural Area,Would you say that you currently live in an area that is...?,Totals,100,100,99,99
+7,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",Very urban,22,24,19,21
+8,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",Somewhat urban,20,25,20,14
+9,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",More urban than rural,21,20,20,23
+10,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",More rural than urban,16,15,20,12
+11,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",Somewhat rural,10,9,12,10
+12,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",Very rural,12,7,10,20
+13,2,2,Grew Up in Urban or Rural Area,"When you were growing up, was most of your time spent living in an area that was...?",Totals,101,100,101,100
+14,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",Very urban,15,22,12,12
+15,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",Somewhat urban,15,23,13,10
+16,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",More urban than rural,18,19,19,14
+17,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",More rural than urban,19,17,19,21
+18,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",Somewhat rural,18,13,21,20
+19,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",Very rural,14,6,16,23
+20,3,3,Prefer to Live in Urban or Rural Area,"If you had a choice, would you prefer to live in an area that is...?",Totals,99,100,100,100
+21,4,4,More in Common - Urban or Rural Areas,"Regardless of where you live, would you say that you personally have more in common with...?",People in urban areas,25,41,17,17
+22,4,4,More in Common - Urban or Rural Areas,"Regardless of where you live, would you say that you personally have more in common with...?",People in rural areas,21,12,20,34
+23,4,4,More in Common - Urban or Rural Areas,"Regardless of where you live, would you say that you personally have more in common with...?",Both equally,38,38,38,40
+24,4,4,More in Common - Urban or Rural Areas,"Regardless of where you live, would you say that you personally have more in common with...?",Not sure,15,9,25,10
+25,4,4,More in Common - Urban or Rural Areas,"Regardless of where you live, would you say that you personally have more in common with...?",Totals,99,100,100,101
+26,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Very similar to one another,100,99,100,100
+27,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Somewhat similar to one another,10,13,8,8
+28,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Somewhat different from one another,22,23,22,19
+29,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Very different from one another,41,42,40,40
+30,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Not sure,15,14,10,24
+31,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Not sure,12,8,20,8
+32,5,5,Gap in Urban and Rural Areas,Do you think that Americans living in urban and rural areas are...?,Totals,100,100,100,99
+33,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Become much more similar to one another,16,19,13,13
+34,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Become somewhat more similar to one another,20,12,26,24
+35,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Not become more similar or different,100,100,99,100
+36,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Become somewhat more different from one another,7,8,5,7
+37,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Become much more different from one another,17,19,15,16
+38,6,6,Changes in Urban and Rural Divides,"In recent decades, do you think that Americans living in urban and rural areas have...?",Not sure,16,14,18,17
+39,7,7A,Comparisons Between Urban and Rural Areas — Are more diverse,Would you say that the following better describes urban or rural areas of the United States?,Are more diverse,62,67,58,61
+40,7,7A,Comparisons Between Urban and Rural Areas — Are more diverse,Would you say that the following better describes urban or rural areas of the United States?,Have more cultural attractions,9,8,9,10
+41,7,7A,Comparisons Between Urban and Rural Areas — Are more diverse,Would you say that the following better describes urban or rural areas of the United States?,Have more political power,17,17,17,18
+42,7,7A,Comparisons Between Urban and Rural Areas — Are more diverse,Would you say that the following better describes urban or rural areas of the United States?,Have younger populations,12,8,17,11
+43,7,7A,Comparisons Between Urban and Rural Areas — Are more diverse,Would you say that the following better describes urban or rural areas of the United States?,Have more-educated people,100,100,101,100
+44,8,7B,Comparisons Between Urban and Rural Areas — Have more cultural attractions,Would you say that Americans living in urban areas are...?,Almost all liberal,60,61,53,68
+45,8,7B,Comparisons Between Urban and Rural Areas — Have more cultural attractions,Would you say that Americans living in urban areas are...?,Mostly liberal,13,15,12,11
+46,8,7B,Comparisons Between Urban and Rural Areas — Have more cultural attractions,Would you say that Americans living in urban areas are...?,Equally liberal and conservative,15,16,18,12
+47,8,7B,Comparisons Between Urban and Rural Areas — Have more cultural attractions,Would you say that Americans living in urban areas are...?,Mostly conservative,11,8,17,9
+48,8,7B,Comparisons Between Urban and Rural Areas — Have more cultural attractions,Would you say that Americans living in urban areas are...?,Almost all conservative,99,100,100,100
+49,9,7C,Comparisons Between Urban and Rural Areas — Have more political power,Would you say that Americans living in rural areas are...?,Almost all liberal,56,57,47,65
+50,9,7C,Comparisons Between Urban and Rural Areas — Have more political power,Would you say that Americans living in rural areas are...?,Mostly liberal,10,11,11,9
+51,9,7C,Comparisons Between Urban and Rural Areas — Have more political power,Would you say that Americans living in rural areas are...?,Equally liberal and conservative,19,20,21,15
+52,9,7C,Comparisons Between Urban and Rural Areas — Have more political power,Would you say that Americans living in rural areas are...?,Mostly conservative,15,12,21,11
+53,9,7C,Comparisons Between Urban and Rural Areas — Have more political power,Would you say that Americans living in rural areas are...?,Almost all conservative,100,100,100,100
+54,10,7D,Comparisons Between Urban and Rural Areas — Have younger populations,"Which, if any, of the following types of home best describes where you currently live?",Mobile home,55,57,51,57
+55,10,7D,Comparisons Between Urban and Rural Areas — Have younger populations,"Which, if any, of the following types of home best describes where you currently live?",Single-family detached house,12,15,9,12
+56,10,7D,Comparisons Between Urban and Rural Areas — Have younger populations,"Which, if any, of the following types of home best describes where you currently live?",Single-family attached house (townhouse),19,18,19,19
+57,10,7D,Comparisons Between Urban and Rural Areas — Have younger populations,"Which, if any, of the following types of home best describes where you currently live?",An apartment or condominium/co-op building (with 2 or more units),15,11,21,13
+58,10,7D,Comparisons Between Urban and Rural Areas — Have younger populations,"Which, if any, of the following types of home best describes where you currently live?",Other,101,101,100,101
+59,11,7E,Comparisons Between Urban and Rural Areas — Have more-educated people,Do you own or rent the home in which you live?,Own – outright without a loan/mortgage,48,64,37,44
+60,11,7E,Comparisons Between Urban and Rural Areas — Have more-educated people,Do you own or rent the home in which you live?,,7,5,7,10
+61,11,7E,Comparisons Between Urban and Rural Areas — Have more-educated people,Do you own or rent the home in which you live?,Rent,32,22,38,35
+62,11,7E,Comparisons Between Urban and Rural Areas — Have more-educated people,Do you own or rent the home in which you live?,"Neither – I live with my parents, family or friends but pay some rent to them",13,9,18,11
+63,11,7E,Comparisons Between Urban and Rural Areas — Have more-educated people,Do you own or rent the home in which you live?,"Neither – I live rent-free with my parents, family or friends",100,100,100,100
+64,12,7F,Comparisons Between Urban and Rural Areas — Have stronger economies,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,44,58,37,35
+65,12,7F,Comparisons Between Urban and Rural Areas — Have stronger economies,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,12,7,12,20
+66,12,7F,Comparisons Between Urban and Rural Areas — Have stronger economies,Would you say that the following better describes urban or rural areas of the United States?,No difference,25,20,27,29
+67,12,7F,Comparisons Between Urban and Rural Areas — Have stronger economies,Would you say that the following better describes urban or rural areas of the United States?,Not sure,19,15,24,17
+68,12,7F,Comparisons Between Urban and Rural Areas — Have stronger economies,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,100,101
+69,13,7G,Comparisons Between Urban and Rural Areas — I’d prefer to live there,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,30,47,23,18
+70,13,7G,Comparisons Between Urban and Rural Areas — I’d prefer to live there,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,45,31,45,61
+71,13,7G,Comparisons Between Urban and Rural Areas — I’d prefer to live there,Would you say that the following better describes urban or rural areas of the United States?,No difference,15,14,17,14
+72,13,7G,Comparisons Between Urban and Rural Areas — I’d prefer to live there,Would you say that the following better describes urban or rural areas of the United States?,Not sure,10,8,15,8
+73,13,7G,Comparisons Between Urban and Rural Areas — I’d prefer to live there,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,100,101
+74,14,7H,Comparisons Between Urban and Rural Areas — Are thriving,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,28,38,25,20
+75,14,7H,Comparisons Between Urban and Rural Areas — Are thriving,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,18,14,14,28
+76,14,7H,Comparisons Between Urban and Rural Areas — Are thriving,Would you say that the following better describes urban or rural areas of the United States?,No difference,32,25,36,34
+77,14,7H,Comparisons Between Urban and Rural Areas — Are thriving,Would you say that the following better describes urban or rural areas of the United States?,Not sure,22,23,25,19
+78,14,7H,Comparisons Between Urban and Rural Areas — Are thriving,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,100,101
+79,15,7I,Comparisons Between Urban and Rural Areas — Are more welcoming to newcomers,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,25,37,20,17
+80,15,7I,Comparisons Between Urban and Rural Areas — Are more welcoming to newcomers,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,38,30,34,52
+81,15,7I,Comparisons Between Urban and Rural Areas — Are more welcoming to newcomers,Would you say that the following better describes urban or rural areas of the United States?,No difference,21,18,25,19
+82,15,7I,Comparisons Between Urban and Rural Areas — Are more welcoming to newcomers,Would you say that the following better describes urban or rural areas of the United States?,Not sure,16,15,21,12
+83,15,7I,Comparisons Between Urban and Rural Areas — Are more welcoming to newcomers,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,100,100
+84,16,7J,Comparisons Between Urban and Rural Areas — Are more environmentally conscious,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,23,32,19,18
+85,16,7J,Comparisons Between Urban and Rural Areas — Are more environmentally conscious,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,36,28,37,45
+86,16,7J,Comparisons Between Urban and Rural Areas — Are more environmentally conscious,Would you say that the following better describes urban or rural areas of the United States?,No difference,24,21,25,26
+87,16,7J,Comparisons Between Urban and Rural Areas — Are more environmentally conscious,Would you say that the following better describes urban or rural areas of the United States?,Not sure,17,18,19,12
+88,16,7J,Comparisons Between Urban and Rural Areas — Are more environmentally conscious,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,99,100,101
+89,17,7K,Comparisons Between Urban and Rural Areas — I’d prefer to vacation there,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,22,32,20,14
+90,17,7K,Comparisons Between Urban and Rural Areas — I’d prefer to vacation there,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,40,33,36,51
+91,17,7K,Comparisons Between Urban and Rural Areas — I’d prefer to vacation there,Would you say that the following better describes urban or rural areas of the United States?,No difference,24,25,24,23
+92,17,7K,Comparisons Between Urban and Rural Areas — I’d prefer to vacation there,Would you say that the following better describes urban or rural areas of the United States?,Not sure,14,10,19,12
+93,17,7K,Comparisons Between Urban and Rural Areas — I’d prefer to vacation there,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,99,100
+94,18,7L,Comparisons Between Urban and Rural Areas — Are more prepared for a catastrophe,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,21,28,19,16
+95,18,7L,Comparisons Between Urban and Rural Areas — Are more prepared for a catastrophe,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,36,24,32,53
+96,18,7L,Comparisons Between Urban and Rural Areas — Are more prepared for a catastrophe,Would you say that the following better describes urban or rural areas of the United States?,No difference,24,29,23,20
+97,18,7L,Comparisons Between Urban and Rural Areas — Are more prepared for a catastrophe,Would you say that the following better describes urban or rural areas of the United States?,Not sure,19,19,25,11
+98,18,7L,Comparisons Between Urban and Rural Areas — Are more prepared for a catastrophe,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,99,100
+99,19,7M,Comparisons Between Urban and Rural Areas — Have friendlier people,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,11,16,8,10
+100,19,7M,Comparisons Between Urban and Rural Areas — Have friendlier people,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,49,39,45,65
+101,19,7M,Comparisons Between Urban and Rural Areas — Have friendlier people,Would you say that the following better describes urban or rural areas of the United States?,No difference,26,32,28,16
+102,19,7M,Comparisons Between Urban and Rural Areas — Have friendlier people,Would you say that the following better describes urban or rural areas of the United States?,Not sure,14,13,19,9
+103,19,7M,Comparisons Between Urban and Rural Areas — Have friendlier people,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,100,100,100
+104,20,7N,Comparisons Between Urban and Rural Areas — Have a lower cost of living,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,9,13,6,7
+105,20,7N,Comparisons Between Urban and Rural Areas — Have a lower cost of living,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,62,58,59,71
+106,20,7N,Comparisons Between Urban and Rural Areas — Have a lower cost of living,Would you say that the following better describes urban or rural areas of the United States?,No difference,16,19,17,13
+107,20,7N,Comparisons Between Urban and Rural Areas — Have a lower cost of living,Would you say that the following better describes urban or rural areas of the United States?,Not sure,12,10,17,9
+108,20,7N,Comparisons Between Urban and Rural Areas — Have a lower cost of living,Would you say that the following better describes urban or rural areas of the United States?,Totals,99,100,99,100
+109,21,7O,Comparisons Between Urban and Rural Areas — Have less crime,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,9,13,7,6
+110,21,7O,Comparisons Between Urban and Rural Areas — Have less crime,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,61,51,57,77
+111,21,7O,Comparisons Between Urban and Rural Areas — Have less crime,Would you say that the following better describes urban or rural areas of the United States?,No difference,17,25,19,6
+112,21,7O,Comparisons Between Urban and Rural Areas — Have less crime,Would you say that the following better describes urban or rural areas of the United States?,Not sure,13,10,17,10
+113,21,7O,Comparisons Between Urban and Rural Areas — Have less crime,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,99,100,99
+114,22,7P,Comparisons Between Urban and Rural Areas — Are more religious,Would you say that the following better describes urban or rural areas of the United States?,Urban areas,7,11,5,5
+115,22,7P,Comparisons Between Urban and Rural Areas — Are more religious,Would you say that the following better describes urban or rural areas of the United States?,Rural areas,55,57,49,62
+116,22,7P,Comparisons Between Urban and Rural Areas — Are more religious,Would you say that the following better describes urban or rural areas of the United States?,No difference,23,21,24,23
+117,22,7P,Comparisons Between Urban and Rural Areas — Are more religious,Would you say that the following better describes urban or rural areas of the United States?,Not sure,15,12,22,10
+118,22,7P,Comparisons Between Urban and Rural Areas — Are more religious,Would you say that the following better describes urban or rural areas of the United States?,Totals,100,101,100,100
+119,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Almost all liberal,8,3,6,15
+120,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Mostly liberal,37,38,32,41
+121,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,conservative,28,32,29,23
+122,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Mostly conservative,5,6,6,4
+123,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Almost all conservative,2,3,1,4
+124,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Not sure,20,17,27,14
+125,23,8,Ideology of Urban Areas,Would you say that Americans living in urban areas are...?,Totals,100,99,101,101
+126,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Almost all liberal,1,2,1,2
+127,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Mostly liberal,3,6,2,2
+128,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,conservative,23,24,25,17
+129,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Mostly conservative,44,42,38,52
+130,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Almost all conservative,10,9,8,15
+131,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Not sure,19,17,26,11
+132,24,9,Ideology of Rural Areas,Would you say that Americans living in rural areas are...?,Totals,100,100,100,99
+133,26,11,House Tenure,Do you own or rent the home in which you live?,rent to them,4,2,5,10
+134,26,11,House Tenure,Do you own or rent the home in which you live?,or friends,6,6,5,16
+135,26,11,House Tenure,Do you own or rent the home in which you live?,Other,2,2,1,2
+136,26,11,House Tenure,Do you own or rent the home in which you live?,Prefer not to say,4,3,4,11
+137,26,11,House Tenure,Do you own or rent the home in which you live?,Totals,102,101,99,100
+138,26,11,House Tenure,Do you own or rent the home in which you live?,loan mortgage,27,29,18,34

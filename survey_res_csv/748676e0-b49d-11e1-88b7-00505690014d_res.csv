@@ -1,0 +1,24 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Donor Motivation,"Whichstatementcomesclosertoyourownview,evenifneitherisexactlyright? Whensomeonegives$1milliontoasuperPAC(politicalactioncommittee)...",Totals,100,100,100,100
+1,1,1,Donor Motivation,"Whichstatementcomesclosertoyourownview,evenifneitherisexactlyright? Whensomeonegives$1milliontoasuperPAC(politicalactioncommittee)...",trying to elect,79,78,81,76
+2,1,1,Donor Motivation,"Whichstatementcomesclosertoyourownview,evenifneitherisexactlyright? Whensomeonegives$1milliontoasuperPAC(politicalactioncommittee)...",which is their right,21,22,19,24
+3,1,1,Donor Motivation,"Whichstatementcomesclosertoyourownview,evenifneitherisexactlyright? Whensomeonegives$1milliontoasuperPAC(politicalactioncommittee)...",Totals,100,100,100,100
+4,2,2,Campaign Affect,Changes in campaign ﬁnance rules have allowed potential presidential candidates to raise more money today than they have in the past. How has this,Made the process better,9,13,5,10
+5,2,2,Campaign Affect,Changes in campaign ﬁnance rules have allowed potential presidential candidates to raise more money today than they have in the past. How has this,Made the process worse,57,57,56,57
+6,2,2,Campaign Affect,Changes in campaign ﬁnance rules have allowed potential presidential candidates to raise more money today than they have in the past. How has this,Had no real impact,11,11,9,13
+7,2,2,Campaign Affect,Changes in campaign ﬁnance rules have allowed potential presidential candidates to raise more money today than they have in the past. How has this,Not sure,24,18,30,21
+8,2,2,Campaign Affect,Changes in campaign ﬁnance rules have allowed potential presidential candidates to raise more money today than they have in the past. How has this,Totals,101,99,100,101
+9,3,3,Limit Spending,"Currently, groups not afﬁliated with a candidate are able to spend unlimited amounts of money on advertisements during a political campaign. Do you think",Limited by law,60,69,57,54
+10,3,3,Limit Spending,"Currently, groups not afﬁliated with a candidate are able to spend unlimited amounts of money on advertisements during a political campaign. Do you think",Remain unlimited,16,15,14,19
+11,3,3,Limit Spending,"Currently, groups not afﬁliated with a candidate are able to spend unlimited amounts of money on advertisements during a political campaign. Do you think",Not sure,24,15,29,27
+12,3,3,Limit Spending,"Currently, groups not afﬁliated with a candidate are able to spend unlimited amounts of money on advertisements during a political campaign. Do you think",Totals,100,99,100,100
+13,4,4,Number of Ads,"In general, do you think there are too many political ads on television during presidential campaigns, too few political ads, or is the amount of political ads",Too many,64,62,61,70
+14,4,4,Number of Ads,"In general, do you think there are too many political ads on television during presidential campaigns, too few political ads, or is the amount of political ads",Too few,5,9,3,3
+15,4,4,Number of Ads,"In general, do you think there are too many political ads on television during presidential campaigns, too few political ads, or is the amount of political ads",About right,16,18,14,18
+16,4,4,Number of Ads,"In general, do you think there are too many political ads on television during presidential campaigns, too few political ads, or is the amount of political ads",Not sure,15,11,22,10
+17,4,4,Number of Ads,"In general, do you think there are too many political ads on television during presidential campaigns, too few political ads, or is the amount of political ads",Totals,100,100,100,101
+18,5,5,Limit Ads,Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just,Totals,100,99,100,100
+19,5,5,Limit Ads,Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just,There should be a law,40,45,38,37
+20,5,5,Limit Ads,Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just,fewer ads,50,46,51,52
+21,5,5,Limit Ads,Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just,Not sure,10,9,11,10
+22,5,5,Limit Ads,Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just,Totals,100,100,100,99

@@ -1,62 +1,76 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
-import type { SurveyPost } from '../lib/survey'
-import { collection, limit, onSnapshot, orderBy, query } from 'firebase/firestore'
-import { db } from '../firebase'
+import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 
-type ResultItem = { 
-  post: SurveyPost
-  user: { dem: number; rep: number }
-  scores?: { dem_score: number; rep_score: number; total_score: number }
+type QuestionResult = {
+  question_id: string
+  tweet_image_url: string
+  user_prediction: { dem: number; rep: number }
+  ground_truth: { dem: number; rep: number }
+  score: { dem: number; rep: number }
+  rank: { dem: number | null; rep: number | null }
+  total_users: number
 }
-type LocationState = ResultItem | { items: ResultItem[]; average_score?: number }
+
+type ResultsData = {
+  today_avg_score: { dem: number; rep: number }
+  today_rank: { dem: number | null; rep: number | null }
+  total_users_today: number
+  historical_avg: { dem: number | null; rep: number | null }
+  historical_avg_overall: number | null
+  delta_from_historical: { dem: number | null; rep: number | null }
+  delta_from_historical_overall: number | null
+  best_question: { dem: number | null; rep: number | null }
+  worst_question: { dem: number | null; rep: number | null }
+  questions: QuestionResult[]
+}
 
 export default function ResultsPage() {
-  const location = useLocation()
-  const navigate = useNavigate()
   const auth = getAuth()
-  const state = (location.state || {}) as Partial<LocationState>
-  const items: ResultItem[] = Array.isArray((state as any).items)
-    ? ((state as any).items as ResultItem[])
-    : state && (state as any).post && (state as any).user
-    ? [{ post: (state as any).post as SurveyPost, user: (state as any).user as { dem: number; rep: number } }]
-    : []
+  const [searchParams] = useSearchParams()
+  const [resultsData, setResultsData] = useState<ResultsData | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
-  // Calculate average score and find best/worst questions
-  const comparison = useMemo(() => {
-    return items.map((it, idx) => {
-      const demScore = it.scores?.dem_score ?? Math.max(0, 100 - Math.abs(it.user.dem - it.post.dem))
-      const repScore = it.scores?.rep_score ?? Math.max(0, 100 - Math.abs(it.user.rep - it.post.rep))
-      const totalScore = it.scores?.total_score ?? (demScore + repScore) / 2
-      return {
-        item: it,
-        index: idx + 1,
-        scores: { dem_score: demScore, rep_score: repScore, total_score: totalScore }
+  // Load results from backend API
+  useEffect(() => {
+    async function loadResults() {
+      if (!auth.currentUser) {
+        setError('Please sign in to view results')
+        setLoading(false)
+        return
       }
-    })
-  }, [items])
 
-  const average_score = useMemo(() => {
-    if (!comparison.length) return 0
-    return comparison.reduce((sum, c) => sum + c.scores.total_score, 0) / comparison.length
-  }, [comparison])
+      try {
+        const userId = auth.currentUser.uid
+        const dateParam = searchParams.get('date') // Optional date parameter
+        const url = dateParam 
+          ? `/api/results?user_id=${userId}&date=${dateParam}`
+          : `/api/results?user_id=${userId}`
+        
+        const res = await fetch(url)
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}))
+          setError(errorData.error || 'Failed to load results')
+          setLoading(false)
+          return
+        }
 
-  const best_question = useMemo(() => {
-    if (!comparison.length) return 1
-    const best = comparison.reduce((best, current) => 
-      current.scores.total_score > best.scores.total_score ? current : best
-    )
-    return best.index
-  }, [comparison])
+        const data = await res.json()
+        
+        // Backend now returns the new structure directly
+        setResultsData(data)
+        setError(null)
+      } catch (error) {
+        console.error('Failed to load results:', error)
+        setError('Failed to load results. Please try again.')
+      } finally {
+        setLoading(false)
+      }
+    }
 
-  const worst_question = useMemo(() => {
-    if (!comparison.length) return 1
-    const worst = comparison.reduce((worst, current) => 
-      current.scores.total_score < worst.scores.total_score ? current : worst
-    )
-    return worst.index
-  }, [comparison])
+    loadResults()
+  }, [auth.currentUser, searchParams])
 
   const css = useMemo(
     () => `
@@ -133,6 +147,143 @@ export default function ResultsPage() {
       color: #666;
       margin-top: 8px;
       font-weight: 400;
+    }
+    
+    .results-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 32px;
+      margin: 36px 0;
+      padding: 24px 0 32px;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    
+    .stats-col {
+      text-align: center;
+      font-family: system-ui, sans-serif;
+    }
+    
+    .stats-col h3 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #444;
+      margin-bottom: 8px;
+    }
+    
+    .stat-line {
+      margin: 4px 0;
+      font-size: 14px;
+      color: #666;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    
+    .stat-line > span:first-child {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.03em;
+      margin-right: 6px;
+    }
+    
+    .stat-line strong {
+      font-weight: 600;
+      color: #111;
+      font-size: 15px;
+    }
+    
+    .sub {
+      font-size: 12px;
+      color: #888;
+      margin-left: 2px;
+    }
+    
+    .stats-col.dem strong {
+      color: #3b82f6;
+    }
+    
+    .stats-col.rep strong {
+      color: #ef4444;
+    }
+    
+    .delta {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 6px;
+    }
+    
+    .delta.up {
+      color: #16a34a; /* green */
+    }
+    
+    .delta.down {
+      color: #dc2626; /* red */
+    }
+    
+    .stat-line.muted {
+      color: #999;
+      font-style: italic;
+    }
+    
+    .stat-line.muted .sub {
+      font-size: 12px;
+      color: #aaa;
+      margin-left: 4px;
+    }
+    
+    .question-scores {
+      display: flex;
+      justify-content: flex-end;
+      gap: 24px;
+      font-size: 13px;
+      margin-top: 8px;
+      color: #666;
+      flex-wrap: wrap;
+    }
+    
+    .party-score {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .party-score strong {
+      font-weight: 600;
+      color: #111;
+      font-size: 15px;
+    }
+    
+    .party-score.dem strong {
+      color: #3b82f6;
+    }
+    
+    .party-score.rep strong {
+      color: #ef4444;
+    }
+    
+    .party-score .rank {
+      font-size: 12px;
+      color: #888;
+    }
+    
+    .party-score .rank .sub {
+      font-size: 11px;
+      color: #aaa;
+      margin-left: 2px;
+    }
+    
+    .new-questions-note {
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+      margin-top: 40px;
+      letter-spacing: 0.02em;
     }
     
     .dashboard-grid {
@@ -224,8 +375,8 @@ export default function ResultsPage() {
       top: 0;
       display: flex;
       justify-content: flex-end;
-      padding-bottom: 8px;
-      margin: -8px -8px 8px 0;
+      padding-bottom: 4px;
+      margin: -4px -4px 4px 0;
       background: linear-gradient(#fff, #ffffffdd 70%, transparent);
     }
 
@@ -251,7 +402,8 @@ export default function ResultsPage() {
       display: flex;
       flex-direction: column;
       padding: 16px 0;
-      border-bottom: 1px solid #eee;
+      margin-bottom: 32px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
       animation: fadeInCard 0.5s ease-out both;
     }
     
@@ -353,33 +505,6 @@ export default function ResultsPage() {
       color: #ef4444;
     }
     
-    .results-actions {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      margin-top: 48px;
-      margin-bottom: 48px;
-    }
-    
-    .results-actions button,
-    .results-actions a {
-      background: #111;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: background 0.2s ease;
-      text-decoration: none;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-    }
-    
-    .results-actions button:hover,
-    .results-actions a:hover {
-      background: #333;
-    }
     
     .error-message {
       background: #fff5f5;
@@ -448,6 +573,27 @@ export default function ResultsPage() {
       
       .result-card {
         padding: 12px 0;
+        margin-bottom: 24px;
+      }
+      
+      .results-stats-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 20px 0 24px;
+      }
+      
+      .stat-line {
+        align-items: flex-start;
+      }
+      
+      .question-scores {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      
+      .party-score {
+        align-items: flex-start;
       }
       
       .tweet-thumb {
@@ -476,15 +622,6 @@ export default function ResultsPage() {
         font-size: 0.85rem;
       }
       
-      .results-actions {
-        flex-direction: column;
-        gap: 12px;
-      }
-      
-      .results-actions button,
-      .results-actions a {
-        width: 100%;
-      }
     }
     
     @media (prefers-reduced-motion: reduce) {
@@ -500,135 +637,85 @@ export default function ResultsPage() {
     []
   )
 
-  // Mini leaderboard (top 5)
-  const [lb, setLb] = useState<{ id: string; displayName?: string; score?: number }[]>([])
-  const [lbLoading, setLbLoading] = useState(true)
+  // Calculate overall average (average of dem and rep)
+  const overallAvgScore = useMemo(() => {
+    if (!resultsData) return 0
+    return (resultsData.today_avg_score.dem + resultsData.today_avg_score.rep) / 2
+  }, [resultsData])
 
-  // Post score once per results view if signed in
-  const [postedScore, setPostedScore] = useState(false)
-  useEffect(() => {
-    const uid = auth.currentUser?.uid
-    const displayName = auth.currentUser?.displayName || auth.currentUser?.email || undefined
-    if (!uid || postedScore || !items.length) return
-    const avg = Number(average_score.toFixed(2))
-    fetch('/api/users/score', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ uid, displayName, average_score: avg }),
-    })
-      .catch(() => undefined)
-      .finally(() => setPostedScore(true))
-  }, [auth.currentUser, average_score, items.length, postedScore])
+  // Calculate overall historical average
+  const overallHistoricalAvg = useMemo(() => {
+    if (!resultsData?.historical_avg.dem || !resultsData.historical_avg.rep) return null
+    return (resultsData.historical_avg.dem + resultsData.historical_avg.rep) / 2
+  }, [resultsData])
 
-  // Expanded panel overlay with FLIP transition
-  const [expanded, setExpanded] = useState<null | 'your' | 'leaderboard' | 'today'>(null)
-  const [expandFromRect, setExpandFromRect] = useState<null | {left: number; top: number; width: number; height: number}>(null)
-  const [lbExpanded, setLbExpanded] = useState<{ id: string; displayName?: string; score?: number }[] | null>(null)
-  const overlayCardRef = useRef<HTMLDivElement | null>(null)
-  const [closing, setClosing] = useState(false)
+  // Calculate overall delta
+  const overallDelta = useMemo(() => {
+    if (overallHistoricalAvg === null) return null
+    return overallAvgScore - overallHistoricalAvg
+  }, [overallAvgScore, overallHistoricalAvg])
 
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key === 'Escape') closeOverlay()
+  // Calculate overall rank (average of dem and rep ranks, or use first available)
+  const overallRank = useMemo(() => {
+    if (!resultsData) return null
+    const demRank = resultsData.today_rank.dem
+    const repRank = resultsData.today_rank.rep
+    if (demRank !== null && repRank !== null) {
+      return Math.round((demRank + repRank) / 2)
     }
-    window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [])
+    return demRank ?? repRank
+  }, [resultsData])
 
-  useEffect(() => {
-    if (expanded !== 'leaderboard') return
-    let cancelled = false
-    ;(async () => {
-      try {
-        const res = await fetch('/api/leaderboard?limit=1000')
-        const data = await res.json().catch(() => ({}))
-        if (!cancelled) setLbExpanded(data.entries || [])
-      } catch {
-        if (!cancelled) setLbExpanded(lb)
+  // Calculate overall best/worst question (using average of dem and rep scores)
+  const overallBestQuestion = useMemo(() => {
+    if (!resultsData?.questions.length) return null
+    let bestScore = -1
+    let bestIdx = null
+    resultsData.questions.forEach((q, idx) => {
+      const avgScore = (q.score.dem + q.score.rep) / 2
+      if (avgScore > bestScore) {
+        bestScore = avgScore
+        bestIdx = idx + 1
       }
-    })()
-    return () => { cancelled = true }
-  }, [expanded])
-
-  // Run FLIP on open
-  useEffect(() => {
-    if (!expanded || !overlayCardRef.current || !expandFromRect) return
-    const card = overlayCardRef.current
-    // Compute deltas
-    const end = card.getBoundingClientRect()
-    const dx = expandFromRect.left - end.left
-    const dy = expandFromRect.top - end.top
-    const sx = expandFromRect.width / end.width
-    const sy = expandFromRect.height / end.height
-    card.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`
-    // Force reflow then animate to identity
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    card.offsetWidth
-    requestAnimationFrame(() => {
-      card.style.transform = ''
     })
-  }, [expanded, expandFromRect])
+    return bestIdx
+  }, [resultsData])
 
-  function openOverlay(kind: 'your' | 'leaderboard' | 'today', e: React.MouseEvent | React.KeyboardEvent) {
-    const el = e.currentTarget as HTMLElement
-    const r = el.getBoundingClientRect()
-    setExpandFromRect({ left: r.left, top: r.top, width: r.width, height: r.height })
-    setExpanded(kind)
-  }
-
-  function closeOverlay() {
-    if (!overlayCardRef.current || !expandFromRect) {
-      setExpanded(null)
-      return
-    }
-    const card = overlayCardRef.current
-    const end = card.getBoundingClientRect()
-    const dx = expandFromRect.left - end.left
-    const dy = expandFromRect.top - end.top
-    const sx = expandFromRect.width / end.width
-    const sy = expandFromRect.height / end.height
-    setClosing(true)
-    card.style.transform = ''
-    // next frame animate back
-    requestAnimationFrame(() => {
-      card.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`
-      setTimeout(() => {
-        setExpanded(null)
-        setClosing(false)
-        // reset transform for next open
-        if (overlayCardRef.current) overlayCardRef.current.style.transform = ''
-      }, 360)
+  const overallWorstQuestion = useMemo(() => {
+    if (!resultsData?.questions.length) return null
+    let worstScore = 101
+    let worstIdx = null
+    resultsData.questions.forEach((q, idx) => {
+      const avgScore = (q.score.dem + q.score.rep) / 2
+      if (avgScore < worstScore) {
+        worstScore = avgScore
+        worstIdx = idx + 1
+      }
     })
-  }
+    return worstIdx
+  }, [resultsData])
 
-  useEffect(() => {
-    const q = query(collection(db, 'users'), orderBy('score', 'desc'), limit(5))
-    const unsub = onSnapshot(
-      q,
-      (snap) => {
-        setLb(snap.docs.map((d) => ({ id: d.id, ...(d.data() as any) })))
-        setLbLoading(false)
-      },
-      () => setLbLoading(false)
-    )
-    return () => unsub()
-  }, [])
-
-  if (!items.length) {
-    // No state passed; go back to Guess
+  if (loading) {
     return (
       <div>
         <style>{css}</style>
         <div className="results-page">
-          <div className="error-message">Missing results context. Please try again.</div>
-          <div className="results-actions">
-            <button onClick={() => navigate('/guess')}>Go to Guess</button>
-          </div>
+          <div className="error-message">Loading results...</div>
         </div>
       </div>
     )
   }
-  
+
+  if (error || !resultsData || !resultsData.questions.length) {
+    return (
+      <div>
+        <style>{css}</style>
+        <div className="results-page">
+          <div className="error-message">{error || 'No results found. Please complete today\'s questions first.'}</div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div>
@@ -638,64 +725,126 @@ export default function ResultsPage() {
           <h1>Your Results</h1>
           <p className="subtitle">See how your predictions compare to the actual survey data.</p>
           <div className="score-summary">
-            <h2>Average Score: {average_score.toFixed(1)}%</h2>
+            <h2>Average Score: {overallAvgScore.toFixed(1)}%</h2>
             <div className="progress-bar">
-              <div className="fill" style={{ width: `${average_score}%` }} />
+              <div className="fill" style={{ width: `${overallAvgScore}%` }} />
             </div>
-            <p className="note">You were closest on #{best_question} and furthest off on #{worst_question}.</p>
-          </div>
-        </section>
-
-        {/* Dashboard panels */}
-        <section className="dashboard-grid">
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('your', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('your', e), undefined) : undefined)}>
-            <h3>Your Stats</h3>
-            <div className="dash-metric"><span>Average score</span><strong>{average_score.toFixed(1)}%</strong></div>
-            <div className="dash-metric"><span>Questions answered</span><strong>{items.length}</strong></div>
-            <div className="dash-metric"><span>Best question</span><strong>#{best_question}</strong></div>
-            <div className="dash-metric"><span>Worst question</span><strong>#{worst_question}</strong></div>
-          </div>
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('leaderboard', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('leaderboard', e), undefined) : undefined)}>
-            <h3>Leaderboard</h3>
-            {lbLoading ? (
-              <div className="muted">Loading…</div>
-            ) : lb.length === 0 ? (
-              <div className="muted">No players yet.</div>
-            ) : (
-              <table className="mini-table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Player</th>
-                    <th style={{ textAlign: 'right' }}>Score</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {lb.map((e, idx) => (
-                    <tr key={e.id} style={{ background: auth.currentUser?.uid === e.id ? 'linear-gradient(90deg, rgba(29,78,216,0.08), rgba(220,38,38,0.06))' : 'transparent' }}>
-                      <td>{idx + 1}</td>
-                      <td>{e.displayName || 'Unknown player'}</td>
-                      <td style={{ textAlign: 'right' }}>{e.score ?? 0}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-            {/* Full leaderboard shown on click via overlay; link removed */}
-          </div>
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('today', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('today', e), undefined) : undefined)}>
-            <h3>Today's Stats</h3>
-            <div className="dash-metric"><span>Rounds completed</span><strong>1</strong></div>
-            <div className="dash-metric"><span>Avg score this round</span><strong>{average_score.toFixed(1)}%</strong></div>
-            <div className="dash-metric"><span>Signed in</span><strong>{auth.currentUser ? 'Yes' : 'No'}</strong></div>
+            <section className="results-stats-grid">
+              <div className="stats-col overall">
+                <h3>Overall</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{overallAvgScore.toFixed(1)}%</strong>
+                  {overallDelta !== null && (
+                    <span className={`delta ${overallDelta >= 0 ? 'up' : 'down'}`}>
+                      {overallDelta >= 0 ? '↑' : '↓'}{Math.abs(overallDelta).toFixed(1)}%
+                    </span>
+                  )}
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{overallRank ?? 'N/A'}
+                    {overallRank !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                {resultsData.historical_avg_overall !== null ? (
+                  <p className="stat-line">
+                    <span>Historical Avg</span>
+                    <strong>{resultsData.historical_avg_overall.toFixed(1)}%</strong>
+                    {resultsData.delta_from_historical_overall !== null && (
+                      <span className={`delta ${resultsData.delta_from_historical_overall >= 0 ? 'up' : 'down'}`}>
+                        {resultsData.delta_from_historical_overall >= 0
+                          ? `↑${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`
+                          : `↓${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`}
+                      </span>
+                    )}
+                  </p>
+                ) : (
+                  <p className="stat-line muted">
+                    <span>Historical Avg</span>
+                    <strong>—</strong>
+                    <span className="sub">(first day — no history yet)</span>
+                  </p>
+                )}
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{overallBestQuestion ? `#${overallBestQuestion}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{overallWorstQuestion ? `#${overallWorstQuestion}` : 'N/A'}</strong>
+                </p>
+              </div>
+              <div className="stats-col dem">
+                <h3>Democrat</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{resultsData.today_avg_score.dem.toFixed(1)}%</strong>
+                  {resultsData.delta_from_historical.dem !== null && (
+                    <span className={`delta ${resultsData.delta_from_historical.dem >= 0 ? 'up' : 'down'}`}>
+                      {resultsData.delta_from_historical.dem >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.dem).toFixed(1)}%
+                    </span>
+                  )}
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{resultsData.today_rank.dem ?? 'N/A'}
+                    {resultsData.today_rank.dem !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{resultsData.best_question.dem ? `#${resultsData.best_question.dem}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{resultsData.worst_question.dem ? `#${resultsData.worst_question.dem}` : 'N/A'}</strong>
+                </p>
+              </div>
+              <div className="stats-col rep">
+                <h3>Republican</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{resultsData.today_avg_score.rep.toFixed(1)}%</strong>
+                  {resultsData.delta_from_historical.rep !== null && (
+                    <span className={`delta ${resultsData.delta_from_historical.rep >= 0 ? 'up' : 'down'}`}>
+                      {resultsData.delta_from_historical.rep >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.rep).toFixed(1)}%
+                    </span>
+                  )}
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{resultsData.today_rank.rep ?? 'N/A'}
+                    {resultsData.today_rank.rep !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{resultsData.best_question.rep ? `#${resultsData.best_question.rep}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{resultsData.worst_question.rep ? `#${resultsData.worst_question.rep}` : 'N/A'}</strong>
+                </p>
+              </div>
+            </section>
           </div>
         </section>
 
         <section className="results-grid">
-          {comparison.map((item, i) => (
-            <div key={i} className="result-card">
+          {resultsData.questions.map((question) => (
+            <div key={question.question_id} className="result-card">
               <img 
-                src={item.item.post.imageUrl} 
+                src={question.tweet_image_url} 
                 alt="tweet" 
                 className="tweet-thumb" 
               />
@@ -704,76 +853,40 @@ export default function ResultsPage() {
                 <div className="prediction-table-header">Your Prediction</div>
                 <div className="prediction-table-header">Actual Result</div>
                 <div className="prediction-row-label">Democrat</div>
-                <div className="prediction-value dem">{item.item.user.dem.toFixed(1)}%</div>
-                <div className="prediction-value dem">{item.item.post.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{question.user_prediction.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{question.ground_truth.dem.toFixed(1)}%</div>
                 <div className="prediction-row-label">Republican</div>
-                <div className="prediction-value rep">{item.item.user.rep.toFixed(1)}%</div>
-                <div className="prediction-value rep">{item.item.post.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{question.user_prediction.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{question.ground_truth.rep.toFixed(1)}%</div>
               </div>
-              <div className="result-data">
-                <span className="data-label">Accuracy Score</span>
-                <span className="data-value total">{item.scores.total_score.toFixed(1)}%</span>
+              <div className="question-scores">
+                <div className="party-score dem">
+                  <span>Democrat Accuracy:</span>
+                  <strong>{question.score.dem.toFixed(1)}%</strong>
+                  {question.rank.dem !== null && question.rank.dem !== undefined && (
+                    <span className="rank">
+                      Rank #{question.rank.dem} <span className="sub">of {question.total_users}</span>
+                    </span>
+                  )}
+                </div>
+                <div className="party-score rep">
+                  <span>Republican Accuracy:</span>
+                  <strong>{question.score.rep.toFixed(1)}%</strong>
+                  {question.rank.rep !== null && question.rank.rep !== undefined && (
+                    <span className="rank">
+                      Rank #{question.rank.rep} <span className="sub">of {question.total_users}</span>
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
           ))}
         </section>
 
-        <div className="results-actions">
-          <button onClick={() => navigate('/guess')}>Try Again</button>
-          <Link to="/leaderboard">View Leaderboard</Link>
-        </div>
+        <p className="new-questions-note">
+          New questions arrive daily at midnight (ET).
+        </p>
       </div>
-
-      {expanded && (
-        <div className="dash-overlay" style={{ opacity: closing ? 0 : 1, transition: 'opacity 220ms ease' }} onClick={closeOverlay}>
-          <div ref={overlayCardRef} className="dash-overlay-card" onClick={(e) => e.stopPropagation()}>
-            <div className="dash-close">
-              <button aria-label="Close" onClick={closeOverlay}>×</button>
-            </div>
-            {expanded === 'your' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Your Stats</h3>
-                <div className="dash-metric"><span>Average score</span><strong>{average_score.toFixed(1)}%</strong></div>
-                <div className="dash-metric"><span>Questions answered</span><strong>{items.length}</strong></div>
-                <div className="dash-metric"><span>Best question</span><strong>#{best_question}</strong></div>
-                <div className="dash-metric"><span>Worst question</span><strong>#{worst_question}</strong></div>
-              </div>
-            )}
-            {expanded === 'leaderboard' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Leaderboard</h3>
-                <table className="mini-table">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Player</th>
-                      <th style={{ textAlign: 'right' }}>Score</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {(lbExpanded || lb).map((e, idx) => (
-                      <tr key={e.id} style={{ background: auth.currentUser?.uid === e.id ? 'linear-gradient(90deg, rgba(29,78,216,0.08), rgba(220,38,38,0.06))' : 'transparent' }}>
-                        <td>{idx + 1}</td>
-                        <td>{e.displayName || 'Unknown player'}</td>
-                        <td style={{ textAlign: 'right' }}>{e.score ?? 0}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-                {/* Full leaderboard shown here; no separate link needed */}
-              </div>
-            )}
-            {expanded === 'today' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Today's Stats</h3>
-                <div className="dash-metric"><span>Rounds completed</span><strong>1</strong></div>
-                <div className="dash-metric"><span>Avg score this round</span><strong>{average_score.toFixed(1)}%</strong></div>
-                <div className="dash-metric"><span>Signed in</span><strong>{auth.currentUser ? 'Yes' : 'No'}</strong></div>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   )
 }

@@ -1,0 +1,29 @@
+{
+  "file_source": "bb751002-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 51,
+  "orig_label": "36",
+  "question": "Government Policy Redlining",
+  "prompt": "Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?",
+  "responses": [
+    {
+      "response": "Increase regulation",
+      "dem": 64.0,
+      "rep": 23.0
+    },
+    {
+      "response": "Decrease regulation",
+      "dem": 7.0,
+      "rep": 20.0
+    },
+    {
+      "response": "Keep as is",
+      "dem": 11.0,
+      "rep": 26.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 18.0,
+      "rep": 31.0
+    }
+  ]
+}

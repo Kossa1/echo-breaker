@@ -1,0 +1,264 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,2A,Heard About Technologies — Artificial intelligence (AI),Which one of the following best describes you?,I’m actively on the lookout to buy new technology devices and services,41,41,42,41
+1,1,2A,Heard About Technologies — Artificial intelligence (AI),Which one of the following best describes you?,I’m always keen to use new technology products as soon as they enter the market,49,52,47,48
+2,1,2A,Heard About Technologies — Artificial intelligence (AI),Which one of the following best describes you?,I like to get new technology products after they’ve been out for a while,10,7,11,11
+3,1,2A,Heard About Technologies — Artificial intelligence (AI),Which one of the following best describes you?,I sometimes buy new technology products but only when I really like them,100,100,100,100
+4,2,2B,Heard About Technologies — Virtual reality (VR),How much have you heard about the following technology?,Artificial intelligence (AI),36,35,37,37
+5,2,2B,Heard About Technologies — Virtual reality (VR),How much have you heard about the following technology?,Virtual reality (VR),53,58,51,50
+6,2,2B,Heard About Technologies — Virtual reality (VR),How much have you heard about the following technology?,Self-driving cars,10,6,12,13
+7,2,2B,Heard About Technologies — Virtual reality (VR),How much have you heard about the following technology?,Cryptocurrency,99,99,100,100
+8,3,2C,Heard About Technologies — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Artificial intelligence (AI),33,36,33,31
+9,3,2C,Heard About Technologies — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Virtual reality (VR),57,56,56,59
+10,3,2C,Heard About Technologies — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Self-driving cars,10,9,11,10
+11,3,2C,Heard About Technologies — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Cryptocurrency,100,101,100,100
+12,4,2D,Heard About Technologies — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Artificial intelligence (AI),36,36,35,38
+13,4,2D,Heard About Technologies — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Virtual reality (VR),51,51,52,50
+14,4,2D,Heard About Technologies — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Self-driving cars,13,14,14,12
+15,4,2D,Heard About Technologies — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Cryptocurrency,100,101,101,100
+16,5,2E,Heard About Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Artificial intelligence (AI),16,21,16,12
+17,5,2E,Heard About Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Virtual reality (VR),39,44,36,38
+18,5,2E,Heard About Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Self-driving cars,44,35,48,50
+19,5,2E,Heard About Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Cryptocurrency,99,100,100,100
+20,6,2F,Heard About Technologies — Quantum computing,"By when, if ever, would you expect computers to become more intelligent than people?",Computers are already more intelligent than people,15,19,12,14
+21,6,2F,Heard About Technologies — Quantum computing,"By when, if ever, would you expect computers to become more intelligent than people?",Before 2025,34,31,35,37
+22,6,2F,Heard About Technologies — Quantum computing,"By when, if ever, would you expect computers to become more intelligent than people?",2025-2049,51,50,53,49
+23,6,2F,Heard About Technologies — Quantum computing,"By when, if ever, would you expect computers to become more intelligent than people?",2050-2099,100,100,100,100
+24,7,2G,Heard About Technologies — Implantable brain-machine interfaces (BMIs),How concerned are you about the possibility of computers that are more intelligent than people attacking,Very concerned,10,13,8,11
+25,7,2G,Heard About Technologies — Implantable brain-machine interfaces (BMIs),How concerned are you about the possibility of computers that are more intelligent than people attacking,Somewhat concerned,29,32,28,26
+26,7,2G,Heard About Technologies — Implantable brain-machine interfaces (BMIs),How concerned are you about the possibility of computers that are more intelligent than people attacking,Not very concerned,61,55,64,63
+27,7,2G,Heard About Technologies — Implantable brain-machine interfaces (BMIs),How concerned are you about the possibility of computers that are more intelligent than people attacking,Not concerned at all,100,100,100,100
+28,8,2H,Heard About Technologies — Personal space travel,How much have you heard about the following technology?,A lot,13,17,10,13
+29,8,2H,Heard About Technologies — Personal space travel,How much have you heard about the following technology?,A little,46,47,45,46
+30,8,2H,Heard About Technologies — Personal space travel,How much have you heard about the following technology?,Nothing at all,41,36,45,42
+31,8,2H,Heard About Technologies — Personal space travel,How much have you heard about the following technology?,Totals,100,100,100,101
+32,9,2I,Heard About Technologies — Lab-grown meat,How much have you heard about the following technology?,A lot,17,19,14,18
+33,9,2I,Heard About Technologies — Lab-grown meat,How much have you heard about the following technology?,A little,52,50,55,49
+34,9,2I,Heard About Technologies — Lab-grown meat,How much have you heard about the following technology?,Nothing at all,32,31,31,33
+35,9,2I,Heard About Technologies — Lab-grown meat,How much have you heard about the following technology?,Totals,101,100,100,100
+36,10,2J,Heard About Technologies — Gene editing technology,How much have you heard about the following technology?,A lot,15,21,11,12
+37,10,2J,Heard About Technologies — Gene editing technology,How much have you heard about the following technology?,A little,43,40,44,44
+38,10,2J,Heard About Technologies — Gene editing technology,How much have you heard about the following technology?,Nothing at all,43,38,45,44
+39,10,2J,Heard About Technologies — Gene editing technology,How much have you heard about the following technology?,Totals,101,99,100,100
+40,11,2K,Heard About Technologies — 3D printing,How much have you heard about the following technology?,A lot,38,45,36,35
+41,11,2K,Heard About Technologies — 3D printing,How much have you heard about the following technology?,A little,49,45,49,52
+42,11,2K,Heard About Technologies — 3D printing,How much have you heard about the following technology?,Nothing at all,13,10,15,13
+43,11,2K,Heard About Technologies — 3D printing,How much have you heard about the following technology?,Totals,100,100,100,100
+44,12,2L,Heard About Technologies — Blockchain,How much have you heard about the following technology?,A lot,19,21,19,18
+45,12,2L,Heard About Technologies — Blockchain,How much have you heard about the following technology?,A little,31,35,28,30
+46,12,2L,Heard About Technologies — Blockchain,How much have you heard about the following technology?,Nothing at all,50,44,53,52
+47,12,2L,Heard About Technologies — Blockchain,How much have you heard about the following technology?,Totals,100,100,100,100
+48,13,2M,Heard About Technologies — Metaverse,How much have you heard about the following technology?,A lot,26,29,24,24
+49,13,2M,Heard About Technologies — Metaverse,How much have you heard about the following technology?,A little,50,53,48,48
+50,13,2M,Heard About Technologies — Metaverse,How much have you heard about the following technology?,Nothing at all,25,18,28,27
+51,13,2M,Heard About Technologies — Metaverse,How much have you heard about the following technology?,Totals,101,100,100,99
+52,14,2N,Heard About Technologies — Augmented reality (AR),How much have you heard about the following technology?,A lot,22,28,20,18
+53,14,2N,Heard About Technologies — Augmented reality (AR),How much have you heard about the following technology?,A little,43,45,43,42
+54,14,2N,Heard About Technologies — Augmented reality (AR),How much have you heard about the following technology?,Nothing at all,35,27,37,40
+55,14,2N,Heard About Technologies — Augmented reality (AR),How much have you heard about the following technology?,Totals,100,100,100,100
+56,15,2O,Heard About Technologies — Decentralized autonomous organization (DAO),How much have you heard about the following technology?,A lot,7,10,3,7
+57,15,2O,Heard About Technologies — Decentralized autonomous organization (DAO),How much have you heard about the following technology?,A little,21,24,18,22
+58,15,2O,Heard About Technologies — Decentralized autonomous organization (DAO),How much have you heard about the following technology?,Nothing at all,73,66,79,71
+59,15,2O,Heard About Technologies — Decentralized autonomous organization (DAO),How much have you heard about the following technology?,Totals,101,100,100,100
+60,16,2P,Heard About Technologies — Artificial organs,How much have you heard about the following technology?,A lot,15,19,13,11
+61,16,2P,Heard About Technologies — Artificial organs,How much have you heard about the following technology?,A little,51,48,51,54
+62,16,2P,Heard About Technologies — Artificial organs,How much have you heard about the following technology?,Nothing at all,35,33,36,36
+63,16,2P,Heard About Technologies — Artificial organs,How much have you heard about the following technology?,Totals,101,100,100,101
+64,17,3A,Likelihood of Technologies Becoming Widespread — Artificial intelligence (AI),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,77,82,74,76
+65,17,3A,Likelihood of Technologies Becoming Widespread — Artificial intelligence (AI),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,10,8,10,14
+66,17,3A,Likelihood of Technologies Becoming Widespread — Artificial intelligence (AI),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,12,10,16,10
+67,17,3A,Likelihood of Technologies Becoming Widespread — Artificial intelligence (AI),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,99,100,100,100
+68,18,3B,Likelihood of Technologies Becoming Widespread — Virtual reality (VR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,73,76,68,77
+69,18,3B,Likelihood of Technologies Becoming Widespread — Virtual reality (VR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,12,11,12,12
+70,18,3B,Likelihood of Technologies Becoming Widespread — Virtual reality (VR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,16,13,20,11
+71,18,3B,Likelihood of Technologies Becoming Widespread — Virtual reality (VR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,101,100,100,100
+72,19,3C,Likelihood of Technologies Becoming Widespread — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,63,64,63,64
+73,19,3C,Likelihood of Technologies Becoming Widespread — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,22,22,20,25
+74,19,3C,Likelihood of Technologies Becoming Widespread — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,14,14,17,11
+75,19,3C,Likelihood of Technologies Becoming Widespread — Self-driving cars,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,99,100,100,100
+76,20,3D,Likelihood of Technologies Becoming Widespread — Cryptocurrency,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,50,51,46,54
+77,20,3D,Likelihood of Technologies Becoming Widespread — Cryptocurrency,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,29,32,30,25
+78,20,3D,Likelihood of Technologies Becoming Widespread — Cryptocurrency,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,21,17,24,21
+79,20,3D,Likelihood of Technologies Becoming Widespread — Cryptocurrency,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,100,100
+80,21,3E,Likelihood of Technologies Becoming Widespread — Non-fungible tokens (NFTs),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,41,43,32,52
+81,21,3E,Likelihood of Technologies Becoming Widespread — Non-fungible tokens (NFTs),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,39,40,44,31
+82,21,3E,Likelihood of Technologies Becoming Widespread — Non-fungible tokens (NFTs),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,20,17,25,17
+83,21,3E,Likelihood of Technologies Becoming Widespread — Non-fungible tokens (NFTs),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,101,100
+84,22,3F,Likelihood of Technologies Becoming Widespread — Quantum computing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,70,71,70,70
+85,22,3F,Likelihood of Technologies Becoming Widespread — Quantum computing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,15,15,17,14
+86,22,3F,Likelihood of Technologies Becoming Widespread — Quantum computing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,14,14,13,16
+87,22,3F,Likelihood of Technologies Becoming Widespread — Quantum computing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,99,100,100,100
+88,24,3H,Likelihood of Technologies Becoming Widespread — Personal space travel,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,50,48,41,64
+89,24,3H,Likelihood of Technologies Becoming Widespread — Personal space travel,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,35,34,43,26
+90,24,3H,Likelihood of Technologies Becoming Widespread — Personal space travel,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,15,18,16,10
+91,24,3H,Likelihood of Technologies Becoming Widespread — Personal space travel,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,100,100
+92,25,3I,Likelihood of Technologies Becoming Widespread — Lab-grown meat,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,49,51,47,50
+93,25,3I,Likelihood of Technologies Becoming Widespread — Lab-grown meat,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,32,29,31,36
+94,25,3I,Likelihood of Technologies Becoming Widespread — Lab-grown meat,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,19,20,22,14
+95,25,3I,Likelihood of Technologies Becoming Widespread — Lab-grown meat,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,100,100
+96,26,3J,Likelihood of Technologies Becoming Widespread — Gene editing technology,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,66,67,64,65
+97,26,3J,Likelihood of Technologies Becoming Widespread — Gene editing technology,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,19,17,17,23
+98,26,3J,Likelihood of Technologies Becoming Widespread — Gene editing technology,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,16,15,18,12
+99,26,3J,Likelihood of Technologies Becoming Widespread — Gene editing technology,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,101,99,99,100
+100,27,3K,Likelihood of Technologies Becoming Widespread — 3D printing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,82,83,81,83
+101,27,3K,Likelihood of Technologies Becoming Widespread — 3D printing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,9,10,9,8
+102,27,3K,Likelihood of Technologies Becoming Widespread — 3D printing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,9,7,10,9
+103,27,3K,Likelihood of Technologies Becoming Widespread — 3D printing,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,100,100
+104,28,3L,Likelihood of Technologies Becoming Widespread — Blockchain,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,58,57,53,66
+105,28,3L,Likelihood of Technologies Becoming Widespread — Blockchain,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,22,27,20,20
+106,28,3L,Likelihood of Technologies Becoming Widespread — Blockchain,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,20,16,27,14
+107,28,3L,Likelihood of Technologies Becoming Widespread — Blockchain,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,100,100,100
+108,29,3M,Likelihood of Technologies Becoming Widespread — Metaverse,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,51,57,43,54
+109,29,3M,Likelihood of Technologies Becoming Widespread — Metaverse,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,24,17,28,26
+110,29,3M,Likelihood of Technologies Becoming Widespread — Metaverse,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,26,26,29,20
+111,29,3M,Likelihood of Technologies Becoming Widespread — Metaverse,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,101,100,100,100
+112,30,3N,Likelihood of Technologies Becoming Widespread — Augmented reality (AR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,62,63,57,68
+113,30,3N,Likelihood of Technologies Becoming Widespread — Augmented reality (AR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,17,18,18,14
+114,30,3N,Likelihood of Technologies Becoming Widespread — Augmented reality (AR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,21,18,25,18
+115,30,3N,Likelihood of Technologies Becoming Widespread — Augmented reality (AR),Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,100,99,100,100
+116,32,3P,Likelihood of Technologies Becoming Widespread — Artificial organs,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Likely,67,73,62,69
+117,32,3P,Likelihood of Technologies Becoming Widespread — Artificial organs,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Unlikely,15,11,16,20
+118,32,3P,Likelihood of Technologies Becoming Widespread — Artificial organs,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Not sure,17,17,22,11
+119,32,3P,Likelihood of Technologies Becoming Widespread — Artificial organs,Do you think it is likely or unlikely that the following technology will eventually become widespread?,Totals,99,101,100,100
+120,33,4A,Technologies Are Good or Bad — Artificial intelligence (AI),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,37,47,29,36
+121,33,4A,Technologies Are Good or Bad — Artificial intelligence (AI),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,33,23,37,39
+122,33,4A,Technologies Are Good or Bad — Artificial intelligence (AI),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,30,30,34,24
+123,33,4A,Technologies Are Good or Bad — Artificial intelligence (AI),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,99
+124,34,4B,Technologies Are Good or Bad — Virtual reality (VR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,46,59,36,46
+125,34,4B,Technologies Are Good or Bad — Virtual reality (VR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,20,12,23,27
+126,34,4B,Technologies Are Good or Bad — Virtual reality (VR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,34,29,41,28
+127,34,4B,Technologies Are Good or Bad — Virtual reality (VR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,101
+128,35,4C,Technologies Are Good or Bad — Self-driving cars,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,42,46,38,41
+129,35,4C,Technologies Are Good or Bad — Self-driving cars,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,34,31,34,40
+130,35,4C,Technologies Are Good or Bad — Self-driving cars,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,24,23,28,19
+131,35,4C,Technologies Are Good or Bad — Self-driving cars,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,100
+132,36,4D,Technologies Are Good or Bad — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,31,34,27,35
+133,36,4D,Technologies Are Good or Bad — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,43,45,39,47
+134,36,4D,Technologies Are Good or Bad — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,25,21,34,18
+135,36,4D,Technologies Are Good or Bad — Cryptocurrency,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,99,100,100,100
+136,37,4E,Technologies Are Good or Bad — Non-fungible tokens (NFTs),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,32,37,22,42
+137,37,4E,Technologies Are Good or Bad — Non-fungible tokens (NFTs),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,36,36,36,34
+138,37,4E,Technologies Are Good or Bad — Non-fungible tokens (NFTs),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,32,27,42,24
+139,37,4E,Technologies Are Good or Bad — Non-fungible tokens (NFTs),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,100
+140,38,4F,Technologies Are Good or Bad — Quantum computing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,66,72,61,66
+141,38,4F,Technologies Are Good or Bad — Quantum computing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,10,9,10,10
+142,38,4F,Technologies Are Good or Bad — Quantum computing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,24,19,28,24
+143,38,4F,Technologies Are Good or Bad — Quantum computing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,99,100
+144,40,4H,Technologies Are Good or Bad — Personal space travel,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,46,47,41,51
+145,40,4H,Technologies Are Good or Bad — Personal space travel,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,22,28,21,16
+146,40,4H,Technologies Are Good or Bad — Personal space travel,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,32,25,38,33
+147,40,4H,Technologies Are Good or Bad — Personal space travel,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,100
+148,41,4I,Technologies Are Good or Bad — Lab-grown meat,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,35,47,28,31
+149,41,4I,Technologies Are Good or Bad — Lab-grown meat,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,42,29,45,55
+150,41,4I,Technologies Are Good or Bad — Lab-grown meat,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,23,24,27,15
+151,41,4I,Technologies Are Good or Bad — Lab-grown meat,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,101
+152,42,4J,Technologies Are Good or Bad — Gene editing technology,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,46,59,39,40
+153,42,4J,Technologies Are Good or Bad — Gene editing technology,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,26,18,28,34
+154,42,4J,Technologies Are Good or Bad — Gene editing technology,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,28,22,33,27
+155,42,4J,Technologies Are Good or Bad — Gene editing technology,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,99,100,101
+156,43,4K,Technologies Are Good or Bad — 3D printing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,75,79,73,75
+157,43,4K,Technologies Are Good or Bad — 3D printing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,6,7,6,7
+158,43,4K,Technologies Are Good or Bad — 3D printing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,18,14,21,19
+159,43,4K,Technologies Are Good or Bad — 3D printing,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,99,100,100,101
+160,44,4L,Technologies Are Good or Bad — Blockchain,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,47,46,41,57
+161,44,4L,Technologies Are Good or Bad — Blockchain,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,22,24,21,20
+162,44,4L,Technologies Are Good or Bad — Blockchain,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,31,30,38,23
+163,44,4L,Technologies Are Good or Bad — Blockchain,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,100
+164,45,4M,Technologies Are Good or Bad — Metaverse,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,31,40,20,36
+165,45,4M,Technologies Are Good or Bad — Metaverse,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,33,26,38,35
+166,45,4M,Technologies Are Good or Bad — Metaverse,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,36,34,42,29
+167,45,4M,Technologies Are Good or Bad — Metaverse,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,100
+168,46,4N,Technologies Are Good or Bad — Augmented reality (AR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,44,53,38,42
+169,46,4N,Technologies Are Good or Bad — Augmented reality (AR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,22,17,24,28
+170,46,4N,Technologies Are Good or Bad — Augmented reality (AR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,34,30,39,30
+171,46,4N,Technologies Are Good or Bad — Augmented reality (AR),"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,101,100
+172,48,4P,Technologies Are Good or Bad — Artificial organs,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Good,67,72,61,70
+173,48,4P,Technologies Are Good or Bad — Artificial organs,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Bad,13,11,14,15
+174,48,4P,Technologies Are Good or Bad — Artificial organs,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Not sure,20,17,25,16
+175,48,4P,Technologies Are Good or Bad — Artificial organs,"If it becomes widespread, do you think the following technology will be good for society or bad for society?",Totals,100,100,100,101
+176,49,5A,Should U.S. Government Invest in Technologies — Artificial intelligence (AI),How important do you think it is for the U.S. government to invest in the following technology?,Very important,25,35,19,22
+177,49,5A,Should U.S. Government Invest in Technologies — Artificial intelligence (AI),How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,34,34,33,36
+178,49,5A,Should U.S. Government Invest in Technologies — Artificial intelligence (AI),How important do you think it is for the U.S. government to invest in the following technology?,Not important,26,16,28,35
+179,49,5A,Should U.S. Government Invest in Technologies — Artificial intelligence (AI),How important do you think it is for the U.S. government to invest in the following technology?,Not sure,15,15,20,8
+180,49,5A,Should U.S. Government Invest in Technologies — Artificial intelligence (AI),How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,100,101
+181,50,5B,Should U.S. Government Invest in Technologies — Virtual reality (VR),How important do you think it is for the U.S. government to invest in the following technology?,Very important,16,22,11,17
+182,50,5B,Should U.S. Government Invest in Technologies — Virtual reality (VR),How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,29,30,30,27
+183,50,5B,Should U.S. Government Invest in Technologies — Virtual reality (VR),How important do you think it is for the U.S. government to invest in the following technology?,Not important,38,30,41,45
+184,50,5B,Should U.S. Government Invest in Technologies — Virtual reality (VR),How important do you think it is for the U.S. government to invest in the following technology?,Not sure,17,19,19,11
+185,50,5B,Should U.S. Government Invest in Technologies — Virtual reality (VR),How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,101,101,100
+186,51,5C,Should U.S. Government Invest in Technologies — Self-driving cars,How important do you think it is for the U.S. government to invest in the following technology?,Very important,17,26,11,15
+187,51,5C,Should U.S. Government Invest in Technologies — Self-driving cars,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,29,30,30,25
+188,51,5C,Should U.S. Government Invest in Technologies — Self-driving cars,How important do you think it is for the U.S. government to invest in the following technology?,Not important,43,31,45,55
+189,51,5C,Should U.S. Government Invest in Technologies — Self-driving cars,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,11,14,14,5
+190,51,5C,Should U.S. Government Invest in Technologies — Self-driving cars,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,101,100,100
+191,52,5D,Should U.S. Government Invest in Technologies — Cryptocurrency,How important do you think it is for the U.S. government to invest in the following technology?,Very important,14,21,8,16
+192,52,5D,Should U.S. Government Invest in Technologies — Cryptocurrency,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,19,17,21,19
+193,52,5D,Should U.S. Government Invest in Technologies — Cryptocurrency,How important do you think it is for the U.S. government to invest in the following technology?,Not important,49,46,48,55
+194,52,5D,Should U.S. Government Invest in Technologies — Cryptocurrency,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,17,16,23,10
+195,52,5D,Should U.S. Government Invest in Technologies — Cryptocurrency,How important do you think it is for the U.S. government to invest in the following technology?,Totals,99,100,100,100
+196,53,5E,Should U.S. Government Invest in Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Very important,12,16,7,16
+197,53,5E,Should U.S. Government Invest in Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,22,22,20,23
+198,53,5E,Should U.S. Government Invest in Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Not important,51,50,53,49
+199,53,5E,Should U.S. Government Invest in Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Not sure,15,12,20,12
+200,53,5E,Should U.S. Government Invest in Technologies — Non-fungible tokens (NFTs),How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,100,100
+201,54,5F,Should U.S. Government Invest in Technologies — Quantum computing,How important do you think it is for the U.S. government to invest in the following technology?,Very important,35,39,33,35
+202,54,5F,Should U.S. Government Invest in Technologies — Quantum computing,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,36,30,39,38
+203,54,5F,Should U.S. Government Invest in Technologies — Quantum computing,How important do you think it is for the U.S. government to invest in the following technology?,Not important,17,22,15,14
+204,54,5F,Should U.S. Government Invest in Technologies — Quantum computing,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,12,9,14,13
+205,54,5F,Should U.S. Government Invest in Technologies — Quantum computing,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,101,100
+206,56,5H,Should U.S. Government Invest in Technologies — Personal space travel,How important do you think it is for the U.S. government to invest in the following technology?,Very important,18,21,13,19
+207,56,5H,Should U.S. Government Invest in Technologies — Personal space travel,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,25,27,22,26
+208,56,5H,Should U.S. Government Invest in Technologies — Personal space travel,How important do you think it is for the U.S. government to invest in the following technology?,Not important,46,42,52,42
+209,56,5H,Should U.S. Government Invest in Technologies — Personal space travel,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,12,10,12,13
+210,56,5H,Should U.S. Government Invest in Technologies — Personal space travel,How important do you think it is for the U.S. government to invest in the following technology?,Totals,101,100,99,100
+211,57,5I,Should U.S. Government Invest in Technologies — Lab-grown meat,How important do you think it is for the U.S. government to invest in the following technology?,Very important,14,19,11,13
+212,57,5I,Should U.S. Government Invest in Technologies — Lab-grown meat,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,26,31,25,21
+213,57,5I,Should U.S. Government Invest in Technologies — Lab-grown meat,How important do you think it is for the U.S. government to invest in the following technology?,Not important,46,37,48,54
+214,57,5I,Should U.S. Government Invest in Technologies — Lab-grown meat,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,14,13,16,13
+215,57,5I,Should U.S. Government Invest in Technologies — Lab-grown meat,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,100,101
+216,58,5J,Should U.S. Government Invest in Technologies — Gene editing technology,How important do you think it is for the U.S. government to invest in the following technology?,Very important,25,37,17,20
+217,58,5J,Should U.S. Government Invest in Technologies — Gene editing technology,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,37,33,39,40
+218,58,5J,Should U.S. Government Invest in Technologies — Gene editing technology,How important do you think it is for the U.S. government to invest in the following technology?,Not important,22,17,25,25
+219,58,5J,Should U.S. Government Invest in Technologies — Gene editing technology,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,16,13,19,14
+220,58,5J,Should U.S. Government Invest in Technologies — Gene editing technology,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,100,99
+221,59,5K,Should U.S. Government Invest in Technologies — 3D printing,How important do you think it is for the U.S. government to invest in the following technology?,Very important,30,36,25,29
+222,59,5K,Should U.S. Government Invest in Technologies — 3D printing,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,38,39,39,34
+223,59,5K,Should U.S. Government Invest in Technologies — 3D printing,How important do you think it is for the U.S. government to invest in the following technology?,Not important,21,15,21,30
+224,59,5K,Should U.S. Government Invest in Technologies — 3D printing,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,11,10,15,7
+225,59,5K,Should U.S. Government Invest in Technologies — 3D printing,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,100,100
+226,60,5L,Should U.S. Government Invest in Technologies — Blockchain,How important do you think it is for the U.S. government to invest in the following technology?,Very important,18,20,14,22
+227,60,5L,Should U.S. Government Invest in Technologies — Blockchain,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,31,38,28,28
+228,60,5L,Should U.S. Government Invest in Technologies — Blockchain,How important do you think it is for the U.S. government to invest in the following technology?,Not important,33,28,35,36
+229,60,5L,Should U.S. Government Invest in Technologies — Blockchain,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,17,14,23,15
+230,60,5L,Should U.S. Government Invest in Technologies — Blockchain,How important do you think it is for the U.S. government to invest in the following technology?,Totals,99,100,100,101
+231,61,5M,Should U.S. Government Invest in Technologies — Metaverse,How important do you think it is for the U.S. government to invest in the following technology?,Very important,15,22,7,17
+232,61,5M,Should U.S. Government Invest in Technologies — Metaverse,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,19,17,21,18
+233,61,5M,Should U.S. Government Invest in Technologies — Metaverse,How important do you think it is for the U.S. government to invest in the following technology?,Not important,45,39,47,51
+234,61,5M,Should U.S. Government Invest in Technologies — Metaverse,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,21,22,26,14
+235,61,5M,Should U.S. Government Invest in Technologies — Metaverse,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,101,100
+236,62,5N,Should U.S. Government Invest in Technologies — Augmented reality (AR),How important do you think it is for the U.S. government to invest in the following technology?,Very important,18,24,12,19
+237,62,5N,Should U.S. Government Invest in Technologies — Augmented reality (AR),How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,29,32,26,27
+238,62,5N,Should U.S. Government Invest in Technologies — Augmented reality (AR),How important do you think it is for the U.S. government to invest in the following technology?,Not important,34,24,40,41
+239,62,5N,Should U.S. Government Invest in Technologies — Augmented reality (AR),How important do you think it is for the U.S. government to invest in the following technology?,Not sure,19,20,21,14
+240,62,5N,Should U.S. Government Invest in Technologies — Augmented reality (AR),How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,100,99,101
+241,64,5P,Should U.S. Government Invest in Technologies — Artificial organs,How important do you think it is for the U.S. government to invest in the following technology?,Very important,36,45,31,32
+242,64,5P,Should U.S. Government Invest in Technologies — Artificial organs,How important do you think it is for the U.S. government to invest in the following technology?,Somewhat important,36,35,32,41
+243,64,5P,Should U.S. Government Invest in Technologies — Artificial organs,How important do you think it is for the U.S. government to invest in the following technology?,Not important,17,13,22,17
+244,64,5P,Should U.S. Government Invest in Technologies — Artificial organs,How important do you think it is for the U.S. government to invest in the following technology?,Not sure,11,8,15,9
+245,64,5P,Should U.S. Government Invest in Technologies — Artificial organs,How important do you think it is for the U.S. government to invest in the following technology?,Totals,100,101,100,99
+246,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",Not sure,18,15,21,17
+247,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",Totals,99,99,99,101
+248,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",people,27,24,28,30
+249,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",Before,6,6,5,6
+250,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",-,13,16,12,12
+251,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",-,11,14,9,11
+252,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",-,5,7,6,3
+253,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",or later,4,5,5,4
+254,65,6,When Will Computers Become More Intelligent Than People,"By when, if ever, would you expect computers to become more intelligent than people?",Never,15,12,14,19
+255,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Totals,101,99,100,100
+256,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Very concerned,17,15,16,19
+257,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Somewhat concerned,32,38,29,30
+258,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Not very concerned,18,22,16,16
+259,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Not concerned at all,9,7,10,9
+260,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Not sure,10,6,15,6
+261,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,people,15,12,14,19
+262,66,7,Will Superintelligent Computers Attack People,How concerned are you about the possibility of computers that are more intelligent than people attacking humanity?,Totals,101,100,100,99

@@ -1,0 +1,53 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Genocide — Native Americans in North America (15th - 19th centuries),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Native Americans in North America (15th - 19th centuries),56,72,54,42
+1,1,1A,Genocide — Native Americans in North America (15th - 19th centuries),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Armenians in the Ottoman Empire (1915 - 1923),18,9,17,27
+2,1,1A,Genocide — Native Americans in North America (15th - 19th centuries),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Ukrainians in Soviet Ukraine (1932 - 1933),26,18,29,31
+3,1,1A,Genocide — Native Americans in North America (15th - 19th centuries),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Jewish people in Europe (1939 - 1945),100,99,100,100
+4,2,1B,Genocide — Armenians in the Ottoman Empire (1915 - 1923),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,41,49,35,40
+5,2,1B,Genocide — Armenians in the Ottoman Empire (1915 - 1923),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,7,6,6,9
+6,2,1B,Genocide — Armenians in the Ottoman Empire (1915 - 1923),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,52,45,60,51
+7,2,1B,Genocide — Armenians in the Ottoman Empire (1915 - 1923),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,101,100
+8,3,1C,Genocide — Ukrainians in Soviet Ukraine (1932 - 1933),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,43,47,37,44
+9,3,1C,Genocide — Ukrainians in Soviet Ukraine (1932 - 1933),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,13,9,12,18
+10,3,1C,Genocide — Ukrainians in Soviet Ukraine (1932 - 1933),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,45,44,52,37
+11,3,1C,Genocide — Ukrainians in Soviet Ukraine (1932 - 1933),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,101,100,101,99
+12,4,1D,Genocide — Jewish people in Europe (1939 - 1945),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,72,70,68,77
+13,4,1D,Genocide — Jewish people in Europe (1939 - 1945),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,7,8,6,7
+14,4,1D,Genocide — Jewish people in Europe (1939 - 1945),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,22,23,26,16
+15,4,1D,Genocide — Jewish people in Europe (1939 - 1945),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,101,101,100,100
+16,5,1E,Genocide — Cambodians under Khmer Rouge (1975 - 1979),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,43,49,36,46
+17,5,1E,Genocide — Cambodians under Khmer Rouge (1975 - 1979),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,12,12,12,11
+18,5,1E,Genocide — Cambodians under Khmer Rouge (1975 - 1979),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,45,39,52,43
+19,5,1E,Genocide — Cambodians under Khmer Rouge (1975 - 1979),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,100,100
+20,6,1F,"Genocide — Tutsi, moderate Hutu, and Twa in Rwanda (1994)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,47,53,40,48
+21,6,1F,"Genocide — Tutsi, moderate Hutu, and Twa in Rwanda (1994)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,7,6,9,6
+22,6,1F,"Genocide — Tutsi, moderate Hutu, and Twa in Rwanda (1994)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,46,41,51,45
+23,6,1F,"Genocide — Tutsi, moderate Hutu, and Twa in Rwanda (1994)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,100,99
+24,7,1G,Genocide — Muslims in Bosnia (1995),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,38,47,33,33
+25,7,1G,Genocide — Muslims in Bosnia (1995),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,12,10,11,17
+26,7,1G,Genocide — Muslims in Bosnia (1995),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,50,43,56,50
+27,7,1G,Genocide — Muslims in Bosnia (1995),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,100,100
+28,8,1H,"Genocide — Non-Arabs in Darfur, Sudan (2003 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,35,38,30,36
+29,8,1H,"Genocide — Non-Arabs in Darfur, Sudan (2003 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,12,11,11,14
+30,8,1H,"Genocide — Non-Arabs in Darfur, Sudan (2003 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,54,51,59,50
+31,8,1H,"Genocide — Non-Arabs in Darfur, Sudan (2003 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,101,100,100,100
+32,9,1I,"Genocide — Uyghurs in Xinjiang, China (2014 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,44,48,38,47
+33,9,1I,"Genocide — Uyghurs in Xinjiang, China (2014 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,10,9,9,11
+34,9,1I,"Genocide — Uyghurs in Xinjiang, China (2014 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,46,43,53,41
+35,9,1I,"Genocide — Uyghurs in Xinjiang, China (2014 - present)",Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,100,99
+36,10,1J,Genocide — Rohingya Muslims in Myanmar (2016 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,30,42,26,21
+37,10,1J,Genocide — Rohingya Muslims in Myanmar (2016 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,12,8,10,20
+38,10,1J,Genocide — Rohingya Muslims in Myanmar (2016 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,58,51,64,59
+39,10,1J,Genocide — Rohingya Muslims in Myanmar (2016 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,101,100,100
+40,11,1K,Genocide — Jewish people in Israel (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,39,34,34,51
+41,11,1K,Genocide — Jewish people in Israel (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,32,35,33,27
+42,11,1K,Genocide — Jewish people in Israel (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,29,31,34,21
+43,11,1K,Genocide — Jewish people in Israel (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,101,99
+44,12,1L,Genocide — Arabs in the Gaza Strip (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,34,51,29,20
+45,12,1L,Genocide — Arabs in the Gaza Strip (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,32,17,33,46
+46,12,1L,Genocide — Arabs in the Gaza Strip (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,35,32,38,34
+47,12,1L,Genocide — Arabs in the Gaza Strip (2023 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,101,100,100,100
+48,13,1M,Genocide — Ukrainians in Ukraine (2022 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Yes,39,48,33,36
+49,13,1M,Genocide — Ukrainians in Ukraine (2022 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,No,29,24,28,37
+50,13,1M,Genocide — Ukrainians in Ukraine (2022 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Not sure,32,28,40,27
+51,13,1M,Genocide — Ukrainians in Ukraine (2022 - present),Do you consider the way the following people were treated in the specified time and place to be a genocide?,Totals,100,100,101,100

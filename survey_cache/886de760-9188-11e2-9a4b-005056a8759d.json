@@ -1,0 +1,116 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-07-08T14:20:19Z",
+      "description": "Imposter Syndrome | YouGov Survey Crosstabs: June 7 - 10, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20686,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Imposter Syndrome | YouGov Survey Crosstabs: June 7 - 10, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_Imposter_Syndrome_20220607.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-07-08T13:56:54Z",
+      "description": "Imposter Syndrome | YouGov Survey Toplines: June 7 - 10, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20685,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Imposter Syndrome | YouGov Survey Toplines: June 7 - 10, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Imposter_Syndrome_20220607.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2021-06-01T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Somewhat difficult",
+          "value": 34
+        },
+        {
+          "label": "Somewhat easy",
+          "value": 32
+        }
+      ],
+      "survey_id": "177d5",
+      "survey_uuid": "e96177d5-bfef-11eb-92ae-c304c450e91a",
+      "title": "Do you generally find it easy or difficult to say no to people when you need to?",
+      "total": 38390
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2016-02-25T01:40:53Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Somewhat unhappy",
+          "value": 34
+        },
+        {
+          "label": "Somewhat happy",
+          "value": 30
+        }
+      ],
+      "survey_id": "fcf70",
+      "survey_uuid": "085fcf70-db0e-11e5-8c39-005056a875d9",
+      "title": "How happy are you with how much you weigh?",
+      "total": 4445
+    }
+  ],
+  "hits": 4,
+  "totals": {
+    "categories": {
+      "politics": 4
+    },
+    "types": {
+      "article": 2,
+      "survey": 4
+    }
+  }
+}

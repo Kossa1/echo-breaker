@@ -1,0 +1,39 @@
+{
+  "file_source": "f559edc0-4b70-11e5-9438-005056a8759d_res.csv",
+  "qnum": 4,
+  "orig_label": "4A",
+  "question": "Support for Family-Friendly Policies — Requiring employers to offer paid parental leave for all working parents",
+  "prompt": "Would you support or oppose Congress doing the following?",
+  "responses": [
+    {
+      "response": "parental leave for all working parents",
+      "dem": 56.0,
+      "rep": 36.0
+    },
+    {
+      "response": "low-income families",
+      "dem": 24.0,
+      "rep": 26.0
+    },
+    {
+      "response": "pre-kindergarten programs",
+      "dem": 12.0,
+      "rep": 17.0
+    },
+    {
+      "response": "programs",
+      "dem": 5.0,
+      "rep": 13.0
+    },
+    {
+      "response": "that offer family-friendly beneﬁts",
+      "dem": 3.0,
+      "rep": 8.0
+    },
+    {
+      "response": "foster care services",
+      "dem": 100.0,
+      "rep": 100.0
+    }
+  ]
+}

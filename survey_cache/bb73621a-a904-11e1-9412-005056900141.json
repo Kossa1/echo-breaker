@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-11-14T00:33:19.868438Z",
+      "description": "Americans' Opinions on Eye Colors | May 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 22809,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Health",
+        "id": 38,
+        "name": "Health & science",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Health",
+        "slug": "health"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Eye Colors | May 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Eye_Colors_poll_results.pdf"
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "health": 1,
+      "society": 1
+    },
+    "types": {
+      "survey": 1
+    }
+  }
+}

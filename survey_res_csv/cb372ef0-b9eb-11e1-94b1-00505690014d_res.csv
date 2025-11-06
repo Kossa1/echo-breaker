@@ -1,0 +1,38 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Heard About New York City Mayoral Election,How much have you heard about the 2025 New York City mayoral election?,A lot,28,27,24,34
+1,1,1,Heard About New York City Mayoral Election,How much have you heard about the 2025 New York City mayoral election?,A little,44,50,41,42
+2,1,1,Heard About New York City Mayoral Election,How much have you heard about the 2025 New York City mayoral election?,Nothing at all,28,22,35,24
+3,1,1,Heard About New York City Mayoral Election,How much have you heard about the 2025 New York City mayoral election?,Totals,100,99,100,100
+4,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Zohran Mamdani,23,49,18,2
+5,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Andrew Cuomo,11,11,6,18
+6,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Curtis Sliwa,16,1,14,32
+7,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Other,3,2,4,2
+8,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Not sure,27,26,26,28
+9,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Would not vote,20,11,32,17
+10,2,2,New York Mayor Hypothetical Vote,"If you were voting in the 2025 general election for New York City Mayor and these were the candidates, who",Totals,100,100,100,99
+11,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Zohran Mamdani,36,50,33,25
+12,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Andrew Cuomo,12,14,8,16
+13,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Curtis Sliwa,5,2,3,9
+14,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Other,3,1,5,3
+15,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Not sure,44,33,51,47
+16,3,3,New York Mayor Expected Winner,"Regardless of your preference, if these were the candidates in the 2025 general election for New York City",Totals,100,100,100,100
+17,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Andrew Cuomo,100,99,100,100
+18,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Zohran Mamdani,7,4,6,12
+19,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Left,16,12,12,24
+20,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Center-left,11,13,11,10
+21,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Center,11,20,8,7
+22,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Center-right,7,10,8,4
+23,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Right,8,8,8,6
+24,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Far-right,2,3,2,2
+25,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Not sure,38,30,45,35
+26,4,4A,Political Viewpoint of New York City Politicians — Andrew Cuomo,How would you describe the political viewpoint of the following person?,Totals,100,100,100,100
+27,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Totals,100,101,100,100
+28,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Far-left,33,19,29,51
+29,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Left,15,27,14,5
+30,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Center-left,4,5,5,0
+31,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Center,4,5,5,2
+32,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Center-right,1,2,1,1
+33,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Right,1,1,0,1
+34,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Far-right,2,2,4,1
+35,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Not sure,40,39,41,39
+36,5,4B,Political Viewpoint of New York City Politicians — Zohran Mamdani,How would you describe the political viewpoint of the following person?,Totals,100,100,99,100

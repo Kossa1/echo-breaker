@@ -1,0 +1,288 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-09T19:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Strongly approve",
+          "value": 27
+        },
+        {
+          "label": "Somewhat approve",
+          "value": 27
+        }
+      ],
+      "survey_id": "0ca02",
+      "survey_uuid": "9920ca02-a51e-11f0-acbd-e932aca4700f",
+      "title": "Do you approve or disapprove of the recent peace deal reached between Israel and Hamas?",
+      "total": 2725
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-09T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "A major role",
+          "value": 34
+        },
+        {
+          "label": "A minor role",
+          "value": 24
+        }
+      ],
+      "survey_id": "0ca02",
+      "survey_uuid": "9920ca02-a51e-11f0-acbd-e932aca4700f",
+      "title": "How much of a role do you think Donald Trump played in the recent peace deal between Israel and Hamas?",
+      "total": 2725
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-07T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Too supportive of Israel",
+          "value": 34
+        },
+        {
+          "label": "About right",
+          "value": 29
+        }
+      ],
+      "survey_id": "fc30b",
+      "survey_uuid": "741fc30b-a38d-11f0-8e29-bb1b42704484",
+      "title": "Do you think that Donald Trump's approach to the Israel\u2011Hamas war has been...?",
+      "total": 1857
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-07T19:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 48
+        },
+        {
+          "label": "Yes",
+          "value": 14
+        }
+      ],
+      "survey_id": "fc30b",
+      "survey_uuid": "741fc30b-a38d-11f0-8e29-bb1b42704484",
+      "title": "Do you think a peace deal will be reached in the next week between Israel and Hamas?",
+      "total": 1857
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-07T19:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "The Palestinian side",
+          "value": 26
+        },
+        {
+          "label": "Both sides equally",
+          "value": 26
+        }
+      ],
+      "survey_id": "fc30b",
+      "survey_uuid": "741fc30b-a38d-11f0-8e29-bb1b42704484",
+      "title": "Who do you blame more for the escalation of violence in the Israeli\u2011Palestinian conflict?",
+      "total": 1857
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-03-04T01:46:34.004135Z",
+      "description": "Donald Trump Policies | February 27 - March 2, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29903,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Donald Trump Policies | February 27 - March 2, 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Policy_Support_poll_results_59aezTr.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "international",
+      "published_at": "2025-02-05T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "About right",
+          "value": 33
+        },
+        {
+          "label": "Too supportive of Israel",
+          "value": 21
+        }
+      ],
+      "survey_id": "608ce",
+      "survey_uuid": "2ff608ce-e365-11ef-a522-f1b31484effb",
+      "title": "Do you think that Donald Trump's approach to the Israel-Hamas war has been...?",
+      "total": 3634
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "international",
+      "published_at": "2025-02-05T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "The Israelis",
+          "value": 30
+        },
+        {
+          "label": "About equal",
+          "value": 27
+        }
+      ],
+      "survey_id": "608ce",
+      "survey_uuid": "2ff608ce-e365-11ef-a522-f1b31484effb",
+      "title": "In the Israeli-Palestinian conflict, are your sympathies more with...?",
+      "total": 3634
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "international",
+      "published_at": "2025-02-05T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Strongly oppose",
+          "value": 35
+        },
+        {
+          "label": "Somewhat support",
+          "value": 13
+        }
+      ],
+      "survey_id": "608ce",
+      "survey_uuid": "2ff608ce-e365-11ef-a522-f1b31484effb",
+      "title": "Would you support or oppose the U.S. taking ownership of Gaza?",
+      "total": 3634
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-05-28T16:13:41.791602Z",
+      "description": "Americans' Opinions on the Israel-Hamas War | May 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28410,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on the Israel-Hamas War | May 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Israel_Hamas_War_20240528.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-05-21T16:41:27.773130Z",
+      "description": "Americans' Opinions on Politics, the Israel-Hamas War, and Health | Yahoo! News Poll | May 10 - 13, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28375,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Politics, the Israel-Hamas War, and Health | Yahoo! News Poll | May 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/yahoo_combined_20240513.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-02-28T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "About the same amount",
+          "value": 28
+        },
+        {
+          "label": "A little more",
+          "value": 16
+        }
+      ],
+      "survey_id": "febbb",
+      "survey_uuid": "88afebbb-d57e-11ee-8fcc-d9c910aacf92",
+      "title": "Compared to war zones generally, how much access do you think the news media has to Gaza?",
+      "total": 13094
+    }
+  ],
+  "hits": 12,
+  "totals": {
+    "categories": {
+      "international": 3,
+      "politics": 12
+    },
+    "types": {
+      "article": 5,
+      "survey": 12
+    }
+  }
+}

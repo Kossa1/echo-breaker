@@ -1,0 +1,39 @@
+{
+  "file_source": "bb73fe89-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 16,
+  "orig_label": "3N",
+  "question": "Support or Oppose Religion in Schools — Allowing school districts to employ religious chaplains to counsel students",
+  "prompt": "Do you support or oppose the following in public schools?",
+  "responses": [
+    {
+      "response": "Net Support - Oppose -",
+      "dem": 38.0,
+      "rep": 20.0
+    },
+    {
+      "response": "Strongly support",
+      "dem": 9.0,
+      "rep": 30.0
+    },
+    {
+      "response": "Somewhat support",
+      "dem": 16.0,
+      "rep": 29.0
+    },
+    {
+      "response": "Somewhat oppose",
+      "dem": 14.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Strongly oppose",
+      "dem": 46.0,
+      "rep": 11.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 16.0,
+      "rep": 19.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "file_source": "bb9f5424-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 8,
+  "orig_label": "1H",
+  "question": "Tax Exemption Status — Labor unions",
+  "prompt": "Do you think the following should or should not be exempt from paying taxes?",
+  "responses": [
+    {
+      "response": "Should be tax exempt",
+      "dem": 34.0,
+      "rep": 14.0
+    },
+    {
+      "response": "Should not be tax exempt",
+      "dem": 41.0,
+      "rep": 70.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 25.0,
+      "rep": 16.0
+    }
+  ]
+}

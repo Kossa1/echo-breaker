@@ -1,0 +1,24 @@
+{
+  "file_source": "bb267aaa-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 1,
+  "orig_label": "1",
+  "question": "Self Foreign Policy Hawk or Dove",
+  "prompt": "In general, do you think of yourself as more of a foreign policy hawk or a dove?",
+  "responses": [
+    {
+      "response": "Hawk",
+      "dem": 11.0,
+      "rep": 40.0
+    },
+    {
+      "response": "Dove",
+      "dem": 42.0,
+      "rep": 16.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 47.0,
+      "rep": 45.0
+    }
+  ]
+}

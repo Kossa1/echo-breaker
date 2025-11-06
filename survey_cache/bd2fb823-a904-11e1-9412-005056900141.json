@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-08-07T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 85
+        },
+        {
+          "label": "Yes",
+          "value": 11
+        }
+      ],
+      "survey_id": "c1a13",
+      "survey_uuid": "386c1a13-32d7-11ee-8e04-6f86eba093e8",
+      "title": "Have you ever been certified as a lifeguard?",
+      "total": 29968
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "politics": 1
+    },
+    "types": {
+      "survey": 1
+    }
+  }
+}

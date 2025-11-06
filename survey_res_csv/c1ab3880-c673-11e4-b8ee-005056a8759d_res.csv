@@ -1,0 +1,179 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Things in America,"Generally speaking, do you feel things in America today are going...",Very well,5,10,3,2
+1,1,1,Things in America,"Generally speaking, do you feel things in America today are going...",Somewhat well,25,44,26,6
+2,1,1,Things in America,"Generally speaking, do you feel things in America today are going...",Somewhat badly,33,36,32,31
+3,1,1,Things in America,"Generally speaking, do you feel things in America today are going...",Very badly,37,10,39,61
+4,1,1,Things in America,"Generally speaking, do you feel things in America today are going...",Totals,100,100,100,100
+5,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Very good,10,21,9,2
+6,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Fairly good,24,44,24,6
+7,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Fairly bad,31,25,34,33
+8,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Very bad,34,9,32,58
+9,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Not sure,1,1,1,0
+10,2,2,Condition of National Economy,How would you rate the condition of the national economy today?,Totals,100,100,100,99
+11,3,3,Thinking about 2024 Presidential Race,How much are you thinking about the 2024 presidential race these days?,A lot,67,69,63,70
+12,3,3,Thinking about 2024 Presidential Race,How much are you thinking about the 2024 presidential race these days?,Some,26,26,30,22
+13,3,3,Thinking about 2024 Presidential Race,How much are you thinking about the 2024 presidential race these days?,Not much,6,5,5,7
+14,3,3,Thinking about 2024 Presidential Race,How much are you thinking about the 2024 presidential race these days?,Not at all,1,0,2,1
+15,3,3,Thinking about 2024 Presidential Race,How much are you thinking about the 2024 presidential race these days?,Totals,100,100,100,100
+16,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Already voted by mail or absentee,100,100,98,100
+17,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Already voted early in person,10,10,9,10
+18,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Definitely will vote,2,2,1,2
+19,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Probably will vote,78,79,80,79
+20,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Maybe will vote,7,7,6,7
+21,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Probably will not vote,2,1,2,1
+22,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Definitely will not vote,0,0,0,0
+23,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Don’t know,0,0,1,0
+24,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Don’t know,1,1,1,0
+25,4,4,Likely to Vote in 2024,How likely is it that you will vote in the 2024 presidential election this year?,Totals,100,100,100,99
+26,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",Kamala Harris,48,98,50,4
+27,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",Donald Trump,51,2,48,96
+28,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",Someone else/third party,1,0,1,0
+29,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",Not sure,0,0,0,0
+30,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",I would not vote,0,0,0,0
+31,5,5,2024 Presidential Vote Intention (with Leaners),"If the 2024 presidential election were being held today between Kamala Harris or Donald Trump, who would",Totals,100,100,99,100
+32,10,17A,Factors in Vote for President — Crime,What is the main reason you [would vote/voted] for Donald Trump over Kamala Harris?,Mainly because I like Donald Trump,59,41,54,78
+33,10,17A,Factors in Vote for President — Crime,What is the main reason you [would vote/voted] for Donald Trump over Kamala Harris?,Mainly because Donald Trump is the Republican nominee,30,41,33,19
+34,10,17A,Factors in Vote for President — Crime,What is the main reason you [would vote/voted] for Donald Trump over Kamala Harris?,Mainly to oppose Kamala Harris,11,18,13,3
+35,10,17A,Factors in Vote for President — Crime,What is the main reason you [would vote/voted] for Donald Trump over Kamala Harris?,Totals,100,100,100,100
+36,11,17B,Factors in Vote for President — Gun policy,How much of a factor is each of these in your vote for president?,Major factor,52,66,44,46
+37,11,17B,Factors in Vote for President — Gun policy,How much of a factor is each of these in your vote for president?,Minor factor,34,28,39,35
+38,11,17B,Factors in Vote for President — Gun policy,How much of a factor is each of these in your vote for president?,Not a factor,14,6,17,19
+39,11,17B,Factors in Vote for President — Gun policy,How much of a factor is each of these in your vote for president?,Totals,100,100,100,100
+40,12,17C,Factors in Vote for President — Abortion,How much of a factor is each of these in your vote for president?,Major factor,52,81,49,31
+41,12,17C,Factors in Vote for President — Abortion,How much of a factor is each of these in your vote for president?,Minor factor,26,14,27,33
+42,12,17C,Factors in Vote for President — Abortion,How much of a factor is each of these in your vote for president?,Not a factor,22,5,24,36
+43,12,17C,Factors in Vote for President — Abortion,How much of a factor is each of these in your vote for president?,Totals,100,100,100,100
+44,13,17D,Factors in Vote for President — The economy,How much of a factor is each of these in your vote for president?,Major factor,82,72,79,93
+45,13,17D,Factors in Vote for President — The economy,How much of a factor is each of these in your vote for president?,Minor factor,16,25,18,6
+46,13,17D,Factors in Vote for President — The economy,How much of a factor is each of these in your vote for president?,Not a factor,2,3,3,1
+47,13,17D,Factors in Vote for President — The economy,How much of a factor is each of these in your vote for president?,Totals,100,100,100,100
+48,14,17E,Factors in Vote for President — The U.S.-Mexico border,How much of a factor is each of these in your vote for president?,Major factor,57,25,54,90
+49,14,17E,Factors in Vote for President — The U.S.-Mexico border,How much of a factor is each of these in your vote for president?,Minor factor,30,53,29,8
+50,14,17E,Factors in Vote for President — The U.S.-Mexico border,How much of a factor is each of these in your vote for president?,Not a factor,13,22,16,2
+51,14,17E,Factors in Vote for President — The U.S.-Mexico border,How much of a factor is each of these in your vote for president?,Totals,100,100,99,100
+52,15,17F,Factors in Vote for President — The state of democracy,How much of a factor is each of these in your vote for president?,Major factor,70,83,68,62
+53,15,17F,Factors in Vote for President — The state of democracy,How much of a factor is each of these in your vote for president?,Minor factor,20,16,17,26
+54,15,17F,Factors in Vote for President — The state of democracy,How much of a factor is each of these in your vote for president?,Not a factor,9,1,14,12
+55,15,17F,Factors in Vote for President — The state of democracy,How much of a factor is each of these in your vote for president?,Totals,99,100,99,100
+56,16,17G,Factors in Vote for President — Issues of race and diversity,How much of a factor is each of these in your vote for president?,Major factor,32,60,28,12
+57,16,17G,Factors in Vote for President — Issues of race and diversity,How much of a factor is each of these in your vote for president?,Minor factor,33,32,34,33
+58,16,17G,Factors in Vote for President — Issues of race and diversity,How much of a factor is each of these in your vote for president?,Not a factor,34,8,38,54
+59,16,17G,Factors in Vote for President — Issues of race and diversity,How much of a factor is each of these in your vote for president?,Totals,99,100,100,99
+60,17,17H,Factors in Vote for President — The war between Israel and Hamas,How much of a factor is each of these in your vote for president?,Crime,34,30,32,38
+61,17,17H,Factors in Vote for President — The war between Israel and Hamas,How much of a factor is each of these in your vote for president?,Gun policy,44,45,42,45
+62,17,17H,Factors in Vote for President — The war between Israel and Hamas,How much of a factor is each of these in your vote for president?,Abortion,22,24,26,17
+63,17,17H,Factors in Vote for President — The war between Israel and Hamas,How much of a factor is each of these in your vote for president?,The economy,100,99,100,100
+64,18,17I,Factors in Vote for President — Inflation,How much of a factor is each of these in your vote for president?,Major factor,73,53,69,92
+65,18,17I,Factors in Vote for President — Inflation,How much of a factor is each of these in your vote for president?,Minor factor,21,36,24,7
+66,18,17I,Factors in Vote for President — Inflation,How much of a factor is each of these in your vote for president?,Not a factor,6,11,7,1
+67,18,17I,Factors in Vote for President — Inflation,How much of a factor is each of these in your vote for president?,Totals,100,100,100,100
+68,19,17J,Factors in Vote for President — Climate change,How much of a factor is each of these in your vote for president?,Major factor,39,72,38,12
+69,19,17J,Factors in Vote for President — Climate change,How much of a factor is each of these in your vote for president?,Minor factor,27,23,27,29
+70,19,17J,Factors in Vote for President — Climate change,How much of a factor is each of these in your vote for president?,Not a factor,34,5,35,59
+71,19,17J,Factors in Vote for President — Climate change,How much of a factor is each of these in your vote for president?,Totals,100,100,100,100
+72,20,21,Abortion Legal in Arizona,Do you want abortion in Arizona to be...,Legal in all cases,27,50,28,7
+73,20,21,Abortion Legal in Arizona,Do you want abortion in Arizona to be...,Legal in most cases,37,35,43,32
+74,20,21,Abortion Legal in Arizona,Do you want abortion in Arizona to be...,Illegal in most cases,31,13,24,52
+75,20,21,Abortion Legal in Arizona,Do you want abortion in Arizona to be...,Illegal in all cases,5,2,5,9
+76,20,21,Abortion Legal in Arizona,Do you want abortion in Arizona to be...,Totals,100,100,100,100
+77,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Legal in all cases,12,20,11,6
+78,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Legal in most cases,43,45,47,37
+79,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Illegal in most cases,30,26,27,37
+80,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Illegal in all cases,13,8,13,18
+81,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Not sure,2,1,2,2
+82,21,22,Personal Financial Situation,Do you want abortion in Arizona to be...,Totals,100,100,100,100
+83,22,23,Prices Over Last Few Months,How would you rate your own personal financial and economic situation today?,Very good,69,49,65,90
+84,22,23,Prices Over Last Few Months,How would you rate your own personal financial and economic situation today?,Fairly good,7,12,7,2
+85,22,23,Prices Over Last Few Months,How would you rate your own personal financial and economic situation today?,Fairly bad,22,36,26,8
+86,22,23,Prices Over Last Few Months,How would you rate your own personal financial and economic situation today?,Very bad,2,3,2,0
+87,22,23,Prices Over Last Few Months,How would you rate your own personal financial and economic situation today?,Not sure,100,100,100,100
+88,23,24,Financial Condition if Harris Wins,"Just over the last few months, have the prices for the things you buy generally been...",Increasing,30,66,25,4
+89,23,24,Financial Condition if Harris Wins,"Just over the last few months, have the prices for the things you buy generally been...",Decreasing,49,3,49,90
+90,23,24,Financial Condition if Harris Wins,"Just over the last few months, have the prices for the things you buy generally been...",Staying about the same,21,31,26,6
+91,23,24,Financial Condition if Harris Wins,"Just over the last few months, have the prices for the things you buy generally been...",Not sure,100,100,100,100
+92,24,25,Financial Condition if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies would make you...",Financially better off,46,7,43,84
+93,24,25,Financial Condition if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies would make you...",Financially worse off,39,77,39,7
+94,24,25,Financial Condition if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies would make you...",Stay about the same,14,16,18,9
+95,24,25,Financial Condition if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies would make you...",Totals,99,100,100,100
+96,25,26,Immigration Interests if Harris Wins,"If Donald Trump wins in 2024, do you think his policies would make you...",Financially better off,15,26,17,3
+97,25,26,Immigration Interests if Harris Wins,"If Donald Trump wins in 2024, do you think his policies would make you...",Financially worse off,46,5,42,88
+98,25,26,Immigration Interests if Harris Wins,"If Donald Trump wins in 2024, do you think his policies would make you...",Stay about the same,30,60,28,5
+99,25,26,Immigration Interests if Harris Wins,"If Donald Trump wins in 2024, do you think his policies would make you...",Neither,9,9,13,4
+100,25,26,Immigration Interests if Harris Wins,"If Donald Trump wins in 2024, do you think his policies would make you...",Totals,100,100,100,100
+101,26,27,Immigration Interests if Trump Wins,"If Kamala Harris wins in 2024, do you think her immigration policies would put the interests of...",Current U.S. citizens ahead of recent immigrants,67,43,65,89
+102,26,27,Immigration Interests if Trump Wins,"If Kamala Harris wins in 2024, do you think her immigration policies would put the interests of...",Recent immigrants ahead of U.S. citizens,2,4,2,1
+103,26,27,Immigration Interests if Trump Wins,"If Kamala Harris wins in 2024, do you think her immigration policies would put the interests of...",Treat both equally,6,4,4,8
+104,26,27,Immigration Interests if Trump Wins,"If Kamala Harris wins in 2024, do you think her immigration policies would put the interests of...",Neither,25,48,28,2
+105,26,27,Immigration Interests if Trump Wins,"If Kamala Harris wins in 2024, do you think her immigration policies would put the interests of...",Totals,100,99,99,100
+106,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",Current U.S. citizens ahead of recent immigrants,54,95,57,15
+107,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",Recent immigrants ahead of U.S. citizens,45,4,42,84
+108,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",Treat both equally,1,0,1,1
+109,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",Neither,0,1,0,0
+110,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",I would not vote,0,0,0,0
+111,27,30,U.S. Senate Vote Intention - Arizona (with Leaners),"If Donald Trump wins in 2024, do you think his immigration policies would put the interests of...",Totals,100,100,100,100
+112,30,33,Gallego Reasonable or Extreme,The general election for U.S. Senate in Arizona is coming up this November. If the Senate election were held,Ruben Gallego,60,93,60,28
+113,30,33,Gallego Reasonable or Extreme,The general election for U.S. Senate in Arizona is coming up this November. If the Senate election were held,Kari Lake,40,7,40,72
+114,30,33,Gallego Reasonable or Extreme,The general election for U.S. Senate in Arizona is coming up this November. If the Senate election were held,Someone else,100,100,100,100
+115,31,34,Lake Reasonable or Extreme,What is the main reason you [would vote/voted] for Ruben Gallego over Kari Lake?,Mainly because I like Ruben Gallego,41,13,38,69
+116,31,34,Lake Reasonable or Extreme,What is the main reason you [would vote/voted] for Ruben Gallego over Kari Lake?,Mainly because Ruben Gallego is the Democratic nominee,59,87,62,31
+117,31,34,Lake Reasonable or Extreme,What is the main reason you [would vote/voted] for Ruben Gallego over Kari Lake?,Mainly to oppose Kari Lake,100,100,100,100
+118,32,36,Vote on Proposition 139,What is the main reason you [would vote/voted] for Kari Lake over Ruben Gallego?,Mainly because I like Kari Lake,52,82,56,23
+119,32,36,Vote on Proposition 139,What is the main reason you [would vote/voted] for Kari Lake over Ruben Gallego?,Mainly because Kari Lake is the Republican nominee,33,5,30,59
+120,32,36,Vote on Proposition 139,What is the main reason you [would vote/voted] for Kari Lake over Ruben Gallego?,Mainly to oppose Ruben Gallego,15,12,14,18
+121,32,36,Vote on Proposition 139,What is the main reason you [would vote/voted] for Kari Lake over Ruben Gallego?,Totals,100,99,100,100
+122,33,37,Women’s Access to Reproductive Health Care if Proposition 139 Does Not Pass,"Whether or not you agree with them, would you describe Ruben Gallego’s positions as generally:",Reasonable,5,8,1,7
+123,33,37,Women’s Access to Reproductive Health Care if Proposition 139 Does Not Pass,"Whether or not you agree with them, would you describe Ruben Gallego’s positions as generally:",Extreme,45,72,50,19
+124,33,37,Women’s Access to Reproductive Health Care if Proposition 139 Does Not Pass,"Whether or not you agree with them, would you describe Ruben Gallego’s positions as generally:",Stay the same as it is,35,10,37,56
+125,33,37,Women’s Access to Reproductive Health Care if Proposition 139 Does Not Pass,"Whether or not you agree with them, would you describe Ruben Gallego’s positions as generally:",Don’t know not sure,14,10,12,18
+126,33,37,Women’s Access to Reproductive Health Care if Proposition 139 Does Not Pass,"Whether or not you agree with them, would you describe Ruben Gallego’s positions as generally:",Totals,99,100,100,100
+127,34,38,Abortion Policy if Harris Wins,"Whether or not you agree with them, would you describe Kari Lake’s positions as generally:",Reasonable,74,69,75,77
+128,34,38,Abortion Policy if Harris Wins,"Whether or not you agree with them, would you describe Kari Lake’s positions as generally:",Extreme,14,21,11,12
+129,34,38,Abortion Policy if Harris Wins,"Whether or not you agree with them, would you describe Kari Lake’s positions as generally:",Not sure,12,10,14,11
+130,34,38,Abortion Policy if Harris Wins,"Whether or not you agree with them, would you describe Kari Lake’s positions as generally:",Totals,100,100,100,100
+131,35,39,Abortion Policy if Trump Wins,"If Donald Trump wins in 2024, do you think he will try to:",Pass a national abortion ban makin,34,64,30,11
+132,35,39,Abortion Policy if Trump Wins,"If Donald Trump wins in 2024, do you think he will try to:",Leave abortion laws to the states to,55,24,56,82
+133,35,39,Abortion Policy if Trump Wins,"If Donald Trump wins in 2024, do you think he will try to:",Not sure,11,12,14,7
+134,35,39,Abortion Policy if Trump Wins,"If Donald Trump wins in 2024, do you think he will try to:",Totals,100,100,100,100
+135,36,40,Health Care Policy if Harris Wins,"If the election were held today, how would you vote on Arizona’s Proposition 139, which would establish a",Yes on Proposition 139,35,68,32,7
+136,36,40,Health Care Policy if Harris Wins,"If the election were held today, how would you vote on Arizona’s Proposition 139, which would establish a",No on Proposition 139,38,6,34,73
+137,36,40,Health Care Policy if Harris Wins,"If the election were held today, how would you vote on Arizona’s Proposition 139, which would establish a",Not sure yet,27,26,34,20
+138,36,40,Health Care Policy if Harris Wins,"If the election were held today, how would you vote on Arizona’s Proposition 139, which would establish a",Totals,100,100,100,100
+139,37,41,Health Care Policy if Trump Wins,"If Proposition 139 does NOT pass in Arizona, do you think women’s access to reproductive health care more",Easier,30,7,19,60
+140,37,41,Health Care Policy if Trump Wins,"If Proposition 139 does NOT pass in Arizona, do you think women’s access to reproductive health care more",Harder,42,79,44,7
+141,37,41,Health Care Policy if Trump Wins,"If Proposition 139 does NOT pass in Arizona, do you think women’s access to reproductive health care more",Stay the same as it is,28,14,36,33
+142,37,41,Health Care Policy if Trump Wins,"If Proposition 139 does NOT pass in Arizona, do you think women’s access to reproductive health care more",Don’t know/not sure,100,100,99,100
+143,38,42,Change in the Number of Migrants Crossing the U.S.-Mexico Border,"If Kamala Harris wins in 2024, do you think she will try to:",Pass a national law making abortion LEGAL in all states,35,21,28,55
+144,38,42,Change in the Number of Migrants Crossing the U.S.-Mexico Border,"If Kamala Harris wins in 2024, do you think she will try to:",Leave abortion laws to the states to decide,34,45,38,21
+145,38,42,Change in the Number of Migrants Crossing the U.S.-Mexico Border,"If Kamala Harris wins in 2024, do you think she will try to:",Not sure,31,34,34,24
+146,38,42,Change in the Number of Migrants Crossing the U.S.-Mexico Border,"If Kamala Harris wins in 2024, do you think she will try to:",Totals,100,100,100,100
+147,39,43,Border Migrants if Harris Wins,"If Donald Trump wins in 2024, do you think he will try to:",Pass a national abortion ban making it ILLEGAL in all states,53,18,50,86
+148,39,43,Border Migrants if Harris Wins,"If Donald Trump wins in 2024, do you think he will try to:",Leave abortion laws to the states to decide,22,41,21,5
+149,39,43,Border Migrants if Harris Wins,"If Donald Trump wins in 2024, do you think he will try to:",Not sure,25,40,29,9
+150,39,43,Border Migrants if Harris Wins,"If Donald Trump wins in 2024, do you think he will try to:",Totals,100,99,100,100
+151,40,44,Border Migrants if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies will make health care for you and your family...",More affordable,7,13,5,4
+152,40,44,Border Migrants if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies will make health care for you and your family...",Less affordable,71,45,72,93
+153,40,44,Border Migrants if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies will make health care for you and your family...",Stay about the same,22,42,22,3
+154,40,44,Border Migrants if Trump Wins,"If Kamala Harris wins in 2024, do you think her policies will make health care for you and your family...",Totals,100,100,99,100
+155,41,45,Recent Immigrants Impact on Arizona,"If Donald Trump wins in 2024, do you think his policies will make health care for you and your family...",More affordable,17,32,16,5
+156,41,45,Recent Immigrants Impact on Arizona,"If Donald Trump wins in 2024, do you think his policies will make health care for you and your family...",Less affordable,49,11,48,85
+157,41,45,Recent Immigrants Impact on Arizona,"If Donald Trump wins in 2024, do you think his policies will make health care for you and your family...",Stay about the same,34,57,36,10
+158,41,45,Recent Immigrants Impact on Arizona,"If Donald Trump wins in 2024, do you think his policies will make health care for you and your family...",Totals,100,100,100,100
+159,42,46,Approval of Trump Deporting All Immigrants in the U.S. Illegally,"From what you have seen or heard, in recent weeks, has the number of migrants crossing the U.S.-Mexico",Increasing,55,15,53,92
+160,42,46,Approval of Trump Deporting All Immigrants in the U.S. Illegally,"From what you have seen or heard, in recent weeks, has the number of migrants crossing the U.S.-Mexico",Decreasing,45,85,47,8
+161,42,46,Approval of Trump Deporting All Immigrants in the U.S. Illegally,"From what you have seen or heard, in recent weeks, has the number of migrants crossing the U.S.-Mexico",Staying about the same,100,100,100,100
+162,43,47,Confidence in Arizona Election System,"If Kamala Harris wins in 2024, do you think her policies would...",Increase the number of migrants trying to cross the border,32,55,36,10
+163,43,47,Confidence in Arizona Election System,"If Kamala Harris wins in 2024, do you think her policies would...",Decrease the number of migrants trying to cross the border,36,36,35,36
+164,43,47,Confidence in Arizona Election System,"If Kamala Harris wins in 2024, do you think her policies would...",Won’t have an effect,22,7,19,39
+165,43,47,Confidence in Arizona Election System,"If Kamala Harris wins in 2024, do you think her policies would...",Not at all confident,9,2,10,15
+166,43,47,Confidence in Arizona Election System,"If Kamala Harris wins in 2024, do you think her policies would...",Totals,99,100,100,100
+167,44,48,Actions After Election Results Are Counted in Arizona,"If Donald Trump wins in 2024, do you think his policies would...",Increase the number of migrants trying to cross the border,27,8,20,51
+168,44,48,Actions After Election Results Are Counted in Arizona,"If Donald Trump wins in 2024, do you think his policies would...",Decrease the number of migrants trying to cross the border,8,15,7,4
+169,44,48,Actions After Election Results Are Counted in Arizona,"If Donald Trump wins in 2024, do you think his policies would...",Won’t have an effect,65,77,73,45
+170,44,48,Actions After Election Results Are Counted in Arizona,"If Donald Trump wins in 2024, do you think his policies would...",Totals,100,100,100,100
+171,45,49,2020 Legitimate Winner - Arizona,"In your view, over recent years, have recent immigrants from Mexico and Latin America made life in the state",Better,63,96,67,28
+172,45,49,2020 Legitimate Winner - Arizona,"In your view, over recent years, have recent immigrants from Mexico and Latin America made life in the state",Worse,37,4,33,72
+173,45,49,2020 Legitimate Winner - Arizona,"In your view, over recent years, have recent immigrants from Mexico and Latin America made life in the state",Not had an impact either way,100,100,100,100
+174,46,50,2020 Election Fraud and Irregularities in Arizona,"If Donald Trump is elected president, would you approve or disapprove of him starting a national program to",Approve,29,6,24,56
+175,46,50,2020 Election Fraud and Irregularities in Arizona,"If Donald Trump is elected president, would you approve or disapprove of him starting a national program to",Disapprove,43,39,51,38
+176,46,50,2020 Election Fraud and Irregularities in Arizona,"If Donald Trump is elected president, would you approve or disapprove of him starting a national program to",No voter fraud or irregularities,28,55,25,6
+177,46,50,2020 Election Fraud and Irregularities in Arizona,"If Donald Trump is elected president, would you approve or disapprove of him starting a national program to",Totals,100,100,100,100

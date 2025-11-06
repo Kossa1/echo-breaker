@@ -1,0 +1,24 @@
+{
+  "file_source": "31cdaaa0-3254-11e2-8a8a-005056a8759d_res.csv",
+  "qnum": 17,
+  "orig_label": "5A",
+  "question": "U.S. Military Interventions Right or Wrong Decision — World War I (1914-1918)",
+  "prompt": "Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",
+  "responses": [
+    {
+      "response": "Right decision",
+      "dem": 56.0,
+      "rep": 66.0
+    },
+    {
+      "response": "Wrong decision",
+      "dem": 12.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 32.0,
+      "rep": 22.0
+    }
+  ]
+}

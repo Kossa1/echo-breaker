@@ -1,0 +1,61 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,Kamala Harris,25,62,13,2
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,Joe Biden,18,26,25,2
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,JD Vance,8,4,12,8
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,Sarah Palin,41,6,34,86
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,Mike Pence,7,3,15,2
+1,1A,Favorability of Vice Presidents and Vice Presidential Candidates — Kamala Harris,Do you have a favorable or an unfavorable opinion of the following people?,Joe Lieberman,99,101,99,100
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,19,42,12,3
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,19,35,20,2
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,12,11,15,10
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,44,9,40,83
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,6,2,13,2
+2,1B,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Biden,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,99,100,100
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,16,1,8,39
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,18,7,12,35
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,6,7,7,4
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,37,70,36,6
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,23,14,36,15
+3,1C,Favorability of Vice Presidents and Vice Presidential Candidates — JD Vance,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,99,99,99
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,8,4,3,18
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,21,8,15,43
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,17,17,17,15
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,33,55,34,10
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,21,16,32,13
+4,1D,Favorability of Vice Presidents and Vice Presidential Candidates — Sarah Palin,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,101,99
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,6,2,7,11
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,22,18,16,32
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,24,29,21,23
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,31,40,32,20
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,17,11,24,14
+5,1E,Favorability of Vice Presidents and Vice Presidential Candidates — Mike Pence,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,100,100
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,5,6,4,5
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,15,20,11,16
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,15,17,10,21
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,13,11,13,15
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,51,45,63,44
+6,1F,Favorability of Vice Presidents and Vice Presidential Candidates — Joe Lieberman,Do you have a favorable or an unfavorable opinion of the following people?,Totals,99,99,101,101
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,5,12,3,1
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,13,24,7,8
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,13,7,15,17
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,14,6,14,23
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,55,52,61,52
+7,1G,Favorability of Vice Presidents and Vice Presidential Candidates — Tim Kaine,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,101,100,101
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,4,4,4,5
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,15,17,9,20
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,21,19,17,28
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,31,39,33,21
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,29,22,37,26
+8,1H,Favorability of Vice Presidents and Vice Presidential Candidates — Dick Cheney,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,101,100,100
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,4,2,3,8
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,13,9,10,21
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,19,23,18,14
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,25,32,24,19
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,39,34,44,38
+9,1I,Favorability of Vice Presidents and Vice Presidential Candidates — Paul Ryan,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,99,100
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,3,4,3,1
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,12,17,8,12
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,18,21,17,18
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,16,11,16,21
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,51,47,56,48
+10,1J,Favorability of Vice Presidents and Vice Presidential Candidates — John Edwards,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,100,100

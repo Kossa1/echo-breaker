@@ -1,0 +1,29 @@
+{
+  "file_source": "bae293d0-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 4,
+  "orig_label": "5",
+  "question": "Climate Change Approach",
+  "prompt": "Which of the following comes closest to your view?",
+  "responses": [
+    {
+      "response": "It is already too late to avoid the worst effects of climate change",
+      "dem": 40.0,
+      "rep": 34.0
+    },
+    {
+      "response": "in the steps taken to tackle it",
+      "dem": 4.0,
+      "rep": 2.0
+    },
+    {
+      "response": "currently being taken to tackle it",
+      "dem": 19.0,
+      "rep": 17.0
+    },
+    {
+      "response": "The climate is not changing",
+      "dem": 56.0,
+      "rep": 35.0
+    }
+  ]
+}

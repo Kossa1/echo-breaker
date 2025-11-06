@@ -1,0 +1,29 @@
+{
+  "file_source": "c176b0a3-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 51,
+  "orig_label": "14O",
+  "question": "Causes of Homelessness — Racism",
+  "prompt": "Do you think the following is a major cause of homelessness, a minor cause, or not a cause?",
+  "responses": [
+    {
+      "response": "Major cause",
+      "dem": 43.0,
+      "rep": 11.0
+    },
+    {
+      "response": "Minor cause",
+      "dem": 37.0,
+      "rep": 27.0
+    },
+    {
+      "response": "Not a cause",
+      "dem": 9.0,
+      "rep": 55.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 10.0,
+      "rep": 7.0
+    }
+  ]
+}

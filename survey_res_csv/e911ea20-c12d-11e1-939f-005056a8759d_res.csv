@@ -1,0 +1,52 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,instrument,3,4,1,3
+1,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,No influence,25,23,25,26
+2,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,Not sure,3,4,1,5
+3,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,Totals,101,100,99,101
+4,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,play an instrument,14,17,11,15
+5,1,2,Parents and Music,What role did your parents take in your learning to play an instrument?,make me,50,51,48,53
+6,2,3,Instrument Comes Naturally,Do you feel that playing an instrument is generally something that comes naturally to you or not?,Comes naturally,36,39,36,33
+7,2,3,Instrument Comes Naturally,Do you feel that playing an instrument is generally something that comes naturally to you or not?,Does not come naturally,50,51,46,55
+8,2,3,Instrument Comes Naturally,Do you feel that playing an instrument is generally something that comes naturally to you or not?,Not sure,14,10,18,12
+9,2,3,Instrument Comes Naturally,Do you feel that playing an instrument is generally something that comes naturally to you or not?,Totals,100,100,100,100
+10,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Satisfying,40,40,41,37
+11,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Inspiring,26,25,26,29
+12,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Creative,33,32,34,39
+13,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Other,3,2,3,1
+14,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,None of these,6,5,6,3
+15,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Not sure,6,7,5,7
+16,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Frustrating,20,20,20,19
+17,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Releasing,23,21,25,21
+18,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Intense,13,16,13,10
+19,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Relaxing,37,39,38,35
+20,3,4,Feels to Play Music,What words describe how it feels for you to play music? Select as many as apply.,Joyous,25,27,25,24
+21,4,5,Method of Playing,"When playing music, have you generally played from reading sheet music, playing by ear, or freestyling?",Reading sheet music,62,63,60,65
+22,4,5,Method of Playing,"When playing music, have you generally played from reading sheet music, playing by ear, or freestyling?",Playing by ear,33,34,33,31
+23,4,5,Method of Playing,"When playing music, have you generally played from reading sheet music, playing by ear, or freestyling?",Freestyling,25,23,30,19
+24,4,5,Method of Playing,"When playing music, have you generally played from reading sheet music, playing by ear, or freestyling?",Not sure,6,5,7,6
+25,5,6,Wish You Learned To Play,Do you wish you had learned to play an instrument?,Yes,50,52,47,54
+26,5,6,Wish You Learned To Play,Do you wish you had learned to play an instrument?,No,36,34,37,36
+27,5,6,Wish You Learned To Play,Do you wish you had learned to play an instrument?,Not sure,14,15,16,10
+28,5,6,Wish You Learned To Play,Do you wish you had learned to play an instrument?,Totals,100,101,100,100
+29,6,8A,How Learned - Instrument — Piano,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",I took lessons or a class,60,65,54,58
+30,6,8A,How Learned - Instrument — Piano,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",informally,21,19,20,25
+31,6,8A,How Learned - Instrument — Piano,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",I was self-taught,19,15,25,15
+32,6,8A,How Learned - Instrument — Piano,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",Not sure,1,1,1,1
+33,6,8A,How Learned - Instrument — Piano,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",Totals,101,100,100,99
+34,8,8C,How Learned - Instrument — Guitar,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",I took lessons or a class,39,48,35,35
+35,8,8C,How Learned - Instrument — Guitar,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",informally,25,25,28,18
+36,8,8C,How Learned - Instrument — Guitar,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",I was self-taught,36,27,37,45
+37,8,8C,How Learned - Instrument — Guitar,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",Not sure,0,0,0,2
+38,8,8C,How Learned - Instrument — Guitar,"Withthefollowinginstrument(s),didyoumostlylearnfromtakingmusiclessonsoraclass,fromsomeoneteachingyouinformally,orfrombeingself-taught?",Totals,100,100,100,100
+39,26,9A,Still Play - Instrument — Piano,Do you still play the following instrument(s)?,Yes,32,32,28,36
+40,26,9A,Still Play - Instrument — Piano,Do you still play the following instrument(s)?,No,66,66,69,63
+41,26,9A,Still Play - Instrument — Piano,Do you still play the following instrument(s)?,Not sure,2,2,2,1
+42,26,9A,Still Play - Instrument — Piano,Do you still play the following instrument(s)?,Totals,100,100,99,100
+43,28,9C,Still Play - Instrument — Guitar,Do you still play the following instrument(s)?,Yes,39,43,36,39
+44,28,9C,Still Play - Instrument — Guitar,Do you still play the following instrument(s)?,No,57,53,60,57
+45,28,9C,Still Play - Instrument — Guitar,Do you still play the following instrument(s)?,Not sure,4,4,3,5
+46,28,9C,Still Play - Instrument — Guitar,Do you still play the following instrument(s)?,Totals,100,100,99,101
+47,46,10A,Regret Quitting - Instrument — Piano,Do you regret quitting this instrument?,Yes,48,49,47,47
+48,46,10A,Regret Quitting - Instrument — Piano,Do you regret quitting this instrument?,No,43,44,40,46
+49,46,10A,Regret Quitting - Instrument — Piano,Do you regret quitting this instrument?,Not sure,9,7,13,7
+50,46,10A,Regret Quitting - Instrument — Piano,Do you regret quitting this instrument?,Totals,100,100,100,100

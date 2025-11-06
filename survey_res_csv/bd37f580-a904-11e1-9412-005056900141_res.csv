@@ -1,0 +1,366 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Rating of Overall Health,How would you describe your current overall health?,Excellent,9,9,8,10
+1,1,1,Rating of Overall Health,How would you describe your current overall health?,Very good,25,27,23,26
+2,1,1,Rating of Overall Health,How would you describe your current overall health?,Good,39,40,38,39
+3,1,1,Rating of Overall Health,How would you describe your current overall health?,Fair,21,20,24,20
+4,1,1,Rating of Overall Health,How would you describe your current overall health?,Poor,5,4,6,5
+5,1,1,Rating of Overall Health,How would you describe your current overall health?,Prefer not to say,1,0,1,0
+6,1,1,Rating of Overall Health,How would you describe your current overall health?,Totals,100,100,100,100
+7,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Doctors and other medical providers,41,56,35,33
+8,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Common sense,47,38,47,56
+9,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Scientific research institutions,6,4,8,6
+10,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Nutritionists and dietitians,3,1,3,4
+11,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Friends and family,3,2,6,2
+12,2,2A,Trust Sources for Health Information — Doctors and other medical providers,"As sources of health information, would you say the following are...?",Government health agencies,100,101,99,101
+13,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,water a day,36,32,33,45
+14,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,gain,48,51,48,45
+15,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,Sugar makes children hyperactive,7,11,7,4
+16,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,Stress causes gray hair,3,2,3,3
+17,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,your vision,6,5,9,4
+18,3,2B,Trust Sources for Health Information — Common sense,Do you think the following is...?,their menstrual cycles,100,101,100,101
+19,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,gain,32,54,26,14
+20,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,water a day,42,32,47,48
+21,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,Sugar makes children hyperactive,11,6,10,19
+22,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,Vitamin C prevents colds,7,3,7,12
+23,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,Stress causes gray hair,7,5,9,7
+24,4,2C,Trust Sources for Health Information — Scientific research institutions,People who say each is...,vision,99,100,99,100
+25,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Very trustworthy,24,32,21,18
+26,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Somewhat trustworthy,56,55,53,61
+27,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Not very trustworthy,10,9,11,9
+28,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Not at all trustworthy,4,2,5,5
+29,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Not sure,6,3,10,7
+30,5,2D,Trust Sources for Health Information — Nutritionists and dietitians,"As sources of health information, would you say the following are...?",Totals,100,101,100,100
+31,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Very trustworthy,19,18,15,24
+32,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Somewhat trustworthy,54,54,56,53
+33,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Not very trustworthy,17,19,17,13
+34,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Not at all trustworthy,4,5,2,5
+35,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Not sure,7,5,10,5
+36,6,2E,Trust Sources for Health Information — Friends and family,"As sources of health information, would you say the following are...?",Totals,101,101,100,100
+37,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Very trustworthy,18,33,14,6
+38,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Somewhat trustworthy,40,50,37,32
+39,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Not very trustworthy,19,8,22,28
+40,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Not at all trustworthy,17,3,19,30
+41,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Not sure,6,5,8,5
+42,7,2F,Trust Sources for Health Information — Government health agencies,"As sources of health information, would you say the following are...?",Totals,100,99,100,101
+43,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Very trustworthy,7,7,5,11
+44,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Somewhat trustworthy,25,19,19,36
+45,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Not very trustworthy,26,25,29,23
+46,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Not at all trustworthy,30,39,33,16
+47,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Not sure,12,10,14,13
+48,8,2G,Trust Sources for Health Information — Religious organizations,"As sources of health information, would you say the following are...?",Totals,100,100,100,99
+49,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Very trustworthy,7,7,5,7
+50,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Somewhat trustworthy,40,36,40,44
+51,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Not very trustworthy,28,32,26,27
+52,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Not at all trustworthy,13,13,13,12
+53,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Not sure,12,11,16,10
+54,9,2H,Trust Sources for Health Information — Alternative medicine practitioners,"As sources of health information, would you say the following are...?",Totals,100,99,100,100
+55,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Very trustworthy,7,10,5,5
+56,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Somewhat trustworthy,34,42,29,31
+57,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Not very trustworthy,29,27,29,33
+58,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Not at all trustworthy,24,16,27,28
+59,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Not sure,6,5,10,3
+60,10,2I,Trust Sources for Health Information — Pharmaceutical companies,"As sources of health information, would you say the following are...?",Totals,100,100,100,100
+61,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Very trustworthy,5,8,3,3
+62,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Somewhat trustworthy,41,44,37,41
+63,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Not very trustworthy,32,30,33,32
+64,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Not at all trustworthy,10,6,12,12
+65,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Not sure,13,12,14,12
+66,11,2J,Trust Sources for Health Information — Online health forums,"As sources of health information, would you say the following are...?",Totals,101,100,99,100
+67,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Very trustworthy,4,5,2,6
+68,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Somewhat trustworthy,19,16,20,21
+69,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Not very trustworthy,31,30,30,33
+70,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Not at all trustworthy,28,33,29,22
+71,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Not sure,18,16,19,18
+72,12,2K,Trust Sources for Health Information — Folklore,"As sources of health information, would you say the following are...?",Totals,100,100,100,100
+73,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Very trustworthy,3,4,1,4
+74,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Somewhat trustworthy,10,11,8,10
+75,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Not very trustworthy,32,32,34,31
+76,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Not at all trustworthy,47,46,45,49
+77,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Not sure,8,7,11,6
+78,13,2L,Trust Sources for Health Information — Social media influencers,"As sources of health information, would you say the following are...?",Totals,100,100,99,100
+79,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Definitely true,36,35,36,37
+80,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Probably true,40,40,39,40
+81,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Probably not true,16,17,18,13
+82,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Definitely not true,6,6,4,6
+83,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Not sure,3,2,3,3
+84,14,3A,Health Beliefs — You need to drink eight glasses of water a day,Do you think the following is...?,Totals,101,100,100,99
+85,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Definitely true,32,37,28,32
+86,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Probably true,43,39,41,51
+87,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Probably not true,12,14,14,7
+88,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Definitely not true,4,5,5,3
+89,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Not sure,8,5,13,7
+90,15,3B,Health Beliefs — Eating late at night leads to weight gain,Do you think the following is...?,Totals,99,100,101,100
+91,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Definitely true,30,32,28,29
+92,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Probably true,45,40,45,51
+93,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Probably not true,12,12,14,10
+94,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Definitely not true,8,9,9,6
+95,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Not sure,6,8,5,5
+96,16,3C,Health Beliefs — Sugar makes children hyperactive,Do you think the following is...?,Totals,101,101,101,101
+97,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Definitely true,22,23,24,19
+98,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Probably true,41,36,42,47
+99,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Probably not true,16,18,14,17
+100,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Definitely not true,11,14,8,12
+101,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Not sure,9,9,13,6
+102,17,3D,Health Beliefs — Stress causes gray hair,Do you think the following is...?,Totals,99,100,101,101
+103,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Definitely true,21,26,19,16
+104,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Probably true,43,34,46,49
+105,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Probably not true,18,22,15,17
+106,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Definitely not true,11,11,11,9
+107,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Not sure,8,7,10,8
+108,18,3E,Health Beliefs — Sitting too close to the TV damages your vision,Do you think the following is...?,Totals,101,100,101,99
+109,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Definitely true,21,22,16,24
+110,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Probably true,30,26,29,34
+111,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Probably not true,15,16,15,13
+112,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Definitely not true,16,21,16,11
+113,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Not sure,19,15,24,18
+114,19,3F,Health Beliefs — Women living together synchronize their menstrual cycles,Do you think the following is...?,Totals,101,100,100,100
+115,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Definitely true,18,22,15,17
+116,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Probably true,41,38,40,45
+117,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Probably not true,23,24,22,22
+118,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Definitely not true,7,5,7,9
+119,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Not sure,12,11,15,8
+120,20,3G,Health Beliefs — Reading in dim light damages your vision,Do you think the following is...?,Totals,101,100,99,101
+121,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Definitely true,19,18,17,23
+122,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Probably true,49,45,48,54
+123,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Probably not true,15,18,15,12
+124,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Definitely not true,6,9,6,3
+125,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Not sure,11,11,14,8
+126,21,3H,Health Beliefs — Vitamin C prevents colds,Do you think the following is...?,Totals,100,101,100,100
+127,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Definitely true,18,18,17,18
+128,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Probably true,42,37,43,45
+129,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Probably not true,15,18,12,18
+130,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Definitely not true,5,8,7,1
+131,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Not sure,20,20,22,18
+132,22,3I,Health Beliefs — Honey helps with seasonal allergies,Do you think the following is...?,Totals,100,101,101,100
+133,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Definitely true,16,20,14,14
+134,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Probably true,30,28,26,36
+135,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Probably not true,17,20,18,14
+136,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Definitely not true,11,12,9,12
+137,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Not sure,26,21,33,24
+138,23,3J,Health Beliefs — Drinking milk causes mucus production,Do you think the following is...?,Totals,100,101,100,100
+139,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Definitely true,15,16,15,15
+140,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Probably true,33,30,36,34
+141,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Probably not true,24,23,21,27
+142,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Definitely not true,15,15,17,14
+143,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Not sure,13,15,12,10
+144,24,3K,Health Beliefs — Eating before swimming causes cramps,Do you think the following is...?,Totals,100,99,101,100
+145,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Definitely true,15,16,15,15
+146,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Probably true,39,35,39,44
+147,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Probably not true,22,22,22,21
+148,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Definitely not true,10,13,9,9
+149,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Not sure,13,13,16,10
+150,25,3L,Health Beliefs — Cranberry juice cures urinary tract infections,Do you think the following is...?,Totals,99,99,101,99
+151,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Definitely true,14,14,16,11
+152,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Probably true,19,22,21,16
+153,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Probably not true,25,26,22,26
+154,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Definitely not true,36,34,33,42
+155,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Not sure,6,5,8,5
+156,26,3M,Health Beliefs — Cold weather causes colds,Do you think the following is...?,Totals,100,101,100,100
+157,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Definitely true,13,17,14,8
+158,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Probably true,28,26,28,31
+159,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Probably not true,19,17,18,22
+160,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Definitely not true,27,29,27,26
+161,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Not sure,12,11,13,12
+162,27,3N,Health Beliefs — Drinking alcohol warms you up,Do you think the following is...?,Totals,99,100,100,99
+163,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Definitely true,13,13,9,17
+164,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Probably true,42,42,39,45
+165,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Probably not true,21,21,26,15
+166,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Definitely not true,6,7,5,6
+167,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Not sure,18,18,20,17
+168,28,3O,Health Beliefs — Red wine daily is good for your heart,Do you think the following is...?,Totals,100,101,99,100
+169,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Definitely true,13,15,11,12
+170,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Probably true,25,24,22,28
+171,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Probably not true,19,16,18,23
+172,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Definitely not true,17,20,19,12
+173,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Not sure,27,25,30,25
+174,29,3P,Health Beliefs — Urine helps with jellyfish stings,Do you think the following is...?,Totals,101,100,100,100
+175,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Definitely true,12,19,7,10
+176,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Probably true,33,30,35,35
+177,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Probably not true,25,28,24,23
+178,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Definitely not true,14,11,14,17
+179,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Not sure,16,13,20,15
+180,30,3Q,Health Beliefs — Spicy foods cause ulcers,Do you think the following is...?,Totals,100,101,100,100
+181,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Definitely true,11,12,12,8
+182,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Probably true,23,23,22,25
+183,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Probably not true,22,21,23,22
+184,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Definitely not true,12,14,11,11
+185,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Not sure,31,29,33,33
+186,31,3R,Health Beliefs — Oysters are an aphrodisiac,Do you think the following is...?,Totals,99,99,101,99
+187,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Definitely true,11,10,13,9
+188,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Probably true,34,31,32,38
+189,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Probably not true,25,23,26,26
+190,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Definitely not true,18,20,17,17
+191,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Not sure,12,15,13,9
+192,32,3S,Health Beliefs — Microwave ovens cause radiation exposure,Do you think the following is...?,Totals,100,99,101,99
+193,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Definitely true,12,14,11,10
+194,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Probably true,36,38,34,37
+195,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Probably not true,17,17,18,14
+196,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Definitely not true,6,5,5,7
+197,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Not sure,30,25,32,32
+198,33,3T,Health Beliefs — Drinking warm water improves digestion,Do you think the following is...?,Totals,101,99,100,100
+199,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Definitely true,11,17,10,5
+200,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Probably true,27,26,22,34
+201,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Probably not true,22,19,26,22
+202,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Definitely not true,12,12,12,12
+203,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Not sure,28,26,30,27
+204,34,3U,Health Beliefs — Chocolate is an aphrodisiac,Do you think the following is...?,Totals,100,100,100,100
+205,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Definitely true,11,13,9,11
+206,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Probably true,30,31,31,29
+207,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Probably not true,18,18,15,21
+208,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Definitely not true,9,11,9,8
+209,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Not sure,31,27,36,31
+210,35,3V,Health Beliefs — Eating celery burns more calories than it contains,Do you think the following is...?,Totals,99,100,100,100
+211,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Definitely true,10,11,8,13
+212,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Probably true,27,25,28,28
+213,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Probably not true,21,25,19,20
+214,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Definitely not true,26,27,28,23
+215,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Not sure,15,13,17,15
+216,36,3W,Health Beliefs — Shaving makes your hair grow back thicker,Do you think the following is...?,Totals,99,101,100,99
+217,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Definitely true,9,8,9,12
+218,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Probably true,15,12,16,18
+219,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Probably not true,20,18,21,21
+220,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Definitely not true,47,53,45,42
+221,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Not sure,8,9,9,7
+222,37,3X,Health Beliefs — Eating carrots turns your skin orange,Do you think the following is...?,Totals,99,100,100,100
+223,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Definitely true,8,12,6,7
+224,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Probably true,34,29,36,37
+225,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Probably not true,25,24,24,26
+226,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Definitely not true,9,10,8,9
+227,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Not sure,24,24,26,21
+228,38,3Y,Health Beliefs — Drinking milk before bed helps with sleep,Do you think the following is...?,Totals,100,99,100,100
+229,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Definitely true,8,12,6,6
+230,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Probably true,35,32,29,43
+231,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Probably not true,24,23,26,24
+232,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Definitely not true,15,18,16,11
+233,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Not sure,18,15,22,17
+234,39,3Z,Health Beliefs — Carrots improve night vision,Do you think the following is...?,Totals,100,100,99,101
+235,40,4A,Health Beliefs - Personal Experiences — Eating late at night leads to weight gain,People who say each is...,experiences,10,10,9,11
+236,40,4A,Health Beliefs - Personal Experiences — Eating late at night leads to weight gain,People who say each is...,personal experiences,7,8,5,9
+237,40,4A,Health Beliefs - Personal Experiences — Eating late at night leads to weight gain,People who say each is...,Not sure,8,9,8,13
+238,40,4A,Health Beliefs - Personal Experiences — Eating late at night leads to weight gain,People who say each is...,Totals,100,99,100,100
+239,40,4A,Health Beliefs - Personal Experiences — Eating late at night leads to weight gain,People who say each is...,personal experiences,49,45,48,56
+240,41,4B,Health Beliefs - Personal Experiences — You need to drink eight glasses of water a day,People who say each is...,experiences,13,12,14,15
+241,41,4B,Health Beliefs - Personal Experiences — You need to drink eight glasses of water a day,People who say each is...,personal experiences,9,11,7,7
+242,41,4B,Health Beliefs - Personal Experiences — You need to drink eight glasses of water a day,People who say each is...,Not sure,3,2,3,2
+243,41,4B,Health Beliefs - Personal Experiences — You need to drink eight glasses of water a day,People who say each is...,Totals,100,99,100,100
+244,41,4B,Health Beliefs - Personal Experiences — You need to drink eight glasses of water a day,People who say each is...,personal experiences,50,50,51,50
+245,42,4C,Health Beliefs - Personal Experiences — Sugar makes children hyperactive,People who say each is...,experiences,13,15,12,14
+246,42,4C,Health Beliefs - Personal Experiences — Sugar makes children hyperactive,People who say each is...,personal experiences,6,7,5,5
+247,42,4C,Health Beliefs - Personal Experiences — Sugar makes children hyperactive,People who say each is...,Not sure,6,5,6,6
+248,42,4C,Health Beliefs - Personal Experiences — Sugar makes children hyperactive,People who say each is...,Totals,100,100,100,100
+249,42,4C,Health Beliefs - Personal Experiences — Sugar makes children hyperactive,People who say each is...,personal experiences,47,43,50,49
+250,43,4D,Health Beliefs - Personal Experiences — Vitamin C prevents colds,People who say each is...,experiences,13,16,10,13
+251,43,4D,Health Beliefs - Personal Experiences — Vitamin C prevents colds,People who say each is...,personal experiences,8,9,8,4
+252,43,4D,Health Beliefs - Personal Experiences — Vitamin C prevents colds,People who say each is...,Not sure,11,11,11,16
+253,43,4D,Health Beliefs - Personal Experiences — Vitamin C prevents colds,People who say each is...,Totals,100,100,101,99
+254,43,4D,Health Beliefs - Personal Experiences — Vitamin C prevents colds,People who say each is...,personal experiences,44,41,38,52
+255,44,4E,Health Beliefs - Personal Experiences — Stress causes gray hair,People who say each is...,experiences,15,16,13,7
+256,44,4E,Health Beliefs - Personal Experiences — Stress causes gray hair,People who say each is...,personal experiences,13,11,14,6
+257,44,4E,Health Beliefs - Personal Experiences — Stress causes gray hair,People who say each is...,Not sure,9,10,9,9
+258,44,4E,Health Beliefs - Personal Experiences — Stress causes gray hair,People who say each is...,Totals,100,100,99,101
+259,44,4E,Health Beliefs - Personal Experiences — Stress causes gray hair,People who say each is...,personal experiences,32,27,34,35
+260,45,4F,Health Beliefs - Personal Experiences — Reading in dim light damages your vision,People who say each is...,experiences,19,24,15,20
+261,45,4F,Health Beliefs - Personal Experiences — Reading in dim light damages your vision,People who say each is...,personal experiences,11,14,8,9
+262,45,4F,Health Beliefs - Personal Experiences — Reading in dim light damages your vision,People who say each is...,Not sure,12,12,11,12
+263,45,4F,Health Beliefs - Personal Experiences — Reading in dim light damages your vision,People who say each is...,Totals,100,101,99,100
+264,45,4F,Health Beliefs - Personal Experiences — Reading in dim light damages your vision,People who say each is...,personal experiences,29,26,28,35
+265,46,4G,Health Beliefs - Personal Experiences — Honey helps with seasonal allergies,People who say each is...,experiences,15,18,13,18
+266,46,4G,Health Beliefs - Personal Experiences — Honey helps with seasonal allergies,People who say each is...,personal experiences,5,6,5,5
+267,46,4G,Health Beliefs - Personal Experiences — Honey helps with seasonal allergies,People who say each is...,Not sure,20,19,21,15
+268,46,4G,Health Beliefs - Personal Experiences — Honey helps with seasonal allergies,People who say each is...,Totals,99,100,100,99
+269,46,4G,Health Beliefs - Personal Experiences — Honey helps with seasonal allergies,People who say each is...,personal experiences,30,23,33,36
+270,47,4H,Health Beliefs - Personal Experiences — Women living together synchronize their menstrual cycles,People who say each is...,experiences,20,24,16,21
+271,47,4H,Health Beliefs - Personal Experiences — Women living together synchronize their menstrual cycles,People who say each is...,personal experiences,11,10,12,15
+272,47,4H,Health Beliefs - Personal Experiences — Women living together synchronize their menstrual cycles,People who say each is...,Not sure,19,25,14,24
+273,47,4H,Health Beliefs - Personal Experiences — Women living together synchronize their menstrual cycles,People who say each is...,Totals,100,100,101,101
+274,47,4H,Health Beliefs - Personal Experiences — Women living together synchronize their menstrual cycles,People who say each is...,personal experiences,29,29,28,32
+275,48,4I,Health Beliefs - Personal Experiences — Drinking milk causes mucus production,People who say each is...,experiences,19,22,17,19
+276,48,4I,Health Beliefs - Personal Experiences — Drinking milk causes mucus production,People who say each is...,personal experiences,10,12,7,8
+277,48,4I,Health Beliefs - Personal Experiences — Drinking milk causes mucus production,People who say each is...,Not sure,26,27,25,33
+278,48,4I,Health Beliefs - Personal Experiences — Drinking milk causes mucus production,People who say each is...,Totals,101,100,100,100
+279,48,4I,Health Beliefs - Personal Experiences — Drinking milk causes mucus production,People who say each is...,personal experiences,30,30,26,34
+280,49,4J,Health Beliefs - Personal Experiences — Sitting too close to the TV damages your vision,People who say each is...,experiences,16,14,17,11
+281,49,4J,Health Beliefs - Personal Experiences — Sitting too close to the TV damages your vision,People who say each is...,personal experiences,13,15,10,9
+282,49,4J,Health Beliefs - Personal Experiences — Sitting too close to the TV damages your vision,People who say each is...,Not sure,8,9,8,9
+283,49,4J,Health Beliefs - Personal Experiences — Sitting too close to the TV damages your vision,People who say each is...,Totals,100,100,99,100
+284,49,4J,Health Beliefs - Personal Experiences — Sitting too close to the TV damages your vision,People who say each is...,personal experiences,28,27,30,28
+285,50,4K,Health Beliefs - Personal Experiences — Cranberry juice cures urinary tract infections,People who say each is...,experiences,20,22,18,24
+286,50,4K,Health Beliefs - Personal Experiences — Cranberry juice cures urinary tract infections,People who say each is...,personal experiences,12,11,13,9
+287,50,4K,Health Beliefs - Personal Experiences — Cranberry juice cures urinary tract infections,People who say each is...,Not sure,13,16,10,22
+288,50,4K,Health Beliefs - Personal Experiences — Cranberry juice cures urinary tract infections,People who say each is...,Totals,100,100,99,99
+289,50,4K,Health Beliefs - Personal Experiences — Cranberry juice cures urinary tract infections,People who say each is...,personal experiences,29,25,29,33
+290,51,4L,Health Beliefs - Personal Experiences — Drinking alcohol warms you up,People who say each is...,experiences,27,31,24,24
+291,51,4L,Health Beliefs - Personal Experiences — Drinking alcohol warms you up,People who say each is...,personal experiences,19,26,13,12
+292,51,4L,Health Beliefs - Personal Experiences — Drinking alcohol warms you up,People who say each is...,Not sure,12,8,16,13
+293,51,4L,Health Beliefs - Personal Experiences — Drinking alcohol warms you up,People who say each is...,Totals,100,100,100,100
+294,51,4L,Health Beliefs - Personal Experiences — Drinking alcohol warms you up,People who say each is...,personal experiences,25,25,26,23
+295,52,4M,Health Beliefs - Personal Experiences — Shaving makes your hair grow back thicker,People who say each is...,experiences,20,22,18,17
+296,52,4M,Health Beliefs - Personal Experiences — Shaving makes your hair grow back thicker,People who say each is...,personal experiences,27,29,25,28
+297,52,4M,Health Beliefs - Personal Experiences — Shaving makes your hair grow back thicker,People who say each is...,Not sure,15,15,16,18
+298,52,4M,Health Beliefs - Personal Experiences — Shaving makes your hair grow back thicker,People who say each is...,Totals,99,99,99,99
+299,52,4M,Health Beliefs - Personal Experiences — Shaving makes your hair grow back thicker,People who say each is...,personal experiences,24,24,22,28
+300,53,4N,Health Beliefs - Personal Experiences — Chicken soup cures colds,People who say each is...,experiences,29,30,28,26
+301,53,4N,Health Beliefs - Personal Experiences — Chicken soup cures colds,People who say each is...,personal experiences,24,27,21,21
+302,53,4N,Health Beliefs - Personal Experiences — Chicken soup cures colds,People who say each is...,Not sure,8,7,8,6
+303,53,4N,Health Beliefs - Personal Experiences — Chicken soup cures colds,People who say each is...,Totals,100,99,101,100
+304,53,4N,Health Beliefs - Personal Experiences — Chicken soup cures colds,People who say each is...,personal experiences,24,23,29,20
+305,54,4O,Health Beliefs - Personal Experiences — Drinking warm water improves digestion,People who say each is...,experiences,16,17,16,16
+306,54,4O,Health Beliefs - Personal Experiences — Drinking warm water improves digestion,People who say each is...,personal experiences,6,8,4,5
+307,54,4O,Health Beliefs - Personal Experiences — Drinking warm water improves digestion,People who say each is...,Not sure,30,30,30,24
+308,54,4O,Health Beliefs - Personal Experiences — Drinking warm water improves digestion,People who say each is...,Totals,100,101,100,100
+309,54,4O,Health Beliefs - Personal Experiences — Drinking warm water improves digestion,People who say each is...,personal experiences,24,23,23,27
+310,55,4P,Health Beliefs - Personal Experiences — Eating before swimming causes cramps,People who say each is...,experiences,19,19,19,12
+311,55,4P,Health Beliefs - Personal Experiences — Eating before swimming causes cramps,People who say each is...,personal experiences,20,24,17,14
+312,55,4P,Health Beliefs - Personal Experiences — Eating before swimming causes cramps,People who say each is...,Not sure,13,11,14,15
+313,55,4P,Health Beliefs - Personal Experiences — Eating before swimming causes cramps,People who say each is...,Totals,100,100,101,100
+314,55,4P,Health Beliefs - Personal Experiences — Eating before swimming causes cramps,People who say each is...,personal experiences,22,18,24,25
+315,56,4Q,Health Beliefs - Personal Experiences — Drinking milk before bed helps with sleep,People who say each is...,experiences,21,22,20,17
+316,56,4Q,Health Beliefs - Personal Experiences — Drinking milk before bed helps with sleep,People who say each is...,personal experiences,13,14,12,16
+317,56,4Q,Health Beliefs - Personal Experiences — Drinking milk before bed helps with sleep,People who say each is...,Not sure,24,23,25,21
+318,56,4Q,Health Beliefs - Personal Experiences — Drinking milk before bed helps with sleep,People who say each is...,Totals,100,101,100,101
+319,56,4Q,Health Beliefs - Personal Experiences — Drinking milk before bed helps with sleep,People who say each is...,personal experiences,21,18,21,25
+320,57,4R,Health Beliefs - Personal Experiences — Cold weather causes colds,People who say each is...,experiences,26,23,28,14
+321,57,4R,Health Beliefs - Personal Experiences — Cold weather causes colds,People who say each is...,personal experiences,35,36,34,20
+322,57,4R,Health Beliefs - Personal Experiences — Cold weather causes colds,People who say each is...,Not sure,6,6,7,7
+323,57,4R,Health Beliefs - Personal Experiences — Cold weather causes colds,People who say each is...,Totals,100,100,100,101
+324,57,4R,Health Beliefs - Personal Experiences — Cold weather causes colds,People who say each is...,personal experiences,19,18,24,15
+325,58,4S,"Health Beliefs - Personal Experiences — Feed a cold, starve a fever",People who say each is...,experiences,24,26,22,31
+326,58,4S,"Health Beliefs - Personal Experiences — Feed a cold, starve a fever",People who say each is...,personal experiences,12,13,12,11
+327,58,4S,"Health Beliefs - Personal Experiences — Feed a cold, starve a fever",People who say each is...,Not sure,28,27,29,37
+328,58,4S,"Health Beliefs - Personal Experiences — Feed a cold, starve a fever",People who say each is...,Totals,100,100,100,100
+329,58,4S,"Health Beliefs - Personal Experiences — Feed a cold, starve a fever",People who say each is...,personal experiences,18,17,13,24
+330,59,4T,Health Beliefs - Personal Experiences — Red wine daily is good for your heart,People who say each is...,experiences,23,24,22,39
+331,59,4T,Health Beliefs - Personal Experiences — Red wine daily is good for your heart,People who say each is...,personal experiences,4,4,4,6
+332,59,4T,Health Beliefs - Personal Experiences — Red wine daily is good for your heart,People who say each is...,Not sure,18,16,19,26
+333,59,4T,Health Beliefs - Personal Experiences — Red wine daily is good for your heart,People who say each is...,Totals,100,101,99,100
+334,59,4T,Health Beliefs - Personal Experiences — Red wine daily is good for your heart,People who say each is...,personal experiences,18,16,15,24
+335,60,4U,Health Beliefs - Personal Experiences — Spicy foods cause ulcers,People who say each is...,experiences,23,28,18,18
+336,60,4U,Health Beliefs - Personal Experiences — Spicy foods cause ulcers,People who say each is...,personal experiences,17,17,16,14
+337,60,4U,Health Beliefs - Personal Experiences — Spicy foods cause ulcers,People who say each is...,Not sure,16,16,16,16
+338,60,4U,Health Beliefs - Personal Experiences — Spicy foods cause ulcers,People who say each is...,Totals,101,102,99,100
+339,60,4U,Health Beliefs - Personal Experiences — Spicy foods cause ulcers,People who say each is...,personal experiences,15,16,13,16
+340,61,4V,Health Beliefs - Personal Experiences — An apple a day keeps the doctor away,People who say each is...,experiences,33,37,30,35
+341,61,4V,Health Beliefs - Personal Experiences — An apple a day keeps the doctor away,People who say each is...,personal experiences,19,20,19,20
+342,61,4V,Health Beliefs - Personal Experiences — An apple a day keeps the doctor away,People who say each is...,Not sure,8,6,10,8
+343,61,4V,Health Beliefs - Personal Experiences — An apple a day keeps the doctor away,People who say each is...,Totals,99,100,100,100
+344,61,4V,Health Beliefs - Personal Experiences — An apple a day keeps the doctor away,People who say each is...,personal experiences,15,15,11,19
+345,62,4W,Health Beliefs - Personal Experiences — Toothpaste helps with acne,People who say each is...,experiences,34,37,31,37
+346,62,4W,Health Beliefs - Personal Experiences — Toothpaste helps with acne,People who say each is...,personal experiences,15,19,10,15
+347,62,4W,Health Beliefs - Personal Experiences — Toothpaste helps with acne,People who say each is...,Not sure,28,27,30,25
+348,62,4W,Health Beliefs - Personal Experiences — Toothpaste helps with acne,People who say each is...,Totals,99,100,99,100
+349,62,4W,Health Beliefs - Personal Experiences — Toothpaste helps with acne,People who say each is...,personal experiences,12,13,12,12
+350,63,4X,Health Beliefs - Personal Experiences — Microwave ovens cause radiation exposure,People who say each is...,experiences,27,27,27,22
+351,63,4X,Health Beliefs - Personal Experiences — Microwave ovens cause radiation exposure,People who say each is...,personal experiences,16,19,13,17
+352,63,4X,Health Beliefs - Personal Experiences — Microwave ovens cause radiation exposure,People who say each is...,Not sure,12,12,13,16
+353,63,4X,Health Beliefs - Personal Experiences — Microwave ovens cause radiation exposure,People who say each is...,Totals,99,100,101,100
+354,63,4X,Health Beliefs - Personal Experiences — Microwave ovens cause radiation exposure,People who say each is...,personal experiences,12,12,15,11
+355,64,4Y,Health Beliefs - Personal Experiences — Chocolate is an aphrodisiac,People who say each is...,experiences,20,20,21,19
+356,64,4Y,Health Beliefs - Personal Experiences — Chocolate is an aphrodisiac,People who say each is...,personal experiences,14,17,12,10
+357,64,4Y,Health Beliefs - Personal Experiences — Chocolate is an aphrodisiac,People who say each is...,Not sure,28,24,31,35
+358,64,4Y,Health Beliefs - Personal Experiences — Chocolate is an aphrodisiac,People who say each is...,Totals,100,101,101,100
+359,64,4Y,Health Beliefs - Personal Experiences — Chocolate is an aphrodisiac,People who say each is...,personal experiences,13,14,11,13
+360,65,4Z,Health Beliefs - Personal Experiences — Eating chocolate causes acne,People who say each is...,experiences,27,31,24,32
+361,65,4Z,Health Beliefs - Personal Experiences — Eating chocolate causes acne,People who say each is...,personal experiences,27,26,27,21
+362,65,4Z,Health Beliefs - Personal Experiences — Eating chocolate causes acne,People who say each is...,Not sure,15,14,16,15
+363,65,4Z,Health Beliefs - Personal Experiences — Eating chocolate causes acne,People who say each is...,Totals,100,100,100,100
+364,65,4Z,Health Beliefs - Personal Experiences — Eating chocolate causes acne,People who say each is...,personal experiences,13,11,14,13

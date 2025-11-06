@@ -1,0 +1,332 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-10-17T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Completely dissatisfied",
+          "value": 35
+        },
+        {
+          "label": "Somewhat dissatisfied",
+          "value": 22
+        }
+      ],
+      "survey_id": "c56d3",
+      "survey_uuid": "168c56d3-aaaf-11f0-ae70-3bd30eaa2b2f",
+      "title": "Are you satisfied or dissatisfied with the way democracy is working in the United States today?",
+      "total": 9959
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-14T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Not at all satisfied",
+          "value": 32
+        },
+        {
+          "label": "Somewhat satisfied",
+          "value": 25
+        }
+      ],
+      "survey_id": "b5d4b",
+      "survey_uuid": "54cb5d4b-5e9f-11f0-8e81-114d1d497ad0",
+      "title": "How satisfied are you with the way democracy is working in America?",
+      "total": 20419
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-03-17T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "It is somewhat unstable but is likely to endure",
+          "value": 25
+        },
+        {
+          "label": "It is on the verge of collapse",
+          "value": 24
+        }
+      ],
+      "survey_id": "04136",
+      "survey_uuid": "b5204136-011b-11f0-9212-53f4f64bcf8a",
+      "title": "Which comes closest to your view of American democracy?",
+      "total": 29281
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-03-15T03:40:45.732943Z",
+      "description": "Americans' Opinions on Democracy and Dictatorship | March 10 - 12, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29964,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Democracy and Dictatorship | March 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Democracy_and_Dictatorship_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-03-04T16:10:05.262848Z",
+      "description": "Donald Trump Policies | February 28 - March 4, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29910,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Donald Trump Policies | February 28 - March 4, 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Policy_Support_poll_results_r9CJTXc.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-02-12T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Political corruption",
+          "value": 38
+        },
+        {
+          "label": "Misinformation",
+          "value": 16
+        }
+      ],
+      "survey_id": "f79d6",
+      "survey_uuid": "8c7f79d6-e94e-11ef-98ac-f36a3369bd44",
+      "title": "Which of the following do you think poses the greatest threat to American democracy?",
+      "total": 4759
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-02-11T15:39:53.484385Z",
+      "description": "Democracy and Equality | February 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29800,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Democracy and Equality | February 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Democracy_and_Equality_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-02-07T19:35:25.082665Z",
+      "description": "Democracy, Donald Trump, and Elon Musk | February 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29770,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Democracy, Donald Trump, and Elon Musk | February 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Democracy__Trump__and_Musk_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-11-12T18:57:19.267018Z",
+      "description": "State of Affairs in the U.S. | November 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29317,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "State of Affairs in the U.S. | November 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/State_of_Affairs_poll_results_R5d9rhk.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-10-31T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Political corruption",
+          "value": 26
+        },
+        {
+          "label": "Misinformation",
+          "value": 21
+        }
+      ],
+      "survey_id": "7576b",
+      "survey_uuid": "f917576b-970d-11ef-b2fa-69079e51fed7",
+      "title": "Which of the following do you think poses the greatest threat to American democracy?",
+      "total": 10706
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-10-18T17:15:57.721657Z",
+      "description": "Systems of Government | September 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29182,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Systems of Government | September 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Systems_of_Government_20241018.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-03-07T23:04:50.623089Z",
+      "description": "Americans' Opinions on the State of the Union and the State of the Country | CBS News Poll | February 28 - March 1, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 27939,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on the State of the Country | CBS News Poll | March 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/cbsnews_20240303_3.pdf"
+    }
+  ],
+  "hits": 19,
+  "totals": {
+    "categories": {
+      "politics": 19,
+      "society": 2
+    },
+    "types": {
+      "article": 14,
+      "survey": 19
+    }
+  }
+}

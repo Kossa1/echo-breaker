@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-09-08T16:28:09.354356Z",
+      "description": "Paywalls, News, and Games | September 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30824,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Technology",
+        "id": 43,
+        "name": "Technology & digital",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Technology",
+        "slug": "technology"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Paywalls, News, and Games | September 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Online_Paywalls_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-02-11T20:49:24.305518Z",
+      "description": "Trump and the Media | January 2017",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29807,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Trump and the Media | January 2017",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Trump_and_the_Media_poll_results_Ci4ta20.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-02-14T13:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "No, I do not",
+          "value": 50
+        },
+        {
+          "label": "Yes, I do",
+          "value": 28
+        }
+      ],
+      "survey_id": "34988",
+      "survey_uuid": "ea234988-4ea6-11ea-810a-174680741a72",
+      "title": "Do you have print or digital subscriptions to any newspapers in your community?",
+      "total": 7747
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 2,
+      "technology": 1
+    },
+    "types": {
+      "survey": 3
+    }
+  }
+}

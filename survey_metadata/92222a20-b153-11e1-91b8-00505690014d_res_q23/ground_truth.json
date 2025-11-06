@@ -1,0 +1,29 @@
+{
+  "file_source": "92222a20-b153-11e1-91b8-00505690014d_res.csv",
+  "qnum": 23,
+  "orig_label": "16G",
+  "question": "Inequalities Between Black and White Americans — The dating market",
+  "prompt": "Do you think that discrimination against Black Americans in the following is currently a problem, was a problem in the past but isn’t anymore, or was never a",
+  "responses": [
+    {
+      "response": "Currently a problem",
+      "dem": 26.0,
+      "rep": 11.0
+    },
+    {
+      "response": "anymore",
+      "dem": 21.0,
+      "rep": 33.0
+    },
+    {
+      "response": "Was never a problem",
+      "dem": 10.0,
+      "rep": 36.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 43.0,
+      "rep": 20.0
+    }
+  ]
+}

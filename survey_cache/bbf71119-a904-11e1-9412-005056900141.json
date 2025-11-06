@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-03-28T20:32:33.622654Z",
+      "description": "Americans' Opinions on Wine | March 5 - 11, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28057,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Society",
+        "id": 42,
+        "name": "Society",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Society",
+        "slug": "society"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Wine | March 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Wine_poll_results_20240305.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-07-29T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "France",
+          "value": 21
+        },
+        {
+          "label": "The United States",
+          "value": 19
+        }
+      ],
+      "survey_id": "9503a",
+      "survey_uuid": "a7f9503a-afeb-11e9-8dde-61b2f79c5680",
+      "title": "Which region of the world do you believe makes the best wine?",
+      "total": 16533
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-07-18T20:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "N/A \u2013 I don\u2019t drink wine",
+          "value": 37
+        },
+        {
+          "label": "Red wine",
+          "value": 31
+        }
+      ],
+      "survey_id": "01a66",
+      "survey_uuid": "84601a66-a971-11e9-bb36-e595ce7742a7",
+      "title": "Which do you most prefer: red wine, white wine, or ros\u00e9?",
+      "total": 1617
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "entertainment": 1,
+      "health": 1,
+      "politics": 2,
+      "society": 1
+    },
+    "types": {
+      "article": 5,
+      "survey": 3
+    }
+  }
+}

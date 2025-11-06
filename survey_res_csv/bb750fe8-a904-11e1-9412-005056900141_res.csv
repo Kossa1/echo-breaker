@@ -1,0 +1,60 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Ever Tried Drinks - Grid — Beer,"At any point in your life, have you tried the following drink?",Beer,80,80,78,84
+1,1,1A,Ever Tried Drinks - Grid — Beer,"At any point in your life, have you tried the following drink?",Champagne,19,20,21,16
+2,1,1A,Ever Tried Drinks - Grid — Beer,"At any point in your life, have you tried the following drink?",Cocktail,0,0,1,0
+3,1,1A,Ever Tried Drinks - Grid — Beer,"At any point in your life, have you tried the following drink?",Hard seltzer,99,100,100,100
+4,2,1B,Ever Tried Drinks - Grid — Champagne,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Beer,76,79,71,80
+5,2,1B,Ever Tried Drinks - Grid — Champagne,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Champagne,23,20,27,19
+6,2,1B,Ever Tried Drinks - Grid — Champagne,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Cocktail,1,0,2,1
+7,2,1B,Ever Tried Drinks - Grid — Champagne,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Hard seltzer,100,99,100,100
+8,3,1C,Ever Tried Drinks - Grid — Cocktail,"At any point in your life, have you tried the following drink?",Yes,74,78,69,77
+9,3,1C,Ever Tried Drinks - Grid — Cocktail,"At any point in your life, have you tried the following drink?",No,24,20,29,21
+10,3,1C,Ever Tried Drinks - Grid — Cocktail,"At any point in your life, have you tried the following drink?",Not sure,2,3,2,2
+11,3,1C,Ever Tried Drinks - Grid — Cocktail,"At any point in your life, have you tried the following drink?",Totals,100,101,100,100
+12,4,1D,Ever Tried Drinks - Grid — Hard seltzer,"At any point in your life, have you tried the following drink?",Yes,41,45,42,35
+13,4,1D,Ever Tried Drinks - Grid — Hard seltzer,"At any point in your life, have you tried the following drink?",No,53,50,51,58
+14,4,1D,Ever Tried Drinks - Grid — Hard seltzer,"At any point in your life, have you tried the following drink?",Not sure,6,5,6,7
+15,4,1D,Ever Tried Drinks - Grid — Hard seltzer,"At any point in your life, have you tried the following drink?",Totals,100,100,99,100
+16,5,1E,Ever Tried Drinks - Grid — Iced Tea,"At any point in your life, have you tried the following drink?",Yes,91,91,90,93
+17,5,1E,Ever Tried Drinks - Grid — Iced Tea,"At any point in your life, have you tried the following drink?",No,8,7,9,7
+18,5,1E,Ever Tried Drinks - Grid — Iced Tea,"At any point in your life, have you tried the following drink?",Not sure,1,2,1,0
+19,5,1E,Ever Tried Drinks - Grid — Iced Tea,"At any point in your life, have you tried the following drink?",Totals,100,100,100,100
+20,6,1F,Ever Tried Drinks - Grid — Liquor,"At any point in your life, have you tried the following drink?",Yes,80,81,76,84
+21,6,1F,Ever Tried Drinks - Grid — Liquor,"At any point in your life, have you tried the following drink?",No,19,19,22,16
+22,6,1F,Ever Tried Drinks - Grid — Liquor,"At any point in your life, have you tried the following drink?",Not sure,1,0,2,0
+23,6,1F,Ever Tried Drinks - Grid — Liquor,"At any point in your life, have you tried the following drink?",Totals,100,100,100,100
+24,7,1G,Ever Tried Drinks - Grid — Milk,"At any point in your life, have you tried the following drink?",Yes,97,94,97,99
+25,7,1G,Ever Tried Drinks - Grid — Milk,"At any point in your life, have you tried the following drink?",No,3,5,3,1
+26,7,1G,Ever Tried Drinks - Grid — Milk,"At any point in your life, have you tried the following drink?",Not sure,0,0,1,0
+27,7,1G,Ever Tried Drinks - Grid — Milk,"At any point in your life, have you tried the following drink?",Totals,100,99,101,100
+28,8,1H,Ever Tried Drinks - Grid — Orange juice,"At any point in your life, have you tried the following drink?",Yes,97,95,97,99
+29,8,1H,Ever Tried Drinks - Grid — Orange juice,"At any point in your life, have you tried the following drink?",No,3,5,3,1
+30,8,1H,Ever Tried Drinks - Grid — Orange juice,"At any point in your life, have you tried the following drink?",Not sure,0,0,0,0
+31,8,1H,Ever Tried Drinks - Grid — Orange juice,"At any point in your life, have you tried the following drink?",Totals,100,100,100,100
+32,9,1I,Ever Tried Drinks - Grid — Seltzer,"At any point in your life, have you tried the following drink?",Yes,54,59,54,48
+33,9,1I,Ever Tried Drinks - Grid — Seltzer,"At any point in your life, have you tried the following drink?",No,40,36,38,48
+34,9,1I,Ever Tried Drinks - Grid — Seltzer,"At any point in your life, have you tried the following drink?",Not sure,6,6,8,4
+35,9,1I,Ever Tried Drinks - Grid — Seltzer,"At any point in your life, have you tried the following drink?",Totals,100,101,100,100
+36,10,1J,Ever Tried Drinks - Grid — Soda,"At any point in your life, have you tried the following drink?",Yes,96,94,97,98
+37,10,1J,Ever Tried Drinks - Grid — Soda,"At any point in your life, have you tried the following drink?",No,3,5,3,2
+38,10,1J,Ever Tried Drinks - Grid — Soda,"At any point in your life, have you tried the following drink?",Not sure,0,0,0,0
+39,10,1J,Ever Tried Drinks - Grid — Soda,"At any point in your life, have you tried the following drink?",Totals,99,99,100,100
+40,11,1K,Ever Tried Drinks - Grid — Water,"At any point in your life, have you tried the following drink?",Yes,99,97,99,100
+41,11,1K,Ever Tried Drinks - Grid — Water,"At any point in your life, have you tried the following drink?",No,1,2,1,0
+42,11,1K,Ever Tried Drinks - Grid — Water,"At any point in your life, have you tried the following drink?",Not sure,0,1,0,0
+43,11,1K,Ever Tried Drinks - Grid — Water,"At any point in your life, have you tried the following drink?",Totals,100,100,100,100
+44,12,1L,Ever Tried Drinks - Grid — Wine,"At any point in your life, have you tried the following drink?",Yes,84,84,82,87
+45,12,1L,Ever Tried Drinks - Grid — Wine,"At any point in your life, have you tried the following drink?",No,15,15,18,13
+46,12,1L,Ever Tried Drinks - Grid — Wine,"At any point in your life, have you tried the following drink?",Not sure,1,1,0,0
+47,12,1L,Ever Tried Drinks - Grid — Wine,"At any point in your life, have you tried the following drink?",Totals,100,100,100,100
+48,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Seltzer,45,44,46,30
+49,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Soda,87,85,89,69
+50,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Water,93,92,94,84
+51,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Wine,74,76,72,56
+52,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",None of the above,1,1,0,0
+53,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Beer,72,65,76,75
+54,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Champagne,64,62,66,65
+55,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Cocktail,59,58,58,62
+56,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Hard seltzer,34,31,34,38
+57,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Iced Tea,86,81,89,90
+58,13,2,Ever Tried Drinks - Multiple,"At any point in your life, have you tried each of the following drinks? Select all that you have tried.",Liquor,69,64,70,71

@@ -1,0 +1,152 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Romeo from Romeo and Juliet,27,25,21,37
+1,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Juliet from Romeo and Juliet,40,41,40,39
+2,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Mr. Darcy from Pride and Prejudice,11,15,12,5
+3,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Prejudice,3,4,4,2
+4,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Heathcliff from Wuthering Heights,19,16,22,18
+5,1,1A,Favorability of Literary and Film Love Interests — Romeo from Romeo and Juliet,Do you have a favorable or unfavorable opinion of the following?,Heights,100,101,99,101
+6,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,Romeo and Juliet,29,30,22,36
+7,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,Pride and Prejudice,40,43,41,36
+8,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,Wuthering Heights,9,9,10,9
+9,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,The Great Gatsby,3,4,4,2
+10,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,Gone with the Wind,18,15,22,18
+11,2,1B,Favorability of Literary and Film Love Interests — Juliet from Romeo and Juliet,Have you ever seen a movie or play of the following? Select all that apply.,Twilight,99,101,99,101
+12,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,Romeo and Juliet,15,15,10,22
+13,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,Pride and Prejudice,19,25,16,17
+14,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,Wuthering Heights,6,6,7,5
+15,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,The Great Gatsby,2,2,2,2
+16,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,Gone with the Wind,58,53,65,55
+17,3,1C,Favorability of Literary and Film Love Interests — Mr. Darcy from Pride and Prejudice,Have you ever read the following books? Select all that apply.,Twilight,100,101,100,101
+18,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Heterosexual / straight,16,17,11,20
+19,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Lesbian / gay woman,20,23,20,19
+20,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Gay man,4,6,3,5
+21,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Bisexual,1,2,1,0
+22,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Other,58,51,66,56
+23,4,1D,Favorability of Literary and Film Love Interests — Elizabeth Bennet from Pride and Prejudice,With which group do you most closely identify?,Prefer not to say,99,99,101,100
+24,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Very favorable,9,10,6,13
+25,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,18,19,15,19
+26,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,7,8,6,6
+27,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,3,3,4,1
+28,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Don’t know,64,60,69,61
+29,5,1E,Favorability of Literary and Film Love Interests — Heathcliff from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Totals,101,100,100,100
+30,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Very favorable,8,9,5,11
+31,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,17,19,12,20
+32,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,6,7,6,4
+33,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,2,2,2,1
+34,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Don’t know,68,64,75,63
+35,6,1F,Favorability of Literary and Film Love Interests — Catherine Earnshaw from Wuthering Heights,Do you have a favorable or unfavorable opinion of the following?,Totals,101,101,100,99
+36,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Very favorable,13,16,8,17
+37,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,25,29,21,25
+38,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,12,12,14,8
+39,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,3,2,4,3
+40,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Don’t know,47,41,53,48
+41,7,1G,Favorability of Literary and Film Love Interests — Jay Gatsby from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,101
+42,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Very favorable,11,8,8,17
+43,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,20,25,17,16
+44,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,10,15,10,6
+45,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,5,5,6,3
+46,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Don’t know,54,46,58,57
+47,8,1H,Favorability of Literary and Film Love Interests — Daisy Buchanan from The Great Gatsby,Do you have a favorable or unfavorable opinion of the following?,Totals,100,99,99,99
+48,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Very favorable,26,21,21,37
+49,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,25,27,21,28
+50,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,8,11,7,6
+51,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,3,4,5,1
+52,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Don’t know,38,37,46,29
+53,9,1I,Favorability of Literary and Film Love Interests — Rhett Butler from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,101
+54,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Very favorable,24,20,20,33
+55,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,25,23,21,31
+56,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,13,15,12,11
+57,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,6,9,7,2
+58,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Don’t know,32,32,40,22
+59,10,1J,Favorability of Literary and Film Love Interests — Scarlett O’Hara from Gone with the Wind,Do you have a favorable or unfavorable opinion of the following?,Totals,100,99,100,99
+60,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Very favorable,41,35,40,48
+61,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,27,31,24,25
+62,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,4,4,6,3
+63,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,4,4,4,6
+64,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Don’t know,24,26,27,18
+65,11,1K,Favorability of Literary and Film Love Interests — Han Solo from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,101,100
+66,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Very favorable,41,38,39,48
+67,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,31,32,33,26
+68,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,5,5,4,6
+69,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,3,2,2,3
+70,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Don’t know,21,23,22,17
+71,12,1L,Favorability of Literary and Film Love Interests — Princess Leia from Star Wars,Do you have a favorable or unfavorable opinion of the following?,Totals,101,100,100,100
+72,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Very favorable,25,19,24,32
+73,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,32,37,27,34
+74,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,9,10,12,5
+75,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,2,3,2,1
+76,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Don’t know,32,32,34,27
+77,13,1M,Favorability of Literary and Film Love Interests — Danny from Grease,Do you have a favorable or unfavorable opinion of the following?,Totals,100,101,99,99
+78,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Very favorable,34,27,30,46
+79,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,31,38,30,26
+80,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,6,5,7,5
+81,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,2,3,2,0
+82,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Don’t know,27,27,31,23
+83,14,1N,Favorability of Literary and Film Love Interests — Sandy from Grease,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,100
+84,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Very favorable,37,31,33,47
+85,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,34,45,30,26
+86,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,6,5,8,5
+87,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,4,3,6,3
+88,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Don’t know,20,17,23,19
+89,15,1O,Favorability of Literary and Film Love Interests — Jack from Titanic,Do you have a favorable or unfavorable opinion of the following?,Totals,101,101,100,100
+90,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Very favorable,35,31,32,42
+91,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,32,37,30,30
+92,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,10,11,11,8
+93,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,4,4,5,2
+94,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Don’t know,19,17,21,18
+95,16,1P,Favorability of Literary and Film Love Interests — Rose from Titanic,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,99,100
+96,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Very favorable,17,15,16,21
+97,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,20,22,17,21
+98,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,11,13,13,8
+99,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,8,11,8,5
+100,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Don’t know,43,39,45,46
+101,17,1Q,Favorability of Literary and Film Love Interests — Edward Cullen from Twilight,Do you have a favorable or unfavorable opinion of the following?,Totals,99,100,99,101
+102,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Very favorable,18,16,17,22
+103,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,18,17,16,21
+104,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,11,15,13,5
+105,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,10,14,10,7
+106,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Don’t know,42,38,44,44
+107,18,1R,Favorability of Literary and Film Love Interests — Bella Swan from Twilight,Do you have a favorable or unfavorable opinion of the following?,Totals,99,100,100,99
+108,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Very favorable,14,13,12,18
+109,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,15,20,13,12
+110,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,10,12,8,9
+111,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,15,13,15,15
+112,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Don’t know,47,42,52,45
+113,19,1S,Favorability of Literary and Film Love Interests — Christian Grey from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Totals,101,100,100,99
+114,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Very favorable,14,12,11,21
+115,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,17,21,14,17
+116,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,8,10,8,6
+117,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,10,11,10,9
+118,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Don’t know,51,47,57,47
+119,20,1T,Favorability of Literary and Film Love Interests — Anastasia Steele from Fifty Shades of Grey,Do you have a favorable or unfavorable opinion of the following?,Totals,100,101,100,100
+120,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Very favorable,22,18,15,34
+121,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,17,23,17,10
+122,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,4,5,3,5
+123,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,2,2,2,1
+124,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Don’t know,55,52,63,49
+125,21,1U,Favorability of Literary and Film Love Interests — Noah from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,99
+126,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Very favorable,18,14,14,26
+127,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,21,27,18,17
+128,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,5,7,4,5
+129,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,1,1,2,1
+130,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Don’t know,55,51,62,51
+131,22,1V,Favorability of Literary and Film Love Interests — Allie from The Notebook,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,100
+132,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Very favorable,25,26,25,23
+133,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,21,22,18,23
+134,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,4,4,3,4
+135,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,1,2,2,0
+136,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Don’t know,50,46,52,51
+137,23,1W,Favorability of Literary and Film Love Interests — Westley from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Totals,101,100,100,101
+138,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Very favorable,23,20,23,26
+139,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,21,25,20,17
+140,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,4,5,3,5
+141,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,2,2,2,0
+142,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Don’t know,50,48,52,52
+143,24,1X,Favorability of Literary and Film Love Interests — Buttercup from The Princess Bride,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,100
+144,25,4,Sexual Orientation,With which group do you most closely identify?,Heterosexual straight,89,85,89,95
+145,25,4,Sexual Orientation,With which group do you most closely identify?,Lesbian gay woman,1,3,0,1
+146,25,4,Sexual Orientation,With which group do you most closely identify?,Gay man,1,3,1,0
+147,25,4,Sexual Orientation,With which group do you most closely identify?,Bisexual,4,6,4,2
+148,25,4,Sexual Orientation,With which group do you most closely identify?,Other,2,1,2,2
+149,25,4,Sexual Orientation,With which group do you most closely identify?,Prefer not to say,2,2,4,0
+150,25,4,Sexual Orientation,With which group do you most closely identify?,Totals,99,100,100,100

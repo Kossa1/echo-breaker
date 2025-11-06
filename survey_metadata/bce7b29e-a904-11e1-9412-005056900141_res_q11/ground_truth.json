@@ -1,0 +1,34 @@
+{
+  "file_source": "bce7b29e-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 11,
+  "orig_label": "6B",
+  "question": "How Often K-12 Students Are Taught What To Believe — For some people, their gender may differ from the sex they were assigned at birth",
+  "prompt": "How often do you think K-12 students are being taught in public schools to adopt the viewpoint that... ?",
+  "responses": [
+    {
+      "response": "Very often",
+      "dem": 12.0,
+      "rep": 35.0
+    },
+    {
+      "response": "Somewhat often",
+      "dem": 22.0,
+      "rep": 22.0
+    },
+    {
+      "response": "Not very often",
+      "dem": 29.0,
+      "rep": 13.0
+    },
+    {
+      "response": "Not at all",
+      "dem": 19.0,
+      "rep": 20.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 17.0,
+      "rep": 10.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-02-27T21:53:39.542597Z",
+      "description": "Americans' Opinions on Methods of Transportation | November 17-20, 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 27789,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Travel",
+        "id": 44,
+        "name": "Travel & transport",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Travel",
+        "slug": "travel"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Methods of Transportation | November 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Methods_of_Transportation_poll_results_20231117.pdf"
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "economy": 1,
+      "society": 1,
+      "travel": 1
+    },
+    "types": {
+      "article": 2,
+      "survey": 1
+    }
+  }
+}

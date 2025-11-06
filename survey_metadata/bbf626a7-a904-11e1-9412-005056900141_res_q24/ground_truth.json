@@ -1,0 +1,39 @@
+{
+  "file_source": "bbf626a7-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 24,
+  "orig_label": "5O",
+  "question": "Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms",
+  "prompt": "How likely do you think it is that the following will occur in the U.S. in the next 10 years?",
+  "responses": [
+    {
+      "response": "Very likely",
+      "dem": 7.0,
+      "rep": 20.0
+    },
+    {
+      "response": "Somewhat likely",
+      "dem": 11.0,
+      "rep": 18.0
+    },
+    {
+      "response": "Not very likely",
+      "dem": 25.0,
+      "rep": 28.0
+    },
+    {
+      "response": "Not likely at all",
+      "dem": 44.0,
+      "rep": 24.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 11.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Prefer not to say",
+      "dem": 2.0,
+      "rep": 1.0
+    }
+  ]
+}

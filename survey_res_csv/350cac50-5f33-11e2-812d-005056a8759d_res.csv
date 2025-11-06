@@ -1,0 +1,284 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1A,Budget of Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,The Internal Revenue Service (IRS),17,27.0,16.0,6.0
+1,1A,Budget of Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,The U.S. Census Bureau,32,48.0,27.0,20.0
+1,1A,Budget of Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,The Bureau of Labor Statistics (BLS),39,14.0,39.0,66.0
+1,1A,Budget of Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,The Central Intelligence Agency (CIA),12,11.0,17.0,8.0
+1,1A,Budget of Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,The Environmental Protection Agency (EPA),100,100.0,99.0,100.0
+2,1B,Budget of Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,The Department of Education,15,25.0,13.0,6.0
+2,1B,Budget of Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,The Department of Homeland Security (DHS),49,55.0,46.0,44.0
+2,1B,Budget of Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,The National Security Agency (NSA),21,10.0,20.0,37.0
+2,1B,Budget of Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,The Environmental Protection Agency (EPA),15,11.0,22.0,12.0
+2,1B,Budget of Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,The Central Intelligence Agency (CIA),100,101.0,101.0,99.0
+3,1C,Budget of Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you have a favorable or an unfavorable opinion of employees of the following?,Local government,15,23.0,11.0,9.0
+3,1C,Budget of Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you have a favorable or an unfavorable opinion of employees of the following?,State government,44,56.0,34.0,42.0
+3,1C,Budget of Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you have a favorable or an unfavorable opinion of employees of the following?,Federal government,20,6.0,23.0,35.0
+3,1C,Budget of Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you have a favorable or an unfavorable opinion of employees of the following?,Not sure,21,16.0,32.0,13.0
+3,1C,Budget of Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you have a favorable or an unfavorable opinion of employees of the following?,Totals,100,101.0,100.0,99.0
+4,1D,Budget of Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, me",20,28.0,18.0,14.0
+4,1D,Budget of Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a family member",45,50.0,40.0,44.0
+4,1D,Budget of Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a friend",21,9.0,24.0,30.0
+4,1D,Budget of Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, an acquaintance",15,13.0,18.0,13.0
+4,1D,Budget of Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,101,100.0,100.0,101.0
+5,1E,Budget of Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, me",41,68.0,37.0,18.0
+5,1E,Budget of Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a family member",27,21.0,28.0,32.0
+5,1E,Budget of Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a friend",21,2.0,21.0,42.0
+5,1E,Budget of Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, an acquaintance",11,9.0,14.0,9.0
+5,1E,Budget of Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,100,100.0,100.0,101.0
+6,1F,Budget of Government Departments and Agencies — The Department of Education,Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, me",52,71.0,50.0,32.0
+6,1F,Budget of Government Departments and Agencies — The Department of Education,Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a family member",22,21.0,18.0,28.0
+6,1F,Budget of Government Departments and Agencies — The Department of Education,Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, a friend",19,4.0,23.0,33.0
+6,1F,Budget of Government Departments and Agencies — The Department of Education,Do you know anyone who currently is an employee of the following? Select all that apply.,"Yes, an acquaintance",6,3.0,9.0,6.0
+6,1F,Budget of Government Departments and Agencies — The Department of Education,Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,99,99.0,100.0,99.0
+7,1G,Budget of Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Increased,43,69.0,38.0,22.0
+7,1G,Budget of Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Kept the same,29,26.0,27.0,36.0
+7,1G,Budget of Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Decreased,19,1.0,19.0,36.0
+7,1G,Budget of Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Not sure,9,4.0,16.0,6.0
+7,1G,Budget of Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Totals,100,100.0,100.0,100.0
+8,1H,Budget of Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Increased,26,37.0,22.0,16.0
+8,1H,Budget of Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Kept the same,44,45.0,41.0,45.0
+8,1H,Budget of Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Decreased,18,8.0,18.0,29.0
+8,1H,Budget of Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Not sure,13,9.0,19.0,10.0
+8,1H,Budget of Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Totals,101,99.0,100.0,100.0
+9,1I,Budget of Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Increased,12,19.0,11.0,7.0
+9,1I,Budget of Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Kept the same,52,60.0,47.0,50.0
+9,1I,Budget of Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Decreased,18,7.0,17.0,30.0
+9,1I,Budget of Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Not sure,17,13.0,25.0,13.0
+9,1I,Budget of Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Totals,99,99.0,100.0,100.0
+10,1J,Budget of Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Increased,28,33.0,29.0,21.0
+10,1J,Budget of Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Kept the same,42,42.0,39.0,45.0
+10,1J,Budget of Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Decreased,19,16.0,15.0,26.0
+10,1J,Budget of Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Not sure,12,10.0,17.0,8.0
+10,1J,Budget of Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Totals,101,101.0,100.0,100.0
+11,1K,Budget of Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Increased,16,23.0,15.0,9.0
+11,1K,Budget of Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Kept the same,47,49.0,44.0,48.0
+11,1K,Budget of Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Decreased,17,8.0,17.0,28.0
+11,1K,Budget of Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Not sure,20,20.0,24.0,15.0
+11,1K,Budget of Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Totals,100,100.0,100.0,100.0
+12,1L,Budget of Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Increased,37,55.0,36.0,17.0
+12,1L,Budget of Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Kept the same,38,34.0,34.0,46.0
+12,1L,Budget of Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Decreased,17,4.0,18.0,30.0
+12,1L,Budget of Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Not sure,9,6.0,12.0,6.0
+12,1L,Budget of Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Totals,101,99.0,100.0,99.0
+13,1M,Budget of Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Increased,15,26.0,12.0,6.0
+13,1M,Budget of Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Kept the same,42,45.0,36.0,44.0
+13,1M,Budget of Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Decreased,17,8.0,18.0,25.0
+13,1M,Budget of Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Not sure,27,21.0,35.0,25.0
+13,1M,Budget of Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Totals,101,100.0,101.0,100.0
+14,1N,Budget of Government Departments and Agencies — The Department of Defense (DoD),Do you think that spending on the following should be...?,Increased,41,30.0,40.0,51.0
+14,1N,Budget of Government Departments and Agencies — The Department of Defense (DoD),Do you think that spending on the following should be...?,Kept the same,32,38.0,28.0,29.0
+14,1N,Budget of Government Departments and Agencies — The Department of Defense (DoD),Do you think that spending on the following should be...?,Decreased,17,24.0,16.0,11.0
+14,1N,Budget of Government Departments and Agencies — The Department of Defense (DoD),Do you think that spending on the following should be...?,Not sure,11,8.0,15.0,9.0
+14,1N,Budget of Government Departments and Agencies — The Department of Defense (DoD),Do you think that spending on the following should be...?,Totals,101,100.0,99.0,100.0
+15,1O,Budget of Government Departments and Agencies — National Oceanic and Atmospheric Administration,Do you think that spending on the following should be...?,Increased,27,47.0,25.0,12.0
+15,1O,Budget of Government Departments and Agencies — National Oceanic and Atmospheric Administration,Do you think that spending on the following should be...?,Kept the same,41,42.0,38.0,45.0
+15,1O,Budget of Government Departments and Agencies — National Oceanic and Atmospheric Administration,Do you think that spending on the following should be...?,Decreased,16,4.0,15.0,28.0
+15,1O,Budget of Government Departments and Agencies — National Oceanic and Atmospheric Administration,Do you think that spending on the following should be...?,Not sure,15,7.0,23.0,15.0
+15,1O,Budget of Government Departments and Agencies — National Oceanic and Atmospheric Administration,Do you think that spending on the following should be...?,Totals,99,100.0,101.0,100.0
+16,1P,Budget of Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Increased,32,49.0,24.0,23.0
+16,1P,Budget of Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Kept the same,39,34.0,44.0,39.0
+16,1P,Budget of Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Decreased,16,5.0,17.0,29.0
+16,1P,Budget of Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Not sure,12,12.0,15.0,10.0
+16,1P,Budget of Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Totals,99,100.0,100.0,101.0
+17,1Q,Budget of Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Increased,39,47.0,30.0,43.0
+17,1Q,Budget of Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Kept the same,33,29.0,34.0,37.0
+17,1Q,Budget of Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Decreased,16,14.0,21.0,12.0
+17,1Q,Budget of Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Not sure,11,10.0,15.0,9.0
+17,1Q,Budget of Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Totals,99,100.0,100.0,101.0
+18,1R,Budget of Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Increased,14,22.0,9.0,11.0
+18,1R,Budget of Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Kept the same,50,54.0,48.0,49.0
+18,1R,Budget of Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Decreased,15,7.0,17.0,21.0
+18,1R,Budget of Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Not sure,21,17.0,26.0,19.0
+18,1R,Budget of Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Totals,100,100.0,100.0,100.0
+19,1S,Budget of Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Increased,42,61.0,39.0,23.0
+19,1S,Budget of Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Kept the same,30,27.0,28.0,37.0
+19,1S,Budget of Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Decreased,15,3.0,16.0,27.0
+19,1S,Budget of Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Not sure,13,9.0,16.0,13.0
+19,1S,Budget of Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Totals,100,100.0,99.0,100.0
+20,1T,Budget of Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Increased,48,72.0,43.0,26.0
+20,1T,Budget of Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Kept the same,27,21.0,24.0,38.0
+20,1T,Budget of Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Decreased,14,3.0,17.0,23.0
+20,1T,Budget of Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Not sure,11,5.0,16.0,13.0
+20,1T,Budget of Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Totals,100,101.0,100.0,100.0
+21,1U,Budget of Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Increased,35,54.0,33.0,17.0
+21,1U,Budget of Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Kept the same,40,34.0,37.0,50.0
+21,1U,Budget of Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Decreased,13,4.0,16.0,19.0
+21,1U,Budget of Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Not sure,12,8.0,13.0,14.0
+21,1U,Budget of Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Totals,100,100.0,99.0,100.0
+22,1V,Budget of Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Increased,37,40.0,26.0,47.0
+22,1V,Budget of Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Kept the same,34,36.0,35.0,30.0
+22,1V,Budget of Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Decreased,14,10.0,17.0,16.0
+22,1V,Budget of Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Not sure,15,14.0,22.0,7.0
+22,1V,Budget of Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Totals,100,100.0,100.0,100.0
+23,1W,Budget of Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Increased,30,37.0,31.0,21.0
+23,1W,Budget of Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Kept the same,40,45.0,33.0,43.0
+23,1W,Budget of Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Decreased,12,2.0,16.0,20.0
+23,1W,Budget of Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Not sure,17,15.0,21.0,16.0
+23,1W,Budget of Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Totals,99,99.0,101.0,100.0
+24,1X,Budget of Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Increased,50,35.0,43.0,74.0
+24,1X,Budget of Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Kept the same,26,38.0,25.0,15.0
+24,1X,Budget of Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Decreased,11,15.0,13.0,6.0
+24,1X,Budget of Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Not sure,13,12.0,20.0,5.0
+24,1X,Budget of Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Totals,100,100.0,101.0,100.0
+25,1Y,Budget of Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Increased,33,38.0,26.0,34.0
+25,1Y,Budget of Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Kept the same,42,43.0,41.0,41.0
+25,1Y,Budget of Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Decreased,12,7.0,14.0,15.0
+25,1Y,Budget of Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Not sure,14,12.0,19.0,10.0
+25,1Y,Budget of Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Totals,101,100.0,100.0,100.0
+26,1Z,Budget of Government Departments and Agencies — The National Park Service,Do you think that spending on the following should be...?,Increased,30,38.0,30.0,24.0
+26,1Z,Budget of Government Departments and Agencies — The National Park Service,Do you think that spending on the following should be...?,Kept the same,50,48.0,49.0,54.0
+26,1Z,Budget of Government Departments and Agencies — The National Park Service,Do you think that spending on the following should be...?,Decreased,10,5.0,8.0,15.0
+26,1Z,Budget of Government Departments and Agencies — The National Park Service,Do you think that spending on the following should be...?,Not sure,10,9.0,14.0,7.0
+26,1Z,Budget of Government Departments and Agencies — The National Park Service,Do you think that spending on the following should be...?,Totals,100,100.0,101.0,100.0
+27,2A,Decrease or Stop Spending on Government Departments and Agencies — The Department of Education,Do you think that spending on the following should be...?,Decreased a little,15,17.0,14.0,
+27,2A,Decrease or Stop Spending on Government Departments and Agencies — The Department of Education,Do you think that spending on the following should be...?,Decreased a lot,27,28.0,29.0,
+27,2A,Decrease or Stop Spending on Government Departments and Agencies — The Department of Education,Do you think that spending on the following should be...?,Stopped entirely,54,49.0,55.0,
+27,2A,Decrease or Stop Spending on Government Departments and Agencies — The Department of Education,Do you think that spending on the following should be...?,Not sure,4,5.0,1.0,
+27,2A,Decrease or Stop Spending on Government Departments and Agencies — The Department of Education,Do you think that spending on the following should be...?,Totals,100,99.0,99.0,
+28,2B,Decrease or Stop Spending on Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Decreased a little,24,,,
+28,2B,Decrease or Stop Spending on Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Decreased a lot,32,,,
+28,2B,Decrease or Stop Spending on Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Stopped entirely,34,,,
+28,2B,Decrease or Stop Spending on Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Not sure,10,,,
+28,2B,Decrease or Stop Spending on Government Departments and Agencies — The Department of Homeland Security (DHS),Do you think that spending on the following should be...?,Totals,100,,,
+29,2C,Decrease or Stop Spending on Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Decreased a little,22,,,
+29,2C,Decrease or Stop Spending on Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Decreased a lot,41,,,
+29,2C,Decrease or Stop Spending on Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Stopped entirely,30,,,
+29,2C,Decrease or Stop Spending on Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Not sure,8,,,
+29,2C,Decrease or Stop Spending on Government Departments and Agencies — The National Security Agency (NSA),Do you think that spending on the following should be...?,Totals,101,,,
+30,2D,Decrease or Stop Spending on Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you think that spending on the following should be...?,Decreased a little,23,28.0,21.0,
+30,2D,Decrease or Stop Spending on Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you think that spending on the following should be...?,Decreased a lot,45,44.0,49.0,
+30,2D,Decrease or Stop Spending on Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you think that spending on the following should be...?,Stopped entirely,29,27.0,29.0,
+30,2D,Decrease or Stop Spending on Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you think that spending on the following should be...?,Not sure,3,1.0,1.0,
+30,2D,Decrease or Stop Spending on Government Departments and Agencies — The Environmental Protection Agency (EPA),Do you think that spending on the following should be...?,Totals,100,100.0,100.0,
+31,2E,Decrease or Stop Spending on Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you think that spending on the following should be...?,Decreased a little,21,18.0,19.0,
+31,2E,Decrease or Stop Spending on Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you think that spending on the following should be...?,Decreased a lot,44,48.0,52.0,
+31,2E,Decrease or Stop Spending on Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you think that spending on the following should be...?,Stopped entirely,29,27.0,27.0,
+31,2E,Decrease or Stop Spending on Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you think that spending on the following should be...?,Not sure,6,8.0,2.0,
+31,2E,Decrease or Stop Spending on Government Departments and Agencies — The Central Intelligence Agency (CIA),Do you think that spending on the following should be...?,Totals,100,101.0,100.0,
+32,2F,Decrease or Stop Spending on Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Decreased a little,24,23.0,,
+32,2F,Decrease or Stop Spending on Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Decreased a lot,43,50.0,,
+32,2F,Decrease or Stop Spending on Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Stopped entirely,26,22.0,,
+32,2F,Decrease or Stop Spending on Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Not sure,7,5.0,,
+32,2F,Decrease or Stop Spending on Government Departments and Agencies — The Centers for Disease Control and Prevention (CDC),Do you think that spending on the following should be...?,Totals,100,100.0,,
+33,2G,Decrease or Stop Spending on Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Decreased a little,30,23.0,,
+33,2G,Decrease or Stop Spending on Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Decreased a lot,38,46.0,,
+33,2G,Decrease or Stop Spending on Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Stopped entirely,26,29.0,,
+33,2G,Decrease or Stop Spending on Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Not sure,7,3.0,,
+33,2G,Decrease or Stop Spending on Government Departments and Agencies — The Department of Energy,Do you think that spending on the following should be...?,Totals,101,101.0,,
+34,2H,Decrease or Stop Spending on Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Decreased a little,26,29.0,,
+34,2H,Decrease or Stop Spending on Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Decreased a lot,43,44.0,,
+34,2H,Decrease or Stop Spending on Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Stopped entirely,25,23.0,,
+34,2H,Decrease or Stop Spending on Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Not sure,7,4.0,,
+34,2H,Decrease or Stop Spending on Government Departments and Agencies — The Department of Housing and Urban Development (HUD),Do you think that spending on the following should be...?,Totals,101,100.0,,
+35,2I,Decrease or Stop Spending on Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you think that spending on the following should be...?,Decreased a little,29,26.0,19.0,
+35,2I,Decrease or Stop Spending on Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you think that spending on the following should be...?,Decreased a lot,42,39.0,47.0,
+35,2I,Decrease or Stop Spending on Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you think that spending on the following should be...?,Stopped entirely,23,27.0,30.0,
+35,2I,Decrease or Stop Spending on Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you think that spending on the following should be...?,Not sure,7,8.0,4.0,
+35,2I,Decrease or Stop Spending on Government Departments and Agencies — The Bureau of Labor Statistics (BLS),Do you think that spending on the following should be...?,Totals,101,100.0,100.0,
+36,2J,Decrease or Stop Spending on Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Decreased a little,18,19.0,,
+36,2J,Decrease or Stop Spending on Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Decreased a lot,53,62.0,,
+36,2J,Decrease or Stop Spending on Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Stopped entirely,22,16.0,,
+36,2J,Decrease or Stop Spending on Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Not sure,7,3.0,,
+36,2J,Decrease or Stop Spending on Government Departments and Agencies — The Department of Labor,Do you think that spending on the following should be...?,Totals,100,100.0,,
+37,2K,Decrease or Stop Spending on Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,Decreased a little,24,22.0,23.0,17.0
+37,2K,Decrease or Stop Spending on Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,Decreased a lot,51,50.0,55.0,54.0
+37,2K,Decrease or Stop Spending on Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,Stopped entirely,22,26.0,20.0,27.0
+37,2K,Decrease or Stop Spending on Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,Not sure,3,1.0,2.0,2.0
+37,2K,Decrease or Stop Spending on Government Departments and Agencies — The Internal Revenue Service (IRS),Do you think that spending on the following should be...?,Totals,100,99.0,100.0,100.0
+38,2L,Decrease or Stop Spending on Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Decreased a little,30,,,
+38,2L,Decrease or Stop Spending on Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Decreased a lot,43,,,
+38,2L,Decrease or Stop Spending on Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Stopped entirely,20,,,
+38,2L,Decrease or Stop Spending on Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Not sure,7,,,
+38,2L,Decrease or Stop Spending on Government Departments and Agencies — The Drug Enforcement Administration,Do you think that spending on the following should be...?,Totals,100,,,
+39,2M,Decrease or Stop Spending on Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Decreased a little,28,,,
+39,2M,Decrease or Stop Spending on Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Decreased a lot,44,,,
+39,2M,Decrease or Stop Spending on Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Stopped entirely,20,,,
+39,2M,Decrease or Stop Spending on Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Not sure,8,,,
+39,2M,Decrease or Stop Spending on Government Departments and Agencies — Immigration and Customs Enforcement (ICE),Do you think that spending on the following should be...?,Totals,100,,,
+40,2N,Decrease or Stop Spending on Government Departments and Agencies — National Oceanic and Atmospheric Administration (NOAA),Do you think that spending on the following should be...?,Decreased a little,35,25.0,,
+40,2N,Decrease or Stop Spending on Government Departments and Agencies — National Oceanic and Atmospheric Administration (NOAA),Do you think that spending on the following should be...?,Decreased a lot,38,47.0,,
+40,2N,Decrease or Stop Spending on Government Departments and Agencies — National Oceanic and Atmospheric Administration (NOAA),Do you think that spending on the following should be...?,Stopped entirely,20,21.0,,
+40,2N,Decrease or Stop Spending on Government Departments and Agencies — National Oceanic and Atmospheric Administration (NOAA),Do you think that spending on the following should be...?,Not sure,8,7.0,,
+40,2N,Decrease or Stop Spending on Government Departments and Agencies — National Oceanic and Atmospheric Administration (NOAA),Do you think that spending on the following should be...?,Totals,101,100.0,,
+41,2O,Decrease or Stop Spending on Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Decreased a little,22,22.0,,
+41,2O,Decrease or Stop Spending on Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Decreased a lot,46,47.0,,
+41,2O,Decrease or Stop Spending on Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Stopped entirely,19,18.0,,
+41,2O,Decrease or Stop Spending on Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Not sure,12,12.0,,
+41,2O,Decrease or Stop Spending on Government Departments and Agencies — The Department of Commerce,Do you think that spending on the following should be...?,Totals,99,99.0,,
+42,2P,Decrease or Stop Spending on Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Decreased a little,27,,,
+42,2P,Decrease or Stop Spending on Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Decreased a lot,51,,,
+42,2P,Decrease or Stop Spending on Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Stopped entirely,19,,,
+42,2P,Decrease or Stop Spending on Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Not sure,4,,,
+42,2P,Decrease or Stop Spending on Government Departments and Agencies — The National Aeronautics and Space Administration (NASA),Do you think that spending on the following should be...?,Totals,101,,,
+43,2Q,Decrease or Stop Spending on Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Decreased a little,35,30.0,,
+43,2Q,Decrease or Stop Spending on Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Decreased a lot,41,52.0,,
+43,2Q,Decrease or Stop Spending on Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Stopped entirely,19,16.0,,
+43,2Q,Decrease or Stop Spending on Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Not sure,5,2.0,,
+43,2Q,Decrease or Stop Spending on Government Departments and Agencies — The Food and Drug Administration (FDA),Do you think that spending on the following should be...?,Totals,100,100.0,,
+44,2R,Decrease or Stop Spending on Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Decreased a little,31,27.0,,
+44,2R,Decrease or Stop Spending on Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Decreased a lot,46,56.0,,
+44,2R,Decrease or Stop Spending on Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Stopped entirely,18,15.0,,
+44,2R,Decrease or Stop Spending on Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Not sure,4,2.0,,
+44,2R,Decrease or Stop Spending on Government Departments and Agencies — The Department of Justice (DoJ),Do you think that spending on the following should be...?,Totals,99,100.0,,
+45,2S,Decrease or Stop Spending on Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Decreased a little,33,26.0,,
+45,2S,Decrease or Stop Spending on Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Decreased a lot,44,53.0,,
+45,2S,Decrease or Stop Spending on Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Stopped entirely,18,19.0,,
+45,2S,Decrease or Stop Spending on Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Not sure,5,3.0,,
+45,2S,Decrease or Stop Spending on Government Departments and Agencies — The Department of Health and Human Services (HHS),Do you think that spending on the following should be...?,Totals,100,101.0,,
+46,2T,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Decreased a little,24,20.0,,
+46,2T,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Decreased a lot,50,54.0,,
+46,2T,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Stopped entirely,18,18.0,,
+46,2T,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Not sure,8,8.0,,
+46,2T,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Interior,Do you think that spending on the following should be...?,Totals,100,100.0,,
+47,2U,Decrease or Stop Spending on Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,Decreased a little,25,21.0,19.0,
+47,2U,Decrease or Stop Spending on Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,Decreased a lot,53,59.0,56.0,
+47,2U,Decrease or Stop Spending on Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,Stopped entirely,18,17.0,21.0,
+47,2U,Decrease or Stop Spending on Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,Not sure,5,3.0,4.0,
+47,2U,Decrease or Stop Spending on Government Departments and Agencies — The U.S. Census Bureau,Do you think that spending on the following should be...?,Totals,101,100.0,100.0,
+50,2X,Decrease or Stop Spending on Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Decreased a little,31,29.0,,
+50,2X,Decrease or Stop Spending on Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Decreased a lot,50,60.0,,
+50,2X,Decrease or Stop Spending on Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Stopped entirely,12,8.0,,
+50,2X,Decrease or Stop Spending on Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Not sure,7,2.0,,
+50,2X,Decrease or Stop Spending on Government Departments and Agencies — The Department of State,Do you think that spending on the following should be...?,Totals,100,99.0,,
+51,2Y,Decrease or Stop Spending on Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Decreased a little,39,,,
+51,2Y,Decrease or Stop Spending on Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Decreased a lot,42,,,
+51,2Y,Decrease or Stop Spending on Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Stopped entirely,11,,,
+51,2Y,Decrease or Stop Spending on Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Not sure,8,,,
+51,2Y,Decrease or Stop Spending on Government Departments and Agencies — The Department of Transportation,Do you think that spending on the following should be...?,Totals,100,,,
+52,2Z,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Decreased a little,27,28.0,,
+52,2Z,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Decreased a lot,52,61.0,,
+52,2Z,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Stopped entirely,11,9.0,,
+52,2Z,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Not sure,10,3.0,,
+52,2Z,Decrease or Stop Spending on Government Departments and Agencies — The Department of the Treasury,Do you think that spending on the following should be...?,Totals,100,101.0,,
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very favorable,13,20.0,8.0,10.0
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat favorable,43,47.0,38.0,44.0
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat unfavorable,22,17.0,20.0,29.0
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very unfavorable,9,7.0,11.0,10.0
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Don’t know,14,10.0,23.0,8.0
+53,3A,Favorability of Government Employees — Local government,Do you have a favorable or an unfavorable opinion of employees of the following?,Totals,101,101.0,100.0,101.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very favorable,11,19.0,6.0,9.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat favorable,39,45.0,35.0,37.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat unfavorable,25,17.0,25.0,33.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very unfavorable,13,10.0,14.0,15.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Don’t know,12,9.0,21.0,7.0
+54,3B,Favorability of Government Employees — State government,Do you have a favorable or an unfavorable opinion of employees of the following?,Totals,100,100.0,101.0,101.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very favorable,10,18.0,6.0,6.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat favorable,31,47.0,23.0,22.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Somewhat unfavorable,25,16.0,26.0,32.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Very unfavorable,22,9.0,24.0,34.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Don’t know,13,10.0,21.0,6.0
+55,3C,Favorability of Government Employees — Federal government,Do you have a favorable or an unfavorable opinion of employees of the following?,Totals,101,100.0,100.0,100.0
+56,4,Know Government Employees – Local government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes me,3,4.0,2.0,2.0
+56,4,Know Government Employees – Local government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a family member,6,8.0,4.0,5.0
+56,4,Know Government Employees – Local government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a friend,10,10.0,9.0,11.0
+56,4,Know Government Employees – Local government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes an acquaintance,13,11.0,14.0,14.0
+56,4,Know Government Employees – Local government,Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,71,72.0,71.0,71.0
+57,5,Know Government Employees – State government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes me,2,3.0,2.0,1.0
+57,5,Know Government Employees – State government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a family member,5,7.0,4.0,5.0
+57,5,Know Government Employees – State government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a friend,10,11.0,9.0,9.0
+57,5,Know Government Employees – State government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes an acquaintance,9,9.0,9.0,9.0
+57,5,Know Government Employees – State government,Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,76,72.0,77.0,79.0
+58,6,Know Government Employees – Federal government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes me,2,3.0,3.0,1.0
+58,6,Know Government Employees – Federal government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a family member,8,10.0,6.0,8.0
+58,6,Know Government Employees – Federal government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes a friend,9,11.0,8.0,7.0
+58,6,Know Government Employees – Federal government,Do you know anyone who currently is an employee of the following? Select all that apply.,Yes an acquaintance,8,8.0,8.0,8.0
+58,6,Know Government Employees – Federal government,Do you know anyone who currently is an employee of the following? Select all that apply.,None of the above,75,72.0,75.0,78.0

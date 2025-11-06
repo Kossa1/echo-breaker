@@ -1,0 +1,24 @@
+{
+  "file_source": "c2718b5e-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 9,
+  "orig_label": "6D",
+  "question": "Impact of Types of Activism — Signing a petition about the cause",
+  "prompt": "How much of an impact do you think the following actions have in terms of advancing political or social causes?",
+  "responses": [
+    {
+      "response": "A large impact",
+      "dem": 19.0,
+      "rep": 16.0
+    },
+    {
+      "response": "A little impact",
+      "dem": 62.0,
+      "rep": 59.0
+    },
+    {
+      "response": "No impact",
+      "dem": 19.0,
+      "rep": 25.0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Often,26,30,23,27
+1,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Sometimes,48,46,52,45
+2,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Rarely,15,12,14,19
+3,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Never,5,6,5,5
+4,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Not sure,5,6,6,3
+5,1,1,Imagine Historical Action,"When learning about history, how often, if ever, do you imagine what you would have done if you had lived",Totals,99,100,100,99
+6,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Often,31,34,33,27
+7,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Sometimes,47,49,46,47
+8,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Rarely,15,15,13,16
+9,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Never,5,2,4,8
+10,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Not sure,2,0,5,2
+11,2,2,Frequency of Learning About History,"How often, if ever, do you read, watch, or listen to content about historical events?",Totals,100,100,101,100
+12,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1607–1776),2,1,1,3
+13,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1775–1783),9,7,10,10
+14,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1812–1861),26,27,25,27
+15,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,The Civil War (1861–1865),30,33,29,28
+16,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1865–1877),16,13,18,15
+17,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1870s–1900),18,19,18,17
+18,3,3A,Rating of Periods in American History — The Colonial Period (1607–1776),How would you rate the overall quality of life for Americans during the following period in U.S. history?,(1890s–1920s),101,100,101,100
+19,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Colonial Period (1607–1776),1,1,1,2
+20,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The American Revolution (1775–1783),9,11,10,7
+21,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Antebellum Period (1812–1861),23,19,24,27
+22,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Civil War (1861–1865),33,36,29,36
+23,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Reconstruction Era (1865–1877),17,17,19,14
+24,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Gilded Age (1870s–1900),16,16,17,14
+25,4,3B,Rating of Periods in American History — The American Revolution (1775–1783),"Which, if any, of the following periods in U.S. history do you think are similar to the present? Select all that",The Progressive Era (1890s–1920s),99,100,100,100
+26,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,2,0,2,3
+27,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,12,10,10,17
+28,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,26,25,25,27
+29,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,22,26,20,20
+30,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,14,15,16,11
+31,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,24,24,26,22
+32,5,3C,Rating of Periods in American History — The Antebellum Period (1812–1861),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,99,100
+33,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,1,2,1,1
+34,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,4,4,4,3
+35,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,12,8,12,17
+36,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,32,36,27,34
+37,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,39,38,43,36
+38,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,12,12,14,9
+39,6,3D,Rating of Periods in American History — The Civil War (1861–1865),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,101,100
+40,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,2,1,2,3
+41,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,13,10,12,17
+42,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,31,30,32,31
+43,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,22,27,21,19
+44,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,11,9,12,12
+45,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,21,24,21,19
+46,7,3E,Rating of Periods in American History — The Reconstruction Era (1865–1877),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,101,100,101
+47,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,4,3,4,4
+48,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,20,15,20,25
+49,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,29,32,26,31
+50,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,17,23,16,12
+51,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,9,7,11,8
+52,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,21,21,23,20
+53,8,3F,Rating of Periods in American History — The Gilded Age (1870s–1900),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,101,100,100
+54,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,5,3,6,6
+55,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,25,23,22,30
+56,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,30,36,31,23
+57,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,15,15,15,14
+58,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,7,5,6,11
+59,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,18,18,19,17
+60,9,3G,Rating of Periods in American History — The Progressive Era (1890s–1920s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,99,101
+61,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,1,1,1,1
+62,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,2,2,2,2
+63,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,6,5,5,8
+64,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,32,30,33,34
+65,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,53,53,51,53
+66,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,7,9,8,2
+67,10,3H,Rating of Periods in American History — The Great Depression (1929–1939),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,101,100,100,100
+68,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,1,1,1,1
+69,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,7,7,5,9
+70,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,30,29,27,34
+71,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,29,35,29,23
+72,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,22,18,26,21
+73,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,11,10,12,11
+74,11,3I,Rating of Periods in American History — World War II (1939–1945),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,100,99
+75,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,18,15,17,22
+76,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,33,34,29,37
+77,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,22,21,24,21
+78,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,9,11,8,6
+79,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,4,4,6,3
+80,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,14,15,16,11
+81,12,3J,Rating of Periods in American History — The Postwar Baby Boom (1946–1964),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,100,100
+82,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,9,8,11,8
+83,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,37,36,35,40
+84,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,26,31,19,29
+85,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,5,4,7,4
+86,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,5,4,5,4
+87,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,17,16,21,13
+88,13,3K,Rating of Periods in American History — The Counterculture Era (1964–1974),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,99,99,98,98
+89,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,19,8,15,35
+90,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,38,28,39,47
+91,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,23,38,19,12
+92,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,7,13,8,1
+93,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,3,4,4,2
+94,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,9,9,15,3
+95,14,3L,Rating of Periods in American History — The Reagan Era (1980–1991),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,99,100,100,100
+96,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,16,26,13,10
+97,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,39,50,38,31
+98,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,24,12,28,33
+99,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,8,4,5,15
+100,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,5,1,7,7
+101,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,8,7,11,5
+102,15,3M,Rating of Periods in American History — The Clinton Years (1993–2001),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,102,101
+103,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,5,5,3,5
+104,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,35,33,30,43
+105,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,39,44,37,36
+106,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,9,9,10,8
+107,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,7,8,10,3
+108,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,6,2,10,5
+109,16,3N,Rating of Periods in American History — Post-9/11 Era (2001–2008),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,101,101,100,100
+110,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,2,2,1,3
+111,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,16,17,17,13
+112,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,28,27,27,30
+113,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,36,35,34,38
+114,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,13,14,14,12
+115,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,5,5,7,4
+116,17,3O,Rating of Periods in American History — The Great Recession (2007–2010s),How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,100,100,100
+117,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Excellent,7,5,7,10
+118,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Good,25,16,21,39
+119,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Fair,29,24,30,33
+120,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Poor,19,28,17,11
+121,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Terrible,15,24,18,3
+122,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Not sure,5,4,6,3
+123,18,3P,Rating of Periods in American History — The present,How would you rate the overall quality of life for Americans during the following period in U.S. history?,Totals,100,101,99,99

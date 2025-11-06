@@ -1,0 +1,71 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"July 4, 1776",56,56,46,69
+1,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"June 19, 1865",20,21,23,16
+2,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"March 4, 1923",7,7,11,4
+3,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"December 7, 1941",2,1,3,1
+4,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"June 6, 1944",1,1,1,1
+5,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"November 22, 1963",14,15,16,9
+6,1,1A,"Days in History — July 4, 1776",Would you consider the following date to be...?,"July 20, 1969",100,101,100,100
+7,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,A great day for America,21,28,19,16
+8,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,A good day for America,14,13,14,15
+9,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,day for America,11,8,12,12
+10,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,A bad day for America,4,2,3,6
+11,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,A tragic day for America,4,5,4,4
+12,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,Not sure,46,43,48,47
+13,2,1B,"Days in History — June 19, 1865",Would you consider the following date to be...?,Totals,100,99,100,100
+14,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,A great day for America,3,1,1,6
+15,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,A good day for America,4,6,3,4
+16,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,day for America,14,14,15,14
+17,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,A bad day for America,6,7,6,6
+18,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,A tragic day for America,4,4,3,6
+19,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,Not sure,69,68,72,64
+20,3,1C,"Days in History — March 4, 1923",Would you consider the following date to be...?,Totals,100,100,100,100
+21,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,A great day for America,3,2,2,7
+22,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,A good day for America,2,2,2,2
+23,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,day for America,4,4,5,3
+24,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,A bad day for America,12,12,14,10
+25,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,A tragic day for America,52,55,46,56
+26,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,Not sure,26,24,32,22
+27,4,1D,"Days in History — December 7, 1941",Would you consider the following date to be...?,Totals,99,99,101,100
+28,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,A great day for America,18,17,13,25
+29,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,A good day for America,16,15,16,16
+30,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,day for America,13,11,15,13
+31,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,A bad day for America,6,5,8,4
+32,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,A tragic day for America,8,8,7,9
+33,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,Not sure,40,44,42,33
+34,5,1E,"Days in History — June 6, 1944",Would you consider the following date to be...?,Totals,101,100,101,100
+35,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,A great day for America,2,1,1,4
+36,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,A good day for America,3,5,2,4
+37,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,day for America,4,4,4,5
+38,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,A bad day for America,11,9,13,11
+39,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,A tragic day for America,40,46,35,41
+40,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,Not sure,39,35,45,36
+41,6,1F,"Days in History — November 22, 1963",Would you consider the following date to be...?,Totals,99,100,100,101
+42,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,A great day for America,24,28,21,23
+43,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,A good day for America,10,11,10,8
+44,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,day for America,10,7,11,13
+45,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,A bad day for America,5,4,5,5
+46,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,A tragic day for America,3,3,4,2
+47,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,Not sure,48,46,50,49
+48,7,1G,"Days in History — July 20, 1969",Would you consider the following date to be...?,Totals,100,99,101,100
+49,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,A great day for America,3,2,2,5
+50,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,A good day for America,4,4,4,4
+51,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,day for America,16,18,15,17
+52,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,A bad day for America,3,3,3,4
+53,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,A tragic day for America,2,3,2,1
+54,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,Not sure,71,70,74,69
+55,8,1H,"Days in History — August 6, 1982",Would you consider the following date to be...?,Totals,99,100,100,100
+56,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,A great day for America,1,1,1,1
+57,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,A good day for America,1,2,0,1
+58,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,day for America,3,2,5,2
+59,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,A bad day for America,10,7,12,11
+60,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,A tragic day for America,80,83,77,81
+61,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,Not sure,5,5,6,3
+62,9,1I,"Days in History — September 11, 2001",Would you consider the following date to be...?,Totals,100,100,101,99
+63,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,A great day for America,2,3,1,4
+64,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,A good day for America,4,5,2,4
+65,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,day for America,20,4,24,31
+66,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,A bad day for America,27,20,28,34
+67,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,A tragic day for America,30,56,25,9
+68,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,Not sure,16,12,19,18
+69,10,1J,"Days in History — January 6, 2021",Would you consider the following date to be...?,Totals,99,100,99,100

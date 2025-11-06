@@ -1,0 +1,24 @@
+{
+  "file_source": "748676e0-b49d-11e1-88b7-00505690014d_res.csv",
+  "qnum": 5,
+  "orig_label": "5",
+  "question": "Limit Ads",
+  "prompt": "Do you think there should be a law to reduce the number of political ads on television during presidential campaigns or do you think candidates should just",
+  "responses": [
+    {
+      "response": "There should be a law",
+      "dem": 45.0,
+      "rep": 37.0
+    },
+    {
+      "response": "fewer ads",
+      "dem": 46.0,
+      "rep": 52.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 9.0,
+      "rep": 10.0
+    }
+  ]
+}

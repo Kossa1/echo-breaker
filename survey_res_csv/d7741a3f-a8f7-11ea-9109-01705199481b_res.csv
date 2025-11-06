@@ -1,0 +1,169 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Driving,100,100,99,100
+1,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,AARP,60,70,48,65
+2,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Planned Parenthood,43,48,34,49
+3,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Colored People (NAACP),23,26,21,23
+4,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,All Lives Matter,15,11,19,16
+5,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Everytown for Gun Safety,4,2,4,4
+6,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,(PETA),2,2,2,2
+7,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Blue Lives Matter,13,11,21,7
+8,1,1A,Favorability of Groups — Mothers Against Drunk Driving,Do you have a favorable or an unfavorable opinion of the following groups or movements?,The Sierra Club,100,100,101,101
+9,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,101,100,100
+10,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,34,62,23,20
+11,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,21,34,16,16
+12,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,24,31,19,25
+13,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,30,22,37,31
+14,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,6,1,6,9
+15,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,6,3,5,11
+16,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,12,9,18,9
+17,2,1B,Favorability of Groups — AARP,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,100,101,101
+18,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,99,101
+19,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,25,73,30,78
+20,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,35,64,30,13
+21,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,17,17,21,14
+22,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,16,10,19,18
+23,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,7,3,5,13
+24,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,20,5,15,41
+25,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,5,2,9,2
+26,3,1C,Favorability of Groups — Planned Parenthood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,101,99,101
+27,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,101,100
+28,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,18,65,17,72
+29,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,22,40,21,4
+30,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,17,29,14,9
+31,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,27,15,27,38
+32,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,10,4,6,22
+33,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,10,1,12,18
+34,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,14,11,19,10
+35,4,1D,Favorability of Groups — The National Association for the Advancement of Colored People (NAACP),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,99,101
+36,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,101
+37,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,16,7,6,37
+38,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,22,22,18,26
+39,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,16,16,13,20
+40,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,20,14,22,24
+41,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,6,8,7,4
+42,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,16,24,18,5
+43,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,20,16,22,21
+44,5,1E,Favorability of Groups — All Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+45,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,99,99,101
+46,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,14,33,10,1
+47,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,15,27,11,9
+48,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,9,11,8,9
+49,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,16,13,17,17
+50,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,4,3,4,6
+51,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,6,2,5,11
+52,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,49,44,55,49
+53,6,1F,Favorability of Groups — Everytown for Gun Safety,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,100,100,101
+54,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,100,99,100
+55,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,13,33,3,5
+56,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,18,25,14,15
+57,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,23,28,18,24
+58,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,21,18,24,22
+59,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,14,15,14,13
+60,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,14,5,15,20
+61,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,11,9,15,7
+62,7,1G,Favorability of Groups — People for the Ethical Treatment of Animals (PETA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,100,100,101
+63,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,101,100,99
+64,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,13,50,49,11
+65,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,19,12,10,37
+66,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,19,16,15,24
+67,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,18,21,19,14
+68,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,9,11,11,4
+69,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,16,24,18,7
+70,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,19,15,27,15
+71,8,1H,Favorability of Groups — Blue Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,100,101
+72,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,100,101,100
+73,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,13,35,8,49
+74,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,13,25,9,6
+75,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,11,15,9,10
+76,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,23,16,28,25
+77,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,7,3,6,11
+78,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,5,3,5,7
+79,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,40,37,43,41
+80,9,1I,Favorability of Groups — The Sierra Club,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,99,100,100
+81,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,100,100,99
+82,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,12,57,13,71
+83,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,21,43,17,5
+84,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,13,20,13,7
+85,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,22,14,26,25
+86,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,9,3,7,18
+87,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,13,3,10,28
+88,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,21,18,27,17
+89,10,1J,Favorability of Groups — The American Civil Liberties Union (ACLU),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,99,101,100,100
+90,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,101,100,100
+91,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,10,34,5,37
+92,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,11,20,8,4
+93,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,14,20,13,9
+94,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,22,20,21,26
+95,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,6,4,5,8
+96,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,9,2,11,12
+97,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,39,34,42,40
+98,11,1K,Favorability of Groups — The Anti-Defamation League,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,100,100,99
+99,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,101,100
+100,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,8,39,6,47
+101,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,13,27,10,3
+102,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,11,18,10,5
+103,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,16,12,18,18
+104,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,4,3,3,5
+105,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,12,3,11,22
+106,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,44,38,48,45
+107,12,1L,Favorability of Groups — Southern Poverty Law Center (SPLC),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,101,100,98
+108,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+109,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,6,60,65,9
+110,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,22,5,15,47
+111,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,11,6,10,17
+112,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,14,13,17,12
+113,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,4,4,5,1
+114,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,24,47,23,2
+115,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,25,25,29,21
+116,13,1M,Favorability of Groups — Turning Point USA,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,99,100
+117,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+118,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,3,60,11,68
+119,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,24,45,22,5
+120,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,18,26,21,7
+121,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,17,16,19,14
+122,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,9,5,9,14
+123,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,29,6,24,58
+124,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,3,1,5,2
+125,14,1N,Favorability of Groups — Black Lives Matter,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,100,100
+126,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,100,100,100
+127,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable,2,23,22,4
+128,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,10,8,7,15
+129,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,10,11,6,12
+130,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,16,12,16,20
+131,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,3,4,4,1
+132,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,15,26,15,3
+133,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,47,39,51,48
+134,15,1O,Favorability of Groups — Moms for Liberty,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,101,100,99,99
+135,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,100,101
+136,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Unfavorable -,61,56,6,2
+137,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,17,5,10,38
+138,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,16,7,13,27
+139,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,20,11,23,25
+140,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,10,14,14,2
+141,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,26,54,23,2
+142,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,11,9,17,6
+143,16,1P,Favorability of Groups — The National Rifle Association (NRA),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+144,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+145,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,3,3,2,4
+146,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,5,6,3,6
+147,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,15,5,16,25
+148,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,8,3,6,14
+149,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,41,64,43,17
+150,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,28,20,30,33
+151,18,1R,Favorability of Groups — The Proud Boys,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,101,100,99
+152,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,100
+153,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,1,2,0,1
+154,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,3,4,2,2
+155,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,9,7,10,11
+156,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,4,2,4,5
+157,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,56,61,57,52
+158,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,27,23,28,29
+159,19,1S,Favorability of Groups — The Aryan Brotherhood,Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,101,100
+160,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,99,101,100
+161,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very favorable,1,1,0,1
+162,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat favorable,2,3,1,2
+163,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,unfavorable,6,6,6,7
+164,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Somewhat unfavorable,5,3,5,7
+165,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Very unfavorable,80,82,79,79
+166,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,I’m not familiar with this,6,5,9,3
+167,20,1T,Favorability of Groups — The Ku Klux Klan (KKK),Do you have a favorable or an unfavorable opinion of the following groups or movements?,Totals,100,100,100,99

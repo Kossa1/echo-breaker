@@ -1,0 +1,61 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Joe Biden,20,22,24,13
+1,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Bernie Sanders,12,15,11,10
+2,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Nancy Pelosi,45,50,38,46
+3,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Kamala Harris,12,7,12,18
+4,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Elizabeth Warren,11,5,15,13
+5,1,1A,Politician Age — Joe Biden,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best",Nikki Haley,100,99,100,100
+6,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,32,37,34,25
+7,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,26,25,24,29
+8,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,21,25,17,22
+9,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,11,8,12,13
+10,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,9,5,12,10
+11,2,1B,Politician Age — Bernie Sanders,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,99,100,99,99
+12,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,41,52,43,28
+13,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,22,26,20,20
+14,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,19,16,16,26
+15,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,9,5,10,12
+16,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,9,2,11,15
+17,3,1C,Politician Age — Nancy Pelosi,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,100,101,100,101
+18,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,38,39,43,31
+19,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,19,20,20,16
+20,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,28,28,21,33
+21,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,3,3,2,4
+22,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,13,10,14,15
+23,4,1D,Politician Age — Kamala Harris,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,101,100,100,99
+24,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,50,52,53,45
+25,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,15,14,14,17
+26,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,20,21,18,20
+27,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,6,5,7,5
+28,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,9,7,8,13
+29,5,1E,Politician Age — Elizabeth Warren,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,100,99,100,100
+30,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,25,26,27,23
+31,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,6,7,7,3
+32,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,30,29,27,34
+33,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,15,17,13,17
+34,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,23,20,26,23
+35,6,1F,Politician Age — Nikki Haley,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,99,99,100,100
+36,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,5,7,4,4
+37,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,5,4,4,6
+38,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,15,15,12,17
+39,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,13,13,13,13
+40,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,62,61,66,60
+41,7,1G,Politician Age — Vivek Ramaswamy,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,100,100,99,100
+42,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,5,7,5,4
+43,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,3,3,3,4
+44,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,21,23,19,22
+45,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,8,9,8,8
+46,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,62,58,66,62
+47,8,1H,Politician Age — Ron DeSantis,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,99,100,101,100
+48,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,59,60,57,59
+49,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,8,6,8,10
+50,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,22,22,21,21
+51,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,8,10,8,7
+52,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,4,2,6,3
+53,9,1I,Politician Age — Mitt Romney,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,101,100,100,100
+54,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by years or more,26,24,28,26
+55,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Under by - years,16,11,17,20
+56,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Correct - year,45,47,40,47
+57,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by - years,10,11,10,7
+58,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Over by years or more,4,7,5,0
+59,10,1J,Politician Age — Donald Trump,"How old do you think the following people are? If you’re uncertain of anyone’s age, please provide your best guess.",Totals,101,100,100,100

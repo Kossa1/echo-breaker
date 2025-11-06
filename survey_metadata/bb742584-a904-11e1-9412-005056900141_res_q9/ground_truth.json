@@ -1,0 +1,34 @@
+{
+  "file_source": "bb742584-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 9,
+  "orig_label": "1I",
+  "question": "Political Corruption Problems — Supreme Court justices appointed by Democrats",
+  "prompt": "How serious of a problem do you think corruption is among the following?",
+  "responses": [
+    {
+      "response": "A very serious problem",
+      "dem": 5.0,
+      "rep": 37.0
+    },
+    {
+      "response": "problem",
+      "dem": 16.0,
+      "rep": 20.0
+    },
+    {
+      "response": "A minor problem",
+      "dem": 26.0,
+      "rep": 20.0
+    },
+    {
+      "response": "Not a problem",
+      "dem": 44.0,
+      "rep": 11.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 9.0,
+      "rep": 11.0
+    }
+  ]
+}

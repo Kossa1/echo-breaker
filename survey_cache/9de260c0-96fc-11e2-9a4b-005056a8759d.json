@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-27T11:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Very important",
+          "value": 49
+        },
+        {
+          "label": "Somewhat important",
+          "value": 36
+        }
+      ],
+      "survey_id": "3f75f",
+      "survey_uuid": "ba93f75f-e471-11ed-b687-4791b0744d93",
+      "title": "How important do you think a well-maintained lawn is to the overall look of a residential property?",
+      "total": 7947
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-27T11:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Like it",
+          "value": 35
+        },
+        {
+          "label": "Love it",
+          "value": 28
+        }
+      ],
+      "survey_id": "3f75f",
+      "survey_uuid": "ba93f75f-e471-11ed-b687-4791b0744d93",
+      "title": "How do you feel about wild lawns \u2014 the planting of native flowering plants instead of conventional grass lawns?",
+      "total": 7947
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-27T11:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Somewhat support",
+          "value": 32
+        },
+        {
+          "label": "Strongly support",
+          "value": 31
+        }
+      ],
+      "survey_id": "3f75f",
+      "survey_uuid": "ba93f75f-e471-11ed-b687-4791b0744d93",
+      "title": "If your neighbors had a lawn, would you support or oppose their engaging in a no-mow month with the aim of creating a habitat for pollinators such as bees and butterflies?",
+      "total": 7947
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 3
+    },
+    "types": {
+      "survey": 3
+    }
+  }
+}
