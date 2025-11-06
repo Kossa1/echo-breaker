@@ -7,8 +7,8 @@ In survey_metadata directory, each topic's survey is in its own subdirectory (na
 
 Components:
 1. (Async) run get_survey_and_topic.py to sample, download, and parse survey, save as csv.
-2. (Async) run link_survey_q_post.py to sample survey question from survey results, save associated ground truth to json file (file name is topic id plus question number)
-3. (Async) sample survey question, get and save appropriate social media post, save as image, also save corresponding ground truth.
+2. (Async) run link_survey_post.ipynb to sample survey question from survey results, save associated ground truth to json file (file name is topic id plus question number)
+3. (Async) run get_tweet_image.py to sample survey question, get and save appropriate social media post, save as image, also save corresponding ground truth. Run get_ground_truth.ipynb to get ground truth values.
 4. (Sync) when running app, fetch random social media post and corresponding ground truth etc. 
 
 ## Frontend (React) pages
@@ -33,11 +33,3 @@ from db import Base, engine
 import models
 Base.metadata.create_all(bind=engine)
 
-
-Reminder: Each tweet.json should be like:
-"
-{
-    "dem": 50.0,
-    "rep": 50.0
-}
-"
