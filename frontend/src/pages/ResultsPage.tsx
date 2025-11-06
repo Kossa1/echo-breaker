@@ -1,62 +1,82 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import React, { useEffect, useMemo, useState } from 'react'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import type { SurveyPost } from '../lib/survey'
-import { collection, limit, onSnapshot, orderBy, query } from 'firebase/firestore'
-import { db } from '../firebase'
 import { getAuth } from 'firebase/auth'
 
 type ResultItem = { 
   post: SurveyPost
   user: { dem: number; rep: number }
   scores?: { dem_score: number; rep_score: number; total_score: number }
+  question_rank?: number
 }
-type LocationState = ResultItem | { items: ResultItem[]; average_score?: number }
 
 export default function ResultsPage() {
-  const location = useLocation()
   const navigate = useNavigate()
   const auth = getAuth()
-  const state = (location.state || {}) as Partial<LocationState>
-  const items: ResultItem[] = Array.isArray((state as any).items)
-    ? ((state as any).items as ResultItem[])
-    : state && (state as any).post && (state as any).user
-    ? [{ post: (state as any).post as SurveyPost, user: (state as any).user as { dem: number; rep: number } }]
-    : []
+  const [searchParams] = useSearchParams()
+  const [items, setItems] = useState<ResultItem[]>([])
+  const [averageScore, setAverageScore] = useState<number>(0)
+  const [dailyRank, setDailyRank] = useState<number | null>(null)
+  const [historicalAverage, setHistoricalAverage] = useState<number | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [date, setDate] = useState<string>('')
 
-  // Calculate average score and find best/worst questions
-  const comparison = useMemo(() => {
-    return items.map((it, idx) => {
-      const demScore = it.scores?.dem_score ?? Math.max(0, 100 - Math.abs(it.user.dem - it.post.dem))
-      const repScore = it.scores?.rep_score ?? Math.max(0, 100 - Math.abs(it.user.rep - it.post.rep))
-      const totalScore = it.scores?.total_score ?? (demScore + repScore) / 2
-      return {
-        item: it,
-        index: idx + 1,
-        scores: { dem_score: demScore, rep_score: repScore, total_score: totalScore }
+  // Load results from backend API
+  useEffect(() => {
+    async function loadResults() {
+      if (!auth.currentUser) {
+        setError('Please sign in to view results')
+        setLoading(false)
+        return
       }
-    })
-  }, [items])
 
-  const average_score = useMemo(() => {
-    if (!comparison.length) return 0
-    return comparison.reduce((sum, c) => sum + c.scores.total_score, 0) / comparison.length
-  }, [comparison])
+      try {
+        const userId = auth.currentUser.uid
+        const dateParam = searchParams.get('date') // Optional date parameter
+        const url = dateParam 
+          ? `/api/results?user_id=${userId}&date=${dateParam}`
+          : `/api/results?user_id=${userId}`
+        
+        const res = await fetch(url)
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}))
+          setError(errorData.error || 'Failed to load results')
+          setLoading(false)
+          return
+        }
 
-  const best_question = useMemo(() => {
-    if (!comparison.length) return 1
-    const best = comparison.reduce((best, current) => 
-      current.scores.total_score > best.scores.total_score ? current : best
-    )
-    return best.index
-  }, [comparison])
+        const data = await res.json()
+        
+        // Transform backend results to frontend format
+        const resultItems: ResultItem[] = (data.results || []).map((r: any) => ({
+          post: {
+            id: r.id,
+            imageUrl: r.image_url,
+            dem: r.actual.dem,
+            rep: r.actual.rep,
+          },
+          user: r.user,
+          scores: r.scores,
+          question_rank: data.question_ranks?.[r.id] || null
+        }))
 
-  const worst_question = useMemo(() => {
-    if (!comparison.length) return 1
-    const worst = comparison.reduce((worst, current) => 
-      current.scores.total_score < worst.scores.total_score ? current : worst
-    )
-    return worst.index
-  }, [comparison])
+        setItems(resultItems)
+        setAverageScore(data.average_score || 0)
+        setDailyRank(data.daily_rank || null)
+        setHistoricalAverage(data.historical_average || null)
+        setDate(data.date || '')
+        setError(null)
+      } catch (error) {
+        console.error('Failed to load results:', error)
+        setError('Failed to load results. Please try again.')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadResults()
+  }, [auth.currentUser, searchParams])
 
   const css = useMemo(
     () => `
@@ -500,135 +520,49 @@ export default function ResultsPage() {
     []
   )
 
-  // Mini leaderboard (top 5)
-  const [lb, setLb] = useState<{ id: string; displayName?: string; score?: number }[]>([])
-  const [lbLoading, setLbLoading] = useState(true)
-
-  // Post score once per results view if signed in
-  const [postedScore, setPostedScore] = useState(false)
-  useEffect(() => {
-    const uid = auth.currentUser?.uid
-    const displayName = auth.currentUser?.displayName || auth.currentUser?.email || undefined
-    if (!uid || postedScore || !items.length) return
-    const avg = Number(average_score.toFixed(2))
-    fetch('/api/users/score', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ uid, displayName, average_score: avg }),
-    })
-      .catch(() => undefined)
-      .finally(() => setPostedScore(true))
-  }, [auth.currentUser, average_score, items.length, postedScore])
-
-  // Expanded panel overlay with FLIP transition
-  const [expanded, setExpanded] = useState<null | 'your' | 'leaderboard' | 'today'>(null)
-  const [expandFromRect, setExpandFromRect] = useState<null | {left: number; top: number; width: number; height: number}>(null)
-  const [lbExpanded, setLbExpanded] = useState<{ id: string; displayName?: string; score?: number }[] | null>(null)
-  const overlayCardRef = useRef<HTMLDivElement | null>(null)
-  const [closing, setClosing] = useState(false)
-
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key === 'Escape') closeOverlay()
-    }
-    window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [])
-
-  useEffect(() => {
-    if (expanded !== 'leaderboard') return
-    let cancelled = false
-    ;(async () => {
-      try {
-        const res = await fetch('/api/leaderboard?limit=1000')
-        const data = await res.json().catch(() => ({}))
-        if (!cancelled) setLbExpanded(data.entries || [])
-      } catch {
-        if (!cancelled) setLbExpanded(lb)
-      }
-    })()
-    return () => { cancelled = true }
-  }, [expanded])
-
-  // Run FLIP on open
-  useEffect(() => {
-    if (!expanded || !overlayCardRef.current || !expandFromRect) return
-    const card = overlayCardRef.current
-    // Compute deltas
-    const end = card.getBoundingClientRect()
-    const dx = expandFromRect.left - end.left
-    const dy = expandFromRect.top - end.top
-    const sx = expandFromRect.width / end.width
-    const sy = expandFromRect.height / end.height
-    card.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`
-    // Force reflow then animate to identity
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    card.offsetWidth
-    requestAnimationFrame(() => {
-      card.style.transform = ''
-    })
-  }, [expanded, expandFromRect])
-
-  function openOverlay(kind: 'your' | 'leaderboard' | 'today', e: React.MouseEvent | React.KeyboardEvent) {
-    const el = e.currentTarget as HTMLElement
-    const r = el.getBoundingClientRect()
-    setExpandFromRect({ left: r.left, top: r.top, width: r.width, height: r.height })
-    setExpanded(kind)
-  }
-
-  function closeOverlay() {
-    if (!overlayCardRef.current || !expandFromRect) {
-      setExpanded(null)
-      return
-    }
-    const card = overlayCardRef.current
-    const end = card.getBoundingClientRect()
-    const dx = expandFromRect.left - end.left
-    const dy = expandFromRect.top - end.top
-    const sx = expandFromRect.width / end.width
-    const sy = expandFromRect.height / end.height
-    setClosing(true)
-    card.style.transform = ''
-    // next frame animate back
-    requestAnimationFrame(() => {
-      card.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`
-      setTimeout(() => {
-        setExpanded(null)
-        setClosing(false)
-        // reset transform for next open
-        if (overlayCardRef.current) overlayCardRef.current.style.transform = ''
-      }, 360)
-    })
-  }
-
-  useEffect(() => {
-    const q = query(collection(db, 'users'), orderBy('score', 'desc'), limit(5))
-    const unsub = onSnapshot(
-      q,
-      (snap) => {
-        setLb(snap.docs.map((d) => ({ id: d.id, ...(d.data() as any) })))
-        setLbLoading(false)
-      },
-      () => setLbLoading(false)
+  // Calculate best/worst questions for display
+  const best_question = useMemo(() => {
+    if (!items.length) return 1
+    const best = items.reduce((best, current, idx) => 
+      (current.scores?.total_score || 0) > (best.scores?.total_score || 0) ? {item: current, index: idx + 1} : best,
+      {item: items[0], index: 1}
     )
-    return () => unsub()
-  }, [])
+    return best.index
+  }, [items])
 
-  if (!items.length) {
-    // No state passed; go back to Guess
+  const worst_question = useMemo(() => {
+    if (!items.length) return 1
+    const worst = items.reduce((worst, current, idx) => 
+      (current.scores?.total_score || 0) < (worst.scores?.total_score || 0) ? {item: current, index: idx + 1} : worst,
+      {item: items[0], index: 1}
+    )
+    return worst.index
+  }, [items])
+
+  if (loading) {
     return (
       <div>
         <style>{css}</style>
         <div className="results-page">
-          <div className="error-message">Missing results context. Please try again.</div>
+          <div className="error-message">Loading results...</div>
+        </div>
+      </div>
+    )
+  }
+
+  if (error || !items.length) {
+    return (
+      <div>
+        <style>{css}</style>
+        <div className="results-page">
+          <div className="error-message">{error || 'No results found. Please complete today\'s questions first.'}</div>
           <div className="results-actions">
-            <button onClick={() => navigate('/guess')}>Go to Guess</button>
+            <button onClick={() => navigate('/guess')}>Go to Questions</button>
           </div>
         </div>
       </div>
     )
   }
-  
 
   return (
     <div>
@@ -638,64 +572,22 @@ export default function ResultsPage() {
           <h1>Your Results</h1>
           <p className="subtitle">See how your predictions compare to the actual survey data.</p>
           <div className="score-summary">
-            <h2>Average Score: {average_score.toFixed(1)}%</h2>
+            <h2>Average Score: {averageScore.toFixed(1)}%</h2>
             <div className="progress-bar">
-              <div className="fill" style={{ width: `${average_score}%` }} />
+              <div className="fill" style={{ width: `${averageScore}%` }} />
             </div>
+            {dailyRank !== null && (
+              <p className="note">Your rank today: #{dailyRank} | Historical average: {historicalAverage?.toFixed(1) || 'N/A'}%</p>
+            )}
             <p className="note">You were closest on #{best_question} and furthest off on #{worst_question}.</p>
           </div>
         </section>
 
-        {/* Dashboard panels */}
-        <section className="dashboard-grid">
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('your', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('your', e), undefined) : undefined)}>
-            <h3>Your Stats</h3>
-            <div className="dash-metric"><span>Average score</span><strong>{average_score.toFixed(1)}%</strong></div>
-            <div className="dash-metric"><span>Questions answered</span><strong>{items.length}</strong></div>
-            <div className="dash-metric"><span>Best question</span><strong>#{best_question}</strong></div>
-            <div className="dash-metric"><span>Worst question</span><strong>#{worst_question}</strong></div>
-          </div>
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('leaderboard', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('leaderboard', e), undefined) : undefined)}>
-            <h3>Leaderboard</h3>
-            {lbLoading ? (
-              <div className="muted">Loading…</div>
-            ) : lb.length === 0 ? (
-              <div className="muted">No players yet.</div>
-            ) : (
-              <table className="mini-table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Player</th>
-                    <th style={{ textAlign: 'right' }}>Score</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {lb.map((e, idx) => (
-                    <tr key={e.id} style={{ background: auth.currentUser?.uid === e.id ? 'linear-gradient(90deg, rgba(29,78,216,0.08), rgba(220,38,38,0.06))' : 'transparent' }}>
-                      <td>{idx + 1}</td>
-                      <td>{e.displayName || 'Unknown player'}</td>
-                      <td style={{ textAlign: 'right' }}>{e.score ?? 0}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-            {/* Full leaderboard shown on click via overlay; link removed */}
-          </div>
-          <div className="dash-card" role="button" tabIndex={0} onClick={(e) => openOverlay('today', e)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ' ? (openOverlay('today', e), undefined) : undefined)}>
-            <h3>Today's Stats</h3>
-            <div className="dash-metric"><span>Rounds completed</span><strong>1</strong></div>
-            <div className="dash-metric"><span>Avg score this round</span><strong>{average_score.toFixed(1)}%</strong></div>
-            <div className="dash-metric"><span>Signed in</span><strong>{auth.currentUser ? 'Yes' : 'No'}</strong></div>
-          </div>
-        </section>
-
         <section className="results-grid">
-          {comparison.map((item, i) => (
+          {items.map((item, i) => (
             <div key={i} className="result-card">
               <img 
-                src={item.item.post.imageUrl} 
+                src={item.post.imageUrl} 
                 alt="tweet" 
                 className="tweet-thumb" 
               />
@@ -704,76 +596,30 @@ export default function ResultsPage() {
                 <div className="prediction-table-header">Your Prediction</div>
                 <div className="prediction-table-header">Actual Result</div>
                 <div className="prediction-row-label">Democrat</div>
-                <div className="prediction-value dem">{item.item.user.dem.toFixed(1)}%</div>
-                <div className="prediction-value dem">{item.item.post.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{item.user.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{item.post.dem.toFixed(1)}%</div>
                 <div className="prediction-row-label">Republican</div>
-                <div className="prediction-value rep">{item.item.user.rep.toFixed(1)}%</div>
-                <div className="prediction-value rep">{item.item.post.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{item.user.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{item.post.rep.toFixed(1)}%</div>
               </div>
               <div className="result-data">
                 <span className="data-label">Accuracy Score</span>
-                <span className="data-value total">{item.scores.total_score.toFixed(1)}%</span>
+                <span className="data-value total">{item.scores?.total_score.toFixed(1) || 0}%</span>
               </div>
+              {item.question_rank !== null && item.question_rank !== undefined && (
+                <div className="result-data">
+                  <span className="data-label">Question Rank</span>
+                  <span className="data-value">#{item.question_rank}</span>
+                </div>
+              )}
             </div>
           ))}
         </section>
 
         <div className="results-actions">
-          <button onClick={() => navigate('/guess')}>Try Again</button>
-          <Link to="/leaderboard">View Leaderboard</Link>
+          <button onClick={() => navigate('/guess')}>Back to Questions</button>
         </div>
       </div>
-
-      {expanded && (
-        <div className="dash-overlay" style={{ opacity: closing ? 0 : 1, transition: 'opacity 220ms ease' }} onClick={closeOverlay}>
-          <div ref={overlayCardRef} className="dash-overlay-card" onClick={(e) => e.stopPropagation()}>
-            <div className="dash-close">
-              <button aria-label="Close" onClick={closeOverlay}>×</button>
-            </div>
-            {expanded === 'your' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Your Stats</h3>
-                <div className="dash-metric"><span>Average score</span><strong>{average_score.toFixed(1)}%</strong></div>
-                <div className="dash-metric"><span>Questions answered</span><strong>{items.length}</strong></div>
-                <div className="dash-metric"><span>Best question</span><strong>#{best_question}</strong></div>
-                <div className="dash-metric"><span>Worst question</span><strong>#{worst_question}</strong></div>
-              </div>
-            )}
-            {expanded === 'leaderboard' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Leaderboard</h3>
-                <table className="mini-table">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Player</th>
-                      <th style={{ textAlign: 'right' }}>Score</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {(lbExpanded || lb).map((e, idx) => (
-                      <tr key={e.id} style={{ background: auth.currentUser?.uid === e.id ? 'linear-gradient(90deg, rgba(29,78,216,0.08), rgba(220,38,38,0.06))' : 'transparent' }}>
-                        <td>{idx + 1}</td>
-                        <td>{e.displayName || 'Unknown player'}</td>
-                        <td style={{ textAlign: 'right' }}>{e.score ?? 0}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-                {/* Full leaderboard shown here; no separate link needed */}
-              </div>
-            )}
-            {expanded === 'today' && (
-              <div>
-                <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.5rem', marginBottom: 12 }}>Today's Stats</h3>
-                <div className="dash-metric"><span>Rounds completed</span><strong>1</strong></div>
-                <div className="dash-metric"><span>Avg score this round</span><strong>{average_score.toFixed(1)}%</strong></div>
-                <div className="dash-metric"><span>Signed in</span><strong>{auth.currentUser ? 'Yes' : 'No'}</strong></div>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   )
 }

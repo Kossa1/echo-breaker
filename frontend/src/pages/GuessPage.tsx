@@ -18,67 +18,63 @@ export default function GuessPage() {
   const [answers, setAnswers] = useState<Array<{ post: SurveyPost; user: { dem: number; rep: number } }>>([])
   const [gameStarted, setGameStarted] = useState<boolean>(false)
   const [error, setError] = useState<string | null>(null)
+  const [dailyQuestions, setDailyQuestions] = useState<Array<{id: string; image_url: string; topic: string; question_order: number}>>([])
+  const [completed, setCompleted] = useState<boolean>(false)
 
-  // Initialize game on mount
+  // Load daily questions and check completion status on mount
   useEffect(() => {
-    async function startGame() {
+    async function loadDailyQuestions() {
+      if (!auth.currentUser) {
+        // User must be signed in to play
+        setError('Please sign in to play')
+        return
+      }
+
       try {
-        const res = await fetch('/api/start_game', { method: 'POST' })
+        const userId = auth.currentUser.uid
+        const res = await fetch(`/api/daily_questions?user_id=${userId}`)
         if (!res.ok) {
           const errorData = await res.json().catch(() => ({}))
-          setError(errorData.error || 'Failed to start game')
-          setPost(null)
+          setError(errorData.error || 'Failed to load daily questions')
           return
         }
         const data = await res.json()
+        
+        // Check if user already completed today
+        if (data.completed) {
+          setCompleted(true)
+          // Redirect to results
+          navigate('/guess/results', { replace: true })
+          return
+        }
+        
+        setDailyQuestions(data.questions || [])
         setGameStarted(true)
         setError(null)
       } catch (error) {
-        console.error('Failed to start game:', error)
-        setError('Failed to start game. Please try again.')
-        setPost(null)
+        console.error('Failed to load daily questions:', error)
+        setError('Failed to load daily questions. Please try again.')
       }
     }
     
-    if (!gameStarted && qIndex === 0) {
-      startGame()
-    }
-  }, [gameStarted, qIndex])
+    loadDailyQuestions()
+  }, [auth.currentUser, navigate])
 
-  // Load question when game is started and qIndex changes
+  // Load current question when game is started and qIndex changes
   useEffect(() => {
-    async function loadQuestion() {
-      if (!gameStarted) return
-      
-      try {
-        const res = await fetch(`/api/get_question/${qIndex}`)
-        if (!res.ok) {
-          const errorData = await res.json().catch(() => ({}))
-          setError(errorData.error || 'Failed to load question')
-          setPost(null)
-          return
-        }
-        const data = await res.json()
-        // Map backend response to frontend SurveyPost interface
-        // Note: dem/rep will be populated later from submit_results response
-        setPost({
-          id: data.id,
-          imageUrl: data.image_url,
-          dem: 0, // Will be set from backend results
-          rep: 0  // Will be set from backend results
-        })
-        setError(null)
-      } catch (error) {
-        console.error('Failed to load question:', error)
-        setError('Failed to load question. Please try again.')
-        setPost(null)
-      }
-    }
+    if (!gameStarted || !dailyQuestions.length || qIndex >= dailyQuestions.length) return
     
-    if (gameStarted) {
-      loadQuestion()
+    const currentQuestion = dailyQuestions[qIndex]
+    if (currentQuestion) {
+      setPost({
+        id: currentQuestion.id,
+        imageUrl: currentQuestion.image_url,
+        dem: 0, // Will be set from backend results
+        rep: 0  // Will be set from backend results
+      })
+      setError(null)
     }
-  }, [gameStarted, qIndex])
+  }, [gameStarted, qIndex, dailyQuestions])
 
   const css = useMemo(
     () => `
@@ -580,79 +576,60 @@ export default function GuessPage() {
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!post) return
+    if (!post || !auth.currentUser) {
+      setLoading(false)
+      navigate('/login')
+      return
+    }
     setLoading(true)
 
-    const nextAnswers = [...answers, { post, user: { dem, rep } }]
+    try {
+      // Submit single answer to backend
+      const userId = auth.currentUser.uid
+      const submitData = {
+        user_id: userId,
+        question_id: post.id,
+        user: { dem, rep }
+      }
 
-    // If we have more questions to go, advance and reset sliders
-    if (qIndex + 1 < totalQuestions) {
-      // Require sign-in to continue beyond first question
-      if (!auth.currentUser) {
+      const res = await fetch('/api/submit_answer', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(submitData),
+      })
+
+      if (!res.ok) {
+        const errorData = await res.json().catch(() => ({}))
+        setError(errorData.error || 'Failed to submit answer')
         setLoading(false)
-        navigate('/login')
         return
       }
-      setAnswers(nextAnswers)
-      setQIndex((i) => i + 1)
-      setDem(50)
-      setRep(50)
-      setLoading(false)
-      // Maintain the total in the URL for clarity
-      setSearchParams((prev) => {
-        const p = new URLSearchParams(prev)
-        p.set('total', String(totalQuestions))
-        return p
-      })
-    } else {
-      // All questions answered - submit to backend and get results
-      try {
-        const submitData = {
-          answers: nextAnswers.map((ans) => ({
-            id: ans.post.id,
-            user: ans.user
-          }))
-        }
 
-        const res = await fetch('/api/submit_results', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(submitData),
-        })
+      const resultData = await res.json()
 
-        if (!res.ok) {
-          const errorData = await res.json().catch(() => ({}))
-          setError(errorData.error || 'Failed to submit results')
-          setLoading(false)
-          return
-        }
+      // If user completed all questions, redirect to results
+      if (resultData.completed_all) {
+        navigate('/guess/results', { replace: false })
+        return
+      }
 
-        const resultData = await res.json()
-
-        // Transform backend results to frontend format
-        const resultItems = resultData.results.map((r: any) => ({
-          post: {
-            id: r.id,
-            imageUrl: r.image_url,
-            dem: r.actual.dem,
-            rep: r.actual.rep,
-          },
-          user: r.user,
-          scores: r.scores,
-        }))
-
-        // Navigate to results with backend data
-        navigate('/guess/results', {
-          replace: false,
-          state: { items: resultItems, average_score: resultData.average_score },
-        })
-      } catch (error) {
-        console.error('Failed to submit results:', error)
-        setError('Failed to submit results. Please try again.')
+      // Move to next question
+      if (qIndex + 1 < dailyQuestions.length) {
+        setQIndex((i) => i + 1)
+        setDem(50)
+        setRep(50)
+        setLoading(false)
+      } else {
+        // Should not happen if backend logic is correct, but handle gracefully
+        setError('All questions answered, but completion not detected')
         setLoading(false)
       }
+    } catch (error) {
+      console.error('Failed to submit answer:', error)
+      setError('Failed to submit answer. Please try again.')
+      setLoading(false)
     }
   }
 
@@ -728,21 +705,21 @@ export default function GuessPage() {
 
           <div className="progress-wrapper">
             <div className="progress-label">
-              Question {qIndex + 1} of {totalQuestions}
+              Question {qIndex + 1} of {dailyQuestions.length || totalQuestions}
             </div>
             <div className="progress-bar">
               <div
                 className="progress-fill"
-                style={{ width: `${((qIndex + 1) / totalQuestions) * 100}%` }}
+                style={{ width: `${((qIndex + 1) / (dailyQuestions.length || totalQuestions)) * 100}%` }}
               />
             </div>
           </div>
 
           <div className="submit-section">
-            <button type="submit" className="submit-btn" id="submitBtn" disabled={!post || loading}>
+            <button type="submit" className="submit-btn" id="submitBtn" disabled={!post || loading || !auth.currentUser}>
               {loading
                 ? 'Submitting…'
-                : totalQuestions > 1 && qIndex + 1 < totalQuestions
+                : dailyQuestions.length > 1 && qIndex + 1 < dailyQuestions.length
                 ? 'Next Question'
                 : 'Submit'}
             </button>

@@ -77,3 +77,44 @@ class PostQuestionMap(Base):
     confidence: Mapped[float | None] = mapped_column(Float)
 
     post = relationship("Post", back_populates="mappings")
+
+# Daily questions model - stores the 5 questions selected for each day
+class DailyQuestion(Base):
+    __tablename__ = "daily_questions"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    date: Mapped[str] = mapped_column(String, nullable=False)  # Date string in YYYY-MM-DD format (Eastern time)
+    question_id: Mapped[str] = mapped_column(String, nullable=False)  # Question ID from survey_metadata (e.g., "subdir/image_name")
+    question_order: Mapped[int] = mapped_column(Integer, nullable=False)  # Order of question (0-4)
+    img_path: Mapped[str] = mapped_column(String, nullable=False)  # Relative path to image
+    dem: Mapped[float] = mapped_column(Float, nullable=False)  # Ground truth dem value
+    rep: Mapped[float] = mapped_column(Float, nullable=False)  # Ground truth rep value
+    topic: Mapped[str | None] = mapped_column(String)  # Topic/subdirectory name
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+Index("ix_daily_questions_date_order", DailyQuestion.date, DailyQuestion.question_order)
+Index("ix_daily_questions_date_question", DailyQuestion.date, DailyQuestion.question_id)
+
+# User answers model - stores individual user answers for each daily question
+class UserAnswer(Base):
+    __tablename__ = "user_answers"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    user_id: Mapped[str] = mapped_column(String, nullable=False)  # Firebase user ID
+    date: Mapped[str] = mapped_column(String, nullable=False)  # Date string in YYYY-MM-DD format (Eastern time)
+    question_id: Mapped[str] = mapped_column(String, nullable=False)  # Question ID matching DailyQuestion
+    dem_guess: Mapped[float] = mapped_column(Float, nullable=False)
+    rep_guess: Mapped[float] = mapped_column(Float, nullable=False)
+    score: Mapped[float] = mapped_column(Float, nullable=False)  # Computed score for this answer
+    submitted_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+Index("ix_user_answers_user_date_question", UserAnswer.user_id, UserAnswer.date, UserAnswer.question_id, unique=True)
+
+# User daily scores model - stores aggregated daily scores (only when all 5 questions are answered)
+class UserDailyScore(Base):
+    __tablename__ = "user_daily_scores"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    user_id: Mapped[str] = mapped_column(String, nullable=False)  # Firebase user ID
+    date: Mapped[str] = mapped_column(String, nullable=False)  # Date string in YYYY-MM-DD format (Eastern time)
+    avg_score: Mapped[float] = mapped_column(Float, nullable=False)  # Average score across all 5 questions
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+Index("ix_user_daily_scores_user_date", UserDailyScore.user_id, UserDailyScore.date, unique=True)

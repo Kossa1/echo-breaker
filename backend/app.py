@@ -5,6 +5,14 @@ from pathlib import Path
 
 from flask import Flask, render_template, request, redirect, url_for, session, send_from_directory, jsonify
 from backend_logic import sample_unique_posts
+from daily_questions import (
+    get_eastern_date, ensure_daily_questions, get_user_answers_for_date,
+    has_user_completed_date, compute_rankings_for_date, get_user_historical_average,
+    DEFAULT_NUM_QUESTIONS
+)
+from db import SessionLocal
+from models import UserAnswer, UserDailyScore, DailyQuestion
+from sqlalchemy import select
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
@@ -119,57 +127,57 @@ def display_problem():
                           total_questions=len(problems),
                           question_number=current_idx + 1)
 
-@app.post("/submit_answer")
-def submit_answer():
-    """Process user answer and move to next question."""
-    problems = session.get('problems')
-    current_idx = session.get('current_idx', 0)
+# @app.post("/submit_answer")
+# def submit_answer():
+#     """Process user answer and move to next question."""
+#     problems = session.get('problems')
+#     current_idx = session.get('current_idx', 0)
     
-    if not problems or current_idx >= len(problems):
-        return redirect(url_for('start_quiz'))
+#     if not problems or current_idx >= len(problems):
+#         return redirect(url_for('start_quiz'))
     
-    # Get user guesses
-    dem_guess = float(request.form.get("dem_0", 0) or 0)
-    rep_guess = float(request.form.get("rep_0", 0) or 0)
+#     # Get user guesses
+#     dem_guess = float(request.form.get("dem_0", 0) or 0)
+#     rep_guess = float(request.form.get("rep_0", 0) or 0)
     
-    # Get current problem data
-    current_problem = problems[current_idx]
-    dem_gt = current_problem['dem_gt']
-    rep_gt = current_problem['rep_gt']
-    img_path = current_problem['img_path']
+#     # Get current problem data
+#     current_problem = problems[current_idx]
+#     dem_gt = current_problem['dem_gt']
+#     rep_gt = current_problem['rep_gt']
+#     img_path = current_problem['img_path']
     
-    # Compute scores
-    # dem_score = 100 - abs(dem_guess - dem_gt)
-    # rep_score = 100 - abs(rep_guess - rep_gt)
-    # total_score = (dem_score + rep_score) / 2
+#     # Compute scores
+#     # dem_score = 100 - abs(dem_guess - dem_gt)
+#     # rep_score = 100 - abs(rep_guess - rep_gt)
+#     # total_score = (dem_score + rep_score) / 2
 
-    dem_score = nonlinear_score(dem_guess, dem_gt)
-    rep_score = nonlinear_score(rep_guess, rep_gt)
-    total_score = (dem_score + rep_score) / 2
+#     dem_score = nonlinear_score(dem_guess, dem_gt)
+#     rep_score = nonlinear_score(rep_guess, rep_gt)
+#     total_score = (dem_score + rep_score) / 2
     
-    # Store response
-    response = {
-        "img_path": img_path,
-        "user_dem": dem_guess,
-        "user_rep": rep_guess,
-        "dem_gt": dem_gt,
-        "rep_gt": rep_gt,
-        "dem_score": dem_score,
-        "rep_score": rep_score,
-        "total_score": total_score
-    }
+#     # Store response
+#     response = {
+#         "img_path": img_path,
+#         "user_dem": dem_guess,
+#         "user_rep": rep_guess,
+#         "dem_gt": dem_gt,
+#         "rep_gt": rep_gt,
+#         "dem_score": dem_score,
+#         "rep_score": rep_score,
+#         "total_score": total_score
+#     }
     
-    # Update session
-    responses = session.get('responses', [])
-    responses.append(response)
-    session['responses'] = responses
-    session['current_idx'] = current_idx + 1
+#     # Update session
+#     responses = session.get('responses', [])
+#     responses.append(response)
+#     session['responses'] = responses
+#     session['current_idx'] = current_idx + 1
     
-    # Check if quiz is complete
-    if current_idx + 1 >= len(problems):
-        return redirect(url_for('show_results'))
-    else:
-        return redirect(url_for('display_problem'))
+#     # Check if quiz is complete
+#     if current_idx + 1 >= len(problems):
+#         return redirect(url_for('show_results'))
+#     else:
+#         return redirect(url_for('display_problem'))
 
 @app.route("/results")
 def show_results():
@@ -361,6 +369,257 @@ def submit_results():
     return jsonify({
         "results": results,
         "average_score": average_score,
+        "total_questions": len(results)
+    })
+
+@app.route("/api/daily_questions", methods=['GET'])
+def get_daily_questions():
+    """
+    Get today's daily questions (5 questions, same for all users).
+    Returns questions with their order and metadata (without ground truth).
+    If user has already completed today, includes completion status.
+    """
+    # Get user ID from request header (frontend should send this)
+    user_id = request.headers.get('X-User-Id') or request.args.get('user_id')
+    
+    # Get today's date in Eastern timezone
+    today = get_eastern_date()
+    
+    # Ensure daily questions exist for today
+    try:
+        daily_questions = ensure_daily_questions(today)
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 500
+    
+    # Check if user has completed today
+    completed = False
+    if user_id:
+        completed = has_user_completed_date(user_id, today)
+    
+    # Build response with questions (without ground truth)
+    questions = []
+    for dq in daily_questions:
+        image_url = url_for('serve_survey_image', filename=dq['img_path'])
+        questions.append({
+            "id": dq['id'],
+            "image_url": image_url,
+            "topic": dq.get('topic', 'unknown'),
+            "question_order": dq['question_order']
+        })
+    
+    # Sort by question_order
+    questions.sort(key=lambda x: x['question_order'])
+    
+    return jsonify({
+        "date": today,
+        "questions": questions,
+        "completed": completed,
+        "total_questions": len(questions)
+    })
+
+@app.route("/api/submit_answer", methods=['POST'])
+def submit_answer():
+    """
+    Submit a single answer for a daily question.
+    Body: {user_id: str, question_id: str, user: {dem: float, rep: float}}
+    Returns: {success: bool, score: float, message: str}
+    """
+    data = request.get_json()
+    if not data:
+        return jsonify({"error": "Missing request body"}), 400
+    
+    user_id = data.get('user_id')
+    question_id = data.get('question_id')
+    user_guess = data.get('user', {})
+    
+    if not user_id or not question_id:
+        return jsonify({"error": "Missing user_id or question_id"}), 400
+    
+    dem_guess = float(user_guess.get('dem', 0))
+    rep_guess = float(user_guess.get('rep', 0))
+    
+    # Get today's date
+    today = get_eastern_date()
+    
+    # Check if user already answered this question today
+    with SessionLocal() as session:
+        existing = session.execute(
+            select(UserAnswer).where(
+                UserAnswer.user_id == user_id,
+                UserAnswer.date == today,
+                UserAnswer.question_id == question_id
+            )
+        ).scalar_one_or_none()
+        
+        if existing:
+            return jsonify({
+                "success": False,
+                "error": "Question already answered"
+            }), 400
+        
+        # Get the daily question to get ground truth
+        daily_q = session.execute(
+            select(DailyQuestion).where(
+                DailyQuestion.date == today,
+                DailyQuestion.question_id == question_id
+            )
+        ).scalar_one_or_none()
+        
+        if not daily_q:
+            return jsonify({"error": "Question not found for today"}), 404
+        
+        # Compute score
+        dem_score = nonlinear_score(dem_guess, daily_q.dem)
+        rep_score = nonlinear_score(rep_guess, daily_q.rep)
+        total_score = (dem_score + rep_score) / 2
+        
+        # Store answer
+        user_answer = UserAnswer(
+            user_id=user_id,
+            date=today,
+            question_id=question_id,
+            dem_guess=dem_guess,
+            rep_guess=rep_guess,
+            score=total_score
+        )
+        session.add(user_answer)
+        
+        # Check if user has completed all 5 questions (including this new one)
+        all_answers = session.execute(
+            select(UserAnswer).where(
+                UserAnswer.user_id == user_id,
+                UserAnswer.date == today
+            )
+        ).scalars().all()
+        
+        completed_all = len(all_answers) >= DEFAULT_NUM_QUESTIONS
+        
+        if completed_all:
+            # Calculate average score
+            avg_score = sum(a.score for a in all_answers) / len(all_answers)
+            
+            # Check if daily score already exists
+            existing_score = session.execute(
+                select(UserDailyScore).where(
+                    UserDailyScore.user_id == user_id,
+                    UserDailyScore.date == today
+                )
+            ).scalar_one_or_none()
+            
+            if not existing_score:
+                daily_score = UserDailyScore(
+                    user_id=user_id,
+                    date=today,
+                    avg_score=avg_score
+                )
+                session.add(daily_score)
+        
+        session.commit()
+        
+        return jsonify({
+            "success": True,
+            "score": round(total_score, 2),
+            "completed_all": completed_all
+        })
+
+@app.route("/api/results", methods=['GET'])
+def get_results():
+    """
+    Get results for a user for today (or specified date).
+    Query params: user_id (required), date (optional, defaults to today)
+    Returns comprehensive results with rankings and per-question breakdown.
+    """
+    user_id = request.args.get('user_id')
+    if not user_id:
+        return jsonify({"error": "Missing user_id parameter"}), 400
+    
+    date = request.args.get('date') or get_eastern_date()
+    
+    # Get user's answers for this date
+    user_answers = get_user_answers_for_date(user_id, date)
+    
+    if not user_answers:
+        return jsonify({
+            "error": "No answers found for this date",
+            "date": date,
+            "completed": False
+        }), 404
+    
+    # Get daily questions for this date
+    with SessionLocal() as session:
+        daily_questions = session.execute(
+            select(DailyQuestion)
+            .where(DailyQuestion.date == date)
+            .order_by(DailyQuestion.question_order)
+        ).scalars().all()
+        
+        # Build question map
+        question_map = {dq.question_id: dq for dq in daily_questions}
+        
+        # Build results with per-question data
+        results = []
+        for ua in user_answers:
+            dq = question_map.get(ua['question_id'])
+            if not dq:
+                continue
+            
+            image_url = url_for('serve_survey_image', filename=dq.img_path)
+            results.append({
+                "id": dq.question_id,
+                "image_url": image_url,
+                "topic": dq.topic or "unknown",
+                "question_order": dq.question_order,
+                "user": {
+                    "dem": ua['dem_guess'],
+                    "rep": ua['rep_guess']
+                },
+                "actual": {
+                    "dem": dq.dem,
+                    "rep": dq.rep
+                },
+                "scores": {
+                    "dem_score": round(nonlinear_score(ua['dem_guess'], dq.dem), 2),
+                    "rep_score": round(nonlinear_score(ua['rep_guess'], dq.rep), 2),
+                    "total_score": round(ua['score'], 2)
+                }
+            })
+        
+        # Sort by question_order
+        results.sort(key=lambda x: x['question_order'])
+        
+        # Calculate average score
+        avg_score = sum(r['scores']['total_score'] for r in results) / len(results) if results else 0
+        
+        # Get rankings
+        rankings = compute_rankings_for_date(date)
+        
+        # Get user's ranks
+        daily_rank = rankings['daily_ranks'].get(user_id)
+        question_ranks = {}
+        for result in results:
+            question_ranks[result['id']] = rankings['question_ranks'].get(result['id'], {}).get(user_id)
+        
+        # Get historical average
+        historical_avg = get_user_historical_average(user_id)
+        
+        # Get daily score if exists
+        daily_score = session.execute(
+            select(UserDailyScore).where(
+                UserDailyScore.user_id == user_id,
+                UserDailyScore.date == date
+            )
+        ).scalar_one_or_none()
+        
+        completed = daily_score is not None
+    
+    return jsonify({
+        "date": date,
+        "results": results,
+        "average_score": round(avg_score, 2),
+        "daily_rank": daily_rank,
+        "question_ranks": question_ranks,
+        "historical_average": round(historical_avg, 2) if historical_avg else None,
+        "completed": completed,
         "total_questions": len(results)
     })
 
