@@ -224,8 +224,8 @@ export default function ResultsPage() {
       top: 0;
       display: flex;
       justify-content: flex-end;
-      padding-bottom: 8px;
-      margin: -8px -8px 8px 0;
+      padding-bottom: 4px;
+      margin: -4px -4px 4px 0;
       background: linear-gradient(#fff, #ffffffdd 70%, transparent);
     }
 

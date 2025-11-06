@@ -100,14 +100,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px var(--space-lg);
+  padding: 4px var(--space-lg);
   position: sticky;
   top: 0;
   background: #ffffff;
   border-bottom: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
   z-index: 10;
-  min-height: 48px;
+  min-height: 24px;
 }
 
 .nav a,
