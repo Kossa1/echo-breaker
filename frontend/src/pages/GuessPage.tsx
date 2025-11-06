@@ -612,7 +612,10 @@ export default function GuessPage() {
       // If user completed all questions, redirect to results
       if (resultData.completed_all) {
         navigate('/guess/results', { replace: false })
-        return
+      }else if (qIndex === dailyQuestions.length - 1) {
+        await new Promise(r => setTimeout(r, 5000))
+        const check = await fetch('/api/results')
+        if (check.ok) navigate('/guess/results', { replace: false })
       }
 
       // Move to next question

@@ -486,6 +486,7 @@ def submit_answer():
         )
         session.add(user_answer)
         
+        session.flush()
         # Check if user has completed all 5 questions (including this new one)
         all_answers = session.execute(
             select(UserAnswer).where(
