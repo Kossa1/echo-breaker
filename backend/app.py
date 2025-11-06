@@ -722,10 +722,12 @@ def get_results():
             "dem": round(historical_avg_dem, 1) if historical_avg_dem else None,
             "rep": round(historical_avg_rep, 1) if historical_avg_rep else None
         },
+        "historical_avg_overall": round(historical_avg_overall, 1) if historical_avg_overall else None,
         "delta_from_historical": {
             "dem": delta_from_historical_dem,
             "rep": delta_from_historical_rep
         },
+        "delta_from_historical_overall": delta_from_historical_overall,
         "best_question": {"dem": best_question_idx_dem, "rep": best_question_idx_rep},
         "worst_question": {"dem": worst_question_idx_dem, "rep": worst_question_idx_rep},
         "questions": questions

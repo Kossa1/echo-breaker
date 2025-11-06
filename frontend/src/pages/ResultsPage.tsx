@@ -17,7 +17,9 @@ type ResultsData = {
   today_rank: { dem: number | null; rep: number | null }
   total_users_today: number
   historical_avg: { dem: number | null; rep: number | null }
+  historical_avg_overall: number | null
   delta_from_historical: { dem: number | null; rep: number | null }
+  delta_from_historical_overall: number | null
   best_question: { dem: number | null; rep: number | null }
   worst_question: { dem: number | null; rep: number | null }
   questions: QuestionResult[]
@@ -220,6 +222,17 @@ export default function ResultsPage() {
     
     .delta.down {
       color: #dc2626; /* red */
+    }
+    
+    .stat-line.muted {
+      color: #999;
+      font-style: italic;
+    }
+    
+    .stat-line.muted .sub {
+      font-size: 12px;
+      color: #aaa;
+      margin-left: 4px;
     }
     
     .question-scores {
@@ -737,6 +750,25 @@ export default function ResultsPage() {
                     )}
                   </strong>
                 </p>
+                {resultsData.historical_avg_overall !== null ? (
+                  <p className="stat-line">
+                    <span>Historical Avg</span>
+                    <strong>{resultsData.historical_avg_overall.toFixed(1)}%</strong>
+                    {resultsData.delta_from_historical_overall !== null && (
+                      <span className={`delta ${resultsData.delta_from_historical_overall >= 0 ? 'up' : 'down'}`}>
+                        {resultsData.delta_from_historical_overall >= 0
+                          ? `↑${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`
+                          : `↓${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`}
+                      </span>
+                    )}
+                  </p>
+                ) : (
+                  <p className="stat-line muted">
+                    <span>Historical Avg</span>
+                    <strong>—</strong>
+                    <span className="sub">(first day — no history yet)</span>
+                  </p>
+                )}
                 <p className="stat-line">
                   <span>Best Question</span>
                   <strong>{overallBestQuestion ? `#${overallBestQuestion}` : 'N/A'}</strong>
