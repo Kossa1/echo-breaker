@@ -167,7 +167,7 @@ def ensure_daily_questions(date: str) -> list[dict]:
 def get_user_answers_for_date(user_id: str, date: str) -> list[dict]:
     """
     Get all answers for a user on a specific date.
-    Returns list of answer dicts with keys: question_id, dem_guess, rep_guess, score
+    Returns list of answer dicts with keys: question_id, dem_guess, rep_guess, score, score_dem, score_rep
     """
     with SessionLocal() as session:
         answers = session.execute(
@@ -181,7 +181,9 @@ def get_user_answers_for_date(user_id: str, date: str) -> list[dict]:
                 "question_id": ans.question_id,
                 "dem_guess": ans.dem_guess,
                 "rep_guess": ans.rep_guess,
-                "score": ans.score
+                "score": ans.score,
+                "score_dem": ans.score_dem,
+                "score_rep": ans.score_rep
             }
             for ans in answers
         ]
@@ -198,7 +200,11 @@ def compute_rankings_for_date(date: str) -> dict:
     Compute rankings for all users who completed the date.
     Returns dict with:
     - daily_ranks: {user_id: rank} based on avg_score
+    - daily_ranks_dem: {user_id: rank} based on avg_score_dem
+    - daily_ranks_rep: {user_id: rank} based on avg_score_rep
     - question_ranks: {question_id: {user_id: rank}} based on per-question scores
+    - question_ranks_dem: {question_id: {user_id: rank}} based on per-question score_dem
+    - question_ranks_rep: {question_id: {user_id: rank}} based on per-question score_rep
     """
     with SessionLocal() as session:
         # Get all daily scores for this date
@@ -219,6 +225,40 @@ def compute_rankings_for_date(date: str) -> dict:
             daily_ranks[score.user_id] = current_rank
             prev_score = score.avg_score
         
+        # Compute daily ranks for Democrat scores
+        daily_scores_dem = session.execute(
+            select(UserDailyScore)
+            .where(UserDailyScore.date == date)
+            .order_by(UserDailyScore.avg_score_dem.desc())
+        ).scalars().all()
+        
+        daily_ranks_dem = {}
+        current_rank_dem = 1
+        prev_score_dem = None
+        
+        for score in daily_scores_dem:
+            if prev_score_dem is not None and score.avg_score_dem < prev_score_dem:
+                current_rank_dem = len(daily_ranks_dem) + 1
+            daily_ranks_dem[score.user_id] = current_rank_dem
+            prev_score_dem = score.avg_score_dem
+        
+        # Compute daily ranks for Republican scores
+        daily_scores_rep = session.execute(
+            select(UserDailyScore)
+            .where(UserDailyScore.date == date)
+            .order_by(UserDailyScore.avg_score_rep.desc())
+        ).scalars().all()
+        
+        daily_ranks_rep = {}
+        current_rank_rep = 1
+        prev_score_rep = None
+        
+        for score in daily_scores_rep:
+            if prev_score_rep is not None and score.avg_score_rep < prev_score_rep:
+                current_rank_rep = len(daily_ranks_rep) + 1
+            daily_ranks_rep[score.user_id] = current_rank_rep
+            prev_score_rep = score.avg_score_rep
+        
         # Get all answers for this date, grouped by question
         all_answers = session.execute(
             select(UserAnswer)
@@ -228,6 +268,8 @@ def compute_rankings_for_date(date: str) -> dict:
         
         # Group by question_id and compute per-question ranks
         question_ranks = {}
+        question_ranks_dem = {}
+        question_ranks_rep = {}
         question_groups = {}
         
         for ans in all_answers:
@@ -236,6 +278,7 @@ def compute_rankings_for_date(date: str) -> dict:
             question_groups[ans.question_id].append(ans)
         
         for question_id, answers_list in question_groups.items():
+            # Overall question ranks
             question_ranks[question_id] = {}
             current_q_rank = 1
             prev_q_score = None
@@ -245,16 +288,42 @@ def compute_rankings_for_date(date: str) -> dict:
                     current_q_rank = len([k for k in question_ranks[question_id].keys()]) + 1
                 question_ranks[question_id][ans.user_id] = current_q_rank
                 prev_q_score = ans.score
+            
+            # Democrat question ranks
+            question_ranks_dem[question_id] = {}
+            current_q_rank_dem = 1
+            prev_q_score_dem = None
+            
+            for ans in sorted(answers_list, key=lambda x: x.score_dem, reverse=True):
+                if prev_q_score_dem is not None and ans.score_dem < prev_q_score_dem:
+                    current_q_rank_dem = len([k for k in question_ranks_dem[question_id].keys()]) + 1
+                question_ranks_dem[question_id][ans.user_id] = current_q_rank_dem
+                prev_q_score_dem = ans.score_dem
+            
+            # Republican question ranks
+            question_ranks_rep[question_id] = {}
+            current_q_rank_rep = 1
+            prev_q_score_rep = None
+            
+            for ans in sorted(answers_list, key=lambda x: x.score_rep, reverse=True):
+                if prev_q_score_rep is not None and ans.score_rep < prev_q_score_rep:
+                    current_q_rank_rep = len([k for k in question_ranks_rep[question_id].keys()]) + 1
+                question_ranks_rep[question_id][ans.user_id] = current_q_rank_rep
+                prev_q_score_rep = ans.score_rep
         
         return {
             "daily_ranks": daily_ranks,
-            "question_ranks": question_ranks
+            "daily_ranks_dem": daily_ranks_dem,
+            "daily_ranks_rep": daily_ranks_rep,
+            "question_ranks": question_ranks,
+            "question_ranks_dem": question_ranks_dem,
+            "question_ranks_rep": question_ranks_rep
         }
 
-def get_user_historical_average(user_id: str) -> float | None:
+def get_user_historical_average(user_id: str) -> dict | None:
     """
     Get user's historical average score across all days they've completed.
-    Returns None if user has no completed days.
+    Returns dict with keys: 'overall', 'dem', 'rep' or None if user has no completed days.
     """
     with SessionLocal() as session:
         scores = session.execute(
@@ -265,6 +334,14 @@ def get_user_historical_average(user_id: str) -> float | None:
         if not scores:
             return None
         
-        total = sum(s.avg_score for s in scores)
-        return total / len(scores)
+        total_overall = sum(s.avg_score for s in scores)
+        total_dem = sum(s.avg_score_dem for s in scores)
+        total_rep = sum(s.avg_score_rep for s in scores)
+        count = len(scores)
+        
+        return {
+            'overall': total_overall / count,
+            'dem': total_dem / count,
+            'rep': total_rep / count
+        }
 

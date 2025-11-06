@@ -26,3 +26,9 @@ Components:
 Notes:
 - The React app discovers survey images/JSON at build time using a symlink `frontend/src/survey_metadata -> ../../survey_metadata`. This allows one npm command to serve all pages without running the Flask server.
 - Vite is configured to allow reading from the project root for this purpose.
+
+- If posts won't load, could be database issue, go to backend/
+rm app.db
+from db import Base, engine
+import models
+Base.metadata.create_all(bind=engine)

@@ -480,7 +480,9 @@ def submit_answer():
             question_id=question_id,
             dem_guess=dem_guess,
             rep_guess=rep_guess,
-            score=total_score
+            score=total_score,
+            score_dem=dem_score,
+            score_rep=rep_score
         )
         session.add(user_answer)
         
@@ -495,8 +497,10 @@ def submit_answer():
         completed_all = len(all_answers) >= DEFAULT_NUM_QUESTIONS
         
         if completed_all:
-            # Calculate average score
+            # Calculate average scores
             avg_score = sum(a.score for a in all_answers) / len(all_answers)
+            avg_score_dem = sum(a.score_dem for a in all_answers) / len(all_answers)
+            avg_score_rep = sum(a.score_rep for a in all_answers) / len(all_answers)
             
             # Check if daily score already exists
             existing_score = session.execute(
@@ -510,7 +514,9 @@ def submit_answer():
                 daily_score = UserDailyScore(
                     user_id=user_id,
                     date=today,
-                    avg_score=avg_score
+                    avg_score=avg_score,
+                    avg_score_dem=avg_score_dem,
+                    avg_score_rep=avg_score_rep
                 )
                 session.add(daily_score)
         
@@ -578,17 +584,19 @@ def get_results():
                     "rep": dq.rep
                 },
                 "scores": {
-                    "dem_score": round(nonlinear_score(ua['dem_guess'], dq.dem), 2),
-                    "rep_score": round(nonlinear_score(ua['rep_guess'], dq.rep), 2),
-                    "total_score": round(ua['score'], 2)
+                    "dem_score": ua['score_dem'],
+                    "rep_score": ua['score_rep'],
+                    "total_score": ua['score']
                 }
             })
         
         # Sort by question_order
         results.sort(key=lambda x: x['question_order'])
         
-        # Calculate average score
+        # Calculate average scores
         avg_score = sum(r['scores']['total_score'] for r in results) / len(results) if results else 0
+        avg_score_dem = sum(r['scores']['dem_score'] for r in results) / len(results) if results else 0
+        avg_score_rep = sum(r['scores']['rep_score'] for r in results) / len(results) if results else 0
         
         # Get rankings
         rankings = compute_rankings_for_date(date)
@@ -596,31 +604,64 @@ def get_results():
         # Get total users for the day (count of users who completed all questions)
         total_users_today = len(rankings['daily_ranks'])
         
-        # Get user's daily rank
+        # Get user's daily ranks
         daily_rank = rankings['daily_ranks'].get(user_id)
+        daily_rank_dem = rankings['daily_ranks_dem'].get(user_id)
+        daily_rank_rep = rankings['daily_ranks_rep'].get(user_id)
         
         # Build enhanced question results with ranks and total counts
         questions = []
-        best_question_idx = None
-        worst_question_idx = None
-        best_score = -1
-        worst_score = 101
+        best_question_idx_overall = None
+        worst_question_idx_overall = None
+        best_question_idx_dem = None
+        worst_question_idx_dem = None
+        best_question_idx_rep = None
+        worst_question_idx_rep = None
+        best_score_overall = -1
+        worst_score_overall = 101
+        best_score_dem = -1
+        worst_score_dem = 101
+        best_score_rep = -1
+        worst_score_rep = 101
         
         for result in results:
             question_id = result['id']
             question_rank = rankings['question_ranks'].get(question_id, {}).get(user_id)
+            question_rank_dem = rankings['question_ranks_dem'].get(question_id, {}).get(user_id)
+            question_rank_rep = rankings['question_ranks_rep'].get(question_id, {}).get(user_id)
             
-            # Count total users for this question
+            # Count total users for this question (use overall ranks count)
             total_users_for_question = len(rankings['question_ranks'].get(question_id, {}))
             
-            # Track best/worst question (using question_order + 1 as the display index)
-            question_score = result['scores']['total_score']
-            if question_score > best_score:
-                best_score = question_score
-                best_question_idx = result['question_order'] + 1  # 1-indexed for display
-            if question_score < worst_score:
-                worst_score = question_score
-                worst_question_idx = result['question_order'] + 1  # 1-indexed for display
+            # Track best/worst question per party (using question_order + 1 as the display index)
+            question_score_overall = result['scores']['total_score']
+            question_score_dem = result['scores']['dem_score']
+            question_score_rep = result['scores']['rep_score']
+            question_idx = result['question_order'] + 1  # 1-indexed for display
+            
+            # Overall best/worst
+            if question_score_overall > best_score_overall:
+                best_score_overall = question_score_overall
+                best_question_idx_overall = question_idx
+            if question_score_overall < worst_score_overall:
+                worst_score_overall = question_score_overall
+                worst_question_idx_overall = question_idx
+            
+            # Democrat best/worst
+            if question_score_dem > best_score_dem:
+                best_score_dem = question_score_dem
+                best_question_idx_dem = question_idx
+            if question_score_dem < worst_score_dem:
+                worst_score_dem = question_score_dem
+                worst_question_idx_dem = question_idx
+            
+            # Republican best/worst
+            if question_score_rep > best_score_rep:
+                best_score_rep = question_score_rep
+                best_question_idx_rep = question_idx
+            if question_score_rep < worst_score_rep:
+                worst_score_rep = question_score_rep
+                worst_question_idx_rep = question_idx
             
             questions.append({
                 "question_id": question_id,
@@ -633,18 +674,35 @@ def get_results():
                     "dem": round(result['actual']['dem'], 1),
                     "rep": round(result['actual']['rep'], 1)
                 },
-                "score": round(result['scores']['total_score'], 1),
-                "rank": question_rank,
+                "score": {
+                    "dem": round(question_score_dem, 1),
+                    "rep": round(question_score_rep, 1)
+                },
+                "rank": {
+                    "dem": question_rank_dem,
+                    "rep": question_rank_rep
+                },
                 "total_users": total_users_for_question
             })
         
         # Get historical average
-        historical_avg = get_user_historical_average(user_id)
+        historical_avg_dict = get_user_historical_average(user_id)
         
-        # Calculate delta from historical average
-        delta_from_historical = None
-        if historical_avg is not None:
-            delta_from_historical = round(avg_score - historical_avg, 1)
+        # Calculate deltas from historical average
+        historical_avg_overall = historical_avg_dict['overall'] if historical_avg_dict else None
+        historical_avg_dem = historical_avg_dict['dem'] if historical_avg_dict else None
+        historical_avg_rep = historical_avg_dict['rep'] if historical_avg_dict else None
+        
+        delta_from_historical_overall = None
+        delta_from_historical_dem = None
+        delta_from_historical_rep = None
+        
+        if historical_avg_overall is not None:
+            delta_from_historical_overall = round(avg_score - historical_avg_overall, 1)
+        if historical_avg_dem is not None:
+            delta_from_historical_dem = round(avg_score_dem - historical_avg_dem, 1)
+        if historical_avg_rep is not None:
+            delta_from_historical_rep = round(avg_score_rep - historical_avg_rep, 1)
         
         # Get daily score if exists
         daily_score = session.execute(
@@ -657,13 +715,19 @@ def get_results():
         completed = daily_score is not None
     
     return jsonify({
-        "today_avg_score": round(avg_score, 1),
-        "today_rank": daily_rank,
+        "today_avg_score": {"dem": round(avg_score_dem, 1), "rep": round(avg_score_rep, 1)},
+        "today_rank": {"dem": daily_rank_dem, "rep": daily_rank_rep},
         "total_users_today": total_users_today,
-        "historical_avg": round(historical_avg, 1) if historical_avg else None,
-        "delta_from_historical": delta_from_historical,
-        "best_question": best_question_idx,
-        "worst_question": worst_question_idx,
+        "historical_avg": {
+            "dem": round(historical_avg_dem, 1) if historical_avg_dem else None,
+            "rep": round(historical_avg_rep, 1) if historical_avg_rep else None
+        },
+        "delta_from_historical": {
+            "dem": delta_from_historical_dem,
+            "rep": delta_from_historical_rep
+        },
+        "best_question": {"dem": best_question_idx_dem, "rep": best_question_idx_rep},
+        "worst_question": {"dem": worst_question_idx_dem, "rep": worst_question_idx_rep},
         "questions": questions
     })
 

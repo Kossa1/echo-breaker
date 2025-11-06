@@ -104,6 +104,8 @@ class UserAnswer(Base):
     dem_guess: Mapped[float] = mapped_column(Float, nullable=False)
     rep_guess: Mapped[float] = mapped_column(Float, nullable=False)
     score: Mapped[float] = mapped_column(Float, nullable=False)  # Computed score for this answer
+    score_dem: Mapped[float] = mapped_column(Float, nullable=False)  # Democrat-specific score
+    score_rep: Mapped[float] = mapped_column(Float, nullable=False)  # Republican-specific score
     submitted_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
 Index("ix_user_answers_user_date_question", UserAnswer.user_id, UserAnswer.date, UserAnswer.question_id, unique=True)
@@ -115,6 +117,8 @@ class UserDailyScore(Base):
     user_id: Mapped[str] = mapped_column(String, nullable=False)  # Firebase user ID
     date: Mapped[str] = mapped_column(String, nullable=False)  # Date string in YYYY-MM-DD format (Eastern time)
     avg_score: Mapped[float] = mapped_column(Float, nullable=False)  # Average score across all 5 questions
+    avg_score_dem: Mapped[float] = mapped_column(Float, nullable=False)  # Average Democrat score across all 5 questions
+    avg_score_rep: Mapped[float] = mapped_column(Float, nullable=False)  # Average Republican score across all 5 questions
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
 Index("ix_user_daily_scores_user_date", UserDailyScore.user_id, UserDailyScore.date, unique=True)

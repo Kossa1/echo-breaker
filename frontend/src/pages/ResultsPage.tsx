@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 
 type QuestionResult = {
@@ -7,24 +7,23 @@ type QuestionResult = {
   tweet_image_url: string
   user_prediction: { dem: number; rep: number }
   ground_truth: { dem: number; rep: number }
-  score: number
-  rank: number | null
+  score: { dem: number; rep: number }
+  rank: { dem: number | null; rep: number | null }
   total_users: number
 }
 
 type ResultsData = {
-  today_avg_score: number
-  today_rank: number | null
+  today_avg_score: { dem: number; rep: number }
+  today_rank: { dem: number | null; rep: number | null }
   total_users_today: number
-  historical_avg: number | null
-  delta_from_historical: number | null
-  best_question: number | null
-  worst_question: number | null
+  historical_avg: { dem: number | null; rep: number | null }
+  delta_from_historical: { dem: number | null; rep: number | null }
+  best_question: { dem: number | null; rep: number | null }
+  worst_question: { dem: number | null; rep: number | null }
   questions: QuestionResult[]
 }
 
 export default function ResultsPage() {
-  const navigate = useNavigate()
   const auth = getAuth()
   const [searchParams] = useSearchParams()
   const [resultsData, setResultsData] = useState<ResultsData | null>(null)
@@ -148,43 +147,65 @@ export default function ResultsPage() {
       font-weight: 400;
     }
     
-    .results-summary-grid {
+    .results-stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 24px;
-      justify-items: center;
-      align-items: center;
-      padding: 24px 0 32px 0;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 32px;
+      margin: 36px 0;
+      padding: 24px 0 32px;
       border-top: 1px solid rgba(0,0,0,0.05);
       border-bottom: 1px solid rgba(0,0,0,0.05);
-      margin-top: 24px;
     }
     
-    .summary-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .stats-col {
       text-align: center;
+      font-family: system-ui, sans-serif;
     }
     
-    .summary-label {
+    .stats-col h3 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #444;
+      margin-bottom: 8px;
+    }
+    
+    .stat-line {
+      margin: 4px 0;
+      font-size: 14px;
+      color: #666;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    
+    .stat-line > span:first-child {
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: 0.03em;
-      color: #666;
-      margin-bottom: 4px;
+      margin-right: 6px;
     }
     
-    .summary-value {
-      font-size: 15px;
+    .stat-line strong {
       font-weight: 600;
       color: #111;
+      font-size: 15px;
     }
     
-    .summary-sub {
+    .sub {
       font-size: 12px;
       color: #888;
-      margin-left: 4px;
+      margin-left: 2px;
+    }
+    
+    .stats-col.dem strong {
+      color: #3b82f6;
+    }
+    
+    .stats-col.rep strong {
+      color: #ef4444;
     }
     
     .delta {
@@ -201,16 +222,55 @@ export default function ResultsPage() {
       color: #dc2626; /* red */
     }
     
-    .question-rank {
-      text-align: right;
+    .question-scores {
+      display: flex;
+      justify-content: flex-end;
+      gap: 24px;
       font-size: 13px;
+      margin-top: 8px;
       color: #666;
-      margin-top: 4px;
+      flex-wrap: wrap;
     }
     
-    .question-rank strong {
+    .party-score {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .party-score strong {
       font-weight: 600;
       color: #111;
+      font-size: 15px;
+    }
+    
+    .party-score.dem strong {
+      color: #3b82f6;
+    }
+    
+    .party-score.rep strong {
+      color: #ef4444;
+    }
+    
+    .party-score .rank {
+      font-size: 12px;
+      color: #888;
+    }
+    
+    .party-score .rank .sub {
+      font-size: 11px;
+      color: #aaa;
+      margin-left: 2px;
+    }
+    
+    .new-questions-note {
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+      margin-top: 40px;
+      letter-spacing: 0.02em;
     }
     
     .dashboard-grid {
@@ -432,33 +492,6 @@ export default function ResultsPage() {
       color: #ef4444;
     }
     
-    .results-actions {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      margin-top: 48px;
-      margin-bottom: 48px;
-    }
-    
-    .results-actions button,
-    .results-actions a {
-      background: #111;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: background 0.2s ease;
-      text-decoration: none;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-    }
-    
-    .results-actions button:hover,
-    .results-actions a:hover {
-      background: #333;
-    }
     
     .error-message {
       background: #fff5f5;
@@ -530,10 +563,24 @@ export default function ResultsPage() {
         margin-bottom: 24px;
       }
       
-      .results-summary-grid {
+      .results-stats-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 20px 0 24px 0;
+        gap: 24px;
+        padding: 20px 0 24px;
+      }
+      
+      .stat-line {
+        align-items: flex-start;
+      }
+      
+      .question-scores {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      
+      .party-score {
+        align-items: flex-start;
       }
       
       .tweet-thumb {
@@ -562,15 +609,6 @@ export default function ResultsPage() {
         font-size: 0.85rem;
       }
       
-      .results-actions {
-        flex-direction: column;
-        gap: 12px;
-      }
-      
-      .results-actions button,
-      .results-actions a {
-        width: 100%;
-      }
     }
     
     @media (prefers-reduced-motion: reduce) {
@@ -586,19 +624,62 @@ export default function ResultsPage() {
     []
   )
 
-  // Calculate best/worst question scores for display
-  const bestQuestionScore = useMemo(() => {
-    if (!resultsData?.questions.length || !resultsData.best_question) return null
-    // Find question by index (best_question is 1-indexed)
-    const bestQuestion = resultsData.questions[resultsData.best_question - 1]
-    return bestQuestion?.score || null
+  // Calculate overall average (average of dem and rep)
+  const overallAvgScore = useMemo(() => {
+    if (!resultsData) return 0
+    return (resultsData.today_avg_score.dem + resultsData.today_avg_score.rep) / 2
   }, [resultsData])
 
-  const worstQuestionScore = useMemo(() => {
-    if (!resultsData?.questions.length || !resultsData.worst_question) return null
-    // Find question by index (worst_question is 1-indexed)
-    const worstQuestion = resultsData.questions[resultsData.worst_question - 1]
-    return worstQuestion?.score || null
+  // Calculate overall historical average
+  const overallHistoricalAvg = useMemo(() => {
+    if (!resultsData?.historical_avg.dem || !resultsData.historical_avg.rep) return null
+    return (resultsData.historical_avg.dem + resultsData.historical_avg.rep) / 2
+  }, [resultsData])
+
+  // Calculate overall delta
+  const overallDelta = useMemo(() => {
+    if (overallHistoricalAvg === null) return null
+    return overallAvgScore - overallHistoricalAvg
+  }, [overallAvgScore, overallHistoricalAvg])
+
+  // Calculate overall rank (average of dem and rep ranks, or use first available)
+  const overallRank = useMemo(() => {
+    if (!resultsData) return null
+    const demRank = resultsData.today_rank.dem
+    const repRank = resultsData.today_rank.rep
+    if (demRank !== null && repRank !== null) {
+      return Math.round((demRank + repRank) / 2)
+    }
+    return demRank ?? repRank
+  }, [resultsData])
+
+  // Calculate overall best/worst question (using average of dem and rep scores)
+  const overallBestQuestion = useMemo(() => {
+    if (!resultsData?.questions.length) return null
+    let bestScore = -1
+    let bestIdx = null
+    resultsData.questions.forEach((q, idx) => {
+      const avgScore = (q.score.dem + q.score.rep) / 2
+      if (avgScore > bestScore) {
+        bestScore = avgScore
+        bestIdx = idx + 1
+      }
+    })
+    return bestIdx
+  }, [resultsData])
+
+  const overallWorstQuestion = useMemo(() => {
+    if (!resultsData?.questions.length) return null
+    let worstScore = 101
+    let worstIdx = null
+    resultsData.questions.forEach((q, idx) => {
+      const avgScore = (q.score.dem + q.score.rep) / 2
+      if (avgScore < worstScore) {
+        worstScore = avgScore
+        worstIdx = idx + 1
+      }
+    })
+    return worstIdx
   }, [resultsData])
 
   if (loading) {
@@ -618,9 +699,6 @@ export default function ResultsPage() {
         <style>{css}</style>
         <div className="results-page">
           <div className="error-message">{error || 'No results found. Please complete today\'s questions first.'}</div>
-          <div className="results-actions">
-            <button onClick={() => navigate('/guess')}>Go to Questions</button>
-          </div>
         </div>
       </div>
     )
@@ -634,51 +712,104 @@ export default function ResultsPage() {
           <h1>Your Results</h1>
           <p className="subtitle">See how your predictions compare to the actual survey data.</p>
           <div className="score-summary">
-            <h2>Average Score: {resultsData.today_avg_score.toFixed(1)}%</h2>
+            <h2>Average Score: {overallAvgScore.toFixed(1)}%</h2>
             <div className="progress-bar">
-              <div className="fill" style={{ width: `${resultsData.today_avg_score}%` }} />
+              <div className="fill" style={{ width: `${overallAvgScore}%` }} />
             </div>
-            <section className="results-summary-grid">
-              <div className="summary-item">
-                <span className="summary-label">Best Question</span>
-                <span className="summary-value">
-                  {resultsData.best_question ? `#${resultsData.best_question}` : 'N/A'}
-                  {bestQuestionScore !== null && ` (${bestQuestionScore.toFixed(1)}%)`}
-                </span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-label">Worst Question</span>
-                <span className="summary-value">
-                  {resultsData.worst_question ? `#${resultsData.worst_question}` : 'N/A'}
-                  {worstQuestionScore !== null && ` (${worstQuestionScore.toFixed(1)}%)`}
-                </span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-label">Today's Rank</span>
-                <span className="summary-value">
-                  {resultsData.today_rank ? `#${resultsData.today_rank}` : 'N/A'}
-                  {resultsData.total_users_today > 0 && (
-                    <span className="summary-sub">of {resultsData.total_users_today} users</span>
-                  )}
-                </span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-label">Historical Avg</span>
-                <span className="summary-value">
-                  {resultsData.historical_avg !== null ? `${resultsData.historical_avg.toFixed(1)}%` : 'N/A'}
-                  {resultsData.delta_from_historical !== null && (
-                    <span className={`delta ${resultsData.delta_from_historical >= 0 ? 'up' : 'down'}`}>
-                      {resultsData.delta_from_historical >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical).toFixed(1)}%
+            <section className="results-stats-grid">
+              <div className="stats-col overall">
+                <h3>Overall</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{overallAvgScore.toFixed(1)}%</strong>
+                  {overallDelta !== null && (
+                    <span className={`delta ${overallDelta >= 0 ? 'up' : 'down'}`}>
+                      {overallDelta >= 0 ? '↑' : '↓'}{Math.abs(overallDelta).toFixed(1)}%
                     </span>
                   )}
-                </span>
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{overallRank ?? 'N/A'}
+                    {overallRank !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{overallBestQuestion ? `#${overallBestQuestion}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{overallWorstQuestion ? `#${overallWorstQuestion}` : 'N/A'}</strong>
+                </p>
+              </div>
+              <div className="stats-col dem">
+                <h3>Democrat</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{resultsData.today_avg_score.dem.toFixed(1)}%</strong>
+                  {resultsData.delta_from_historical.dem !== null && (
+                    <span className={`delta ${resultsData.delta_from_historical.dem >= 0 ? 'up' : 'down'}`}>
+                      {resultsData.delta_from_historical.dem >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.dem).toFixed(1)}%
+                    </span>
+                  )}
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{resultsData.today_rank.dem ?? 'N/A'}
+                    {resultsData.today_rank.dem !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{resultsData.best_question.dem ? `#${resultsData.best_question.dem}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{resultsData.worst_question.dem ? `#${resultsData.worst_question.dem}` : 'N/A'}</strong>
+                </p>
+              </div>
+              <div className="stats-col rep">
+                <h3>Republican</h3>
+                <p className="stat-line">
+                  <span>Average Score</span>
+                  <strong>{resultsData.today_avg_score.rep.toFixed(1)}%</strong>
+                  {resultsData.delta_from_historical.rep !== null && (
+                    <span className={`delta ${resultsData.delta_from_historical.rep >= 0 ? 'up' : 'down'}`}>
+                      {resultsData.delta_from_historical.rep >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.rep).toFixed(1)}%
+                    </span>
+                  )}
+                </p>
+                <p className="stat-line">
+                  <span>Rank</span>
+                  <strong>
+                    #{resultsData.today_rank.rep ?? 'N/A'}
+                    {resultsData.today_rank.rep !== null && resultsData.total_users_today > 0 && (
+                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    )}
+                  </strong>
+                </p>
+                <p className="stat-line">
+                  <span>Best Question</span>
+                  <strong>{resultsData.best_question.rep ? `#${resultsData.best_question.rep}` : 'N/A'}</strong>
+                </p>
+                <p className="stat-line">
+                  <span>Worst Question</span>
+                  <strong>{resultsData.worst_question.rep ? `#${resultsData.worst_question.rep}` : 'N/A'}</strong>
+                </p>
               </div>
             </section>
           </div>
         </section>
 
         <section className="results-grid">
-          {resultsData.questions.map((question, i) => (
+          {resultsData.questions.map((question) => (
             <div key={question.question_id} className="result-card">
               <img 
                 src={question.tweet_image_url} 
@@ -696,22 +827,33 @@ export default function ResultsPage() {
                 <div className="prediction-value rep">{question.user_prediction.rep.toFixed(1)}%</div>
                 <div className="prediction-value rep">{question.ground_truth.rep.toFixed(1)}%</div>
               </div>
-              <div className="result-data">
-                <span className="data-label">Accuracy Score</span>
-                <span className="data-value total">{question.score.toFixed(1)}%</span>
-              </div>
-              {question.rank !== null && question.rank !== undefined && (
-                <div className="question-rank">
-                  Question Rank: <strong>#{question.rank}</strong> of {question.total_users}
+              <div className="question-scores">
+                <div className="party-score dem">
+                  <span>Democrat Accuracy:</span>
+                  <strong>{question.score.dem.toFixed(1)}%</strong>
+                  {question.rank.dem !== null && question.rank.dem !== undefined && (
+                    <span className="rank">
+                      Rank #{question.rank.dem} <span className="sub">of {question.total_users}</span>
+                    </span>
+                  )}
                 </div>
-              )}
+                <div className="party-score rep">
+                  <span>Republican Accuracy:</span>
+                  <strong>{question.score.rep.toFixed(1)}%</strong>
+                  {question.rank.rep !== null && question.rank.rep !== undefined && (
+                    <span className="rank">
+                      Rank #{question.rank.rep} <span className="sub">of {question.total_users}</span>
+                    </span>
+                  )}
+                </div>
+              </div>
             </div>
           ))}
         </section>
 
-        <div className="results-actions">
-          <button onClick={() => navigate('/guess')}>Back to Questions</button>
-        </div>
+        <p className="new-questions-note">
+          New questions arrive daily at midnight (ET).
+        </p>
       </div>
     </div>
   )
