@@ -1,0 +1,29 @@
+{
+  "file_source": "92222a20-b153-11e1-91b8-00505690014d_res.csv",
+  "qnum": 9,
+  "orig_label": "9",
+  "question": "Impact of Slavery on Wealth",
+  "prompt": "Do you think the impact of slavery is a major factor, a minor factor, or not a factor in lower average wealth",
+  "responses": [
+    {
+      "response": "Major factor",
+      "dem": 61.0,
+      "rep": 9.0
+    },
+    {
+      "response": "Minor factor",
+      "dem": 24.0,
+      "rep": 27.0
+    },
+    {
+      "response": "Not a factor at all",
+      "dem": 6.0,
+      "rep": 59.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 10.0,
+      "rep": 6.0
+    }
+  ]
+}

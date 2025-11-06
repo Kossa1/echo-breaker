@@ -1,0 +1,54 @@
+{
+  "file_source": "cb372ef0-b9eb-11e1-94b1-00505690014d_res.csv",
+  "qnum": 4,
+  "orig_label": "4A",
+  "question": "Political Viewpoint of New York City Politicians — Andrew Cuomo",
+  "prompt": "How would you describe the political viewpoint of the following person?",
+  "responses": [
+    {
+      "response": "Andrew Cuomo",
+      "dem": 99.0,
+      "rep": 100.0
+    },
+    {
+      "response": "Zohran Mamdani",
+      "dem": 4.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Left",
+      "dem": 12.0,
+      "rep": 24.0
+    },
+    {
+      "response": "Center-left",
+      "dem": 13.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Center",
+      "dem": 20.0,
+      "rep": 7.0
+    },
+    {
+      "response": "Center-right",
+      "dem": 10.0,
+      "rep": 4.0
+    },
+    {
+      "response": "Right",
+      "dem": 8.0,
+      "rep": 6.0
+    },
+    {
+      "response": "Far-right",
+      "dem": 3.0,
+      "rep": 2.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 30.0,
+      "rep": 35.0
+    }
+  ]
+}

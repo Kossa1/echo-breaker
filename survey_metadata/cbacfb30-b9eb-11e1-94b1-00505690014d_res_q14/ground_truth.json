@@ -1,0 +1,49 @@
+{
+  "file_source": "cbacfb30-b9eb-11e1-94b1-00505690014d_res.csv",
+  "qnum": 14,
+  "orig_label": "8",
+  "question": "Describes Donald Trump",
+  "prompt": "When you hear the term \"Republican establishment\", do you think of it as something positive or something",
+  "responses": [
+    {
+      "response": "Positive",
+      "dem": 20.0,
+      "rep": 16.0
+    },
+    {
+      "response": "Negative",
+      "dem": 28.0,
+      "rep": 18.0
+    },
+    {
+      "response": "Neither",
+      "dem": 46.0,
+      "rep": 26.0
+    },
+    {
+      "response": "Reasonable",
+      "dem": 26.0,
+      "rep": 18.0
+    },
+    {
+      "response": "Role model",
+      "dem": 14.0,
+      "rep": 8.0
+    },
+    {
+      "response": "Conservative",
+      "dem": 50.0,
+      "rep": 34.0
+    },
+    {
+      "response": "Strong leader",
+      "dem": 62.0,
+      "rep": 53.0
+    },
+    {
+      "response": "Tough",
+      "dem": 70.0,
+      "rep": 59.0
+    }
+  ]
+}

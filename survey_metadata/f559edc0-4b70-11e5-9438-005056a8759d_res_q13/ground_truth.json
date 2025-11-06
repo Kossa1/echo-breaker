@@ -1,0 +1,34 @@
+{
+  "file_source": "f559edc0-4b70-11e5-9438-005056a8759d_res.csv",
+  "qnum": 13,
+  "orig_label": "4J",
+  "question": "Support for Family-Friendly Policies — Offering tax credits for families with stay-at-home parents",
+  "prompt": "Which party do you think does a better job helping families with children in the U.S.?",
+  "responses": [
+    {
+      "response": "Democrats",
+      "dem": 43.0,
+      "rep": 33.0
+    },
+    {
+      "response": "Republicans",
+      "dem": 31.0,
+      "rep": 29.0
+    },
+    {
+      "response": "Both equally",
+      "dem": 14.0,
+      "rep": 17.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 6.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 7.0,
+      "rep": 10.0
+    }
+  ]
+}

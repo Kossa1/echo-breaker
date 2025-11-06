@@ -1,0 +1,29 @@
+{
+  "file_source": "f559edc0-4b70-11e5-9438-005056a8759d_res.csv",
+  "qnum": 2,
+  "orig_label": "2",
+  "question": "Government Help Raising Children",
+  "prompt": "Do you think the government does too much or not enough to help families raising children in the U.S.?",
+  "responses": [
+    {
+      "response": "Too much",
+      "dem": 7.0,
+      "rep": 31.0
+    },
+    {
+      "response": "About the right amount",
+      "dem": 37.0,
+      "rep": 31.0
+    },
+    {
+      "response": "Not enough",
+      "dem": 50.0,
+      "rep": 28.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 6.0,
+      "rep": 10.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "file_source": "418cc7c0-56c8-11e3-9e30-005056a8759d_res.csv",
+  "qnum": 4,
+  "orig_label": "5",
+  "question": "Racism a Problem in History",
+  "prompt": "Do you think racism in America today is...",
+  "responses": [
+    {
+      "response": "A major problem",
+      "dem": 87.0,
+      "rep": 85.0
+    },
+    {
+      "response": "A minor problem",
+      "dem": 12.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Not a problem",
+      "dem": 1.0,
+      "rep": 2.0
+    }
+  ]
+}

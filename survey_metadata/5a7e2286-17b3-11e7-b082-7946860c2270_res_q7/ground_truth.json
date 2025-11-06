@@ -1,0 +1,34 @@
+{
+  "file_source": "5a7e2286-17b3-11e7-b082-7946860c2270_res.csv",
+  "qnum": 7,
+  "orig_label": "7",
+  "question": "Ideology of News Overall",
+  "prompt": "Do you think that news sources generally are...?",
+  "responses": [
+    {
+      "response": "Liberal",
+      "dem": 17.0,
+      "rep": 58.0
+    },
+    {
+      "response": "Moderate",
+      "dem": 37.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Conservative",
+      "dem": 15.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Not political",
+      "dem": 5.0,
+      "rep": 3.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 26.0,
+      "rep": 17.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "file_source": "bb7473b2-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 3,
+  "orig_label": "3A",
+  "question": "Leaving Space for Pronouns — Personal social media proﬁles",
+  "prompt": "Do you think it is a good idea or bad idea for the following to have space so that people can show their chosen pronouns, should they want to?",
+  "responses": [
+    {
+      "response": "Good idea",
+      "dem": 48.0,
+      "rep": 18.0
+    },
+    {
+      "response": "idea",
+      "dem": 36.0,
+      "rep": 35.0
+    },
+    {
+      "response": "Bad idea",
+      "dem": 7.0,
+      "rep": 37.0
+    },
+    {
+      "response": "Don’t know",
+      "dem": 10.0,
+      "rep": 10.0
+    }
+  ]
+}

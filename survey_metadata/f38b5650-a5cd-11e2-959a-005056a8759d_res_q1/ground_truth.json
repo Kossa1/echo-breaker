@@ -1,0 +1,29 @@
+{
+  "file_source": "f38b5650-a5cd-11e2-959a-005056a8759d_res.csv",
+  "qnum": 1,
+  "orig_label": "1",
+  "question": "Stance on U.S. Involvement in Foreign Affairs",
+  "prompt": "How would you describe your stance on the United States’ involvement in foreign affairs?",
+  "responses": [
+    {
+      "response": "Interventionist - prefer extensive involvement",
+      "dem": 11.0,
+      "rep": 9.0
+    },
+    {
+      "response": "Isolationist - prefer minimal involvement",
+      "dem": 19.0,
+      "rep": 28.0
+    },
+    {
+      "response": "Somewhere in between",
+      "dem": 55.0,
+      "rep": 50.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 15.0,
+      "rep": 13.0
+    }
+  ]
+}

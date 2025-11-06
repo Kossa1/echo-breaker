@@ -1,0 +1,29 @@
+{
+  "file_source": "91dff9c0-0702-11e2-8e7c-005056a8759d_res.csv",
+  "qnum": 26,
+  "orig_label": "11F",
+  "question": "Support for Government Funding Education — Community college",
+  "prompt": "Do you think all Americans should have access to options for the following that are funded by the government?",
+  "responses": [
+    {
+      "response": "the government",
+      "dem": 59.0,
+      "rep": 17.0
+    },
+    {
+      "response": "the government",
+      "dem": 29.0,
+      "rep": 34.0
+    },
+    {
+      "response": "No",
+      "dem": 6.0,
+      "rep": 39.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 6.0,
+      "rep": 10.0
+    }
+  ]
+}

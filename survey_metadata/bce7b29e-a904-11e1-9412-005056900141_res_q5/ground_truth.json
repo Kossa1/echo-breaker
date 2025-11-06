@@ -1,0 +1,34 @@
+{
+  "file_source": "bce7b29e-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 5,
+  "orig_label": "5A",
+  "question": "How Often Are K-12 Students Taught What To Believe — Race",
+  "prompt": "How often do you think public schools in the U.S. are pushing K-12 students to adopt certain viewpoints",
+  "responses": [
+    {
+      "response": "Race",
+      "dem": 17.0,
+      "rep": 47.0
+    },
+    {
+      "response": "Gender identity",
+      "dem": 26.0,
+      "rep": 24.0
+    },
+    {
+      "response": "Sexuality",
+      "dem": 22.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Culture",
+      "dem": 17.0,
+      "rep": 7.0
+    },
+    {
+      "response": "Politics",
+      "dem": 18.0,
+      "rep": 13.0
+    }
+  ]
+}

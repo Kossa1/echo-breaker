@@ -1,0 +1,19 @@
+{
+  "file_source": "5b4a3d10-c172-11e1-939f-005056a8759d_res.csv",
+  "qnum": 23,
+  "orig_label": "25",
+  "question": "Favor or Oppose Trump Deploying National Guard to LA",
+  "prompt": "Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?",
+  "responses": [
+    {
+      "response": "Favor",
+      "dem": 6.0,
+      "rep": 81.0
+    },
+    {
+      "response": "Oppose",
+      "dem": 94.0,
+      "rep": 19.0
+    }
+  ]
+}

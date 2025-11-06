@@ -1,0 +1,34 @@
+{
+  "file_source": "8e225dd0-97c3-11e2-9a4b-005056a8759d_res.csv",
+  "qnum": 31,
+  "orig_label": "12I",
+  "question": "Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws",
+  "prompt": "Would you support or oppose a law in your state that...?",
+  "responses": [
+    {
+      "response": "Strongly support",
+      "dem": 11.0,
+      "rep": 25.0
+    },
+    {
+      "response": "Somewhat support",
+      "dem": 18.0,
+      "rep": 29.0
+    },
+    {
+      "response": "Somewhat oppose",
+      "dem": 20.0,
+      "rep": 14.0
+    },
+    {
+      "response": "Strongly oppose",
+      "dem": 31.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 19.0,
+      "rep": 21.0
+    }
+  ]
+}
