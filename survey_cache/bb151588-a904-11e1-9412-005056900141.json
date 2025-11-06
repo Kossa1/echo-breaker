@@ -1,0 +1,279 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-09-10T17:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Somewhat more safe",
+          "value": 31
+        },
+        {
+          "label": "About the same",
+          "value": 25
+        }
+      ],
+      "survey_id": "7cd39",
+      "survey_uuid": "b2c7cd39-6f75-11ef-ba2f-4b670f2c9acf",
+      "title": "Are we safer from terrorist attacks now than we were in 2001?",
+      "total": 3184
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-12-19T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Are a terrorist organization",
+          "value": 65
+        },
+        {
+          "label": "Are not a terrorist organization",
+          "value": 9
+        }
+      ],
+      "survey_id": "c72d2",
+      "survey_uuid": "e39c72d2-9de0-11ee-a334-b33d061beb5a",
+      "title": "From everything you've seen and heard, do you think that Hamas are or are not a terrorist organization?",
+      "total": 7577
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-10-18T17:45:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Is a terrorist organization",
+          "value": 68
+        },
+        {
+          "label": "Is not a terrorist organization",
+          "value": 8
+        }
+      ],
+      "survey_id": "e982d",
+      "survey_uuid": "f6be982d-6db8-11ee-b879-d1da57ff6da4",
+      "title": "From everything you've seen and heard, do you think that Hamas is or is not a terrorist organization?",
+      "total": 3878
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-02-16T23:25:50Z",
+      "description": "U.S. News Survey Crosstabs: Opinions about government Jan. 21-26, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20138,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "U.S. News Survey Crosstabs: Opinions about government Jan. 21-26, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_Government_Opinions_20220121.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-02-16T23:23:50Z",
+      "description": "U.S. News Survey Toplines: Opinions about government Jan. 21-26, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20137,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "U.S. News Survey Toplines: Opinions about government Jan. 21-26, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Government_Opinions_20220121.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2022-02-03T20:15:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "It weakens the terrorist organization",
+          "value": 43
+        },
+        {
+          "label": "It has no effect",
+          "value": 20
+        }
+      ],
+      "survey_id": "2b5f6",
+      "survey_uuid": "7f62b5f6-850c-11ec-8cc1-911341635fac",
+      "title": "Which of these comes closer to your view about the impact of the U.S. military killing the leader of a terrorist organization?",
+      "total": 1853
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "travel",
+      "published_at": "2019-10-09T20:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Somewhat defeated",
+          "value": 29
+        },
+        {
+          "label": "Not very defeated",
+          "value": 22
+        }
+      ],
+      "survey_id": "e29b9",
+      "survey_uuid": "599e29b9-eaad-11e9-bb68-8303f67b1fc0",
+      "title": "To what extent, if at all do you believe ISIS has been defeated in Syria?",
+      "total": 3548
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-08-07T19:45:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Both pose an equal threat",
+          "value": 38
+        },
+        {
+          "label": "Far-right terrorism",
+          "value": 27
+        }
+      ],
+      "survey_id": "b42da",
+      "survey_uuid": "dc0b42da-b923-11e9-ad0a-7fe21b70f9fe",
+      "title": "Which of the these do you think poses a greater threat to the US?",
+      "total": 1115
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "travel",
+      "published_at": "2018-03-26T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "It should be",
+          "value": 75
+        },
+        {
+          "label": "It should not be",
+          "value": 10
+        }
+      ],
+      "survey_id": "d5368",
+      "survey_uuid": "22ad5368-2eb6-11e8-9f83-7bfce76da57a",
+      "title": "A 23-year-old man in Austin, Texas is responsible for setting off five bombs, which killed two people and injured several others. Do you think this should or should not be considered terrorism?",
+      "total": 29693
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-11-13T13:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "I would consider it",
+          "value": 33
+        },
+        {
+          "label": "I would like to take one",
+          "value": 22
+        }
+      ],
+      "survey_id": "496ff",
+      "survey_uuid": "18c496ff-c641-11e7-87d6-732f32f5727f",
+      "title": "Classes are being offered in \u201cactive shooter preparedness\u201d to prepare civilians in case they are at a location where a shooting occurs. Would you take a course like this?",
+      "total": 16010
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-08-15T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Domestic and international terrorism pose equal threats",
+          "value": 41
+        },
+        {
+          "label": "Domestic terrorism is a greater threat",
+          "value": 30
+        }
+      ],
+      "survey_id": "84cfd",
+      "survey_uuid": "43e84cfd-8100-11e7-93bb-0be7152f946e",
+      "title": "After a man drove a car into a crowd of protesters in Charlottesville, Virginia, the attorney general declared the incident an act of domestic terrorism. What do you think poses a greater threat to American security?",
+      "total": 5342
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-06-06T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Would not trust at all",
+          "value": 44
+        },
+        {
+          "label": "Trust a lot",
+          "value": 20
+        }
+      ],
+      "survey_id": "dee10",
+      "survey_uuid": "7fadee10-4a00-11e7-bf23-32e759ebbb3c",
+      "title": "How much, if at all, would you trust Donald Trump to make the right decisions about keeping America safe from terrorism?",
+      "total": 4286
+    }
+  ],
+  "hits": 18,
+  "totals": {
+    "categories": {
+      "politics": 18,
+      "society": 1,
+      "travel": 2
+    },
+    "types": {
+      "article": 18,
+      "survey": 18,
+      "tracker": 1
+    }
+  }
+}

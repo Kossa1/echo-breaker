@@ -1,0 +1,135 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-02-28T21:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Trump was right to walk away from that deal",
+          "value": 47
+        },
+        {
+          "label": "Trump should have stayed and continued negotiating",
+          "value": 22
+        }
+      ],
+      "survey_id": "2cb5d",
+      "survey_uuid": "7662cb5d-3b71-11e9-b88b-bf7880913181",
+      "title": "The summit between Donald Trump and Kim Jong-un reportedly came to an abrupt ending when Kim demanded that all sanctions be lifted in exchange for closing only some nuclear sites, and Trump refused. Which of the following comes closer to your view?",
+      "total": 2038
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-06-13T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Yes, somewhat",
+          "value": 40
+        },
+        {
+          "label": "Yes, very closely",
+          "value": 29
+        }
+      ],
+      "survey_id": "3257a",
+      "survey_uuid": "e1a3257a-6e4e-11e8-9a83-4f43b230b84c",
+      "title": "Are you following the ongoing meeting between President Trump and North Korean leader Kim Jong-un?",
+      "total": 7143
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-05-25T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "No, never",
+          "value": 40
+        },
+        {
+          "label": "Yes, someday",
+          "value": 28
+        }
+      ],
+      "survey_id": "c967d",
+      "survey_uuid": "399c967d-5f61-11e8-9b4f-59f11fc70cc5",
+      "title": "Donald Trump has cancelled the planned meeting with North Korean leader Kim Jong-un. Do you think they will ever have a meeting?",
+      "total": 10381
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-09-25T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "It\u2019s never good",
+          "value": 49
+        },
+        {
+          "label": "It\u2019s good only if it helps diplomatic efforts",
+          "value": 19
+        }
+      ],
+      "survey_id": "2fc96",
+      "survey_uuid": "8cf2fc96-9fb9-11e7-8832-81bb8b357e53",
+      "title": "In response to President Trump\u2019s speech at the United Nations, where he threatened to \u201ctotally destroy North Korea,\u201d North Korean leader Kim Jong-un referred to Trump as a \u201cmentally deranged US dotard.\u201d What comes closest to your views about world leaders using forceful language on the world stage?",
+      "total": 11087
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "international",
+      "published_at": "2017-08-14T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "I think it\u2019s somewhat likely",
+          "value": 33
+        },
+        {
+          "label": "I think it\u2019s somewhat unlikely",
+          "value": 21
+        }
+      ],
+      "survey_id": "b235c",
+      "survey_uuid": "ea3b235c-7ea4-11e7-85ea-b95fc077d7c8",
+      "title": "Do you think the US will go to war with North Korea soon?",
+      "total": 14776
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-08-10T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "This response was dangerous and will make North Korea more likely to try to attack the US",
+          "value": 41
+        },
+        {
+          "label": "This response will make no difference on the likelihood of North Korea trying to attacking the US",
+          "value": 27
+        }
+      ],
+      "survey_id": "f1a76",
+      "survey_uuid": "1d7f1a76-7d0f-11e7-bfec-117a776ece3e",
+      "title": "In response to threats against the United States from North Korea\u2019s president Kim Jong Un, President Trump said that, \u201cThey will be met with fire and fury and frankly power, the likes of which this world has never seen before.\u201d What comes closest to your view?",
+      "total": 8864
+    }
+  ],
+  "hits": 6,
+  "totals": {
+    "categories": {
+      "international": 3,
+      "politics": 6
+    },
+    "types": {
+      "article": 9,
+      "survey": 6
+    }
+  }
+}

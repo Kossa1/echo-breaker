@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-02T12:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "More",
+          "value": 35
+        },
+        {
+          "label": "Less",
+          "value": 25
+        }
+      ],
+      "survey_id": "5929b",
+      "survey_uuid": "3d35929b-a283-11ed-88aa-297a8d408b61",
+      "title": "Do you think there should be more or less government regulation of homeschooling?",
+      "total": 8036
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-02T12:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Strongly support",
+          "value": 42
+        },
+        {
+          "label": "Somewhat support",
+          "value": 32
+        }
+      ],
+      "survey_id": "5929b",
+      "survey_uuid": "3d35929b-a283-11ed-88aa-297a8d408b61",
+      "title": "In general, do you support or oppose parents being allowed to homeschool their children?",
+      "total": 8036
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-02T12:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 39
+        },
+        {
+          "label": "Yes",
+          "value": 29
+        }
+      ],
+      "survey_id": "5929b",
+      "survey_uuid": "3d35929b-a283-11ed-88aa-297a8d408b61",
+      "title": "Should parents who homeschool their children be allowed to teach them ideology that the U.S. government has linked to Nazism?",
+      "total": 8036
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 3,
+      "society": 1
+    },
+    "types": {
+      "survey": 3
+    }
+  }
+}

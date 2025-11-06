@@ -1,0 +1,282 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-05-14T21:46:14.063523Z",
+      "description": "Views on Sexual Assault | May 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30288,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Society",
+        "id": 42,
+        "name": "Society",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Society",
+        "slug": "society"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Views on Sexual Assault | May 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Sexual_Assault_poll_results_ObiyluO.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-03-12T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Appropriate length",
+          "value": 41
+        },
+        {
+          "label": "Too short",
+          "value": 30
+        }
+      ],
+      "survey_id": "6eb0b",
+      "survey_uuid": "7086eb0b-63d7-11ea-9d89-9b9c272b972c",
+      "title": "Harvey Weinstein was sentenced to 23 years in prison after he was found guilty of two felony sex crimes. Based on what you have heard/read about this case, is this sentence too short, too long or the appropriate length?",
+      "total": 7539
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-02-03T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Somewhat significant impact",
+          "value": 39
+        },
+        {
+          "label": "Very significant impact",
+          "value": 22
+        }
+      ],
+      "survey_id": "5b0ca",
+      "survey_uuid": "5225b0ca-4477-11ea-9e8c-d995d4641722",
+      "title": "How much of an impact do you think the #MeToo movement has had on American society within the last year?",
+      "total": 31085
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-10-02T20:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Somewhat significant impact",
+          "value": 37
+        },
+        {
+          "label": "Very significant impact",
+          "value": 19
+        }
+      ],
+      "survey_id": "3f192",
+      "survey_uuid": "0a43f192-e52b-11e9-9bfe-a547da35c074",
+      "title": "How much of an impact, if any, do you think the #MeToo movement has had on American society within the last 2 years?",
+      "total": 1029
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2019-06-21T16:00:00Z",
+      "description": "HuffPost: Assault allegations June 21 - 22, 2019 - 1000 US adult citizens 1. Respect women In general, do you think Donald Trump does or...",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 18322,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "HP Assault Allegations",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_HP_Assault_allegations_20190621.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-12-22T00:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No more or less likely",
+          "value": 61
+        },
+        {
+          "label": "Somewhat less likely",
+          "value": 7
+        }
+      ],
+      "survey_id": "074e2",
+      "survey_uuid": "858074e2-0533-11e9-8761-e302019606c3",
+      "title": "Does the USA Gymnastics scandal make you any more or less likely to watch upcoming Olympics Games?",
+      "total": 8428
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-12-22T00:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Read/heard a fair amount",
+          "value": 33
+        },
+        {
+          "label": "Read/heard a little",
+          "value": 25
+        }
+      ],
+      "survey_id": "074e2",
+      "survey_uuid": "858074e2-0533-11e9-8761-e302019606c3",
+      "title": "How much have you read/heard in the news about former USA Gymnastics physician Larry Nassar, who was found guilty of sexually abusing athletes who were under his care?",
+      "total": 8428
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-12-22T00:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Yes, I think more negatively of the committee now",
+          "value": 43
+        },
+        {
+          "label": "No, it hasn\u2019t changed my perception at all",
+          "value": 34
+        }
+      ],
+      "survey_id": "074e2",
+      "survey_uuid": "858074e2-0533-11e9-8761-e302019606c3",
+      "title": "Has the USA Gymnastics scandal changed your overall impression of the US Olympic Committee?",
+      "total": 8428
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-10-05T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Somewhat significant impact",
+          "value": 39
+        },
+        {
+          "label": "Very significant impact",
+          "value": 32
+        }
+      ],
+      "survey_id": "1e0cf",
+      "survey_uuid": "3691e0cf-c8ac-11e8-b465-d75a1a3d3fad",
+      "title": "It's been about one year since allegations against Harvey Weinstein came out, mainstreaming the #MeToo movement. How much of an impact do you think the #MeToo movement has had on American society within the last year?",
+      "total": 1501
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "consumer",
+      "published_at": "2017-10-12T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "They are complicit",
+          "value": 59
+        },
+        {
+          "label": "They aren't complicit",
+          "value": 16
+        }
+      ],
+      "survey_id": "a11fa",
+      "survey_uuid": "ed7a11fa-aea0-11e7-99a8-874334afffb6",
+      "title": "A recent New York Times article detailed allegations of sexual harassment by the movie producer Harvey Weinstein. Some have accused other figures in the film industry - such as actors or directors - of being \"complicit\" by not speaking out about these allegations. Do you think that others in Hollywood are \"complicit\" if they don't speak out about these allegations?",
+      "total": 10086
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-07-08T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 81
+        },
+        {
+          "label": "Yes",
+          "value": 6
+        }
+      ],
+      "survey_id": "cda40",
+      "survey_uuid": "2dccda40-6321-11e7-bb89-1e8962ab9f22",
+      "title": "Revenge porn is when someone with malicious intent posts a sexually explicit photo or video of their former romantic partner online without that person's consent. Have you, or someone close to you, ever been the victim of revenge porn?",
+      "total": 15987
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "technology",
+      "published_at": "2017-06-22T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Strongly disagree",
+          "value": 26
+        },
+        {
+          "label": "Somewhat agree",
+          "value": 20
+        }
+      ],
+      "survey_id": "2ea50",
+      "survey_uuid": "1e22ea50-5695-11e7-907c-eab36db72110",
+      "title": "The U.S. Supreme Court recently struck down a North Carolina law that bans convicted sex offenders from accessing Facebook and other social media platforms. Do you agree or disagree with the decision that everyone, including sex offenders, should have access to Facebook and other social media platforms?",
+      "total": 4276
+    }
+  ],
+  "hits": 18,
+  "totals": {
+    "categories": {
+      "consumer": 1,
+      "economy": 2,
+      "entertainment": 2,
+      "politics": 17,
+      "society": 3,
+      "technology": 1,
+      "travel": 1
+    },
+    "types": {
+      "article": 3,
+      "survey": 18
+    }
+  }
+}

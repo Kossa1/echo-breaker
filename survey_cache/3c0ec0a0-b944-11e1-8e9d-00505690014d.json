@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-10-08T15:47:21.927835Z",
+      "description": "Opinions of Americans About VPs and Vice Presidential Candidates | July 29 - 31, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29137,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Opinions of Americans About VPs and Vice Presidential Candidates | July 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Favorability_of_VPs__Vice_Presidential_Candidates_poll_results_1.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-03-07T13:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Good thing",
+          "value": 31
+        },
+        {
+          "label": "Bad thing",
+          "value": 30
+        }
+      ],
+      "survey_id": "1fcf7",
+      "survey_uuid": "f5f1fcf7-215a-11e8-8773-a3a524d733fb",
+      "title": "Some Democrats in Congress have argued that the practice of lawmakers on Capitol Hill sleeping in their offices is unsanitary and an abuse of taxpayer funds. Some Congresspeople, including Speaker Paul Ryan, say they sleep in their office to allow them to work more efficiently. Do you think Congresspeople sleeping in their offices is a good or bad thing?",
+      "total": 9319
+    }
+  ],
+  "hits": 2,
+  "totals": {
+    "categories": {
+      "politics": 2
+    },
+    "types": {
+      "article": 6,
+      "survey": 2
+    }
+  }
+}

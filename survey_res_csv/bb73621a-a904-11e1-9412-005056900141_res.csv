@@ -1,0 +1,97 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Your eyes,100,101,99,100
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",eyes,40,48,39,33
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",eyes,23,20,22,27
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",eyes,11,11,12,10
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",child’s eyes,15,11,15,18
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Gray,4,3,4,5
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Amber,4,5,2,5
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Other,0,0,0,0
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Not sure,1,1,2,0
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Not Applicable,2,1,3,2
+1,1A,"Eye Color of Self, Family, and Partner — Your eyes","Which of the following best describes the natural color of the following? If the question does not apply to you,",Totals,100,100,99,100
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Brown,101,99,100,99
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Blue,41,42,42,39
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Green,20,17,21,24
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Hazel,10,12,9,8
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Gray,10,11,7,11
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Amber,3,4,2,4
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Other,5,5,4,4
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Not sure,0,1,0,0
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,No preference,10,7,11,10
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Not Applicable,2,1,3,0
+2,1B,"Eye Color of Self, Family, and Partner — Your biological mother’s eyes",Which eye color do you think is most attractive?,Totals,101,100,99,100
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Yes,101,100,100,100
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",No,40,47,39,35
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Not sure,23,20,23,26
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Green,6,5,8,6
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Hazel,8,10,6,7
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Gray,6,6,6,5
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Amber,4,4,2,6
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Other,1,1,1,0
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Not sure,11,7,12,14
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Not Applicable,2,1,3,1
+3,1C,"Eye Color of Self, Family, and Partner — Your biological father’s eyes","If you could change your eye color, would you?",Totals,101,101,100,100
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Brown,101,99,98,100
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Blue,30,30,34,26
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Green,17,13,15,22
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Hazel,9,10,8,9
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Gray,8,8,6,10
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Amber,5,6,4,4
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Other,5,6,3,6
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Not sure,1,1,0,1
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Not sure,3,2,4,3
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Not Applicable,23,24,25,19
+4,1D,"Eye Color of Self, Family, and Partner — Your partner or spouse’s eyes","Which color would you choose to change your eye color to, if given the option?",Totals,101,100,99,100
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Yes,99,99,100,100
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,No,27,27,28,26
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Not sure,17,15,16,22
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Green,6,7,5,6
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Hazel,8,8,9,8
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Gray,3,5,2,3
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Amber,4,5,3,5
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Other,1,1,0,1
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Not sure,4,1,5,5
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Not Applicable,29,31,31,25
+5,1E,"Eye Color of Self, Family, and Partner — Your oldest biological child’s eyes",Have you ever worn colored contact lenses to alter your eye color?,Totals,99,100,99,101
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Yes,99,101,99,100
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",No,11,16,10,6
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Not sure,32,28,27,42
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Green,13,13,13,14
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Hazel,7,7,9,4
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Gray,5,5,4,7
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Amber,6,8,6,6
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Other,1,1,1,1
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Not sure,3,4,3,3
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",No preference,21,18,27,17
+6,2,Most Attractive Eye Color,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or",Totals,99,100,100,100
+7,3,Would Change Eye Color,Which of the following eye colors do you think the media has a preference for or is biased toward? Select all,Brown,26,30,25,24
+7,3,Would Change Eye Color,Which of the following eye colors do you think the media has a preference for or is biased toward? Select all,Blue,66,64,67,67
+7,3,Would Change Eye Color,Which of the following eye colors do you think the media has a preference for or is biased toward? Select all,Green,7,6,8,9
+7,3,Would Change Eye Color,Which of the following eye colors do you think the media has a preference for or is biased toward? Select all,Hazel,99,100,100,100
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Totals,100,100,100,100
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Brown,7,7,6,5
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Blue,25,25,22,33
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Green,21,27,26,16
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Hazel,14,15,15,7
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Gray,15,14,13,14
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Amber,10,11,8,17
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Other,5,1,7,8
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Not sure,3,0,2,0
+8,4,Preferred Eye Color,"Which color would you choose to change your eye color to, if given the option?",Totals,100,100,99,100
+9,5,Ever Worn Colored Contacts,Have you ever worn colored contact lenses to alter your eye color?,Yes,22,24,22,20
+9,5,Ever Worn Colored Contacts,Have you ever worn colored contact lenses to alter your eye color?,No,77,75,77,78
+9,5,Ever Worn Colored Contacts,Have you ever worn colored contact lenses to alter your eye color?,Not sure,2,1,1,2
+9,5,Ever Worn Colored Contacts,Have you ever worn colored contact lenses to alter your eye color?,Totals,101,100,100,100
+10,6,Media Eye Color Preferences,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or preferences toward people with particular eye",Yes,34,39,30,33
+10,6,Media Eye Color Preferences,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or preferences toward people with particular eye",No,41,40,43,40
+10,6,Media Eye Color Preferences,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or preferences toward people with particular eye",Not sure,25,21,27,27
+10,6,Media Eye Color Preferences,"In your opinion, does the media — such as movies, TV shows, and advertisements — portray any biases or preferences toward people with particular eye",Totals,100,100,100,100
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Brown,18,19,19,14
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Blue,63,58,65,68
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Green,30,40,29,29
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Hazel,15,18,14,8
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Gray,16,23,14,18
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Amber,17,24,12,22
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Other,1,1,2,1
+11,7,Media Eye Color Preferences (1),Which of the following eye colors do you think the media has a preference for or is biased toward? Select all that apply.,Not sure,2,1,1,1

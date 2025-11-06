@@ -1,0 +1,108 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-08-27T23:35:10.687918Z",
+      "description": "Americans' Opinions on the 2024 Election and IVF | Yahoo! News Poll | August 22 - 26, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28929,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on the 2024 Election | Yahoo! News Poll | August 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/20240826_yahoo.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-07-08T17:35:11Z",
+      "description": "Egg and Sperm Donation | YouGov Survey Tables: June 10 - 14, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20694,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Society",
+        "id": 42,
+        "name": "Society",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Society",
+        "slug": "society"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Egg and Sperm Donation | YouGov Survey Tables: June 10 - 14, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/tabs_Egg_and_Sperm_Donation_20220610.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-07-08T17:32:58Z",
+      "description": "Egg and Sperm Donation | YouGov Survey Toplines: June 10 - 14, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20693,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Society",
+        "id": 42,
+        "name": "Society",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Society",
+        "slug": "society"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Egg and Sperm Donation | YouGov Survey Toplines: June 10 - 14, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Egg_and_Sperm_Donation_20220610.pdf"
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 1,
+      "society": 2
+    },
+    "types": {
+      "article": 2,
+      "survey": 3
+    }
+  }
+}

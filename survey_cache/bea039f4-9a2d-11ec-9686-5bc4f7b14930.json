@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-02-20T01:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "No",
+          "value": 45
+        },
+        {
+          "label": "Yes",
+          "value": 22
+        }
+      ],
+      "survey_id": "05ee7",
+      "survey_uuid": "dd605ee7-ef05-11ef-a522-f1b31484effb",
+      "title": "Do you think that Volodymyr Zelensky is a dictator?",
+      "total": 4071
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-01-20T00:16:34Z",
+      "description": "Russia and Ukraine Conflict | YouGov Poll Results: December 22, 2022 - January 2, 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 21441,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "International",
+        "id": 41,
+        "name": "International",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "International",
+        "slug": "international"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Russia and Ukraine Conflict | YouGov Poll Results: December 22, 2022 - January 2, 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Russia_and_Ukraine_Conflict.pdf"
+    }
+  ],
+  "hits": 2,
+  "totals": {
+    "categories": {
+      "international": 1,
+      "politics": 2
+    },
+    "types": {
+      "article": 15,
+      "survey": 2
+    }
+  }
+}

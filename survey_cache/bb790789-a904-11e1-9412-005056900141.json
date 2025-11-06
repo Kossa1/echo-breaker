@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-02-19T13:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 41
+        },
+        {
+          "label": "No",
+          "value": 22
+        }
+      ],
+      "survey_id": "c34e5",
+      "survey_uuid": "86fc34e5-529d-11ea-a87e-9d2414c3a427",
+      "title": "Should the White House Correspondents\u2019 Dinner use comedians as emcees?",
+      "total": 7150
+    }
+  ],
+  "hits": 1,
+  "totals": {
+    "categories": {
+      "politics": 1
+    },
+    "types": {
+      "article": 2,
+      "survey": 1
+    }
+  }
+}

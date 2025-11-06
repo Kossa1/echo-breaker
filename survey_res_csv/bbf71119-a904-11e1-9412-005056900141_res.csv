@@ -1,0 +1,176 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,2,Wine and Health,How often do you drink wine?,Daily,40,34,39,49
+1,2,Wine and Health,How often do you drink wine?,A few times a week,23,24,22,22
+1,2,Wine and Health,How often do you drink wine?,Once a week,11,14,12,6
+1,2,Wine and Health,How often do you drink wine?,Once every couple of weeks,27,28,28,24
+1,2,Wine and Health,How often do you drink wine?,Once a month,101,100,101,101
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Is beneficial to a person’s health,31,39,26,28
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Has no effect on a person’s health,41,37,40,46
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Is detrimental to a person’s health,13,12,13,14
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Not sure,3,3,3,5
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Not sure,10,8,15,6
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",I’ve never had it,2,1,3,1
+2,3A,Types of Wine — Red wine,"Generally speaking, do you think that drinking wine in moderation...?",Totals,100,100,100,100
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Red wine,20,19,19,24
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,White wine,53,60,47,51
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Sparkling wine,11,9,9,14
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Rosé,3,2,2,3
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Cabernet Sauvignon,8,4,13,7
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Merlot,5,6,9,1
+3,3B,Types of Wine — White wine,What do you think of the following types of wine?,Pinot Noir,100,100,99,100
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,Red wine,21,25,18,21
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,White wine,42,39,42,46
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,Neither,15,18,11,16
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,Not sure,5,4,4,6
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,Not sure,10,7,15,8
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,I’ve never had it,7,7,10,4
+4,3C,Types of Wine — Sparkling wine,Which of the following do you most prefer?,Totals,100,100,100,101
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$10 or less,19,21,13,21
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$11 - $20,47,49,41,52
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$21 - $30,16,14,17,17
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$31 - $40,3,3,3,2
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$41 - $50,9,6,13,6
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$51 - $60,7,6,12,2
+5,3D,Types of Wine — Rosé,About how much do you typically pay for a bottle of wine?,$61 - $80,101,99,99,100
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$10 or less,22,23,20,22
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$11 - $20,33,37,26,37
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$21 - $30,13,10,12,19
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$31 - $40,3,4,4,2
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$41 - $50,11,11,12,9
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$51 - $60,18,16,26,11
+6,3E,Types of Wine — Cabernet Sauvignon,What is the maximum amount you have ever paid for a bottle of wine?,$61 - $80,100,101,100,100
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Alcohol percentage,18,18,18,17
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Bottle or label design,43,45,42,41
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Brand,18,19,12,23
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Food pairing,4,4,2,5
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Price,9,4,14,9
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Ratings,9,9,12,5
+7,3F,Types of Wine — Merlot,How important are the following factors to you when purchasing wine?,Region,101,99,100,100
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Definitely could,20,21,21,16
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Probably could,39,48,30,40
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Probably could not,13,9,10,19
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Definitely could not,2,2,2,2
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Not sure,11,9,14,10
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",I’ve never had it,16,11,23,14
+8,3G,Types of Wine — Pinot Noir,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and",Totals,101,100,100,101
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Love it,10,12,7,12
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Like it,22,24,21,20
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Dislike it,10,8,9,15
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Hate it,1,3,0,1
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Not sure,13,14,15,8
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,I’ve never had it,43,39,47,44
+9,3H,Types of Wine — Syrah,What do you think of the following types of wine?,Totals,99,100,99,100
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Love it,19,21,13,23
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Like it,42,40,42,46
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Dislike it,14,16,9,16
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Hate it,3,2,3,6
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Not sure,8,7,14,4
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,I’ve never had it,14,14,21,5
+10,3I,Types of Wine — Zinfandel,What do you think of the following types of wine?,Totals,100,100,102,100
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Love it,11,11,11,11
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Like it,24,30,17,25
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Dislike it,8,9,6,10
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Hate it,3,5,2,2
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Not sure,12,10,16,8
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,I’ve never had it,43,37,47,45
+11,3J,Types of Wine — Malbec,What do you think of the following types of wine?,Totals,101,102,99,101
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Love it,13,17,11,11
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Like it,30,29,22,42
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Dislike it,18,16,20,19
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Hate it,6,8,4,5
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Not sure,14,12,19,9
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,I’ve never had it,19,18,23,15
+12,3K,Types of Wine — Dessert wine,What do you think of the following types of wine?,Totals,100,100,99,101
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Love it,19,18,17,21
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Like it,45,48,43,44
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Dislike it,13,16,9,15
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Hate it,4,3,3,7
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Not sure,9,6,14,6
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,I’ve never had it,11,10,14,7
+13,3L,Types of Wine — Chardonnay,What do you think of the following types of wine?,Totals,101,101,100,100
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Love it,16,16,13,18
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Like it,40,45,34,41
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Dislike it,12,12,9,14
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Hate it,4,3,3,5
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Not sure,11,9,15,8
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,I’ve never had it,18,15,26,14
+14,3M,Types of Wine — Pinot Grigio,What do you think of the following types of wine?,Totals,101,100,100,100
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Love it,16,16,11,22
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Like it,31,34,23,36
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Dislike it,15,18,14,13
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Hate it,2,2,1,2
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Not sure,14,12,18,11
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,I’ve never had it,23,18,33,17
+15,3N,Types of Wine — Riesling,What do you think of the following types of wine?,Totals,101,100,100,101
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Love it,16,15,15,17
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Like it,39,44,26,49
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Dislike it,12,13,14,10
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Hate it,2,1,1,4
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Not sure,11,9,15,7
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,I’ve never had it,20,18,29,12
+16,3O,Types of Wine — Sauvignon Blanc,What do you think of the following types of wine?,Totals,100,100,100,99
+17,4,Prefer Red or White,Which of the following do you most prefer?,Red wine,49,53,46,49
+17,4,Prefer Red or White,Which of the following do you most prefer?,White wine,36,36,32,42
+17,4,Prefer Red or White,Which of the following do you most prefer?,Neither,8,7,12,6
+17,4,Prefer Red or White,Which of the following do you most prefer?,Not sure,6,4,11,4
+17,4,Prefer Red or White,Which of the following do you most prefer?,Totals,99,100,101,101
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Very important,18,22,18,15
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Somewhat important,30,25,31,33
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Not very important,29,28,24,35
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Not important at all,16,18,18,11
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Not sure,7,7,9,6
+18,7A,Importance of Factors in Wine — Alcohol percentage,How important are the following factors to you when purchasing wine?,Totals,100,100,100,100
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Very important,11,10,11,12
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Somewhat important,22,27,18,20
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Not very important,38,36,35,43
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Not important at all,23,22,25,23
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Not sure,6,5,11,2
+19,7B,Importance of Factors in Wine — Bottle or label design,How important are the following factors to you when purchasing wine?,Totals,100,100,100,100
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Very important,20,21,15,23
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Somewhat important,41,39,40,46
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Not very important,24,25,28,18
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Not important at all,9,7,10,10
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Not sure,6,7,8,3
+20,7C,Importance of Factors in Wine — Brand,How important are the following factors to you when purchasing wine?,Totals,100,99,101,100
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Very important,17,19,16,16
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Somewhat important,35,37,31,39
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Not very important,24,25,23,23
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Not important at all,16,14,18,17
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Not sure,7,5,12,6
+21,7D,Importance of Factors in Wine — Food pairing,How important are the following factors to you when purchasing wine?,Totals,99,100,100,101
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Very important,49,51,51,43
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Somewhat important,40,39,36,44
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Not very important,7,6,5,10
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Not important at all,2,0,2,2
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Not sure,3,3,5,1
+22,7E,Importance of Factors in Wine — Price,How important are the following factors to you when purchasing wine?,Totals,101,99,99,100
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Very important,20,21,19,19
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Somewhat important,38,42,38,33
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Not very important,21,19,17,27
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Not important at all,13,9,16,14
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Not sure,9,9,11,6
+23,7F,Importance of Factors in Wine — Ratings,How important are the following factors to you when purchasing wine?,Totals,101,100,101,99
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Very important,17,14,17,21
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Somewhat important,33,39,26,34
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Not very important,24,18,24,28
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Not important at all,18,20,20,14
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Not sure,8,8,12,3
+24,7G,Importance of Factors in Wine — Region,How important are the following factors to you when purchasing wine?,Totals,100,99,99,100
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Very important,18,23,17,14
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Somewhat important,28,28,29,27
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Not very important,18,14,16,24
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Not important at all,11,11,10,12
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Not sure,26,25,29,23
+25,7H,Importance of Factors in Wine — Varietal,How important are the following factors to you when purchasing wine?,Totals,101,101,101,100
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Very important,15,16,15,16
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Somewhat important,24,23,24,27
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Not very important,30,32,26,33
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Not important at all,21,19,24,19
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Not sure,9,10,12,5
+26,7I,Importance of Factors in Wine — Year,How important are the following factors to you when purchasing wine?,Totals,99,100,101,100
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Definitely could,9,10,9,10
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Probably could,26,26,24,28
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Probably could not,35,37,31,36
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Definitely could not,18,19,18,16
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Not sure,12,8,17,11
+27,8,Ability to Differentiate Wines,"In a blind taste test, how confident are you that you could tell the difference between a $10 bottle of wine and a $100 bottle of wine of the same varietal?",Totals,100,100,99,101

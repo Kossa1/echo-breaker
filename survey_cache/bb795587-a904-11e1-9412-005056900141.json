@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-09-25T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Ahead in the polls",
+          "value": 32
+        },
+        {
+          "label": "Neither",
+          "value": 28
+        }
+      ],
+      "survey_id": "199af",
+      "survey_uuid": "f59199af-7ad4-11ef-ba2f-4b670f2c9acf",
+      "title": "Do you think that a presidential candidate generally benefits more from news coverage saying they are\u2026?",
+      "total": 5994
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-09-25T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Ahead in the polls",
+          "value": 56
+        },
+        {
+          "label": "Behind in the polls",
+          "value": 11
+        }
+      ],
+      "survey_id": "199af",
+      "survey_uuid": "f59199af-7ad4-11ef-ba2f-4b670f2c9acf",
+      "title": "Do you think that Kamala Harris\u2019 campaign wants voters to think that she is\u2026?",
+      "total": 5994
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-09-25T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Ahead in the polls",
+          "value": 62
+        },
+        {
+          "label": "Behind in the polls",
+          "value": 10
+        }
+      ],
+      "survey_id": "199af",
+      "survey_uuid": "f59199af-7ad4-11ef-ba2f-4b670f2c9acf",
+      "title": "Do you think that Donald Trump\u2019s campaign wants voters to think that he is\u2026?",
+      "total": 5994
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-05-15T21:31:02.672643Z",
+      "description": "Opinions of Americans on Characterizing Survey Results | April 10 - 18, 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 28353,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Opinions of Americans on Characterizing Survey Results | April 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Characterizing_Survey_Results_poll_results_20240418.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-12-16T23:50:30Z",
+      "description": "Elon Musk Twitter Polls | YouGov Poll Results: December 8- 13, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 21342,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Elon Musk Twitter Polls | YouGov Poll Results: December 8- 13, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Elon_Musk_Twitter_Polls_December_8_13_2022.pdf"
+    }
+  ],
+  "hits": 5,
+  "totals": {
+    "categories": {
+      "economy": 1,
+      "politics": 5,
+      "technology": 1
+    },
+    "types": {
+      "article": 1,
+      "survey": 5
+    }
+  }
+}

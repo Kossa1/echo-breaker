@@ -1,0 +1,60 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",All,5,6,4,4
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",Most,17,25,14,11
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",Few,47,47,44,52
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",None,21,15,22,26
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",Don’t know,11,7,16,7
+1,1,Success Due to Luck,"How many, if any at all, of your successes in life have been a result of luck or chance?",Totals,101,100,100,100
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",criticize me,53,49,57,54
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",Don’t know,18,16,19,14
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",Totals,100,100,99,100
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",myself,11,17,9,8
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",myself,18,18,17,19
+2,2,Criticism,"Do you think that other people criticize you more or less than you criticize yourself, or is it about the same?",criticize me,53,49,53,59
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Very high,27,30,28,23
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Somewhat high,43,41,41,49
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Somewhat low,17,19,14,18
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Very low,5,5,5,4
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Don’t know,8,5,12,6
+3,3,Expectations,"Generally speaking, do you have high or low expectations of yourself?",Totals,100,100,100,100
+4,4,Exaggeration of Achievements,"When talking to others, do you tend to exaggerate your achievements or downplay them?",achievements,10,13,7,11
+4,4,Exaggeration of Achievements,"When talking to others, do you tend to exaggerate your achievements or downplay them?",achievements,38,37,36,43
+4,4,Exaggeration of Achievements,"When talking to others, do you tend to exaggerate your achievements or downplay them?",Neither,44,44,46,41
+4,4,Exaggeration of Achievements,"When talking to others, do you tend to exaggerate your achievements or downplay them?",Don’t know,8,6,12,5
+4,4,Exaggeration of Achievements,"When talking to others, do you tend to exaggerate your achievements or downplay them?",Totals,100,100,101,100
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Very dif cult,10,9,12,8
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Somewhat dif cult,38,40,35,42
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Somewhat easy,31,33,29,29
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Very easy,13,13,11,15
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Don’t know,8,4,13,6
+5,5,Accepting Compliments,Do you ﬁnd it difﬁcult or easy to accept compliments and praise from other people?,Totals,100,99,100,100
+6,6,Success Due to Luck (1),"Thinking about your peers, do you think that they are more or less intelligent than you are?",than me,17,19,14,19
+6,6,Success Due to Luck (1),"Thinking about your peers, do you think that they are more or less intelligent than you are?",than me,20,25,18,16
+6,6,Success Due to Luck (1),"Thinking about your peers, do you think that they are more or less intelligent than you are?",Neither,52,47,53,56
+6,6,Success Due to Luck (1),"Thinking about your peers, do you think that they are more or less intelligent than you are?",Don’t know,12,9,15,10
+6,6,Success Due to Luck (1),"Thinking about your peers, do you think that they are more or less intelligent than you are?",Totals,101,100,100,101
+7,7,Capabilities,Do you think that other people think you are more or less capable than you are?,capable than I am,30,38,23,34
+7,7,Capabilities,Do you think that other people think you are more or less capable than you are?,capable than I am,20,19,22,16
+7,7,Capabilities,Do you think that other people think you are more or less capable than you are?,Neither,33,32,31,39
+7,7,Capabilities,Do you think that other people think you are more or less capable than you are?,Don’t know,17,11,24,11
+7,7,Capabilities,Do you think that other people think you are more or less capable than you are?,Totals,100,100,100,100
+8,8A,"Imposter Grid — Imposter Grid – Even if I meet 99% of my goals, I still feel like a failure","For each of the following statements, please say whether you think it applies to you:",This applies to me,22,23,25,16
+8,8A,"Imposter Grid — Imposter Grid – Even if I meet 99% of my goals, I still feel like a failure","For each of the following statements, please say whether you think it applies to you:",This does not apply to me,67,65,62,79
+8,8A,"Imposter Grid — Imposter Grid – Even if I meet 99% of my goals, I still feel like a failure","For each of the following statements, please say whether you think it applies to you:",Don’t know,10,11,13,5
+8,8A,"Imposter Grid — Imposter Grid – Even if I meet 99% of my goals, I still feel like a failure","For each of the following statements, please say whether you think it applies to you:",Totals,99,99,100,100
+9,8B,Imposter Grid — Imposter Grid – I would prefer to struggle alone rather than ask for help,"For each of the following statements, please say whether you think it applies to you:",This applies to me,46,47,44,48
+9,8B,Imposter Grid — Imposter Grid – I would prefer to struggle alone rather than ask for help,"For each of the following statements, please say whether you think it applies to you:",This does not apply to me,43,47,40,46
+9,8B,Imposter Grid — Imposter Grid – I would prefer to struggle alone rather than ask for help,"For each of the following statements, please say whether you think it applies to you:",Don’t know,10,6,16,6
+9,8B,Imposter Grid — Imposter Grid – I would prefer to struggle alone rather than ask for help,"For each of the following statements, please say whether you think it applies to you:",Totals,99,100,100,100
+10,8C,"Imposter Grid — Imposter Grid – If I have to work hard to accomplish something, I feel like I’m not good enough","For each of the following statements, please say whether you think it applies to you:",This applies to me,23,28,22,19
+10,8C,"Imposter Grid — Imposter Grid – If I have to work hard to accomplish something, I feel like I’m not good enough","For each of the following statements, please say whether you think it applies to you:",This does not apply to me,65,64,63,71
+10,8C,"Imposter Grid — Imposter Grid – If I have to work hard to accomplish something, I feel like I’m not good enough","For each of the following statements, please say whether you think it applies to you:",Don’t know,11,8,15,10
+10,8C,"Imposter Grid — Imposter Grid – If I have to work hard to accomplish something, I feel like I’m not good enough","For each of the following statements, please say whether you think it applies to you:",Totals,99,100,100,100
+11,8D,"Imposter Grid — Imposter Grid – I wouldn’t speak up and ask a question, because I am afraid of looking unintelligent if I don’t already know",the answer,This applies to me,26,26,25,29
+11,8D,"Imposter Grid — Imposter Grid – I wouldn’t speak up and ask a question, because I am afraid of looking unintelligent if I don’t already know",the answer,This does not apply to me,66,68,65,66
+11,8D,"Imposter Grid — Imposter Grid – I wouldn’t speak up and ask a question, because I am afraid of looking unintelligent if I don’t already know",the answer,Don’t know,8,6,10,5
+11,8D,"Imposter Grid — Imposter Grid – I wouldn’t speak up and ask a question, because I am afraid of looking unintelligent if I don’t already know",the answer,Totals,100,100,100,100
+12,8E,Imposter Grid — Imposter Grid – I feel stressed when I am not succeeding in every aspect of my life,"For each of the following statements, please say whether you think it applies to you:",This applies to me,40,39,41,39
+12,8E,Imposter Grid — Imposter Grid – I feel stressed when I am not succeeding in every aspect of my life,"For each of the following statements, please say whether you think it applies to you:",This does not apply to me,50,52,45,54
+12,8E,Imposter Grid — Imposter Grid – I feel stressed when I am not succeeding in every aspect of my life,"For each of the following statements, please say whether you think it applies to you:",Don’t know,11,9,14,7
+12,8E,Imposter Grid — Imposter Grid – I feel stressed when I am not succeeding in every aspect of my life,"For each of the following statements, please say whether you think it applies to you:",Totals,101,100,100,100

@@ -1,0 +1,215 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-03-19T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 62
+        },
+        {
+          "label": "Yes",
+          "value": 29
+        }
+      ],
+      "survey_id": "d8d84",
+      "survey_uuid": "d77d8d84-0436-11f0-9ee2-239e0ddc96f3",
+      "title": "Have you taken any steps to reduce the amount of mail delivered to your home?",
+      "total": 9316
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-03-19T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "1-2",
+          "value": 43
+        },
+        {
+          "label": "3-5",
+          "value": 37
+        }
+      ],
+      "survey_id": "d8d84",
+      "survey_uuid": "d77d8d84-0436-11f0-9ee2-239e0ddc96f3",
+      "title": "How many pieces of mail do you receive at your home on an average day?",
+      "total": 9316
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-03-19T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Some of it",
+          "value": 51
+        },
+        {
+          "label": "Most of it",
+          "value": 13
+        }
+      ],
+      "survey_id": "d8d84",
+      "survey_uuid": "d77d8d84-0436-11f0-9ee2-239e0ddc96f3",
+      "title": "How much of the mail you receive on an average day do you need or want?",
+      "total": 9316
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "society",
+      "published_at": "2024-01-03T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Faster",
+          "value": 39
+        },
+        {
+          "label": "At about the same rate",
+          "value": 37
+        }
+      ],
+      "survey_id": "fd62d",
+      "survey_uuid": "bb3fd62d-a9bd-11ee-8afa-6d8e99eac0c5",
+      "title": "Compared to prices for other goods and services, do you think the price of stamps in recent years has been increasing...?",
+      "total": 7355
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "society",
+      "published_at": "2024-01-03T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Somewhat approve",
+          "value": 29
+        },
+        {
+          "label": "Somewhat disapprove",
+          "value": 21
+        }
+      ],
+      "survey_id": "fd62d",
+      "survey_uuid": "bb3fd62d-a9bd-11ee-8afa-6d8e99eac0c5",
+      "title": "Do you approve or disapprove of the U.S. Postal Service's plan to increase the price of a first-class stamp later this month by two cents?",
+      "total": 7355
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "society",
+      "published_at": "2024-01-03T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "66",
+          "value": 14
+        },
+        {
+          "label": "55",
+          "value": 8
+        }
+      ],
+      "survey_id": "fd62d",
+      "survey_uuid": "bb3fd62d-a9bd-11ee-8afa-6d8e99eac0c5",
+      "title": "Which of the following do you think is the current price of a first-class U.S. Postal Service stamp, in cents?",
+      "total": 7355
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-02-04T12:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Not familiar at all",
+          "value": 36
+        },
+        {
+          "label": "Somewhat familiar",
+          "value": 26
+        }
+      ],
+      "survey_id": "9afe6",
+      "survey_uuid": "e319afe6-46ce-11ea-bd40-e5d2dfec770d",
+      "title": "How familiar, if at all, are you with the person who typically delivers your mail?",
+      "total": 5533
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-01-28T13:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Thanks",
+          "value": 32
+        },
+        {
+          "label": "I don\u2019t sign my emails",
+          "value": 18
+        }
+      ],
+      "survey_id": "e031b",
+      "survey_uuid": "91ae031b-20c4-11e9-a17e-dbf55755ffda",
+      "title": "Which of the following do you use most frequently to sign off your emails?",
+      "total": 20346
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-01-09T16:05:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "1-20",
+          "value": 27
+        },
+        {
+          "label": "None",
+          "value": 25
+        }
+      ],
+      "survey_id": "b0d35",
+      "survey_uuid": "67eb0d35-135b-11e9-813e-b98493a11a0e",
+      "title": "Approximately how many unread emails are currently in your personal inbox?",
+      "total": 8498
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2018-05-25T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Open it immediately",
+          "value": 71
+        },
+        {
+          "label": "Wait and prepare yourself to open it",
+          "value": 13
+        }
+      ],
+      "survey_id": "c967d",
+      "survey_uuid": "399c967d-5f61-11e8-9b4f-59f11fc70cc5",
+      "title": "When you get a letter or email that contains big news (e.g. college acceptance letter, job offer), do you generally...",
+      "total": 10381
+    }
+  ],
+  "hits": 10,
+  "totals": {
+    "categories": {
+      "politics": 7,
+      "society": 3
+    },
+    "types": {
+      "article": 1,
+      "survey": 10
+    }
+  }
+}

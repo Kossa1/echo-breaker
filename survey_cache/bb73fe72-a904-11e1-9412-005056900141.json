@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-01-29T20:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Never",
+          "value": 36
+        },
+        {
+          "label": "Sometimes",
+          "value": 18
+        }
+      ],
+      "survey_id": "89b4c",
+      "survey_uuid": "5b589b4c-de53-11ef-99a2-75b68e38e14e",
+      "title": "How often is a TV or video on in the room as you fall asleep?",
+      "total": 3179
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-01-29T20:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Without a TV or video on",
+          "value": 40
+        },
+        {
+          "label": "No difference",
+          "value": 30
+        }
+      ],
+      "survey_id": "89b4c",
+      "survey_uuid": "5b589b4c-de53-11ef-99a2-75b68e38e14e",
+      "title": "Is it easier for you to fall asleep\u2026?",
+      "total": 3179
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-08-29T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Usually",
+          "value": 28
+        },
+        {
+          "label": "Always",
+          "value": 26
+        }
+      ],
+      "survey_id": "b8384",
+      "survey_uuid": "0b8b8384-657b-11ef-9f1b-b1ecef342aec",
+      "title": "When appearing on television, how often do you think politicians who are men wear makeup?",
+      "total": 12370
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-08-29T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Always",
+          "value": 56
+        },
+        {
+          "label": "Usually",
+          "value": 24
+        }
+      ],
+      "survey_id": "b8384",
+      "survey_uuid": "0b8b8384-657b-11ef-9f1b-b1ecef342aec",
+      "title": "When appearing on television, how often do you think politicians who are women wear makeup?",
+      "total": 12370
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-08-29T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Neither",
+          "value": 48
+        },
+        {
+          "label": "Help",
+          "value": 23
+        }
+      ],
+      "survey_id": "b8384",
+      "survey_uuid": "0b8b8384-657b-11ef-9f1b-b1ecef342aec",
+      "title": "Do you think that wearing makeup when appearing on television is more likely to help or hurt the image of politicians who are men?",
+      "total": 12370
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-04-28T22:45:14Z",
+      "description": "TV News | YouGov Poll Results: April 25 - 28, 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 21794,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "TV News | YouGov Poll Results: April 25 - 28, 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/TV_News_poll_results.pdf"
+    }
+  ],
+  "hits": 6,
+  "totals": {
+    "categories": {
+      "politics": 6
+    },
+    "types": {
+      "article": 3,
+      "survey": 6
+    }
+  }
+}

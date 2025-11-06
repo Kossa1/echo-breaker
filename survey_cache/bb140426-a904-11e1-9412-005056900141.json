@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-05-07T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Oppose",
+          "value": 57
+        },
+        {
+          "label": "Support",
+          "value": 18
+        }
+      ],
+      "survey_id": "5c1e3",
+      "survey_uuid": "7465c1e3-2b4c-11f0-b0ca-7f74f30d9c9b",
+      "title": "Would you support or oppose efforts to restore extinct dinosaurs through genetic engineering?",
+      "total": 5658
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "entertainment",
+      "published_at": "2025-05-07T19:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "No",
+          "value": 50
+        },
+        {
+          "label": "Yes",
+          "value": 29
+        }
+      ],
+      "survey_id": "5c1e3",
+      "survey_uuid": "7465c1e3-2b4c-11f0-b0ca-7f74f30d9c9b",
+      "title": "If there were a theme park with live dinosaurs that had been created through genetic engineering, would you want to visit it?",
+      "total": 5658
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2024-12-12T19:54:03.105081Z",
+      "description": "Dinosaurs | December 2024",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 29455,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Health",
+        "id": 38,
+        "name": "Health & science",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Health",
+        "slug": "health"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Dinosaurs | December 2024",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Dinosaurs_poll_results.pdf"
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "entertainment": 1,
+      "health": 1,
+      "politics": 2
+    },
+    "types": {
+      "article": 3,
+      "survey": 3
+    }
+  }
+}

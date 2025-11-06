@@ -1,0 +1,218 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-11-08T17:30:50.959175Z",
+      "description": "Americans' Opinions on Dire Political Scenarios | October 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 22793,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on Dire Political Scenarios | October 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Dire_Political_Scenarios_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2023-07-14T15:47:49Z",
+      "description": "The American Civil War | YouGov Poll Results: June 15 - 23, 2023",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 22038,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "The American Civil War | YouGov Poll Results: June 15 - 23, 2023",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_The_American_Civil_War.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-09-08T15:56:56Z",
+      "description": "Dire Political Scenarios | YouGov Poll Crosstabs: September 1 - 4, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20930,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Dire Political Scenarios | YouGov Poll Crosstabs: September 1 - 4, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_Dire_Political_Scenarios.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-09-08T15:55:28Z",
+      "description": "Dire Political Scenarios | YouGov Poll Toplines: September 1 - 4, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20929,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Dire Political Scenarios | YouGov Poll Toplines: September 1 - 4, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/toplines_Dire_Political_Scenarios.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-12-09T14:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Racism",
+          "value": 46
+        },
+        {
+          "label": "Heritage",
+          "value": 30
+        }
+      ],
+      "survey_id": "6ac16",
+      "survey_uuid": "9266ac16-186f-11ea-9111-e51e49e32640",
+      "title": "What do you believe the Confederate flag MOST represents?",
+      "total": 29043
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-09-30T20:15:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Very unlikely",
+          "value": 43
+        },
+        {
+          "label": "Very likely",
+          "value": 16
+        }
+      ],
+      "survey_id": "24c77",
+      "survey_uuid": "20b24c77-e39c-11e9-ba0e-c7fcd6994022",
+      "title": "President Trump said that if Democrats successfully impeach him, it will cause a \u201cCivil War like fracture\u201d in the country. If Trump were to be impeached, how likely or unlikely do you believe it is that there would be a Civil War-like fracture in the US?",
+      "total": 2400
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-09-22T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "All Confederal memorials should remain",
+          "value": 36
+        },
+        {
+          "label": "Public confederate memorials should be taken down, but ones in cemeteries should remain",
+          "value": 27
+        }
+      ],
+      "survey_id": "5e8d0",
+      "survey_uuid": "ce95e8d0-9ef0-11e7-85f7-3d0bd709c44f",
+      "title": "As the move to remove Confederate statues has increased around the country, some are pushing to remove memorials to Confederate soldiers in cemeteries. What comes closest to your view about this?",
+      "total": 4845
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2017-08-18T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Somewhat likely",
+          "value": 25
+        },
+        {
+          "label": "Very unlikely",
+          "value": 25
+        }
+      ],
+      "survey_id": "17e93",
+      "survey_uuid": "69c17e93-836a-11e7-bfd8-e39b8d9aefc4",
+      "title": "Do you think it's likely or unlikely that in the next 10-15 years the US will enter its second civil war?",
+      "total": 5084
+    }
+  ],
+  "hits": 8,
+  "totals": {
+    "categories": {
+      "politics": 8
+    },
+    "types": {
+      "article": 4,
+      "survey": 8
+    }
+  }
+}

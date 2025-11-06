@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-07-10T19:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Strongly support",
+          "value": 50
+        },
+        {
+          "label": "Somewhat support",
+          "value": 30
+        }
+      ],
+      "survey_id": "b3d12",
+      "survey_uuid": "cd9b3d12-3ecf-11ef-b000-2bb6b03413a0",
+      "title": "Would you support or oppose businesses contributing to child care expenses for their employees?",
+      "total": 4793
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-07-10T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Strongly support",
+          "value": 42
+        },
+        {
+          "label": "Somewhat support",
+          "value": 25
+        }
+      ],
+      "survey_id": "b3d12",
+      "survey_uuid": "cd9b3d12-3ecf-11ef-b000-2bb6b03413a0",
+      "title": "Would you support or oppose the government providing funding for child care?",
+      "total": 4793
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-07-10T19:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "None of the above",
+          "value": 49
+        },
+        {
+          "label": "Yes, a friend",
+          "value": 14
+        }
+      ],
+      "survey_id": "b3d12",
+      "survey_uuid": "cd9b3d12-3ecf-11ef-b000-2bb6b03413a0",
+      "title": "Do you know anyone who has struggled to find affordable child care in the past year? Select all that apply.",
+      "total": 4793
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-04-07T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Less trustworthy",
+          "value": 39
+        },
+        {
+          "label": "About as trustworthy",
+          "value": 32
+        }
+      ],
+      "survey_id": "041f7",
+      "survey_uuid": "51c041f7-f388-11ee-861e-4d9d9876415b",
+      "title": "Compared to 50 years ago, do you think that teenage babysitters today are\u2026?",
+      "total": 32884
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-04-07T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "No",
+          "value": 40
+        },
+        {
+          "label": "Yes, many times",
+          "value": 36
+        }
+      ],
+      "survey_id": "041f7",
+      "survey_uuid": "51c041f7-f388-11ee-861e-4d9d9876415b",
+      "title": "Were you ever paid to babysit when you were a teenager?",
+      "total": 32884
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-04-07T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Both equally",
+          "value": 40
+        },
+        {
+          "label": "Adults",
+          "value": 26
+        }
+      ],
+      "survey_id": "041f7",
+      "survey_uuid": "51c041f7-f388-11ee-861e-4d9d9876415b",
+      "title": "Do you think that, in general, parents can trust babysitters more who are...?",
+      "total": 32884
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2022-07-15T11:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Around $800",
+          "value": 13
+        },
+        {
+          "label": "Around $1,000",
+          "value": 13
+        }
+      ],
+      "survey_id": "9609d",
+      "survey_uuid": "8739609d-03bd-11ed-b26a-bbb50dd3646b",
+      "title": "What do you think the average monthly cost of center-based childcare is for an infant in the United States?",
+      "total": 5392
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2022-02-09T12:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "12",
+          "value": 19
+        },
+        {
+          "label": "13",
+          "value": 18
+        }
+      ],
+      "survey_id": "1da48",
+      "survey_uuid": "cf81da48-892d-11ec-908b-f32d4e5968a7",
+      "title": "What is the youngest age that you think is safe for an older sibling to babysit their younger siblings?",
+      "total": 3904
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2016-08-16T00:25:04Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Strongly support",
+          "value": 40
+        },
+        {
+          "label": "Somewhat support",
+          "value": 30
+        }
+      ],
+      "survey_id": "09120",
+      "survey_uuid": "a3909120-62fc-11e6-9beb-005056a81451",
+      "title": "Would you support or oppose the government providing financial help to families with children so that they can more easily afford childcare?",
+      "total": 1108
+    }
+  ],
+  "hits": 9,
+  "totals": {
+    "categories": {
+      "politics": 9
+    },
+    "types": {
+      "article": 4,
+      "survey": 9
+    }
+  }
+}

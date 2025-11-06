@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-05-28T14:50:51.167137Z",
+      "description": "Canada Post-Election Survey | May 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30338,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Canada Post-Election Survey | May 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Canada_Post_Election_Survey_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-04-11T18:59:40.186452Z",
+      "description": "Canadians' Opinions on Politics | April 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30145,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Canadians' Opinions on Politics | April 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Canadians__Opinions_on_Politics_poll_results_vjXeDfo.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-10-21T19:13:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Small impact",
+          "value": 26
+        },
+        {
+          "label": "No impact",
+          "value": 23
+        }
+      ],
+      "survey_id": "fc040",
+      "survey_uuid": "2c2fc040-f418-11e9-9206-f198ce2a495e",
+      "title": "How much of an impact, if any, do you believe the Canadian election for the prime minister will have on US politics?",
+      "total": 2111
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "international": 1,
+      "politics": 3
+    },
+    "types": {
+      "article": 2,
+      "survey": 3
+    }
+  }
+}

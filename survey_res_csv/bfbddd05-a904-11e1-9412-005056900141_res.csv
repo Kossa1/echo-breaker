@@ -1,0 +1,186 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1,Read Any Books in 2024,Have you read any books or listened to any audiobooks in 2024?,Yes,63,69,60,60
+1,1,Read Any Books in 2024,Have you read any books or listened to any audiobooks in 2024?,No,37,31,40,40
+1,1,Read Any Books in 2024,Have you read any books or listened to any audiobooks in 2024?,Totals,100,100,100,100
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,0,2,3,1,1
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,1,5,5,1,7
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,2,5,6,3,3
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,3,17,19,12,18
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,4,72,66,81,70
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,5,1,1,1,0
+2,3,Share of Books Read Aloud,About how many books have you read or listened to so far in 2024?,6,102,100,99,99
+3,4,Types of Books Read in 2024,You said you read [the number of books respondent said they have read in 2024] books in 2024. What share,All of them,49,52,48,46
+3,4,Types of Books Read in 2024,You said you read [the number of books respondent said they have read in 2024] books in 2024. What share,Most of them,26,33,21,26
+3,4,Types of Books Read in 2024,You said you read [the number of books respondent said they have read in 2024] books in 2024. What share,About half of them,26,32,24,23
+3,4,Types of Books Read in 2024,You said you read [the number of books respondent said they have read in 2024] books in 2024. What share,Some of them,37,31,40,40
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,Physical books,3,2,4,3
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,Digital books,79,79,77,80
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,Audiobooks,25,27,22,27
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,Didn’t read or listen to any books,33,34,33,33
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,through a subscription,6,7,5,8
+4,5,Source of Physical Books Read in 2024,Were any of the books that you read or listened to in 2024...? Select all that apply.,Other,3,3,3,2
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,A book you own,10,11,9,18
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,A book you borrowed from someone you know,61,56,67,63
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,A book you borrowed through a library,10,13,8,7
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,A book you borrowed through a subscription,30,31,32,27
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,Other,30,28,26,36
+5,6,Source of Digitial Books Read in 2024,Were any of the physical books you read in 2024...? Select all that apply.,Other,10,12,10,7
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,A book you own,9,11,6,10
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,A book you borrowed from someone you know,51,52,51,51
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,A book you borrowed through a library,12,15,9,11
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,A book you borrowed through a subscription,26,27,25,25
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,Other,30,33,26,32
+6,7,Source of Audiobooks Read in 2024,Were any of the digital books you read in 2024...? Select all that apply.,Other,9,6,9,12
+7,9,Library Card,Were any of the audiobooks you listened to in 2024...? Select all that apply.,A book you own,53,57,50,52
+7,9,Library Card,Were any of the audiobooks you listened to in 2024...? Select all that apply.,A book you borrowed from someone you know,44,38,46,46
+7,9,Library Card,Were any of the audiobooks you listened to in 2024...? Select all that apply.,A book you borrowed through a library,4,4,4,2
+7,9,Library Card,Were any of the audiobooks you listened to in 2024...? Select all that apply.,A book you borrowed through a subscription,101,99,100,100
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Mystery and crime,1,2,0,2
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,History,11,13,8,12
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Thrillers,27,31,25,25
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Romance,44,37,50,46
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Science fiction,15,15,16,13
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Historical fiction,2,2,2,1
+8,10A,Library Use — Checking out physical books,Which of the following types of books have you read or listened to in 2024? Select all that apply.,Biographies and memoirs,100,100,101,99
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Yes,1,2,1,1
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,No,8,12,4,7
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Not sure,13,16,10,15
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Rarely,24,25,27,18
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Never,52,43,57,58
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Not sure,2,3,1,1
+9,10B,Library Use — Checking out electronic books,Do you have a library card from a local public library?,Totals,100,101,100,100
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,books,2,2,0,2
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,books,7,11,3,7
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,Checking out audiobooks,10,12,8,11
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,Rarely,22,24,21,20
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,Never,58,50,65,58
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,Not sure,2,2,2,2
+10,10C,Library Use — Checking out audiobooks,How much do you use the following services from a local public library?,Totals,101,101,99,100
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,time,3,4,2,4
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,other technology,11,15,8,11
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,children,17,19,19,13
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,adults,33,32,38,27
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,Never,35,29,32,43
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,Not sure,1,0,1,1
+11,11A,Library Use (1) — A physical space to spend time,How much do you use the following services from a local public library?,Totals,100,99,100,99
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,None,4,4,2,5
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,1 - 4,8,10,7,8
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,5 - 9,12,15,12,10
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,10 - 24,31,29,37,26
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,26 - 49,44,41,40,50
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,50 - 99,1,2,2,0
+12,11B,Library Use (1) — Accessing computers or other technology,About how many physical books do you own?,100 - 199,100,101,100,99
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,None,1,2,0,2
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,1 - 4,4,6,2,5
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,5 - 9,9,12,9,7
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,10 - 24,21,17,22,24
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,26 - 49,62,61,65,60
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,50 - 99,2,2,3,2
+13,11C,Library Use (1) — Programs and events for children,About how many electronic books do you own?,100 - 199,99,100,101,100
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,None,2,2,0,3
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,1 - 4,4,6,1,5
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,5 - 9,12,16,10,10
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,10 - 24,32,32,37,27
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,26 - 49,48,40,49,54
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,50 - 99,2,3,2,1
+14,11D,Library Use (1) — Programs and events for adults,About how many audiobooks do you own?,100 - 199,100,99,99,100
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,None,2,2,1,0
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,1 - 4,5,4,5,5
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,5 - 9,100,100,100,99
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,10 - 24,7,6,10,6
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,26 - 49,14,14,13,15
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,50 - 99,12,13,11,13
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,100 - 199,18,19,16,19
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,200 - 499,12,11,13,12
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,500 - 999,11,11,9,12
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,"1,000 or more",10,10,10,9
+15,12,Physical Books Owned,About how many physical books were in your home when you were growing up?,Not sure,7,6,8,6
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",None,1,1,1,1
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",1 - 9,4,4,5,7
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",10 - 49,100,100,101,100
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",50 - 99,51,43,53,56
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",100 - 999,13,13,13,13
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?","1,000 or more",7,10,7,6
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",Not sure,9,13,7,7
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",-,5,6,5,5
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",-,4,4,4,3
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",-,3,3,3,3
+16,13,Electronic Books Owned,"How many physical books, on average, do you think the people you know own?",-,2,2,2,2
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",None,0,0,0,0
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",1 - 9,4,3,5,7
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",10 - 49,100,100,101,99
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",50 - 99,64,56,68,68
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",100 - 999,14,17,13,12
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?","1,000 or more",7,9,5,6
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",Not sure,5,7,4,5
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",-,3,4,2,3
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",-,2,2,1,1
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",-,1,0,1,1
+17,14,Audio Books Owned,"How many physical books, on average, do you think American adults own?",-,0,1,0,0
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,Weekly or more,2,1,2,1
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,Once or twice per month,14,13,14,18
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,A few times per year,101,100,100,102
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,Seldom,4,4,4,4
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,Never,7,6,7,8
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,Not sure,9,10,8,8
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,-,15,17,13,17
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,-,15,14,13,17
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,-,14,14,14,15
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,-,12,9,14,11
+18,15,Books Owned Growing Up,How frequently do you usually read from a book?,-,7,7,8,6
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Weekly or more,4,4,4,4
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Once or twice per month,18,18,18,17
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,A few times per year,34,34,31,36
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Seldom,14,15,13,13
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Never,9,9,9,8
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Not sure,1,2,1,1
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Not sure,21,18,23,20
+19,16,Books Owned By People You Know,How frequently do you usually buy a book?,Totals,101,100,99,99
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Weekly or more,3,2,3,2
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Once or twice per month,23,23,24,21
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,A few times per year,37,37,36,37
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Seldom,12,13,11,12
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Never,5,4,4,5
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Not sure,2,3,1,1
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Not sure,20,18,21,21
+20,17,Books Owned By Americans,How frequently do you usually get rid of some of the books you own?,Totals,102,100,100,99
+21,18,Frequency of Reading New Books,Would you say you own...,Not enough physical books,37,40,34,37
+21,18,Frequency of Reading New Books,Would you say you own...,About the right number of physical books,16,18,15,16
+21,18,Frequency of Reading New Books,Would you say you own...,Too many physical books,18,17,19,17
+21,18,Frequency of Reading New Books,Would you say you own...,Not sure,20,17,21,22
+21,18,Frequency of Reading New Books,Would you say you own...,Never,6,5,8,6
+21,18,Frequency of Reading New Books,Would you say you own...,Not sure,3,4,4,2
+21,18,Frequency of Reading New Books,Would you say you own...,Totals,100,101,101,100
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Very easily,3,3,2,4
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Somewhat easily,14,17,11,15
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not very easily,33,36,32,31
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not easily at all,31,29,34,29
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not sure,15,11,17,16
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not sure,4,3,4,4
+22,19,Frequency of Buying New Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Totals,100,99,100,99
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Very often,2,2,1,2
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Somewhat often,4,4,2,5
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Not very often,20,24,18,19
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Not at all often,41,37,41,43
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Never,28,27,31,26
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,Not sure,6,5,7,5
+23,20,Frequency of Getting Rid of Books,How often do you re-read or re-reference books that you’ve already read?,I never read books,101,99,100,100
+24,21,Right Number of Physical Books,Would you say you own...,books,28,29,32,25
+24,21,Right Number of Physical Books,Would you say you own...,physical books,43,46,38,46
+24,21,Right Number of Physical Books,Would you say you own...,Too many physical books,14,14,12,15
+24,21,Right Number of Physical Books,Would you say you own...,Not sure,15,11,18,14
+24,21,Right Number of Physical Books,Would you say you own...,Totals,100,100,100,100
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Very easily,49,49,49,48
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Somewhat easily,40,43,36,41
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not very easily,7,6,6,8
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not easily at all,2,2,4,1
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Not sure,2,1,4,1
+25,22,Ease of Finding Books,"When you are looking for a specific book in your home, how easily can you typically find it?",Totals,100,101,99,99
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Very often,9,9,10,9
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Somewhat often,28,32,28,26
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Not very often,29,30,28,31
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Not at all often,16,16,14,19
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Never,8,7,9,8
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Not sure,5,3,6,4
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,I never read books,4,3,5,3
+26,23,Frequency of Re-reading,How often do you re-read or re-reference books that you’ve already read?,Totals,99,100,100,100

@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-17T11:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "More than 20 years ago",
+          "value": 31
+        },
+        {
+          "label": "I\u2019ve never been in a physical fight",
+          "value": 31
+        }
+      ],
+      "survey_id": "091a0",
+      "survey_uuid": "62c091a0-db05-11ed-9513-9bf4d1826500",
+      "title": "How long ago was your last physical fight?",
+      "total": 30098
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-17T11:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "0",
+          "value": 38
+        },
+        {
+          "label": "2-3",
+          "value": 21
+        }
+      ],
+      "survey_id": "091a0",
+      "survey_uuid": "62c091a0-db05-11ed-9513-9bf4d1826500",
+      "title": "When you were a teenager, how many physical fights were you involved in?",
+      "total": 30098
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-04-17T11:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "0",
+          "value": 59
+        },
+        {
+          "label": "2-3",
+          "value": 11
+        }
+      ],
+      "survey_id": "091a0",
+      "survey_uuid": "62c091a0-db05-11ed-9513-9bf4d1826500",
+      "title": "When you were a teenager, how many physical fights did you start?",
+      "total": 30098
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2019-06-12T20:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Yes, I have",
+          "value": 50
+        },
+        {
+          "label": "No, I have not",
+          "value": 41
+        }
+      ],
+      "survey_id": "5b220",
+      "survey_uuid": "7f55b220-8d30-11e9-8384-b3963035e78c",
+      "title": "Have you ever been in a physical fight?",
+      "total": 1167
+    }
+  ],
+  "hits": 4,
+  "totals": {
+    "categories": {
+      "politics": 4
+    },
+    "types": {
+      "survey": 4
+    }
+  }
+}

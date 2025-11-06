@@ -2,7 +2,7 @@ import os, random, pandas as pd, json
 
 # directory containing parsed survey csvs
 csv_dir = "survey_res_csv"
-out_dir = "survey_metadata"
+out_dir = "frontend/src/survey_metadata"
 os.makedirs(out_dir, exist_ok=True)
 
 # sample a random csv file

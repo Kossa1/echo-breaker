@@ -1,0 +1,310 @@
+{
+  "data": [
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-07-24T16:49:00.465980Z",
+      "description": "Presidential Qualities | July 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30613,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Presidential Qualities | July 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Presidential_Qualities_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-06-03T20:58:42.353637Z",
+      "description": "Americans' Opinions on What Presidents Control | June 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30368,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on What Presidents Control | June 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/How_Much_Presidents_Control_poll_results_2FQbwXJ.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-05-27T18:40:42.429213Z",
+      "description": "Presidential Health and Age | May 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30333,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Presidential Health and Age | May 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/President_Age_and_Health_poll_results.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-04-25T17:27:34.573760Z",
+      "description": "Acceptability of President Actions | April 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30200,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Acceptability of President Actions | April 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Acceptability_of_President_Actions_poll_results_IGOJSui.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-07-20T22:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Very important",
+          "value": 60
+        },
+        {
+          "label": "Somewhat important",
+          "value": 26
+        }
+      ],
+      "survey_id": "8b825",
+      "survey_uuid": "1498b825-46c1-11ef-8ea1-f705dd566768",
+      "title": "How important do you think it is for presidents to be open to critical feedback from their allies and advisors?",
+      "total": 2277
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-05-16T19:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "No",
+          "value": 73
+        },
+        {
+          "label": "Yes, as a child",
+          "value": 15
+        }
+      ],
+      "survey_id": "2896e",
+      "survey_uuid": "c762896e-1380-11ef-b4a4-1f40333e0c83",
+      "title": "Have you ever wanted to be the president of the United States?",
+      "total": 5805
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-05-16T19:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "A better president",
+          "value": 49
+        },
+        {
+          "label": "A worse president",
+          "value": 20
+        }
+      ],
+      "survey_id": "2896e",
+      "survey_uuid": "c762896e-1380-11ef-b4a4-1f40333e0c83",
+      "title": "Compared to Donald Trump, do you think that you personally would be\u2026?",
+      "total": 5805
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2024-05-16T19:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "A better president",
+          "value": 47
+        },
+        {
+          "label": "A worse president",
+          "value": 18
+        }
+      ],
+      "survey_id": "2896e",
+      "survey_uuid": "c762896e-1380-11ef-b4a4-1f40333e0c83",
+      "title": "Compared to Joe Biden, do you think that you personally would be\u2026?",
+      "total": 5805
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-17T12:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Democrat",
+          "value": 41
+        },
+        {
+          "label": "Republican",
+          "value": 21
+        }
+      ],
+      "survey_id": "775b2",
+      "survey_uuid": "a3a775b2-ae2f-11ed-b350-ad13afe07a89",
+      "title": "Do you think that the first woman to be elected president in the U.S. will be a Democrat or a Republican?",
+      "total": 10235
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-17T12:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 50
+        },
+        {
+          "label": "No preference",
+          "value": 28
+        }
+      ],
+      "survey_id": "775b2",
+      "survey_uuid": "a3a775b2-ae2f-11ed-b350-ad13afe07a89",
+      "title": "Do you want the U.S. to have a woman elected as president in your lifetime?",
+      "total": 10235
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-02-17T12:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 56
+        },
+        {
+          "label": "No",
+          "value": 17
+        }
+      ],
+      "survey_id": "775b2",
+      "survey_uuid": "a3a775b2-ae2f-11ed-b350-ad13afe07a89",
+      "title": "Do you think that the United States will have a woman elected as president in your lifetime?",
+      "total": 10235
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2022-08-23T20:39:04Z",
+      "description": "Presidential Qualities | YouGov Survey Crosstabs: August 2 - 5, 2022",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 20880,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Presidential Qualities | YouGov Survey Crosstabs: August 2 - 5, 2022",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/crosstabs_presidential-qualities2.pdf"
+    }
+  ],
+  "hits": 24,
+  "totals": {
+    "categories": {
+      "economy": 1,
+      "politics": 23
+    },
+    "types": {
+      "article": 15,
+      "survey": 24
+    }
+  }
+}

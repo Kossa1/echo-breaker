@@ -1,0 +1,184 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1,Personal gun ownership,Do you or does anyone in your household own a gun?,Personally own a gun,24,13,23,37
+1,1,Personal gun ownership,Do you or does anyone in your household own a gun?,"Don’t personally own a gun, but someone in the household owns a gun",15,13,16,15
+1,1,Personal gun ownership,Do you or does anyone in your household own a gun?,No one in the household owns a gun,57,70,55,44
+1,1,Personal gun ownership,Do you or does anyone in your household own a gun?,Not sure,5,4,6,5
+1,1,Personal gun ownership,Do you or does anyone in your household own a gun?,Totals,101,100,100,101
+2,2,Strict gun laws,"In general, do you feel the laws covering the sale of handguns should be made more strict than they are now?",Make gun laws more strict,54,84,46,30
+2,2,Strict gun laws,"In general, do you feel the laws covering the sale of handguns should be made more strict than they are now?",No change,25,10,25,42
+2,2,Strict gun laws,"In general, do you feel the laws covering the sale of handguns should be made more strict than they are now?",Make gun laws less strict,14,1,16,25
+2,2,Strict gun laws,"In general, do you feel the laws covering the sale of handguns should be made more strict than they are now?",Not sure,7,5,13,3
+2,2,Strict gun laws,"In general, do you feel the laws covering the sale of handguns should be made more strict than they are now?",Totals,100,100,100,100
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,"Yes, me",1,2,2,1
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,"Yes, a family member",1,1,1,2
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,"Yes, a friend",3,4,0,3
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,"Yes, an acquaintance",3,3,1,4
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,No,83,84,83,82
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,Not sure,8,7,10,9
+3,3,Know Someone in Militia,Do you personally know anyone who is a member of a militia group? Select all that apply.,Prefer not to say,2,1,2,3
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,Right-wing extremism,35,60,30,12
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,Left-wing extremism,19,16,21,19
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,Christian extremism,17,6,19,26
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,Muslim extremism,17,5,15,32
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,White-supremacist extremism,12,12,15,10
+4,4A,Concern About Extremism — Right-wing extremism,How concerned are you about the following in the U.S.?,Racial-minority extremism,100,99,100,99
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,There will be a civil war,34,17,30,56
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,democracy,22,22,21,22
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,fascist dictatorship,20,28,21,9
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,communist dictatorship,15,22,16,7
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,global superpower,9,10,12,6
+5,4B,Concern About Extremism — Left-wing extremism,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,states,100,99,100,100
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",A good thing,28,47,25,10
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Neither good nor bad,19,24,21,10
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",A bad thing,18,16,15,23
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Not sure,27,7,28,47
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Prefer not to say,9,6,10,10
+6,4C,Concern About Extremism — Christian extremism,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Totals,101,100,99,100
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Very similar,28,21,25,37
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Somewhat similar,27,31,21,29
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Somewhat different,23,29,22,19
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Very different,14,14,18,9
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Not sure,8,5,13,6
+7,4D,Concern About Extremism — Muslim extremism,"Iftherewereacivilwarinthiscountrywithinthenext10years,howsimilartoordifferentfromthefirstcivilwar",Totals,100,100,99,100
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Very likely,42,65,37,22
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Somewhat likely,21,20,22,23
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Not very likely,13,8,14,19
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Not likely at all,17,4,19,29
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Not sure,6,3,9,7
+8,4E,Concern About Extremism — White-supremacist extremism,"Ifa largenumber ofcitizens wereto takeup armsagainst the government, howlikely doyou thinkit is thatlaw",Totals,99,100,101,100
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,"Yes, me",27,23,24,36
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,"Yes, a family member",25,24,25,27
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,"Yes, a friend",20,24,19,18
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,"Yes, an acquaintance",17,20,19,14
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,No,9,9,14,6
+9,4F,Concern About Extremism — Racial-minority extremism,Do you personally know anyone who you think might take up arms against the government in certain circum-,Not sure,98,100,101,101
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,15,10,16,18
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,22,20,20,27
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,25,31,25,20
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,22,24,20,22
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,14,17,11
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,2,1,2
+10,5A,Likelihood of Events in 10 Years — There will be a civil war,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,101,99,100
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,15,8,17,20
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,24,27,20,24
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,23,25,25,19
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,21,24,16,22
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,16,15,21,13
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,0,2,2
+11,5B,Likelihood of Events in 10 Years — The U.S. will no longer be a democracy,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,99,101,100
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,10,7,9,15
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,17,20,18,13
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,26,28,23,26
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,28,28,25,31
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,17,14,21,14
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,2,4,1
+12,5C,Likelihood of Events in 10 Years — The U.S. will become a fascist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,99,100,100
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,9,9,7,11
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,14,8,16,19
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,21,23,14,26
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,41,50,40,31
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,8,21,11
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,1,2,3
+13,5D,Likelihood of Events in 10 Years — The U.S. will become a communist dictatorship,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,101,99,100,101
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,21,14,19,29
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,25,26,22,28
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,24,27,26,19
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,14,17,12,13
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,15,15,18,11
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,1,2,1
+14,5E,Likelihood of Events in 10 Years — The U.S. will no longer be a global superpower,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,100,99,101
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,9,6,11,11
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,18,17,18,19
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,31,33,31,30
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,26,28,20,29
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,15,15,19,10
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,2,1,2
+15,5F,Likelihood of Events in 10 Years — There will be a civil war between red and blue states,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,101,101,100,101
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,13,11,11,18
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,24,28,23,22
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,26,27,28,22
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,23,23,20,26
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,12,10,17,10
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,0,2,2
+16,5G,Likelihood of Events in 10 Years — There will be a civil war between people who are Republicans and Democrats,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,99,99,101,100
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,10,8,10,11
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,19,17,19,20
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,32,32,29,36
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,24,28,21,22
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,13,18,11
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,1,3,1
+17,5H,Likelihood of Events in 10 Years — There will be a civil war between people of different races,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,101,99,100,101
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,10,11,13,6
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,16,14,16,17
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,31,33,31,30
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,27,28,19,35
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,13,19,10
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,2,1,1
+18,5I,Likelihood of Events in 10 Years — There will be a civil war between the rich and poor,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,99,101,99,99
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,7,7,7,8
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,13,11,13,15
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,31,32,27,33
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,34,37,32,34
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,13,18,10
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,0,3,1
+19,5J,Likelihood of Events in 10 Years — There will be a civil war between people living in cities and people in rural areas,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,100,100,101
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,20,10,22,29
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,31,23,32,38
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,23,37,21,12
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,12,17,9,11
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,13,14,14,10
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,1,3,1
+20,5K,Likelihood of Events in 10 Years — There will be a total economic collapse,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,102,101,101
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,15,8,15,23
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,27,23,27,33
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,24,28,25,20
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,18,27,13,13
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,14,15,17,10
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,0,2,1
+21,5L,Likelihood of Events in 10 Years — There will be a total breakdown of law and order,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,99,101,99,100
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,13,8,15,15
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,19,12,20,26
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,28,28,32,24
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,26,34,19,24
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,12,14,13,10
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,2,2,1
+22,5M,Likelihood of Events in 10 Years — The U.S. will be invaded by a foreign country,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,98,101,100
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,11,10,9,12
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,17,16,17,19
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,27,25,29,27
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,29,35,24,27
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,16,14,19,14
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,1,1,2,1
+23,5N,Likelihood of Events in 10 Years — States will secede from the U.S.,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,101,101,100,100
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Very likely,13,7,12,20
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Somewhat likely,15,11,17,18
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not very likely,26,25,26,28
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not likely at all,32,44,28,24
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Not sure,12,11,15,10
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Prefer not to say,2,2,1,1
+24,5O,Likelihood of Events in 10 Years — The federal government will confiscate citizens’ firearms,How likely do you think it is that the following will occur in the U.S. in the next 10 years?,Totals,100,100,99,101
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",A good thing,5,5,4,6
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Neither good nor bad,7,6,7,7
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",A bad thing,73,81,69,68
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Not sure,13,9,17,13
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Prefer not to say,2,0,2,6
+25,6,Civil War Good or Bad,"If there were a civil war in this country within the next 10 years, do you think that would overall be ...?",Totals,100,101,99,100
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Very similar,4,5,4,3
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Somewhat similar,12,16,8,13
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Somewhat different,16,16,14,18
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Very different,54,49,59,54
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Not sure,14,14,16,12
+26,7,Comparison of Past and Future Civil War,"If there were a civil war in this country within the next 10 years, how similar to or different from the first civil war that occurred in the 1860s do you think it",Totals,100,100,101,100
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Very likely,36,45,37,26
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Somewhat likely,25,29,21,26
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Not very likely,13,9,14,16
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Not likely at all,8,6,7,11
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Not sure,18,11,20,22
+27,8,Power of Military and Law Enforcement,"If a large number of citizens were to take up arms against the government, how likely do you think it is that law enforcement and the military would be able",Totals,100,100,99,101
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Yes me,4,3,4,6
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Yes a family member,6,4,5,7
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Yes a friend,6,4,6,9
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Yes an acquaintance,8,8,7,8
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,No,63,67,60,63
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Not sure,16,16,19,14
+28,9,Know Someone Willing to Fight Government,Do you personally know anyone who you think might take up arms against the government in certain circumstances? Select all that apply.,Prefer not to say,6,3,6,9

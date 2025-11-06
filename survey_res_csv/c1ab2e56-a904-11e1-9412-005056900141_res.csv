@@ -1,0 +1,331 @@
+qnum,orig_label,question,prompt,response,total,dem,ind,rep
+1,1,Sexual Assault Rate,"Compared to 20 years ago, do you think the rate of sexual assault in the U.S. has...?",Increased,51,49,44,61
+1,1,Sexual Assault Rate,"Compared to 20 years ago, do you think the rate of sexual assault in the U.S. has...?",Stayed the same,20,21,23,17
+1,1,Sexual Assault Rate,"Compared to 20 years ago, do you think the rate of sexual assault in the U.S. has...?",Decreased,9,9,9,10
+1,1,Sexual Assault Rate,"Compared to 20 years ago, do you think the rate of sexual assault in the U.S. has...?",Not sure,19,21,23,12
+1,1,Sexual Assault Rate,"Compared to 20 years ago, do you think the rate of sexual assault in the U.S. has...?",Totals,99,100,99,100
+2,2A,Know Victim or Accused — Been sexually assaulted,Do you personally know anyone who has ever...?,Been sexually assaulted,45,47,49,40
+2,2A,Know Victim or Accused — Been sexually assaulted,Do you personally know anyone who has ever...?,Been accused of sexual assault,43,42,37,51
+2,2A,Know Victim or Accused — Been sexually assaulted,Do you personally know anyone who has ever...?,Not sure,10,10,11,7
+2,2A,Know Victim or Accused — Been sexually assaulted,Do you personally know anyone who has ever...?,Prefer not to say,2,1,3,1
+2,2A,Know Victim or Accused — Been sexually assaulted,Do you personally know anyone who has ever...?,Totals,100,100,100,99
+3,2B,Know Victim or Accused — Been accused of sexual assault,Do you personally know anyone who has ever...?,Reported being sexually assaulted to the police,21,22,21,21
+3,2B,Know Victim or Accused — Been accused of sexual assault,Do you personally know anyone who has ever...?,convicted,70,71,68,73
+3,2B,Know Victim or Accused — Been accused of sexual assault,Do you personally know anyone who has ever...?,Not sure,7,7,10,5
+3,2B,Know Victim or Accused — Been accused of sexual assault,Do you personally know anyone who has ever...?,Prefer not to say,1,0,1,1
+3,2B,Know Victim or Accused — Been accused of sexual assault,Do you personally know anyone who has ever...?,Totals,99,100,100,100
+4,3A,Know Victim Experiences — Reported being sexually assaulted to the police,Do you personally know anyone who has ever...?,Been charged with sexual assault,17,18,18,16
+4,3A,Know Victim Experiences — Reported being sexually assaulted to the police,Do you personally know anyone who has ever...?,Been convicted of sexual assault,69,66,64,78
+4,3A,Know Victim Experiences — Reported being sexually assaulted to the police,Do you personally know anyone who has ever...?,Not sure,13,16,17,6
+4,3A,Know Victim Experiences — Reported being sexually assaulted to the police,Do you personally know anyone who has ever...?,Prefer not to say,1,1,1,1
+4,3A,Know Victim Experiences — Reported being sexually assaulted to the police,Do you personally know anyone who has ever...?,Totals,100,101,100,101
+5,3B,Know Victim Experiences — Been sexually assaulted and the perpetrator was convicted,What share of women in the U.S. do you think have ever been sexually assaulted?,0% –,10,11,12,9
+5,3B,Know Victim Experiences — Been sexually assaulted and the perpetrator was convicted,What share of women in the U.S. do you think have ever been sexually assaulted?,1,79,79,73,85
+5,3B,Know Victim Experiences — Been sexually assaulted and the perpetrator was convicted,What share of women in the U.S. do you think have ever been sexually assaulted?,2,9,9,13,5
+5,3B,Know Victim Experiences — Been sexually assaulted and the perpetrator was convicted,What share of women in the U.S. do you think have ever been sexually assaulted?,3,1,1,2,1
+5,3B,Know Victim Experiences — Been sexually assaulted and the perpetrator was convicted,What share of women in the U.S. do you think have ever been sexually assaulted?,4,99,100,100,100
+6,4A,Know Accused Experiences — Been charged with sexual assault,What share of men in the U.S. do you think have ever been sexually assaulted?,0% –,12,11,14,13
+6,4A,Know Accused Experiences — Been charged with sexual assault,What share of men in the U.S. do you think have ever been sexually assaulted?,1,82,84,79,84
+6,4A,Know Accused Experiences — Been charged with sexual assault,What share of men in the U.S. do you think have ever been sexually assaulted?,2,4,4,6,2
+6,4A,Know Accused Experiences — Been charged with sexual assault,What share of men in the U.S. do you think have ever been sexually assaulted?,3,1,1,1,2
+6,4A,Know Accused Experiences — Been charged with sexual assault,What share of men in the U.S. do you think have ever been sexually assaulted?,4,99,100,100,101
+7,4B,Know Accused Experiences — Been convicted of sexual assault,What share of women in the U.S. do you think have ever sexually assaulted someone?,0% –,10,10,13,7
+7,4B,Know Accused Experiences — Been convicted of sexual assault,What share of women in the U.S. do you think have ever sexually assaulted someone?,1,84,84,80,87
+7,4B,Know Accused Experiences — Been convicted of sexual assault,What share of women in the U.S. do you think have ever sexually assaulted someone?,2,5,5,6,5
+7,4B,Know Accused Experiences — Been convicted of sexual assault,What share of women in the U.S. do you think have ever sexually assaulted someone?,3,1,1,1,0
+7,4B,Know Accused Experiences — Been convicted of sexual assault,What share of women in the U.S. do you think have ever sexually assaulted someone?,4,100,100,100,99
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,0% –,3,1,4,6
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,1,11,12,10,16
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,2,100,101,100,101
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,3,3,3,3,3
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,4,8,7,7,10
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,5,15,11,16,20
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,6,15,12,17,16
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,7,11,13,8,12
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,8,9,10,9,8
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,9,11,10,10,13
+8,5,Share of U.S. Women Assaulted,What share of men in the U.S. do you think have ever sexually assaulted someone?,Not sure,9,12,9,6
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,0% –,1,1,1,3
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,1,13,14,13,19
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,2,101,99,101,100
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,3,16,13,18,18
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,4,26,29,20,29
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,5,14,15,11,15
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,6,13,12,13,13
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,7,7,9,8,5
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,8,6,5,8,4
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,9,3,3,2,3
+9,6,Share of U.S. Men Assaulted,WhatshareofpeopleintheU.S.whohavecommittedsexualassaultdoyouthinkareevercriminallyconvicted,Not sure,2,2,2,1
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,The number of people who are reluctant to report being a victim of rape or sexual assault,1,1,0,3
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,The number of people who falsely report being a victim of rape or sexual assault,14,15,13,21
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,Not sure,100,100,100,100
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,29,29,25,33
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,22,25,19,23
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,15,15,15,14
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,8,7,8,8
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,3,2,4,4
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,4,3,5,3
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,1,1,1,2
+10,7,Share of U.S. Women Assault Someone,Which number do you think is larger?,–,2,4,1,1
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,,1,1,1,3
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,in sex,12,13,12,17
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,Not sure,99,100,100,100
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,8,6,9,10
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,18,16,18,20
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,17,16,15,20
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,12,12,16,9
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,10,14,7,10
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,8,9,6,9
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,6,7,5,7
+11,8,Share of U.S. Men Assault Someone,Say that one person tries to initiate a sexual encounter with another person. Which comes closer to your,–,3,4,3,3
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Prisons and jails,1,0,1,1
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,The entertainment industry,14,15,13,22
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Bars and clubs,101,98,102,101
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,College campuses,17,16,16,18
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,The military,18,23,14,16
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Families,16,18,15,16
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Religious institutions,13,11,12,14
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Professional sports,7,6,8,8
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Workplaces,7,5,9,9
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,Public transportation,2,1,3,2
+12,9,Share of U.S. Sexual Assaulters Convicted,How common do you think sexual assault is in the following contexts?,–,3,5,1,3
+13,10,Comparison of Reluctance vs. False Reports,Which do you think is a bigger problem?,Sexual assaults that go unpunished,100,100,100,100
+13,10,Comparison of Reluctance vs. False Reports,Which do you think is a bigger problem?,False accusations of sexual assault,79,87,73,77
+13,10,Comparison of Reluctance vs. False Reports,Which do you think is a bigger problem?,They are equally big problems,10,7,11,14
+13,10,Comparison of Reluctance vs. False Reports,Which do you think is a bigger problem?,Neither one is a problem,11,6,16,10
+13,10,Comparison of Reluctance vs. False Reports,Which do you think is a bigger problem?,Not sure,100,100,100,101
+14,11,Consent Responsibility,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Protecting the rights of the accused,15,15,15,23
+14,11,Consent Responsibility,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Protecting the rights of the accuser,100,101,101,100
+14,11,Consent Responsibility,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Both equally,50,61,49,40
+14,11,Consent Responsibility,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Not sure,35,29,31,46
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Non-profit organizations that provide rape crisis counseling,60,56,60,63
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Hospitals and medical providers,27,33,24,25
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Police and law enforcement,5,6,6,4
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Employers and HR departments,1,1,1,1
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Colleges and universities,7,4,9,7
+15,12A,Frequency of Sexual Assault in Contexts — Prisons and jails,"How much do you trust each of the following in your state to properly handle someone reporting a rape,",Totals,100,100,100,100
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",Sean ’Diddy’ Combs,51,50,48,55
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",Jeffrey Epstein,36,39,34,34
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",Bill Cosby,6,6,6,5
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",Harvey Weinstein,2,1,3,1
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",R. Kelly,6,3,9,6
+16,12B,Frequency of Sexual Assault in Contexts — The entertainment industry,"As far as you know, are any sexual assault allegations against the following person true?",Bill Clinton,101,99,100,101
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Touching someone’s genitals without their consent,44,47,41,43
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Kissing someone without their consent,43,42,41,45
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Touching someone’s legs or arms without their consent,7,6,10,4
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Touching someone’s face without their consent,1,2,0,1
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Not sure,6,3,8,7
+17,12C,Frequency of Sexual Assault in Contexts — Bars and clubs,Do you think that the following acts are or are not sexual assault?,Totals,101,100,100,100
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Touching someone’s genitals without their consent,38,42,32,38
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Kissing someone without their consent,45,44,48,44
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Touching someone’s legs or arms without their consent,8,6,9,10
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Touching someone’s face without their consent,2,3,3,1
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Not sure,6,4,8,7
+18,12D,Frequency of Sexual Assault in Contexts — College campuses,Do you think that the following acts should or should not be considered a crime?,Totals,99,99,100,100
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Very favorable,21,27,22,14
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Somewhat favorable,41,44,39,39
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Somewhat unfavorable,24,19,24,30
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Very unfavorable,5,4,3,8
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Not sure,9,6,12,10
+19,12E,Frequency of Sexual Assault in Contexts — The military,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Totals,100,100,100,101
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Has gone too far,20,30,13,17
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Has been about right,35,35,38,32
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Has not gone far enough,31,25,30,39
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Not sure,5,5,6,5
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Not sure,8,5,13,8
+20,12F,Frequency of Sexual Assault in Contexts — Families,Do you think the #MeToo movement against sexual harassment:,Totals,99,100,100,101
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Had a positive effect,19,28,18,11
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Had a negative effect,35,37,36,32
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Didn’t have much of an effect either way,31,24,31,37
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Not sure,8,6,5,12
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Not sure,7,5,9,8
+21,12G,Frequency of Sexual Assault in Contexts — Religious institutions,"How would you say the #MeToo movement has affected you personally, if at all?",Totals,100,100,99,100
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Very common,17,20,16,15
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Somewhat common,38,40,36,38
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Not very common,30,28,28,33
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Not at all common,4,4,4,3
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Not sure,11,7,16,11
+22,12H,Frequency of Sexual Assault in Contexts — Professional sports,How common do you think sexual assault is in the following contexts?,Totals,100,99,100,100
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Very common,15,23,10,11
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Somewhat common,46,47,42,50
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Not very common,29,26,34,28
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Not at all common,4,1,6,4
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Not sure,6,3,8,6
+23,12I,Frequency of Sexual Assault in Contexts — Workplaces,How common do you think sexual assault is in the following contexts?,Totals,100,100,100,99
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Very common,10,13,8,8
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Somewhat common,34,39,29,34
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Not very common,39,33,42,43
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Not at all common,7,10,6,5
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Not sure,10,5,15,11
+24,12J,Frequency of Sexual Assault in Contexts — Public transportation,How common do you think sexual assault is in the following contexts?,Totals,100,100,100,101
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,unpunished,36,49,31,28
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,sexual assault,6,3,5,9
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,problems,54,47,55,59
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,Neither one is a problem,0,0,1,1
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,Not sure,4,2,8,2
+25,13,Bigger Sexual Assault Problem,Which do you think is a bigger problem?,Totals,100,101,100,99
+26,14,Legal System Emphasis,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",the accused,26,29,20,29
+26,14,Legal System Emphasis,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",the accuser,27,25,25,31
+26,14,Legal System Emphasis,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Both equally,31,30,34,29
+26,14,Legal System Emphasis,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Not sure,16,16,21,11
+26,14,Legal System Emphasis,"In cases of alleged sexual assault, which one do you think the legal system places the most emphasis on?",Totals,100,100,100,100
+27,15A,Trust in Institutions to Handle Sexual Assault — Non-profit organizations that provide rape crisis counseling,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A lot,53,61,50,47
+27,15A,Trust in Institutions to Handle Sexual Assault — Non-profit organizations that provide rape crisis counseling,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A little,38,33,40,43
+27,15A,Trust in Institutions to Handle Sexual Assault — Non-profit organizations that provide rape crisis counseling,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Not at all,9,6,10,11
+27,15A,Trust in Institutions to Handle Sexual Assault — Non-profit organizations that provide rape crisis counseling,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Totals,100,100,100,101
+28,15B,Trust in Institutions to Handle Sexual Assault — Hospitals and medical providers,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A lot,49,51,44,51
+28,15B,Trust in Institutions to Handle Sexual Assault — Hospitals and medical providers,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A little,45,43,48,43
+28,15B,Trust in Institutions to Handle Sexual Assault — Hospitals and medical providers,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Not at all,6,6,8,5
+28,15B,Trust in Institutions to Handle Sexual Assault — Hospitals and medical providers,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Totals,100,100,100,99
+29,15C,Trust in Institutions to Handle Sexual Assault — Police and law enforcement,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A lot,37,32,31,50
+29,15C,Trust in Institutions to Handle Sexual Assault — Police and law enforcement,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A little,51,54,55,42
+29,15C,Trust in Institutions to Handle Sexual Assault — Police and law enforcement,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Not at all,12,14,14,8
+29,15C,Trust in Institutions to Handle Sexual Assault — Police and law enforcement,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Totals,100,100,100,100
+30,15D,Trust in Institutions to Handle Sexual Assault — Employers and HR departments,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A lot,19,23,16,17
+30,15D,Trust in Institutions to Handle Sexual Assault — Employers and HR departments,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A little,61,61,58,63
+30,15D,Trust in Institutions to Handle Sexual Assault — Employers and HR departments,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Not at all,21,16,26,20
+30,15D,Trust in Institutions to Handle Sexual Assault — Employers and HR departments,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Totals,101,100,100,100
+31,15E,Trust in Institutions to Handle Sexual Assault — Colleges and universities,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A lot,18,23,13,17
+31,15E,Trust in Institutions to Handle Sexual Assault — Colleges and universities,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",A little,58,56,63,54
+31,15E,Trust in Institutions to Handle Sexual Assault — Colleges and universities,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Not at all,25,22,24,29
+31,15E,Trust in Institutions to Handle Sexual Assault — Colleges and universities,"How much do you trust each of the following in your state to properly handle someone reporting a rape, sexual assault, or harassment?",Totals,101,101,100,100
+32,16A,Sexual Assault Allegations — Sean ’Diddy’ Combs,"As far as you know, are any sexual assault allegations against the following person true?",Yes,74,79,67,76
+32,16A,Sexual Assault Allegations — Sean ’Diddy’ Combs,"As far as you know, are any sexual assault allegations against the following person true?",No,3,4,4,3
+32,16A,Sexual Assault Allegations — Sean ’Diddy’ Combs,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,22,16,29,21
+32,16A,Sexual Assault Allegations — Sean ’Diddy’ Combs,"As far as you know, are any sexual assault allegations against the following person true?",Totals,99,99,100,100
+33,16B,Sexual Assault Allegations — Jeffrey Epstein,"As far as you know, are any sexual assault allegations against the following person true?",Yes,73,78,69,72
+33,16B,Sexual Assault Allegations — Jeffrey Epstein,"As far as you know, are any sexual assault allegations against the following person true?",No,5,5,3,7
+33,16B,Sexual Assault Allegations — Jeffrey Epstein,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,22,17,28,21
+33,16B,Sexual Assault Allegations — Jeffrey Epstein,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+34,16C,Sexual Assault Allegations — Bill Cosby,"As far as you know, are any sexual assault allegations against the following person true?",Yes,67,74,62,65
+34,16C,Sexual Assault Allegations — Bill Cosby,"As far as you know, are any sexual assault allegations against the following person true?",No,8,8,8,8
+34,16C,Sexual Assault Allegations — Bill Cosby,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,25,18,30,27
+34,16C,Sexual Assault Allegations — Bill Cosby,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+35,16D,Sexual Assault Allegations — Harvey Weinstein,"As far as you know, are any sexual assault allegations against the following person true?",Yes,67,74,60,65
+35,16D,Sexual Assault Allegations — Harvey Weinstein,"As far as you know, are any sexual assault allegations against the following person true?",No,7,7,7,6
+35,16D,Sexual Assault Allegations — Harvey Weinstein,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,26,18,32,28
+35,16D,Sexual Assault Allegations — Harvey Weinstein,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,99,99,99
+36,16E,Sexual Assault Allegations — R. Kelly,"As far as you know, are any sexual assault allegations against the following person true?",Yes,61,71,56,55
+36,16E,Sexual Assault Allegations — R. Kelly,"As far as you know, are any sexual assault allegations against the following person true?",No,6,7,5,6
+36,16E,Sexual Assault Allegations — R. Kelly,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,33,22,39,39
+36,16E,Sexual Assault Allegations — R. Kelly,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+37,16F,Sexual Assault Allegations — Bill Clinton,"As far as you know, are any sexual assault allegations against the following person true?",Yes,56,49,53,66
+37,16F,Sexual Assault Allegations — Bill Clinton,"As far as you know, are any sexual assault allegations against the following person true?",No,14,22,11,9
+37,16F,Sexual Assault Allegations — Bill Clinton,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,30,29,36,24
+37,16F,Sexual Assault Allegations — Bill Clinton,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,99
+38,16G,Sexual Assault Allegations — Donald Trump,"As far as you know, are any sexual assault allegations against the following person true?",Yes,51,81,45,24
+38,16G,Sexual Assault Allegations — Donald Trump,"As far as you know, are any sexual assault allegations against the following person true?",No,25,9,22,46
+38,16G,Sexual Assault Allegations — Donald Trump,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,25,10,33,31
+38,16G,Sexual Assault Allegations — Donald Trump,"As far as you know, are any sexual assault allegations against the following person true?",Totals,101,100,100,101
+39,16H,Sexual Assault Allegations — Hugh Hefner,"As far as you know, are any sexual assault allegations against the following person true?",Yes,46,49,38,50
+39,16H,Sexual Assault Allegations — Hugh Hefner,"As far as you know, are any sexual assault allegations against the following person true?",No,11,14,8,11
+39,16H,Sexual Assault Allegations — Hugh Hefner,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,43,37,53,39
+39,16H,Sexual Assault Allegations — Hugh Hefner,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,99,100
+40,16I,Sexual Assault Allegations — Woody Allen,"As far as you know, are any sexual assault allegations against the following person true?",Yes,44,50,39,45
+40,16I,Sexual Assault Allegations — Woody Allen,"As far as you know, are any sexual assault allegations against the following person true?",No,11,15,8,10
+40,16I,Sexual Assault Allegations — Woody Allen,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,45,35,53,45
+40,16I,Sexual Assault Allegations — Woody Allen,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+41,16J,Sexual Assault Allegations — Prince Andrew,"As far as you know, are any sexual assault allegations against the following person true?",Yes,42,47,38,39
+41,16J,Sexual Assault Allegations — Prince Andrew,"As far as you know, are any sexual assault allegations against the following person true?",No,10,12,6,13
+41,16J,Sexual Assault Allegations — Prince Andrew,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,48,41,56,47
+41,16J,Sexual Assault Allegations — Prince Andrew,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,99
+42,16K,Sexual Assault Allegations — Michael Jackson,"As far as you know, are any sexual assault allegations against the following person true?",Yes,39,41,33,44
+42,16K,Sexual Assault Allegations — Michael Jackson,"As far as you know, are any sexual assault allegations against the following person true?",No,22,21,23,21
+42,16K,Sexual Assault Allegations — Michael Jackson,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,39,38,44,35
+42,16K,Sexual Assault Allegations — Michael Jackson,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+43,16L,Sexual Assault Allegations — Mike Tyson,"As far as you know, are any sexual assault allegations against the following person true?",Yes,39,46,34,36
+43,16L,Sexual Assault Allegations — Mike Tyson,"As far as you know, are any sexual assault allegations against the following person true?",No,13,12,13,15
+43,16L,Sexual Assault Allegations — Mike Tyson,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,48,42,53,49
+43,16L,Sexual Assault Allegations — Mike Tyson,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+44,16M,Sexual Assault Allegations — Kevin Spacey,"As far as you know, are any sexual assault allegations against the following person true?",Yes,37,43,31,37
+44,16M,Sexual Assault Allegations — Kevin Spacey,"As far as you know, are any sexual assault allegations against the following person true?",No,11,11,10,12
+44,16M,Sexual Assault Allegations — Kevin Spacey,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,52,46,58,51
+44,16M,Sexual Assault Allegations — Kevin Spacey,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,99,100
+45,16N,Sexual Assault Allegations — Matt Lauer,"As far as you know, are any sexual assault allegations against the following person true?",Yes,33,34,25,39
+45,16N,Sexual Assault Allegations — Matt Lauer,"As far as you know, are any sexual assault allegations against the following person true?",No,8,10,7,8
+45,16N,Sexual Assault Allegations — Matt Lauer,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,59,55,68,53
+45,16N,Sexual Assault Allegations — Matt Lauer,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,99,100,100
+46,16O,Sexual Assault Allegations — Marilyn Manson,"As far as you know, are any sexual assault allegations against the following person true?",Yes,27,34,22,25
+46,16O,Sexual Assault Allegations — Marilyn Manson,"As far as you know, are any sexual assault allegations against the following person true?",No,11,8,12,13
+46,16O,Sexual Assault Allegations — Marilyn Manson,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,62,58,66,62
+46,16O,Sexual Assault Allegations — Marilyn Manson,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+47,16P,Sexual Assault Allegations — Andrew Tate,"As far as you know, are any sexual assault allegations against the following person true?",Yes,26,37,23,18
+47,16P,Sexual Assault Allegations — Andrew Tate,"As far as you know, are any sexual assault allegations against the following person true?",No,10,12,8,10
+47,16P,Sexual Assault Allegations — Andrew Tate,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,64,51,69,72
+47,16P,Sexual Assault Allegations — Andrew Tate,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+48,16Q,Sexual Assault Allegations — Russell Brand,"As far as you know, are any sexual assault allegations against the following person true?",Yes,25,36,22,15
+48,16Q,Sexual Assault Allegations — Russell Brand,"As far as you know, are any sexual assault allegations against the following person true?",No,12,8,8,20
+48,16Q,Sexual Assault Allegations — Russell Brand,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,64,56,69,65
+48,16Q,Sexual Assault Allegations — Russell Brand,"As far as you know, are any sexual assault allegations against the following person true?",Totals,101,100,99,100
+49,16R,Sexual Assault Allegations — Brett Kavanaugh,"As far as you know, are any sexual assault allegations against the following person true?",Yes,24,42,17,12
+49,16R,Sexual Assault Allegations — Brett Kavanaugh,"As far as you know, are any sexual assault allegations against the following person true?",No,21,9,18,38
+49,16R,Sexual Assault Allegations — Brett Kavanaugh,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,55,49,66,50
+49,16R,Sexual Assault Allegations — Brett Kavanaugh,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,101,100
+50,16S,Sexual Assault Allegations — Joe Biden,"As far as you know, are any sexual assault allegations against the following person true?",Yes,24,8,19,45
+50,16S,Sexual Assault Allegations — Joe Biden,"As far as you know, are any sexual assault allegations against the following person true?",No,37,62,31,17
+50,16S,Sexual Assault Allegations — Joe Biden,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,39,30,50,38
+50,16S,Sexual Assault Allegations — Joe Biden,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+51,16T,Sexual Assault Allegations — Vince McMahon,"As far as you know, are any sexual assault allegations against the following person true?",Yes,24,30,22,19
+51,16T,Sexual Assault Allegations — Vince McMahon,"As far as you know, are any sexual assault allegations against the following person true?",No,9,6,7,13
+51,16T,Sexual Assault Allegations — Vince McMahon,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,68,64,71,68
+51,16T,Sexual Assault Allegations — Vince McMahon,"As far as you know, are any sexual assault allegations against the following person true?",Totals,101,100,100,100
+52,16U,Sexual Assault Allegations — Conor McGregor,"As far as you know, are any sexual assault allegations against the following person true?",Yes,21,29,18,16
+52,16U,Sexual Assault Allegations — Conor McGregor,"As far as you know, are any sexual assault allegations against the following person true?",No,10,7,9,14
+52,16U,Sexual Assault Allegations — Conor McGregor,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,69,64,73,70
+52,16U,Sexual Assault Allegations — Conor McGregor,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+53,16V,Sexual Assault Allegations — Kobe Bryant,"As far as you know, are any sexual assault allegations against the following person true?",Yes,21,23,17,22
+53,16V,Sexual Assault Allegations — Kobe Bryant,"As far as you know, are any sexual assault allegations against the following person true?",No,24,24,22,28
+53,16V,Sexual Assault Allegations — Kobe Bryant,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,55,53,61,50
+53,16V,Sexual Assault Allegations — Kobe Bryant,"As far as you know, are any sexual assault allegations against the following person true?",Totals,100,100,100,100
+54,16W,Sexual Assault Allegations — Johnny Depp,"As far as you know, are any sexual assault allegations against the following person true?",Yes,16,20,11,17
+54,16W,Sexual Assault Allegations — Johnny Depp,"As far as you know, are any sexual assault allegations against the following person true?",No,35,29,36,39
+54,16W,Sexual Assault Allegations — Johnny Depp,"As far as you know, are any sexual assault allegations against the following person true?",Not sure,50,51,53,44
+54,16W,Sexual Assault Allegations — Johnny Depp,"As far as you know, are any sexual assault allegations against the following person true?",Totals,101,100,100,100
+55,17A,Sexual Assault Acts — Touching someone’s genitals without their consent,Do you think that the following acts are or are not sexual assault?,Sexual assault,96,95,96,95
+55,17A,Sexual Assault Acts — Touching someone’s genitals without their consent,Do you think that the following acts are or are not sexual assault?,Not sexual assault,2,2,1,2
+55,17A,Sexual Assault Acts — Touching someone’s genitals without their consent,Do you think that the following acts are or are not sexual assault?,Not sure,3,3,3,3
+55,17A,Sexual Assault Acts — Touching someone’s genitals without their consent,Do you think that the following acts are or are not sexual assault?,Totals,101,100,100,100
+56,17B,Sexual Assault Acts — Kissing someone without their consent,Do you think that the following acts are or are not sexual assault?,Sexual assault,67,73,67,61
+56,17B,Sexual Assault Acts — Kissing someone without their consent,Do you think that the following acts are or are not sexual assault?,Not sexual assault,19,14,16,27
+56,17B,Sexual Assault Acts — Kissing someone without their consent,Do you think that the following acts are or are not sexual assault?,Not sure,14,13,17,12
+56,17B,Sexual Assault Acts — Kissing someone without their consent,Do you think that the following acts are or are not sexual assault?,Totals,100,100,100,100
+57,17C,Sexual Assault Acts — Touching someone’s legs or arms without their consent,Do you think that the following acts are or are not sexual assault?,Sexual assault,34,45,29,28
+57,17C,Sexual Assault Acts — Touching someone’s legs or arms without their consent,Do you think that the following acts are or are not sexual assault?,Not sexual assault,41,33,44,48
+57,17C,Sexual Assault Acts — Touching someone’s legs or arms without their consent,Do you think that the following acts are or are not sexual assault?,Not sure,24,22,28,23
+57,17C,Sexual Assault Acts — Touching someone’s legs or arms without their consent,Do you think that the following acts are or are not sexual assault?,Totals,99,100,101,99
+58,17D,Sexual Assault Acts — Touching someone’s face without their consent,Do you think that the following acts are or are not sexual assault?,Sexual assault,18,23,16,15
+58,17D,Sexual Assault Acts — Touching someone’s face without their consent,Do you think that the following acts are or are not sexual assault?,Not sexual assault,59,50,60,69
+58,17D,Sexual Assault Acts — Touching someone’s face without their consent,Do you think that the following acts are or are not sexual assault?,Not sure,23,28,25,15
+58,17D,Sexual Assault Acts — Touching someone’s face without their consent,Do you think that the following acts are or are not sexual assault?,Totals,100,101,101,99
+59,18A,Sexual Assault Crimes — Touching someone’s genitals without their consent,Do you think that the following acts should or should not be considered a crime?,Crime,93,94,94,92
+59,18A,Sexual Assault Crimes — Touching someone’s genitals without their consent,Do you think that the following acts should or should not be considered a crime?,Not a crime,2,4,1,2
+59,18A,Sexual Assault Crimes — Touching someone’s genitals without their consent,Do you think that the following acts should or should not be considered a crime?,Not sure,4,2,5,6
+59,18A,Sexual Assault Crimes — Touching someone’s genitals without their consent,Do you think that the following acts should or should not be considered a crime?,Totals,99,100,100,100
+60,18B,Sexual Assault Crimes — Kissing someone without their consent,Do you think that the following acts should or should not be considered a crime?,Crime,50,59,49,40
+60,18B,Sexual Assault Crimes — Kissing someone without their consent,Do you think that the following acts should or should not be considered a crime?,Not a crime,32,25,30,41
+60,18B,Sexual Assault Crimes — Kissing someone without their consent,Do you think that the following acts should or should not be considered a crime?,Not sure,19,16,21,19
+60,18B,Sexual Assault Crimes — Kissing someone without their consent,Do you think that the following acts should or should not be considered a crime?,Totals,101,100,100,100
+61,18C,Sexual Assault Crimes — Touching someone’s legs or arms without their consent,Do you think that the following acts should or should not be considered a crime?,Crime,23,33,21,17
+61,18C,Sexual Assault Crimes — Touching someone’s legs or arms without their consent,Do you think that the following acts should or should not be considered a crime?,Not a crime,55,45,56,65
+61,18C,Sexual Assault Crimes — Touching someone’s legs or arms without their consent,Do you think that the following acts should or should not be considered a crime?,Not sure,21,22,23,18
+61,18C,Sexual Assault Crimes — Touching someone’s legs or arms without their consent,Do you think that the following acts should or should not be considered a crime?,Totals,99,100,100,100
+62,18D,Sexual Assault Crimes — Touching someone’s face without their consent,Do you think that the following acts should or should not be considered a crime?,Crime,14,21,14,8
+62,18D,Sexual Assault Crimes — Touching someone’s face without their consent,Do you think that the following acts should or should not be considered a crime?,Not a crime,66,58,65,76
+62,18D,Sexual Assault Crimes — Touching someone’s face without their consent,Do you think that the following acts should or should not be considered a crime?,Not sure,20,22,22,16
+62,18D,Sexual Assault Crimes — Touching someone’s face without their consent,Do you think that the following acts should or should not be considered a crime?,Totals,100,101,101,100
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Very favorable,22,40,19,7
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Somewhat favorable,30,32,27,31
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Somewhat unfavorable,12,7,11,19
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Very unfavorable,11,4,10,20
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Not sure,25,18,32,24
+63,19,#MeToo Favorability,Do you have a favorable or an unfavorable view of the #MeToo movement against sexual harassment?,Totals,100,101,99,101
+64,20,#MeToo Movement Gone Too Far,Do you think the #MeToo movement against sexual harassment:,Has gone too far,22,7,23,37
+64,20,#MeToo Movement Gone Too Far,Do you think the #MeToo movement against sexual harassment:,Has been about right,34,47,29,27
+64,20,#MeToo Movement Gone Too Far,Do you think the #MeToo movement against sexual harassment:,Has not gone far enough,16,25,12,11
+64,20,#MeToo Movement Gone Too Far,Do you think the #MeToo movement against sexual harassment:,Not sure,28,22,36,26
+64,20,#MeToo Movement Gone Too Far,Do you think the #MeToo movement against sexual harassment:,Totals,100,101,100,101
+65,21,#MeToo Movement Affected You Personally,"How would you say the #MeToo movement has affected you personally, if at all?",Had a positive effect,15,24,10,10
+65,21,#MeToo Movement Affected You Personally,"How would you say the #MeToo movement has affected you personally, if at all?",Had a negative effect,4,2,3,7
+65,21,#MeToo Movement Affected You Personally,"How would you say the #MeToo movement has affected you personally, if at all?",effect either way,63,60,64,66
+65,21,#MeToo Movement Affected You Personally,"How would you say the #MeToo movement has affected you personally, if at all?",Not sure,18,14,24,17
+65,21,#MeToo Movement Affected You Personally,"How would you say the #MeToo movement has affected you personally, if at all?",Totals,100,100,101,100

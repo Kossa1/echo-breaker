@@ -1,0 +1,277 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-09-09T18:30:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Completely true",
+          "value": 37
+        },
+        {
+          "label": "I haven't heard of this report",
+          "value": 20
+        }
+      ],
+      "survey_id": "96ba2",
+      "survey_uuid": "0be96ba2-8d8c-11f0-8dea-c3d1b67031aa",
+      "title": "Do you consider the recent report about a birthday message Donald Trump sent Jeffrey Epstein in 2003 to be...?",
+      "total": 2394
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-09-09T18:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Close friends",
+          "value": 42
+        },
+        {
+          "label": "Acquaintances",
+          "value": 24
+        }
+      ],
+      "survey_id": "96ba2",
+      "survey_uuid": "0be96ba2-8d8c-11f0-8dea-c3d1b67031aa",
+      "title": "When the relationship between Donald Trump and Jeffrey Epstein was at its closest, do you think they were...?",
+      "total": 2394
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-09-09T18:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 60
+        },
+        {
+          "label": "No",
+          "value": 16
+        }
+      ],
+      "survey_id": "96ba2",
+      "survey_uuid": "0be96ba2-8d8c-11f0-8dea-c3d1b67031aa",
+      "title": "Do you think Donald Trump\u2019s name appears in the government\u2019s files on Jeffrey Epstein?",
+      "total": 2394
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-08-08T18:13:48.851748Z",
+      "description": "Americans' Opinions on U.S. Politics, Donald Trump, the Economy, a Third Party, Jeffrey Epstein, Stephen Colbert, Back to School, and Health | Yahoo! News Poll | July 24-28, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30683,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on U.S. Politics, Trump, the Economy, a Third Party, Epstein, and Colbert | Yahoo! News Poll | July 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/20250728_yahoo.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-24T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 45
+        },
+        {
+          "label": "No",
+          "value": 28
+        }
+      ],
+      "survey_id": "53432",
+      "survey_uuid": "53153432-680c-11f0-b57d-63f54a8b02d3",
+      "title": "Do you think that Donald Trump was involved in crimes allegedly committed by Jeffrey Epstein?",
+      "total": 4833
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-24T11:00:00Z",
+      "question_id": 4,
+      "summary": [
+        {
+          "label": "Not at all confident",
+          "value": 38
+        },
+        {
+          "label": "Not very confident",
+          "value": 26
+        }
+      ],
+      "survey_id": "53432",
+      "survey_uuid": "53153432-680c-11f0-b57d-63f54a8b02d3",
+      "title": "How confident are you that all people connected with Jeffrey Epstein who are alleged to have committed sex crimes will be thoroughly investigated?",
+      "total": 4833
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-24T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 61
+        },
+        {
+          "label": "No",
+          "value": 12
+        }
+      ],
+      "survey_id": "53432",
+      "survey_uuid": "53153432-680c-11f0-b57d-63f54a8b02d3",
+      "title": "Do you think Donald Trump\u2019s name appears in the government\u2019s files on Jeffrey Epstein?",
+      "total": 4833
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-24T11:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 53
+        },
+        {
+          "label": "No",
+          "value": 21
+        }
+      ],
+      "survey_id": "53432",
+      "survey_uuid": "53153432-680c-11f0-b57d-63f54a8b02d3",
+      "title": "Do you think that the reason the government hasn't released certain files from the Epstein investigation is because Donald Trump is named in them?",
+      "total": 4833
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-07-21T21:59:30.341434Z",
+      "description": "Opinions of Americans About U.S. Politics, Donald Trump, the Economy, and Immigration | CBS News Poll | July 16-18, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30593,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Opinions of Americans About U.S. Politics | CBS News Poll | July 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/cbsnews_20250720_1.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-18T20:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Very important",
+          "value": 45
+        },
+        {
+          "label": "Somewhat important",
+          "value": 28
+        }
+      ],
+      "survey_id": "62def",
+      "survey_uuid": "acd62def-63ea-11f0-9110-21b7dea69904",
+      "title": "How important do you think the story of accused sex trafficker Jeffrey Epstein is?",
+      "total": 3406
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-18T20:00:00Z",
+      "question_id": 4,
+      "summary": [
+        {
+          "label": "A lot",
+          "value": 40
+        },
+        {
+          "label": "Some",
+          "value": 17
+        }
+      ],
+      "survey_id": "62def",
+      "survey_uuid": "acd62def-63ea-11f0-9110-21b7dea69904",
+      "title": "Before allegations against Jeffrey Epstein became public, how much do you think Donald Trump knew about crimes Epstein may have committed?",
+      "total": 3406
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-07-18T20:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Close friends",
+          "value": 42
+        },
+        {
+          "label": "Acquaintances",
+          "value": 21
+        }
+      ],
+      "survey_id": "62def",
+      "survey_uuid": "acd62def-63ea-11f0-9110-21b7dea69904",
+      "title": "When the relationship between Donald Trump and Jeffrey Epstein was at its closest, do you think they were...?",
+      "total": 3406
+    }
+  ],
+  "hits": 15,
+  "totals": {
+    "categories": {
+      "economy": 1,
+      "politics": 15
+    },
+    "types": {
+      "article": 8,
+      "survey": 15
+    }
+  }
+}

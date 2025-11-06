@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-11-28T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Less respect",
+          "value": 46
+        },
+        {
+          "label": "About the same amount of respect",
+          "value": 27
+        }
+      ],
+      "survey_id": "c65ff",
+      "survey_uuid": "57ac65ff-8d50-11ee-973f-37c92e6411e9",
+      "title": "Compared to other countries, do you think that elderly people in the United States generally receive more or less respect?",
+      "total": 7973
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-11-28T12:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Yes",
+          "value": 56
+        },
+        {
+          "label": "No",
+          "value": 34
+        }
+      ],
+      "survey_id": "c65ff",
+      "survey_uuid": "57ac65ff-8d50-11ee-973f-37c92e6411e9",
+      "title": "Have you ever put other life priorities on hold in order to care for an elderly family member or friend?",
+      "total": 7973
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2023-11-28T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Less support",
+          "value": 44
+        },
+        {
+          "label": "About the same amount of support",
+          "value": 25
+        }
+      ],
+      "survey_id": "c65ff",
+      "survey_uuid": "57ac65ff-8d50-11ee-973f-37c92e6411e9",
+      "title": "Compared to other countries, do you think that elderly people who can no longer care for themselves in the United States generally receive more or less support?",
+      "total": 7973
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 3
+    },
+    "types": {
+      "article": 2,
+      "survey": 3
+    }
+  }
+}

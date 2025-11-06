@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-12-08T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Strongly support",
+          "value": 46
+        },
+        {
+          "label": "Somewhat support",
+          "value": 24
+        }
+      ],
+      "survey_id": "4a0e3",
+      "survey_uuid": "20b4a0e3-38d5-11eb-b513-b193879011a8",
+      "title": "Do you support or oppose expunging marijuana-related convictions for non-violent offenders?",
+      "total": 7141
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-05-21T13:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "21",
+          "value": 42
+        },
+        {
+          "label": "Older than 21",
+          "value": 25
+        }
+      ],
+      "survey_id": "4c08e",
+      "survey_uuid": "e154c08e-9ad9-11ea-83ec-fb3a8dbbb9b6",
+      "title": "In states where cannabis is legal, what should be the legal age for when a person can legally buy and use cannabis?",
+      "total": 7930
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2020-04-20T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "More of a success than a failure",
+          "value": 36
+        },
+        {
+          "label": "Success only",
+          "value": 19
+        }
+      ],
+      "survey_id": "d9d97",
+      "survey_uuid": "c66d9d97-80e5-11ea-ad9a-37ac5d3a8b70",
+      "title": "In the states that have decided to allow recreational marijuana use, do you think the legislation has been a success or a failure?",
+      "total": 27328
+    }
+  ],
+  "hits": 3,
+  "totals": {
+    "categories": {
+      "politics": 3
+    },
+    "types": {
+      "survey": 3
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "data": [
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-09-25T11:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Disagree",
+          "value": 51
+        },
+        {
+          "label": "Agree",
+          "value": 29
+        }
+      ],
+      "survey_id": "2940f",
+      "survey_uuid": "34b2940f-99a4-11f0-a7e0-39e4453b3033",
+      "title": "Do you agree or disagree that \"on the world stage, America is respected again like it has never been respected before\"?",
+      "total": 3380
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-09-25T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Disagree",
+          "value": 42
+        },
+        {
+          "label": "Agree",
+          "value": 25
+        }
+      ],
+      "survey_id": "2940f",
+      "survey_uuid": "34b2940f-99a4-11f0-a7e0-39e4453b3033",
+      "title": "Do you agree or disagree that \"the United Nations is funding an assault on Western countries and their borders\"?",
+      "total": 3380
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-08-23T11:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Not enough",
+          "value": 44
+        },
+        {
+          "label": "About the right amount",
+          "value": 19
+        }
+      ],
+      "survey_id": "b2671",
+      "survey_uuid": "100b2671-7f9b-11f0-ad71-81f2ff11cae7",
+      "title": "Do you think that what the U.S. is doing to alleviate hunger in Gaza is...?",
+      "total": 7098
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-07-03T16:47:26.231659Z",
+      "description": "Americans' Opinions on U.S. Politics, Donald Trump, the Bombings of Iran, ICE, and the Supreme Court | Yahoo! News Poll | June 26-30, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30520,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Americans' Opinions on U.S. Politics | Yahoo! News Poll | June 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/combined_20250701_politics_scotus_5LmF1Td.pdf"
+    },
+    {
+      "cms_document_type": "survey_result",
+      "created_at": "2025-06-25T03:12:26.535781Z",
+      "description": "Opinions of Americans About the Economy and U.S. Airstrikes on Iran | CBS News Poll | June 22-24, 2025",
+      "doc_type": "cms_document_editorial",
+      "filetype": "pdf",
+      "id": 30481,
+      "language": {
+        "id": 32,
+        "name": "en-us"
+      },
+      "primary_category": {
+        "default_short_name": "Politics",
+        "id": 36,
+        "name": "Politics & current affairs",
+        "search_description": "Explore what America thinks with YouGov's popularity rankings, articles and survey results on %category_long_name%.",
+        "seo_title": "%category_long_name% | YouGov",
+        "short_name": "Politics",
+        "slug": "politics"
+      },
+      "region": {
+        "id": 31,
+        "name": "US"
+      },
+      "site": {
+        "id": 29,
+        "name": "today.yougov.com"
+      },
+      "title": "Opinions of Americans About U.S. Airstrikes on Iran | CBS News Poll | June 2025",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/cbsnews_20250624_iran_1.pdf"
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-24T20:30:00Z",
+      "question_id": 4,
+      "summary": [
+        {
+          "label": "Less peaceful",
+          "value": 49
+        },
+        {
+          "label": "More peaceful",
+          "value": 26
+        }
+      ],
+      "survey_id": "3f90a",
+      "survey_uuid": "6d33f90a-510e-11f0-8e14-8bf5f3110d83",
+      "title": "Do you think that as president, Donald Trump has made the world...?",
+      "total": 4420
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-24T14:30:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Active part",
+          "value": 38
+        },
+        {
+          "label": "Stay out",
+          "value": 36
+        }
+      ],
+      "survey_id": "e7de5",
+      "survey_uuid": "9a7e7de5-5072-11f0-b7b3-9f8752e898d1",
+      "title": "Do you think the United States should take an active part in world affairs or stay out of world affairs?",
+      "total": 8339
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "international",
+      "published_at": "2025-06-24T14:30:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Strongly disapprove",
+          "value": 36
+        },
+        {
+          "label": "Strongly approve",
+          "value": 23
+        }
+      ],
+      "survey_id": "e7de5",
+      "survey_uuid": "9a7e7de5-5072-11f0-b7b3-9f8752e898d1",
+      "title": "Do you approve or disapprove of the U.S. bombing nuclear sites in Iran?",
+      "total": 8339
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-23T20:00:00Z",
+      "question_id": 3,
+      "summary": [
+        {
+          "label": "Years",
+          "value": 25
+        },
+        {
+          "label": "Months",
+          "value": 12
+        }
+      ],
+      "survey_id": "b91a3",
+      "survey_uuid": "9c0b91a3-5043-11f0-8e14-8bf5f3110d83",
+      "title": "After Saturday's U.S. bombing of nuclear sites in Iran, which of the following is closest to how much time you think Iran needs now to complete production of a nuclear weapon?",
+      "total": 3457
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-23T20:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "Years",
+          "value": 19
+        },
+        {
+          "label": "Months",
+          "value": 17
+        }
+      ],
+      "survey_id": "b91a3",
+      "survey_uuid": "9c0b91a3-5043-11f0-8e14-8bf5f3110d83",
+      "title": "Before Saturday's U.S. bombing of nuclear sites in Iran, which of the following is closest to how much time you think Iran would have needed to complete production of a nuclear weapon?",
+      "total": 3457
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-23T12:00:00Z",
+      "question_id": 2,
+      "summary": [
+        {
+          "label": "No",
+          "value": 60
+        },
+        {
+          "label": "Yes",
+          "value": 7
+        }
+      ],
+      "survey_id": "57bea",
+      "survey_uuid": "78e57bea-4fdc-11f0-a10e-191613a3f026",
+      "title": "As far as you know, did Congress vote to authorize the U.S. military to bomb nuclear sites in Iran?",
+      "total": 2321
+    },
+    {
+      "doc_type": "result",
+      "primary_category": "politics",
+      "published_at": "2025-06-23T12:00:00Z",
+      "question_id": 1,
+      "summary": [
+        {
+          "label": "Strongly disapprove",
+          "value": 34
+        },
+        {
+          "label": "Strongly approve",
+          "value": 21
+        }
+      ],
+      "survey_id": "57bea",
+      "survey_uuid": "78e57bea-4fdc-11f0-a10e-191613a3f026",
+      "title": "Do you approve or disapprove of the U.S. bombing nuclear sites in Iran?",
+      "total": 2321
+    }
+  ],
+  "hits": 29,
+  "totals": {
+    "categories": {
+      "economy": 2,
+      "international": 15,
+      "politics": 29,
+      "society": 3
+    },
+    "types": {
+      "article": 36,
+      "survey": 29
+    }
+  }
+}
