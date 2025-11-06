@@ -5,9 +5,19 @@ from pathlib import Path
 
 from flask import Flask, render_template, request, redirect, url_for, session, send_from_directory, jsonify
 from backend_logic import sample_unique_posts
+from sqlalchemy import select
+from db import SessionLocal, engine, Base
+from models import User as DBUser, UserRound as DBUserRound
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
+
+# Ensure tables exist (safe to call multiple times)
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception:
+    # Avoid crashing if import paths are odd in certain run modes
+    pass
 
 # Default number of questions per quiz
 DEFAULT_NUM_QUESTIONS = 5
@@ -363,6 +373,71 @@ def submit_results():
         "average_score": average_score,
         "total_questions": len(results)
     })
+
+# --- User + Leaderboard endpoints (SQL-backed) ---
+
+@app.post("/api/users/ensure")
+def api_users_ensure():
+    data = request.get_json(silent=True) or {}
+    uid = (data.get("uid") or "").strip()
+    display = (data.get("displayName") or "").strip() or None
+    if not uid:
+        return jsonify({"error": "uid required"}), 400
+    with SessionLocal() as s:
+        u = s.get(DBUser, uid)
+        if not u:
+            u = DBUser(uid=uid, display_name=display, score=0.0, games_played=0)
+            s.add(u)
+        else:
+            if display and u.display_name != display:
+                u.display_name = display
+        s.commit()
+    return jsonify({"ok": True})
+
+
+@app.post("/api/users/score")
+def api_users_score():
+    data = request.get_json(silent=True) or {}
+    uid = (data.get("uid") or "").strip()
+    display = (data.get("displayName") or "").strip() or None
+    try:
+        avg = float(data.get("average_score"))
+    except Exception:
+        return jsonify({"error": "average_score must be a number"}), 400
+    if not uid:
+        return jsonify({"error": "uid required"}), 400
+    with SessionLocal() as s:
+        u = s.get(DBUser, uid)
+        if not u:
+            u = DBUser(uid=uid, display_name=display, score=avg, games_played=1)
+            s.add(u)
+        else:
+            u.games_played = (u.games_played or 0) + 1
+            # Keep the best score for leaderboard simplicity
+            if u.score is None or avg > u.score:
+                u.score = avg
+            if display and u.display_name != display:
+                u.display_name = display
+        # Record round
+        s.add(DBUserRound(user_uid=uid, average_score=avg))
+        s.commit()
+        out = {"ok": True, "score": u.score or 0.0, "games_played": u.games_played or 0}
+    return jsonify(out)
+
+
+@app.get("/api/leaderboard")
+def api_leaderboard():
+    try:
+        limit = int(request.args.get("limit", 50))
+    except Exception:
+        limit = 50
+    with SessionLocal() as s:
+        rows = s.execute(select(DBUser).order_by(DBUser.score.desc()).limit(limit)).scalars().all()
+        entries = [
+            {"id": u.uid, "displayName": u.display_name, "score": float(u.score or 0)}
+            for u in rows
+        ]
+    return jsonify({"entries": entries})
 
 @app.route("/api/random_tweet", methods=['GET'])
 def random_tweet():

@@ -77,3 +77,26 @@ class PostQuestionMap(Base):
     confidence: Mapped[float | None] = mapped_column(Float)
 
     post = relationship("Post", back_populates="mappings")
+
+# --- User tracking for leaderboard and logging ---
+class User(Base):
+    __tablename__ = "users"
+    # Store Firebase UID or any unique identifier from the client
+    uid: Mapped[str] = mapped_column(String, primary_key=True)
+    display_name: Mapped[str | None] = mapped_column(String)
+    score: Mapped[float | None] = mapped_column(Float, default=0.0)
+    games_played: Mapped[int | None] = mapped_column(Integer, default=0)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    rounds = relationship("UserRound", back_populates="user", cascade="all, delete-orphan")
+
+
+class UserRound(Base):
+    __tablename__ = "user_rounds"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    user_uid: Mapped[str] = mapped_column(String, ForeignKey("users.uid"), nullable=False)
+    average_score: Mapped[float] = mapped_column(Float, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+    user = relationship("User", back_populates="rounds")
