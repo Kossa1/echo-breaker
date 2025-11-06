@@ -1,0 +1,39 @@
+{
+  "file_source": "72186e00-66df-11e2-97e1-005056a8759d_res.csv",
+  "qnum": 24,
+  "orig_label": "9",
+  "question": "Ideology of Rural Areas",
+  "prompt": "Would you say that Americans living in rural areas are...?",
+  "responses": [
+    {
+      "response": "Almost all liberal",
+      "dem": 2.0,
+      "rep": 2.0
+    },
+    {
+      "response": "Mostly liberal",
+      "dem": 6.0,
+      "rep": 2.0
+    },
+    {
+      "response": "conservative",
+      "dem": 24.0,
+      "rep": 17.0
+    },
+    {
+      "response": "Mostly conservative",
+      "dem": 42.0,
+      "rep": 52.0
+    },
+    {
+      "response": "Almost all conservative",
+      "dem": 9.0,
+      "rep": 15.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 17.0,
+      "rep": 11.0
+    }
+  ]
+}

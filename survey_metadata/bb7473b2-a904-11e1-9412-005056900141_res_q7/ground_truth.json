@@ -1,0 +1,29 @@
+{
+  "file_source": "bb7473b2-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 7,
+  "orig_label": "5",
+  "question": "Comfort Using Gender-Neutral Pronouns",
+  "prompt": "How comfortable, if at all, would you feel using a gender-neutral pronoun to refer to someone if they asked you to do so?",
+  "responses": [
+    {
+      "response": "Very comfortable",
+      "dem": 34.0,
+      "rep": 9.0
+    },
+    {
+      "response": "Somewhat comfortable",
+      "dem": 29.0,
+      "rep": 25.0
+    },
+    {
+      "response": "Somewhat uncomfortable",
+      "dem": 23.0,
+      "rep": 26.0
+    },
+    {
+      "response": "Very uncomfortable",
+      "dem": 14.0,
+      "rep": 41.0
+    }
+  ]
+}

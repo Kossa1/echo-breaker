@@ -1,0 +1,39 @@
+{
+  "file_source": "2d2bd030-96d6-11e2-9a4b-005056a8759d_res.csv",
+  "qnum": 52,
+  "orig_label": "15P",
+  "question": "Preservation of Wedding Traditions — Woman taking her husband’s last name",
+  "prompt": "How do you feel about the following wedding or marriage tradition when it comes to relationships between men and women?",
+  "responses": [
+    {
+      "response": "Love it",
+      "dem": 23.0,
+      "rep": 48.0
+    },
+    {
+      "response": "Like it",
+      "dem": 26.0,
+      "rep": 31.0
+    },
+    {
+      "response": "Neutral",
+      "dem": 36.0,
+      "rep": 19.0
+    },
+    {
+      "response": "Dislike it",
+      "dem": 9.0,
+      "rep": 1.0
+    },
+    {
+      "response": "Hate it",
+      "dem": 4.0,
+      "rep": 0.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 2.0,
+      "rep": 1.0
+    }
+  ]
+}

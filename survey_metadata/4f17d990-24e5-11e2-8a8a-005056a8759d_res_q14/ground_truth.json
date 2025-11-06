@@ -1,0 +1,34 @@
+{
+  "file_source": "4f17d990-24e5-11e2-8a8a-005056a8759d_res.csv",
+  "qnum": 14,
+  "orig_label": "5C",
+  "question": "Bill of Rights importance (1) — III - No quartering of soldiers during peacetime without consent",
+  "prompt": "Do you support or oppose the following amendments from the Bill of Rights?",
+  "responses": [
+    {
+      "response": "Strongly support",
+      "dem": 39.0,
+      "rep": 59.0
+    },
+    {
+      "response": "Somewhat support",
+      "dem": 36.0,
+      "rep": 23.0
+    },
+    {
+      "response": "Somewhat oppose",
+      "dem": 7.0,
+      "rep": 4.0
+    },
+    {
+      "response": "Strongly oppose",
+      "dem": 3.0,
+      "rep": 2.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 15.0,
+      "rep": 12.0
+    }
+  ]
+}

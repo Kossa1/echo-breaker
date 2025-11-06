@@ -1,0 +1,39 @@
+{
+  "file_source": "bb7bc690-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 2,
+  "orig_label": "2",
+  "question": "Regulation of AI",
+  "prompt": "Overall, do you think that artificial intelligence (AI) should be...?",
+  "responses": [
+    {
+      "response": "Much more regulated",
+      "dem": 45.0,
+      "rep": 36.0
+    },
+    {
+      "response": "Somewhat more regulated",
+      "dem": 38.0,
+      "rep": 40.0
+    },
+    {
+      "response": "Have no change in regulation",
+      "dem": 8.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Somewhat less regulated",
+      "dem": 2.0,
+      "rep": 5.0
+    },
+    {
+      "response": "Much less regulated",
+      "dem": 2.0,
+      "rep": 1.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 5.0,
+      "rep": 10.0
+    }
+  ]
+}

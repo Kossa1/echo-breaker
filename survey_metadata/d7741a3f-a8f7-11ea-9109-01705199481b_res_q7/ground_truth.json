@@ -1,0 +1,44 @@
+{
+  "file_source": "d7741a3f-a8f7-11ea-9109-01705199481b_res.csv",
+  "qnum": 7,
+  "orig_label": "1G",
+  "question": "Favorability of Groups — People for the Ethical Treatment of Animals (PETA)",
+  "prompt": "Do you have a favorable or an unfavorable opinion of the following groups or movements?",
+  "responses": [
+    {
+      "response": "Unfavorable",
+      "dem": 33.0,
+      "rep": 5.0
+    },
+    {
+      "response": "Very favorable",
+      "dem": 25.0,
+      "rep": 15.0
+    },
+    {
+      "response": "Somewhat favorable",
+      "dem": 28.0,
+      "rep": 24.0
+    },
+    {
+      "response": "unfavorable",
+      "dem": 18.0,
+      "rep": 22.0
+    },
+    {
+      "response": "Somewhat unfavorable",
+      "dem": 15.0,
+      "rep": 13.0
+    },
+    {
+      "response": "Very unfavorable",
+      "dem": 5.0,
+      "rep": 20.0
+    },
+    {
+      "response": "I’m not familiar with this",
+      "dem": 9.0,
+      "rep": 7.0
+    }
+  ]
+}

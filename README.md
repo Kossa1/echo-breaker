@@ -32,3 +32,12 @@ rm app.db
 from db import Base, engine
 import models
 Base.metadata.create_all(bind=engine)
+
+
+Reminder: Each tweet.json should be like:
+"
+{
+    "dem": 50.0,
+    "rep": 50.0
+}
+"

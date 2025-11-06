@@ -1,0 +1,29 @@
+{
+  "file_source": "52c8f1f0-cf36-11e1-beea-005056a8759d_res.csv",
+  "qnum": 3,
+  "orig_label": "1C",
+  "question": "Rights Expanded or Restricted Under Trump — Reproductive rights",
+  "prompt": "Under Donald Trump’s presidency, do you think the following rights will...?",
+  "responses": [
+    {
+      "response": "Be expanded",
+      "dem": 11.0,
+      "rep": 19.0
+    },
+    {
+      "response": "Stay the same",
+      "dem": 13.0,
+      "rep": 40.0
+    },
+    {
+      "response": "Be restricted",
+      "dem": 67.0,
+      "rep": 28.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 8.0,
+      "rep": 13.0
+    }
+  ]
+}

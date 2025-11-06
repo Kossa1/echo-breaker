@@ -1,0 +1,29 @@
+{
+  "file_source": "1179f9ec-f3fe-11e9-945a-757ffe8f386b_res.csv",
+  "qnum": 28,
+  "orig_label": "8",
+  "question": "How Will Change LGBTQ+ 10 Years From Now",
+  "prompt": "Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",
+  "responses": [
+    {
+      "response": "Gotten easier",
+      "dem": 34.0,
+      "rep": 36.0
+    },
+    {
+      "response": "Stayed the same",
+      "dem": 18.0,
+      "rep": 28.0
+    },
+    {
+      "response": "Gotten harder",
+      "dem": 20.0,
+      "rep": 12.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 28.0,
+      "rep": 24.0
+    }
+  ]
+}

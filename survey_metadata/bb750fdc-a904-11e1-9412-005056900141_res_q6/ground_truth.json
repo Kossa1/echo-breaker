@@ -1,0 +1,34 @@
+{
+  "file_source": "bb750fdc-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 6,
+  "orig_label": "6A",
+  "question": "Support for Solutions Local Teacher Shortage — Paying teachers more",
+  "prompt": "Below is a list of proposed solutions for places with shortages of K-12 teachers and funding. To what extent do you support or oppose...",
+  "responses": [
+    {
+      "response": "Strongly support",
+      "dem": 68.0,
+      "rep": 30.0
+    },
+    {
+      "response": "Somewhat support",
+      "dem": 18.0,
+      "rep": 31.0
+    },
+    {
+      "response": "oppose",
+      "dem": 10.0,
+      "rep": 24.0
+    },
+    {
+      "response": "Somewhat oppose",
+      "dem": 3.0,
+      "rep": 8.0
+    },
+    {
+      "response": "Strongly oppose",
+      "dem": 2.0,
+      "rep": 7.0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "file_source": "d8a44960-7c9a-11e3-a4d4-005056a8759d_res.csv",
+  "qnum": 7,
+  "orig_label": "1G",
+  "question": "Seriousness of National Problems — Gun violence",
+  "prompt": "How serious of a problem do you think the following are in the United States?",
+  "responses": [
+    {
+      "response": "A very serious problem",
+      "dem": 81.0,
+      "rep": 36.0
+    },
+    {
+      "response": "problem",
+      "dem": 14.0,
+      "rep": 29.0
+    },
+    {
+      "response": "A minor problem",
+      "dem": 5.0,
+      "rep": 23.0
+    },
+    {
+      "response": "Not a problem",
+      "dem": 0.0,
+      "rep": 8.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 1.0,
+      "rep": 4.0
+    }
+  ]
+}

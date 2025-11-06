@@ -1,0 +1,39 @@
+{
+  "file_source": "bb73fe89-a904-11e1-9412-005056900141_res.csv",
+  "qnum": 20,
+  "orig_label": "3R",
+  "question": "Support or Oppose Religion in Schools — Teaching about LGBTQ+ people in sex education classes",
+  "prompt": "Do you support or oppose the following in public schools?",
+  "responses": [
+    {
+      "response": "Net Support - Oppose -",
+      "dem": 52.0,
+      "rep": 7.0
+    },
+    {
+      "response": "Strongly support",
+      "dem": 47.0,
+      "rep": 4.0
+    },
+    {
+      "response": "Somewhat support",
+      "dem": 21.0,
+      "rep": 10.0
+    },
+    {
+      "response": "Somewhat oppose",
+      "dem": 6.0,
+      "rep": 14.0
+    },
+    {
+      "response": "Strongly oppose",
+      "dem": 19.0,
+      "rep": 54.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 8.0,
+      "rep": 17.0
+    }
+  ]
+}

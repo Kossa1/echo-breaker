@@ -1,0 +1,29 @@
+{
+  "file_source": "c1ab3880-c673-11e4-b8ee-005056a8759d_res.csv",
+  "qnum": 20,
+  "orig_label": "21",
+  "question": "Abortion Legal in Arizona",
+  "prompt": "Do you want abortion in Arizona to be...",
+  "responses": [
+    {
+      "response": "Legal in all cases",
+      "dem": 50.0,
+      "rep": 7.0
+    },
+    {
+      "response": "Legal in most cases",
+      "dem": 35.0,
+      "rep": 32.0
+    },
+    {
+      "response": "Illegal in most cases",
+      "dem": 13.0,
+      "rep": 52.0
+    },
+    {
+      "response": "Illegal in all cases",
+      "dem": 2.0,
+      "rep": 9.0
+    }
+  ]
+}

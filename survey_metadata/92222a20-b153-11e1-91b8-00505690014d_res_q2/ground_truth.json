@@ -1,0 +1,34 @@
+{
+  "file_source": "92222a20-b153-11e1-91b8-00505690014d_res.csv",
+  "qnum": 2,
+  "orig_label": "2",
+  "question": "Influence of Slavery Today",
+  "prompt": "To what extent do you believe that the legacy of slavery in the U.S. still influences society today?",
+  "responses": [
+    {
+      "response": "A great deal",
+      "dem": 35.0,
+      "rep": 10.0
+    },
+    {
+      "response": "A fair amount",
+      "dem": 42.0,
+      "rep": 19.0
+    },
+    {
+      "response": "Not much",
+      "dem": 15.0,
+      "rep": 35.0
+    },
+    {
+      "response": "Not at all",
+      "dem": 3.0,
+      "rep": 27.0
+    },
+    {
+      "response": "Not sure",
+      "dem": 6.0,
+      "rep": 10.0
+    }
+  ]
+}
