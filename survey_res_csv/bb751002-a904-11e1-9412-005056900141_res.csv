@@ -1,0 +1,404 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",Other,3,3,4,4
+1,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",Don’t know,2,3,2,6
+2,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",Prefer not to say,2,2,2,6
+3,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",Totals,99,100,100,99
+4,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",Mobile home,10,11,9,11
+5,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",house,53,48,52,59
+6,1,1,House type lived in,"Which, if any, of the following types of home best describes where you currently live?",house townhouse,7,10,7,4
+7,2,2,House Tenure,Do you own or rent the home in which you live?,rent to them,6,8,5,13
+8,2,2,House Tenure,Do you own or rent the home in which you live?,or friends,8,10,6,20
+9,2,2,House Tenure,Do you own or rent the home in which you live?,Other,3,2,3,5
+10,2,2,House Tenure,Do you own or rent the home in which you live?,Prefer not to say,3,3,3,7
+11,2,2,House Tenure,Do you own or rent the home in which you live?,Totals,100,99,100,99
+12,2,2,House Tenure,Do you own or rent the home in which you live?,loan mortgage,29,26,29,31
+13,3,3,Ever Owned a Home,Have you ever owned a home?,Yes,32,34,24,46
+14,3,3,Ever Owned a Home,Have you ever owned a home?,No,68,66,76,54
+15,3,3,Ever Owned a Home,Have you ever owned a home?,Totals,100,100,100,100
+16,4,5,Length of Time Living in Home,How long have you lived at your present address?,Totals,99,100,101,102
+17,4,5,Length of Time Living in Home,How long have you lived at your present address?,Less than month,2,2,1,4
+18,4,5,Length of Time Living in Home,How long have you lived at your present address?,to months,5,7,5,4
+19,4,5,Length of Time Living in Home,How long have you lived at your present address?,to months,6,7,4,8
+20,4,5,Length of Time Living in Home,How long have you lived at your present address?,to years,16,12,21,15
+21,4,5,Length of Time Living in Home,How long have you lived at your present address?,to years,12,14,9,14
+22,4,5,Length of Time Living in Home,How long have you lived at your present address?,to years,13,11,14,11
+23,4,5,Length of Time Living in Home,How long have you lived at your present address?,or more years,42,46,39,43
+24,4,5,Length of Time Living in Home,How long have you lived at your present address?,Not sure,3,1,7,1
+25,4,5,Length of Time Living in Home,How long have you lived at your present address?,Totals,99,100,100,100
+26,5,7,"Prefer Urban, Suburban, or Rural","If you had to choose a place to live, would you rather it be in an urban, suburban, or rural area?",Urban area,24,34,21,16
+27,5,7,"Prefer Urban, Suburban, or Rural","If you had to choose a place to live, would you rather it be in an urban, suburban, or rural area?",Suburban area,41,40,39,45
+28,5,7,"Prefer Urban, Suburban, or Rural","If you had to choose a place to live, would you rather it be in an urban, suburban, or rural area?",Rural area,29,22,30,37
+29,5,7,"Prefer Urban, Suburban, or Rural","If you had to choose a place to live, would you rather it be in an urban, suburban, or rural area?",Not sure,6,4,10,2
+30,5,7,"Prefer Urban, Suburban, or Rural","If you had to choose a place to live, would you rather it be in an urban, suburban, or rural area?",Totals,100,100,100,100
+31,6,8,Largest Monthly Expense,What is your largest single monthly expense?,loans,9,11,8,5
+32,6,8,Largest Monthly Expense,What is your largest single monthly expense?,payments,2,3,1,2
+33,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Other,4,4,5,2
+34,6,8,Largest Monthly Expense,What is your largest single monthly expense?,None of the above,7,8,7,14
+35,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Totals,99,102,100,101
+36,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Rent or mortgage,41,46,37,42
+37,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Healthcare,8,8,8,8
+38,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Car payments,5,6,5,6
+39,6,8,Largest Monthly Expense,What is your largest single monthly expense?,School fees or loans,3,5,2,2
+40,6,8,Largest Monthly Expense,What is your largest single monthly expense?,Food,16,14,16,18
+41,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",Yes me,18,25,13,18
+42,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",Yes a family member,16,18,14,15
+43,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",Yes a close friend,13,14,15,8
+44,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",Yes an acquaintance,12,11,14,9
+45,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",No,43,40,41,50
+46,7,9,Problems Paying for Housing,"Thinking about the past year, do you personally know anyone who had problems paying or was unable to pay their rent, mortgage, or other housing costs?",Not sure,11,8,16,6
+47,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Very favorable,8,10,5,9
+48,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,27,27,25,29
+49,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,26,30,24,24
+50,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,17,16,16,19
+51,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Not sure,23,18,29,19
+52,8,10A,Favorability of Entities — Favorability of Entities – Landlords,Do you have a favorable or unfavorable opinion of the following?,Totals,101,101,99,100
+53,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Very favorable,8,8,8,9
+54,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,35,39,30,38
+55,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,25,24,25,26
+56,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,10,9,9,11
+57,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Not sure,22,19,28,16
+58,9,10B,Favorability of Entities — Favorability of Entities – Real-estate agents,Do you have a favorable or unfavorable opinion of the following?,Totals,100,99,100,100
+59,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Very favorable,6,10,3,6
+60,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,22,20,21,27
+61,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,26,27,23,30
+62,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,17,21,15,15
+63,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Not sure,29,23,38,22
+64,10,10C,Favorability of Entities — Favorability of Entities – Real-estate investors,Do you have a favorable or unfavorable opinion of the following?,Totals,100,101,100,100
+65,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Very favorable,7,9,4,8
+66,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,21,17,22,23
+67,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,27,30,25,27
+68,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,19,22,17,19
+69,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Not sure,26,22,32,23
+70,11,10D,Favorability of Entities — Favorability of Entities – Real-estate developers,Do you have a favorable or unfavorable opinion of the following?,Totals,100,100,100,100
+71,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Very favorable,7,8,6,8
+72,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Somewhat favorable,26,27,19,35
+73,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Somewhat unfavorable,25,27,25,24
+74,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Very unfavorable,16,18,14,15
+75,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Not sure,26,21,36,18
+76,12,10E,Favorability of Entities — Favorability of Entities – Mortgage bankers,Do you have a favorable or unfavorable opinion of the following?,Totals,100,101,100,100
+77,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Increased a lot,58,60,54,61
+78,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Increased a little,16,18,15,15
+79,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Stayed the same,9,9,8,11
+80,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Decreased a little,4,2,5,3
+81,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Decreased a lot,2,3,1,2
+82,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Not sure,12,7,17,8
+83,13,11,Local Housing Value Change,"Compared to 10 years ago, has the price of housing in your local community increased, decreased, or stayed the same?",Totals,101,99,100,100
+84,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Increase a lot,27,26,26,29
+85,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Increase a little,31,37,26,31
+86,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Stay the same,16,16,14,17
+87,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Decrease a little,7,5,9,8
+88,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Decrease a lot,3,4,1,5
+89,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Not sure,16,12,23,10
+90,14,12,Local Housing Value Future Change - 1 Year,"In the next year, do you think the price of housing in your local community will increase, decrease, or stay the same?",Totals,100,100,99,100
+91,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Increase a lot,32,34,27,36
+92,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Increase a little,27,34,23,25
+93,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Stay the same,12,11,11,14
+94,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Decrease a little,7,7,7,8
+95,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Decrease a lot,3,4,3,4
+96,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Not sure,18,10,28,13
+97,15,13,Local Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in your local community will increase, decrease, or stay the same?",Totals,99,100,99,100
+98,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Very easy,4,5,3,4
+99,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Somewhat easy,13,16,9,16
+100,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Somewhat difficult,32,27,33,34
+101,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Very difficult,35,40,32,33
+102,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Not sure,17,12,24,12
+103,16,14,Local Housing Affordability,"In your local community, how easy or difficult is it to find affordable housing?",Totals,101,100,101,99
+104,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Increased a lot,63,65,59,67
+105,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Increased a little,10,12,7,12
+106,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Stayed the same,7,7,9,6
+107,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Decreased a little,4,4,3,7
+108,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Decreased a lot,3,6,1,3
+109,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Not sure,12,6,21,6
+110,17,15,National Housing Value Change,"Compared to 10 years ago, has the price of housing in the United States increased, decreased, or stayed the same?",Totals,99,100,100,101
+111,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Increase a lot,32,35,28,35
+112,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Increase a little,31,36,26,33
+113,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Stay the same,12,10,12,13
+114,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Decrease a little,7,8,6,9
+115,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Decrease a lot,3,3,2,3
+116,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Not sure,16,8,26,8
+117,18,16,National Housing Value Future Change - 1 Years,"In the next year, do you think the price of housing in the United States will increase, decrease, or stay the same?",Totals,101,100,100,101
+118,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Increase a lot,38,39,34,42
+119,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Increase a little,24,30,21,22
+120,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Stay the same,10,9,9,13
+121,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Decrease a little,6,7,7,6
+122,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Decrease a lot,3,5,2,3
+123,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Not sure,18,10,28,14
+124,19,17,National Housing Value Future Change - 10 Years,"In the next 10 years, do you think the price of housing in the United States will increase, decrease, or stay the same?",Totals,99,100,101,100
+125,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Very easy,4,6,3,5
+126,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Somewhat easy,11,11,8,15
+127,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Somewhat difficult,34,32,37,34
+128,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Very difficult,35,42,31,32
+129,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Not sure,16,10,22,13
+130,20,18,National Housing Affordability,"In the United States, how easy or difficult is it to find affordable housing?",Totals,100,101,101,99
+131,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",Very good investment,14,20,10,14
+132,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",investment,34,38,30,36
+133,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",investment,18,16,18,20
+134,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",Very bad investment,11,11,11,10
+135,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",Not sure,23,16,31,20
+136,21,19,Local Housing Investment,"In general, do you think buying a home in your local community right now would be a good investment investment or a bad investment?",Totals,100,101,100,100
+137,22,20,Better to Buy or Rent,"In your local community, do you think it’s generally a better financial decision for people to buy or rent?",Buy,53,53,47,63
+138,22,20,Better to Buy or Rent,"In your local community, do you think it’s generally a better financial decision for people to buy or rent?",Rent,18,23,15,17
+139,22,20,Better to Buy or Rent,"In your local community, do you think it’s generally a better financial decision for people to buy or rent?",Not sure,29,24,38,20
+140,22,20,Better to Buy or Rent,"In your local community, do you think it’s generally a better financial decision for people to buy or rent?",Totals,100,100,100,100
+141,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Very good time,7,12,3,6
+142,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Somewhat good time,20,21,16,24
+143,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Somewhat bad time,33,36,30,34
+144,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Very bad time,19,14,20,21
+145,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Not sure,22,16,31,15
+146,23,21,Good Time to Buy a House,"In your local community, do you think this is a good time or a bad time to try to buy a house?",Totals,101,99,100,100
+147,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Very good time,36,40,33,36
+148,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Somewhat good time,27,30,23,29
+149,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Somewhat bad time,12,12,12,12
+150,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Very bad time,7,6,6,9
+151,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Not sure,18,12,25,13
+152,24,22,Good Time to Sell a House,"In your local community, do you think this is a good time or a bad time to sell a house?",Totals,100,100,99,99
+153,25,23,Better to Buy or Sell,"In your local community, do you think it’s currently a better time to be buying a house or selling a house?",Buying,15,20,13,12
+154,25,23,Better to Buy or Sell,"In your local community, do you think it’s currently a better time to be buying a house or selling a house?",Selling,56,56,50,65
+155,25,23,Better to Buy or Sell,"In your local community, do you think it’s currently a better time to be buying a house or selling a house?",Not sure,29,25,37,23
+156,25,23,Better to Buy or Sell,"In your local community, do you think it’s currently a better time to be buying a house or selling a house?",Totals,100,101,100,100
+157,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Increased a lot,23,27,19,25
+158,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Increased a little,23,24,20,27
+159,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Stayed the same,17,18,16,18
+160,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Decreased a little,8,10,6,7
+161,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Decreased a lot,8,6,10,6
+162,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Not sure,21,15,29,16
+163,26,24,Number of Homes Being Built,"Over the past 10 years, has the number of homes being built in your local community increased, decreased, or stayed the same?",Totals,100,100,100,99
+164,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Increase a lot,30,25,28,38
+165,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Increase a little,32,41,27,31
+166,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Stay the same,10,9,8,13
+167,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Decrease a little,4,5,6,2
+168,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Decrease a lot,3,4,2,3
+169,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Not sure,21,17,30,12
+170,27,25,Predicted Change in Interest Rates,"In the next year, do you think home mortgage interest rates will increase, decrease, or stay the same as where they are now?",Totals,100,101,101,99
+171,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Very likely,38,43,31,42
+172,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Somewhat likely,28,30,27,27
+173,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Not very likely,10,8,12,9
+174,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Not at all likely,3,2,2,6
+175,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Not sure,22,17,29,16
+176,28,26,Likelihood of Housing Bubble,"HowlikelydoyouthinkitisthattheU.S.iscurrentlyinahousingbubble, meaningthatdemandforrealestateisoutpacingsupply, causingtheaverageprice",Totals,101,100,101,100
+177,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",Not sure,22,17,27,19
+178,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",Totals,99,99,100,101
+179,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",Within the next months,9,9,7,13
+180,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In about one year,18,18,17,22
+181,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In about two years,20,19,20,19
+182,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In about three years,16,12,18,18
+183,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In about four years,4,4,3,6
+184,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In about five years,4,7,2,2
+185,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",In more than five years,4,5,4,2
+186,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",Never,2,3,1,1
+187,29,27,When Will Housing Bubble Burst,"If you had to guess, when do you think the housing bubble will burst?",Not sure,22,23,27,16
+188,30,28A,Reasons for Cost of Housing — Amount of housing being built,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,33,37,29,34
+189,30,28A,Reasons for Cost of Housing — Amount of housing being built,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,35,39,32,34
+190,30,28A,Reasons for Cost of Housing — Amount of housing being built,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,8,5,8,11
+191,30,28A,Reasons for Cost of Housing — Amount of housing being built,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,24,19,31,20
+192,30,28A,Reasons for Cost of Housing — Amount of housing being built,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,100,99
+193,31,28B,Reasons for Cost of Housing — Cost of building materials,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,58,56,55,66
+194,31,28B,Reasons for Cost of Housing — Cost of building materials,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,21,29,17,19
+195,31,28B,Reasons for Cost of Housing — Cost of building materials,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,6,5,5,6
+196,31,28B,Reasons for Cost of Housing — Cost of building materials,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,15,10,23,9
+197,31,28B,Reasons for Cost of Housing — Cost of building materials,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,100,100
+198,32,28C,Reasons for Cost of Housing — Large real estate investors buying up houses,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,42,51,38,38
+199,32,28C,Reasons for Cost of Housing — Large real estate investors buying up houses,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,26,29,23,27
+200,32,28C,Reasons for Cost of Housing — Large real estate investors buying up houses,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,8,5,8,11
+201,32,28C,Reasons for Cost of Housing — Large real estate investors buying up houses,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,24,15,30,23
+202,32,28C,Reasons for Cost of Housing — Large real estate investors buying up houses,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,99,99
+203,33,28D,Reasons for Cost of Housing — Amount of buildable land,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,25,32,21,24
+204,33,28D,Reasons for Cost of Housing — Amount of buildable land,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,32,34,28,35
+205,33,28D,Reasons for Cost of Housing — Amount of buildable land,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,20,18,21,21
+206,33,28D,Reasons for Cost of Housing — Amount of buildable land,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,23,16,30,20
+207,33,28D,Reasons for Cost of Housing — Amount of buildable land,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,100,100
+208,34,28E,Reasons for Cost of Housing — The supply chain,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,50,51,46,57
+209,34,28E,Reasons for Cost of Housing — The supply chain,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,25,31,22,21
+210,34,28E,Reasons for Cost of Housing — The supply chain,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,8,5,10,9
+211,34,28E,Reasons for Cost of Housing — The supply chain,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,17,13,23,13
+212,34,28E,Reasons for Cost of Housing — The supply chain,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,101,100
+213,35,28F,Reasons for Cost of Housing — Zoning regulation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,21,23,19,22
+214,35,28F,Reasons for Cost of Housing — Zoning regulation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,34,39,28,37
+215,35,28F,Reasons for Cost of Housing — Zoning regulation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,14,13,14,17
+216,35,28F,Reasons for Cost of Housing — Zoning regulation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,30,24,39,24
+217,35,28F,Reasons for Cost of Housing — Zoning regulation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,99,99,100,100
+218,36,28G,Reasons for Cost of Housing — The number of remote workers,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,19,19,16,22
+219,36,28G,Reasons for Cost of Housing — The number of remote workers,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,33,37,30,31
+220,36,28G,Reasons for Cost of Housing — The number of remote workers,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,21,17,22,23
+221,36,28G,Reasons for Cost of Housing — The number of remote workers,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,28,26,32,23
+222,36,28G,Reasons for Cost of Housing — The number of remote workers,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,101,99,100,99
+223,37,28H,Reasons for Cost of Housing — Income inequality,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,35,53,29,23
+224,37,28H,Reasons for Cost of Housing — Income inequality,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,25,26,24,25
+225,37,28H,Reasons for Cost of Housing — Income inequality,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,18,6,18,32
+226,37,28H,Reasons for Cost of Housing — Income inequality,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,22,14,29,21
+227,37,28H,Reasons for Cost of Housing — Income inequality,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,99,100,101
+228,38,28I,Reasons for Cost of Housing — The COVID-19 pandemic,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,36,41,32,36
+229,38,28I,Reasons for Cost of Housing — The COVID-19 pandemic,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,32,35,31,30
+230,38,28I,Reasons for Cost of Housing — The COVID-19 pandemic,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,15,10,14,22
+231,38,28I,Reasons for Cost of Housing — The COVID-19 pandemic,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,17,15,22,12
+232,38,28I,Reasons for Cost of Housing — The COVID-19 pandemic,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,101,99,100
+233,39,28J,Reasons for Cost of Housing — Developers trying to maximize profits,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,48,60,41,44
+234,39,28J,Reasons for Cost of Housing — Developers trying to maximize profits,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,27,23,26,32
+235,39,28J,Reasons for Cost of Housing — Developers trying to maximize profits,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,7,3,8,9
+236,39,28J,Reasons for Cost of Housing — Developers trying to maximize profits,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,19,14,25,14
+237,39,28J,Reasons for Cost of Housing — Developers trying to maximize profits,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,101,100,100,99
+238,40,28K,Reasons for Cost of Housing — Local governments’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,23,27,19,25
+239,40,28K,Reasons for Cost of Housing — Local governments’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,34,37,30,35
+240,40,28K,Reasons for Cost of Housing — Local governments’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,13,12,15,13
+241,40,28K,Reasons for Cost of Housing — Local governments’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,30,25,35,27
+242,40,28K,Reasons for Cost of Housing — Local governments’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,101,99,100
+243,41,28L,Reasons for Cost of Housing — Environmental groups’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,23,20,19,32
+244,41,28L,Reasons for Cost of Housing — Environmental groups’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,28,33,25,27
+245,41,28L,Reasons for Cost of Housing — Environmental groups’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,21,24,22,18
+246,41,28L,Reasons for Cost of Housing — Environmental groups’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,28,24,34,23
+247,41,28L,Reasons for Cost of Housing — Environmental groups’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,101,100,100
+248,42,28M,Reasons for Cost of Housing — Local residents’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,18,25,12,20
+249,42,28M,Reasons for Cost of Housing — Local residents’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,35,40,33,32
+250,42,28M,Reasons for Cost of Housing — Local residents’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,18,13,19,21
+251,42,28M,Reasons for Cost of Housing — Local residents’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,29,22,36,27
+252,42,28M,Reasons for Cost of Housing — Local residents’ position on new development,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,100,100
+253,43,28N,Reasons for Cost of Housing — Inflation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A lot,58,56,53,69
+254,43,28N,Reasons for Cost of Housing — Inflation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",A little,24,31,22,19
+255,43,28N,Reasons for Cost of Housing — Inflation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not at all,5,4,4,5
+256,43,28N,Reasons for Cost of Housing — Inflation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Not sure,13,9,21,7
+257,43,28N,Reasons for Cost of Housing — Inflation,"How much, if at all, do you think the following have contributed to the cost of housing in this country?",Totals,100,100,100,100
+258,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,income,6,8,4,5
+259,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,income,5,7,3,6
+260,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,Not sure,20,17,22,26
+261,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,Totals,101,100,102,100
+262,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,income,7,9,7,6
+263,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,income,19,21,16,22
+264,44,29,Define Affordable Housing,How would you define affordable housing? Is it housing for which a household can cover rent or mortgage for...,income,34,37,29,38
+265,45,30,Support Real Estate Investors,Do you think it is a good thing or a bad thing for corporate real-estate investors to buy up houses and turn them into rental properties?,Good thing,13,19,6,14
+266,45,30,Support Real Estate Investors,Do you think it is a good thing or a bad thing for corporate real-estate investors to buy up houses and turn them into rental properties?,Bad thing,45,51,44,40
+267,45,30,Support Real Estate Investors,Do you think it is a good thing or a bad thing for corporate real-estate investors to buy up houses and turn them into rental properties?,Neither good nor bad,23,17,22,30
+268,45,30,Support Real Estate Investors,Do you think it is a good thing or a bad thing for corporate real-estate investors to buy up houses and turn them into rental properties?,Not sure,20,13,28,17
+269,45,30,Support Real Estate Investors,Do you think it is a good thing or a bad thing for corporate real-estate investors to buy up houses and turn them into rental properties?,Totals,101,100,100,101
+270,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Strongly support,26,36,25,18
+271,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Somewhat support,26,29,22,28
+272,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Somewhat oppose,12,9,10,17
+273,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Strongly oppose,8,6,9,11
+274,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Not sure,27,20,34,26
+275,46,31,Policy Block Real Estate Investors,Would you support or oppose legislation that created barriers to corporate real-estate investors buying houses?,Totals,99,100,100,100
+276,47,32,Has Building Kept Pace with Population,Do you think that the number of homes being built in this country has or has not kept up with changes in the population?,Has kept up,20,21,16,26
+277,47,32,Has Building Kept Pace with Population,Do you think that the number of homes being built in this country has or has not kept up with changes in the population?,Has not kept up,47,52,44,45
+278,47,32,Has Building Kept Pace with Population,Do you think that the number of homes being built in this country has or has not kept up with changes in the population?,Not sure,33,27,40,29
+279,47,32,Has Building Kept Pace with Population,Do you think that the number of homes being built in this country has or has not kept up with changes in the population?,Totals,100,100,100,100
+280,48,33,Have Prices Kept Pace with Wages,Do you think that the wage growth in this country has kept up with the cost of housing?,Has kept up,13,16,10,16
+281,48,33,Have Prices Kept Pace with Wages,Do you think that the wage growth in this country has kept up with the cost of housing?,Has not kept up,68,74,63,70
+282,48,33,Have Prices Kept Pace with Wages,Do you think that the wage growth in this country has kept up with the cost of housing?,Not sure,18,11,27,14
+283,48,33,Have Prices Kept Pace with Wages,Do you think that the wage growth in this country has kept up with the cost of housing?,Totals,99,101,100,100
+284,49,34,Support Allowing Buyer Love Letter,"In an effort to give themselves a better chance of buying a home, some people send sellers what are known as love letters, describing themselves and their",Support,31,29,30,35
+285,49,34,Support Allowing Buyer Love Letter,"In an effort to give themselves a better chance of buying a home, some people send sellers what are known as love letters, describing themselves and their",Oppose,31,30,28,36
+286,49,34,Support Allowing Buyer Love Letter,"In an effort to give themselves a better chance of buying a home, some people send sellers what are known as love letters, describing themselves and their",Not sure,38,40,43,29
+287,49,34,Support Allowing Buyer Love Letter,"In an effort to give themselves a better chance of buying a home, some people send sellers what are known as love letters, describing themselves and their",Totals,100,99,101,100
+288,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Very often,25,37,20,19
+289,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Somewhat often,28,37,24,26
+290,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Not very often,15,8,17,20
+291,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Not often at all,7,3,8,10
+292,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Not sure,24,16,31,24
+293,50,35,Frequency Redlining,Redliningisadiscriminatorypracticeinwhichbankswithholdservicestoneighborhoodspopulatedbyminoritiesandlowerwageearners. Howoftendoyou,Totals,99,101,100,99
+294,51,36,Government Policy Redlining,Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?,Increase regulation,39,64,31,23
+295,51,36,Government Policy Redlining,Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?,Decrease regulation,14,7,14,20
+296,51,36,Government Policy Redlining,Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?,Keep as is,19,11,19,26
+297,51,36,Government Policy Redlining,Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?,Not sure,28,18,35,31
+298,51,36,Government Policy Redlining,Should the government increase or decrease the number of regulations on banks and lenders which are intended to prevent redlining?,Totals,100,100,99,100
+299,52,37,Eviction Law Raise Rents,Would you support or oppose a law that would prevent landlords from evicting paying tenants in order to raise rents?,Support,52,66,45,47
+300,52,37,Eviction Law Raise Rents,Would you support or oppose a law that would prevent landlords from evicting paying tenants in order to raise rents?,Oppose,27,20,25,37
+301,52,37,Eviction Law Raise Rents,Would you support or oppose a law that would prevent landlords from evicting paying tenants in order to raise rents?,Not sure,21,14,29,16
+302,52,37,Eviction Law Raise Rents,Would you support or oppose a law that would prevent landlords from evicting paying tenants in order to raise rents?,Totals,100,100,99,100
+303,53,38,Support Tenant Unions,"In some cities, apartment tenants are forming unions in an effort to gain leverage in landlord negotiations. However, unlike labor unions, tenant unions lack",Support,46,65,38,35
+304,53,38,Support Tenant Unions,"In some cities, apartment tenants are forming unions in an effort to gain leverage in landlord negotiations. However, unlike labor unions, tenant unions lack",Oppose,24,15,24,37
+305,53,38,Support Tenant Unions,"In some cities, apartment tenants are forming unions in an effort to gain leverage in landlord negotiations. However, unlike labor unions, tenant unions lack",Not sure,30,20,38,28
+306,53,38,Support Tenant Unions,"In some cities, apartment tenants are forming unions in an effort to gain leverage in landlord negotiations. However, unlike labor unions, tenant unions lack",Totals,100,100,100,100
+307,54,39,Support Allow Tenants Purchase,Would you support or oppose a law that would require property owners to notify tenants in writing of plans to sell their home and give them the right to,Support,68,78,60,68
+308,54,39,Support Allow Tenants Purchase,Would you support or oppose a law that would require property owners to notify tenants in writing of plans to sell their home and give them the right to,Oppose,14,11,14,19
+309,54,39,Support Allow Tenants Purchase,Would you support or oppose a law that would require property owners to notify tenants in writing of plans to sell their home and give them the right to,Not sure,18,11,26,13
+310,54,39,Support Allow Tenants Purchase,Would you support or oppose a law that would require property owners to notify tenants in writing of plans to sell their home and give them the right to,Totals,100,100,100,100
+311,55,40A,Who Best Represents the Values of America — People who live in urban areas,How much do the following groups of people represent the values of America?,A lot,33,45,27,29
+312,55,40A,Who Best Represents the Values of America — People who live in urban areas,How much do the following groups of people represent the values of America?,A little,38,36,34,47
+313,55,40A,Who Best Represents the Values of America — People who live in urban areas,How much do the following groups of people represent the values of America?,Not at all,10,6,10,14
+314,55,40A,Who Best Represents the Values of America — People who live in urban areas,How much do the following groups of people represent the values of America?,Not sure,19,13,29,10
+315,55,40A,Who Best Represents the Values of America — People who live in urban areas,How much do the following groups of people represent the values of America?,Totals,100,100,100,100
+316,56,40B,Who Best Represents the Values of America — People who live in suburban areas,How much do the following groups of people represent the values of America?,A lot,39,39,35,44
+317,56,40B,Who Best Represents the Values of America — People who live in suburban areas,How much do the following groups of people represent the values of America?,A little,38,42,34,38
+318,56,40B,Who Best Represents the Values of America — People who live in suburban areas,How much do the following groups of people represent the values of America?,Not at all,7,9,3,9
+319,56,40B,Who Best Represents the Values of America — People who live in suburban areas,How much do the following groups of people represent the values of America?,Not sure,17,11,27,9
+320,56,40B,Who Best Represents the Values of America — People who live in suburban areas,How much do the following groups of people represent the values of America?,Totals,101,101,99,100
+321,57,40C,Who Best Represents the Values of America — People who live in rural areas,How much do the following groups of people represent the values of America?,A lot,39,30,35,54
+322,57,40C,Who Best Represents the Values of America — People who live in rural areas,How much do the following groups of people represent the values of America?,A little,36,47,31,31
+323,57,40C,Who Best Represents the Values of America — People who live in rural areas,How much do the following groups of people represent the values of America?,Not at all,9,11,10,6
+324,57,40C,Who Best Represents the Values of America — People who live in rural areas,How much do the following groups of people represent the values of America?,Not sure,16,12,24,9
+325,57,40C,Who Best Represents the Values of America — People who live in rural areas,How much do the following groups of people represent the values of America?,Totals,100,100,100,100
+326,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,3,3,3,7
+327,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,3,3,3,3
+328,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,2,3,1,3
+329,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,1,1,1,0
+330,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,2,2,2,0
+331,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,3,5,1,2
+332,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",million or more,3,5,1,10
+333,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",Not sure,14,15,13,20
+334,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",Totals,102,102,101,100
+335,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",Up to,6,4,8,4
+336,58,41,Home Value,"Approximately what is the value of your main residence? If you own more than one property, please refer to the one you live in the most. If you are unsure,",to,10,8,11,10
+337,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Very worried,10,6,9,15
+338,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Somewhat worried,18,18,21,16
+339,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Not very worried,35,39,39,27
+340,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Not at all worried,34,34,27,40
+341,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Not sure,3,3,4,2
+342,61,44,Worried About Paying Mortgage,How worried are you about making your mortgage payments?,Totals,100,100,100,100
+343,62,45,Considering Refinancing,Are you looking to refinance your mortgage within the next year?,Yes,15,25,8,13
+344,62,45,Considering Refinancing,Are you looking to refinance your mortgage within the next year?,No,77,72,84,77
+345,62,45,Considering Refinancing,Are you looking to refinance your mortgage within the next year?,Not sure,7,4,7,10
+346,62,45,Considering Refinancing,Are you looking to refinance your mortgage within the next year?,Totals,99,101,99,100
+347,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,No rent to pay,50,51,49,35
+348,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,Economically cheaper,44,42,47,26
+349,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,No landlord,64,61,67,37
+350,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,Other,4,3,4,1
+351,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,None of the above,6,5,6,15
+352,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,Independence,62,59,62,66
+353,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,Good investment,59,60,53,66
+354,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,Privacy,63,63,59,70
+355,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,It is mine,67,63,63,74
+356,63,46,Benefits to Owning,Do you consider any of the following to be benefits to owning your residence rather than renting? Select all that apply.,renovations,58,55,52,68
+357,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Increased a lot,30,33,26,30
+358,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Increased a little,40,40,40,42
+359,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Stayed the same,14,14,12,16
+360,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Decreased a little,2,1,1,4
+361,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Decreased a lot,4,7,2,2
+362,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Not sure,10,5,18,6
+363,64,47,Home Value Change - 1 Year,"Compared to one year ago, do you think the value of your house has increased, decreased, or stayed the same?",Totals,100,100,99,100
+364,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Increased a lot,46,50,41,49
+365,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Increased a little,27,28,22,32
+366,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Stayed the same,9,10,12,4
+367,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Decreased a little,2,2,2,2
+368,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Decreased a lot,4,7,2,4
+369,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Not sure,11,2,21,9
+370,65,48,Home Value Change - 10 Years,"Compared to 10 years ago, do you think the value of your house has increased, decreased, or stayed the same?",Totals,99,99,100,100
+371,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,rent,15,14,17,13
+372,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,have income,2,3,1,3
+373,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,Not sure,14,16,14,16
+374,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,Totals,98,100,101,99
+375,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,household income,0,0,0,0
+376,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,-,4,4,4,5
+377,66,49,Rent Share of Income,About how much of your household income currently goes toward paying your rent for your primary residence?,-,6,6,5,10
+378,67,50,Worried About Paying Rent,How worried are you about making your rent payments?,Very worried,21,23,18,23
+379,67,50,Worried About Paying Rent,How worried are you about making your rent payments?,Somewhat worried,36,36,37,33
+380,67,50,Worried About Paying Rent,How worried are you about making your rent payments?,Not very worried,27,25,30,26
+381,67,50,Worried About Paying Rent,How worried are you about making your rent payments?,Not at all worried,16,16,15,18
+382,67,50,Worried About Paying Rent,How worried are you about making your rent payments?,Totals,100,100,100,100
+383,68,51,Considering Buying House,"If you could afford it, would you be interested in buying a house?",Yes I would,58,66,51,58
+384,68,51,Considering Buying House,"If you could afford it, would you be interested in buying a house?",No I would not,27,25,30,26
+385,68,51,Considering Buying House,"If you could afford it, would you be interested in buying a house?",Not sure,15,8,19,17
+386,68,51,Considering Buying House,"If you could afford it, would you be interested in buying a house?",Totals,100,99,100,101
+387,70,53,Relationship With Landlord,"Would you say you have a good relationship with your landlord, a bad relationship, or no relationship?",Good,58,60,50,69
+388,70,53,Relationship With Landlord,"Would you say you have a good relationship with your landlord, a bad relationship, or no relationship?",Bad,4,7,3,2
+389,70,53,Relationship With Landlord,"Would you say you have a good relationship with your landlord, a bad relationship, or no relationship?",No relationship,28,28,31,25
+390,70,53,Relationship With Landlord,"Would you say you have a good relationship with your landlord, a bad relationship, or no relationship?",Not sure,10,6,16,4
+391,70,53,Relationship With Landlord,"Would you say you have a good relationship with your landlord, a bad relationship, or no relationship?",Totals,100,101,100,100
+392,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No utilities,14,14,14,12
+393,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,Other,3,3,3,1
+394,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,None of the above,17,13,20,16
+395,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No maintenance,47,54,43,43
+396,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No property taxes,54,63,50,50
+397,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,Landlord does repairs,54,65,45,56
+398,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,More mobility,20,25,17,19
+399,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No responsibilities,25,30,18,29
+400,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,Cheaper,23,30,19,20
+401,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No investment,20,18,17,30
+402,71,54,Benefits To Renting,Do you consider any of the following to be benefits to renting your residence rather than owning? Select all that apply.,No yardwork,42,50,37,40

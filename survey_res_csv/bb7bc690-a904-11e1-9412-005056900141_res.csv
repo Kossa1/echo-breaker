@@ -1,0 +1,146 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Very positive,7,8,4,9
+1,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Somewhat positive,22,23,19,25
+2,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Neither positive nor negative,18,16,23,14
+3,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Somewhat negative,24,25,25,23
+4,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Very negative,24,22,24,26
+5,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Not sure,5,5,6,3
+6,1,1,Effect of AI on Society,Do you think that the effects of artificial intelligence (AI) on society will be...?,Totals,100,99,101,100
+7,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Much more regulated,40,45,40,36
+8,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Somewhat more regulated,34,38,26,40
+9,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Have no change in regulation,10,8,12,10
+10,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Somewhat less regulated,4,2,5,5
+11,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Much less regulated,2,2,2,1
+12,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Not sure,10,5,14,10
+13,2,2,Regulation of AI,"Overall, do you think that artificial intelligence (AI) should be...?",Totals,100,100,99,102
+14,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Strongly approve,5,5,3,6
+15,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Somewhat approve,19,15,18,23
+16,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Somewhat disapprove,30,29,30,31
+17,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Strongly disapprove,32,37,32,27
+18,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Not sure,15,15,18,12
+19,3,3,AI Video,Do you approve or disapprove of online videos created with artificial intelligence (AI) tools?,Totals,101,101,101,99
+20,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",audio deep fakes,73,75,74,70
+21,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",The spread of political propaganda,17,17,16,18
+22,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",Manipulation of human behavior,3,3,2,4
+23,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",decision-making,2,1,2,4
+24,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",drive,4,3,6,4
+25,4,4A,Concerns of AI Possible Results — The spread of misleading video and audio deep fakes,"How concerned are you, if at all, about the possibility of artificial intelligence (AI) resulting in the following?",problems,99,99,100,100
+26,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,Yes,64,71,61,62
+27,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,No,21,18,23,22
+28,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,Not sure,6,5,6,7
+29,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,Not concerned at all,3,2,3,4
+30,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,Not sure,6,4,7,5
+31,5,4B,Concerns of AI Possible Results — The spread of political propaganda,Do you currently follow Donald Trump on any social media platforms?,Totals,100,100,100,100
+32,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Often,61,62,62,57
+33,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Sometimes,24,27,21,23
+34,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Rarely,8,5,9,11
+35,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Never,2,2,2,3
+36,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Not sure,5,3,6,5
+37,6,4C,Concerns of AI Possible Results — Manipulation of human behavior,How often do you see content posted on social media by Donald Trump?,Totals,100,99,100,99
+38,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Always appropriate,58,64,56,56
+39,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Usually appropriate,27,25,26,29
+40,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Usually inappropriate,7,4,9,8
+41,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Always inappropriate,2,2,2,2
+42,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Not sure,6,5,7,5
+43,7,4D,Concerns of AI Possible Results — A decline of human oversight in decision-making,Do you consider Donald Trump’s posts on social media to be...?,Totals,100,100,100,100
+44,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,sewage on protesters,53,55,54,50
+45,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Oval Office and sent to prison,31,31,32,29
+46,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,a golden statue of Trump and a Trump Gaza hotel,9,8,5,14
+47,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Not concerned at all,2,2,3,2
+48,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Not sure,5,4,6,6
+49,8,4E,Concerns of AI Possible Results — Diminishment of human creativity and drive,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Totals,100,100,100,101
+50,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly approve,48,50,46,48
+51,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat approve,30,32,27,33
+52,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat disapprove,10,8,11,10
+53,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly disapprove,3,2,3,4
+54,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Not sure,9,8,13,6
+55,9,4F,Concerns of AI Possible Results — The exacerbation of mental health problems,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Was not able to view the video,100,100,100,101
+56,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Unpresidential,46,48,42,48
+57,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Disturbing,29,33,25,29
+58,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Offensive,10,7,13,9
+59,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Tacky,3,4,2,4
+60,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Funny,12,7,18,10
+61,10,4G,Concerns of AI Possible Results — The reinforcement of societal biases,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Entertaining,100,99,100,100
+62,11,5,Follow Trump Social Media,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly approve,22,8,15,46
+63,11,5,Follow Trump Social Media,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat approve,75,91,82,51
+64,11,5,Follow Trump Social Media,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat disapprove,3,1,3,3
+65,11,5,Follow Trump Social Media,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly disapprove,100,100,100,100
+66,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Unpresidential,28,24,25,36
+67,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Offensive,26,31,22,27
+68,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Disturbing,21,20,22,22
+69,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Tacky,20,19,24,14
+70,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Funny,5,6,6,1
+71,12,6,See Trump Social Media,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Entertaining,100,100,99,100
+72,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly approve,10,2,5,24
+73,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat approve,19,2,16,40
+74,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Somewhat disapprove,25,34,27,13
+75,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Strongly disapprove,28,53,29,4
+76,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Not sure,18,9,24,20
+77,13,7,Trump Social Media Appropriate,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social,Was not able to view the video,100,100,101,101
+78,14,8A,Seen or Heard About Trump Posts — A video of Trump flying a fighter jet and dropping sewage on protesters,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Unpresidential,36,50,30,30
+79,14,8A,Seen or Heard About Trump Posts — A video of Trump flying a fighter jet and dropping sewage on protesters,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Tacky,15,13,17,15
+80,14,8A,Seen or Heard About Trump Posts — A video of Trump flying a fighter jet and dropping sewage on protesters,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Disturbing,44,35,45,52
+81,14,8A,Seen or Heard About Trump Posts — A video of Trump flying a fighter jet and dropping sewage on protesters,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Offensive,4,2,7,3
+82,14,8A,Seen or Heard About Trump Posts — A video of Trump flying a fighter jet and dropping sewage on protesters,HowwouldyoudescribethevideoyouwerejustshownwhichwaspostedbyDonaldTrumponsocialmedia?,Funny,99,100,99,100
+83,15,8B,Seen or Heard About Trump Posts — A video of Barack Obama being arrested in the Oval Office and sent to prison,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Have seen this,15,21,11,14
+84,15,8B,Seen or Heard About Trump Posts — A video of Barack Obama being arrested in the Oval Office and sent to prison,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,but haven’t seen it,17,19,17,15
+85,15,8B,Seen or Heard About Trump Posts — A video of Barack Obama being arrested in the Oval Office and sent to prison,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,about this,63,57,63,69
+86,15,8B,Seen or Heard About Trump Posts — A video of Barack Obama being arrested in the Oval Office and sent to prison,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Not sure,5,3,9,3
+87,15,8B,Seen or Heard About Trump Posts — A video of Barack Obama being arrested in the Oval Office and sent to prison,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Totals,100,100,100,101
+88,16,8C,Seen or Heard About Trump Posts — A video of an imagined version of Gaza containing a golden statue of Trump and a Trump Gaza hotel,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Have seen this,19,26,18,13
+89,16,8C,Seen or Heard About Trump Posts — A video of an imagined version of Gaza containing a golden statue of Trump and a Trump Gaza hotel,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,but haven’t seen it,15,23,14,9
+90,16,8C,Seen or Heard About Trump Posts — A video of an imagined version of Gaza containing a golden statue of Trump and a Trump Gaza hotel,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,about this,60,48,59,73
+91,16,8C,Seen or Heard About Trump Posts — A video of an imagined version of Gaza containing a golden statue of Trump and a Trump Gaza hotel,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Not sure,6,3,9,5
+92,16,8C,Seen or Heard About Trump Posts — A video of an imagined version of Gaza containing a golden statue of Trump and a Trump Gaza hotel,Have you seen or heard about the following AI-generated content posted on social media by Donald Trump?,Totals,100,100,100,100
+93,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly approve,13,1,8,29
+94,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat approve,7,1,6,13
+95,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat disapprove,9,2,9,15
+96,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly disapprove,61,94,63,27
+97,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Not sure,10,1,14,15
+98,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,video,0,1,0,1
+99,17,9,Approval of Trump Fighter Jet Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Totals,100,100,100,100
+100,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,None of the above,6,6,7,9
+101,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,video,0,0,1,1
+102,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Unpresidential,60,83,68,26
+103,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Disturbing,52,77,57,23
+104,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Offensive,51,76,54,21
+105,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Tacky,48,66,50,26
+106,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Funny,21,3,16,43
+107,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Entertaining,15,2,10,33
+108,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Clever,9,1,8,19
+109,18,10,Description of Trump Fighter Jet Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Impressive,5,1,3,10
+110,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly approve,13,1,9,30
+111,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat approve,8,2,4,18
+112,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat disapprove,11,3,12,17
+113,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly disapprove,58,93,61,21
+114,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Not sure,10,2,14,14
+115,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,video,0,0,0,0
+116,19,11,Approval of Trump Obama Arrest Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Totals,100,101,100,100
+117,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,None of the above,7,6,9,10
+118,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,video,0,0,0,0
+119,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Unpresidential,58,80,66,27
+120,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Offensive,48,77,50,16
+121,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Disturbing,45,73,46,17
+122,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Tacky,43,59,45,25
+123,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Funny,19,4,14,40
+124,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Entertaining,13,1,12,28
+125,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Clever,11,0,7,26
+126,20,12,Description of Trump Obama Arrest Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Impressive,8,1,7,16
+127,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Totals,100,100,100,99
+128,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly approve,10,1,5,24
+129,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat approve,10,3,8,20
+130,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Somewhat disapprove,13,6,17,15
+131,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Strongly disapprove,53,87,54,19
+132,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Not sure,14,3,16,21
+133,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,video,0,1,0,0
+134,21,13,Approval of Trump Gaza Video,Do you approve or disapprove of Donald Trump’s decision to post the video you were just shown on social media?,Totals,100,101,100,99
+135,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Impressive,7,11,4,9
+136,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,None of the above,10,9,11,9
+137,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,video,0,0,0,0
+138,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Unpresidential,52,78,56,23
+139,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Tacky,48,69,50,24
+140,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Disturbing,42,70,44,12
+141,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Offensive,38,66,39,10
+142,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Funny,15,2,14,28
+143,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Entertaining,15,4,8,33
+144,22,14,Description of Trump Gaza Video,How would you describe the video you were just shown which was posted by Donald Trump on social media? Select all that apply.,Clever,9,1,6,21

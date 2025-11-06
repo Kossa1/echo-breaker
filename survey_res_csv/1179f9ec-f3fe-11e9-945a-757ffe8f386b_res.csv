@@ -1,0 +1,181 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Know LGBT Acronyms — LGBT,Do you believe you know what all of the letters in each of the following terms stand for?,LGBT,79,86,77,76
+1,1,1A,Know LGBT Acronyms — LGBT,Do you believe you know what all of the letters in each of the following terms stand for?,LGBTQ,21,14,23,24
+2,1,1A,Know LGBT Acronyms — LGBT,Do you believe you know what all of the letters in each of the following terms stand for?,LGBTQIA,100,100,100,100
+3,2,1B,Know LGBT Acronyms — LGBTQ,"Do you believe that using the word ""queer"" to refer to someone else is... ?",Acceptable for anyone,74,87,71,66
+4,2,1B,Know LGBT Acronyms — LGBTQ,"Do you believe that using the word ""queer"" to refer to someone else is... ?",Only acceptable for certain people,26,13,29,34
+5,2,1B,Know LGBT Acronyms — LGBTQ,"Do you believe that using the word ""queer"" to refer to someone else is... ?",Never acceptable,100,100,100,100
+6,3,1C,Know LGBT Acronyms — LGBTQIA,How much discrimination do the following people face in America today?,Transgender women,26,40,26,14
+7,3,1C,Know LGBT Acronyms — LGBTQIA,How much discrimination do the following people face in America today?,Transgender men,74,60,74,86
+8,3,1C,Know LGBT Acronyms — LGBTQIA,How much discrimination do the following people face in America today?,Black Americans,100,100,100,100
+9,4,1D,Know LGBT Acronyms — LGBTQIAPK+,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years,Gay man,6,8,6,5
+10,4,1D,Know LGBT Acronyms — LGBTQIAPK+,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years,Lesbian woman,94,92,94,95
+11,4,1D,Know LGBT Acronyms — LGBTQIAPK+,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years,Transgender woman,100,100,100,100
+12,5,2,Word Queer Acceptable,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the,Gay man,18,13,17,25
+13,5,2,Word Queer Acceptable,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the,Lesbian woman,34,43,35,24
+14,5,2,Word Queer Acceptable,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the,Transgender woman,25,27,24,25
+15,5,2,Word Queer Acceptable,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the,Transgender man,22,17,24,26
+16,5,2,Word Queer Acceptable,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the,Totals,99,100,100,100
+17,6,3A,Level of discrimination — Transgender women,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+",Gotten easier,41,66,38,20
+18,6,3A,Level of discrimination — Transgender women,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+",Stayed the same,34,26,41,33
+19,6,3A,Level of discrimination — Transgender women,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+",Gotten harder,17,7,12,32
+20,6,3A,Level of discrimination — Transgender women,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+",Not sure,8,1,9,15
+21,6,3A,Level of discrimination — Transgender women,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+",Totals,100,100,100,100
+22,7,3B,Level of discrimination — Transgender men,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most",Gotten easier,40,63,36,22
+23,7,3B,Level of discrimination — Transgender men,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most",Stayed the same,35,28,42,32
+24,7,3B,Level of discrimination — Transgender men,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most",Gotten harder,18,8,15,32
+25,7,3B,Level of discrimination — Transgender men,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most",Not sure,8,1,7,15
+26,7,3B,Level of discrimination — Transgender men,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most",Totals,101,100,100,101
+27,8,3C,Level of discrimination — Black Americans,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most",Gotten easier,31,51,32,10
+28,8,3C,Level of discrimination — Black Americans,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most",Stayed the same,39,41,39,38
+29,8,3C,Level of discrimination — Black Americans,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most",Gotten harder,24,7,23,42
+30,8,3C,Level of discrimination — Black Americans,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most",Not sure,6,1,6,11
+31,8,3C,Level of discrimination — Black Americans,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most",Totals,100,100,100,101
+32,9,3D,Level of discrimination — Arab Americans,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Kindergarten through Grade 2,28,42,26,15
+33,9,3D,Level of discrimination — Arab Americans,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Grades 3-5,45,46,50,38
+34,9,3D,Level of discrimination — Arab Americans,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Grades 6-8,20,10,16,35
+35,9,3D,Level of discrimination — Arab Americans,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Grades 9-12,7,2,8,12
+36,9,3D,Level of discrimination — Arab Americans,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Totals,100,100,100,100
+37,10,3E,Level of discrimination — Gay men,Do you think public schools should or should not teach students about different sexual orientations and,Should,26,43,26,11
+38,10,3E,Level of discrimination — Gay men,Do you think public schools should or should not teach students about different sexual orientations and,Should not,42,47,46,31
+39,10,3E,Level of discrimination — Gay men,Do you think public schools should or should not teach students about different sexual orientations and,Not sure,24,10,21,43
+40,10,3E,Level of discrimination — Gay men,Do you think public schools should or should not teach students about different sexual orientations and,None at all,8,1,6,15
+41,10,3E,Level of discrimination — Gay men,Do you think public schools should or should not teach students about different sexual orientations and,Totals,100,101,99,100
+42,11,3F,Level of discrimination — Hispanic Americans,Do you think public schools should or should not acknowledge students’ gender identities if they differ from,Should,25,38,29,8
+43,11,3F,Level of discrimination — Hispanic Americans,Do you think public schools should or should not acknowledge students’ gender identities if they differ from,Should not,39,46,37,33
+44,11,3F,Level of discrimination — Hispanic Americans,Do you think public schools should or should not acknowledge students’ gender identities if they differ from,Not sure,29,15,27,47
+45,11,3F,Level of discrimination — Hispanic Americans,Do you think public schools should or should not acknowledge students’ gender identities if they differ from,None at all,7,1,7,13
+46,11,3F,Level of discrimination — Hispanic Americans,Do you think public schools should or should not acknowledge students’ gender identities if they differ from,Totals,100,100,100,101
+47,12,3G,Level of discrimination — Jewish Americans,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Yes,24,19,24,28
+48,12,3G,Level of discrimination — Jewish Americans,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",No,42,51,36,41
+49,12,3G,Level of discrimination — Jewish Americans,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Don’t know,28,25,35,23
+50,12,3G,Level of discrimination — Jewish Americans,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Prefer not to say,6,5,5,7
+51,12,3G,Level of discrimination — Jewish Americans,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Totals,100,100,100,99
+52,13,3H,Level of discrimination — Lesbian women,"How much, if at all, do you know about the history of Pride month?",A lot,20,33,20,7
+53,13,3H,Level of discrimination — Lesbian women,"How much, if at all, do you know about the history of Pride month?",A little,39,50,39,29
+54,13,3H,Level of discrimination — Lesbian women,"How much, if at all, do you know about the history of Pride month?",Nothing at all,31,16,33,44
+55,13,3H,Level of discrimination — Lesbian women,"How much, if at all, do you know about the history of Pride month?",None at all,10,2,8,20
+56,13,3H,Level of discrimination — Lesbian women,"How much, if at all, do you know about the history of Pride month?",Totals,100,101,100,100
+57,14,3I,Level of discrimination — Asian Americans,Have you ever attended a Pride celebration?,Yes,15,19,19,8
+58,14,3I,Level of discrimination — Asian Americans,Have you ever attended a Pride celebration?,No,41,51,38,35
+59,14,3I,Level of discrimination — Asian Americans,Have you ever attended a Pride celebration?,Not much,36,28,35,46
+60,14,3I,Level of discrimination — Asian Americans,Have you ever attended a Pride celebration?,None at all,7,2,9,12
+61,14,3I,Level of discrimination — Asian Americans,Have you ever attended a Pride celebration?,Totals,99,100,101,101
+62,15,3J,Level of discrimination — Christian Americans,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Yes,15,3,15,25
+63,15,3J,Level of discrimination — Christian Americans,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,No,23,13,19,38
+64,15,3J,Level of discrimination — Christian Americans,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Not sure,37,40,42,27
+65,15,3J,Level of discrimination — Christian Americans,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,None at all,26,44,24,10
+66,15,3J,Level of discrimination — Christian Americans,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Totals,101,100,100,100
+67,16,3K,Level of discrimination — White Americans,How much discrimination do the following people face in America today?,A great deal,13,4,16,19
+68,16,3K,Level of discrimination — White Americans,How much discrimination do the following people face in America today?,A fair amount,18,5,17,34
+69,16,3K,Level of discrimination — White Americans,How much discrimination do the following people face in America today?,Not much,36,37,36,36
+70,16,3K,Level of discrimination — White Americans,How much discrimination do the following people face in America today?,None at all,33,55,32,12
+71,16,3K,Level of discrimination — White Americans,How much discrimination do the following people face in America today?,Totals,100,101,101,101
+72,17,3L,Level of discrimination — Heterosexual/straight Americans,How much discrimination do the following people face in America today?,A great deal,12,6,11,18
+73,17,3L,Level of discrimination — Heterosexual/straight Americans,How much discrimination do the following people face in America today?,A fair amount,20,13,16,30
+74,17,3L,Level of discrimination — Heterosexual/straight Americans,How much discrimination do the following people face in America today?,Not much,33,29,34,36
+75,17,3L,Level of discrimination — Heterosexual/straight Americans,How much discrimination do the following people face in America today?,None at all,36,52,38,16
+76,17,3L,Level of discrimination — Heterosexual/straight Americans,How much discrimination do the following people face in America today?,Totals,101,100,99,100
+77,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Very likely,10,14,12,4
+78,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Somewhat likely,29,35,31,20
+79,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not very likely,24,22,20,32
+80,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not likely at all,23,20,22,28
+81,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not sure,14,8,15,17
+82,18,4A,Will Ever Be President in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Totals,100,99,100,101
+83,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Very likely,6,8,6,3
+84,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Somewhat likely,23,28,27,14
+85,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not very likely,27,28,26,27
+86,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not likely at all,30,27,25,40
+87,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not sure,14,9,16,15
+88,19,4B,Will Ever Be President in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Totals,100,100,100,99
+89,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Very likely,5,8,6,3
+90,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Somewhat likely,9,9,12,6
+91,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not very likely,26,29,23,28
+92,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not likely at all,46,46,42,50
+93,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not sure,13,8,17,14
+94,20,4C,Will Ever Be President in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Totals,99,100,100,101
+95,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Very likely,5,6,5,3
+96,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Somewhat likely,10,12,11,6
+97,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not very likely,25,28,21,26
+98,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not likely at all,48,46,45,52
+99,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Not sure,13,8,17,14
+100,21,4D,Will Ever Be President in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a president within the next 50 years who is an openly...?,Totals,101,100,99,101
+101,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Very likely,16,19,16,12
+102,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Somewhat likely,34,41,31,30
+103,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not very likely,21,22,22,20
+104,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not likely at all,16,10,15,22
+105,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not sure,14,9,16,16
+106,22,5A,Will Ever Be Supreme Court Justice in Lifetime — Gay man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Totals,101,101,100,100
+107,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Very likely,15,16,16,12
+108,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Somewhat likely,33,42,29,29
+109,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not very likely,24,22,27,21
+110,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not likely at all,15,12,12,22
+111,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not sure,14,8,16,16
+112,23,5B,Will Ever Be Supreme Court Justice in Lifetime — Lesbian woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Totals,101,100,100,100
+113,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Very likely,8,10,8,7
+114,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Somewhat likely,17,21,14,16
+115,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not very likely,31,33,35,25
+116,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not likely at all,30,27,28,34
+117,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not sure,14,9,16,17
+118,24,5C,Will Ever Be Supreme Court Justice in Lifetime — Transgender woman,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Totals,100,100,101,99
+119,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Very likely,8,11,6,7
+120,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Somewhat likely,16,17,16,16
+121,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not very likely,31,34,34,24
+122,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not likely at all,31,29,29,37
+123,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Not sure,14,9,16,16
+124,25,5D,Will Ever Be Supreme Court Justice in Lifetime — Transgender man,How likely or unlikely do you believe it is that the United States will have a Supreme Court justice within the next 50 years who is an openly...?,Totals,100,100,101,100
+125,26,6,How Changed LGBTQ+ One Year Ago,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-",Gotten easier,23,9,19,40
+126,26,6,How Changed LGBTQ+ One Year Ago,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-",Stayed the same,27,22,28,31
+127,26,6,How Changed LGBTQ+ One Year Ago,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-",Gotten harder,35,62,33,12
+128,26,6,How Changed LGBTQ+ One Year Ago,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-",Not sure,15,7,19,16
+129,26,6,How Changed LGBTQ+ One Year Ago,"Compared to one year ago, do you think things have generally gotten easier or harder for most LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-",Totals,100,100,99,99
+130,27,7,How Will Change LGBTQ+ One Year From Now,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Gotten easier,17,6,15,30
+131,27,7,How Will Change LGBTQ+ One Year From Now,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Stayed the same,31,26,29,38
+132,27,7,How Will Change LGBTQ+ One Year From Now,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Gotten harder,35,58,33,15
+133,27,7,How Will Change LGBTQ+ One Year From Now,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Not sure,17,10,23,17
+134,27,7,How Will Change LGBTQ+ One Year From Now,"Thinking about one year from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Totals,100,100,100,100
+135,28,8,How Will Change LGBTQ+ 10 Years From Now,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Gotten easier,34,34,33,36
+136,28,8,How Will Change LGBTQ+ 10 Years From Now,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Stayed the same,20,18,16,28
+137,28,8,How Will Change LGBTQ+ 10 Years From Now,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Gotten harder,17,20,18,12
+138,28,8,How Will Change LGBTQ+ 10 Years From Now,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Not sure,29,28,33,24
+139,28,8,How Will Change LGBTQ+ 10 Years From Now,"Thinking about 10 years from now, do you think things will generally have gotten easier or harder for most LGBTQ+ Americans?",Totals,100,100,100,100
+140,29,9A,Teaching history — Kindergarten through Grade 2,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should,9,19,8,1
+141,29,9A,Teaching history — Kindergarten through Grade 2,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should not,76,58,76,95
+142,29,9A,Teaching history — Kindergarten through Grade 2,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Not sure,14,23,16,4
+143,29,9A,Teaching history — Kindergarten through Grade 2,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Totals,99,100,100,100
+144,30,9B,Teaching history — Grades 3-5,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should,15,30,12,3
+145,30,9B,Teaching history — Grades 3-5,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should not,72,51,72,93
+146,30,9B,Teaching history — Grades 3-5,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Not sure,13,19,15,4
+147,30,9B,Teaching history — Grades 3-5,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Totals,100,100,99,100
+148,31,9C,Teaching history — Grades 6-8,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should,28,53,27,5
+149,31,9C,Teaching history — Grades 6-8,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should not,59,30,56,90
+150,31,9C,Teaching history — Grades 6-8,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Not sure,13,17,17,5
+151,31,9C,Teaching history — Grades 6-8,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Totals,100,100,100,100
+152,32,9D,Teaching history — Grades 9-12,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should,46,77,45,16
+153,32,9D,Teaching history — Grades 9-12,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Should not,41,15,36,73
+154,32,9D,Teaching history — Grades 9-12,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Not sure,13,8,19,10
+155,32,9D,Teaching history — Grades 9-12,Do you think public schools should or should not teach LGBTQ+ history to students in...?,Totals,100,100,100,99
+156,33,10,Teaching Orientation,Do you think public schools should or should not teach students about different sexual orientations and gender identities?,Should,38,67,38,8
+157,33,10,Teaching Orientation,Do you think public schools should or should not teach students about different sexual orientations and gender identities?,Should not,50,21,45,86
+158,33,10,Teaching Orientation,Do you think public schools should or should not teach students about different sexual orientations and gender identities?,Not sure,12,13,18,6
+159,33,10,Teaching Orientation,Do you think public schools should or should not teach students about different sexual orientations and gender identities?,Totals,100,101,101,100
+160,34,11,Acknowledging Orientation,Do you think public schools should or should not acknowledge students’ gender identities if they differ from the ones assigned at birth?,Should,34,67,30,7
+161,34,11,Acknowledging Orientation,Do you think public schools should or should not acknowledge students’ gender identities if they differ from the ones assigned at birth?,Should not,50,18,51,79
+162,34,11,Acknowledging Orientation,Do you think public schools should or should not acknowledge students’ gender identities if they differ from the ones assigned at birth?,Not sure,16,16,18,13
+163,34,11,Acknowledging Orientation,Do you think public schools should or should not acknowledge students’ gender identities if they differ from the ones assigned at birth?,Totals,100,101,99,99
+164,35,12,LGBTQ Identity,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Yes,11,19,12,3
+165,35,12,LGBTQ Identity,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",No,85,78,83,94
+166,35,12,LGBTQ Identity,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Don’t know,2,1,2,1
+167,35,12,LGBTQ Identity,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Prefer not to say,2,2,2,1
+168,35,12,LGBTQ Identity,"Do you identify as LGBTQ+ (lesbian, gay, bisexual, transgender, queer, non-binary, etc.)?",Totals,100,100,99,99
+169,36,13,Pride History Knowledge,"How much, if at all, do you know about the history of Pride month?",A lot,14,23,10,10
+170,36,13,Pride History Knowledge,"How much, if at all, do you know about the history of Pride month?",A little,54,56,56,49
+171,36,13,Pride History Knowledge,"How much, if at all, do you know about the history of Pride month?",Nothing at all,32,21,34,41
+172,36,13,Pride History Knowledge,"How much, if at all, do you know about the history of Pride month?",Totals,100,100,100,100
+173,37,14,Attended Pride Celebration,Have you ever attended a Pride celebration?,Yes,16,26,14,8
+174,37,14,Attended Pride Celebration,Have you ever attended a Pride celebration?,No,84,74,86,92
+175,37,14,Attended Pride Celebration,Have you ever attended a Pride celebration?,Totals,100,100,100,100
+176,38,15,Participate in Pride Events,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Yes,8,16,6,3
+177,38,15,Participate in Pride Events,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,No,85,73,86,94
+178,38,15,Participate in Pride Events,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Not sure,7,11,8,3
+179,38,15,Participate in Pride Events,Have you participated in any Pride Month activities or celebrations this year or do you plan to?,Totals,100,100,100,100

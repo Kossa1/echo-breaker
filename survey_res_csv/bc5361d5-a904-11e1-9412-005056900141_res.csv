@@ -1,0 +1,393 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,ABC,12,21,8,8
+1,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,Al Jazeera,32,46,28,21
+2,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,C-SPAN,24,22,30,20
+3,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,CBS,12,4,10,23
+4,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,CNN,12,2,12,22
+5,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,Fox News,8,6,12,7
+6,1,1A,Trust in Broadcast News — ABC,How trustworthy do you rate the news reported by the following media organizations?,MSNBC,100,101,100,101
+7,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,New York Post,8,15,4,5
+8,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,Newsweek,17,22,18,10
+9,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,Reuters,21,25,22,16
+10,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,The Associated Press,9,5,8,15
+11,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,The Economist,15,7,15,25
+12,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,The Guardian,30,27,33,30
+13,2,1B,Trust in Broadcast News — Al Jazeera,How trustworthy do you rate the news reported by the following print or digital media organizations?,The New York Times,100,101,100,101
+14,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Axios,11,20,9,4
+15,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Bloomberg,23,29,20,20
+16,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Breitbart News,28,27,33,24
+17,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Business Insider,11,6,8,18
+18,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,BuzzFeed News,9,4,9,16
+19,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Daily Kos,18,14,21,18
+20,3,1C,Trust in Broadcast News — C-SPAN,How trustworthy do you rate the news reported by the following media organizations?,Forbes,100,100,100,100
+21,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,Facebook,11,19,8,7
+22,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,Instagram,32,44,29,21
+23,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,LinkedIn,25,25,30,20
+24,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,Parler,12,4,10,22
+25,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,Reddit,12,1,12,23
+26,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,Snapchat,8,7,11,7
+27,4,1D,Trust in Broadcast News — CBS,How trustworthy do you rate the news shared on the following social media platforms?,TikTok,100,100,100,100
+28,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,13,22,8,10
+29,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,26,40,23,15
+30,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,25,29,10
+31,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,12,5,11,20
+32,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,21,3,21,41
+33,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,6,4,9,5
+34,5,1E,Trust in Broadcast News — CNN,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,99,101,101
+35,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,12,14,5,18
+36,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,26,19,24,37
+37,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,20,14,23,24
+38,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,12,10,17,9
+39,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,23,39,23,6
+40,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,6,5,9,6
+41,6,1F,Trust in Broadcast News — Fox News,How trustworthy do you rate the news reported by the following media organizations?,Totals,99,101,101,100
+42,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,10,21,4,4
+43,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,26,40,21,15
+44,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,24,28,14
+45,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,11,5,9,20
+46,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,20,3,21,37
+47,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,11,7,17,10
+48,7,1G,Trust in Broadcast News — MSNBC,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,100,100
+49,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,15,31,8,7
+50,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,23,31,23,14
+51,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,20,25,21
+52,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,11,3,9,20
+53,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,12,3,12,21
+54,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Don’t know,18,12,23,17
+55,8,1H,Trust in Broadcast News — National Public Radio (NPR),How trustworthy do you rate the news reported by the following media organizations?,Totals,101,100,100,100
+56,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,11,20,6,7
+57,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,31,46,27,20
+58,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,24,23,28,21
+59,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,11,3,10,20
+60,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,13,3,14,23
+61,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,10,5,16,8
+62,9,1I,Trust in Broadcast News — NBC,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,101,99
+63,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,9,9,3,15
+64,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,20,19,14,27
+65,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,24,20,29,21
+66,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,7,7,9
+67,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,14,22,15,4
+68,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,26,23,32,24
+69,10,1J,Trust in Broadcast News — Newsmax,How trustworthy do you rate the news reported by the following media organizations?,Totals,101,100,100,100
+70,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,8,9,3,14
+71,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,18,16,16,22
+72,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,20,23,22
+73,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,6,6,4,6
+74,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,16,24,18,5
+75,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Don’t know,30,25,34,31
+76,11,1K,Trust in Broadcast News — One America News (OAN),How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,98,100
+77,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,16,28,12,8
+78,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,31,39,29,25
+79,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,23,18,25,27
+80,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,3,10,15
+81,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,3,9,16
+82,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Don’t know,11,9,15,9
+83,12,1L,Trust in Broadcast News — Public Broadcasting Service (PBS),How trustworthy do you rate the news reported by the following media organizations?,Totals,99,100,100,100
+84,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,14,23,10,8
+85,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,29,39,27,21
+86,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,27,20,33,29
+87,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,6,6,13
+88,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,6,2,6,11
+89,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,16,11,19,18
+90,13,1M,Trust in Broadcast News — The BBC,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,101,101,100
+91,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,21,31,12,19
+92,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,41,39,45,38
+93,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,19,24,22
+94,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,4,2,4,6
+95,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,4,4,3,5
+96,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,9,6,12,9
+97,14,1N,Trust in Broadcast News — The Weather Channel,How trustworthy do you rate the news reported by the following media organizations?,Totals,101,101,100,99
+98,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,9,13,5,10
+99,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,22,26,18,23
+100,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,25,25,30,20
+101,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,14,13,12,18
+102,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,11,8,12,12
+103,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,18,15,23,17
+104,15,2A,Trust in Print News — New York Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,99,100,100,100
+105,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,8,13,3,9
+106,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,24,35,20,18
+107,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,29,29,34,23
+108,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,11,5,10,18
+109,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,9,4,9,14
+110,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,19,14,24,18
+111,16,2B,Trust in Print News — Newsweek,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,100,100,100
+112,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,11,18,7,7
+113,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,25,36,23,17
+114,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,25,23,27,24
+115,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,9,3,9,16
+116,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,7,3,8,12
+117,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,23,17,27,24
+118,17,2C,Trust in Print News — Reuters,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,100,101,100
+119,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,15,25,11,8
+120,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,26,37,21,21
+121,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,25,19,32,24
+122,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,9,4,7,19
+123,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,9,2,11,14
+124,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,15,13,18,15
+125,18,2D,Trust in Print News — The Associated Press,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,99,100,100,101
+126,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,8,13,5,6
+127,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,21,29,16,17
+128,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,29,30,30,27
+129,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,7,4,7,12
+130,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,5,2,7,7
+131,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,29,21,34,32
+132,19,2E,Trust in Print News — The Economist,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,99,99,99,101
+133,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,9,15,5,8
+134,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,21,31,19,14
+135,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,26,25,29,24
+136,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,10,6,8,16
+137,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,7,2,9,9
+138,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,27,21,30,30
+139,20,2F,Trust in Print News — The Guardian,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,100,100,101
+140,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,14,24,9,8
+141,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,24,35,23,14
+142,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,23,25,29,14
+143,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,12,4,10,24
+144,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,14,2,14,28
+145,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,13,9,16,12
+146,21,2G,Trust in Print News — The New York Times,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,99,101,100
+147,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,9,16,4,7
+148,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,21,35,18,9
+149,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,26,25,31,21
+150,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,10,5,7,21
+151,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,10,2,11,18
+152,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,23,17,28,24
+153,22,2H,Trust in Print News — The New Yorker,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,99,100,99,100
+154,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,12,16,8,13
+155,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,29,36,27,25
+156,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,27,28,33,19
+157,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,11,7,9,18
+158,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,7,3,7,11
+159,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,14,11,16,14
+160,23,2I,Trust in Print News — The Wall Street Journal,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,101,100,100
+161,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,14,24,10,9
+162,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,26,34,23,19
+163,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,23,25,29,16
+164,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,10,3,8,20
+165,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,12,4,11,22
+166,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,15,11,18,15
+167,24,2J,Trust in Print News — The Washington Post,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,101,99,101
+168,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,10,17,6,7
+169,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,29,42,25,20
+170,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,27,28,33,19
+171,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,11,2,11,22
+172,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,10,2,9,20
+173,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,13,9,16,12
+174,25,2K,Trust in Print News — TIME Magazine,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,100,100,100,100
+175,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very trustworthy,12,19,8,10
+176,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Trustworthy,28,40,24,19
+177,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,untrustworthy,26,25,32,21
+178,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Untrustworthy,10,2,11,19
+179,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Very untrustworthy,9,3,9,16
+180,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Don’t know,14,10,16,14
+181,26,2L,Trust in Print News — USA Today,How trustworthy do you rate the news reported by the following print or digital media organizations?,Totals,99,99,100,99
+182,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,11,2,4
+183,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,14,21,14,7
+184,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,25,26,26,22
+185,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,7,4,6,11
+186,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,7,6,6,10
+187,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,41,32,46,46
+188,27,3A,Trust in Digital News — Axios,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,100,100
+189,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,8,13,5,6
+190,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,22,32,16,17
+191,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,28,27,30,25
+192,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,11,6,12,14
+193,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,3,9,15
+194,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,23,19,28,23
+195,28,3B,Trust in Digital News — Bloomberg,How trustworthy do you rate the news reported by the following media organizations?,Totals,101,100,100,100
+196,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,8,7,5,12
+197,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,15,17,9,20
+198,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,20,18,24,17
+199,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,7,10,10
+200,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,16,23,18,7
+201,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,32,27,34,34
+202,29,3C,Trust in Digital News — Breitbart News,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,99,100,100
+203,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,9,6,4
+204,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,22,30,16,19
+205,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,29,30,31,26
+206,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,7,3,7,11
+207,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,5,2,6,8
+208,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,31,25,34,33
+209,30,3D,Trust in Digital News — Business Insider,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,99,100,101
+210,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,12,1,4
+211,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,16,23,12,12
+212,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,30,34,30,28
+213,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,12,7,15,14
+214,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,3,11,14
+215,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,27,21,32,29
+216,31,3E,Trust in Digital News — BuzzFeed News,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,101,101
+217,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,5,10,1,4
+218,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,10,17,7,7
+219,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,21,24,22,18
+220,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,9,6,11
+221,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,8,4,10,12
+222,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,46,37,53,48
+223,32,3F,Trust in Digital News — Daily Kos,How trustworthy do you rate the news reported by the following media organizations?,Totals,98,101,99,100
+224,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,10,16,5,11
+225,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,28,32,27,26
+226,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,27,26,31,23
+227,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,7,9,10
+228,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,7,3,7,10
+229,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,19,16,21,20
+230,33,3G,Trust in Digital News — Forbes,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,100,100
+231,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,7,12,2,6
+232,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,19,32,14,10
+233,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,27,32,29,20
+234,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,10,5,12,15
+235,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,14,3,15,26
+236,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,22,16,29,22
+237,34,3H,Trust in Digital News — HuffPost,How trustworthy do you rate the news reported by the following media organizations?,Totals,99,100,101,99
+238,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,5,6,3,6
+239,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,9,14,5,9
+240,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,21,21,22,22
+241,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,8,6,12
+242,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,22,26,25,13
+243,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,35,26,40,39
+244,35,3I,Trust in Digital News — Infowars,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,101,101,101
+245,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,7,14,2,6
+246,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,19,29,15,13
+247,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,26,26,28,23
+248,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,10,5,12,15
+249,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,10,4,10,15
+250,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,28,22,32,28
+251,36,3J,Trust in Digital News — Politico,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,99,100
+252,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,5,8,2,5
+253,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,14,25,9,8
+254,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,25,27,30,18
+255,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,5,8,12
+256,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,8,3,8,13
+257,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,40,32,44,44
+258,37,3K,Trust in Digital News — Slate,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,101,100
+259,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,8,17,3,5
+260,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,19,29,18,10
+261,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,23,23,24,21
+262,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,4,8,14
+263,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,5,10,14
+264,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,32,23,36,36
+265,38,3L,Trust in Digital News — The Atlantic,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,101,99,100
+266,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,10,3,5
+267,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,14,23,9,10
+268,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,23,24,26,19
+269,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,10,6,11,13
+270,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,6,10,12
+271,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,38,31,41,41
+272,39,3M,Trust in Digital News — The Daily Beast,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,100,100,100
+273,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,5,7,2,5
+274,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,11,15,8,10
+275,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,21,22,22,19
+276,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,10,8,10,13
+277,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,9,10,9
+278,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,43,40,48,43
+279,40,3N,Trust in Digital News — The Daily Caller,How trustworthy do you rate the news reported by the following media organizations?,Totals,99,101,100,99
+280,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,9,3,8
+281,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,16,16,13,19
+282,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,22,22,24,20
+283,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,10,9,7
+284,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,10,13,10,7
+285,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,37,31,42,38
+286,41,3O,Trust in Digital News — The Federalist,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,101,101,99
+287,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,6,11,2,5
+288,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,17,25,14,12
+289,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,28,30,31,22
+290,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,9,4,9,13
+291,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,7,2,8,12
+292,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,33,27,36,35
+293,42,3P,Trust in Digital News — The Hill,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,99,100,99
+294,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,8,12,4,6
+295,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,16,20,13,16
+296,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,24,23,27,22
+297,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,8,8,8,10
+298,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,7,5,8,9
+299,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,36,32,39,37
+300,43,3Q,Trust in Digital News — The National Review,How trustworthy do you rate the news reported by the following media organizations?,Totals,99,100,99,100
+301,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,7,9,5,6
+302,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,17,19,16,18
+303,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,25,26,26,21
+304,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,11,11,9,13
+305,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,9,7,8,11
+306,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,31,27,35,32
+307,44,3R,Trust in Digital News — The Washington Examiner,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,99,99,101
+308,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Very trustworthy,7,14,4,5
+309,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Trustworthy,22,32,16,18
+310,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,untrustworthy,31,28,37,27
+311,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Untrustworthy,12,7,13,16
+312,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Very untrustworthy,10,2,12,16
+313,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Don’t know,18,18,18,17
+314,45,3S,Trust in Digital News — Yahoo News,How trustworthy do you rate the news reported by the following media organizations?,Totals,100,101,100,99
+315,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,8,12,6,6
+316,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,13,19,10,12
+317,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,27,29,29,24
+318,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,20,18,17,25
+319,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,24,17,29,26
+320,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,7,6,9,7
+321,46,4A,Trust in Social Media News — Facebook,How trustworthy do you rate the news shared on the following social media platforms?,Totals,99,101,100,100
+322,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,6,11,3,5
+323,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,13,18,11,10
+324,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,27,29,28,24
+325,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,18,17,18,20
+326,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,17,9,22,20
+327,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,18,16,19,21
+328,47,4B,Trust in Social Media News — Instagram,How trustworthy do you rate the news shared on the following social media platforms?,Totals,99,100,101,100
+329,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,6,11,2,4
+330,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,18,23,14,16
+331,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,30,32,31,27
+332,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,11,8,11,13
+333,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,11,5,14,13
+334,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,25,21,27,27
+335,48,4C,Trust in Social Media News — LinkedIn,How trustworthy do you rate the news shared on the following social media platforms?,Totals,101,100,99,100
+336,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,6,8,3,7
+337,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,10,9,7,14
+338,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,24,23,24,24
+339,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,9,12,6,8
+340,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,18,22,22,9
+341,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,34,27,37,38
+342,49,4D,Trust in Social Media News — Parler,How trustworthy do you rate the news shared on the following social media platforms?,Totals,101,101,99,100
+343,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,5,9,2,5
+344,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,12,17,10,10
+345,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,31,31,34,25
+346,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,11,10,10,14
+347,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,14,11,16,16
+348,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,26,21,28,31
+349,50,4E,Trust in Social Media News — Reddit,How trustworthy do you rate the news shared on the following social media platforms?,Totals,99,99,100,101
+350,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,4,6,2,5
+351,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,8,12,6,7
+352,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,24,30,22,19
+353,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,18,16,16,22
+354,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,21,12,26,24
+355,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,25,23,29,23
+356,51,4F,Trust in Social Media News — Snapchat,How trustworthy do you rate the news shared on the following social media platforms?,Totals,100,99,101,100
+357,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,5,10,2,4
+358,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,9,12,9,7
+359,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,22,26,22,18
+360,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,18,18,17,18
+361,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,32,19,35,42
+362,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,14,15,15,11
+363,52,4G,Trust in Social Media News — TikTok,How trustworthy do you rate the news shared on the following social media platforms?,Totals,100,100,100,100
+364,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,7,9,3,10
+365,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,12,13,9,15
+366,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,20,17,20,22
+367,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,8,7,9,9
+368,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,23,31,26,10
+369,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,29,22,33,33
+370,53,4H,Trust in Social Media News — Truth Social,How trustworthy do you rate the news shared on the following social media platforms?,Totals,99,99,100,99
+371,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,8,10,4,10
+372,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,16,17,12,18
+373,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,27,29,27,24
+374,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,17,18,18,17
+375,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,19,14,24,19
+376,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,13,12,15,12
+377,54,4I,Trust in Social Media News — Twitter,How trustworthy do you rate the news shared on the following social media platforms?,Totals,100,100,100,100
+378,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,6,11,2,6
+379,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,11,16,9,10
+380,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,20,21,20,19
+381,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,14,13,15,13
+382,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,18,12,20,21
+383,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,31,27,34,31
+384,55,4J,Trust in Social Media News — WhatsApp,How trustworthy do you rate the news shared on the following social media platforms?,Totals,100,100,100,100
+385,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Very trustworthy,9,13,7,8
+386,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Trustworthy,18,23,15,18
+387,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,untrustworthy,35,35,37,34
+388,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Untrustworthy,15,11,17,17
+389,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Very untrustworthy,11,8,13,13
+390,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Don’t know,11,10,12,10
+391,56,4K,Trust in Social Media News — YouTube,How trustworthy do you rate the news shared on the following social media platforms?,Totals,99,100,101,100

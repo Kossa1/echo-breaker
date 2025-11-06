@@ -1,0 +1,76 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,3,Dental Insurance,When was the last time you visited a dentist?,In the past 6 months,58,63,55,56
+1,1,3,Dental Insurance,When was the last time you visited a dentist?,Between 6 and 12 months ago,37,34,38,41
+2,1,3,Dental Insurance,When was the last time you visited a dentist?,1 to 2 years ago,4,3,7,3
+3,1,3,Dental Insurance,When was the last time you visited a dentist?,3 to 4 years ago,99,100,100,100
+4,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,In the past 6 months,7,9,5,6
+5,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,Between 6 and 12 months ago,13,19,12,9
+6,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,1 to 2 years ago,40,38,42,41
+7,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,3 to 4 years ago,20,20,19,23
+8,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,5 to 6 years ago,17,13,20,19
+9,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,7 to 8 years ago,2,1,4,3
+10,2,4,Feelings on Visiting the Dentist,When was the last time you visited an orthodontist?,9 to 10 years ago,99,100,102,101
+11,3,5,Straightness of Teeth,Do you currently have dental insurance?,Yes,28,34,20,32
+12,3,5,Straightness of Teeth,Do you currently have dental insurance?,No,46,42,49,48
+13,3,5,Straightness of Teeth,Do you currently have dental insurance?,Not sure,14,14,16,11
+14,3,5,Straightness of Teeth,Do you currently have dental insurance?,Not straight at all,7,7,10,5
+15,3,5,Straightness of Teeth,Do you currently have dental insurance?,Not sure,4,3,5,5
+16,3,5,Straightness of Teeth,Do you currently have dental insurance?,Totals,99,100,100,101
+17,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Love it,8,12,7,6
+18,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Like it,51,50,45,58
+19,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Neutral,29,26,33,29
+20,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Dislike it,8,9,11,3
+21,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Hate it,4,3,4,3
+22,4,6,Whiteness of Teeth,How do you feel about visiting the dentist?,Not sure,100,100,100,99
+23,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Very straight,12,16,8,12
+24,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Somewhat straight,40,43,34,44
+25,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Not very straight,23,24,27,20
+26,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Not straight at all,9,7,11,8
+27,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Not sure,15,10,20,16
+28,5,7,Attractiveness of Teeth,Would you say your teeth are currently...?,Totals,99,100,100,100
+29,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Very white,29,37,24,27
+30,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Somewhat white,34,35,31,35
+31,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Not very white,19,15,22,21
+32,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Not white at all,12,7,14,14
+33,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Not sure,6,5,9,4
+34,6,8,Teeth and Self-Conﬁdence,Would you say your teeth are currently...?,Totals,100,99,100,101
+35,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Very attractive,29,37,22,28
+36,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Somewhat attractive,41,44,38,41
+37,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Somewhat unattractive,17,11,21,19
+38,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Very unattractive,7,4,12,6
+39,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Not sure,6,4,7,6
+40,7,9,Personal Importance of Attractive Teeth,How attractive or unattractive do you think most other people would consider your teeth to be?,Totals,100,100,100,100
+41,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",A great deal,38,37,38,38
+42,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",Somewhat,44,49,39,46
+43,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",Not much,6,5,6,7
+44,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",Not at all,2,3,2,1
+45,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",Not sure,10,6,15,8
+46,8,10,Overall Importance of Attractive Teeth,"How much, if at all, does the appearance of your teeth inﬂuence your self-conﬁdence?",Totals,100,100,100,100
+47,9,11,Ever Had Cosmetic Dentistry,How important is it for you personally to have teeth that are considered conventionally attractive?,Very important,17,22,14,16
+48,9,11,Ever Had Cosmetic Dentistry,How important is it for you personally to have teeth that are considered conventionally attractive?,Somewhat important,30,33,27,29
+49,9,11,Ever Had Cosmetic Dentistry,How important is it for you personally to have teeth that are considered conventionally attractive?,Not very important,53,45,58,55
+50,9,11,Ever Had Cosmetic Dentistry,How important is it for you personally to have teeth that are considered conventionally attractive?,Not at all important,100,100,99,100
+51,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Very important,59,59,56,64
+52,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Somewhat important,27,30,26,24
+53,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Not very important,3,3,4,2
+54,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Not at all important,1,1,0,1
+55,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Not sure,10,7,14,9
+56,10,12,Celebrity Cosmetic Dentistry,How important do you think Americans in general consider it to be to have teeth that are considered conven-,Totals,100,100,100,100
+57,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you","Yes, I have",42,44,49,33
+58,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you","No, but I have considered it",41,39,43,44
+59,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you","No, and I have not considered it",7,11,2,4
+60,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you",Very dissatis ed,7,4,6,14
+61,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you",Not sure,2,2,0,5
+62,11,13,Satisfaction with Cosmetic Dentistry,"Cosmetic dentistry focuses on improving the appearance of a person’s teeth, mouth, and smile. Have you",Totals,99,100,100,100
+63,12,14,Cosmetic Dentistry Interventions,How often do you think celebrities have cosmetic dentistry procedures?,Very often,8,11,5,7
+64,12,14,Cosmetic Dentistry Interventions,How often do you think celebrities have cosmetic dentistry procedures?,Somewhat often,8,8,5,11
+65,12,14,Cosmetic Dentistry Interventions,How often do you think celebrities have cosmetic dentistry procedures?,Not very often,10,14,8,10
+66,12,14,Cosmetic Dentistry Interventions,How often do you think celebrities have cosmetic dentistry procedures?,Not at all often,19,26,16,17
+67,12,14,Cosmetic Dentistry Interventions,How often do you think celebrities have cosmetic dentistry procedures?,Not sure,66,57,74,66
+68,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,Very satisﬁed,68,68,67,56
+69,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,Somewhat satisﬁed,19,19,19,20
+70,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,Somewhat dissatisﬁed,6,8,3,6
+71,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,Very dissatisﬁed,8,9,7,7
+72,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,Not sure,15,14,13,17
+73,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,A permanent retainer,5,8,2,5
+74,13,15,Orthodontic Interventions,Wouldyousaythatyouaresatisﬁedordissatisﬁedoverallwiththeoutcomeofcosmeticdentistryprocedures,None of the above,68,63,73,68

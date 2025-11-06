@@ -1,0 +1,50 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,the Federal Reserve,8,7,26,10
+1,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,Transportation -,15,19,10,18
+2,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,of the Treasury -,22,19,18,30
+3,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,of State -,11,9,12,10
+4,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,of National Intelligence -,19,21,23,11
+5,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,Agency -,34,32,38,31
+6,3,3A,Approve of Job Handling — Jerome Powell as Chair of the Federal Reserve,Do you approve or disapprove of how the following is handling their job?,of the Interior -,101,100,101,100
+7,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Disapprove -,59,57,1,3
+8,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Strongly approve,15,1,12,32
+9,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,16,7,12,31
+10,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,7,10,7,3
+11,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,25,48,26,1
+12,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Not sure,37,35,43,33
+13,4,3B,Approve of Job Handling — Sean Duffy as Secretary of Transportation,Do you approve or disapprove of how the following is handling their job?,Totals,100,101,100,100
+14,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Disapprove -,60,56,3,4
+15,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Strongly approve,15,0,11,36
+16,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,16,8,13,28
+17,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,8,13,9,3
+18,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,24,46,25,2
+19,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Not sure,36,33,41,32
+20,5,3C,Approve of Job Handling — Scott Bessent as Secretary of the Treasury,Do you approve or disapprove of how the following is handling their job?,Totals,99,100,99,101
+21,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Disapprove -,70,64,2,4
+22,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Strongly approve,23,2,13,55
+23,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,14,6,15,22
+24,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,10,13,12,4
+25,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,30,55,31,3
+26,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Not sure,23,24,28,17
+27,6,3D,Approve of Job Handling — Marco Rubio as Secretary of State,Do you approve or disapprove of how the following is handling their job?,Totals,100,100,99,101
+28,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Disapprove -,63,65,1,11
+29,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Strongly approve,21,1,17,46
+30,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,12,6,8,23
+31,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,8,11,9,4
+32,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,31,60,31,3
+33,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Not sure,28,23,35,24
+34,7,3E,Approve of Job Handling — Tulsi Gabbard as Director of National Intelligence,Do you approve or disapprove of how the following is handling their job?,Totals,100,101,100,100
+35,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Disapprove -,54,54,2,3
+36,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Strongly approve,13,1,9,32
+37,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,13,5,8,27
+38,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,9,12,11,3
+39,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,24,45,26,1
+40,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Not sure,40,36,46,38
+41,9,3G,Approve of Job Handling — Doug Burgum as Secretary of the Interior,Do you approve or disapprove of how the following is handling their job?,Totals,99,99,100,101
+42,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Disapprove -,74,74,1,0
+43,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Strongly approve,26,0,18,61
+44,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Somewhat approve,13,4,13,22
+45,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Somewhat disapprove,9,9,11,5
+46,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Strongly disapprove,40,76,42,4
+47,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Not sure,12,10,17,7
+48,15,3M,Approve of Job Handling — JD Vance as Vice President,Do you approve or disapprove of how the following is handling their job?,Totals,100,99,101,99

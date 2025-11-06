@@ -1,0 +1,114 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Ever Worn a Bra,Have you ever worn a bra?,Yes,98,98,98,97
+1,1,1,Ever Worn a Bra,Have you ever worn a bra?,No,1,1,1,2
+2,1,1,Ever Worn a Bra,Have you ever worn a bra?,Prefer not to say,1,1,1,0
+3,1,1,Ever Worn a Bra,Have you ever worn a bra?,Totals,100,100,100,99
+4,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",Every day,61,62,57,65
+5,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",Most days,19,15,21,21
+6,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",Some days,13,16,13,10
+7,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",No days,5,5,5,4
+8,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",Prefer not to say,2,2,3,0
+9,2,2,Frequency of Wearing a Bra,"During a typical week, how often do you wear a bra?",Totals,100,100,99,100
+10,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",More often,9,10,11,5
+11,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",About the same amount,68,65,67,72
+12,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",Less often,21,23,19,21
+13,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",Not sure,1,1,0,2
+14,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",Prefer not to say,1,2,2,0
+15,3,3,Change in Frequency of Wearing a Bra,"Compared to 5 years ago, do you currently wear a bra...?",Totals,100,101,99,100
+16,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,At a restaurant,79,77,78,83
+17,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,At work,10,11,9,9
+18,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,At a store,5,5,7,3
+19,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,Sleeping,3,3,3,4
+20,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,At a formal event,1,2,2,0
+21,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,Relaxing at home alone,2,3,1,1
+22,4,4A,Frequency of Wearing Bra in Situations — At a restaurant,How often do you wear a bra when you are...?,Totals,100,101,100,100
+23,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Sports bra,67,68,67,66
+24,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Wireless bra,3,2,2,5
+25,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Underwire bra,3,5,2,2
+26,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Bralette,3,3,4,3
+27,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Strapless bra,2,2,2,0
+28,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Push-up bra,22,20,23,24
+29,5,4B,Frequency of Wearing Bra in Situations — At work,Which of the following types of bra have you ever worn? Select all that apply.,Maternity bra,100,100,100,100
+30,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Sports bra,72,70,70,78
+31,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Wireless bra,16,17,17,13
+32,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Underwire bra,6,8,7,4
+33,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Bralette,4,3,3,5
+34,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Strapless bra,1,1,2,0
+35,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Push-up bra,1,1,1,0
+36,6,4C,Frequency of Wearing Bra in Situations — At a store,Which of the following types of bra do you currently wear on a regular basis? Select all that apply.,Maternity bra,100,100,100,100
+37,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",8 or younger,8,6,13,5
+38,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",9,4,4,5,3
+39,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",10,12,12,16,8
+40,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",11,74,76,62,83
+41,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",12,1,1,2,1
+42,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",13,1,1,2,1
+43,7,4D,Frequency of Wearing Bra in Situations — Sleeping,"At what age did you first wear a bra, including a training bra?",14,100,100,100,101
+44,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Very comfortable,78,77,75,82
+45,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Somewhat comfortable,8,10,8,7
+46,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Somewhat uncomfortable,4,4,4,4
+47,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Very uncomfortable,3,3,3,2
+48,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Not sure,2,2,3,0
+49,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Not applicable,6,6,8,5
+50,8,4E,Frequency of Wearing Bra in Situations — At a formal event,Do you think wearing a bra is generally...?,Totals,101,102,101,100
+51,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Very comfortable,20,16,20,26
+52,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Somewhat comfortable,17,14,20,17
+53,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Somewhat uncomfortable,32,37,27,32
+54,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Very uncomfortable,28,31,29,24
+55,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Not sure,1,2,2,0
+56,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Not applicable,1,1,1,0
+57,9,4F,Frequency of Wearing Bra in Situations — Relaxing at home alone,Do you think not wearing a bra is generally...?,Totals,99,101,99,99
+58,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Wear a bra,14,12,16,16
+59,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Not wear a bra,31,34,29,28
+60,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Not sure,39,38,40,40
+61,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Very uncomfortable,14,15,13,15
+62,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Not sure,1,2,1,1
+63,13,8,Comfort Wearing a Bra,"Currently, do you think it is more fashionable for women to...?",Totals,99,101,99,100
+64,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Always acceptable,37,40,36,37
+65,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Usually acceptable,25,27,24,25
+66,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Usually unacceptable,22,22,21,23
+67,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Always unacceptable,11,9,12,13
+68,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Not sure,4,3,7,2
+69,14,9,Comfort Not Wearing a Bra,DothinkmostotherAmericansconsideritacceptableorunacceptableforwomentonotwearabrainpublic?,Totals,99,101,100,100
+70,15,10,Pressure To Wear Bras,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Always acceptable,37,38,39,33
+71,15,10,Pressure To Wear Bras,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Usually acceptable,58,57,55,61
+72,15,10,Pressure To Wear Bras,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Usually unacceptable,6,6,7,6
+73,15,10,Pressure To Wear Bras,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Always unacceptable,101,101,101,100
+74,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",Yes,22,23,23,21
+75,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",No,50,51,47,52
+76,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",Not sure,17,16,17,18
+77,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",Very dissatisfied,8,8,9,8
+78,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",Not sure,3,2,4,2
+79,17,12,Satisfaction with Bra Fit,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go",Totals,100,100,100,101
+80,18,13,Fashionable To Wear a Bra,"Do you support or oppose women having the right to go topless in public, as men do?",Strongly support,60,59,52,71
+81,18,13,Fashionable To Wear a Bra,"Do you support or oppose women having the right to go topless in public, as men do?",Somewhat support,13,12,14,11
+82,18,13,Fashionable To Wear a Bra,"Do you support or oppose women having the right to go topless in public, as men do?",Somewhat oppose,27,28,34,18
+83,18,13,Fashionable To Wear a Bra,"Do you support or oppose women having the right to go topless in public, as men do?",Strongly oppose,100,99,100,100
+84,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Always acceptable,10,12,8,11
+85,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Usually acceptable,24,27,21,24
+86,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Usually unacceptable,39,40,40,38
+87,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Always unacceptable,8,6,9,10
+88,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Not sure,19,15,23,17
+89,19,14,Others’ Views on the Acceptability of Women Not Wearing Bras in Public,Do think most other Americans consider it acceptable or unacceptable for women to not wear a bra in public?,Totals,100,100,101,100
+90,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Always acceptable,21,23,24,15
+91,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Usually acceptable,29,34,28,26
+92,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Usually unacceptable,26,23,21,36
+93,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Always unacceptable,12,9,10,16
+94,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Not sure,12,11,17,8
+95,20,15,Acceptability of Women Not Wearing Bras in Public,Do you personally consider it to be acceptable or unacceptable for women to not wear a bra in public?,Totals,100,100,100,101
+96,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Very positive,12,12,8,16
+97,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Somewhat positive,18,20,15,19
+98,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,negative,35,36,34,36
+99,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Somewhat negative,11,11,14,8
+100,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Very negative,1,1,2,1
+101,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Not sure,23,19,27,21
+102,21,16,Health Effects Wearing a Bra,Do you think that regularly wearing a bra generally has a positive or negative effect on a woman’s health?,Totals,100,99,100,101
+103,22,17,Heard About Free the Nipple Movement,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go topless in public, as men do?",Yes,38,38,42,33
+104,22,17,Heard About Free the Nipple Movement,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go topless in public, as men do?",No,55,55,50,60
+105,22,17,Heard About Free the Nipple Movement,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go topless in public, as men do?",Not sure,7,7,8,7
+106,22,17,Heard About Free the Nipple Movement,"Have you ever heard of the Free the Nipple movement, which advocates for women to have the right to go topless in public, as men do?",Totals,100,100,100,100
+107,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Strongly support,18,19,24,11
+108,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Somewhat support,17,24,16,10
+109,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Somewhat oppose,16,18,13,19
+110,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Strongly oppose,35,29,29,50
+111,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Not sure,14,11,19,10
+112,23,18,Support Free the Nipple Movement,"Do you support or oppose women having the right to go topless in public, as men do?",Totals,100,101,101,100

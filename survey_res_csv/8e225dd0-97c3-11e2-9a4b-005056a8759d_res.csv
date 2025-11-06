@@ -1,0 +1,260 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Librarians,45,60,39,36
+1,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Public libraries,34,26,36,42
+2,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Your nearest public library,6,6,5,8
+3,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Bookstores,4,2,4,6
+4,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Your nearest bookstore,10,6,16,9
+5,1,1A,Favorability — Librarians,Do you have a favorable or an unfavorable opinion of...?,Totals,99,100,100,101
+6,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Be increased,54,65,51,46
+7,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Stay the same,31,24,32,39
+8,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Be decreased,7,6,7,7
+9,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Not sure,3,2,3,4
+10,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Don’t know,5,3,8,4
+11,2,1B,Favorability — Public libraries,Do you think that funding for public libraries in the United States should...?,Totals,100,100,101,100
+12,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,Local government,48,57,44,42
+13,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,State government,32,27,33,37
+14,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,Federal government,7,6,6,9
+15,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,None of the above,3,3,3,3
+16,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,Not sure,10,7,14,9
+17,3,1C,Favorability — Your nearest public library,Which levels of government do you think should be responsible for funding public libraries? Select all that,Totals,100,100,100,100
+18,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,Local government,46,56,43,38
+19,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,State government,39,30,39,49
+20,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,Federal government,5,5,5,4
+21,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,None of the above,3,2,3,3
+22,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,Not sure,8,6,10,6
+23,4,1D,Favorability — Bookstores,Which level of government do you think should be most responsible for funding public libraries?,Totals,101,99,100,100
+24,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Increased a lot,34,40,32,30
+25,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Increased a little,36,33,34,41
+26,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Not changed,6,6,4,7
+27,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Decreased a little,3,3,3,3
+28,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Decreased a lot,21,18,26,19
+29,5,1E,Favorability — Your nearest bookstore,"Compared to 20 years ago, do you think that the number of public libraries in the United States has...?",Not sure,100,100,99,100
+30,6,2,Funding of Public Libraries in the U.S.,"Twenty years from now, do you think that the number of public libraries in the United States will have...?",Increased a lot,47,64,45,31
+31,6,2,Funding of Public Libraries in the U.S.,"Twenty years from now, do you think that the number of public libraries in the United States will have...?",Increased a little,39,28,37,52
+32,6,2,Funding of Public Libraries in the U.S.,"Twenty years from now, do you think that the number of public libraries in the United States will have...?",Not changed,4,2,4,5
+33,6,2,Funding of Public Libraries in the U.S.,"Twenty years from now, do you think that the number of public libraries in the United States will have...?",Decreased a little,10,5,14,12
+34,6,2,Funding of Public Libraries in the U.S.,"Twenty years from now, do you think that the number of public libraries in the United States will have...?",Decreased a lot,100,99,100,100
+35,7,3,Responsibility for Funding Public Libraries,"In public library collections, do you think that materials containing the following should...?",Antisemitic content,53,53,51,55
+36,7,3,Responsibility for Funding Public Libraries,"In public library collections, do you think that materials containing the following should...?",Bomb-building instructions,55,64,52,50
+37,7,3,Responsibility for Funding Public Libraries,"In public library collections, do you think that materials containing the following should...?",Critical race theory,33,45,32,20
+38,7,3,Responsibility for Funding Public Libraries,"In public library collections, do you think that materials containing the following should...?",Graphic violence,2,1,3,3
+39,7,3,Responsibility for Funding Public Libraries,"In public library collections, do you think that materials containing the following should...?",Hate speech,14,11,18,12
+40,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Harmful content being made available in public libraries,31,24,29,42
+41,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Valuable content being $remove_ban_exper from public libraries,34,37,33,33
+42,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Neither,17,26,15,10
+43,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Not sure,2,1,3,3
+44,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Not sure,15,12,20,13
+45,8,4,Most Responsibility for Funding Public Libraries,Which of the following are you more concerned about?,Totals,99,100,100,101
+46,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",New laws shielding public libraries from political influence,6,7,5,5
+47,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",public libraries,13,16,11,14
+48,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",Not changed,15,15,13,18
+49,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",Decreased a little,31,30,31,32
+50,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",Decreased a lot,19,18,20,18
+51,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",Not sure,16,14,20,14
+52,9,5,Past Change in Number of Public Libraries,"Tothebestofyourknowledge,havethefollowingbeenimplementedinyourstateorlocalcommunityinrecent",Totals,100,100,100,101
+53,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Motivated by sincere concerns about free speech and equal protection,4,6,3,2
+54,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Politically motivated,11,14,9,9
+55,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Not sure,13,15,11,13
+56,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Decreased a little,27,28,26,29
+57,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Decreased a lot,32,27,32,37
+58,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Not sure,13,10,19,10
+59,10,6,Change in Number of Public Libraries,Do you think that recent efforts to shield librarians and public libraries from political influence are more,Totals,100,100,100,100
+60,11,7A,Content Allowed in Public Libraries — Antisemitic content,Do you think that recent efforts to remove certain materials from public libraries are more often...?,Motivated by sincere concerns about the availability of harmful material,16,15,17,16
+61,11,7A,Content Allowed in Public Libraries — Antisemitic content,Do you think that recent efforts to remove certain materials from public libraries are more often...?,Politically motivated,30,33,30,25
+62,11,7A,Content Allowed in Public Libraries — Antisemitic content,Do you think that recent efforts to remove certain materials from public libraries are more often...?,Not sure,41,40,36,46
+63,11,7A,Content Allowed in Public Libraries — Antisemitic content,Do you think that recent efforts to remove certain materials from public libraries are more often...?,Not sure,14,12,18,13
+64,11,7A,Content Allowed in Public Libraries — Antisemitic content,Do you think that recent efforts to remove certain materials from public libraries are more often...?,Totals,101,100,101,100
+65,12,7B,Content Allowed in Public Libraries — Bomb-building instructions,Would you support or oppose a law in your state that...?,collections,9,6,10,9
+66,12,7B,Content Allowed in Public Libraries — Bomb-building instructions,Would you support or oppose a law in your state that...?,impartiality toward content and authors,20,23,20,16
+67,12,7B,Content Allowed in Public Libraries — Bomb-building instructions,Would you support or oppose a law in your state that...?,number of public librarians,63,64,58,69
+68,12,7B,Content Allowed in Public Libraries — Bomb-building instructions,Would you support or oppose a law in your state that...?,"race, religion, or sexual orientation",8,7,12,6
+69,12,7B,Content Allowed in Public Libraries — Bomb-building instructions,Would you support or oppose a law in your state that...?,state officials,100,100,100,100
+70,13,7C,Content Allowed in Public Libraries — Critical race theory,Would you say that librarians are generally...?,Very liberal,32,46,33,14
+71,13,7C,Content Allowed in Public Libraries — Critical race theory,Would you say that librarians are generally...?,Somewhat liberal,25,23,24,27
+72,13,7C,Content Allowed in Public Libraries — Critical race theory,Would you say that librarians are generally...?,Moderate,31,18,29,48
+73,13,7C,Content Allowed in Public Libraries — Critical race theory,Would you say that librarians are generally...?,Somewhat conservative,13,12,15,11
+74,13,7C,Content Allowed in Public Libraries — Critical race theory,Would you say that librarians are generally...?,Very conservative,101,99,101,100
+75,14,7D,Content Allowed in Public Libraries — Graphic violence,Should public libraries charge late fees for library books that are returned after their due date?,Yes,19,20,20,17
+76,14,7D,Content Allowed in Public Libraries — Graphic violence,Should public libraries charge late fees for library books that are returned after their due date?,No,40,41,43,36
+77,14,7D,Content Allowed in Public Libraries — Graphic violence,Should public libraries charge late fees for library books that are returned after their due date?,Not sure,34,33,27,41
+78,14,7D,Content Allowed in Public Libraries — Graphic violence,Should public libraries charge late fees for library books that are returned after their due date?,Not sure,7,6,10,6
+79,14,7D,Content Allowed in Public Libraries — Graphic violence,Should public libraries charge late fees for library books that are returned after their due date?,Totals,100,100,100,100
+80,15,7E,Content Allowed in Public Libraries — Hate speech,"Which, ifany, ofthefollowingpenaltiesdoyouthinkareappropriateforapersonnotreturningapubliclibrary",Late fees,15,11,17,16
+81,15,7E,Content Allowed in Public Libraries — Hate speech,"Which, ifany, ofthefollowingpenaltiesdoyouthinkareappropriateforapersonnotreturningapubliclibrary",Replacement costs,27,29,27,25
+82,15,7E,Content Allowed in Public Libraries — Hate speech,"Which, ifany, ofthefollowingpenaltiesdoyouthinkareappropriateforapersonnotreturningapubliclibrary",Loss of borrowing privileges,50,54,46,49
+83,15,7E,Content Allowed in Public Libraries — Hate speech,"Which, ifany, ofthefollowingpenaltiesdoyouthinkareappropriateforapersonnotreturningapubliclibrary",Credit impact,9,6,11,10
+84,15,7E,Content Allowed in Public Libraries — Hate speech,"Which, ifany, ofthefollowingpenaltiesdoyouthinkareappropriateforapersonnotreturningapubliclibrary",Something else,101,100,101,100
+85,16,7F,Content Allowed in Public Libraries — LGBTQ topics,How important do you think public libraries are to your community as a whole?,Very important,40,57,40,22
+86,16,7F,Content Allowed in Public Libraries — LGBTQ topics,How important do you think public libraries are to your community as a whole?,Somewhat important,30,23,31,37
+87,16,7F,Content Allowed in Public Libraries — LGBTQ topics,How important do you think public libraries are to your community as a whole?,Not very important,21,12,19,33
+88,16,7F,Content Allowed in Public Libraries — LGBTQ topics,How important do you think public libraries are to your community as a whole?,Not at all important,9,8,10,9
+89,16,7F,Content Allowed in Public Libraries — LGBTQ topics,How important do you think public libraries are to your community as a whole?,Not sure,100,100,100,101
+90,17,7G,Content Allowed in Public Libraries — Political misinformation,How far away is the nearest public library from where you currently live?,Within 1 mile,16,15,16,17
+91,17,7G,Content Allowed in Public Libraries — Political misinformation,How far away is the nearest public library from where you currently live?,Within 5 miles,21,21,23,20
+92,17,7G,Content Allowed in Public Libraries — Political misinformation,How far away is the nearest public library from where you currently live?,Within 10 miles,52,56,47,52
+93,17,7G,Content Allowed in Public Libraries — Political misinformation,How far away is the nearest public library from where you currently live?,Within 20 miles,11,8,14,10
+94,17,7G,Content Allowed in Public Libraries — Political misinformation,How far away is the nearest public library from where you currently live?,Within 30 miles,100,100,100,99
+95,18,7H,Content Allowed in Public Libraries — Racist content,How far away is the nearest bookstore from where you currently live?,Within 1 mile,16,15,17,17
+96,18,7H,Content Allowed in Public Libraries — Racist content,How far away is the nearest bookstore from where you currently live?,Within 5 miles,36,37,37,33
+97,18,7H,Content Allowed in Public Libraries — Racist content,How far away is the nearest bookstore from where you currently live?,Within 10 miles,40,42,37,40
+98,18,7H,Content Allowed in Public Libraries — Racist content,How far away is the nearest bookstore from where you currently live?,Within 20 miles,9,6,10,10
+99,18,7H,Content Allowed in Public Libraries — Racist content,How far away is the nearest bookstore from where you currently live?,Within 30 miles,101,100,101,100
+100,19,7I,Content Allowed in Public Libraries — Religious extremism,How often do you visit a public library?,Daily,21,20,24,20
+101,19,7I,Content Allowed in Public Libraries — Religious extremism,How often do you visit a public library?,Weekly,36,37,36,36
+102,19,7I,Content Allowed in Public Libraries — Religious extremism,How often do you visit a public library?,Monthly,31,33,26,33
+103,19,7I,Content Allowed in Public Libraries — Religious extremism,How often do you visit a public library?,A few times a year,11,10,14,10
+104,19,7I,Content Allowed in Public Libraries — Religious extremism,How often do you visit a public library?,Rarely,99,100,100,99
+105,20,7J,Content Allowed in Public Libraries — Sex education,How often did you visit a public library when you were growing up?,Daily,47,62,46,32
+106,20,7J,Content Allowed in Public Libraries — Sex education,How often did you visit a public library when you were growing up?,Weekly,38,27,38,49
+107,20,7J,Content Allowed in Public Libraries — Sex education,How often did you visit a public library when you were growing up?,Monthly,9,7,8,14
+108,20,7J,Content Allowed in Public Libraries — Sex education,How often did you visit a public library when you were growing up?,A few times a year,6,4,8,5
+109,20,7J,Content Allowed in Public Libraries — Sex education,How often did you visit a public library when you were growing up?,Rarely,100,100,100,100
+110,21,7K,Content Allowed in Public Libraries — Sexually explicit content,"In the past five years, have you used a public library to do the following? Select all that apply.",Browse or borrow books,18,23,18,12
+111,21,7K,Content Allowed in Public Libraries — Sexually explicit content,"In the past five years, have you used a public library to do the following? Select all that apply.","Browse or borrow magazines, films, or other media",41,45,43,34
+112,21,7K,Content Allowed in Public Libraries — Sexually explicit content,"In the past five years, have you used a public library to do the following? Select all that apply.",Use computers or the internet,36,28,30,49
+113,21,7K,Content Allowed in Public Libraries — Sexually explicit content,"In the past five years, have you used a public library to do the following? Select all that apply.",Attend a class or lecture,6,4,9,5
+114,21,7K,Content Allowed in Public Libraries — Sexually explicit content,"In the past five years, have you used a public library to do the following? Select all that apply.",Use workspaces,101,100,100,100
+115,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",Yes,99,100,100,100
+116,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",No,29,22,27,40
+117,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",Not sure,53,65,52,43
+118,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",Neither,10,9,12,10
+119,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",Not sure,7,4,10,7
+120,22,8,Bigger Concern - Public Libraries,"Doyoucurrentlyhavealibrarycardforapubliclibrary,whichallowsyoutoborrowbooksandothermaterials?",Totals,99,100,101,100
+121,23,9A,State or Local Policies Protecting and Restricting Public Libraries — New laws shielding public libraries from political influence,"Do you ever use your library card to remotely access public library materials, such as digital ebooks, audio-",Yes,18,23,15,15
+122,23,9A,State or Local Policies Protecting and Restricting Public Libraries — New laws shielding public libraries from political influence,"Do you ever use your library card to remotely access public library materials, such as digital ebooks, audio-",No,27,31,23,26
+123,23,9A,State or Local Policies Protecting and Restricting Public Libraries — New laws shielding public libraries from political influence,"Do you ever use your library card to remotely access public library materials, such as digital ebooks, audio-",Not sure,56,46,62,59
+124,23,9A,State or Local Policies Protecting and Restricting Public Libraries — New laws shielding public libraries from political influence,"Do you ever use your library card to remotely access public library materials, such as digital ebooks, audio-",Totals,101,100,100,100
+125,24,10,Motivation of Library Protection Efforts,"In the past three years, have you read any books or listened to any audiobooks?",Yes,35,43,29,32
+126,24,10,Motivation of Library Protection Efforts,"In the past three years, have you read any books or listened to any audiobooks?",No,41,37,40,47
+127,24,10,Motivation of Library Protection Efforts,"In the past three years, have you read any books or listened to any audiobooks?",Not sure,24,19,31,21
+128,24,10,Motivation of Library Protection Efforts,"In the past three years, have you read any books or listened to any audiobooks?",Totals,100,99,100,100
+129,25,11,Motivation of Library Restrictions Efforts,"In the past three years, about how many books have you read or listened to?",0,26,19,22,38
+130,25,11,Motivation of Library Restrictions Efforts,"In the past three years, about how many books have you read or listened to?",1 - 4,55,66,51,47
+131,25,11,Motivation of Library Restrictions Efforts,"In the past three years, about how many books have you read or listened to?",5 - 10,19,15,26,15
+132,25,11,Motivation of Library Restrictions Efforts,"In the past three years, about how many books have you read or listened to?",11 - 20,100,100,99,100
+133,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",All of them,21,31,18,13
+134,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",Most of them,32,32,31,33
+135,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",Half of them,16,12,15,22
+136,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",Some of them,13,10,12,16
+137,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",None of them,19,15,25,16
+138,26,12A,Support for Laws Protecting and Restricting Public Libraries — Grants public librarians the power to determine the content of their collec-,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public",Not sure,101,100,101,100
+139,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,A great deal,37,54,33,23
+140,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,A moderate amount,34,28,33,42
+141,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,A little,9,7,7,13
+142,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,Not at all,4,2,5,5
+143,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,Not sure,16,8,22,17
+144,27,12C,Support for Laws Protecting and Restricting Public Libraries — Sets aside money to increase the number of public librarians,How much do you trust public officials in your state and local community to make good decisions about,Totals,100,99,100,100
+145,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Strongly support,27,25,23,35
+146,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Somewhat support,26,26,26,28
+147,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Somewhat oppose,16,18,15,16
+148,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Strongly oppose,14,17,15,10
+149,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Not sure,16,14,22,11
+150,28,12F,"Support for Laws Protecting and Restricting Public Libraries — Bans minors from accessing public library content deemed to be racist,","sexist, or homophobic",Totals,99,100,101,100
+151,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Strongly support,12,10,8,19
+152,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Somewhat support,19,16,16,25
+153,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Somewhat oppose,15,13,13,19
+154,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Strongly oppose,36,47,37,22
+155,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Not sure,18,14,26,15
+156,29,12G,Support for Laws Protecting and Restricting Public Libraries — Imprisons public librarians for giving minors access to content deemed,obscene by state officials,Totals,100,100,100,100
+157,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Strongly support,34,14,32,57
+158,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Somewhat support,14,16,13,14
+159,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Somewhat oppose,12,15,9,12
+160,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Strongly oppose,26,44,25,8
+161,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Not sure,14,11,21,10
+162,30,12H,Support for Laws Protecting and Restricting Public Libraries — Bans drag queen story hours in public libraries,Would you support or oppose a law in your state that...?,Totals,100,100,100,101
+163,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Strongly support,17,11,14,25
+164,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Somewhat support,21,18,18,29
+165,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Somewhat oppose,16,20,14,14
+166,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Strongly oppose,21,31,22,10
+167,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Not sure,24,19,32,21
+168,31,12I,Support for Laws Protecting and Restricting Public Libraries — Subjects public libraries to obscenity laws,Would you support or oppose a law in your state that...?,Totals,99,99,100,99
+169,32,13,Librarian Ideology,Would you say that librarians are generally...?,Very liberal,11,11,10,11
+170,32,13,Librarian Ideology,Would you say that librarians are generally...?,Somewhat liberal,18,19,13,21
+171,32,13,Librarian Ideology,Would you say that librarians are generally...?,Moderate,30,38,31,20
+172,32,13,Librarian Ideology,Would you say that librarians are generally...?,Somewhat conservative,8,6,4,13
+173,32,13,Librarian Ideology,Would you say that librarians are generally...?,Very conservative,4,2,4,7
+174,32,13,Librarian Ideology,Would you say that librarians are generally...?,Not sure,29,23,37,28
+175,32,13,Librarian Ideology,Would you say that librarians are generally...?,Totals,100,99,99,100
+176,33,14,Should Libraries Charge Late Fees,Should public libraries charge late fees for library books that are returned after their due date?,Yes,68,64,63,78
+177,33,14,Should Libraries Charge Late Fees,Should public libraries charge late fees for library books that are returned after their due date?,No,20,25,21,13
+178,33,14,Should Libraries Charge Late Fees,Should public libraries charge late fees for library books that are returned after their due date?,Not sure,12,11,16,9
+179,33,14,Should Libraries Charge Late Fees,Should public libraries charge late fees for library books that are returned after their due date?,Totals,100,100,100,100
+180,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Late fees,64,59,63,71
+181,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Replacement costs,58,54,56,64
+182,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",privileges,43,38,41,51
+183,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Credit impact,8,7,7,10
+184,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Something else,2,2,4,1
+185,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Nothing at all,4,6,5,1
+186,34,15,Penalty for Not Returning Library Book,"Which, if any, of the following penalties do you think are appropriate for a person not returning a public library book they borrowed? Select all that apply.",Not sure,6,7,8,4
+187,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Very important,53,64,53,43
+188,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Somewhat important,34,28,31,43
+189,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Not very important,7,5,7,9
+190,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Not at all important,1,1,1,1
+191,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Not sure,5,3,9,4
+192,35,16,Importance of Public Libraries,How important do you think public libraries are to your community as a whole?,Totals,100,101,101,100
+193,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Within mile,19,24,20,14
+194,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Within miles,44,43,42,48
+195,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Within miles,19,16,20,20
+196,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Within miles,7,7,5,9
+197,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Within miles,3,2,3,3
+198,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,More than miles away,1,2,1,1
+199,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Not sure,7,6,9,6
+200,36,17,Closest Local Public Library,How far away is the nearest public library from where you currently live?,Totals,100,100,100,101
+201,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Within mile,8,11,7,6
+202,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Within miles,30,33,28,29
+203,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Within miles,21,22,21,20
+204,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Within miles,13,12,10,18
+205,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Within miles,6,4,6,8
+206,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,More than miles away,7,6,7,7
+207,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Not sure,14,12,21,10
+208,37,18,Closest Local Bookstore,How far away is the nearest bookstore from where you currently live?,Totals,99,100,100,98
+209,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Daily,1,3,1,1
+210,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Weekly,8,10,8,8
+211,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Monthly,13,19,12,9
+212,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,A few times a year,24,26,25,22
+213,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Rarely,32,28,30,38
+214,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Never,18,12,21,21
+215,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Not sure,2,3,4,1
+216,38,19,Frequency of Visiting a Public Library,How often do you visit a public library?,Totals,98,101,101,100
+217,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Daily,4,6,5,2
+218,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Weekly,36,38,35,36
+219,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Monthly,23,24,22,23
+220,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,A few times a year,18,17,17,20
+221,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Rarely,11,8,12,14
+222,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Never,5,5,5,4
+223,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Not sure,3,2,4,1
+224,39,20,Frequency of Visiting a Public Library Growing Up,How often did you visit a public library when you were growing up?,Totals,100,100,100,100
+225,40,22,Has Library Card,"Do you currently have a library card for a public library, which allows you to borrow books and other materials?",Yes,56,61,54,53
+226,40,22,Has Library Card,"Do you currently have a library card for a public library, which allows you to borrow books and other materials?",No,40,34,42,45
+227,40,22,Has Library Card,"Do you currently have a library card for a public library, which allows you to borrow books and other materials?",Not sure,4,5,4,2
+228,40,22,Has Library Card,"Do you currently have a library card for a public library, which allows you to borrow books and other materials?",Totals,100,100,100,100
+229,41,23,Uses Library Card Remotely,"Doyoueveruseyourlibrarycardtoremotelyaccesspubliclibrarymaterials,suchasdigitalebooks,audiobooks,ormovies—orhavelibrarybooksdelivered",Yes,26,34,23,22
+230,41,23,Uses Library Card Remotely,"Doyoueveruseyourlibrarycardtoremotelyaccesspubliclibrarymaterials,suchasdigitalebooks,audiobooks,ormovies—orhavelibrarybooksdelivered",No,69,61,70,75
+231,41,23,Uses Library Card Remotely,"Doyoueveruseyourlibrarycardtoremotelyaccesspubliclibrarymaterials,suchasdigitalebooks,audiobooks,ormovies—orhavelibrarybooksdelivered",Not sure,5,5,7,3
+232,41,23,Uses Library Card Remotely,"Doyoueveruseyourlibrarycardtoremotelyaccesspubliclibrarymaterials,suchasdigitalebooks,audiobooks,ormovies—orhavelibrarybooksdelivered",Totals,100,100,100,100
+233,42,24,Read Any Books in Past Three Years,"In the past three years, have you read any books or listened to any audiobooks?",Yes,70,73,69,69
+234,42,24,Read Any Books in Past Three Years,"In the past three years, have you read any books or listened to any audiobooks?",No,30,27,31,31
+235,42,24,Read Any Books in Past Three Years,"In the past three years, have you read any books or listened to any audiobooks?",Totals,100,100,100,100
+236,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",Totals,99,99,99,100
+237,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",-,17,17,17,18
+238,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",-,17,17,18,18
+239,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",-,11,13,11,10
+240,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",-,10,10,10,8
+241,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",-,5,6,5,5
+242,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",More than,7,7,6,7
+243,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",Not sure,2,3,2,2
+244,43,25,Number of Books Read in Past Three Years,"In the past three years, about how many books have you read or listened to?",Totals,99,100,100,100
+245,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",All of them,4,6,4,3
+246,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",Most of them,11,14,10,10
+247,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",Half of them,7,9,5,6
+248,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",Some of them,17,20,18,15
+249,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",None of them,29,23,31,33
+250,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",Not sure,2,2,2,1
+251,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",I haven’t read any books,30,27,31,32
+252,44,26,Books Read From Public Library,"Of the books you’ve read or listened to in the past three years, about how many did you borrow from a public library?",Totals,100,101,101,100
+253,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,A great deal,11,13,9,11
+254,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,A moderate amount,27,31,21,28
+255,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,A little,22,19,20,26
+256,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,Not at all,27,25,31,25
+257,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,Not sure,14,12,19,11
+258,45,27,Trust Officials To Judge Obscenity,How much do you trust public officials in your state and local community to make good decisions about whether material in public libraries is obscene?,Totals,101,100,100,101

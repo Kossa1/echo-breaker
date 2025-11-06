@@ -1,0 +1,408 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,American economy,3,4,2,2
+1,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,Global economy,13,22,10,6
+2,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,European economy,33,39,29,30
+3,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,UK economy,45,31,47,59
+4,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,Don’t know,6,3,11,2
+5,1,1A,Comparing State of the Economy — American economy,How would you describe the current state of the...?,Totals,100,99,99,99
+6,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Very important,2,5,1,1
+7,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Somewhat important,13,21,10,8
+8,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Not very important,35,39,33,33
+9,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Unimportant,28,18,29,38
+10,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Don’t know,22,17,28,20
+11,2,1B,Comparing State of the Economy — Global economy,How important is the issue of inﬂation/prices to you?,Totals,100,100,101,100
+12,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Mostly just the U.S,3,6,2,1
+13,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Many parts of the world,17,27,13,13
+14,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Neither,24,22,24,28
+15,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Not sure,17,10,17,23
+16,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Don’t know,39,35,44,35
+17,3,1C,Comparing State of the Economy — European economy,Do you think the problem of inﬂation is currently affecting...?,Totals,100,100,100,100
+18,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Very well,3,4,1,2
+19,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Somewhat well,12,19,10,7
+20,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Not very well,26,25,25,28
+21,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Not at all,19,17,16,24
+22,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Don’t know,41,36,47,38
+23,4,1D,Comparing State of the Economy — UK economy,How well do you personally understand the causes of inﬂation in the U.S. today?,Totals,101,101,99,99
+24,5,2,Issue importance - Inﬂation/Prices,How well do you personally understand the solutions to inﬂation in the U.S. today?,Very well,69,54,70,82
+25,5,2,Issue importance - Inﬂation/Prices,How well do you personally understand the solutions to inﬂation in the U.S. today?,Somewhat well,26,39,23,14
+26,5,2,Issue importance - Inﬂation/Prices,How well do you personally understand the solutions to inﬂation in the U.S. today?,Not very well,5,6,4,4
+27,5,2,Issue importance - Inﬂation/Prices,How well do you personally understand the solutions to inﬂation in the U.S. today?,Not at all,1,1,2,0
+28,5,2,Issue importance - Inﬂation/Prices,How well do you personally understand the solutions to inﬂation in the U.S. today?,Totals,101,100,99,100
+29,6,3,Inﬂation U.S. vs. Global,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Hospital services,20,15,22,24
+30,6,3,Inﬂation U.S. vs. Global,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,College tuition and fees,69,76,63,68
+31,6,3,Inﬂation U.S. vs. Global,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Airfare,2,2,2,2
+32,6,3,Inﬂation U.S. vs. Global,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,school,9,7,13,7
+33,6,3,Inﬂation U.S. vs. Global,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Housing,100,100,100,101
+34,7,4,Understanding of Inﬂation Causes,Would you say that inﬂation is affecting you personally more or less than it is affecting other Americans?,Much more than other Americans,18,12,21,21
+35,7,4,Understanding of Inﬂation Causes,Would you say that inﬂation is affecting you personally more or less than it is affecting other Americans?,Somewhat more than other Americans,49,51,42,56
+36,7,4,Understanding of Inﬂation Causes,Would you say that inﬂation is affecting you personally more or less than it is affecting other Americans?,About as much as other Americans,25,29,27,18
+37,7,4,Understanding of Inﬂation Causes,Would you say that inﬂation is affecting you personally more or less than it is affecting other Americans?,Somewhat less than other Americans,8,8,10,5
+38,7,4,Understanding of Inﬂation Causes,Would you say that inﬂation is affecting you personally more or less than it is affecting other Americans?,Much less than other Americans,100,100,100,100
+39,8,5,Understanding of Inﬂation Solutions,Is your household’s income...?,Growing faster than inﬂation,16,14,16,18
+40,8,5,Understanding of Inﬂation Solutions,Is your household’s income...?,Just keeping up with inﬂation,36,32,32,45
+41,8,5,Understanding of Inﬂation Solutions,Is your household’s income...?,Falling behind inﬂation,36,42,36,30
+42,8,5,Understanding of Inﬂation Solutions,Is your household’s income...?,Not sure,12,12,16,7
+43,8,5,Understanding of Inﬂation Solutions,Is your household’s income...?,Totals,100,100,100,100
+44,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Would be able,68,58,68,81
+45,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Beyond control,16,26,13,11
+46,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",No opinion,4,5,4,1
+47,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Decreased some,0,0,1,0
+48,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Decreased a lot,1,0,1,2
+49,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Not sure,10,11,13,5
+50,9,6A,Changing Cost of Goods and Services — Hospital services,"Do you think an effective president would be able to control inﬂation, or is that something beyond any presi-",Totals,99,100,100,100
+51,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Spend more money,63,56,68,67
+52,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Spend less money,16,23,11,13
+53,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Neither,4,3,7,1
+54,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Not sure,1,1,2,0
+55,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Decreased a lot,1,2,0,0
+56,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Not sure,14,14,11,18
+57,10,6B,Changing Cost of Goods and Services — College tuition and fees,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Totals,99,99,99,99
+58,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",gouging,45,41,44,51
+59,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",spendingonsocialservices,30,36,21,34
+60,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",Russia,6,6,9,2
+61,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",Reducing aid to Ukraine,2,3,1,1
+62,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",working-age people,1,3,1,0
+63,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",production,16,12,23,12
+64,11,6C,Changing Cost of Goods and Services — Airfare,"Regardless of whether you support or oppose it, do you think that each of the following would increase or",corporations,100,101,99,100
+65,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Democratic Party,58,52,60,63
+66,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Republican Party,17,20,13,19
+67,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Neither party,4,5,4,3
+68,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Not sure,1,1,1,1
+69,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Decreased a lot,1,3,1,0
+70,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Not sure,18,19,21,14
+71,12,6D,Changing Cost of Goods and Services — Child care and nursery school,Which party do you think has a more effective plan to reduce inﬂation?,Totals,99,100,100,100
+72,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",Democrats,77,72,77,83
+73,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",Republicans,14,19,10,13
+74,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",The supply chain,4,6,5,1
+75,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",The level of consumer demand,1,1,2,1
+76,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",Large corporations seeking maximum proﬁts,1,1,0,1
+77,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",The COVID-19 pandemic,4,2,6,3
+78,13,6E,Changing Cost of Goods and Services — Housing,"How much, if at all, do you blame each of the following for inﬂation?",The war in Ukraine,101,101,100,102
+79,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,inﬂation by printing too much money,65,55,67,72
+80,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,U.S. government alone cannot solve,24,36,18,21
+81,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,causing prices to rise,4,4,6,2
+82,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,so inﬂation is not unusual,1,2,0,0
+83,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,the price of gold,2,1,3,1
+84,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,Not sure,4,2,6,4
+85,14,6F,Changing Cost of Goods and Services — Food and beverages,Do you think the following is true or false?,Totals,100,100,100,100
+86,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Much higher,64,55,62,79
+87,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Somewhat higher,21,33,16,14
+88,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",About the same,5,3,8,3
+89,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Somewhat lower,1,0,1,0
+90,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Much lower,1,3,0,0
+91,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Not sure,8,7,12,4
+92,15,6G,Changing Cost of Goods and Services — New cars,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Totals,100,101,99,100
+93,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Much higher,41,32,45,46
+94,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Somewhat higher,42,46,38,42
+95,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",About the same,6,7,7,2
+96,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Somewhat lower,2,2,1,3
+97,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Much lower,0,0,0,0
+98,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Not sure,9,13,8,7
+99,16,6H,Changing Cost of Goods and Services — Household furnishings,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Totals,100,100,99,100
+100,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,36,28,36,44
+101,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,46,50,39,50
+102,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,8,10,12,2
+103,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,3,4,2,1
+104,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,1,1,1,0
+105,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,7,7,10,3
+106,17,6I,Changing Cost of Goods and Services — Clothing,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,101,100,100,100
+107,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,29,25,33,28
+108,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,36,39,25,45
+109,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,14,13,16,13
+110,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,9,11,9,7
+111,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,3,2,4,2
+112,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,9,9,12,4
+113,18,6J,Changing Cost of Goods and Services — Cellphone services,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,100,99,99,99
+114,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,34,30,41,31
+115,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,27,24,22,37
+116,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,8,6,14,3
+117,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,10,12,5,13
+118,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,1,2,2,0
+119,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,19,26,17,16
+120,19,6K,Changing Cost of Goods and Services — Computer software,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,99,100,101,100
+121,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,34,29,31,42
+122,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,31,31,28,35
+123,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,9,8,16,2
+124,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,3,4,3,1
+125,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,3,5,2,1
+126,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,21,23,21,19
+127,20,6L,Changing Cost of Goods and Services — Toys,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,101,100,101,100
+128,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,22,18,27,22
+129,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,30,30,26,35
+130,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,12,14,12,7
+131,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,19,16,20,19
+132,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,7,12,5,5
+133,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,11,11,10,12
+134,21,6M,Changing Cost of Goods and Services — TVs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,101,101,100,100
+135,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,66,55,63,82
+136,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,22,33,22,11
+137,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,6,3,10,2
+138,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,1,2,1,1
+139,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,1,2,0,1
+140,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,3,4,2,3
+141,22,6N,Changing Cost of Goods and Services — Gasoline,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,99,99,98,100
+142,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,54,45,57,62
+143,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,34,41,28,32
+144,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,4,3,8,1
+145,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,1,0,1,2
+146,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,1,1,0,1
+147,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,6,10,6,2
+148,23,6O,Changing Cost of Goods and Services — Utilities,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,100,100,100,100
+149,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased a lot,52,53,55,48
+150,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Increased some,26,32,14,37
+151,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,No change,7,5,12,3
+152,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased some,3,4,3,2
+153,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Decreased a lot,1,1,2,1
+154,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Not sure,10,6,14,10
+155,24,6P,Changing Cost of Goods and Services — Prescription drugs,Would you say that the cost of each of the following has increased or decreased over the past 20 years?,Totals,99,101,100,101
+156,25,8,Income Keeping Up With Inﬂation,Is your household’s income...?,in ation,5,7,4,3
+157,25,8,Income Keeping Up With Inﬂation,Is your household’s income...?,in ation,37,44,33,34
+158,25,8,Income Keeping Up With Inﬂation,Is your household’s income...?,Falling behind in ation,49,42,49,57
+159,25,8,Income Keeping Up With Inﬂation,Is your household’s income...?,Not sure,9,7,14,6
+160,25,8,Income Keeping Up With Inﬂation,Is your household’s income...?,Totals,100,100,100,100
+161,26,9,President Control Over Inﬂation,"Do you think an effective president would be able to control inﬂation, or is that something beyond any president’s control?",Would be able,47,30,41,74
+162,26,9,President Control Over Inﬂation,"Do you think an effective president would be able to control inﬂation, or is that something beyond any president’s control?",Beyond control,37,53,38,16
+163,26,9,President Control Over Inﬂation,"Do you think an effective president would be able to control inﬂation, or is that something beyond any president’s control?",No opinion,17,17,21,10
+164,26,9,President Control Over Inﬂation,"Do you think an effective president would be able to control inﬂation, or is that something beyond any president’s control?",Totals,101,100,100,100
+165,27,10,Government Inﬂation Response Spending,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Spend more money,11,13,11,8
+166,27,10,Government Inﬂation Response Spending,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Spend less money,32,34,33,28
+167,27,10,Government Inﬂation Response Spending,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Neither,28,19,31,37
+168,27,10,Government Inﬂation Response Spending,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Not sure,29,34,25,27
+169,27,10,Government Inﬂation Response Spending,"In periods of high inﬂation, do you think the government should enact policies that encourage people to...?",Totals,100,100,100,100
+170,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,21,23,20,27
+171,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,19,18,20,28
+172,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,99,100,101,100
+173,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,3,9,6
+174,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,8,4,7
+175,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,20,13,18,30
+176,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,27,26,28,28
+177,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,21,35,15,15
+178,28,11A,Impact of Policies on Inﬂation — Fining companies for price gouging,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,19,15,25,14
+179,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,15,19,12,17
+180,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,21,15,26,24
+181,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,101,100,101
+182,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,8,10,1
+183,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,10,16,7,9
+184,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,25,32,24,20
+185,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,22,18,22,26
+186,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,15,9,14,23
+187,29,11B,Impact of Policies on Inﬂation — Reducing government spending on social services,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,21,17,23,21
+188,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,8,5,8
+189,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,35,28,40,44
+190,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,99,100,101
+191,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,4,3,8,2
+192,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,5,7,4,6
+193,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,34,33,35,32
+194,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,16,21,12,16
+195,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,6,6,6
+196,30,11C,Impact of Policies on Inﬂation — Removing sanctions on Russia,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,35,31,36,38
+197,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,18,19,17
+198,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,22,19,25,35
+199,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,101,100,100
+200,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,3,3,3,4
+201,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,6,6,6
+202,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,33,42,36,20
+203,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,19,11,23
+204,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,10,16,29
+205,31,11D,Impact of Policies on Inﬂation — Reducing aid to Ukraine,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,22,20,29,18
+206,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,8,5,7
+207,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,26,19,33,28
+208,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,99,100,100
+209,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,7,9,22
+210,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,13,10,11,21
+211,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,27,23,32,24
+212,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,16,24,14,7
+213,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,7,6,6
+214,32,11E,Impact of Policies on Inﬂation — Increasing immigration of working-age people,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,26,30,27,20
+215,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,23,29,17,12
+216,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,19,10,28,30
+217,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,99,100,99
+218,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,5,4,7,4
+219,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,8,11,6,6
+220,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,14,15,19,5
+221,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,31,41,20,36
+222,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,23,12,21,36
+223,33,11F,Impact of Policies on Inﬂation — Increasing domestic oil production,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,19,17,27,13
+224,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,13,12,13
+225,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,18,12,24,16
+226,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,99,99,100,101
+227,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,13,4,18,16
+228,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,22,17,19,30
+229,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,16,13,16,21
+230,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,28,14,12
+231,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,20,12,4
+232,34,11G,Impact of Policies on Inﬂation — Increasing taxes on corporations,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,18,18,20,16
+233,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,14,10,10
+234,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,24,17,31,36
+235,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,100,101,100
+236,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,11,7,1
+237,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,15,24,13,7
+238,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,16,12,20,16
+239,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,26,18,24,39
+240,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,5,11,21
+241,35,11H,Impact of Policies on Inﬂation — Cutting taxes,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,24,29,26,15
+242,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,4,5,4,2
+243,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,27,19,33,45
+244,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,101,99,101,99
+245,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,15,16,24
+246,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,21,17,21,26
+247,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,10,15,8,7
+248,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,21,27,19,16
+249,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,4,2,7,3
+250,36,11I,Impact of Policies on Inﬂation — Increasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,27,24,30,25
+251,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,11,12,9,4
+252,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,25,17,34,31
+253,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,101,100,100,101
+254,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,10,5,4
+255,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,19,20,16,21
+256,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,12,13,11,13
+257,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,27,23,26,34
+258,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,11,11,11,10
+259,37,11J,Impact of Policies on Inﬂation — Decreasing interest rates,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,25,23,30,19
+260,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,16,15,16,21
+261,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,18,12,23,20
+262,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,100,100,99
+263,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,7,4,7
+264,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,6,10,11
+265,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,16,11,15,24
+266,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,35,35,35,37
+267,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,16,22,16,7
+268,38,11K,Impact of Policies on Inﬂation — Having the government enforce limits on price increases,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,18,19,20,15
+269,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,8,11,6,7
+270,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,29,20,37,39
+271,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,101,100,100,99
+272,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,8,7,8,8
+273,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,15,16,12,17
+274,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,18,18,21,14
+275,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,23,22,20,28
+276,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,8,6,8,11
+277,39,11L,Impact of Policies on Inﬂation — Reducing the number of foreign imports,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,29,31,32,21
+278,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,9,6,10
+279,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,23,19,27,28
+280,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,100,101,100
+281,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,4,3,4,4
+282,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,11,10,8,15
+283,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,31,31,30,33
+284,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,24,24,25,22
+285,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,9,4,9
+286,40,11M,Impact of Policies on Inﬂation — Encouraging people not to buy things they don’t need,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,23,22,29,16
+287,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,13,17,8,13
+288,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,23,17,28,31
+289,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,101,99,100,100
+290,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,4,7,1,3
+291,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,11,6,10
+292,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,12,9,13,17
+293,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,40,40,39,40
+294,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,13,13,12,14
+295,41,11N,Impact of Policies on Inﬂation — Investing in strengthening the supply chain,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,23,20,28,17
+296,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,10,7,12
+297,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,25,20,30,33
+298,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,101,100,99
+299,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,6,6,4,8
+300,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,12,8,13,15
+301,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,30,20,38,33
+302,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,18,25,12,19
+303,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,17,5,3
+304,42,11O,Impact of Policies on Inﬂation — Providing more child care to workers,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,25,23,29,22
+305,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,8,10,11
+306,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,39,35,43,40
+307,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Totals,100,100,99,100
+308,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,3,5,2,3
+309,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,7,6,7,8
+310,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",No effect on in ation,25,16,32,25
+311,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,17,20,12,19
+312,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",in ation,9,12,6,10
+313,43,11P,Impact of Policies on Inﬂation — Preventing companies from buying shares of their own stock,"Regardless of whether you support or oppose it, do you think that each of the following would increase or decrease inﬂation?",Not sure,39,40,41,36
+314,44,12,Party With Best Plan To Address Inﬂation,Which party do you think has a more effective plan to reduce inﬂation?,Democratic Party,27,66,12,1
+315,44,12,Party With Best Plan To Address Inﬂation,Which party do you think has a more effective plan to reduce inﬂation?,Republican Party,28,3,17,72
+316,44,12,Party With Best Plan To Address Inﬂation,Which party do you think has a more effective plan to reduce inﬂation?,Neither party,28,19,48,10
+317,44,12,Party With Best Plan To Address Inﬂation,Which party do you think has a more effective plan to reduce inﬂation?,Not sure,17,11,22,17
+318,44,12,Party With Best Plan To Address Inﬂation,Which party do you think has a more effective plan to reduce inﬂation?,Totals,100,99,99,100
+319,45,13A,Who Blame for Inﬂation — Democrats,"How much, if at all, do you blame each of the following for inﬂation?",A lot,42,14,42,74
+320,45,13A,Who Blame for Inﬂation — Democrats,"How much, if at all, do you blame each of the following for inﬂation?",A little,36,48,38,18
+321,45,13A,Who Blame for Inﬂation — Democrats,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,22,37,20,8
+322,45,13A,Who Blame for Inﬂation — Democrats,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,99,100,100
+323,46,13B,Who Blame for Inﬂation — Republicans,"How much, if at all, do you blame each of the following for inﬂation?",A lot,32,52,35,5
+324,46,13B,Who Blame for Inﬂation — Republicans,"How much, if at all, do you blame each of the following for inﬂation?",A little,40,33,41,46
+325,46,13B,Who Blame for Inﬂation — Republicans,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,28,15,24,49
+326,46,13B,Who Blame for Inﬂation — Republicans,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,100,100,100
+327,47,13C,Who Blame for Inﬂation — The supply chain,"How much, if at all, do you blame each of the following for inﬂation?",A lot,45,49,42,46
+328,47,13C,Who Blame for Inﬂation — The supply chain,"How much, if at all, do you blame each of the following for inﬂation?",A little,44,44,44,44
+329,47,13C,Who Blame for Inﬂation — The supply chain,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,11,8,14,10
+330,47,13C,Who Blame for Inﬂation — The supply chain,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,101,100,100
+331,48,13D,Who Blame for Inﬂation — The level of consumer demand,"How much, if at all, do you blame each of the following for inﬂation?",A lot,26,28,27,22
+332,48,13D,Who Blame for Inﬂation — The level of consumer demand,"How much, if at all, do you blame each of the following for inﬂation?",A little,50,52,48,52
+333,48,13D,Who Blame for Inﬂation — The level of consumer demand,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,24,20,26,27
+334,48,13D,Who Blame for Inﬂation — The level of consumer demand,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,100,101,101
+335,49,13E,Who Blame for Inﬂation — Large corporations seeking maximum proﬁts,"How much, if at all, do you blame each of the following for inﬂation?",A lot,61,76,61,44
+336,49,13E,Who Blame for Inﬂation — Large corporations seeking maximum proﬁts,"How much, if at all, do you blame each of the following for inﬂation?",A little,28,21,26,41
+337,49,13E,Who Blame for Inﬂation — Large corporations seeking maximum proﬁts,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,10,3,13,15
+338,49,13E,Who Blame for Inﬂation — Large corporations seeking maximum proﬁts,"How much, if at all, do you blame each of the following for inﬂation?",Totals,99,100,100,100
+339,50,13F,Who Blame for Inﬂation — The COVID-19 pandemic,"How much, if at all, do you blame each of the following for inﬂation?",A lot,52,57,51,49
+340,50,13F,Who Blame for Inﬂation — The COVID-19 pandemic,"How much, if at all, do you blame each of the following for inﬂation?",A little,35,36,35,35
+341,50,13F,Who Blame for Inﬂation — The COVID-19 pandemic,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,12,7,15,16
+342,50,13F,Who Blame for Inﬂation — The COVID-19 pandemic,"How much, if at all, do you blame each of the following for inﬂation?",Totals,99,100,101,100
+343,51,13G,Who Blame for Inﬂation — The war in Ukraine,"How much, if at all, do you blame each of the following for inﬂation?",A lot,35,30,35,40
+344,51,13G,Who Blame for Inﬂation — The war in Ukraine,"How much, if at all, do you blame each of the following for inﬂation?",A little,41,40,42,40
+345,51,13G,Who Blame for Inﬂation — The war in Ukraine,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,25,30,22,21
+346,51,13G,Who Blame for Inﬂation — The war in Ukraine,"How much, if at all, do you blame each of the following for inﬂation?",Totals,101,100,99,101
+347,52,13H,Who Blame for Inﬂation — Consumer purchases on credit,"How much, if at all, do you blame each of the following for inﬂation?",A lot,30,29,29,34
+348,52,13H,Who Blame for Inﬂation — Consumer purchases on credit,"How much, if at all, do you blame each of the following for inﬂation?",A little,47,51,46,42
+349,52,13H,Who Blame for Inﬂation — Consumer purchases on credit,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,23,19,26,24
+350,52,13H,Who Blame for Inﬂation — Consumer purchases on credit,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,99,101,100
+351,53,13I,Who Blame for Inﬂation — The price of foreign oil,"How much, if at all, do you blame each of the following for inﬂation?",A lot,55,54,50,63
+352,53,13I,Who Blame for Inﬂation — The price of foreign oil,"How much, if at all, do you blame each of the following for inﬂation?",A little,34,38,36,27
+353,53,13I,Who Blame for Inﬂation — The price of foreign oil,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,11,8,14,10
+354,53,13I,Who Blame for Inﬂation — The price of foreign oil,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,100,100,100
+355,54,13J,Who Blame for Inﬂation — Spending by the federal government,"How much, if at all, do you blame each of the following for inﬂation?",A lot,55,31,59,77
+356,54,13J,Who Blame for Inﬂation — Spending by the federal government,"How much, if at all, do you blame each of the following for inﬂation?",A little,32,50,27,17
+357,54,13J,Who Blame for Inﬂation — Spending by the federal government,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,14,19,14,6
+358,54,13J,Who Blame for Inﬂation — Spending by the federal government,"How much, if at all, do you blame each of the following for inﬂation?",Totals,101,100,100,100
+359,55,13K,Who Blame for Inﬂation — Wage demands by large unions,"How much, if at all, do you blame each of the following for inﬂation?",A lot,25,15,22,42
+360,55,13K,Who Blame for Inﬂation — Wage demands by large unions,"How much, if at all, do you blame each of the following for inﬂation?",A little,42,41,44,38
+361,55,13K,Who Blame for Inﬂation — Wage demands by large unions,"How much, if at all, do you blame each of the following for inﬂation?",Not at all,33,43,34,20
+362,55,13K,Who Blame for Inﬂation — Wage demands by large unions,"How much, if at all, do you blame each of the following for inﬂation?",Totals,100,99,100,100
+363,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,De nitely true,26,10,28,42
+364,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,Probably true,25,23,24,28
+365,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,Probably false,17,21,17,13
+366,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,De nitely false,9,16,6,5
+367,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,Not sure,23,30,25,12
+368,56,14A,True/False Statements About Inﬂation — The Federal Reserve is causing inﬂation by printing too much money,Do you think the following is true or false?,Totals,100,100,100,100
+369,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,De nitely true,23,30,24,15
+370,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,Probably true,36,41,33,36
+371,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,Probably false,18,11,19,26
+372,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,De nitely false,8,6,6,11
+373,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,Not sure,15,12,18,13
+374,57,14B,True/False Statements About Inﬂation — Inﬂation is a global problem that the U.S. government alone cannot solve,Do you think the following is true or false?,Totals,100,100,100,101
+375,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,De nitely true,23,12,25,34
+376,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,Probably true,34,38,31,36
+377,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,Probably false,13,18,14,6
+378,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,De nitely false,4,5,3,3
+379,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,Not sure,26,28,27,21
+380,58,14C,"True/False Statements About Inﬂation — An increase in government spending increases demand relative to supply, causing prices to rise",Do you think the following is true or false?,Totals,100,101,100,100
+381,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,De nitely true,13,17,11,11
+382,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,Probably true,37,42,35,35
+383,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,Probably false,18,13,20,22
+384,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,De nitely false,13,11,11,18
+385,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,Not sure,19,18,23,15
+386,59,14D,"True/False Statements About Inﬂation — Prices for goods and services rise and fall all the time in a market economy, so inﬂation is not",unusual,Totals,100,101,100,101
+387,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,De nitely true,16,12,18,16
+388,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,Probably true,35,29,35,43
+389,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,Probably false,9,12,6,8
+390,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,De nitely false,5,10,3,3
+391,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,Not sure,35,37,38,31
+392,60,14E,True/False Statements About Inﬂation — Inﬂation would decline if the value of the dollar were held stable relative to the price of gold,Do you think the following is true or false?,Totals,100,100,100,101
+393,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Much higher,30,20,32,39
+394,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Somewhat higher,36,41,31,38
+395,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",About the same,17,19,19,12
+396,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Somewhat lower,9,13,8,5
+397,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Much lower,2,2,1,2
+398,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Not sure,7,4,10,5
+399,61,15,Inﬂation Change in Last 12 Months,"Compared to 12 months ago, do you think the rate of inﬂation in your area now is...?",Totals,101,99,101,101
+400,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Much higher,42,34,41,53
+401,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Somewhat higher,36,37,36,34
+402,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",About the same,13,20,12,6
+403,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Somewhat lower,4,6,3,4
+404,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Much lower,1,0,1,0
+405,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Not sure,5,3,6,4
+406,62,16,Prices Change in Last 12 Months,"Compared to 12 months ago, do you think the price of goods and services in your area now is...?",Totals,101,100,99,101

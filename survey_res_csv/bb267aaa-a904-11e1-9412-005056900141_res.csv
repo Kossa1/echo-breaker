@@ -1,0 +1,58 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Self Foreign Policy Hawk or Dove,"In general, do you think of yourself as more of a foreign policy hawk or a dove?",Hawk,20,11,11,40
+1,1,1,Self Foreign Policy Hawk or Dove,"In general, do you think of yourself as more of a foreign policy hawk or a dove?",Dove,31,42,33,16
+2,1,1,Self Foreign Policy Hawk or Dove,"In general, do you think of yourself as more of a foreign policy hawk or a dove?",Not sure,50,47,56,45
+3,1,1,Self Foreign Policy Hawk or Dove,"In general, do you think of yourself as more of a foreign policy hawk or a dove?",Totals,101,100,100,101
+4,2,2A,Presidents Foreign Policy Hawk or Dove — John F. Kennedy,"In general, do you think the following president was more of a foreign policy hawk or a dove?",John F. Kennedy,29,23,28,37
+5,2,2A,Presidents Foreign Policy Hawk or Dove — John F. Kennedy,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Lyndon B. Johnson,25,35,19,21
+6,2,2A,Presidents Foreign Policy Hawk or Dove — John F. Kennedy,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Richard Nixon,46,42,54,42
+7,2,2A,Presidents Foreign Policy Hawk or Dove — John F. Kennedy,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Gerald Ford,100,100,101,100
+8,3,2B,Presidents Foreign Policy Hawk or Dove — Lyndon B. Johnson,Do you think the next President should be more or less willing than President Biden to use the American,More willing,33,35,33,29
+9,3,2B,Presidents Foreign Policy Hawk or Dove — Lyndon B. Johnson,Do you think the next President should be more or less willing than President Biden to use the American,Equally willing,17,16,12,23
+10,3,2B,Presidents Foreign Policy Hawk or Dove — Lyndon B. Johnson,Do you think the next President should be more or less willing than President Biden to use the American,Less willing,51,48,56,48
+11,3,2B,Presidents Foreign Policy Hawk or Dove — Lyndon B. Johnson,Do you think the next President should be more or less willing than President Biden to use the American,Not sure,101,99,101,100
+12,4,2C,Presidents Foreign Policy Hawk or Dove — Richard Nixon,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,38,41,37,37
+13,4,2C,Presidents Foreign Policy Hawk or Dove — Richard Nixon,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,15,16,11,17
+14,4,2C,Presidents Foreign Policy Hawk or Dove — Richard Nixon,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,47,42,52,46
+15,4,2C,Presidents Foreign Policy Hawk or Dove — Richard Nixon,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,99,100,100
+16,5,2D,Presidents Foreign Policy Hawk or Dove — Gerald Ford,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,17,18,15,19
+17,5,2D,Presidents Foreign Policy Hawk or Dove — Gerald Ford,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,27,26,25,30
+18,5,2D,Presidents Foreign Policy Hawk or Dove — Gerald Ford,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,56,56,60,51
+19,5,2D,Presidents Foreign Policy Hawk or Dove — Gerald Ford,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,100,100,100
+20,6,2E,Presidents Foreign Policy Hawk or Dove — Jimmy Carter,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,13,17,12,10
+21,6,2E,Presidents Foreign Policy Hawk or Dove — Jimmy Carter,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,49,46,46,56
+22,6,2E,Presidents Foreign Policy Hawk or Dove — Jimmy Carter,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,38,38,42,34
+23,6,2E,Presidents Foreign Policy Hawk or Dove — Jimmy Carter,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,101,100,100
+24,7,2F,Presidents Foreign Policy Hawk or Dove — Ronald Reagan,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,51,45,47,63
+25,7,2F,Presidents Foreign Policy Hawk or Dove — Ronald Reagan,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,13,17,11,12
+26,7,2F,Presidents Foreign Policy Hawk or Dove — Ronald Reagan,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,35,38,41,25
+27,7,2F,Presidents Foreign Policy Hawk or Dove — Ronald Reagan,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,99,100,99,100
+28,8,2G,Presidents Foreign Policy Hawk or Dove — George H.W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,47,48,46,49
+29,8,2G,Presidents Foreign Policy Hawk or Dove — George H.W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,16,15,14,20
+30,8,2G,Presidents Foreign Policy Hawk or Dove — George H.W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,36,37,40,31
+31,8,2G,Presidents Foreign Policy Hawk or Dove — George H.W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,99,100,100,100
+32,9,2H,Presidents Foreign Policy Hawk or Dove — Bill Clinton,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,24,29,20,22
+33,9,2H,Presidents Foreign Policy Hawk or Dove — Bill Clinton,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,35,34,32,40
+34,9,2H,Presidents Foreign Policy Hawk or Dove — Bill Clinton,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,41,37,47,37
+35,9,2H,Presidents Foreign Policy Hawk or Dove — Bill Clinton,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,100,99,99
+36,10,2I,Presidents Foreign Policy Hawk or Dove — George W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,51,54,45,54
+37,10,2I,Presidents Foreign Policy Hawk or Dove — George W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,16,15,16,16
+38,10,2I,Presidents Foreign Policy Hawk or Dove — George W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,33,31,39,31
+39,10,2I,Presidents Foreign Policy Hawk or Dove — George W. Bush,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,100,100,101
+40,11,2J,Presidents Foreign Policy Hawk or Dove — Barack Obama,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,22,26,21,18
+41,11,2J,Presidents Foreign Policy Hawk or Dove — Barack Obama,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,43,43,36,52
+42,11,2J,Presidents Foreign Policy Hawk or Dove — Barack Obama,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,35,31,43,30
+43,11,2J,Presidents Foreign Policy Hawk or Dove — Barack Obama,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,100,100,100
+44,12,2K,Presidents Foreign Policy Hawk or Dove — Donald Trump,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,55,50,48,68
+45,12,2K,Presidents Foreign Policy Hawk or Dove — Donald Trump,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,13,15,14,11
+46,12,2K,Presidents Foreign Policy Hawk or Dove — Donald Trump,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,32,36,38,21
+47,12,2K,Presidents Foreign Policy Hawk or Dove — Donald Trump,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,101,100,100
+48,13,2L,Presidents Foreign Policy Hawk or Dove — Joe Biden,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Hawk,19,23,21,12
+49,13,2L,Presidents Foreign Policy Hawk or Dove — Joe Biden,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Dove,45,42,34,60
+50,13,2L,Presidents Foreign Policy Hawk or Dove — Joe Biden,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Not sure,36,34,44,28
+51,13,2L,Presidents Foreign Policy Hawk or Dove — Joe Biden,"In general, do you think the following president was more of a foreign policy hawk or a dove?",Totals,100,99,99,100
+52,14,3,Next President Hawk or Dove,Do you think the next President should be more or less willing than President Biden to use the American military in conflicts around the world?,More willing,18,11,14,31
+53,14,3,Next President Hawk or Dove,Do you think the next President should be more or less willing than President Biden to use the American military in conflicts around the world?,Equally willing,31,50,22,21
+54,14,3,Next President Hawk or Dove,Do you think the next President should be more or less willing than President Biden to use the American military in conflicts around the world?,Less willing,27,22,33,27
+55,14,3,Next President Hawk or Dove,Do you think the next President should be more or less willing than President Biden to use the American military in conflicts around the world?,Not sure,24,17,32,22
+56,14,3,Next President Hawk or Dove,Do you think the next President should be more or less willing than President Biden to use the American military in conflicts around the world?,Totals,100,100,101,101

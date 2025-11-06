@@ -1,0 +1,304 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Stance on U.S. Involvement in Foreign Affairs,How would you describe your stance on the United States’ involvement in foreign affairs?,Interventionist - prefer extensive involvement,12,17,9,9
+1,1,1,Stance on U.S. Involvement in Foreign Affairs,How would you describe your stance on the United States’ involvement in foreign affairs?,Isolationist - prefer minimal involvement,24,18,23,30
+2,1,1,Stance on U.S. Involvement in Foreign Affairs,How would you describe your stance on the United States’ involvement in foreign affairs?,Somewhere in between,46,52,40,47
+3,1,1,Stance on U.S. Involvement in Foreign Affairs,How would you describe your stance on the United States’ involvement in foreign affairs?,Not sure,18,13,27,13
+4,1,1,Stance on U.S. Involvement in Foreign Affairs,How would you describe your stance on the United States’ involvement in foreign affairs?,Totals,100,100,99,99
+5,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Entirely successful,5,9,2,3
+6,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Mostly successful,34,37,28,37
+7,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Mostly unsuccessful,29,26,30,31
+8,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Entirely unsuccessful,7,5,8,7
+9,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Not sure,26,22,33,22
+10,2,2,Success of U.S. Foreign Military Interventions,Would you say that most U.S. foreign military interventions in the past 50 years have been...?,Totals,101,99,101,100
+11,3,3,U.S. Foreign Military Interventions Help or Hurt,Do you think that U.S. foreign military interventions more often improve or worsen situations in the countries,Improve,24,34,11,31
+12,3,3,U.S. Foreign Military Interventions Help or Hurt,Do you think that U.S. foreign military interventions more often improve or worsen situations in the countries,Worsen,28,25,31,28
+13,3,3,U.S. Foreign Military Interventions Help or Hurt,Do you think that U.S. foreign military interventions more often improve or worsen situations in the countries,Neither improve nor worsen,25,22,28,26
+14,3,3,U.S. Foreign Military Interventions Help or Hurt,Do you think that U.S. foreign military interventions more often improve or worsen situations in the countries,Not sure,22,20,30,15
+15,3,3,U.S. Foreign Military Interventions Help or Hurt,Do you think that U.S. foreign military interventions more often improve or worsen situations in the countries,Totals,99,101,100,100
+16,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,globally,11,15,6,13
+17,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,Preventing terrorism,12,15,6,17
+18,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,potential rivals to the U.S,22,23,17,28
+19,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,communism,19,17,20,18
+20,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,destruction,20,17,26,18
+21,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,governance,16,13,25,7
+22,4,4A,U.S. Military Intervention Justifications — Increasing U.S. power globally,How often does the following goal justify U.S. military intervention in foreign countries?,interests,100,100,100,101
+23,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",World War I (1914-1918),32,29,25,45
+24,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",World War II (1939-1945),21,23,19,21
+25,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",Korean War (1950-1953),19,20,23,13
+26,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",Vietnam War (1955-1975),11,15,9,9
+27,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",Bay of Pigs Invasion (1961),5,4,6,6
+28,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",Cambodian campaign (1970),11,9,18,5
+29,5,4B,U.S. Military Intervention Justifications — Preventing terrorism,"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in",Invasion of Panama (1989),99,100,100,99
+30,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,World War I (1914-1918),15,16,8,22
+31,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,World War II (1939-1945),15,16,10,19
+32,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,Korean War (1950-1953),28,30,27,29
+33,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,Vietnam War (1955-1975),15,14,17,12
+34,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,Bay of Pigs Invasion (1961),12,12,14,10
+35,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,Cambodian campaign (1970),16,12,25,9
+36,6,4C,U.S. Military Intervention Justifications — Preventing the rise of potential rivals to the U.S.,Would you consider U.S. military intervention in the following to be...?,Invasion of Panama (1989),101,100,101,101
+37,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,George Marshall,15,13,9,26
+38,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,Henry Kissinger,18,22,11,23
+39,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,James Baker,22,24,21,21
+40,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,Madeleine Albright,14,14,16,9
+41,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,Colin Powell,13,13,15,10
+42,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,Condoleezza Rice,18,13,27,12
+43,7,4D,U.S. Military Intervention Justifications — Preventing the spread of communism,Do you have a favorable or unfavorable opinion of the following people?,Hillary Clinton,100,99,99,101
+44,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,27,29,20,33
+45,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,23,20,21,29
+46,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,22,26,20,19
+47,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,10,10,10,9
+48,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,5,3,7,5
+49,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,13,11,21,6
+50,8,4E,U.S. Military Intervention Justifications — Preventing the spread of weapons of mass destruction,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,99,99,101
+51,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,10,15,6,8
+52,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,15,24,7,14
+53,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,26,28,24,28
+54,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,16,14,18,18
+55,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,13,6,15,18
+56,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,20,15,30,14
+57,9,4F,U.S. Military Intervention Justifications — Promoting democratic governance,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,102,100,100
+58,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,8,10,4,11
+59,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,12,17,6,14
+60,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,21,19,21,21
+61,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,20,20,18,24
+62,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,21,19,27,17
+63,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,18,14,24,14
+64,10,4G,U.S. Military Intervention Justifications — Promoting U.S. business interests,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,99,100,101
+65,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,20,24,14,21
+66,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,26,27,20,31
+67,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,28,30,30,25
+68,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,9,6,9,12
+69,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,5,3,7,5
+70,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,12,10,19,6
+71,11,4H,U.S. Military Intervention Justifications — Protecting and aiding local civilians,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,100,99,100
+72,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,16,17,10,22
+73,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,18,22,14,19
+74,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,27,25,26,30
+75,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,13,15,14,10
+76,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,8,8,9,7
+77,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,18,14,26,11
+78,12,4I,U.S. Military Intervention Justifications — Protecting U.S. access to strategic resources,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,101,99,99
+79,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,22,23,14,30
+80,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,29,30,26,32
+81,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,25,24,28,24
+82,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,6,7,7,3
+83,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,5,4,5,5
+84,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,13,11,21,7
+85,13,4J,U.S. Military Intervention Justifications — Protecting U.S. allies,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,99,101,101
+86,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,16,18,10,22
+87,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,17,20,10,21
+88,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,27,29,23,28
+89,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,16,17,20,12
+90,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,10,6,13,10
+91,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,14,11,23,7
+92,14,4K,U.S. Military Intervention Justifications — Removing corrupt leaders from power,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,101,99,100
+93,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,36,30,32,48
+94,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,26,30,22,27
+95,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,15,20,14,11
+96,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,6,6,8,3
+97,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,3,2,4,4
+98,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,14,11,21,7
+99,15,4L,U.S. Military Intervention Justifications — Responding to acts of aggression toward the U.S.,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,100,99,101,100
+100,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Always justifies,9,11,6,11
+101,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Usually justifies,15,19,9,20
+102,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Sometimes justifies,35,36,32,36
+103,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Rarely justifies,16,13,19,17
+104,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Never justifies,9,9,11,7
+105,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Not sure,15,12,23,9
+106,16,4M,U.S. Military Intervention Justifications — Stabilizing regional conflicts,How often does the following goal justify U.S. military intervention in foreign countries?,Totals,99,100,100,100
+107,17,5A,U.S. Military Interventions Right or Wrong Decision — World War I (1914-1918),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,57,56,51,66
+108,17,5A,U.S. Military Interventions Right or Wrong Decision — World War I (1914-1918),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,11,12,9,12
+109,17,5A,U.S. Military Interventions Right or Wrong Decision — World War I (1914-1918),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,32,32,40,22
+110,17,5A,U.S. Military Interventions Right or Wrong Decision — World War I (1914-1918),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,100
+111,18,5B,U.S. Military Interventions Right or Wrong Decision — World War II (1939-1945),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,67,67,60,77
+112,18,5B,U.S. Military Interventions Right or Wrong Decision — World War II (1939-1945),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,9,10,7,9
+113,18,5B,U.S. Military Interventions Right or Wrong Decision — World War II (1939-1945),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,24,23,32,14
+114,18,5B,U.S. Military Interventions Right or Wrong Decision — World War II (1939-1945),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,99,100
+115,19,5C,U.S. Military Interventions Right or Wrong Decision — Korean War (1950-1953),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,33,35,25,41
+116,19,5C,U.S. Military Interventions Right or Wrong Decision — Korean War (1950-1953),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,24,21,25,26
+117,19,5C,U.S. Military Interventions Right or Wrong Decision — Korean War (1950-1953),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,43,44,50,33
+118,19,5C,U.S. Military Interventions Right or Wrong Decision — Korean War (1950-1953),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,100
+119,20,5D,U.S. Military Interventions Right or Wrong Decision — Vietnam War (1955-1975),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,18,26,10,21
+120,20,5D,U.S. Military Interventions Right or Wrong Decision — Vietnam War (1955-1975),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,52,49,54,53
+121,20,5D,U.S. Military Interventions Right or Wrong Decision — Vietnam War (1955-1975),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,30,25,37,26
+122,20,5D,U.S. Military Interventions Right or Wrong Decision — Vietnam War (1955-1975),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,101,100
+123,21,5E,U.S. Military Interventions Right or Wrong Decision — Bay of Pigs Invasion (1961),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,21,23,15,27
+124,21,5E,U.S. Military Interventions Right or Wrong Decision — Bay of Pigs Invasion (1961),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,36,35,38,35
+125,21,5E,U.S. Military Interventions Right or Wrong Decision — Bay of Pigs Invasion (1961),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,43,43,47,38
+126,21,5E,U.S. Military Interventions Right or Wrong Decision — Bay of Pigs Invasion (1961),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,101,100,100
+127,22,5F,U.S. Military Interventions Right or Wrong Decision — Cambodian campaign (1970),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,16,20,10,20
+128,22,5F,U.S. Military Interventions Right or Wrong Decision — Cambodian campaign (1970),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,35,32,37,38
+129,22,5F,U.S. Military Interventions Right or Wrong Decision — Cambodian campaign (1970),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,48,49,53,42
+130,22,5F,U.S. Military Interventions Right or Wrong Decision — Cambodian campaign (1970),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,99,101,100,100
+131,23,5G,U.S. Military Interventions Right or Wrong Decision — Invasion of Panama (1989),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,24,26,17,30
+132,23,5G,U.S. Military Interventions Right or Wrong Decision — Invasion of Panama (1989),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,25,24,26,25
+133,23,5G,U.S. Military Interventions Right or Wrong Decision — Invasion of Panama (1989),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,51,50,56,44
+134,23,5G,U.S. Military Interventions Right or Wrong Decision — Invasion of Panama (1989),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,99,99
+135,24,5H,U.S. Military Interventions Right or Wrong Decision — The Gulf War (1990-1991),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,38,40,27,49
+136,24,5H,U.S. Military Interventions Right or Wrong Decision — The Gulf War (1990-1991),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,27,27,30,22
+137,24,5H,U.S. Military Interventions Right or Wrong Decision — The Gulf War (1990-1991),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,35,33,43,29
+138,24,5H,U.S. Military Interventions Right or Wrong Decision — The Gulf War (1990-1991),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,100
+139,25,5I,U.S. Military Interventions Right or Wrong Decision — Kosovo War (1999),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,21,30,15,19
+140,25,5I,U.S. Military Interventions Right or Wrong Decision — Kosovo War (1999),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,27,20,30,30
+141,25,5I,U.S. Military Interventions Right or Wrong Decision — Kosovo War (1999),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,52,50,55,51
+142,25,5I,U.S. Military Interventions Right or Wrong Decision — Kosovo War (1999),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,100
+143,26,5J,U.S. Military Interventions Right or Wrong Decision — Afghanistan War (2001-2021),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,33,36,25,39
+144,26,5J,U.S. Military Interventions Right or Wrong Decision — Afghanistan War (2001-2021),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,38,39,40,35
+145,26,5J,U.S. Military Interventions Right or Wrong Decision — Afghanistan War (2001-2021),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,29,25,35,25
+146,26,5J,U.S. Military Interventions Right or Wrong Decision — Afghanistan War (2001-2021),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,99
+147,27,5K,U.S. Military Interventions Right or Wrong Decision — Iraq War (2003-2011),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,28,27,20,39
+148,27,5K,U.S. Military Interventions Right or Wrong Decision — Iraq War (2003-2011),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,45,51,46,39
+149,27,5K,U.S. Military Interventions Right or Wrong Decision — Iraq War (2003-2011),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,26,22,34,22
+150,27,5K,U.S. Military Interventions Right or Wrong Decision — Iraq War (2003-2011),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,99,100,100,100
+151,28,5L,U.S. Military Interventions Right or Wrong Decision — Syrian Civil War (2011-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,22,31,14,20
+152,28,5L,U.S. Military Interventions Right or Wrong Decision — Syrian Civil War (2011-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,33,25,40,35
+153,28,5L,U.S. Military Interventions Right or Wrong Decision — Syrian Civil War (2011-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,45,44,45,45
+154,28,5L,U.S. Military Interventions Right or Wrong Decision — Syrian Civil War (2011-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,99,100
+155,29,5M,U.S. Military Interventions Right or Wrong Decision — Yemeni Civil War (2015-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Right decision,15,21,9,15
+156,29,5M,U.S. Military Interventions Right or Wrong Decision — Yemeni Civil War (2015-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Wrong decision,32,27,35,33
+157,29,5M,U.S. Military Interventions Right or Wrong Decision — Yemeni Civil War (2015-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Not sure,53,52,56,52
+158,29,5M,U.S. Military Interventions Right or Wrong Decision — Yemeni Civil War (2015-present),"Given what you know now, do you think it was the right or wrong decision for the U.S. military to intervene in the following?",Totals,100,100,100,100
+159,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Entirely successful,24,22,22,30
+160,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Mostly successful,37,42,33,36
+161,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,6,7,4,8
+162,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,3,2,4,3
+163,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Not sure,30,28,37,23
+164,30,6A,U.S. Military Interventions Successful — World War I (1914-1918),Would you consider U.S. military intervention in the following to be...?,Totals,100,101,100,100
+165,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Entirely successful,34,30,30,44
+166,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Mostly successful,33,38,29,33
+167,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,5,8,4,5
+168,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,3,4,4,2
+169,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Not sure,24,21,33,16
+170,31,6B,U.S. Military Interventions Successful — World War II (1939-1945),Would you consider U.S. military intervention in the following to be...?,Totals,99,101,100,100
+171,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Entirely successful,8,10,4,10
+172,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Mostly successful,31,35,24,36
+173,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,15,16,13,18
+174,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,8,6,12,6
+175,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Not sure,37,33,47,30
+176,32,6C,U.S. Military Interventions Successful — Korean War (1950-1953),Would you consider U.S. military intervention in the following to be...?,Totals,99,100,100,100
+177,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Entirely successful,5,10,2,4
+178,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Mostly successful,13,15,8,17
+179,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,24,26,19,27
+180,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,30,24,35,31
+181,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Not sure,28,25,36,20
+182,33,6D,U.S. Military Interventions Successful — Vietnam War (1955-1975),Would you consider U.S. military intervention in the following to be...?,Totals,100,100,100,99
+183,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Entirely successful,7,11,4,8
+184,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Mostly successful,16,20,9,19
+185,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,13,14,10,16
+186,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,22,16,26,22
+187,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Not sure,42,40,50,35
+188,34,6E,U.S. Military Interventions Successful — Bay of Pigs Invasion (1961),Would you consider U.S. military intervention in the following to be...?,Totals,100,101,99,100
+189,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Entirely successful,3,5,1,3
+190,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Mostly successful,14,19,11,13
+191,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,15,16,10,21
+192,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,16,15,18,13
+193,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Not sure,52,46,59,50
+194,35,6F,U.S. Military Interventions Successful — Cambodian campaign (1970),Would you consider U.S. military intervention in the following to be...?,Totals,100,101,99,100
+195,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Entirely successful,9,11,5,10
+196,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Mostly successful,22,22,16,28
+197,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,9,10,8,9
+198,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,8,9,9,7
+199,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Not sure,53,49,62,46
+200,36,6G,U.S. Military Interventions Successful — Invasion of Panama (1989),Would you consider U.S. military intervention in the following to be...?,Totals,101,101,100,100
+201,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Entirely successful,12,12,8,17
+202,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Mostly successful,30,33,24,35
+203,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,12,13,10,12
+204,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,9,9,12,6
+205,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Not sure,37,33,46,30
+206,37,6H,U.S. Military Interventions Successful — The Gulf War (1990-1991),Would you consider U.S. military intervention in the following to be...?,Totals,100,100,100,100
+207,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Entirely successful,6,9,4,5
+208,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Mostly successful,21,28,14,21
+209,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,11,13,10,10
+210,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,9,5,12,10
+211,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Not sure,53,46,59,54
+212,38,6I,U.S. Military Interventions Successful — Kosovo War (1999),Would you consider U.S. military intervention in the following to be...?,Totals,100,101,99,100
+213,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Entirely successful,5,8,4,5
+214,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Mostly successful,19,21,14,24
+215,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,24,26,20,26
+216,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,22,19,24,21
+217,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Not sure,30,26,39,24
+218,39,6J,U.S. Military Interventions Successful — Afghanistan War (2001-2021),Would you consider U.S. military intervention in the following to be...?,Totals,100,100,101,100
+219,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Entirely successful,7,10,4,8
+220,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Mostly successful,25,24,19,33
+221,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,22,23,19,24
+222,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,17,19,19,11
+223,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Not sure,30,25,39,24
+224,40,6K,U.S. Military Interventions Successful — Iraq War (2003-2011),Would you consider U.S. military intervention in the following to be...?,Totals,101,101,100,100
+225,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Entirely successful,5,10,1,3
+226,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Mostly successful,14,16,10,15
+227,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,19,20,18,19
+228,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,14,12,17,12
+229,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Not sure,48,42,53,51
+230,41,6L,U.S. Military Interventions Successful — Syrian Civil War (2011-present),Would you consider U.S. military intervention in the following to be...?,Totals,100,100,99,100
+231,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Entirely successful,5,9,2,2
+232,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Mostly successful,12,15,10,11
+233,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Mostly unsuccessful,15,16,13,16
+234,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Entirely unsuccessful,13,11,16,13
+235,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Not sure,55,50,59,57
+236,42,6M,U.S. Military Interventions Successful — Yemeni Civil War (2015-present),Would you consider U.S. military intervention in the following to be...?,Totals,100,101,100,99
+237,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,11,13,9,11
+238,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,17,21,11,18
+239,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,9,13,6,8
+240,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,4,3,4,6
+241,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,59,50,69,56
+242,43,7A,Favorability of Secretary of States — George Marshall,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,100,99,99
+243,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,16,19,11,20
+244,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,26,22,21,34
+245,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,11,14,8,12
+246,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,16,17,18,11
+247,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,31,28,42,22
+248,44,7B,Favorability of Secretary of States — Henry Kissinger,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,100,100,99
+249,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,5,7,3,6
+250,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,20,23,13,24
+251,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,13,19,9,11
+252,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,9,8,11,10
+253,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,53,44,64,49
+254,45,7C,Favorability of Secretary of States — James Baker,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,101,100,100
+255,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,16,28,11,8
+256,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,24,30,17,28
+257,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,12,8,11,17
+258,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,11,4,11,19
+259,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,37,31,50,29
+260,46,7D,Favorability of Secretary of States — Madeleine Albright,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,101,100,101
+261,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,21,24,18,23
+262,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,31,34,22,39
+263,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,13,12,14,13
+264,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,8,6,9,9
+265,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,26,24,36,16
+266,47,7E,Favorability of Secretary of States — Colin Powell,Do you have a favorable or unfavorable opinion of the following people?,Totals,99,100,99,100
+267,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,18,15,13,28
+268,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,25,28,23,26
+269,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,15,20,12,13
+270,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,14,12,12,17
+271,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,28,26,40,16
+272,48,7F,Favorability of Secretary of States — Condoleezza Rice,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,101,100,100
+273,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,16,36,7,4
+274,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,24,42,20,9
+275,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,12,8,15,13
+276,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,38,6,40,72
+277,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,10,7,19,2
+278,49,7G,Favorability of Secretary of States — Hillary Clinton,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,99,101,100
+279,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,11,23,6,3
+280,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,24,37,17,17
+281,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,14,10,11,21
+282,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,21,6,23,37
+283,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,31,25,43,22
+284,50,7H,Favorability of Secretary of States — John Kerry,Do you have a favorable or unfavorable opinion of the following people?,Totals,101,101,100,100
+285,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,4,8,1,4
+286,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,15,21,10,17
+287,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,11,14,8,13
+288,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,12,15,12,8
+289,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,57,42,70,59
+290,51,7I,Favorability of Secretary of States — Rex Tillerson,Do you have a favorable or unfavorable opinion of the following people?,Totals,99,100,101,101
+291,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,9,7,4,18
+292,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,18,15,13,26
+293,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,14,19,10,12
+294,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,17,25,17,8
+295,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,42,34,55,35
+296,52,7J,Favorability of Secretary of States — Mike Pompeo,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,100,99,99
+297,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Very favorable,10,21,6,2
+298,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Somewhat favorable,16,27,12,9
+299,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Somewhat unfavorable,10,12,9,11
+300,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Very unfavorable,18,5,17,35
+301,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Don’t know,46,36,56,43
+302,53,7K,Favorability of Secretary of States — Antony Blinken,Do you have a favorable or unfavorable opinion of the following people?,Totals,100,101,100,100

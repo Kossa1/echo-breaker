@@ -1,0 +1,157 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Inflation,67,45,68,89
+1,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Homelessness,21,32,22,7
+2,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Debt,8,18,5,3
+3,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Corruption,1,3,1,0
+4,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Drug abuse,2,2,5,1
+5,1,1A,Seriousness of National Problems — Inflation,How serious of a problem do you think the following are in the United States?,Poverty,99,100,101,100
+6,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,A very serious problem,59,70,55,54
+7,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,problem,31,23,34,34
+8,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,A minor problem,9,6,9,11
+9,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,Not a problem,0,1,0,0
+10,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,Not sure,1,1,2,1
+11,2,1B,Seriousness of National Problems — Homelessness,How serious of a problem do you think the following are in the United States?,Totals,100,101,100,100
+12,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,A very serious problem,59,56,54,66
+13,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,problem,28,32,30,23
+14,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,A minor problem,9,8,10,9
+15,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,Not a problem,1,2,1,1
+16,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,Not sure,3,2,5,1
+17,3,1C,Seriousness of National Problems — Debt,How serious of a problem do you think the following are in the United States?,Totals,100,100,100,100
+18,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,A very serious problem,58,51,56,66
+19,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,problem,28,35,27,22
+20,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,A minor problem,9,10,10,8
+21,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,Not a problem,1,1,0,1
+22,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,Not sure,4,4,6,3
+23,4,1D,Seriousness of National Problems — Corruption,How serious of a problem do you think the following are in the United States?,Totals,100,101,99,100
+24,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,A very serious problem,58,58,50,66
+25,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,problem,29,26,34,25
+26,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,A minor problem,11,12,13,6
+27,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,Not a problem,1,0,0,1
+28,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,Not sure,3,4,3,1
+29,5,1E,Seriousness of National Problems — Drug abuse,How serious of a problem do you think the following are in the United States?,Totals,102,100,100,99
+30,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,A very serious problem,57,70,55,47
+31,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,problem,27,21,28,30
+32,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,A minor problem,13,7,12,20
+33,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,Not a problem,1,1,0,1
+34,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,Not sure,2,1,4,2
+35,6,1F,Seriousness of National Problems — Poverty,How serious of a problem do you think the following are in the United States?,Totals,100,100,99,100
+36,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,A very serious problem,55,81,49,36
+37,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,problem,23,14,27,29
+38,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,A minor problem,14,5,14,23
+39,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,Not a problem,5,0,6,8
+40,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,Not sure,3,1,4,4
+41,7,1G,Seriousness of National Problems — Gun violence,How serious of a problem do you think the following are in the United States?,Totals,100,101,100,100
+42,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,A very serious problem,53,26,49,86
+43,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,problem,21,32,20,11
+44,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,A minor problem,19,35,20,2
+45,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,Not a problem,3,5,4,0
+46,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,Not sure,3,2,6,0
+47,8,1H,Seriousness of National Problems — Illegal immigration,How serious of a problem do you think the following are in the United States?,Totals,99,100,99,99
+48,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,A very serious problem,53,44,51,63
+49,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,problem,32,35,34,28
+50,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,A minor problem,11,18,10,6
+51,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,Not a problem,1,2,2,1
+52,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,Not sure,2,1,4,1
+53,9,1I,Seriousness of National Problems — Violent crime,How serious of a problem do you think the following are in the United States?,Totals,99,100,101,99
+54,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,A very serious problem,47,66,40,34
+55,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,problem,30,22,34,33
+56,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,A minor problem,17,9,17,24
+57,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,Not a problem,5,2,4,8
+58,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,Not sure,3,2,5,2
+59,10,1J,Seriousness of National Problems — A lack of access to health care,How serious of a problem do you think the following are in the United States?,Totals,102,101,100,101
+60,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,A very serious problem,45,75,40,19
+61,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,problem,18,14,20,21
+62,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,A minor problem,16,7,17,24
+63,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,Not a problem,18,2,17,35
+64,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,Not sure,3,1,5,1
+65,11,1K,Seriousness of National Problems — Climate change,How serious of a problem do you think the following are in the United States?,Totals,100,99,99,100
+66,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,A very serious problem,44,48,42,41
+67,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,problem,31,34,27,32
+68,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,A minor problem,16,12,19,18
+69,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,Not a problem,3,2,4,3
+70,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,Not sure,6,4,8,6
+71,12,1L,Seriousness of National Problems — Suicide,How serious of a problem do you think the following are in the United States?,Totals,100,100,100,100
+72,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,A very serious problem,43,63,38,26
+73,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,problem,26,25,27,25
+74,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,A minor problem,16,7,18,25
+75,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,Not a problem,11,1,11,21
+76,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,Not sure,4,4,6,4
+77,13,1M,Seriousness of National Problems — Income inequality,How serious of a problem do you think the following are in the United States?,Totals,100,100,100,101
+78,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,A very serious problem,42,32,35,58
+79,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,problem,31,37,32,24
+80,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,A minor problem,18,22,22,11
+81,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,Not a problem,5,5,5,3
+82,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,Not sure,5,4,6,4
+83,14,1N,Seriousness of National Problems — Terrorism,How serious of a problem do you think the following are in the United States?,Totals,101,100,100,100
+84,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,A very serious problem,41,52,41,31
+85,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,problem,33,35,32,33
+86,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,A minor problem,15,9,15,21
+87,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,Not a problem,7,3,5,13
+88,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,Not sure,4,2,7,2
+89,15,1O,Seriousness of National Problems — A shortage of housing,How serious of a problem do you think the following are in the United States?,Totals,100,101,100,100
+90,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,A very serious problem,40,59,37,24
+91,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,problem,27,28,27,26
+92,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,A minor problem,19,8,19,29
+93,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,Not a problem,11,1,12,19
+94,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,Not sure,4,4,5,2
+95,16,1P,Seriousness of National Problems — Racism,How serious of a problem do you think the following are in the United States?,Totals,101,100,100,100
+96,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,A very serious problem,40,49,37,33
+97,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,problem,36,33,37,39
+98,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,A minor problem,17,13,18,21
+99,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,Not a problem,2,3,2,2
+100,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,Not sure,5,2,6,5
+101,17,1Q,Seriousness of National Problems — Domestic violence,How serious of a problem do you think the following are in the United States?,Totals,100,100,100,100
+102,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,A very serious problem,39,41,40,36
+103,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,problem,37,36,36,37
+104,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,A minor problem,12,12,8,15
+105,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,Not a problem,3,3,4,2
+106,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,Not sure,10,7,12,10
+107,18,1R,Seriousness of National Problems — Infrastructure deterioration,How serious of a problem do you think the following are in the United States?,Totals,101,99,100,100
+108,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,A very serious problem,39,48,33,36
+109,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,problem,33,33,37,29
+110,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,A minor problem,16,11,18,20
+111,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,Not a problem,7,4,6,11
+112,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,Not sure,5,4,6,4
+113,19,1S,Seriousness of National Problems — A lack of access to quality education,How serious of a problem do you think the following are in the United States?,Totals,100,100,100,100
+114,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,A very serious problem,36,20,30,59
+115,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,problem,17,13,19,18
+116,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,A minor problem,20,25,21,14
+117,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,Not a problem,20,37,17,6
+118,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,Not sure,7,4,13,2
+119,20,1T,Seriousness of National Problems — Election fraud,How serious of a problem do you think the following are in the United States?,Totals,100,99,100,99
+120,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,A very serious problem,36,48,36,23
+121,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,problem,24,32,23,17
+122,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,A minor problem,26,15,27,37
+123,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,Not a problem,11,2,10,21
+124,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,Not sure,3,2,4,2
+125,21,1U,Seriousness of National Problems — Police brutality,How serious of a problem do you think the following are in the United States?,Totals,100,99,100,100
+126,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,A very serious problem,32,47,27,22
+127,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,problem,29,34,31,24
+128,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,A minor problem,23,10,25,34
+129,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,Not a problem,7,2,7,13
+130,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,Not sure,8,6,10,8
+131,22,1V,Seriousness of National Problems — A lack of access to child care,How serious of a problem do you think the following are in the United States?,Totals,99,99,100,101
+132,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,A very serious problem,32,28,27,40
+133,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,problem,33,27,39,33
+134,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,A minor problem,25,33,23,20
+135,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,Not a problem,7,10,6,5
+136,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,Not sure,3,2,4,2
+137,23,1W,Seriousness of National Problems — Unemployment,How serious of a problem do you think the following are in the United States?,Totals,100,100,99,100
+138,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,A very serious problem,31,35,24,34
+139,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,problem,31,35,26,33
+140,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,A minor problem,19,15,24,18
+141,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,Not a problem,7,5,9,6
+142,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,Not sure,12,10,16,8
+143,24,1X,Seriousness of National Problems — Anti-Semitism,How serious of a problem do you think the following are in the United States?,Totals,100,100,99,99
+144,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,A very serious problem,31,40,30,22
+145,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,problem,33,39,31,30
+146,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,A minor problem,26,16,27,36
+147,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,Not a problem,6,3,7,8
+148,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,Not sure,4,3,5,5
+149,25,1Y,Seriousness of National Problems — Sexual harassment,How serious of a problem do you think the following are in the United States?,Totals,100,101,100,101
+150,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,A very serious problem,29,21,27,39
+151,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,problem,36,37,37,34
+152,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,A minor problem,24,29,28,17
+153,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,Not a problem,4,6,1,5
+154,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,Not sure,6,7,8,4
+155,26,1Z,Seriousness of National Problems — Property crime,How serious of a problem do you think the following are in the United States?,Totals,99,100,101,99

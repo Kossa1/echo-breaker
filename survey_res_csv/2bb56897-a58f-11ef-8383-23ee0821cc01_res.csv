@@ -1,0 +1,100 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Autistic,Do you think that you are autistic?,"Yes, definitely",2,4,2,1
+1,1,1,Autistic,Do you think that you are autistic?,Probably,4,3,5,3
+2,1,1,Autistic,Do you think that you are autistic?,Maybe,7,7,8,5
+3,1,1,Autistic,Do you think that you are autistic?,Probably not,17,18,17,15
+4,1,1,Autistic,Do you think that you are autistic?,"No, definitely not",69,67,64,75
+5,1,1,Autistic,Do you think that you are autistic?,Prefer not to say,2,1,5,1
+6,1,1,Autistic,Do you think that you are autistic?,Totals,101,100,101,100
+7,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,"Yes, many",3,3,4,2
+8,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,"Yes, some",9,12,8,7
+9,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,"Yes, a few",14,17,17,8
+10,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,"No, none",58,58,50,67
+11,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,Not sure,16,11,21,16
+12,2,2,Autistic Traits,Do you have any traits or tendencies that you think are more common among autistic people than non-autistic,Totals,100,101,100,100
+13,3,3,Autistic Similarity,Do you think the average autistic person is...?,Very similar to me,2,2,4,0
+14,3,3,Autistic Similarity,Do you think the average autistic person is...?,Somewhat similar to me,8,10,6,9
+15,3,3,Autistic Similarity,Do you think the average autistic person is...?,Equally similar and different to me,27,24,33,25
+16,3,3,Autistic Similarity,Do you think the average autistic person is...?,Somewhat different from me,26,25,26,26
+17,3,3,Autistic Similarity,Do you think the average autistic person is...?,Very different from me,21,26,14,24
+18,3,3,Autistic Similarity,Do you think the average autistic person is...?,Not sure,15,13,17,16
+19,3,3,Autistic Similarity,Do you think the average autistic person is...?,Totals,99,100,100,100
+20,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,"Yes, me",2,2,2,3
+21,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,"Yes, a family member",20,17,18,24
+22,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,"Yes, a friend",19,19,22,17
+23,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,"Yes, an acquaintance",23,21,26,22
+24,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,No,41,47,38,38
+25,4,4,Know Someone Diagnosed With Autism,Do you know anyone who has been diagnosed with autism? Select all that apply.,Not sure,8,6,11,7
+26,5,5,Know Someone Who Might Be Autistic,Do you know anyone who you think might be autistic?,Yes,58,55,60,59
+27,5,5,Know Someone Who Might Be Autistic,Do you know anyone who you think might be autistic?,No,33,37,29,34
+28,5,5,Know Someone Who Might Be Autistic,Do you know anyone who you think might be autistic?,Not sure,9,8,11,7
+29,5,5,Know Someone Who Might Be Autistic,Do you know anyone who you think might be autistic?,Totals,100,100,100,100
+30,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,My spouse or romantic partner,10,9,10,11
+31,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,A past romantic partner,19,18,20,16
+32,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,My child,16,12,20,12
+33,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,My sibling,14,15,14,15
+34,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,My parent,33,36,30,41
+35,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,An extended family member,4,5,3,3
+36,6,6,Who Might Be Autistic,Which of the following people do you think are or might be autistic? Select all that apply.,A friend,2,3,3,1
+37,9,9,Know Anyone Autistic in Childhood,"When you were a child, did you know anyone who was autistic?",Yes,19,18,21,20
+38,9,9,Know Anyone Autistic in Childhood,"When you were a child, did you know anyone who was autistic?",No,63,64,57,68
+39,9,9,Know Anyone Autistic in Childhood,"When you were a child, did you know anyone who was autistic?",Not sure,17,19,22,12
+40,9,9,Know Anyone Autistic in Childhood,"When you were a child, did you know anyone who was autistic?",Totals,99,101,100,100
+41,10,10,Autistic Students in School,"When you were a child, did any autistic students attend your school?",Yes,25,27,28,21
+42,10,10,Autistic Students in School,"When you were a child, did any autistic students attend your school?",No,38,33,37,43
+43,10,10,Autistic Students in School,"When you were a child, did any autistic students attend your school?",Not sure,37,40,35,36
+44,10,10,Autistic Students in School,"When you were a child, did any autistic students attend your school?",Totals,100,100,100,100
+45,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Daily,7,7,7,6
+46,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Weekly,6,7,7,4
+47,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Monthly,3,2,3,3
+48,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Yearly,1,2,1,0
+49,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Less often,11,11,10,11
+50,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Never,46,41,45,51
+51,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Not sure,27,30,27,24
+52,11,11,Autistic Interactions in Childhood,How often did you talk to or spend time with autistic people when you were a child?,Totals,101,100,100,99
+53,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Daily,11,10,14,9
+54,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Weekly,16,16,13,19
+55,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Monthly,11,11,8,14
+56,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Yearly,4,6,3,5
+57,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Less often,21,24,21,16
+58,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Never,16,12,17,18
+59,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Not sure,22,22,24,19
+60,12,12,Autistic Interactions Now,How often do you talk to or spend time with autistic people now?,Totals,101,101,100,100
+61,13,13,Know What Autism Is,Do you have a good idea of what autism is?,Yes,70,70,68,71
+62,13,13,Know What Autism Is,Do you have a good idea of what autism is?,No,15,18,13,14
+63,13,13,Know What Autism Is,Do you have a good idea of what autism is?,Not sure,15,12,18,15
+64,13,13,Know What Autism Is,Do you have a good idea of what autism is?,Totals,100,100,99,100
+65,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Much more to society,5,6,6,4
+66,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Somewhat more to society,6,9,4,7
+67,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",About the same to society,50,54,52,46
+68,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Somewhat less to society,16,15,13,19
+69,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Much less to society,7,7,5,9
+70,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Not sure,16,10,20,16
+71,14,14,Autistic Contributions,"Compared to the average person, do you think autistic people contribute...?",Totals,100,101,100,101
+72,15,15,Autism Research,Do you think research related to autism should focus more on...?,How to prevent and cure autism,36,21,33,51
+73,15,15,Autism Research,Do you think research related to autism should focus more on...?,How to support and accommodate autistic people,52,70,47,40
+74,15,15,Autism Research,Do you think research related to autism should focus more on...?,Not sure,12,9,20,8
+75,15,15,Autism Research,Do you think research related to autism should focus more on...?,Totals,100,100,100,99
+76,16,16,Autism Accommodation Too Far or Not Enough,Which of the following statements comes closer to your feelings?,Our society has gone too far in accommodating autistic people,46,43,49,52
+77,16,16,Autism Accommodation Too Far or Not Enough,Which of the following statements comes closer to your feelings?,Our society has been about right when it comes to accommodating autistic people,21,19,23,23
+78,16,16,Autism Accommodation Too Far or Not Enough,Which of the following statements comes closer to your feelings?,Our society has not gone far enough in accommodating autistic people,100,100,100,100
+79,16,16,Autism Accommodation Too Far or Not Enough,Which of the following statements comes closer to your feelings?,Not sure,4,2,2,8
+80,16,16,Autism Accommodation Too Far or Not Enough,Which of the following statements comes closer to your feelings?,autistic people,29,24,28,34
+81,17,17,Autism Level of Discrimination,How much discrimination do you think autistic people face in America today?,A great deal,20,32,16,14
+82,17,17,Autism Level of Discrimination,How much discrimination do you think autistic people face in America today?,A fair amount,51,50,53,52
+83,17,17,Autism Level of Discrimination,How much discrimination do you think autistic people face in America today?,Not much,23,14,24,28
+84,17,17,Autism Level of Discrimination,How much discrimination do you think autistic people face in America today?,None at all,6,4,7,6
+85,17,17,Autism Level of Discrimination,How much discrimination do you think autistic people face in America today?,Totals,100,100,100,100
+86,18,18,Change in Autism Diagnoses,Do you think that the rate of autism diagnoses is...?,Increasing,56,46,56,65
+87,18,18,Change in Autism Diagnoses,Do you think that the rate of autism diagnoses is...?,Staying the same,20,27,18,15
+88,18,18,Change in Autism Diagnoses,Do you think that the rate of autism diagnoses is...?,Decreasing,2,2,1,4
+89,18,18,Change in Autism Diagnoses,Do you think that the rate of autism diagnoses is...?,Not sure,22,25,25,16
+90,18,18,Change in Autism Diagnoses,Do you think that the rate of autism diagnoses is...?,Totals,100,100,100,100
+91,19,19,Do Vaccines Cause Autism,Do you think that vaccinations cause autism?,Yes,15,6,14,25
+92,19,19,Do Vaccines Cause Autism,Do you think that vaccinations cause autism?,No,53,77,47,38
+93,19,19,Do Vaccines Cause Autism,Do you think that vaccinations cause autism?,Not sure,31,18,39,37
+94,19,19,Do Vaccines Cause Autism,Do you think that vaccinations cause autism?,Totals,99,101,100,100
+95,20,20,Seen ’Love on the Spectrum’,Have you ever seen the TV show Love on the Spectrum?,Yes,16,17,15,17
+96,20,20,Seen ’Love on the Spectrum’,Have you ever seen the TV show Love on the Spectrum?,No,77,76,76,79
+97,20,20,Seen ’Love on the Spectrum’,Have you ever seen the TV show Love on the Spectrum?,Not sure,7,7,9,4
+98,20,20,Seen ’Love on the Spectrum’,Have you ever seen the TV show Love on the Spectrum?,Totals,100,100,100,100

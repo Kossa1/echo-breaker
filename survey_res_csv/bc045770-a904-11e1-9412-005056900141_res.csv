@@ -1,0 +1,36 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Ever Visited Wikipedia,Have you ever visited the website Wikipedia?,Yes,83,86,83,78
+1,1,1,Ever Visited Wikipedia,Have you ever visited the website Wikipedia?,No,17,14,17,22
+2,1,1,Ever Visited Wikipedia,Have you ever visited the website Wikipedia?,Totals,100,100,100,100
+3,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",Your main source,5,6,4,4
+4,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",A source you use often,26,35,20,20
+5,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",A source you use occasionally,44,38,49,45
+6,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",Not a source you use,9,7,10,9
+7,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",Not asked - Never used Wikipedia,17,14,17,22
+8,2,2,Frequency of Using Wikipedia,"When it comes to finding information online, would you say that Wikipedia is...?",Totals,101,100,100,100
+9,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Always accurate,7,9,3,8
+10,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Usually accurate,57,64,55,52
+11,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Usually inaccurate,10,9,8,13
+12,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Always inaccurate,2,0,3,4
+13,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Not sure,24,18,30,24
+14,3,3,Accuracy of Wikipedia,Would you say that the information on Wikipedia is...?,Totals,100,100,99,101
+15,4,4,Change in Accuracy of Wikipedia,Would you say that the information on Wikipedia is becoming...?,More accurate,20,29,14,16
+16,4,4,Change in Accuracy of Wikipedia,Would you say that the information on Wikipedia is becoming...?,Neither more nor less accurate,42,42,41,43
+17,4,4,Change in Accuracy of Wikipedia,Would you say that the information on Wikipedia is becoming...?,Less inaccurate,8,6,10,8
+18,4,4,Change in Accuracy of Wikipedia,Would you say that the information on Wikipedia is becoming...?,Not sure,30,22,35,33
+19,4,4,Change in Accuracy of Wikipedia,Would you say that the information on Wikipedia is becoming...?,Totals,100,99,100,100
+20,5,5A,Trust in Wikipedia — Other online sources,"In general, would you trust information from Wikipedia more or less than information from the following?",Other online sources,19,24,16,15
+21,5,5A,Trust in Wikipedia — Other online sources,"In general, would you trust information from Wikipedia more or less than information from the following?",Printed encyclopedias and other books,39,38,37,43
+22,5,5A,Trust in Wikipedia — Other online sources,"In general, would you trust information from Wikipedia more or less than information from the following?",Trust Wikipedia less,20,19,17,25
+23,5,5A,Trust in Wikipedia — Other online sources,"In general, would you trust information from Wikipedia more or less than information from the following?",Not sure,22,20,30,17
+24,5,5A,Trust in Wikipedia — Other online sources,"In general, would you trust information from Wikipedia more or less than information from the following?",Totals,100,101,100,100
+25,6,5B,Trust in Wikipedia — Printed encyclopedias and other books,Have you ever edited content on Wikipedia?,Yes,11,16,10,8
+26,6,5B,Trust in Wikipedia — Printed encyclopedias and other books,Have you ever edited content on Wikipedia?,"No, but I’ve considered it",32,35,27,32
+27,6,5B,Trust in Wikipedia — Printed encyclopedias and other books,Have you ever edited content on Wikipedia?,"No, and I’ve never considered it",39,35,38,45
+28,6,5B,Trust in Wikipedia — Printed encyclopedias and other books,Have you ever edited content on Wikipedia?,Not asked - Never used Wikipedia,18,14,24,15
+29,6,5B,Trust in Wikipedia — Printed encyclopedias and other books,Have you ever edited content on Wikipedia?,Totals,100,100,99,100
+30,7,6,Ever Edited Wikipedia,Have you ever edited content on Wikipedia?,Yes,7,12,5,4
+31,7,6,Ever Edited Wikipedia,Have you ever edited content on Wikipedia?,No but I’ve considered it,20,24,19,18
+32,7,6,Ever Edited Wikipedia,Have you ever edited content on Wikipedia?,considered it,55,51,60,56
+33,7,6,Ever Edited Wikipedia,Have you ever edited content on Wikipedia?,Wikipedia,17,14,17,22
+34,7,6,Ever Edited Wikipedia,Have you ever edited content on Wikipedia?,Totals,99,101,101,100

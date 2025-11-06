@@ -1,0 +1,425 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Direction of Country,Would you say things in this country today are...,Generally headed in the right direction,30,7,61,21
+1,1,1,Direction of Country,Would you say things in this country today are...,Off on the wrong track,60,90,29,66
+2,1,1,Direction of Country,Would you say things in this country today are...,Not sure,10,3,10,13
+3,1,1,Direction of Country,Would you say things in this country today are...,Totals,100,100,100,100
+4,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Strongly approve,21,2,49,12
+5,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Somewhat approve,20,4,37,16
+6,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Approve,41,6,86,28
+7,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Somewhat disapprove,10,7,7,14
+8,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Strongly disapprove,45,84,6,51
+9,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Disapprove,55,91,13,65
+10,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Not sure,4,3,1,6
+11,2,2,President Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Totals,100,100,100,99
+12,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,Donald Trump,24,1,57,13
+13,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,Jimmy Kimmel,20,6,32,19
+14,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,The Democratic Party,43,7,89,32
+15,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,The Republican Party,9,7,5,12
+16,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,(ICE),45,85,5,52
+17,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,"Robert F. Kennedy, Jr",54,93,10,64
+18,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,Don’t know,3,1,1,4
+19,3,3A,Favorability — Donald Trump,Do you have a favorable or an unfavorable opinion of the following?,Totals,101,100,100,100
+20,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Focused on America’s most important issues,22,47,3,21
+21,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Focused on issues that aren’t very important,23,36,12,25
+22,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Not sure,46,82,15,46
+23,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Somewhat unfavorable,12,3,17,14
+24,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Very unfavorable,27,1,57,22
+25,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Unfavorable,39,4,75,36
+26,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Don’t know,16,13,10,18
+27,4,3B,Favorability — Jimmy Kimmel,"In general, do you think Donald Trump has spent his second term...",Totals,100,100,99,100
+28,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Political violence,13,36,0,5
+29,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,The economy,25,49,5,26
+30,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Trade and tariffs,38,86,6,31
+31,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Immigration,20,11,23,28
+32,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Charlie Kirk,35,1,70,32
+33,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Freedom of speech,55,12,93,60
+34,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Don’t know,7,3,2,9
+35,5,3C,Favorability — The Democratic Party,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Totals,100,100,100,100
+36,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Arresting and deporting immigrants,15,1,41,3
+37,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Raising tariffs on imported goods,24,3,47,23
+38,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Going after his political opponents,39,4,87,27
+39,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Somewhat unfavorable,16,20,8,21
+40,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Very unfavorable,38,74,2,43
+41,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Unfavorable,54,94,10,64
+42,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Don’t know,7,2,2,10
+43,6,3D,Favorability — The Republican Party,"Here are some policies Donald Trump has prioritized during his first few months in office. For each, do you",Totals,100,100,100,100
+44,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",The Democratic Party candidate,25,1,56,16
+45,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",The Republican Party candidate,16,8,26,12
+46,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",Other,40,9,82,29
+47,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",Not sure,15,15,8,23
+48,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",I would not vote,37,69,5,39
+49,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",Unfavorable,51,83,13,62
+50,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",Don’t know,9,7,5,9
+51,7,3E,Favorability — U.S. Immigration and Customs Enforcement (ICE),"If an election for U.S. Congress were being held today, who would you vote for in the district where you live?",Totals,102,100,100,99
+52,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Out of touch with reality,13,3,27,9
+53,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Wrong about policy,23,6,40,20
+54,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,A threat to America,36,9,67,29
+55,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Immoral,11,13,10,12
+56,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,A threat to me personally,38,69,7,44
+57,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Not sure,49,82,17,56
+58,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Not that different from me,15,9,15,15
+59,8,3F,"Favorability — Robert F. Kennedy, Jr.",Which of the following phrases describe most people on the other side of the political aisle from you? Select,Well-meaning,100,100,99,100
+60,9,4,Trump Focus,Which is a bigger problem in America today?,Left-wing violence,40,8,80,30
+61,9,4,Trump Focus,Which is a bigger problem in America today?,Right-wing violence,50,84,12,57
+62,9,4,Trump Focus,Which is a bigger problem in America today?,Not sure,10,8,8,12
+63,9,4,Trump Focus,Which is a bigger problem in America today?,Totals,100,100,100,99
+64,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Yes,19,1,45,11
+65,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,No,15,4,27,13
+66,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Not sure,34,5,72,24
+67,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Somewhat disapprove,11,10,9,13
+68,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Strongly disapprove,44,81,10,48
+69,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Disapprove,55,91,18,62
+70,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Not sure,11,4,10,15
+71,10,5A,Trump Approval on Issues — Political violence,Do you think left-leaning organizations are promoting violence in this country?,Totals,100,100,101,100
+72,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Yes,19,2,42,11
+73,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,No,20,4,39,16
+74,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Not sure,38,6,81,27
+75,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Somewhat disapprove,13,11,8,18
+76,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Strongly disapprove,43,80,6,48
+77,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Disapprove,56,91,15,66
+78,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Not sure,6,3,4,7
+79,11,5B,Trump Approval on Issues — The economy,Do you think right-leaning organizations are promoting violence in this country?,Totals,101,100,99,100
+80,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Yes,17,1,40,11
+81,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,No,17,4,33,13
+82,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Not sure,34,5,72,23
+83,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Somewhat disapprove,14,12,13,18
+84,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Strongly disapprove,43,79,6,50
+85,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Disapprove,57,92,19,68
+86,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Not sure,8,3,9,9
+87,12,5C,Trump Approval on Issues — Trade and tariffs,Do you think leading Democrats have encouraged acts of violence against Immigrations and Customs,Totals,99,99,101,101
+88,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Yes,30,1,67,20
+89,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,No,13,8,17,14
+90,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Not sure,43,10,84,33
+91,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Somewhat disapprove,13,11,10,17
+92,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Strongly disapprove,39,76,3,42
+93,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Disapprove,52,87,13,59
+94,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Not sure,5,3,3,7
+95,13,5D,Trump Approval on Issues — Immigration,Do you think leading Republicans have encouraged acts of violence against illegal immigrants?,Totals,100,99,100,100
+96,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Jimmy Kimmel,24,2,55,15
+97,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Stephen Colbert,13,4,22,14
+98,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Jimmy Fallon,37,6,77,29
+99,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Jon Stewart,10,13,3,14
+100,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,John Oliver,37,64,10,39
+101,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Bill Maher,46,77,13,53
+102,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Seth Meyers,17,17,10,18
+103,14,5E,Trump Approval on Issues — The shooting death of Charlie Kirk,Which of the following are your favorite late-night talk show hosts? Choose up to three,Andy Cohen,101,100,100,100
+104,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Approve,24,7,52,13
+105,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Disapprove,16,4,27,16
+106,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Not sure,40,11,79,29
+107,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Somewhat disapprove,9,6,7,12
+108,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Strongly disapprove,43,80,6,49
+109,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Disapprove,52,87,14,61
+110,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Not sure,8,3,7,10
+111,15,5F,Trump Approval on Issues — Freedom of speech,"Earlier this month, Jimmy Kimmel said in his late-night monologue that ""the MAGA Gang [is] desperately",Totals,100,100,99,100
+112,16,6A,Trump Policies During First Few Months — Arresting and deporting immigrants,"In response to Kimmel’s comments, Brendan Carr, the Federal Communications Commission chair,",Approve,52,87,14,59
+113,16,6A,Trump Policies During First Few Months — Arresting and deporting immigrants,"In response to Kimmel’s comments, Brendan Carr, the Federal Communications Commission chair,",Disapprove,25,7,49,20
+114,16,6A,Trump Policies During First Few Months — Arresting and deporting immigrants,"In response to Kimmel’s comments, Brendan Carr, the Federal Communications Commission chair,",Not sure,16,2,32,14
+115,16,6A,Trump Policies During First Few Months — Arresting and deporting immigrants,"In response to Kimmel’s comments, Brendan Carr, the Federal Communications Commission chair,",Not sure,7,4,5,7
+116,16,6A,Trump Policies During First Few Months — Arresting and deporting immigrants,"In response to Kimmel’s comments, Brendan Carr, the Federal Communications Commission chair,",Totals,100,100,100,100
+117,17,6B,Trump Policies During First Few Months — Raising tariffs on imported goods,"After Carr threatened to revoke affiliate licenses, ABC and its parent company Disney announced they were",Approve,55,86,19,65
+118,17,6B,Trump Policies During First Few Months — Raising tariffs on imported goods,"After Carr threatened to revoke affiliate licenses, ABC and its parent company Disney announced they were",Disapprove,28,6,59,18
+119,17,6B,Trump Policies During First Few Months — Raising tariffs on imported goods,"After Carr threatened to revoke affiliate licenses, ABC and its parent company Disney announced they were",Not sure,6,2,11,4
+120,17,6B,Trump Policies During First Few Months — Raising tariffs on imported goods,"After Carr threatened to revoke affiliate licenses, ABC and its parent company Disney announced they were",Not sure,11,5,11,14
+121,17,6B,Trump Policies During First Few Months — Raising tariffs on imported goods,"After Carr threatened to revoke affiliate licenses, ABC and its parent company Disney announced they were",Totals,100,99,100,101
+122,18,6C,Trump Policies During First Few Months — Going after his political opponents,"In response to Kimmel’s comments, Donald Trump claimed the ""networks"" and ""evening shows"" are ""against",Approve,52,87,14,63
+123,18,6C,Trump Policies During First Few Months — Going after his political opponents,"In response to Kimmel’s comments, Donald Trump claimed the ""networks"" and ""evening shows"" are ""against",Disapprove,24,6,48,16
+124,18,6C,Trump Policies During First Few Months — Going after his political opponents,"In response to Kimmel’s comments, Donald Trump claimed the ""networks"" and ""evening shows"" are ""against",Not sure,11,2,24,8
+125,18,6C,Trump Policies During First Few Months — Going after his political opponents,"In response to Kimmel’s comments, Donald Trump claimed the ""networks"" and ""evening shows"" are ""against",Not sure,13,5,14,13
+126,18,6C,Trump Policies During First Few Months — Going after his political opponents,"In response to Kimmel’s comments, Donald Trump claimed the ""networks"" and ""evening shows"" are ""against",Totals,100,100,100,100
+127,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",Approve,44,95,2,40
+128,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",Disapprove,40,1,91,24
+129,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",Not sure,2,0,1,3
+130,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",Not sure,12,3,5,29
+131,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",I would not vote,2,1,1,3
+132,19,7,Generic Congressional Vote,"This week, ABC and its parent company Disney announced that Jimmy Kimmel Live! would return to air. Do",Totals,100,100,100,99
+133,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Too political,59,64,64,54
+134,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",About right in his focus on politics,52,59,54,48
+135,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Not political enough,45,54,45,36
+136,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Not sure,34,36,39,28
+137,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",A threat to me personally,20,26,19,16
+138,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Not sure,13,7,9,17
+139,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Not that different from me,12,11,11,14
+140,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",Well-meaning,12,11,11,13
+141,20,8,Describe Other Side of Political Aisle,"In general, do you think Jimmy Kimmel is...",None of these,4,5,2,5
+142,21,9,Partisan Violence,Would you say Jimmy Kimmel is...?,Very liberal,33,7,70,23
+143,21,9,Partisan Violence,Would you say Jimmy Kimmel is...?,Liberal,34,68,6,35
+144,21,9,Partisan Violence,Would you say Jimmy Kimmel is...?,Total liberal,33,26,25,42
+145,21,9,Partisan Violence,Would you say Jimmy Kimmel is...?,Moderate,100,101,101,100
+146,22,10,Left-Wing Organizations Promoting Violence,Do you favor or oppose late-night talk show hosts getting involved in politics by speaking out on political,Favor,40,12,71,36
+147,22,10,Left-Wing Organizations Promoting Violence,Do you favor or oppose late-night talk show hosts getting involved in politics by speaking out on political,Oppose,32,65,8,30
+148,22,10,Left-Wing Organizations Promoting Violence,Do you favor or oppose late-night talk show hosts getting involved in politics by speaking out on political,Not sure,28,22,22,35
+149,22,10,Left-Wing Organizations Promoting Violence,Do you favor or oppose late-night talk show hosts getting involved in politics by speaking out on political,Totals,100,99,101,101
+150,23,11,Right-Wing Organizations Promoting Violence,Which party do you think currently poses a bigger threat to free speech?,The Democratic Party,40,73,9,46
+151,23,11,Right-Wing Organizations Promoting Violence,Which party do you think currently poses a bigger threat to free speech?,The Republican Party,32,8,66,21
+152,23,11,Right-Wing Organizations Promoting Violence,Which party do you think currently poses a bigger threat to free speech?,Both equally,28,19,25,32
+153,23,11,Right-Wing Organizations Promoting Violence,Which party do you think currently poses a bigger threat to free speech?,Not sure,100,100,100,99
+154,24,12,Democrats Promoting Violence Against ICE,Are there times when the following measures would be justified in order to protect the country from radical,Limiting free speech,38,9,72,33
+155,24,12,Democrats Promoting Violence Against ICE,Are there times when the following measures would be justified in order to protect the country from radical,government officials,41,75,14,41
+156,24,12,Democrats Promoting Violence Against ICE,Are there times when the following measures would be justified in order to protect the country from radical,Physical violence,21,16,15,26
+157,24,12,Democrats Promoting Violence Against ICE,Are there times when the following measures would be justified in order to protect the country from radical,Taking up arms against the government,100,100,101,100
+158,25,13,Republicans Promoting Violence Against Immigrants,Which is closer to your view about the state of democracy in America?,It is getting stronger,43,78,10,46
+159,25,13,Republicans Promoting Violence Against Immigrants,Which is closer to your view about the state of democracy in America?,It is getting weaker,37,10,73,27
+160,25,13,Republicans Promoting Violence Against Immigrants,Which is closer to your view about the state of democracy in America?,It is not changing,20,12,17,27
+161,25,13,Republicans Promoting Violence Against Immigrants,Which is closer to your view about the state of democracy in America?,Not sure,100,100,100,100
+162,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Very likely,49,49,49,48
+163,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Somewhat likely,22,44,7,18
+164,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Total likely,21,43,4,21
+165,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Not very likely,20,27,16,17
+166,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Not likely at all,15,24,5,20
+167,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Total unlikely,12,21,4,13
+168,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Not sure,9,8,7,11
+169,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Seth Meyers,6,9,3,5
+170,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Andy Cohen,3,4,3,3
+171,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",Taylor Tomlinson,3,5,2,2
+172,26,14,Favorite Late-Night Talk Show Hosts,"In your view, how likely is it that America will cease to be a democracy in the future?",None of the above,49,22,71,49
+173,27,15,Approve of Kimmel Monologue,"In your view, how likely is it that there will be a civil war in the United States in your lifetime?",Very likely,38,74,7,40
+174,27,15,Approve of Kimmel Monologue,"In your view, how likely is it that there will be a civil war in the United States in your lifetime?",Somewhat likely,40,7,79,33
+175,27,15,Approve of Kimmel Monologue,"In your view, how likely is it that there will be a civil war in the United States in your lifetime?",Total likely,22,19,13,27
+176,27,15,Approve of Kimmel Monologue,"In your view, how likely is it that there will be a civil war in the United States in your lifetime?",Not very likely,100,100,99,100
+177,28,16,Approve of Fcc Threatening Kimmel,How much would you trust medical advice from Donald Trump?,A great deal,22,5,47,13
+178,28,16,Approve of Fcc Threatening Kimmel,How much would you trust medical advice from Donald Trump?,Some,61,88,33,66
+179,28,16,Approve of Fcc Threatening Kimmel,How much would you trust medical advice from Donald Trump?,Total a great deak/some,17,7,20,21
+180,28,16,Approve of Fcc Threatening Kimmel,How much would you trust medical advice from Donald Trump?,A little,100,100,100,100
+181,29,17,Approve of Abc Suspending Kimmel,"How much would you trust medical advice from Robert F. Kennedy, Jr?",A great deal,31,5,62,24
+182,29,17,Approve of Abc Suspending Kimmel,"How much would you trust medical advice from Robert F. Kennedy, Jr?",Some,54,90,22,57
+183,29,17,Approve of Abc Suspending Kimmel,"How much would you trust medical advice from Robert F. Kennedy, Jr?",Total a great deak/some,16,5,17,19
+184,29,17,Approve of Abc Suspending Kimmel,"How much would you trust medical advice from Robert F. Kennedy, Jr?",A little,101,100,101,100
+185,30,18,Approve of Presidents Threatening Retaliation Against Media Outlets,Would you encourage or discourage pregnant women from taking Tylenol?,Encourage,16,5,35,8
+186,30,18,Approve of Presidents Threatening Retaliation Against Media Outlets,Would you encourage or discourage pregnant women from taking Tylenol?,Discourage,67,90,43,74
+187,30,18,Approve of Presidents Threatening Retaliation Against Media Outlets,Would you encourage or discourage pregnant women from taking Tylenol?,Neither encourage nor discourage,17,5,22,18
+188,30,18,Approve of Presidents Threatening Retaliation Against Media Outlets,Would you encourage or discourage pregnant women from taking Tylenol?,Not sure,100,100,100,100
+189,31,19,Approve of Abc Ending Kimmel Suspension,Who would you trust more for advice on whether to take Tylenol?,Donald Trump,58,92,26,63
+190,31,19,Approve of Abc Ending Kimmel Suspension,Who would you trust more for advice on whether to take Tylenol?,Your doctor,25,3,53,19
+191,31,19,Approve of Abc Ending Kimmel Suspension,Who would you trust more for advice on whether to take Tylenol?,Not sure,16,6,21,18
+192,31,19,Approve of Abc Ending Kimmel Suspension,Who would you trust more for advice on whether to take Tylenol?,Totals,99,101,100,100
+193,32,20,Kimmel Political,Do you agree or disagree with the following statements?,can’t be reduced to a single cause,35,4,69,32
+194,32,20,Kimmel Political,Do you agree or disagree with the following statements?,being exposed to,40,77,11,40
+195,32,20,Kimmel Political,Do you agree or disagree with the following statements?,Vaccines cause autism,4,5,4,3
+196,32,20,Kimmel Political,Do you agree or disagree with the following statements?,contain acetaminophen cause autism,21,14,16,25
+197,32,20,Kimmel Political,Do you agree or disagree with the following statements?,Totals,100,100,100,100
+198,33,21,Jimmy Kimmel Ideology,Are you currently employed?,"Yes, for someone else",99,101,100,100
+199,33,21,Jimmy Kimmel Ideology,Are you currently employed?,"Yes, I’m self-employed",29,7,57,24
+200,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Total employed,27,46,15,28
+201,33,21,Jimmy Kimmel Ideology,Are you currently employed?,No,57,53,72,52
+202,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Moderate,14,23,6,17
+203,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Conservative,3,2,4,1
+204,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Very conservative,1,1,1,2
+205,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Total conservative,4,3,5,3
+206,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Not sure,25,21,18,28
+207,33,21,Jimmy Kimmel Ideology,Are you currently employed?,Totals,99,100,101,100
+208,34,22,Favor Late-Night Hosts Being Political,Do you..?,Work remotely,45,80,14,48
+209,34,22,Favor Late-Night Hosts Being Political,Do you..?,Work in-person,33,4,67,28
+210,34,22,Favor Late-Night Hosts Being Political,Do you..?,A hybrid of in-person and remote work,22,15,19,24
+211,34,22,Favor Late-Night Hosts Being Political,Do you..?,Totals,100,99,100,100
+212,35,23,Democrats or Republicans a Bigger Threat to Free Speech,Do you get a designated lunch break at work?,"Yes, paid",28,5,62,18
+213,35,23,Democrats or Republicans a Bigger Threat to Free Speech,Do you get a designated lunch break at work?,"Yes, but it’s unpaid",40,78,6,44
+214,35,23,Democrats or Republicans a Bigger Threat to Free Speech,Do you get a designated lunch break at work?,Total yes,22,10,24,28
+215,35,23,Democrats or Republicans a Bigger Threat to Free Speech,Do you get a designated lunch break at work?,No,10,7,9,11
+216,35,23,Democrats or Republicans a Bigger Threat to Free Speech,Do you get a designated lunch break at work?,Doesn’t apply,100,100,101,101
+217,36,24A,Justified Political Violence — Limiting free speech,"Is your lunch break mandatory—As in, you can’t skip lunch and leave work early?",Yes,9,6,13,8
+218,36,24A,Justified Political Violence — Limiting free speech,"Is your lunch break mandatory—As in, you can’t skip lunch and leave work early?",No,76,83,71,76
+219,36,24A,Justified Political Violence — Limiting free speech,"Is your lunch break mandatory—As in, you can’t skip lunch and leave work early?",Not sure,13,10,14,13
+220,36,24A,Justified Political Violence — Limiting free speech,"Is your lunch break mandatory—As in, you can’t skip lunch and leave work early?",Prefer not to say,2,2,2,3
+221,36,24A,Justified Political Violence — Limiting free speech,"Is your lunch break mandatory—As in, you can’t skip lunch and leave work early?",Totals,100,101,100,100
+222,37,24B,Justified Political Violence — Protesting outside personal residences of government officials,Approximately how long is your lunch break?,15 minutes,33,43,26,34
+223,37,24B,Justified Political Violence — Protesting outside personal residences of government officials,Approximately how long is your lunch break?,30 minutes,47,39,56,47
+224,37,24B,Justified Political Violence — Protesting outside personal residences of government officials,Approximately how long is your lunch break?,45 minutes,16,15,14,16
+225,37,24B,Justified Political Violence — Protesting outside personal residences of government officials,Approximately how long is your lunch break?,An hour,4,4,3,3
+226,37,24B,Justified Political Violence — Protesting outside personal residences of government officials,Approximately how long is your lunch break?,Longer than an hour,100,101,99,100
+227,38,24C,Justified Political Violence — Physical violence,What do you typically do during your lunch break?,Meet others for lunch,15,11,19,14
+228,38,24C,Justified Political Violence — Physical violence,What do you typically do during your lunch break?,Go out for lunch on my own,67,74,67,63
+229,38,24C,Justified Political Violence — Physical violence,What do you typically do during your lunch break?,Go home,13,10,9,18
+230,38,24C,Justified Political Violence — Physical violence,What do you typically do during your lunch break?,Eat at my desk,5,6,4,5
+231,38,24C,Justified Political Violence — Physical violence,What do you typically do during your lunch break?,Totals,100,101,99,100
+232,39,24D,Justified Political Violence — Taking up arms against the government,How do you typically spend your lunch break when you’re on your own?,Run errands,20,18,24,20
+233,39,24D,Justified Political Violence — Taking up arms against the government,How do you typically spend your lunch break when you’re on your own?,Nap,51,57,52,48
+234,39,24D,Justified Political Violence — Taking up arms against the government,How do you typically spend your lunch break when you’re on your own?,Exercise (including going for a walk),22,19,18,26
+235,39,24D,Justified Political Violence — Taking up arms against the government,How do you typically spend your lunch break when you’re on your own?,Scroll on my phone,6,6,6,6
+236,39,24D,Justified Political Violence — Taking up arms against the government,How do you typically spend your lunch break when you’re on your own?,Read,99,100,100,100
+237,40,24E,Justified Political Violence — Assassinating political officials,How often do you eat lunch out on work days?,Every work day,8,7,11,7
+238,40,24E,Justified Political Violence — Assassinating political officials,How often do you eat lunch out on work days?,A few days a week,76,75,80,75
+239,40,24E,Justified Political Violence — Assassinating political officials,How often do you eat lunch out on work days?,Once or twice a week,11,11,7,13
+240,40,24E,Justified Political Violence — Assassinating political officials,How often do you eat lunch out on work days?,Occasionally,5,8,3,5
+241,40,24E,Justified Political Violence — Assassinating political officials,How often do you eat lunch out on work days?,Rarely,100,101,101,100
+242,41,25,State of Democracy in America,How often do you eat at your desk?,Every work day,11,6,22,3
+243,41,25,State of Democracy in America,How often do you eat at your desk?,A few days a week,58,81,38,64
+244,41,25,State of Democracy in America,How often do you eat at your desk?,Once or twice a week,14,6,20,15
+245,41,25,State of Democracy in America,How often do you eat at your desk?,Occasionally,17,7,21,18
+246,41,25,State of Democracy in America,How often do you eat at your desk?,Rarely,100,100,101,100
+247,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Always,17,22,10,17
+248,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Usually,27,33,21,30
+249,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Total always/usually,44,55,31,47
+250,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Sometimes,22,17,29,21
+251,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Rarely,12,8,20,8
+252,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Never,34,26,50,29
+253,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Total rarely/never,22,19,19,24
+254,42,26,Likelihood of America No Longer Being a Democracy,How often do you bring your lunch to work?,Totals,100,99,99,100
+255,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,I don’t eat lunch,11,11,10,10
+256,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,I quickly grab food and eat it at my desk,31,32,30,28
+257,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,I still take a break to eat away from my desk,41,44,40,38
+258,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,Not sure,26,26,27,29
+259,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,Not likely at all,13,10,21,11
+260,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,Total unlikely,40,36,48,40
+261,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,Not sure,19,21,12,22
+262,43,27,Likelihood of American Civil War,What do you typically do when you do not get a set lunch break?,Totals,100,100,100,100
+263,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Yes,6,1,14,2
+264,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,No,12,2,26,7
+265,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Total a great deak some,18,3,41,8
+266,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,A little,10,3,17,12
+267,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Not at all,64,92,33,70
+268,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Total not much not at all,74,95,50,82
+269,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Not sure,8,1,10,10
+270,44,28,Trust Medical Advice From Donald Trump,Have you ever thrown a dinner party?,Totals,100,99,100,101
+271,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,Never,8,1,15,5
+272,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,"Yes, but only for a short period of time",16,7,29,11
+273,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,"Yes, I have given up added sugar altogether",23,8,44,16
+274,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,A little,12,3,20,13
+275,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,Not at all,54,84,25,59
+276,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,Total not much not at all,66,88,45,72
+277,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,Not sure,11,4,11,12
+278,45,29,"Trust Medical Advice From Robert F. Kennedy, Jr.",Have you ever tried to give up food and drinks with added sugar?,Totals,101,99,100,100
+279,46,30,Encourage Pregnant Women to Take Tylenol,Do you think you might ever try to give up eating added sugar?,"No, never",16,30,7,11
+280,46,30,Encourage Pregnant Women to Take Tylenol,Do you think you might ever try to give up eating added sugar?,"Yes, temporarily",25,8,43,22
+281,46,30,Encourage Pregnant Women to Take Tylenol,Do you think you might ever try to give up eating added sugar?,"Yes, but I don’t want to",48,56,39,54
+282,46,30,Encourage Pregnant Women to Take Tylenol,Do you think you might ever try to give up eating added sugar?,"Yes, I would like to give them up for good",12,6,12,13
+283,46,30,Encourage Pregnant Women to Take Tylenol,Do you think you might ever try to give up eating added sugar?,Not asked - have already tried giving up added sugar,101,100,101,100
+284,47,31,Trust Medical Advice From Doctor or Trump More,What was the main reason that you dropped added sugar from your diet?,To improve my health,4,2,8,3
+285,47,31,Trust Medical Advice From Doctor or Trump More,What was the main reason that you dropped added sugar from your diet?,Didn’t like the way it made me feel,87,97,79,88
+286,47,31,Trust Medical Advice From Doctor or Trump More,What was the main reason that you dropped added sugar from your diet?,To manage my weight,8,1,13,9
+287,47,31,Trust Medical Advice From Doctor or Trump More,What was the main reason that you dropped added sugar from your diet?,Personal beliefs,99,100,100,100
+288,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,Weight loss,43,59,27,47
+289,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,Feel better physically,26,22,32,26
+290,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,Better health metrics,7,3,10,5
+291,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,More energy,5,4,5,6
+292,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,No noticeable difference,20,13,26,17
+293,48,32A,Agreement with Statements About Autism — Autism is a complex condition that can’t be reduced to a single cause,What effects have you noticed after giving up sugar? Select all that apply.,Less energy,101,101,100,101
+294,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,Yes,17,8,27,14
+295,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,No,24,19,31,23
+296,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,Somewhat disagree,12,13,11,15
+297,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,Strongly disagree,19,33,7,18
+298,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,Not sure,28,27,24,30
+299,49,32B,Agreement with Statements About Autism — Autism rates are increasing mostly because of something that kids are being exposed to,Did you have withdrawal symptoms from giving up sugar?,Totals,100,100,100,100
+300,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Irritability,5,2,7,4
+301,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Headache,12,4,23,9
+302,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Fatigue,12,9,14,14
+303,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Anxiety,44,70,22,47
+304,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Tremors or jitteriness,26,14,34,26
+305,50,32C,Agreement with Statements About Autism — Vaccines cause autism,Which of the following withdrawal symptoms did you experience? Select all that apply.,Aches,99,99,100,100
+306,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",Yes,3,3,4,2
+307,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",Rarely,12,3,21,11
+308,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",No,11,11,12,11
+309,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",Strongly disagree,39,64,15,43
+310,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",Not sure,36,20,48,34
+311,51,32D,Agreement with Statements About Autism — Tylenol and other medications that contain acetaminophen cause autism,"Do you still eat naturally sweet foods, such as fruit?",Totals,101,101,100,101
+312,52,33,Current Employment Status,Are you...?,Male,42,41,45,42
+313,52,33,Current Employment Status,Are you...?,Female,9,10,7,10
+314,52,33,Current Employment Status,Are you...?,Total employed,51,51,51,52
+315,52,33,Current Employment Status,Are you...?,No,49,49,49,48
+316,52,33,Current Employment Status,Are you...?,Totals,100,100,101,100
+317,53,34,Remote Work Status,Respondent age by category,Under 30,12,14,12,11
+318,53,34,Remote Work Status,Respondent age by category,30-44,74,69,76,73
+319,53,34,Remote Work Status,Respondent age by category,45-64,14,17,12,15
+320,53,34,Remote Work Status,Respondent age by category,65+,100,100,100,99
+321,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,White,38,47,41,32
+322,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,Black,37,35,33,41
+323,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,Hispanic,75,82,74,73
+324,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,Other,16,12,18,17
+325,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,Doesn’t apply,8,6,8,10
+326,54,35,Designated Lunch Break,What racial or ethnic group best describes you?,Totals,99,100,100,100
+327,55,36,Lunch Break Mandatory,What is the highest level of education you have completed?,HS or Less,57,57,54,58
+328,55,36,Lunch Break Mandatory,What is the highest level of education you have completed?,Some college,43,43,46,42
+329,55,36,Lunch Break Mandatory,What is the highest level of education you have completed?,College Grad/Postgrad,100,100,100,100
+330,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Kamala Harris,5,8,3,6
+331,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Donald Trump,57,54,60,58
+332,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,"Robert F. Kennedy, Jr",6,3,8,6
+333,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Jill Stein,29,32,28,26
+334,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Cornel West,1,2,0,1
+335,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Chase Oliver,2,2,2,3
+336,56,37,Lunch Break Duration,Who did you vote for in the election for President in 2024?,Other,100,101,101,100
+337,57,38,Lunch Break Activity,"Generally speaking, do you think of yourself as a ...?",Democrat,12,17,13,9
+338,57,38,Lunch Break Activity,"Generally speaking, do you think of yourself as a ...?",Republican,29,29,26,32
+339,57,38,Lunch Break Activity,"Generally speaking, do you think of yourself as a ...?",Independent,8,9,7,8
+340,57,38,Lunch Break Activity,"Generally speaking, do you think of yourself as a ...?",Other,50,45,53,51
+341,57,38,Lunch Break Activity,"Generally speaking, do you think of yourself as a ...?",Not sure,99,100,99,100
+342,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Very liberal,2,2,3,3
+343,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Liberal,98,99,101,100
+344,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Moderate,5,4,7,5
+345,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Conservative,1,1,1,0
+346,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Very conservative,5,6,6,3
+347,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Not sure,28,27,28,28
+348,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Read,5,4,6,8
+349,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Work,5,4,7,4
+350,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Just eat,44,48,40,48
+351,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Other,3,3,3,5
+352,58,39,Lunch Break Activity When Alone,"In general, how would you describe your own political viewpoint?",Never on my own during lunch,2,4,2,1
+353,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Every work day,12,9,13,14
+354,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,A few days a week,12,12,14,11
+355,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Once or twice a week,9,13,8,9
+356,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Occasionally,20,19,21,18
+357,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Rarely,23,23,23,26
+358,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Never,23,25,21,22
+359,59,40,Frequency of Eating Lunch Out on Work Days,How often do you eat lunch out on work days?,Totals,99,101,100,100
+360,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Every work day,23,22,21,26
+361,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,A few days a week,19,16,22,20
+362,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Once or twice a week,7,10,7,4
+363,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Occasionally,17,21,16,14
+364,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Rarely,12,13,13,10
+365,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Never,22,18,20,26
+366,60,41,Frequency of Eating Lunch at Desk,How often do you eat at your desk?,Totals,100,100,99,100
+367,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Always,25,27,24,23
+368,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Usually,22,23,20,24
+369,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Total always usually,46,50,44,47
+370,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Sometimes,25,25,26,21
+371,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Rarely,16,15,17,19
+372,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Never,13,11,13,13
+373,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Total rarely never,29,25,30,32
+374,61,42,Frequency of Bringing Lunch to Work,How often do you bring your lunch to work?,Totals,101,101,100,100
+375,62,43,Typical Plan When No Lunch Break,What do you typically do when you do not get a set lunch break?,I don’t eat lunch,18,16,17,20
+376,62,43,Typical Plan When No Lunch Break,What do you typically do when you do not get a set lunch break?,I quickly grab food and eat it at my,40,39,42,41
+377,62,43,Typical Plan When No Lunch Break,What do you typically do when you do not get a set lunch break?,I still take a break to eat away from,33,39,33,28
+378,62,43,Typical Plan When No Lunch Break,What do you typically do when you do not get a set lunch break?,Not sure,9,6,7,10
+379,62,43,Typical Plan When No Lunch Break,What do you typically do when you do not get a set lunch break?,Totals,100,100,99,99
+380,63,44,Ever Thrown Dinner Party,Have you ever thrown a dinner party?,Yes,51,48,59,48
+381,63,44,Ever Thrown Dinner Party,Have you ever thrown a dinner party?,No,49,52,41,52
+382,63,44,Ever Thrown Dinner Party,Have you ever thrown a dinner party?,Totals,100,100,100,100
+383,64,45,Ever Tried to Give Up Added Sugar,Have you ever tried to give up food and drinks with added sugar?,Never,32,36,26,36
+384,64,45,Ever Tried to Give Up Added Sugar,Have you ever tried to give up food and drinks with added sugar?,Yes but only for a short period of ti,46,44,49,42
+385,64,45,Ever Tried to Give Up Added Sugar,Have you ever tried to give up food and drinks with added sugar?,Yes I have given up added sugar a,22,20,24,22
+386,64,45,Ever Tried to Give Up Added Sugar,Have you ever tried to give up food and drinks with added sugar?,Totals,100,100,99,100
+387,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,No never,20,22,18,21
+388,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,Yes temporarily,5,6,2,7
+389,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,Yes but I don’t want to,5,6,4,5
+390,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,Yes I would like to give them up for,2,2,2,3
+391,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,sugar,68,64,74,64
+392,65,46,Might Ever Try Giving Up Added Sugar,Do you think you might ever try to give up eating added sugar?,Totals,100,100,100,100
+393,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,To improve my health,56,54,53,62
+394,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,Didn’t like the way it made me feel,5,3,6,6
+395,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,To manage my weight,31,33,34,28
+396,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,Personal beliefs,4,5,3,3
+397,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,Cost,1,1,1,1
+398,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,Something I heard or read in the ne,2,3,3,0
+399,66,47,Reason Dropped Sugar,What was the main reason that you dropped added sugar from your diet?,Totals,99,99,100,100
+400,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,Weight loss,44,43,51,37
+401,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,Feel better physically,42,40,45,46
+402,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,Better health metrics,29,31,29,31
+403,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,More energy,25,23,27,24
+404,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,No noticeable difference,21,21,22,19
+405,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,Less energy,7,5,7,5
+406,67,48,Effects of Dropping Sugar,What effects have you noticed after giving up sugar? Select all that apply.,Other,5,5,4,6
+407,68,49,Sugar Withdrawal Symptoms,Did you have withdrawal symptoms from giving up sugar?,Yes,23,25,20,23
+408,68,49,Sugar Withdrawal Symptoms,Did you have withdrawal symptoms from giving up sugar?,No,77,75,80,77
+409,68,49,Sugar Withdrawal Symptoms,Did you have withdrawal symptoms from giving up sugar?,Totals,100,100,100,100
+410,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,None of the above,6,7,6,4
+411,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Irritability,59,59,61,55
+412,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Headache,58,51,73,48
+413,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Fatigue,41,36,40,42
+414,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Anxiety,36,37,37,40
+415,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Tremors or jitteriness,15,13,18,15
+416,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Aches,13,15,13,7
+417,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Nausea,10,12,6,10
+418,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,Bloating,8,10,11,3
+419,69,50,Sugar Withdrawal Experiences,Which of the following withdrawal symptoms did you experience? Select all that apply.,None of the above,6,5,2,12
+420,70,51,Eat Sweet Fruits,"Do you still eat naturally sweet foods, such as fruit?",Yes,84,90,79,85
+421,70,51,Eat Sweet Fruits,"Do you still eat naturally sweet foods, such as fruit?",Rarely,14,9,18,14
+422,70,51,Eat Sweet Fruits,"Do you still eat naturally sweet foods, such as fruit?",No,2,2,2,1
+423,70,51,Eat Sweet Fruits,"Do you still eat naturally sweet foods, such as fruit?",Totals,100,101,99,100

@@ -1,0 +1,520 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Direction of Country,Would you say things in this country today are...,Generally headed in the right direction,33,9,69,25
+1,1,1,Direction of Country,Would you say things in this country today are...,Off on the wrong track,53,84,17,59
+2,1,1,Direction of Country,Would you say things in this country today are...,Not sure,14,6,14,16
+3,1,1,Direction of Country,Would you say things in this country today are...,Totals,100,99,100,100
+4,2,2,Country Under Control,Do you feel that things in this country these days are:,Under control,25,8,50,21
+5,2,2,Country Under Control,Do you feel that things in this country these days are:,Out of control,60,85,33,63
+6,2,2,Country Under Control,Do you feel that things in this country these days are:,Not sure,14,7,16,16
+7,2,2,Country Under Control,Do you feel that things in this country these days are:,Totals,99,100,99,100
+8,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Very worried,37,71,9,38
+9,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Somewhat worried,31,21,35,34
+10,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Total very/somewhat worried,68,91,43,71
+11,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Not very worried,19,6,33,16
+12,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Not worried,13,3,23,13
+13,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Total not very/not worried,32,9,57,29
+14,3,3,Future of U.S. Democracy,How worried are you about the future of U.S. democracy?,Totals,100,101,100,101
+15,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Donald Trump,27,2,62,17
+16,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,JD Vance,16,3,26,17
+17,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,"Robert F. Kennedy, Jr",43,5,88,34
+18,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Hegseth,9,7,4,14
+19,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Elon Musk,45,87,6,48
+20,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Unfavorable,53,94,10,61
+21,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Don’t know,4,1,1,5
+22,4,4A,Favorability of Politicians — Donald Trump,Favorability of Politicians,Totals,101,100,99,101
+23,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,The Democratic Party,22,1,53,15
+24,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,The Republican Party,15,2,24,21
+25,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,colleges,37,4,76,35
+26,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,Harvard University,11,14,9,12
+27,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,Very unfavorable,38,76,8,38
+28,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,Unfavorable,50,89,17,50
+29,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,Don’t know,13,7,6,15
+30,5,4B,Favorability of Politicians — JD Vance,Do you have a favorable or an unfavorable opinion of...?,Totals,99,100,100,101
+31,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Strongly approve,16,4,32,13
+32,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Somewhat approve,24,9,39,24
+33,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Approve,40,13,71,37
+34,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Somewhat disapprove,13,14,13,16
+35,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Strongly disapprove,32,65,8,33
+36,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Disapprove,46,79,20,49
+37,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Not sure,14,9,9,15
+38,6,4C,"Favorability of Politicians — Robert F. Kennedy, Jr.",Do you approve or disapprove of the way Donald Trump is handling his job as President?,Totals,99,101,101,101
+39,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Focused on America’s most important issues,12,2,26,9
+40,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Focused on issues that aren’t very important,17,6,30,17
+41,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Not sure,29,8,56,26
+42,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Somewhat unfavorable,9,8,11,9
+43,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Very unfavorable,33,68,7,35
+44,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Unfavorable,43,75,18,44
+45,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Don’t know,29,17,26,31
+46,7,4D,Favorability of Politicians — Defense Secretary Pete Hegseth,"In general, do you think Donald Trump has spent the first 100 days of his second term...",Totals,100,101,100,101
+47,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Cost of living,21,4,47,13
+48,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Government spending,18,5,28,20
+49,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,The economy,39,9,74,34
+50,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Immigration,12,11,12,14
+51,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,inclusion (DEI),42,77,10,44
+52,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Democracy,54,89,22,58
+53,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,and Ukraine,7,3,3,9
+54,8,4E,Favorability of Politicians — Elon Musk,Do you approve or disapprove of the way Donald Trump is handling each of the following issues?,Totals,100,100,100,100
+55,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Better,14,38,3,2
+56,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Worse,25,46,6,30
+57,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",About the same,39,84,10,32
+58,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Not sure,21,12,25,28
+59,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Very unfavorable,31,3,62,27
+60,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Unfavorable,52,15,87,55
+61,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Don’t know,9,1,3,13
+62,9,5A,Favorability of Organizations — The Democratic Party,"Looking back on his first 100 days back in office, has Donald Trump been a better or worse president than you",Totals,100,100,99,100
+63,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",cancel federal contracts,17,1,48,4
+64,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Imposed,24,5,42,26
+65,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Imposed,41,6,91,29
+66,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Imposed,15,18,7,23
+67,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Imposed,35,73,2,37
+68,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Changed the name of the Gulf of Mexico to the Gulf of America,50,91,9,60
+69,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",unauthorized immigrants without court hearings,9,3,1,11
+70,10,5B,Favorability of Organizations — The Republican Party,"Here is a list of some things Donald Trump has done so far during his second term. For each, say whether",Totals,100,100,100,101
+71,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Bigger challenges than Biden,23,43,12,19
+72,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,About the same,35,43,27,37
+73,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Smaller challenges than Biden,57,85,38,55
+74,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Not sure,17,5,31,16
+75,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Very unfavorable,12,3,21,13
+76,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Unfavorable,29,8,51,29
+77,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Don’t know,14,7,10,16
+78,11,5C,Favorability of Organizations — U.S. universities and colleges,Has Donald Trump faced bigger or smaller challenges during his first 100 days back in office than Joe Biden,Totals,101,101,101,101
+79,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Trump better,28,51,12,25
+80,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,About the same,24,32,19,23
+81,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Trump worse,52,83,31,48
+82,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Not sure,11,4,17,13
+83,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Very unfavorable,18,3,37,16
+84,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Unfavorable,29,7,54,28
+85,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Don’t know,19,10,15,23
+86,12,5D,Favorability of Organizations — Harvard University,How does Donald Trump’s performance during his first 100 days back in office compare with Joe Biden’s,Totals,100,100,100,100
+87,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Cost of living,24,2,58,13
+88,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",China,18,4,29,19
+89,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Tariffs,42,6,87,33
+90,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Donald Trump,10,9,8,14
+91,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Climate change,43,83,3,47
+92,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Billionaires,53,92,12,61
+93,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Artificial intelligence,5,2,1,7
+94,13,6,President Trump Job Approval,"Which of the following, if any, do you see as a threat to the future of the United States? Select all that apply",Immigration,100,100,99,100
+95,14,7,Trump Focus,"Which of the following, if any, do you see as the BIGGEST threat to the future of the United States? Select",Donald Trump,39,5,78,34
+96,14,7,Trump Focus,"Which of the following, if any, do you see as the BIGGEST threat to the future of the United States? Select",Democrats,48,85,12,53
+97,14,7,Trump Focus,"Which of the following, if any, do you see as the BIGGEST threat to the future of the United States? Select",Republicans,14,10,10,13
+98,14,7,Trump Focus,"Which of the following, if any, do you see as the BIGGEST threat to the future of the United States? Select",Artificial intelligence,101,100,100,100
+99,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Arresting and deporting immigrants,12,2,28,8
+100,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Raising tariffs on imported goods,19,3,39,15
+101,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",programs,31,5,67,23
+102,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Somewhat disapprove,15,11,14,18
+103,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Strongly disapprove,44,81,8,46
+104,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Disapprove,59,92,23,64
+105,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Not sure,11,3,10,13
+106,15,8A,Trump Approval on Issues — Cost of living,"Here are some policies Donald Trump has prioritized during his first 100 days back in office. For each, do",Totals,101,100,99,100
+107,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Approve,24,1,55,18
+108,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Disapprove,18,7,27,20
+109,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Not sure,42,8,82,39
+110,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Somewhat disapprove,12,13,7,16
+111,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Strongly disapprove,36,74,4,33
+112,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Disapprove,48,87,12,49
+113,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Not sure,10,5,6,12
+114,16,8B,Trump Approval on Issues — Government spending,"Donald Trump recently refused to rule out the possibility of running for a third term as president, which is",Totals,100,100,99,99
+115,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,A lot,17,2,40,10
+116,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,A little,19,4,37,18
+117,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Total heard about,36,6,77,28
+118,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Nothing at all,12,11,9,17
+119,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Strongly disapprove,43,81,7,47
+120,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Disapprove,56,92,16,64
+121,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Not sure,8,3,7,8
+122,17,8C,Trump Approval on Issues — The economy,How much have you heard or read about recent controversies involving Defense Secretary Pete Hegseth?,Totals,99,101,100,100
+123,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Hegseth should continue to serve as defense secretary,32,4,68,27
+124,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Hegseth should be replaced,16,8,22,16
+125,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Not sure,48,13,90,43
+126,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Somewhat disapprove,10,13,4,11
+127,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Strongly disapprove,36,73,4,38
+128,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Disapprove,46,86,7,49
+129,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Not sure,6,2,3,8
+130,18,8D,Trump Approval on Issues — Immigration,Do you think Pete Hegseth should continue to serve as defense secretary or be replaced?,Totals,100,100,101,100
+131,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Hegseth should continue to serve as defense secretary,25,3,52,22
+132,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Hegseth should be replaced,14,5,25,13
+133,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Not sure,39,9,77,35
+134,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Somewhat disapprove,10,10,10,12
+135,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Strongly disapprove,38,77,4,39
+136,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Disapprove,48,87,14,51
+137,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Not sure,13,4,9,14
+138,19,8E,"Trump Approval on Issues — Diversity, equity and inclusion (DEI)",Defense Secretary Pete Hegseth reportedly used the Signal messaging app on his personal smartphone,Totals,100,99,100,100
+139,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Approve,21,2,48,15
+140,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Disapprove,15,5,25,17
+141,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Not sure,36,7,73,32
+142,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Somewhat disapprove,10,8,11,13
+143,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Strongly disapprove,40,81,6,42
+144,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Disapprove,51,89,17,54
+145,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Not sure,13,3,10,14
+146,20,8F,Trump Approval on Issues — Democracy,"SinceWorldWarII,thefederalgovernmenthasfundedscientificresearchatprivateU.S.universities. Doyou",Totals,99,99,100,101
+147,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Mostly liberal,17,3,39,10
+148,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Mostly conservative,18,6,32,19
+149,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Neither liberal nor conservative,35,9,71,29
+150,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Not sure,12,12,9,16
+151,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Strongly disapprove,36,70,7,37
+152,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Disapprove,49,83,16,53
+153,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Not sure,16,8,13,17
+154,21,8G,Trump Approval on Issues — The war between Russia and Ukraine,How would you characterize the politics of U.S. universities?,Totals,99,99,100,99
+155,22,9,Trump Better or Worse Than Expected,How would you characterize the overall impact of U.S. universities on the country?,They are hurting America,28,4,61,20
+156,22,9,Trump Better or Worse Than Expected,How would you characterize the overall impact of U.S. universities on the country?,They are helping America,44,80,9,47
+157,22,9,Trump Better or Worse Than Expected,How would you characterize the overall impact of U.S. universities on the country?,They are neither helping nor hurting America,23,14,26,28
+158,22,9,Trump Better or Worse Than Expected,How would you characterize the overall impact of U.S. universities on the country?,Not sure,5,1,5,5
+159,22,9,Trump Better or Worse Than Expected,How would you characterize the overall impact of U.S. universities on the country?,Totals,100,99,101,100
+160,23,10B,Approve of Trump Actions on First 100 Days — Imposed 10% tariffs on all imports into the U.S.,The Trump administration recently sent Harvard University a letter saying that it would lose billions of dollars,Approve,35,10,68,30
+161,23,10B,Approve of Trump Actions on First 100 Days — Imposed 10% tariffs on all imports into the U.S.,The Trump administration recently sent Harvard University a letter saying that it would lose billions of dollars,Disapprove,49,82,18,51
+162,23,10B,Approve of Trump Actions on First 100 Days — Imposed 10% tariffs on all imports into the U.S.,The Trump administration recently sent Harvard University a letter saying that it would lose billions of dollars,Not sure,16,8,14,19
+163,23,10B,Approve of Trump Actions on First 100 Days — Imposed 10% tariffs on all imports into the U.S.,The Trump administration recently sent Harvard University a letter saying that it would lose billions of dollars,Totals,100,100,100,100
+164,24,10C,Approve of Trump Actions on First 100 Days — Imposed 145% tariffs on imports from China,"In response to Harvard’s refusal, the Trump administration froze more than $2 billion in research grants to",Approve,29,4,60,24
+165,24,10C,Approve of Trump Actions on First 100 Days — Imposed 145% tariffs on imports from China,"In response to Harvard’s refusal, the Trump administration froze more than $2 billion in research grants to",Disapprove,56,92,26,56
+166,24,10C,Approve of Trump Actions on First 100 Days — Imposed 145% tariffs on imports from China,"In response to Harvard’s refusal, the Trump administration froze more than $2 billion in research grants to",Not sure,15,4,15,19
+167,24,10C,Approve of Trump Actions on First 100 Days — Imposed 145% tariffs on imports from China,"In response to Harvard’s refusal, the Trump administration froze more than $2 billion in research grants to",Totals,100,100,101,99
+168,25,10D,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imported cars,Which of the following statements comes closer to your view?,"pursue.""",32,5,67,28
+169,25,10D,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imported cars,Which of the following statements comes closer to your view?,"privilege.""",53,89,20,55
+170,25,10D,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imported cars,Which of the following statements comes closer to your view?,Not sure,14,6,13,18
+171,25,10D,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imported cars,Which of the following statements comes closer to your view?,Totals,99,100,100,101
+172,26,10E,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imports from Canada and Mexico,"Duringhisfirst100daysbackinoffice, DonaldTrumphasimposedtariffsonimportsfromsomeofAmerica’s",U.S. government,27,5,56,19
+173,26,10E,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imports from Canada and Mexico,"Duringhisfirst100daysbackinoffice, DonaldTrumphasimposedtariffsonimportsfromsomeofAmerica’s",favorable to the U.S,57,90,28,61
+174,26,10E,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imports from Canada and Mexico,"Duringhisfirst100daysbackinoffice, DonaldTrumphasimposedtariffsonimportsfromsomeofAmerica’s",They will cause a recession,16,5,16,20
+175,26,10E,Approve of Trump Actions on First 100 Days — Imposed 25% tariffs on imports from Canada and Mexico,"Duringhisfirst100daysbackinoffice, DonaldTrumphasimposedtariffsonimportsfromsomeofAmerica’s",than elsewhere,100,100,100,100
+176,27,10F,Approve of Trump Actions on First 100 Days — Changed the name of the Gulf of Mexico to the Gulf of America,"In the short term, do you think Trump’s tariffs are having more of a positive effect or more of a negative effect",More positive,26,7,51,21
+177,27,10F,Approve of Trump Actions on First 100 Days — Changed the name of the Gulf of Mexico to the Gulf of America,"In the short term, do you think Trump’s tariffs are having more of a positive effect or more of a negative effect",More negative,55,86,23,59
+178,27,10F,Approve of Trump Actions on First 100 Days — Changed the name of the Gulf of Mexico to the Gulf of America,"In the short term, do you think Trump’s tariffs are having more of a positive effect or more of a negative effect",Neither positive nor negative,19,7,26,19
+179,27,10F,Approve of Trump Actions on First 100 Days — Changed the name of the Gulf of Mexico to the Gulf of America,"In the short term, do you think Trump’s tariffs are having more of a positive effect or more of a negative effect",Not sure,100,100,100,99
+180,28,10G,Approve of Trump Actions on First 100 Days — Invoked the Alien Enemies Act of 1798 in order to remove unauthorized immigrants without,"How about in the future? In the long term, do you think Donald Trump’s tariffs will have more of a positive",More positive,38,7,76,32
+181,28,10G,Approve of Trump Actions on First 100 Days — Invoked the Alien Enemies Act of 1798 in order to remove unauthorized immigrants without,"How about in the future? In the long term, do you think Donald Trump’s tariffs will have more of a positive",More negative,48,87,12,52
+182,28,10G,Approve of Trump Actions on First 100 Days — Invoked the Alien Enemies Act of 1798 in order to remove unauthorized immigrants without,"How about in the future? In the long term, do you think Donald Trump’s tariffs will have more of a positive",Neither positive nor negative,13,6,12,16
+183,28,10G,Approve of Trump Actions on First 100 Days — Invoked the Alien Enemies Act of 1798 in order to remove unauthorized immigrants without,"How about in the future? In the long term, do you think Donald Trump’s tariffs will have more of a positive",Not sure,99,100,100,100
+184,29,11,Trump Challenges vs Biden Challenges During First 100 Days,How would you describe the current state of the American economy?,Excellent,39,9,75,34
+185,29,11,Trump Challenges vs Biden Challenges During First 100 Days,How would you describe the current state of the American economy?,Good,21,25,16,24
+186,29,11,Trump Challenges vs Biden Challenges During First 100 Days,How would you describe the current state of the American economy?,Total excellent / good,23,51,3,22
+187,29,11,Trump Challenges vs Biden Challenges During First 100 Days,How would you describe the current state of the American economy?,Fair,17,16,6,20
+188,29,11,Trump Challenges vs Biden Challenges During First 100 Days,How would you describe the current state of the American economy?,Poor,100,101,100,100
+189,30,12,Trump Performance vs Biden Performance During First 100 Days,"Overall, do you think the economy is getting better or worse?",Getting better,39,4,82,32
+190,30,12,Trump Performance vs Biden Performance During First 100 Days,"Overall, do you think the economy is getting better or worse?",About the same,8,6,7,11
+191,30,12,Trump Performance vs Biden Performance During First 100 Days,"Overall, do you think the economy is getting better or worse?",Getting worse,43,86,6,44
+192,30,12,Trump Performance vs Biden Performance During First 100 Days,"Overall, do you think the economy is getting better or worse?",Not sure,10,5,6,13
+193,30,12,Trump Performance vs Biden Performance During First 100 Days,"Overall, do you think the economy is getting better or worse?",Totals,100,101,101,100
+194,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Excellent,29,32,27,18
+195,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Good,23,26,21,9
+196,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Total excellent / good,4,3,5,8
+197,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Fair,1,1,1,3
+198,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Poor,59,71,44,67
+199,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Total fair / poor,45,32,64,46
+200,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Don’t know,44,69,20,51
+201,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Donald Trump,43,83,6,46
+202,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Climate change,42,70,19,44
+203,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Billionaires,40,65,17,42
+204,31,13,Threats to Future of U.S.,How would you describe your current economic situation?,Artificial intelligence,35,35,37,33
+205,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Paying more money for the same goods and services,10,15,6,12
+206,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Paying less money for the same goods and services,4,5,4,1
+207,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Paying about the same amount of money for the same goods and services,2,2,2,3
+208,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Not sure,7,5,8,12
+209,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Totals,100,99,100,98
+210,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Donald Trump,27,54,3,26
+211,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Democrats,13,1,30,8
+212,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Republicans,4,10,0,3
+213,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Artificial intelligence,4,3,6,3
+214,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Cost of living,12,6,13,17
+215,32,14,Biggest Threat to Future of U.S.,"Compared to a few years ago, are you... ?",Tariffs,4,3,5,4
+216,33,15A,Trump Policies During First 100 Days — Arresting and deporting immigrants,Is the U.S. economy in a recession?,Yes,47,86,11,50
+217,33,15A,Trump Policies During First 100 Days — Arresting and deporting immigrants,Is the U.S. economy in a recession?,No,29,7,56,25
+218,33,15A,Trump Policies During First 100 Days — Arresting and deporting immigrants,Is the U.S. economy in a recession?,Not sure,16,3,30,16
+219,33,15A,Trump Policies During First 100 Days — Arresting and deporting immigrants,Is the U.S. economy in a recession?,Not sure,8,4,4,10
+220,33,15A,Trump Policies During First 100 Days — Arresting and deporting immigrants,Is the U.S. economy in a recession?,Totals,100,100,101,101
+221,34,15B,Trump Policies During First 100 Days — Raising tariffs on imported goods,Do you think the U.S. economy is heading for a recession?,Yes,57,89,27,61
+222,34,15B,Trump Policies During First 100 Days — Raising tariffs on imported goods,Do you think the U.S. economy is heading for a recession?,No,28,6,57,21
+223,34,15B,Trump Policies During First 100 Days — Raising tariffs on imported goods,Do you think the U.S. economy is heading for a recession?,Not sure,4,2,7,4
+224,34,15B,Trump Policies During First 100 Days — Raising tariffs on imported goods,Do you think the U.S. economy is heading for a recession?,Already in recession,11,3,9,14
+225,34,15B,Trump Policies During First 100 Days — Raising tariffs on imported goods,Do you think the U.S. economy is heading for a recession?,Totals,100,100,100,100
+226,35,15C,"Trump Policies During First 100 Days — Eliminating diversity, equity, and inclusion (DEI) programs",Do you think grocery prices are going up or going down right now in America?,Going up,45,85,11,46
+227,35,15C,"Trump Policies During First 100 Days — Eliminating diversity, equity, and inclusion (DEI) programs",Do you think grocery prices are going up or going down right now in America?,Going down,28,7,53,26
+228,35,15C,"Trump Policies During First 100 Days — Eliminating diversity, equity, and inclusion (DEI) programs",Do you think grocery prices are going up or going down right now in America?,Staying the same,13,3,23,14
+229,35,15C,"Trump Policies During First 100 Days — Eliminating diversity, equity, and inclusion (DEI) programs",Do you think grocery prices are going up or going down right now in America?,Not sure,14,4,12,15
+230,35,15C,"Trump Policies During First 100 Days — Eliminating diversity, equity, and inclusion (DEI) programs",Do you think grocery prices are going up or going down right now in America?,Totals,100,99,99,101
+231,36,16,Approval of Donald Trump Third Term,How concerned are you about being able to afford groceries?,Very concerned,21,5,45,13
+232,36,16,Approval of Donald Trump Third Term,How concerned are you about being able to afford groceries?,Somewhat concerned,64,93,34,71
+233,36,16,Approval of Donald Trump Third Term,How concerned are you about being able to afford groceries?,Total very/somewhat concerned,15,1,21,16
+234,36,16,Approval of Donald Trump Third Term,How concerned are you about being able to afford groceries?,Not very concerned,100,99,100,100
+235,37,17,Heard About Hegseth Controviersies,Are changing grocery prices affecting what you choose to buy?,Yes,30,45,27,26
+236,37,17,Heard About Hegseth Controviersies,Are changing grocery prices affecting what you choose to buy?,No,38,37,42,43
+237,37,17,Heard About Hegseth Controviersies,Are changing grocery prices affecting what you choose to buy?,Total heard about,69,82,69,69
+238,37,17,Heard About Hegseth Controviersies,Are changing grocery prices affecting what you choose to buy?,Nothing at all,31,18,31,31
+239,37,17,Heard About Hegseth Controviersies,Are changing grocery prices affecting what you choose to buy?,Totals,99,100,100,100
+240,38,18,Should Hegseth Be Replaced - No Signal Story,Are changing grocery prices affecting where you choose to shop?,Yes,20,6,43,13
+241,38,18,Should Hegseth Be Replaced - No Signal Story,Are changing grocery prices affecting where you choose to shop?,No,40,72,13,48
+242,38,18,Should Hegseth Be Replaced - No Signal Story,Are changing grocery prices affecting where you choose to shop?,Not sure,40,22,44,39
+243,38,18,Should Hegseth Be Replaced - No Signal Story,Are changing grocery prices affecting where you choose to shop?,Totals,100,100,100,100
+244,39,19,Should Hegseth Be Replaced - Signal Story,"Outside of groceries, are you currently cutting back spending on non-essential items (toys, clothing, beauty",Yes,21,3,42,22
+245,39,19,Should Hegseth Be Replaced - Signal Story,"Outside of groceries, are you currently cutting back spending on non-essential items (toys, clothing, beauty",No,56,87,35,54
+246,39,19,Should Hegseth Be Replaced - Signal Story,"Outside of groceries, are you currently cutting back spending on non-essential items (toys, clothing, beauty",Not sure,22,9,23,24
+247,39,19,Should Hegseth Be Replaced - Signal Story,"Outside of groceries, are you currently cutting back spending on non-essential items (toys, clothing, beauty",Totals,99,99,100,100
+248,40,20,Approve of Funding Scientific Research at Colleges,Which is a bigger motivation for your cutting back on spending?,Financial concerns,57,80,41,58
+249,40,20,Approve of Funding Scientific Research at Colleges,Which is a bigger motivation for your cutting back on spending?,To consume less,17,5,30,16
+250,40,20,Approve of Funding Scientific Research at Colleges,Which is a bigger motivation for your cutting back on spending?,Both equally,26,15,28,26
+251,40,20,Approve of Funding Scientific Research at Colleges,Which is a bigger motivation for your cutting back on spending?,Other,100,100,99,100
+252,41,21,Politics of U.S. Universities,"Are you rethinking any plans to make big purchases (such as a car, new phone, furniture, vacation)?",Yes,42,27,64,44
+253,41,21,Politics of U.S. Universities,"Are you rethinking any plans to make big purchases (such as a car, new phone, furniture, vacation)?",No,6,7,8,5
+254,41,21,Politics of U.S. Universities,"Are you rethinking any plans to make big purchases (such as a car, new phone, furniture, vacation)?",Not sure,25,44,11,25
+255,41,21,Politics of U.S. Universities,"Are you rethinking any plans to make big purchases (such as a car, new phone, furniture, vacation)?",Not sure,26,22,18,26
+256,41,21,Politics of U.S. Universities,"Are you rethinking any plans to make big purchases (such as a car, new phone, furniture, vacation)?",Totals,99,100,101,100
+257,42,22,U.S. Universities Helping or Hurting America,"Compared to a year ago, do you feel...?",More anxious about finances,25,6,45,24
+258,42,22,U.S. Universities Helping or Hurting America,"Compared to a year ago, do you feel...?",Less anxious about finances,47,77,25,49
+259,42,22,U.S. Universities Helping or Hurting America,"Compared to a year ago, do you feel...?",About the same,28,17,30,27
+260,42,22,U.S. Universities Helping or Hurting America,"Compared to a year ago, do you feel...?",Not sure,100,100,100,100
+261,43,23,Approve of Harvard Refusing Trump,Are the new tariffs making you feel...?,More stress,48,73,31,43
+262,43,23,Approve of Harvard Refusing Trump,Are the new tariffs making you feel...?,Less stress,31,14,51,30
+263,43,23,Approve of Harvard Refusing Trump,Are the new tariffs making you feel...?,No change,21,12,18,27
+264,43,23,Approve of Harvard Refusing Trump,Are the new tariffs making you feel...?,Not sure,100,99,100,100
+265,44,24,Approve of Trump Freezing Research Grants,The U.S. birth rate has fallen significantly over the past 20 years. How worried are you about this decline?,Very worried,35,5,73,27
+266,44,24,Approve of Trump Freezing Research Grants,The U.S. birth rate has fallen significantly over the past 20 years. How worried are you about this decline?,Somewhat worried,49,86,14,51
+267,44,24,Approve of Trump Freezing Research Grants,The U.S. birth rate has fallen significantly over the past 20 years. How worried are you about this decline?,Total very/somewhat worried,17,9,13,23
+268,44,24,Approve of Trump Freezing Research Grants,The U.S. birth rate has fallen significantly over the past 20 years. How worried are you about this decline?,Not very worried,101,100,100,101
+269,45,25,View on Funds to Universities,Are you the parent or guardian of any children under the age of 18?,Yes,17,14,20,21
+270,45,25,View on Funds to Universities,Are you the parent or guardian of any children under the age of 18?,No,100,100,100,99
+271,45,25,View on Funds to Universities,Are you the parent or guardian of any children under the age of 18?,pursue,48,84,17,51
+272,45,25,View on Funds to Universities,Are you the parent or guardian of any children under the age of 18?,privilege,35,6,69,30
+273,46,26A,Trump Tariff Impact — They will raise hundreds of billions of dollars in revenue for the U.S. government,Do you have children?,Yes,38,16,66,32
+274,46,26A,Trump Tariff Impact — They will raise hundreds of billions of dollars in revenue for the U.S. government,Do you have children?,No,33,58,11,37
+275,46,26A,Trump Tariff Impact — They will raise hundreds of billions of dollars in revenue for the U.S. government,Do you have children?,Not sure,29,26,23,31
+276,46,26A,Trump Tariff Impact — They will raise hundreds of billions of dollars in revenue for the U.S. government,Do you have children?,Totals,100,100,100,100
+277,47,26B,Trump Tariff Impact — They will force other countries to cut trade deals that are more favorable to the U.S.,Do you hope to have [children / more children] in the future?,Yes,49,36,66,48
+278,47,26B,Trump Tariff Impact — They will force other countries to cut trade deals that are more favorable to the U.S.,Do you hope to have [children / more children] in the future?,No,27,44,13,28
+279,47,26B,Trump Tariff Impact — They will force other countries to cut trade deals that are more favorable to the U.S.,Do you hope to have [children / more children] in the future?,Not sure,24,19,21,24
+280,47,26B,Trump Tariff Impact — They will force other countries to cut trade deals that are more favorable to the U.S.,Do you hope to have [children / more children] in the future?,Totals,100,99,100,100
+281,48,26C,Trump Tariff Impact — They will cause a recession,What are the reasons you don’t have children? Select all that apply.,I’m single,53,84,32,52
+282,48,26C,Trump Tariff Impact — They will cause a recession,What are the reasons you don’t have children? Select all that apply.,I can’t afford them,23,7,39,23
+283,48,26C,Trump Tariff Impact — They will cause a recession,What are the reasons you don’t have children? Select all that apply.,I prefer my life as it is,24,9,29,25
+284,48,26C,Trump Tariff Impact — They will cause a recession,What are the reasons you don’t have children? Select all that apply.,I’d just rather not have children,100,100,100,100
+285,49,26D,Trump Tariff Impact — They will force companies to make things in America rather than elsewhere,Do you think you would already have children if not for the reason or reasons you selected above?,Yes,49,26,80,40
+286,49,26D,Trump Tariff Impact — They will force companies to make things in America rather than elsewhere,Do you think you would already have children if not for the reason or reasons you selected above?,No,31,55,10,35
+287,49,26D,Trump Tariff Impact — They will force companies to make things in America rather than elsewhere,Do you think you would already have children if not for the reason or reasons you selected above?,Not sure,20,19,10,25
+288,49,26D,Trump Tariff Impact — They will force companies to make things in America rather than elsewhere,Do you think you would already have children if not for the reason or reasons you selected above?,Totals,100,100,100,100
+289,50,26E,Trump Tariff Impact — They will increase the amount I personally pay for goods and services,Do you think the U.S. government should give Americans greater incentives to have children?,Yes,69,87,55,72
+290,50,26E,Trump Tariff Impact — They will increase the amount I personally pay for goods and services,Do you think the U.S. government should give Americans greater incentives to have children?,No,14,8,22,11
+291,50,26E,Trump Tariff Impact — They will increase the amount I personally pay for goods and services,Do you think the U.S. government should give Americans greater incentives to have children?,Not sure,17,5,23,17
+292,50,26E,Trump Tariff Impact — They will increase the amount I personally pay for goods and services,Do you think the U.S. government should give Americans greater incentives to have children?,Totals,100,100,100,100
+293,51,26F,Trump Tariff Impact — They will give China the upper hand over the U.S.,"Here are some recent family-related policy proposals. For each, please say whether you approve or disap-","Giving $5,000 cash to every American mother after delivery",36,58,21,36
+294,51,26F,Trump Tariff Impact — They will give China the upper hand over the U.S.,"Here are some recent family-related policy proposals. For each, please say whether you approve or disap-",able to conceive,37,17,59,33
+295,51,26F,Trump Tariff Impact — They will give China the upper hand over the U.S.,"Here are some recent family-related policy proposals. For each, please say whether you approve or disap-",least six children,28,25,21,31
+296,51,26F,Trump Tariff Impact — They will give China the upper hand over the U.S.,"Here are some recent family-related policy proposals. For each, please say whether you approve or disap-",Funding six months of paid family leave for new parents,101,100,101,100
+297,52,27,Trump Tariffs Short-Term Effect on the Economy,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food —,Yes,19,5,41,14
+298,52,27,Trump Tariffs Short-Term Effect on the Economy,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food —,No,58,90,29,64
+299,52,27,Trump Tariffs Short-Term Effect on the Economy,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food —,Not sure,13,3,18,14
+300,52,27,Trump Tariffs Short-Term Effect on the Economy,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food —,Not sure,10,2,12,8
+301,52,27,Trump Tariffs Short-Term Effect on the Economy,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food —,Totals,100,100,100,100
+302,53,28,Trump Tariffs Long-Term Effect on the Economy,Which of the following do you pay the most attention to when choosing what to eat?,Protein,34,6,70,29
+303,53,28,Trump Tariffs Long-Term Effect on the Economy,Which of the following do you pay the most attention to when choosing what to eat?,Fat,46,82,13,51
+304,53,28,Trump Tariffs Long-Term Effect on the Economy,Which of the following do you pay the most attention to when choosing what to eat?,Calories,7,5,6,8
+305,53,28,Trump Tariffs Long-Term Effect on the Economy,Which of the following do you pay the most attention to when choosing what to eat?,Sodium,13,8,11,12
+306,53,28,Trump Tariffs Long-Term Effect on the Economy,Which of the following do you pay the most attention to when choosing what to eat?,Carbohydrates,100,101,100,100
+307,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Very important,4,3,7,2
+308,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Somewhat important,21,9,38,17
+309,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Total very/somewhat important,25,12,46,19
+310,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Not very important,36,33,40,38
+311,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Not important at all,35,51,13,41
+312,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Total not very/not important,71,84,52,79
+313,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Not sure,4,3,2,3
+314,54,29,State of the Economy,How important is protein to you when choosing what to eat?,Totals,100,99,100,101
+315,55,30,Trend of Economy,Would you say you eat more or less protein now than you did one year ago?,A lot more,19,4,43,13
+316,55,30,Trend of Economy,Would you say you eat more or less protein now than you did one year ago?,A little more,23,11,34,23
+317,55,30,Trend of Economy,Would you say you eat more or less protein now than you did one year ago?,Total a lot/little more,51,81,16,58
+318,55,30,Trend of Economy,Would you say you eat more or less protein now than you did one year ago?,About the same,7,4,7,5
+319,55,30,Trend of Economy,Would you say you eat more or less protein now than you did one year ago?,A little less,100,100,100,99
+320,56,31,State of Current Economic Situation,What is your main source of protein?,Protein bars,5,4,8,2
+321,56,31,State of Current Economic Situation,What is your main source of protein?,"Protein supplements, powder or shakes",28,26,39,25
+322,56,31,State of Current Economic Situation,What is your main source of protein?,Red meat,33,30,47,27
+323,56,31,State of Current Economic Situation,What is your main source of protein?,Fish and seafood,39,41,37,42
+324,56,31,State of Current Economic Situation,What is your main source of protein?,Poultry,26,27,15,30
+325,56,31,State of Current Economic Situation,What is your main source of protein?,Beans,65,68,52,72
+326,56,31,State of Current Economic Situation,What is your main source of protein?,Tofu,2,2,1,1
+327,56,31,State of Current Economic Situation,What is your main source of protein?,Nuts,100,100,100,100
+328,57,32,Personally Paying More or Less Money,"How often, if at all, do you check food labels for artificial dyes?",Always,79,89,69,82
+329,57,32,Personally Paying More or Less Money,"How often, if at all, do you check food labels for artificial dyes?",Usually,4,4,6,4
+330,57,32,Personally Paying More or Less Money,"How often, if at all, do you check food labels for artificial dyes?",Sometimes,12,3,22,12
+331,57,32,Personally Paying More or Less Money,"How often, if at all, do you check food labels for artificial dyes?",Rarely,4,4,3,2
+332,57,32,Personally Paying More or Less Money,"How often, if at all, do you check food labels for artificial dyes?",Never,99,100,100,100
+333,58,33,U.S. Economy in Recession,How much have you read or heard about health claims regarding artificial dyes?,A lot,28,36,18,31
+334,58,33,U.S. Economy in Recession,How much have you read or heard about health claims regarding artificial dyes?,A little,35,26,49,35
+335,58,33,U.S. Economy in Recession,How much have you read or heard about health claims regarding artificial dyes?,Total heard about,37,38,32,34
+336,58,33,U.S. Economy in Recession,How much have you read or heard about health claims regarding artificial dyes?,Nothing at all,100,100,99,100
+337,59,34,U.S. Economy Headed for Recession,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Yes,29,46,15,28
+338,59,34,U.S. Economy Headed for Recession,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",No,17,4,35,14
+339,59,34,U.S. Economy Headed for Recession,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Not sure,26,14,32,27
+340,59,34,U.S. Economy Headed for Recession,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Already in recession,28,36,18,31
+341,59,34,U.S. Economy Headed for Recession,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Totals,100,100,100,100
+342,60,35,Trend in Grocery Prices,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?","Yes, always",71,88,52,75
+343,60,35,Trend in Grocery Prices,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?","Yes, sometimes",7,1,13,7
+344,60,35,Trend in Grocery Prices,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Total yest,18,7,31,16
+345,60,35,Trend in Grocery Prices,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",No,4,3,4,2
+346,60,35,Trend in Grocery Prices,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Not sure,100,99,100,100
+347,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Support,35,43,22,36
+348,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Oppose,38,40,39,39
+349,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Not sure,73,83,61,75
+350,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Not very concerned,18,12,29,17
+351,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Not at all concerned,7,4,10,6
+352,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Total not very not concerned,25,16,39,23
+353,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Not sure,2,1,1,2
+354,61,36,Concern Afford Groceries,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out",Totals,100,100,101,100
+355,62,37,Changing Grocery Prices Affect Purchases,How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot,Would make them worse,77,85,68,76
+356,62,37,Changing Grocery Prices Affect Purchases,How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot,Would make them better,23,15,32,24
+357,62,37,Changing Grocery Prices Affect Purchases,How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot,Would not change,100,100,100,100
+358,63,38,Changing Grocery Prices Affect Shopping Locations,Are you...?,Male,64,73,52,64
+359,63,38,Changing Grocery Prices Affect Shopping Locations,Are you...?,Female,36,27,48,36
+360,63,38,Changing Grocery Prices Affect Shopping Locations,Are you...?,Totals,100,100,100,100
+361,64,39,Cutting Back on Spending,Respondent age by category,Under 30,69,81,60,66
+362,64,39,Cutting Back on Spending,Respondent age by category,30-44,24,15,35,24
+363,64,39,Cutting Back on Spending,Respondent age by category,45-64,7,4,4,10
+364,64,39,Cutting Back on Spending,Respondent age by category,65+,100,100,99,100
+365,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,White,39,46,33,36
+366,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Black,4,4,7,3
+367,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Hispanic,24,29,18,27
+368,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Other,1,1,2,0
+369,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Not sure,1,1,1,0
+370,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Not asked - Not cutting spending o,31,19,40,34
+371,65,40,Motivation for Cutting Spending,What racial or ethnic group best describes you?,Totals,100,100,101,100
+372,66,41,Rethinking Big Purchases,What is the highest level of education you have completed?,HS or Less,50,63,42,49
+373,66,41,Rethinking Big Purchases,What is the highest level of education you have completed?,Some college,40,29,50,40
+374,66,41,Rethinking Big Purchases,What is the highest level of education you have completed?,College Grad/Postgrad,10,9,8,11
+375,66,41,Rethinking Big Purchases,What is the highest level of education you have completed?,Totals,100,101,100,100
+376,67,42,More or Less Anxious About Finances,Who did you vote for in the election for President in 2020?,Joe Biden,59,80,37,59
+377,67,42,More or Less Anxious About Finances,Who did you vote for in the election for President in 2020?,Donald Trump,11,3,20,9
+378,67,42,More or Less Anxious About Finances,Who did you vote for in the election for President in 2020?,Jo Jorgensen,28,15,41,29
+379,67,42,More or Less Anxious About Finances,Who did you vote for in the election for President in 2020?,Howie Hawkins,3,2,2,3
+380,67,42,More or Less Anxious About Finances,Who did you vote for in the election for President in 2020?,Other,101,100,100,100
+381,68,43,More or Less Stress About Tariffs,"Generally speaking, do you think of yourself as a ...?",Democrat,56,87,29,57
+382,68,43,More or Less Stress About Tariffs,"Generally speaking, do you think of yourself as a ...?",Republican,5,2,11,4
+383,68,43,More or Less Stress About Tariffs,"Generally speaking, do you think of yourself as a ...?",Independent,29,6,51,29
+384,68,43,More or Less Stress About Tariffs,"Generally speaking, do you think of yourself as a ...?",Other,10,5,9,10
+385,68,43,More or Less Stress About Tariffs,"Generally speaking, do you think of yourself as a ...?",Not sure,100,100,100,100
+386,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Very liberal,8,9,8,7
+387,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Liberal,24,23,30,24
+388,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Moderate,32,32,37,31
+389,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Conservative,30,31,33,29
+390,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Very conservative,29,32,26,29
+391,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Not sure,59,63,59,58
+392,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Not sure,8,5,4,11
+393,69,44,Worry About U.S. Birthrate,"In general, how would you describe your own political viewpoint?",Totals,99,100,101,100
+394,70,45,Children Under 18,Are you the parent or guardian of any children under the age of 18?,Yes,24,24,27,23
+395,70,45,Children Under 18,Are you the parent or guardian of any children under the age of 18?,No,76,76,73,77
+396,70,45,Children Under 18,Are you the parent or guardian of any children under the age of 18?,Totals,100,100,100,100
+397,71,46,Parent,Do you have children?,Yes,57,54,66,51
+398,71,46,Parent,Do you have children?,No,43,46,34,49
+399,71,46,Parent,Do you have children?,Totals,100,100,100,100
+400,72,47,Hope to Have Children,Do you hope to have [children / more children] in the future?,Yes,24,23,25,23
+401,72,47,Hope to Have Children,Do you hope to have [children / more children] in the future?,No,67,70,71,65
+402,72,47,Hope to Have Children,Do you hope to have [children / more children] in the future?,Not sure,9,7,5,12
+403,72,47,Hope to Have Children,Do you hope to have [children / more children] in the future?,Totals,100,100,101,100
+404,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,Other specify,9,10,8,7
+405,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’m worried about passing on my h,9,6,12,9
+406,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I have fertility challenges,8,4,12,3
+407,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’m worried about how it would affe,7,5,9,10
+408,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,My partner isn’t ready yet,5,5,6,8
+409,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’m single,50,45,51,54
+410,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I can’t afford them,32,33,18,42
+411,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I prefer my life as it is,26,36,14,29
+412,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’d just rather not have children,25,30,14,31
+413,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’m not ready yet,24,21,19,29
+414,73,48,Reasons for No Children,What are the reasons you don’t have children? Select all that apply.,I’m beyond childbearing age,20,26,21,17
+415,74,49,Would Otherwise Have Children,Do you think you would already have children if not for the reason or reasons you selected above?,Yes,36,31,52,30
+416,74,49,Would Otherwise Have Children,Do you think you would already have children if not for the reason or reasons you selected above?,No,44,49,34,45
+417,74,49,Would Otherwise Have Children,Do you think you would already have children if not for the reason or reasons you selected above?,Not sure,21,20,14,26
+418,74,49,Would Otherwise Have Children,Do you think you would already have children if not for the reason or reasons you selected above?,Totals,101,100,100,101
+419,75,50,Should U.S. Government Incentivize Children,Do you think the U.S. government should give Americans greater incentives to have children?,Yes,33,30,36,34
+420,75,50,Should U.S. Government Incentivize Children,Do you think the U.S. government should give Americans greater incentives to have children?,No,44,51,44,39
+421,75,50,Should U.S. Government Incentivize Children,Do you think the U.S. government should give Americans greater incentives to have children?,Not sure,23,19,20,27
+422,75,50,Should U.S. Government Incentivize Children,Do you think the U.S. government should give Americans greater incentives to have children?,Totals,100,100,100,100
+423,76,51A,"Approve of Family-Related Policy Proposals — Giving $5,000 cash to every American mother after delivery","Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Approve,39,39,35,42
+424,76,51A,"Approve of Family-Related Policy Proposals — Giving $5,000 cash to every American mother after delivery","Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Disapprove,41,41,47,37
+425,76,51A,"Approve of Family-Related Policy Proposals — Giving $5,000 cash to every American mother after delivery","Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Not sure,20,19,18,21
+426,76,51A,"Approve of Family-Related Policy Proposals — Giving $5,000 cash to every American mother after delivery","Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Totals,100,99,100,100
+427,77,51B,Approve of Family-Related Policy Proposals — Funding programs that would educate women on their menstrual cycles so they can better,understand when they are able to conceive,Approve,44,46,41,44
+428,77,51B,Approve of Family-Related Policy Proposals — Funding programs that would educate women on their menstrual cycles so they can better,understand when they are able to conceive,Disapprove,34,36,38,29
+429,77,51B,Approve of Family-Related Policy Proposals — Funding programs that would educate women on their menstrual cycles so they can better,understand when they are able to conceive,Not sure,22,18,21,27
+430,77,51B,Approve of Family-Related Policy Proposals — Funding programs that would educate women on their menstrual cycles so they can better,understand when they are able to conceive,Totals,100,100,100,100
+431,78,51C,Approve of Family-Related Policy Proposals — Awarding a national medal of motherhood to women with at least six children,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Approve,19,18,23,16
+432,78,51C,Approve of Family-Related Policy Proposals — Awarding a national medal of motherhood to women with at least six children,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Disapprove,64,71,64,61
+433,78,51C,Approve of Family-Related Policy Proposals — Awarding a national medal of motherhood to women with at least six children,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Not sure,17,11,14,23
+434,78,51C,Approve of Family-Related Policy Proposals — Awarding a national medal of motherhood to women with at least six children,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Totals,100,100,101,100
+435,79,51D,Approve of Family-Related Policy Proposals — Funding six months of paid family leave for new parents,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Approve,62,79,49,61
+436,79,51D,Approve of Family-Related Policy Proposals — Funding six months of paid family leave for new parents,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Disapprove,23,10,36,24
+437,79,51D,Approve of Family-Related Policy Proposals — Funding six months of paid family leave for new parents,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Not sure,15,11,14,15
+438,79,51D,Approve of Family-Related Policy Proposals — Funding six months of paid family leave for new parents,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Totals,100,100,99,100
+439,80,51E,"Approve of Family-Related Policy Proposals — Creating new child tax credits that would give $6,000 per child to families for the first year of",a baby’s life,Approve,62,65,59,63
+440,80,51E,"Approve of Family-Related Policy Proposals — Creating new child tax credits that would give $6,000 per child to families for the first year of",a baby’s life,Disapprove,22,17,26,22
+441,80,51E,"Approve of Family-Related Policy Proposals — Creating new child tax credits that would give $6,000 per child to families for the first year of",a baby’s life,Not sure,16,18,15,16
+442,80,51E,"Approve of Family-Related Policy Proposals — Creating new child tax credits that would give $6,000 per child to families for the first year of",a baby’s life,Totals,100,100,100,101
+443,81,51F,Approve of Family-Related Policy Proposals — Making pre-kindergarten free for children ages 3 and 4,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Approve,79,91,73,78
+444,81,51F,Approve of Family-Related Policy Proposals — Making pre-kindergarten free for children ages 3 and 4,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Disapprove,11,4,16,13
+445,81,51F,Approve of Family-Related Policy Proposals — Making pre-kindergarten free for children ages 3 and 4,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Not sure,10,5,11,9
+446,81,51F,Approve of Family-Related Policy Proposals — Making pre-kindergarten free for children ages 3 and 4,"Here are some recent family-related policy proposals. For each, please say whether you approve or disapprove.",Totals,100,100,100,100
+447,82,52,Consider Nutritional Information,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food — when choosing what to eat?,Yes,66,73,66,65
+448,82,52,Consider Nutritional Information,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food — when choosing what to eat?,No,28,23,29,30
+449,82,52,Consider Nutritional Information,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food — when choosing what to eat?,Not sure,6,4,5,5
+450,82,52,Consider Nutritional Information,Do you regularly consider nutritional information — such as the ’Nutrition Facts’ label on packaged food — when choosing what to eat?,Totals,100,100,100,100
+451,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Protein,13,19,14,9
+452,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Fat,7,8,7,9
+453,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Calories,16,14,19,16
+454,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Sodium,12,16,8,13
+455,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Carbohydrates,10,10,11,8
+456,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Other,7,6,6,10
+457,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Not asked - do not consider nutritio,34,27,34,35
+458,83,53,Most Important Nutritional Fact,Which of the following do you pay the most attention to when choosing what to eat?,Totals,99,100,99,100
+459,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Very important,40,44,46,34
+460,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Somewhat important,45,45,41,51
+461,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Total very somewhat important,85,89,87,85
+462,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Not very important,8,7,8,8
+463,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Not important at all,3,3,3,3
+464,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Total not very not important,11,10,11,11
+465,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Not sure,4,2,2,4
+466,84,54,Importance of Protein,How important is protein to you when choosing what to eat?,Totals,100,101,100,100
+467,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,Totals,99,100,100,100
+468,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,A lot more,7,8,9,5
+469,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,A little more,16,17,15,20
+470,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,Total a lot little more,24,26,23,26
+471,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,About the same,53,54,56,50
+472,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,A little less,12,11,12,13
+473,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,A lot less,4,4,4,3
+474,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,Total a lot little less,16,15,16,16
+475,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,Not sure,7,5,5,8
+476,85,55,More or Less Protein Than One Year Ago,Would you say you eat more or less protein now than you did one year ago?,Totals,99,99,101,99
+477,86,56,Main Source of Protein,What is your main source of protein?,Other,2,2,2,2
+478,86,56,Main Source of Protein,What is your main source of protein?,Not sure,5,5,5,7
+479,86,56,Main Source of Protein,What is your main source of protein?,Totals,100,100,100,99
+480,86,56,Main Source of Protein,What is your main source of protein?,Protein bars,3,2,5,2
+481,86,56,Main Source of Protein,What is your main source of protein?,Protein supplements powder or sh,5,5,5,5
+482,86,56,Main Source of Protein,What is your main source of protein?,Red meat,24,17,29,27
+483,86,56,Main Source of Protein,What is your main source of protein?,Fish and seafood,8,8,7,10
+484,86,56,Main Source of Protein,What is your main source of protein?,Poultry,24,29,23,21
+485,86,56,Main Source of Protein,What is your main source of protein?,Beans,7,7,7,8
+486,86,56,Main Source of Protein,What is your main source of protein?,Tofu,1,2,0,2
+487,86,56,Main Source of Protein,What is your main source of protein?,Nuts,2,2,2,3
+488,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Always,12,14,12,12
+489,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Usually,15,18,15,15
+490,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Sometimes,24,25,25,25
+491,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Rarely,23,22,27,21
+492,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Never,22,20,19,24
+493,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Not sure,3,2,3,3
+494,87,57,Frequency of Checking for Food Dyes,"How often, if at all, do you check food labels for artificial dyes?",Totals,99,101,101,100
+495,88,58,Heard About Artificial Dyes Health Effects,How much have you read or heard about health claims regarding artificial dyes?,A lot,25,28,28,25
+496,88,58,Heard About Artificial Dyes Health Effects,How much have you read or heard about health claims regarding artificial dyes?,A little,55,55,57,57
+497,88,58,Heard About Artificial Dyes Health Effects,How much have you read or heard about health claims regarding artificial dyes?,Total heard about,81,83,85,82
+498,88,58,Heard About Artificial Dyes Health Effects,How much have you read or heard about health claims regarding artificial dyes?,Nothing at all,19,17,15,18
+499,88,58,Heard About Artificial Dyes Health Effects,How much have you read or heard about health claims regarding artificial dyes?,Totals,99,100,100,100
+500,89,59,Avoid Food Dyes,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Yes,37,37,40,36
+501,89,59,Avoid Food Dyes,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",No,48,50,47,48
+502,89,59,Avoid Food Dyes,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Not sure,15,13,13,16
+503,89,59,Avoid Food Dyes,"Do you actively avoid purchasing food, drinks or medication containing artificial dyes?",Totals,100,100,100,100
+504,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Yes always,21,24,20,22
+505,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Yes sometimes,48,49,51,51
+506,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Total yest,69,73,70,72
+507,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",No,26,24,29,23
+508,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Not sure,5,4,1,5
+509,90,60,Make Children Avoid Food Dyes,"Do you limit or ban your children from having food, drinks or medicine that contain artificial dyes?",Totals,100,101,101,101
+510,91,61,Support Ban on Food Dyes,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out eight artificial dyes. Do you support or oppose",Support,65,56,79,66
+511,91,61,Support Ban on Food Dyes,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out eight artificial dyes. Do you support or oppose",Oppose,9,12,8,8
+512,91,61,Support Ban on Food Dyes,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out eight artificial dyes. Do you support or oppose",Not sure,26,33,13,26
+513,91,61,Support Ban on Food Dyes,"Health Secretary Robert F. Kennedy, Jr. recently announced that the U.S. government would be phasing out eight artificial dyes. Do you support or oppose",Totals,100,101,100,100
+514,92,62,Impact of Food Dye Ban on Food Quality,"How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot Loops, Doritos, Gatorade, M&Ms and Mountain",Would make them worse,10,13,8,7
+515,92,62,Impact of Food Dye Ban on Food Quality,"How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot Loops, Doritos, Gatorade, M&Ms and Mountain",Would make them better,26,23,32,25
+516,92,62,Impact of Food Dye Ban on Food Quality,"How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot Loops, Doritos, Gatorade, M&Ms and Mountain",Would not change,34,34,34,38
+517,92,62,Impact of Food Dye Ban on Food Quality,"How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot Loops, Doritos, Gatorade, M&Ms and Mountain",Not sure,31,30,26,30
+518,92,62,Impact of Food Dye Ban on Food Quality,"How do you think a ban on these artificial dyes would affect the taste or quality of food items such as Froot Loops, Doritos, Gatorade, M&Ms and Mountain",Totals,101,100,100,100

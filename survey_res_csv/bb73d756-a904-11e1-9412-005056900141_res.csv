@@ -1,0 +1,31 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Your taxes,Would you say that you currently:,Pay more in taxes than I did 10 years ago,41,38,42,46
+1,1,1,Your taxes,Would you say that you currently:,Pay less in taxes than I did 10 years ago,9,10,5,13
+2,1,1,Your taxes,Would you say that you currently:,Pay about the same amount in taxes as I did 10 years ago,27,31,24,24
+3,1,1,Your taxes,Would you say that you currently:,Not sure,24,21,29,18
+4,1,1,Your taxes,Would you say that you currently:,Totals,101,100,100,101
+5,2,2,Wealthy people’s taxes,Would you say that most wealthy people currently:,Pay more in taxes than they did 10 years ago,18,13,14,34
+6,2,2,Wealthy people’s taxes,Would you say that most wealthy people currently:,Pay less in taxes than they did 10 years ago,38,52,35,24
+7,2,2,Wealthy people’s taxes,Would you say that most wealthy people currently:,Pay about the same amount in taxes as they did 10 years ago,20,16,22,23
+8,2,2,Wealthy people’s taxes,Would you say that most wealthy people currently:,Not sure,24,20,30,19
+9,2,2,Wealthy people’s taxes,Would you say that most wealthy people currently:,Totals,100,101,101,100
+10,3,3,Middle-class people’s taxes,Would you say that most middle-class people currently:,Pay more in taxes than they did 10 years ago,52,50,49,62
+11,3,3,Middle-class people’s taxes,Would you say that most middle-class people currently:,Pay less in taxes than they did 10 years ago,5,8,4,3
+12,3,3,Middle-class people’s taxes,Would you say that most middle-class people currently:,Pay about the same amount in taxes as they did 10 years ago,20,22,21,16
+13,3,3,Middle-class people’s taxes,Would you say that most middle-class people currently:,Not sure,23,21,27,19
+14,3,3,Middle-class people’s taxes,Would you say that most middle-class people currently:,Totals,100,101,101,100
+15,4,4,Poor people’s taxes,Would you say that most poor people currently:,Pay more in taxes than they did 10 years ago,35,44,33,24
+16,4,4,Poor people’s taxes,Would you say that most poor people currently:,Pay less in taxes than they did 10 years ago,17,8,14,32
+17,4,4,Poor people’s taxes,Would you say that most poor people currently:,Pay about the same amount in taxes as they did 10 years ago,23,27,22,20
+18,4,4,Poor people’s taxes,Would you say that most poor people currently:,Not sure,26,22,30,24
+19,4,4,Poor people’s taxes,Would you say that most poor people currently:,Totals,101,101,99,100
+20,5,5,Complicated tax system,Do you think the federal tax system:,Is too complicated,68,59,67,84
+21,5,5,Complicated tax system,Do you think the federal tax system:,Is NOT too complicated,13,20,11,7
+22,5,5,Complicated tax system,Do you think the federal tax system:,Not sure,18,20,22,9
+23,5,5,Complicated tax system,Do you think the federal tax system:,Totals,99,99,100,100
+24,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Itemize your personal deductions,23,22,20,30
+25,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Take the standard deduction,39,41,36,40
+26,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Not file a federal income tax return,14,15,12,16
+27,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Prefer not to say,11,11,12,7
+28,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Not sure,13,12,19,7
+29,6,6,Itemize deductions,"In regards to your federal income taxes this year, did you:",Totals,100,101,99,100

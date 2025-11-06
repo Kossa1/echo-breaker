@@ -1,0 +1,101 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,Be true to yourself,75,78,78,68
+1,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,"Empathy, compassion, and kindness",17,17,14,22
+2,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,Family matters,3,1,4,3
+3,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,Choices and consequences,1,2,1,2
+4,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,Courage in the face of fear or injustice,3,2,3,4
+5,1,1A,Importance of Values and Messages — Be true to yourself,How important do you consider the following values or messages to be in your own life?,Perseverance and resilience,99,100,100,99
+6,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Perseverance and resilience,72,82,70,66
+7,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Choices and consequences,21,14,22,25
+8,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Courage in the face of fear or injustice,3,2,3,4
+9,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Be true to yourself,1,2,1,0
+10,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,"Empathy, compassion, and kindness",3,0,4,4
+11,2,1B,"Importance of Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,"Hope, redemption, and second chances",100,100,100,99
+12,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Very important,70,60,67,82
+13,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Somewhat important,19,29,17,12
+14,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Not very important,4,6,6,1
+15,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Not at all important,3,3,3,1
+16,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Not sure,4,1,6,4
+17,3,1C,Importance of Values and Messages — Family matters,How important do you consider the following values or messages to be in your own life?,Totals,100,99,99,100
+18,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Very important,69,63,68,75
+19,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Somewhat important,23,26,22,20
+20,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Not very important,3,6,3,1
+21,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Not at all important,2,3,2,0
+22,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Not sure,4,2,5,4
+23,4,1D,Importance of Values and Messages — Choices and consequences,How important do you consider the following values or messages to be in your own life?,Totals,101,100,100,100
+24,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Very important,66,69,66,62
+25,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Somewhat important,26,26,24,29
+26,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Not very important,3,3,3,2
+27,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Not at all important,1,2,2,1
+28,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Not sure,4,0,5,6
+29,5,1E,Importance of Values and Messages — Courage in the face of fear or injustice,How important do you consider the following values or messages to be in your own life?,Totals,100,100,100,100
+30,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Very important,64,65,58,69
+31,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Somewhat important,25,27,26,22
+32,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Not very important,4,3,5,3
+33,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Not at all important,1,2,2,0
+34,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Not sure,6,3,9,6
+35,6,1F,Importance of Values and Messages — Perseverance and resilience,How important do you consider the following values or messages to be in your own life?,Totals,100,100,100,100
+36,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Very important,52,57,50,50
+37,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Somewhat important,37,35,38,39
+38,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Not very important,6,4,7,6
+39,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Not at all important,1,2,1,1
+40,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Not sure,4,1,5,4
+41,7,1G,Importance of Values and Messages — Teamwork and community,How important do you consider the following values or messages to be in your own life?,Totals,100,99,101,100
+42,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Very important,50,52,47,51
+43,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Somewhat important,37,35,39,36
+44,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Not very important,6,6,5,8
+45,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Not at all important,2,3,3,0
+46,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Not sure,5,5,5,4
+47,8,1H,"Importance of Values and Messages — Hope, redemption, and second chances",How important do you consider the following values or messages to be in your own life?,Totals,100,101,99,99
+48,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Very important,46,62,46,31
+49,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Somewhat important,32,31,28,38
+50,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Not very important,11,4,12,16
+51,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Not at all important,5,2,5,7
+52,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Not sure,6,1,8,7
+53,9,1I,Importance of Values and Messages — Acceptance and inclusivity,How important do you consider the following values or messages to be in your own life?,Totals,100,100,99,99
+54,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Very important,46,51,39,48
+55,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Somewhat important,34,33,32,36
+56,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Not very important,9,8,14,5
+57,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Not at all important,3,4,3,2
+58,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Not sure,9,5,11,9
+59,10,1J,Importance of Values and Messages — Friendship transforms and sustains,How important do you consider the following values or messages to be in your own life?,Totals,101,101,99,100
+60,11,2A,Would Enjoy Movies With Values and Messages — Perseverance and resilience,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,82,84,77,85
+61,11,2A,Would Enjoy Movies With Values and Messages — Perseverance and resilience,Do you think you would generally enjoy movies that feature the following values or messages?,No,5,7,6,3
+62,11,2A,Would Enjoy Movies With Values and Messages — Perseverance and resilience,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,13,9,17,12
+63,11,2A,Would Enjoy Movies With Values and Messages — Perseverance and resilience,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,100,100,100
+64,12,2B,Would Enjoy Movies With Values and Messages — Choices and consequences,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,79,82,76,80
+65,12,2B,Would Enjoy Movies With Values and Messages — Choices and consequences,Do you think you would generally enjoy movies that feature the following values or messages?,No,6,6,6,5
+66,12,2B,Would Enjoy Movies With Values and Messages — Choices and consequences,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,15,11,19,15
+67,12,2B,Would Enjoy Movies With Values and Messages — Choices and consequences,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,99,101,100
+68,13,2C,Would Enjoy Movies With Values and Messages — Courage in the face of fear or injustice,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,80,84,79,77
+69,13,2C,Would Enjoy Movies With Values and Messages — Courage in the face of fear or injustice,Do you think you would generally enjoy movies that feature the following values or messages?,No,7,7,6,9
+70,13,2C,Would Enjoy Movies With Values and Messages — Courage in the face of fear or injustice,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,13,8,16,14
+71,13,2C,Would Enjoy Movies With Values and Messages — Courage in the face of fear or injustice,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,99,101,100
+72,14,2D,Would Enjoy Movies With Values and Messages — Be true to yourself,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,76,79,74,74
+73,14,2D,Would Enjoy Movies With Values and Messages — Be true to yourself,Do you think you would generally enjoy movies that feature the following values or messages?,No,9,8,10,11
+74,14,2D,Would Enjoy Movies With Values and Messages — Be true to yourself,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,15,13,16,16
+75,14,2D,Would Enjoy Movies With Values and Messages — Be true to yourself,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,100,100,101
+76,15,2E,"Would Enjoy Movies With Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Yes,75,82,72,73
+77,15,2E,"Would Enjoy Movies With Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,No,9,6,9,12
+78,15,2E,"Would Enjoy Movies With Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,15,12,19,15
+79,15,2E,"Would Enjoy Movies With Values and Messages — Empathy, compassion, and kindness",Do you think you would generally enjoy movies that feature the following values or messages?,Totals,99,100,100,100
+80,16,2F,"Would Enjoy Movies With Values and Messages — Hope, redemption, and second chances",Do you think you would generally enjoy movies that feature the following values or messages?,Yes,75,77,72,78
+81,16,2F,"Would Enjoy Movies With Values and Messages — Hope, redemption, and second chances",Do you think you would generally enjoy movies that feature the following values or messages?,No,10,11,10,8
+82,16,2F,"Would Enjoy Movies With Values and Messages — Hope, redemption, and second chances",Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,15,12,17,14
+83,16,2F,"Would Enjoy Movies With Values and Messages — Hope, redemption, and second chances",Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,100,99,100
+84,17,2G,Would Enjoy Movies With Values and Messages — Teamwork and community,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,72,77,68,72
+85,17,2G,Would Enjoy Movies With Values and Messages — Teamwork and community,Do you think you would generally enjoy movies that feature the following values or messages?,No,10,11,10,8
+86,17,2G,Would Enjoy Movies With Values and Messages — Teamwork and community,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,19,13,22,20
+87,17,2G,Would Enjoy Movies With Values and Messages — Teamwork and community,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,101,101,100,100
+88,18,2H,Would Enjoy Movies With Values and Messages — Family matters,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,67,62,63,77
+89,18,2H,Would Enjoy Movies With Values and Messages — Family matters,Do you think you would generally enjoy movies that feature the following values or messages?,No,13,17,15,7
+90,18,2H,Would Enjoy Movies With Values and Messages — Family matters,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,19,20,22,15
+91,18,2H,Would Enjoy Movies With Values and Messages — Family matters,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,99,99,100,99
+92,19,2I,Would Enjoy Movies With Values and Messages — Friendship transforms and sustains,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,65,73,61,62
+93,19,2I,Would Enjoy Movies With Values and Messages — Friendship transforms and sustains,Do you think you would generally enjoy movies that feature the following values or messages?,No,12,11,12,13
+94,19,2I,Would Enjoy Movies With Values and Messages — Friendship transforms and sustains,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,23,16,27,25
+95,19,2I,Would Enjoy Movies With Values and Messages — Friendship transforms and sustains,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,100,100,100
+96,20,2J,Would Enjoy Movies With Values and Messages — Acceptance and inclusivity,Do you think you would generally enjoy movies that feature the following values or messages?,Yes,60,77,59,45
+97,20,2J,Would Enjoy Movies With Values and Messages — Acceptance and inclusivity,Do you think you would generally enjoy movies that feature the following values or messages?,No,21,11,19,33
+98,20,2J,Would Enjoy Movies With Values and Messages — Acceptance and inclusivity,Do you think you would generally enjoy movies that feature the following values or messages?,Not sure,19,12,22,22
+99,20,2J,Would Enjoy Movies With Values and Messages — Acceptance and inclusivity,Do you think you would generally enjoy movies that feature the following values or messages?,Totals,100,100,100,100

@@ -1,0 +1,139 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Ever Had Children Under the Age of 18,Have you ever been the parent or guardian of any children under the age of 18?,Yes,50,49,46,57
+1,1,1,Ever Had Children Under the Age of 18,Have you ever been the parent or guardian of any children under the age of 18?,No,50,51,54,43
+2,1,1,Ever Had Children Under the Age of 18,Have you ever been the parent or guardian of any children under the age of 18?,Totals,100,100,100,100
+3,2,2,Children Under 10,Are you the parent or guardian of any children under the age of 10?,Yes,17,21,14,16
+4,2,2,Children Under 10,Are you the parent or guardian of any children under the age of 10?,No,83,79,86,84
+5,2,2,Children Under 10,Are you the parent or guardian of any children under the age of 10?,Totals,100,100,100,100
+6,3,3,Grandchildren Under 10,Do you have any grandchildren under the age of 10?,Yes,17,15,14,20
+7,3,3,Grandchildren Under 10,Do you have any grandchildren under the age of 10?,No,83,85,86,80
+8,3,3,Grandchildren Under 10,Do you have any grandchildren under the age of 10?,Totals,100,100,100,100
+9,4,4,Ever Had Grandchildren Under the Age of 10,Have you ever had any grandchildren under the age of 10?,Yes,26,24,21,34
+10,4,4,Ever Had Grandchildren Under the Age of 10,Have you ever had any grandchildren under the age of 10?,No,74,76,79,66
+11,4,4,Ever Had Grandchildren Under the Age of 10,Have you ever had any grandchildren under the age of 10?,Totals,100,100,100,100
+12,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Very important,85,81,84,89
+13,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Somewhat important,11,16,11,7
+14,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Not very important,1,2,1,1
+15,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Not at all important,0,1,0,0
+16,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Not sure,3,0,5,3
+17,5,5,Importance of Reading to Kids,How important do you think it is for books to be read to children?,Totals,100,100,101,100
+18,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Love it,53,59,50,52
+19,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Like it,25,22,26,27
+20,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Neutral,14,14,14,15
+21,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Dislike it,2,2,2,1
+22,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Hate it,1,0,2,1
+23,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Not sure,5,4,6,4
+24,6,6,Feelings About Reading Out Loud to Children,How do you feel about reading books out loud to children?,Totals,100,101,100,100
+25,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Very often,30,35,23,35
+26,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Somewhat often,21,21,22,19
+27,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Occasionally,30,28,31,32
+28,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Never,16,15,20,12
+29,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Don’t know,3,2,4,2
+30,7,7,Frequency Reading to Kids,How often in your life have you read books out loud to children?,Totals,100,101,100,100
+31,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Very often,25,31,20,24
+32,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Somewhat often,26,31,23,25
+33,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Occasionally,28,23,32,29
+34,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Never,13,10,15,14
+35,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Don’t know,8,5,10,7
+36,8,8,Frequency Read to as Child,"As best as you can recall, how often were you read to when you were a child?",Totals,100,100,100,99
+37,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Very often,14,17,11,15
+38,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Somewhat often,13,17,9,13
+39,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Occasionally,24,25,24,24
+40,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Never,47,40,53,48
+41,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Don’t know,2,1,3,1
+42,9,9,Frequency Reading to Kids in Past Year,How often in the past year have you read books out loud to children?,Totals,100,100,100,101
+43,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,My own children,45,45,42,49
+44,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,My grandchildren,20,20,17,24
+45,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,My siblings,7,9,7,4
+46,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,Relatives other than my children or grandchildren,18,23,19,14
+47,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,Other children,25,28,24,23
+48,10,10,Who Read To,Which children have you read books out loud to on a regular basis? Select all that apply.,None,13,10,13,16
+49,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Picture books,50,56,45,48
+50,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Rhyming books,34,33,37,33
+51,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Chapter books,14,9,14,17
+52,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Dislike them,1,1,1,1
+53,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Hate them,0,0,1,0
+54,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Not sure,2,1,2,1
+55,11,11A,Enjoyment of Reading Book Types Out Loud — Picture books,"When reading to children, how much do you enjoy reading ...?",Totals,101,100,100,100
+56,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Animals,37,49,33,31
+57,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Adventure,38,35,36,43
+58,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Children,19,13,25,17
+59,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Families,3,3,2,5
+60,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Farms,1,0,1,1
+61,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Dinosaurs,2,1,3,3
+62,12,11B,Enjoyment of Reading Book Types Out Loud — Rhyming books,Which topics do you particularly enjoy when reading children’s books? Select all that apply.,Fantastic creatures,100,101,100,100
+63,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,Enjoyable to read out loud,27,39,22,22
+64,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,Interesting pictures,32,33,36,27
+65,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,An educational message,30,20,30,39
+66,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,Humor,6,5,7,5
+67,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,Not very long,1,0,2,2
+68,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,You know it from your own childhood,4,3,3,5
+69,13,11C,Enjoyment of Reading Book Types Out Loud — Chapter books,How do you feel about the following characteristics of children’s books?,Parts of it are aimed at adults,100,100,100,100
+70,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Always,37,41,34,28
+71,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Usually,33,34,32,28
+72,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Sometimes,31,38,25,36
+73,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Rarely,18,19,18,19
+74,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Never,17,17,17,14
+75,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Not sure,5,6,3,6
+76,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Animals,71,66,72,75
+77,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Adventure,62,59,66,60
+78,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Children,51,56,45,52
+79,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Families,50,51,47,52
+80,14,12,Topics of Children’s Books,"When reading out loud to children, do you perform different voices for different characters?",Farms,44,38,39,54
+81,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Books you’re familiar with,64,66,59,67
+82,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Books that are new to you,30,28,34,26
+83,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Not sure,2,3,2,1
+84,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Not at all important,1,2,0,2
+85,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Not sure,3,1,4,4
+86,15,13A,Enjoyment of Book Qualities — Enjoyable to read out loud,"When reading out loud to children, would you prefer to read...?",Totals,100,100,99,100
+87,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Books they’re familiar with,57,68,44,60
+88,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Books that are new to them,35,26,45,33
+89,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Not sure,5,4,7,3
+90,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Not at all important,1,1,1,1
+91,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Not sure,3,1,4,3
+92,16,13B,Enjoyment of Book Qualities — Interesting pictures,"When reading out loud to children, have you found that children usually would prefer you read...?",Totals,101,100,101,100
+93,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Very important,51,56,48,48
+94,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Somewhat important,38,35,42,38
+95,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Not very important,7,6,5,9
+96,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Not at all important,1,2,1,0
+97,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Not sure,3,1,4,5
+98,17,13C,Enjoyment of Book Qualities — An educational message,How do you feel about the following characteristics of children’s books?,Totals,100,100,100,100
+99,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Very important,42,51,37,40
+100,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Somewhat important,46,39,51,46
+101,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Not very important,8,7,7,9
+102,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Not at all important,1,2,1,1
+103,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Not sure,3,1,4,4
+104,18,13D,Enjoyment of Book Qualities — Humor,How do you feel about the following characteristics of children’s books?,Totals,100,100,100,100
+105,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Very important,29,25,24,37
+106,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Somewhat important,46,46,48,45
+107,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Not very important,17,20,20,10
+108,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Not at all important,3,4,2,2
+109,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Not sure,5,4,6,6
+110,19,13E,Enjoyment of Book Qualities — Not very long,How do you feel about the following characteristics of children’s books?,Totals,100,99,100,100
+111,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Very important,24,28,18,26
+112,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Somewhat important,41,43,40,40
+113,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Not very important,22,19,25,21
+114,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Not at all important,10,9,12,8
+115,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Not sure,4,1,5,4
+116,20,13F,Enjoyment of Book Qualities — You know it from your own childhood,How do you feel about the following characteristics of children’s books?,Totals,101,100,100,99
+117,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Very important,11,18,5,12
+118,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Somewhat important,27,29,23,30
+119,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Not very important,40,38,49,32
+120,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Not at all important,16,12,16,18
+121,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Not sure,7,4,7,9
+122,21,13G,Enjoyment of Book Qualities — Parts of it are aimed at adults,How do you feel about the following characteristics of children’s books?,Totals,101,101,100,101
+123,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Always,18,22,17,17
+124,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Usually,27,27,29,26
+125,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Sometimes,36,39,35,35
+126,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Rarely,8,7,8,8
+127,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Never,8,5,9,9
+128,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Not sure,3,0,3,4
+129,22,14,Performing Character Voices,"When reading out loud to children, do you perform different voices for different characters?",Totals,100,100,101,99
+130,23,15,Preference for New or Familiar Books,"When reading out loud to children, would you prefer to read...?",Books you’re familiar with,48,50,38,57
+131,23,15,Preference for New or Familiar Books,"When reading out loud to children, would you prefer to read...?",Booksthatarenewtoyou,26,31,29,18
+132,23,15,Preference for New or Familiar Books,"When reading out loud to children, would you prefer to read...?",Not sure,26,19,32,25
+133,23,15,Preference for New or Familiar Books,"When reading out loud to children, would you prefer to read...?",Totals,100,100,99,100
+134,24,16,Children’s Preference for New or Familiar Books,"When reading out loud to children, have you found that children usually would prefer you read...?",with,51,56,43,53
+135,24,16,Children’s Preference for New or Familiar Books,"When reading out loud to children, have you found that children usually would prefer you read...?",them,27,25,29,25
+136,24,16,Children’s Preference for New or Familiar Books,"When reading out loud to children, have you found that children usually would prefer you read...?",Not sure,23,19,28,21
+137,24,16,Children’s Preference for New or Familiar Books,"When reading out loud to children, have you found that children usually would prefer you read...?",Totals,101,100,100,99

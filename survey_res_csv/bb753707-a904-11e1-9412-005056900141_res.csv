@@ -1,0 +1,157 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Ever Taken Hormonal Birth Control,"Have you ever used any form of hormonal birth control, including birth control pills or a hormonal IUD?",Yes,69,65,67,75
+1,1,1,Ever Taken Hormonal Birth Control,"Have you ever used any form of hormonal birth control, including birth control pills or a hormonal IUD?",No,29,34,28,22
+2,1,1,Ever Taken Hormonal Birth Control,"Have you ever used any form of hormonal birth control, including birth control pills or a hormonal IUD?",Not sure,1,0,3,1
+3,1,1,Ever Taken Hormonal Birth Control,"Have you ever used any form of hormonal birth control, including birth control pills or a hormonal IUD?",Prefer not to say,1,1,1,2
+4,1,1,Ever Taken Hormonal Birth Control,"Have you ever used any form of hormonal birth control, including birth control pills or a hormonal IUD?",Totals,100,100,99,100
+5,4,4,Ever Switched Hormonal Birth Control,Have you ever switched from one type of hormonal birth control to another type of hormonal birth control ?,Yes,37,31,39,40
+6,4,4,Ever Switched Hormonal Birth Control,Have you ever switched from one type of hormonal birth control to another type of hormonal birth control ?,No,55,60,53,50
+7,4,4,Ever Switched Hormonal Birth Control,Have you ever switched from one type of hormonal birth control to another type of hormonal birth control ?,Not sure,9,9,7,10
+8,4,4,Ever Switched Hormonal Birth Control,Have you ever switched from one type of hormonal birth control to another type of hormonal birth control ?,Totals,101,100,99,100
+9,5,5,Ever Stopped Hormonal Birth Control,Have you ever stopped or taken a break from taking hormonal birth control?,Yes,78,75,77,81
+10,5,5,Ever Stopped Hormonal Birth Control,Have you ever stopped or taken a break from taking hormonal birth control?,No,20,25,22,13
+11,5,5,Ever Stopped Hormonal Birth Control,Have you ever stopped or taken a break from taking hormonal birth control?,Not sure,2,0,1,5
+12,5,5,Ever Stopped Hormonal Birth Control,Have you ever stopped or taken a break from taking hormonal birth control?,Totals,100,100,100,99
+13,8,9,Consider Male Birth Control,Have you ever experienced any of the following effects from taking hormonal birth control? Select all that,Lighter periods or no period,20,30,17,16
+14,8,9,Consider Male Birth Control,Have you ever experienced any of the following effects from taking hormonal birth control? Select all that,Weight gain,56,42,55,66
+15,8,9,Consider Male Birth Control,Have you ever experienced any of the following effects from taking hormonal birth control? Select all that,Reduced menstrual cramps,21,23,24,15
+16,8,9,Consider Male Birth Control,Have you ever experienced any of the following effects from taking hormonal birth control? Select all that,Irregular bleeding,4,4,4,3
+17,8,9,Consider Male Birth Control,Have you ever experienced any of the following effects from taking hormonal birth control? Select all that,Mood changes,101,99,100,100
+18,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Yes,8,6,10,8
+19,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",No,2,3,2,1
+20,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Not sure,2,4,1,2
+21,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Prefer not to say,2,2,2,0
+22,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",None of the above,20,29,12,20
+23,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",provider,54,62,47,53
+24,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Online search,21,26,20,17
+25,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Friends,21,20,22,22
+26,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Sex education classes,21,22,21,20
+27,9,10,Source of Information on Birth Control,"If it was readily available for men, would you consider using hormonal contraception (such as a pill, or an",Parents,17,19,17,16
+28,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Doctor or health care provider,2,1,2,0
+29,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Online search,18,26,11,24
+30,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Friends,61,70,55,58
+31,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Sex education classes,45,45,43,48
+32,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Parents,41,45,38,40
+33,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Social media,22,22,23,21
+34,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Partner or spouse,21,24,20,20
+35,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Television,16,19,14,14
+36,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Other family members,6,7,7,5
+37,10,11,People Comfortable Talking To About Birth Control,"In the past, where have you gotten information about birth control? Select all that apply.",Therapist or counselor,5,4,4,8
+38,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Doctor or health care provider,64,59,65,68
+39,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Partner or spouse,10,11,8,10
+40,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Friends,8,10,7,6
+41,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Other family members,5,5,6,3
+42,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Parents,13,14,14,12
+43,11,12A,Effective Birth Control — Abstinence from penetrative sex,"Who, if anyone, would you feel comfortable talking with about birth control? Select all that apply.",Therapist or counselor,100,99,100,99
+44,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",Abstinence from penetrative sex,48,59,42,42
+45,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",Birth control pill,36,29,36,44
+46,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",Intrauterine device (IUD),4,3,7,2
+47,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",Condoms,3,2,5,4
+48,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",method,9,6,10,9
+49,12,12B,Effective Birth Control — Birth control pill,"To the best of your knowledge, how effective are the following methods of birth control at preventing",Totals,100,99,100,101
+50,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Very safe,37,46,33,33
+51,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Somewhat safe,31,25,30,39
+52,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Somewhat unsafe,3,3,4,3
+53,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Very unsafe,3,2,6,0
+54,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Not sure,25,24,27,25
+55,13,12C,Effective Birth Control — Intrauterine device (IUD),Would you say that birth control pills are...?,Totals,99,100,100,100
+56,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Very safe,34,43,32,28
+57,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Somewhat safe,49,46,48,54
+58,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Somewhat unsafe,6,5,7,5
+59,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Very unsafe,4,2,6,2
+60,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Not sure,7,4,7,10
+61,14,12D,Effective Birth Control — Condoms,Would you say that intrauterine devices (IUDs) are...?,Totals,100,100,100,99
+62,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,Yes,4,2,4,5
+63,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,No,17,14,16,20
+64,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,Not sure,40,43,39,38
+65,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,Not effective at all,27,29,27,23
+66,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,Not sure,13,12,13,14
+67,15,12E,Effective Birth Control — Pull-out method / the withdrawal method,Have you or has anyone close to you stopped taking the birth control pill because they thought the pill could,Totals,101,100,99,100
+68,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Morally acceptable,25,36,25,13
+69,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Morally unacceptable,42,43,36,47
+70,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Not sure,14,9,18,17
+71,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Very unsafe,7,5,10,6
+72,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Not sure,12,8,12,17
+73,16,13,Safety Birth Control,Do you think that birth control is morally acceptable or morally unacceptable?,Totals,100,101,101,100
+74,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Legal,16,23,15,10
+75,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Illegal,36,37,33,36
+76,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Not sure,15,11,16,18
+77,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Very unsafe,7,3,11,7
+78,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Not sure,26,26,25,28
+79,17,14,Safety IUD,Do you think that birth control should be legal or illegal?,Totals,100,100,100,99
+80,18,15,Know Someone Stopped Birth Control Danger,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control without parental,Legal,24,20,24,29
+81,18,15,Know Someone Stopped Birth Control Danger,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control without parental,Illegal,51,58,48,47
+82,18,15,Know Someone Stopped Birth Control Danger,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control without parental,Not sure,25,23,28,24
+83,18,15,Know Someone Stopped Birth Control Danger,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control without parental,Totals,100,101,100,100
+84,19,16,Birth Control Morality,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control with parental,Legal,76,86,72,71
+85,19,16,Birth Control Morality,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control with parental,Illegal,8,4,11,10
+86,19,16,Birth Control Morality,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control with parental,Not sure,15,11,17,19
+87,19,16,Birth Control Morality,Should it be legal or illegal for teenagers under the age of 18 to be prescribed birth control with parental,Totals,99,101,100,100
+88,20,17,Birth Control Legality,"Should birth control pills be able to be sold over the counter, or should a doctor’s prescription be required?",Doctor’s prescription,88,96,84,84
+89,20,17,Birth Control Legality,"Should birth control pills be able to be sold over the counter, or should a doctor’s prescription be required?",Over the counter,4,0,7,4
+90,20,17,Birth Control Legality,"Should birth control pills be able to be sold over the counter, or should a doctor’s prescription be required?",Not sure,9,4,10,12
+91,20,17,Birth Control Legality,"Should birth control pills be able to be sold over the counter, or should a doctor’s prescription be required?",Totals,101,100,101,100
+92,21,18,Birth Control Available to Teenagers,Should birth control prescription medications be allowed to be sent by mail?,Yes,46,63,43,33
+93,21,18,Birth Control Available to Teenagers,Should birth control prescription medications be allowed to be sent by mail?,No,34,19,33,49
+94,21,18,Birth Control Available to Teenagers,Should birth control prescription medications be allowed to be sent by mail?,Not sure,20,19,24,18
+95,21,18,Birth Control Available to Teenagers,Should birth control prescription medications be allowed to be sent by mail?,Totals,100,101,100,100
+96,22,19,Birth Control Available to Teenagers with Parental Approval,Should private health insurance plans be required to cover the cost of birth control?,Yes,79,87,76,73
+97,22,19,Birth Control Available to Teenagers with Parental Approval,Should private health insurance plans be required to cover the cost of birth control?,No,11,6,12,14
+98,22,19,Birth Control Available to Teenagers with Parental Approval,Should private health insurance plans be required to cover the cost of birth control?,Not sure,10,6,11,13
+99,22,19,Birth Control Available to Teenagers with Parental Approval,Should private health insurance plans be required to cover the cost of birth control?,Totals,100,99,99,100
+100,23,20,Birth Control OTC,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth",Yes,47,41,41,59
+101,23,20,Birth Control OTC,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth",No,40,48,43,27
+102,23,20,Birth Control OTC,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth",Not sure,14,11,16,14
+103,23,20,Birth Control OTC,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth",Totals,101,100,100,100
+104,24,21,Birth Control Mailed,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Emphasizing safe sexual practices and birth control,63,75,60,55
+105,24,21,Birth Control Mailed,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Emphasizing abstinence,21,11,22,29
+106,24,21,Birth Control Mailed,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Not sure,16,14,18,16
+107,24,21,Birth Control Mailed,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Totals,100,100,100,100
+108,25,22,Private Insurance Cover Birth Control,"To the best of your knowledge, is the following statement true or false?",abortions,66,82,59,56
+109,25,22,Private Insurance Cover Birth Control,"To the best of your knowledge, is the following statement true or false?",around the same time each day,18,8,23,22
+110,25,22,Private Insurance Cover Birth Control,"To the best of your knowledge, is the following statement true or false?",Birth control pills cause weight gain,16,10,17,22
+111,25,22,Private Insurance Cover Birth Control,"To the best of your knowledge, is the following statement true or false?",later in life,100,100,99,100
+112,26,23,Government Insurance Cover Birth Control,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth control?",Yes,71,86,68,60
+113,26,23,Government Insurance Cover Birth Control,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth control?",No,13,2,18,18
+114,26,23,Government Insurance Cover Birth Control,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth control?",Not sure,16,12,14,22
+115,26,23,Government Insurance Cover Birth Control,"Should government health insurance programs for low-income people, like Medicaid, cover the cost of birth control?",Totals,100,100,100,100
+116,27,24,Better Way To Reduce Unintended Pregnancies,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,control,70,84,65,60
+117,27,24,Better Way To Reduce Unintended Pregnancies,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Emphasizing abstinence,20,8,23,28
+118,27,24,Better Way To Reduce Unintended Pregnancies,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Not sure,10,8,12,11
+119,27,24,Better Way To Reduce Unintended Pregnancies,Which of the following do you think is the better way to reduce the number of unintended pregnancies?,Totals,100,100,100,99
+120,28,25A,Sexual Health True or False — Making birth control more accessible reduces the number of abortions,"To the best of your knowledge, is the following statement true or false?",True,72,85,68,64
+121,28,25A,Sexual Health True or False — Making birth control more accessible reduces the number of abortions,"To the best of your knowledge, is the following statement true or false?",False,11,3,13,18
+122,28,25A,Sexual Health True or False — Making birth control more accessible reduces the number of abortions,"To the best of your knowledge, is the following statement true or false?",Not sure,17,12,20,18
+123,28,25A,Sexual Health True or False — Making birth control more accessible reduces the number of abortions,"To the best of your knowledge, is the following statement true or false?",Totals,100,100,101,100
+124,29,25B,"Sexual Health True or False — For the birth control pill to be effective, you need to take it around the same time each day","To the best of your knowledge, is the following statement true or false?",True,51,53,47,53
+125,29,25B,"Sexual Health True or False — For the birth control pill to be effective, you need to take it around the same time each day","To the best of your knowledge, is the following statement true or false?",False,12,11,13,12
+126,29,25B,"Sexual Health True or False — For the birth control pill to be effective, you need to take it around the same time each day","To the best of your knowledge, is the following statement true or false?",Not sure,37,35,40,35
+127,29,25B,"Sexual Health True or False — For the birth control pill to be effective, you need to take it around the same time each day","To the best of your knowledge, is the following statement true or false?",Totals,100,99,100,100
+128,30,25C,Sexual Health True or False — Birth control pills cause weight gain,"To the best of your knowledge, is the following statement true or false?",True,39,36,41,40
+129,30,25C,Sexual Health True or False — Birth control pills cause weight gain,"To the best of your knowledge, is the following statement true or false?",False,16,19,14,16
+130,30,25C,Sexual Health True or False — Birth control pills cause weight gain,"To the best of your knowledge, is the following statement true or false?",Not sure,45,46,45,44
+131,30,25C,Sexual Health True or False — Birth control pills cause weight gain,"To the best of your knowledge, is the following statement true or false?",Totals,100,101,100,100
+132,31,25D,Sexual Health True or False — Taking the birth control pill can make it difficult to get pregnant later in life,"To the best of your knowledge, is the following statement true or false?",True,18,8,22,24
+133,31,25D,Sexual Health True or False — Taking the birth control pill can make it difficult to get pregnant later in life,"To the best of your knowledge, is the following statement true or false?",False,45,58,41,35
+134,31,25D,Sexual Health True or False — Taking the birth control pill can make it difficult to get pregnant later in life,"To the best of your knowledge, is the following statement true or false?",Not sure,37,34,37,41
+135,31,25D,Sexual Health True or False — Taking the birth control pill can make it difficult to get pregnant later in life,"To the best of your knowledge, is the following statement true or false?",Totals,100,100,100,100
+136,32,25E,Sexual Health True or False — You can’t get pregnant while on your period,"To the best of your knowledge, is the following statement true or false?",True,17,15,17,20
+137,32,25E,Sexual Health True or False — You can’t get pregnant while on your period,"To the best of your knowledge, is the following statement true or false?",False,64,66,62,65
+138,32,25E,Sexual Health True or False — You can’t get pregnant while on your period,"To the best of your knowledge, is the following statement true or false?",Not sure,19,20,21,16
+139,32,25E,Sexual Health True or False — You can’t get pregnant while on your period,"To the best of your knowledge, is the following statement true or false?",Totals,100,101,100,101
+140,33,25F,Sexual Health True or False — Birth control pills can give you cancer,"To the best of your knowledge, is the following statement true or false?",True,14,7,16,18
+141,33,25F,Sexual Health True or False — Birth control pills can give you cancer,"To the best of your knowledge, is the following statement true or false?",False,40,50,37,32
+142,33,25F,Sexual Health True or False — Birth control pills can give you cancer,"To the best of your knowledge, is the following statement true or false?",Not sure,47,43,47,49
+143,33,25F,Sexual Health True or False — Birth control pills can give you cancer,"To the best of your knowledge, is the following statement true or false?",Totals,101,100,100,99
+144,34,25G,Sexual Health True or False — Birth control is a form of abortion,"To the best of your knowledge, is the following statement true or false?",True,8,3,12,8
+145,34,25G,Sexual Health True or False — Birth control is a form of abortion,"To the best of your knowledge, is the following statement true or false?",False,81,87,76,79
+146,34,25G,Sexual Health True or False — Birth control is a form of abortion,"To the best of your knowledge, is the following statement true or false?",Not sure,12,11,12,12
+147,34,25G,Sexual Health True or False — Birth control is a form of abortion,"To the best of your knowledge, is the following statement true or false?",Totals,101,101,100,99
+148,35,25H,Sexual Health True or False — You can’t get pregnant while breastfeeding,"To the best of your knowledge, is the following statement true or false?",True,7,7,6,9
+149,35,25H,Sexual Health True or False — You can’t get pregnant while breastfeeding,"To the best of your knowledge, is the following statement true or false?",False,73,72,72,74
+150,35,25H,Sexual Health True or False — You can’t get pregnant while breastfeeding,"To the best of your knowledge, is the following statement true or false?",Not sure,20,21,21,17
+151,35,25H,Sexual Health True or False — You can’t get pregnant while breastfeeding,"To the best of your knowledge, is the following statement true or false?",Totals,100,100,99,100
+152,36,25I,Sexual Health True or False — Birth control pills protect against sexually transmitted diseases (STDs),"To the best of your knowledge, is the following statement true or false?",True,5,6,3,8
+153,36,25I,Sexual Health True or False — Birth control pills protect against sexually transmitted diseases (STDs),"To the best of your knowledge, is the following statement true or false?",False,83,85,84,79
+154,36,25I,Sexual Health True or False — Birth control pills protect against sexually transmitted diseases (STDs),"To the best of your knowledge, is the following statement true or false?",Not sure,12,10,13,13
+155,36,25I,Sexual Health True or False — Birth control pills protect against sexually transmitted diseases (STDs),"To the best of your knowledge, is the following statement true or false?",Totals,100,101,100,100

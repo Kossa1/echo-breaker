@@ -1,0 +1,21 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,J. K. Rowling,20,14,60,60
+1,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Riley Gaines,20,10,16,35
+2,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Keith Olbermann -,30,26,30,36
+3,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Linda McMahon -,14,18,16,8
+4,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Lia Thomas -,16,29,15,2
+5,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Caitlyn Jenner -,20,17,23,19
+6,1,1A,Favorability of Individuals — J. K. Rowling,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,100,100
+7,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Unfavorable,9,7,40,44
+8,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,16,2,12,37
+9,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,9,6,11,11
+10,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,6,8,6,4
+11,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,11,19,10,4
+12,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,57,66,61,44
+13,2,1B,Favorability of Individuals — Riley Gaines,Do you have a favorable or an unfavorable opinion of the following people?,Totals,99,101,100,100
+14,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Very favorable,4,2,4,6
+15,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat favorable,22,20,19,27
+16,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Somewhat unfavorable,24,27,23,23
+17,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Very unfavorable,29,30,28,31
+18,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Don’t know,21,21,27,13
+19,6,1F,Favorability of Individuals — Caitlyn Jenner,Do you have a favorable or an unfavorable opinion of the following people?,Totals,100,100,101,100

@@ -1,0 +1,116 @@
+,qnum,orig_label,question,prompt,response,total,dem,ind,rep
+0,1,1,Things in California,"Generally speaking, do you feel things in California today are going...",Very well,8,11,6,7
+1,1,1,Things in California,"Generally speaking, do you feel things in California today are going...",Somewhat well,37,47,36,18
+2,1,1,Things in California,"Generally speaking, do you feel things in California today are going...",Somewhat badly,29,30,29,28
+3,1,1,Things in California,"Generally speaking, do you feel things in California today are going...",Very badly,26,12,29,46
+4,1,1,Things in California,"Generally speaking, do you feel things in California today are going...",Totals,100,100,100,99
+5,2,2,Following News about Special Election,"How closely are you following news about the special election being held on November 4, 2025 when Propo-",Very closely,34,40,28,34
+6,2,2,Following News about Special Election,"How closely are you following news about the special election being held on November 4, 2025 when Propo-",Somewhat closely,39,39,36,44
+7,2,2,Following News about Special Election,"How closely are you following news about the special election being held on November 4, 2025 when Propo-",Not very closely,18,15,21,18
+8,2,2,Following News about Special Election,"How closely are you following news about the special election being held on November 4, 2025 when Propo-",Not closely at all,9,6,15,4
+9,2,2,Following News about Special Election,"How closely are you following news about the special election being held on November 4, 2025 when Propo-",Totals,100,100,100,100
+10,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Already voted,15,19,9,18
+11,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Definitely will vote,50,56,43,49
+12,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Probably will vote,14,12,16,17
+13,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Maybe will vote,8,6,8,8
+14,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Probably will not vote,4,1,8,3
+15,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Definitely will not vote,5,2,8,4
+16,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Don’t know,4,4,8,0
+17,3,3,Likely to Vote in Special Election,How likely is it that you will vote in the special election on November 4th on Proposition 50?,Totals,100,100,100,99
+18,4,4,Proposition 50 Vote Choice,"If the election were held today, how would you vote on Proposition 50, which ""authorizes temporary changes",Would vote yes,62,85,60,22
+19,4,4,Proposition 50 Vote Choice,"If the election were held today, how would you vote on Proposition 50, which ""authorizes temporary changes",Would vote no,38,15,40,78
+20,4,4,Proposition 50 Vote Choice,"If the election were held today, how would you vote on Proposition 50, which ""authorizes temporary changes",Totals,100,100,100,100
+21,5,5,Vote on Prop 50 in Support or Opposition to Trump,Is a reason for your vote on Proposition 50...?,To support Donald Trump,11,2,4,31
+22,5,5,Vote on Prop 50 in Support or Opposition to Trump,Is a reason for your vote on Proposition 50...?,To oppose Donald Trump,51,80,46,5
+23,5,5,Vote on Prop 50 in Support or Opposition to Trump,Is a reason for your vote on Proposition 50...?,Trump not a reason either way,38,18,50,64
+24,5,5,Vote on Prop 50 in Support or Opposition to Trump,Is a reason for your vote on Proposition 50...?,Totals,100,100,100,100
+25,6,6,Vote on Prop 50 in Support or Opposition to Newsom,Is a reason for your vote on Proposition 50...?,To support Gavin Newsom,27,47,15,2
+26,6,6,Vote on Prop 50 in Support or Opposition to Newsom,Is a reason for your vote on Proposition 50...?,To oppose Gavin Newsom,23,2,23,59
+27,6,6,Vote on Prop 50 in Support or Opposition to Newsom,Is a reason for your vote on Proposition 50...?,Newsom not a reason either way,50,51,62,39
+28,6,6,Vote on Prop 50 in Support or Opposition to Newsom,Is a reason for your vote on Proposition 50...?,Totals,100,100,100,100
+29,7,7,"Vote on Prop 50 about Local, State, or National Politics",Is your vote on Proposition 50 mostly about...?,Local issues and politics,5,4,7,6
+30,7,7,"Vote on Prop 50 about Local, State, or National Politics",Is your vote on Proposition 50 mostly about...?,California issues and politics,45,32,40,69
+31,7,7,"Vote on Prop 50 about Local, State, or National Politics",Is your vote on Proposition 50 mostly about...?,National issues and politics,50,64,53,24
+32,7,7,"Vote on Prop 50 about Local, State, or National Politics",Is your vote on Proposition 50 mostly about...?,Totals,100,100,100,99
+33,8,8,Vote on Prop 50 to Support or Oppose National Democrats,Is a reason for your vote on Proposition 50...?,To support national Democrats,42,75,19,3
+34,8,8,Vote on Prop 50 to Support or Oppose National Democrats,Is a reason for your vote on Proposition 50...?,To oppose national Democrats,16,1,14,44
+35,8,8,Vote on Prop 50 to Support or Oppose National Democrats,Is a reason for your vote on Proposition 50...?,Not a reason either way,42,24,67,53
+36,8,8,Vote on Prop 50 to Support or Oppose National Democrats,Is a reason for your vote on Proposition 50...?,Totals,100,100,100,100
+37,9,9,Vote on Prop 50 to Support or Oppose National Republicans,Is a reason for your vote on Proposition 50...?,To support national Republicans,15,1,5,45
+38,9,9,Vote on Prop 50 to Support or Oppose National Republicans,Is a reason for your vote on Proposition 50...?,To oppose national Republicans,45,76,33,5
+39,9,9,Vote on Prop 50 to Support or Oppose National Republicans,Is a reason for your vote on Proposition 50...?,Not a reason either way,40,22,62,50
+40,9,9,Vote on Prop 50 to Support or Oppose National Republicans,Is a reason for your vote on Proposition 50...?,Totals,100,99,100,100
+41,10,10A,Gain or Lose Power if Prop 50 Approved — Cities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political",Cities,45,49,43,43
+42,10,10A,Gain or Lose Power if Prop 50 Approved — Cities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political",Suburbs,14,7,12,30
+43,10,10A,Gain or Lose Power if Prop 50 Approved — Cities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political",Rural areas,41,44,45,27
+44,10,10A,Gain or Lose Power if Prop 50 Approved — Cities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political",White communities,100,100,100,100
+45,11,10B,Gain or Lose Power if Prop 50 Approved — Suburbs,"If Proposition 50 is approved, do you think it will...",Cost the state of California money,28,36,27,18
+46,11,10B,Gain or Lose Power if Prop 50 Approved — Suburbs,"If Proposition 50 is approved, do you think it will...",Save the state of California money,22,13,22,40
+47,11,10B,Gain or Lose Power if Prop 50 Approved — Suburbs,"If Proposition 50 is approved, do you think it will...",Not impact either way,50,51,51,42
+48,11,10B,Gain or Lose Power if Prop 50 Approved — Suburbs,"If Proposition 50 is approved, do you think it will...",Totals,100,100,100,100
+49,12,10C,Gain or Lose Power if Prop 50 Approved — Rural areas,How would you rate the condition of the economy in California today?,Very good,21,28,16,15
+50,12,10C,Gain or Lose Power if Prop 50 Approved — Rural areas,How would you rate the condition of the economy in California today?,Fairly good,38,27,40,57
+51,12,10C,Gain or Lose Power if Prop 50 Approved — Rural areas,How would you rate the condition of the economy in California today?,Fairly bad,41,45,44,28
+52,12,10C,Gain or Lose Power if Prop 50 Approved — Rural areas,How would you rate the condition of the economy in California today?,Very bad,100,100,100,100
+53,13,10D,Gain or Lose Power if Prop 50 Approved — White communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Gain power,23,27,18,21
+54,13,10D,Gain or Lose Power if Prop 50 Approved — White communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Lose power,26,19,26,41
+55,13,10D,Gain or Lose Power if Prop 50 Approved — White communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Not change,51,54,56,38
+56,13,10D,Gain or Lose Power if Prop 50 Approved — White communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Totals,100,100,100,100
+57,14,10E,Gain or Lose Power if Prop 50 Approved — Black communities,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Approve,31,42,26,19
+58,14,10E,Gain or Lose Power if Prop 50 Approved — Black communities,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Disapprove,19,11,21,30
+59,14,10E,Gain or Lose Power if Prop 50 Approved — Black communities,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Not change,50,47,53,51
+60,14,10E,Gain or Lose Power if Prop 50 Approved — Black communities,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Totals,100,100,100,100
+61,15,10F,Gain or Lose Power if Prop 50 Approved — Hispanic communities,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Approve,33,43,28,26
+62,15,10F,Gain or Lose Power if Prop 50 Approved — Hispanic communities,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Disapprove,20,13,22,28
+63,15,10F,Gain or Lose Power if Prop 50 Approved — Hispanic communities,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Not change,47,44,50,45
+64,15,10F,Gain or Lose Power if Prop 50 Approved — Hispanic communities,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Totals,100,100,100,99
+65,16,10G,Gain or Lose Power if Prop 50 Approved — Asian communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Gain power,26,32,23,17
+66,16,10G,Gain or Lose Power if Prop 50 Approved — Asian communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Lose power,17,13,16,29
+67,16,10G,Gain or Lose Power if Prop 50 Approved — Asian communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Not change,57,55,61,54
+68,16,10G,Gain or Lose Power if Prop 50 Approved — Asian communities,"If Proposition 50 is approved, which of these do you think will gain political power in California, lose political power, or not change either way?",Totals,100,100,100,100
+69,17,11,Cost or Save Money if Prop 50 Approved,"If Proposition 50 is approved, do you think it will...",Cost the state of California money,43,33,43,63
+70,17,11,Cost or Save Money if Prop 50 Approved,"If Proposition 50 is approved, do you think it will...",Save the state of California money,16,22,15,11
+71,17,11,Cost or Save Money if Prop 50 Approved,"If Proposition 50 is approved, do you think it will...",Not impact either way,41,45,41,26
+72,17,11,Cost or Save Money if Prop 50 Approved,"If Proposition 50 is approved, do you think it will...",Totals,100,100,99,100
+73,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Very good,9,12,7,6
+74,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Fairly good,35,46,35,17
+75,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Fairly bad,24,22,20,35
+76,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Very bad,25,14,29,40
+77,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Not sure,7,6,9,2
+78,18,12,Condition of State Economy,How would you rate the condition of the economy in California today?,Totals,100,100,100,100
+79,19,14,Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Approve,34,7,31,89
+80,19,14,Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Disapprove,66,93,69,11
+81,19,14,Trump Job Approval,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Totals,100,100,100,100
+82,20,15,Newsom Job Approval,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Approve,53,81,40,15
+83,20,15,Newsom Job Approval,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Disapprove,47,19,60,85
+84,20,15,Newsom Job Approval,Do you approve or disapprove of the way Gavin Newsom is handling his job as Governor?,Totals,100,100,100,100
+85,21,21,Trump Treat California Better or Worse than Other States,"In general, do you think the Trump administration treats California...",Better than other states,7,6,3,13
+86,21,21,Trump Treat California Better or Worse than Other States,"In general, do you think the Trump administration treats California...",Worse than other states,63,81,66,27
+87,21,21,Trump Treat California Better or Worse than Other States,"In general, do you think the Trump administration treats California...",The same as other states,30,13,31,59
+88,21,21,Trump Treat California Better or Worse than Other States,"In general, do you think the Trump administration treats California...",Totals,100,100,100,99
+89,22,24,Financial Condition with Trump,Do you think Donald Trump’s policies are making you...,Financially better off,18,4,16,48
+90,22,24,Financial Condition with Trump,Do you think Donald Trump’s policies are making you...,Financially worse off,58,83,57,17
+91,22,24,Financial Condition with Trump,Do you think Donald Trump’s policies are making you...,Stay about the same,23,13,27,35
+92,22,24,Financial Condition with Trump,Do you think Donald Trump’s policies are making you...,Totals,99,100,100,100
+93,23,25,Favor or Oppose Trump Deploying National Guard to LA,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Favor,32,6,30,81
+94,23,25,Favor or Oppose Trump Deploying National Guard to LA,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Oppose,68,94,70,19
+95,23,25,Favor or Oppose Trump Deploying National Guard to LA,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Totals,100,100,100,100
+96,24,26,Trump Deportation Program Approval,Do you think Donald Trump’s policies are making you...,Financially better off,40,15,41,88
+97,24,26,Trump Deportation Program Approval,Do you think Donald Trump’s policies are making you...,Financially worse off,60,85,59,12
+98,24,26,Trump Deportation Program Approval,Do you think Donald Trump’s policies are making you...,Stay about the same,100,100,100,100
+99,25,27,Trump Deportation Program Making Local Economy Stronger or Weaker,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Favor,20,8,19,47
+100,25,27,Trump Deportation Program Making Local Economy Stronger or Weaker,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Oppose,54,77,49,16
+101,25,27,Trump Deportation Program Making Local Economy Stronger or Weaker,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Not changing the economy either w,26,15,32,37
+102,25,27,Trump Deportation Program Making Local Economy Stronger or Weaker,Do you favor or oppose Donald Trump’s decision to deploy the National Guard to Los Angeles?,Totals,100,100,100,100
+103,26,28,Trump Deportation Program Making Local Area Safer or Less Safe,Do you approve or disapprove of the Trump administration’s program to find and deport immigrants who are,Approve,27,9,27,62
+104,26,28,Trump Deportation Program Making Local Area Safer or Less Safe,Do you approve or disapprove of the Trump administration’s program to find and deport immigrants who are,Disapprove,37,53,33,11
+105,26,28,Trump Deportation Program Making Local Area Safer or Less Safe,Do you approve or disapprove of the Trump administration’s program to find and deport immigrants who are,Not changing safety either way,36,38,40,27
+106,26,28,Trump Deportation Program Making Local Area Safer or Less Safe,Do you approve or disapprove of the Trump administration’s program to find and deport immigrants who are,Totals,100,100,100,100
+107,27,29,Trump Deporting More or Fewer People than Expected,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Stronger,59,70,60,38
+108,27,29,Trump Deporting More or Fewer People than Expected,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Weaker,10,10,7,17
+109,27,29,Trump Deporting More or Fewer People than Expected,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Not changing the economy either way,31,20,33,45
+110,27,29,Trump Deporting More or Fewer People than Expected,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Totals,100,100,100,100
+111,28,30,Impact of Trump Policies on Number of Migrants Crossing the U.S.-Mexico Border,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Safer,10,10,8,9
+112,28,30,Impact of Trump Policies on Number of Migrants Crossing the U.S.-Mexico Border,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Less safe,58,47,63,75
+113,28,30,Impact of Trump Policies on Number of Migrants Crossing the U.S.-Mexico Border,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Not changing safety either way,32,43,29,16
+114,28,30,Impact of Trump Policies on Number of Migrants Crossing the U.S.-Mexico Border,Do you think the Trump administration’s program to find and deport immigrants who are in the U.S. illegally is,Totals,100,100,100,100
