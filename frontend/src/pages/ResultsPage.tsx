@@ -31,12 +31,18 @@ export default function ResultsPage() {
   const [resultsData, setResultsData] = useState<ResultsData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [selfLbRank, setSelfLbRank] = useState<null | { rank: number; total: number; score: number; gamesPlayed: number }>(null)
+  const fmt = (n: unknown, digits = 1) =>
+    typeof n === 'number' && isFinite(n as number) ? (n as number).toFixed(digits) : '—'
 
   // Load results from backend API
   useEffect(() => {
     async function loadResults() {
       if (!auth.currentUser) {
-        setError('Please sign in to view results')
+        // If auth not ready but we have prior data, keep showing it.
+        if (!resultsData) {
+          setError('Please sign in to view results')
+        }
         setLoading(false)
         return
       }
@@ -57,9 +63,13 @@ export default function ResultsPage() {
         }
 
         const data = await res.json()
-        
-        // Backend now returns the new structure directly
-        setResultsData(data)
+        // Normalize potential older/newer shapes
+        const normalized = Array.isArray((data as any).questions)
+          ? data
+          : (data && Array.isArray((data as any).results))
+          ? { ...data, questions: (data as any).results }
+          : data
+        setResultsData(normalized as any)
         setError(null)
       } catch (error) {
         console.error('Failed to load results:', error)
@@ -71,6 +81,29 @@ export default function ResultsPage() {
 
     loadResults()
   }, [auth.currentUser, searchParams])
+
+  // Load global leaderboard rank for current user (independent of daily rank)
+  useEffect(() => {
+    const uid = auth.currentUser?.uid
+    if (!uid) { setSelfLbRank(null); return }
+    let cancelled = false
+    ;(async () => {
+      try {
+        const res = await fetch(`/api/leaderboard/user/${uid}`)
+        if (!res.ok) return
+        const d = await res.json()
+        if (!cancelled) setSelfLbRank({
+          rank: Number(d.rank || 0),
+          total: Number(d.total || 0),
+          score: Number(d.score || 0),
+          gamesPlayed: Number(d.gamesPlayed || 0),
+        })
+      } catch {
+        if (!cancelled) setSelfLbRank(null)
+      }
+    })()
+    return () => { cancelled = true }
+  }, [auth.currentUser])
 
   const css = useMemo(
     () => `
@@ -639,14 +672,18 @@ export default function ResultsPage() {
 
   // Calculate overall average (average of dem and rep)
   const overallAvgScore = useMemo(() => {
-    if (!resultsData) return 0
-    return (resultsData.today_avg_score.dem + resultsData.today_avg_score.rep) / 2
+    const dem = resultsData?.today_avg_score?.dem
+    const rep = resultsData?.today_avg_score?.rep
+    if (dem == null || rep == null) return 0
+    return (dem + rep) / 2
   }, [resultsData])
 
   // Calculate overall historical average
   const overallHistoricalAvg = useMemo(() => {
-    if (!resultsData?.historical_avg.dem || !resultsData.historical_avg.rep) return null
-    return (resultsData.historical_avg.dem + resultsData.historical_avg.rep) / 2
+    const dem = resultsData?.historical_avg?.dem
+    const rep = resultsData?.historical_avg?.rep
+    if (dem == null || rep == null) return null
+    return (dem + rep) / 2
   }, [resultsData])
 
   // Calculate overall delta
@@ -657,9 +694,9 @@ export default function ResultsPage() {
 
   // Calculate overall rank (average of dem and rep ranks, or use first available)
   const overallRank = useMemo(() => {
-    if (!resultsData) return null
-    const demRank = resultsData.today_rank.dem
-    const repRank = resultsData.today_rank.rep
+    if (!resultsData || !resultsData.today_rank) return null
+    const demRank = resultsData.today_rank?.dem ?? null
+    const repRank = resultsData.today_rank?.rep ?? null
     if (demRank !== null && repRank !== null) {
       return Math.round((demRank + repRank) / 2)
     }
@@ -671,8 +708,10 @@ export default function ResultsPage() {
     if (!resultsData?.questions.length) return null
     let bestScore = -1
     let bestIdx = null
-    resultsData.questions.forEach((q, idx) => {
-      const avgScore = (q.score.dem + q.score.rep) / 2
+    resultsData.questions.forEach((q: any, idx: number) => {
+      const dem = q?.score?.dem ?? 0
+      const rep = q?.score?.rep ?? 0
+      const avgScore = (dem + rep) / 2
       if (avgScore > bestScore) {
         bestScore = avgScore
         bestIdx = idx + 1
@@ -685,8 +724,10 @@ export default function ResultsPage() {
     if (!resultsData?.questions.length) return null
     let worstScore = 101
     let worstIdx = null
-    resultsData.questions.forEach((q, idx) => {
-      const avgScore = (q.score.dem + q.score.rep) / 2
+    resultsData.questions.forEach((q: any, idx: number) => {
+      const dem = q?.score?.dem ?? 0
+      const rep = q?.score?.rep ?? 0
+      const avgScore = (dem + rep) / 2
       if (avgScore < worstScore) {
         worstScore = avgScore
         worstIdx = idx + 1
@@ -706,12 +747,24 @@ export default function ResultsPage() {
     )
   }
 
-  if (error || !resultsData || !resultsData.questions.length) {
+  if (error) {
     return (
       <div>
         <style>{css}</style>
         <div className="results-page">
-          <div className="error-message">{error || 'No results found. Please complete today\'s questions first.'}</div>
+          <div className="error-message">{error}</div>
+        </div>
+      </div>
+    )
+  }
+
+  const hasQuestions = Array.isArray(resultsData?.questions) && (resultsData!.questions as any[]).length > 0
+  if (!resultsData || !hasQuestions) {
+    return (
+      <div>
+        <style>{css}</style>
+        <div className="results-page">
+          <div className="error-message">No results found. Please complete today&apos;s questions first.</div>
         </div>
       </div>
     )
@@ -725,7 +778,7 @@ export default function ResultsPage() {
           <h1>Your Results</h1>
           <p className="subtitle">See how your predictions compare to the actual survey data.</p>
           <div className="score-summary">
-            <h2>Average Score: {overallAvgScore.toFixed(1)}%</h2>
+            <h2>Average Score: {fmt(overallAvgScore)}%</h2>
             <div className="progress-bar">
               <div className="fill" style={{ width: `${overallAvgScore}%` }} />
             </div>
@@ -734,31 +787,43 @@ export default function ResultsPage() {
                 <h3>Overall</h3>
                 <p className="stat-line">
                   <span>Average Score</span>
-                  <strong>{overallAvgScore.toFixed(1)}%</strong>
+                  <strong>{fmt(overallAvgScore)}%</strong>
                   {overallDelta !== null && (
                     <span className={`delta ${overallDelta >= 0 ? 'up' : 'down'}`}>
-                      {overallDelta >= 0 ? '↑' : '↓'}{Math.abs(overallDelta).toFixed(1)}%
+                      {overallDelta >= 0 ? '↑' : '↓'}{fmt(Math.abs(overallDelta))}%
                     </span>
                   )}
+              </p>
+                <p className="stat-line">
+                  <span>Leaderboard Rank</span>
+                  <strong>
+                    {selfLbRank ? (
+                      <>
+                        #{selfLbRank.rank} <span className="sub">of {selfLbRank.total}</span>
+                      </>
+                    ) : (
+                      auth.currentUser ? '—' : 'Sign in'
+                    )}
+                  </strong>
                 </p>
                 <p className="stat-line">
                   <span>Rank</span>
                   <strong>
                     #{overallRank ?? 'N/A'}
-                    {overallRank !== null && resultsData.total_users_today > 0 && (
-                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    {overallRank !== null && (resultsData?.total_users_today ?? 0) > 0 && (
+                      <span className="sub"> of {resultsData?.total_users_today}</span>
                     )}
                   </strong>
                 </p>
                 {resultsData.historical_avg_overall !== null ? (
                   <p className="stat-line">
                     <span>Historical Avg</span>
-                    <strong>{resultsData.historical_avg_overall.toFixed(1)}%</strong>
-                    {resultsData.delta_from_historical_overall !== null && (
-                      <span className={`delta ${resultsData.delta_from_historical_overall >= 0 ? 'up' : 'down'}`}>
-                        {resultsData.delta_from_historical_overall >= 0
-                          ? `↑${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`
-                          : `↓${Math.abs(resultsData.delta_from_historical_overall).toFixed(1)}%`}
+                  <strong>{fmt(resultsData.historical_avg_overall ?? 0)}%</strong>
+                    {resultsData.delta_from_historical_overall !== null && resultsData.delta_from_historical_overall !== undefined && (
+                      <span className={`delta ${(resultsData.delta_from_historical_overall || 0) >= 0 ? 'up' : 'down'}`}>
+                        {(resultsData.delta_from_historical_overall || 0) >= 0
+                          ? `↑${fmt(Math.abs(resultsData.delta_from_historical_overall || 0))}%`
+                          : `↓${fmt(Math.abs(resultsData.delta_from_historical_overall || 0))}%`}
                       </span>
                     )}
                   </p>
@@ -782,19 +847,19 @@ export default function ResultsPage() {
                 <h3>Democrat</h3>
                 <p className="stat-line">
                   <span>Average Score</span>
-                  <strong>{resultsData.today_avg_score.dem.toFixed(1)}%</strong>
-                  {resultsData.delta_from_historical.dem !== null && (
-                    <span className={`delta ${resultsData.delta_from_historical.dem >= 0 ? 'up' : 'down'}`}>
-                      {resultsData.delta_from_historical.dem >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.dem).toFixed(1)}%
+                  <strong>{fmt(resultsData.today_avg_score?.dem ?? 0)}%</strong>
+                  {resultsData.delta_from_historical?.dem !== null && resultsData.delta_from_historical?.dem !== undefined && (
+                    <span className={`delta ${(resultsData.delta_from_historical?.dem || 0) >= 0 ? 'up' : 'down'}`}>
+                      {(resultsData.delta_from_historical?.dem || 0) >= 0 ? '↑' : '↓'}{fmt(Math.abs(resultsData.delta_from_historical?.dem || 0))}%
                     </span>
                   )}
                 </p>
                 <p className="stat-line">
                   <span>Rank</span>
                   <strong>
-                    #{resultsData.today_rank.dem ?? 'N/A'}
-                    {resultsData.today_rank.dem !== null && resultsData.total_users_today > 0 && (
-                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    #{resultsData.today_rank?.dem ?? 'N/A'}
+                    {resultsData.today_rank?.dem !== null && (resultsData?.total_users_today ?? 0) > 0 && (
+                      <span className="sub"> of {resultsData?.total_users_today}</span>
                     )}
                   </strong>
                 </p>
@@ -811,19 +876,19 @@ export default function ResultsPage() {
                 <h3>Republican</h3>
                 <p className="stat-line">
                   <span>Average Score</span>
-                  <strong>{resultsData.today_avg_score.rep.toFixed(1)}%</strong>
-                  {resultsData.delta_from_historical.rep !== null && (
-                    <span className={`delta ${resultsData.delta_from_historical.rep >= 0 ? 'up' : 'down'}`}>
-                      {resultsData.delta_from_historical.rep >= 0 ? '↑' : '↓'}{Math.abs(resultsData.delta_from_historical.rep).toFixed(1)}%
+                  <strong>{fmt(resultsData.today_avg_score?.rep ?? 0)}%</strong>
+                  {resultsData.delta_from_historical?.rep !== null && resultsData.delta_from_historical?.rep !== undefined && (
+                    <span className={`delta ${(resultsData.delta_from_historical?.rep || 0) >= 0 ? 'up' : 'down'}`}>
+                      {(resultsData.delta_from_historical?.rep || 0) >= 0 ? '↑' : '↓'}{fmt(Math.abs(resultsData.delta_from_historical?.rep || 0))}%
                     </span>
                   )}
                 </p>
                 <p className="stat-line">
                   <span>Rank</span>
                   <strong>
-                    #{resultsData.today_rank.rep ?? 'N/A'}
-                    {resultsData.today_rank.rep !== null && resultsData.total_users_today > 0 && (
-                      <span className="sub"> of {resultsData.total_users_today}</span>
+                    #{resultsData.today_rank?.rep ?? 'N/A'}
+                    {resultsData.today_rank?.rep !== null && (resultsData?.total_users_today ?? 0) > 0 && (
+                      <span className="sub"> of {resultsData?.total_users_today}</span>
                     )}
                   </strong>
                 </p>
@@ -853,16 +918,16 @@ export default function ResultsPage() {
                 <div className="prediction-table-header">Your Prediction</div>
                 <div className="prediction-table-header">Actual Result</div>
                 <div className="prediction-row-label">Democrat</div>
-                <div className="prediction-value dem">{question.user_prediction.dem.toFixed(1)}%</div>
-                <div className="prediction-value dem">{question.ground_truth.dem.toFixed(1)}%</div>
+                <div className="prediction-value dem">{fmt(question.user_prediction?.dem)}%</div>
+                <div className="prediction-value dem">{fmt(question.ground_truth?.dem)}%</div>
                 <div className="prediction-row-label">Republican</div>
-                <div className="prediction-value rep">{question.user_prediction.rep.toFixed(1)}%</div>
-                <div className="prediction-value rep">{question.ground_truth.rep.toFixed(1)}%</div>
+                <div className="prediction-value rep">{fmt(question.user_prediction?.rep)}%</div>
+                <div className="prediction-value rep">{fmt(question.ground_truth?.rep)}%</div>
               </div>
               <div className="question-scores">
                 <div className="party-score dem">
                   <span>Democrat Accuracy:</span>
-                  <strong>{question.score.dem.toFixed(1)}%</strong>
+                  <strong>{fmt(question.score?.dem)}%</strong>
                   {question.rank.dem !== null && question.rank.dem !== undefined && (
                     <span className="rank">
                       Rank #{question.rank.dem} <span className="sub">of {question.total_users}</span>
@@ -871,7 +936,7 @@ export default function ResultsPage() {
                 </div>
                 <div className="party-score rep">
                   <span>Republican Accuracy:</span>
-                  <strong>{question.score.rep.toFixed(1)}%</strong>
+                  <strong>{fmt(question.score?.rep)}%</strong>
                   {question.rank.rep !== null && question.rank.rep !== undefined && (
                     <span className="rank">
                       Rank #{question.rank.rep} <span className="sub">of {question.total_users}</span>

@@ -112,8 +112,9 @@ def ensure_daily_questions(date: str) -> list[dict]:
         # First, get all available posts
         all_posts = load_all_available_posts()
         
-        if len(all_posts) < DEFAULT_NUM_QUESTIONS:
-            raise ValueError(f"Not enough posts available. Need {DEFAULT_NUM_QUESTIONS}, have {len(all_posts)}")
+        # If there are fewer than DEFAULT_NUM_QUESTIONS globally, degrade gracefully
+        if len(all_posts) == 0:
+            raise ValueError("No posts available in survey_metadata")
         
         # Get questions already used today (to avoid duplicates)
         used_ids = {dq.question_id for dq in existing}
@@ -125,9 +126,10 @@ def ensure_daily_questions(date: str) -> list[dict]:
             # If we can't get enough unique questions, allow duplicates
             available_posts = all_posts
         
-        # Sample the remaining questions needed
-        needed = DEFAULT_NUM_QUESTIONS - len(existing)
-        selected_posts = random.sample(available_posts, needed)
+        # Sample the remaining questions needed (gracefully handle smaller pools)
+        needed = max(0, DEFAULT_NUM_QUESTIONS - len(existing))
+        needed = min(needed, len(available_posts))
+        selected_posts = random.sample(available_posts, needed) if needed > 0 else []
         
         # Store new questions in database
         start_order = len(existing)
@@ -344,4 +346,3 @@ def get_user_historical_average(user_id: str) -> dict | None:
             'dem': total_dem / count,
             'rep': total_rep / count
         }
-

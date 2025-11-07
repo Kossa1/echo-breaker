@@ -14,7 +14,7 @@ from daily_questions import (
 )
 from db import SessionLocal
 from models import UserAnswer, UserDailyScore, DailyQuestion
-from sqlalchemy import select
+from sqlalchemy import select, func
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
@@ -434,17 +434,65 @@ def api_users_score():
 
 @app.get("/api/leaderboard")
 def api_leaderboard():
+    """Return leaderboard entries ordered by score desc.
+    Query params:
+      - limit: max entries to return (default 50, max 1000)
+      - offset: offset for pagination (default 0)
+    """
     try:
-        limit = int(request.args.get("limit", 50))
+        limit = min(max(int(request.args.get("limit", 50)), 1), 1000)
     except Exception:
         limit = 50
+    try:
+        offset = max(int(request.args.get("offset", 0)), 0)
+    except Exception:
+        offset = 0
+
     with SessionLocal() as s:
-        rows = s.execute(select(DBUser).order_by(DBUser.score.desc()).limit(limit)).scalars().all()
+        total = s.execute(select(func.count()).select_from(DBUser)).scalar() or 0
+        q = (
+            select(DBUser)
+            .order_by((DBUser.score.is_(None)).asc(), DBUser.score.desc())
+            .offset(offset)
+            .limit(limit)
+        )
+        rows = s.execute(q).scalars().all()
         entries = [
-            {"id": u.uid, "displayName": u.display_name, "score": float(u.score or 0)}
+            {
+                "id": u.uid,
+                "displayName": u.display_name,
+                "score": float(u.score) if u.score is not None else 0.0,
+                "gamesPlayed": int(u.games_played or 0),
+            }
             for u in rows
         ]
-    return jsonify({"entries": entries})
+    return jsonify({"entries": entries, "total": int(total), "offset": offset, "limit": limit})
+
+
+@app.get("/api/leaderboard/user/<uid>")
+def api_leaderboard_user(uid: str):
+    """Return a single user's leaderboard row with rank.
+    Rank is computed as 1 + count of users with a strictly higher score.
+    """
+    if not uid:
+        return jsonify({"error": "uid required"}), 400
+    with SessionLocal() as s:
+        u = s.get(DBUser, uid)
+        if not u:
+            return jsonify({"error": "not found"}), 404
+        score = u.score or 0.0
+        higher = s.execute(select(func.count()).select_from(DBUser).where(DBUser.score != None, DBUser.score > score)).scalar() or 0
+        # Users with NULL score are treated as 0 and will rank below those with >0
+        rank = int(higher) + 1
+        total = s.execute(select(func.count()).select_from(DBUser)).scalar() or 0
+        return jsonify({
+            "id": u.uid,
+            "displayName": u.display_name,
+            "score": float(score),
+            "gamesPlayed": int(u.games_played or 0),
+            "rank": rank,
+            "total": int(total),
+        })
 @app.route("/api/daily_questions", methods=['GET'])
 def get_daily_questions():
     """
@@ -463,6 +511,9 @@ def get_daily_questions():
         daily_questions = ensure_daily_questions(today)
     except ValueError as e:
         return jsonify({"error": str(e)}), 500
+    except Exception as e:
+        # Surface unexpected errors to the client for easier debugging in dev
+        return jsonify({"error": f"Failed to prepare daily questions: {e}"}), 500
     
     # Check if user has completed today
     completed = False
@@ -472,7 +523,8 @@ def get_daily_questions():
     # Build response with questions (without ground truth)
     questions = []
     for dq in daily_questions:
-        image_url = url_for('serve_survey_image', filename=dq['img_path'])
+        # Build public path to image. Using a direct path avoids url_for issues in some run modes.
+        image_url = f"/survey_metadata/{dq['img_path']}"
         questions.append({
             "id": dq['id'],
             "image_url": image_url,
@@ -525,10 +577,46 @@ def submit_answer():
         ).scalar_one_or_none()
         
         if existing:
-            return jsonify({
-                "success": False,
-                "error": "Question already answered"
-            }), 400
+            # Return a non-error response with feedback so UI can proceed gracefully
+            daily_q = session.execute(
+                select(DailyQuestion).where(
+                    DailyQuestion.date == today,
+                    DailyQuestion.question_id == question_id
+                )
+            ).scalar_one_or_none()
+
+            # Compute how many answers this user has submitted today
+            answers_count = session.execute(
+                select(func.count()).select_from(UserAnswer).where(
+                    UserAnswer.user_id == user_id,
+                    UserAnswer.date == today
+                )
+            ).scalar() or 0
+            completed_all = answers_count >= DEFAULT_NUM_QUESTIONS
+
+            def dir_str(guess, actual):
+                if abs(guess - actual) < 1e-9:
+                    return "exact"
+                return "over" if guess > actual else "under"
+
+            if daily_q:
+                return jsonify({
+                    "success": False,
+                    "already_answered": True,
+                    "completed_all": completed_all,
+                    "question_id": question_id,
+                    "actual": {"dem": round(daily_q.dem, 1), "rep": round(daily_q.rep, 1)},
+                    "user": {"dem": round(dem_guess, 1), "rep": round(rep_guess, 1)},
+                    "deltas": {
+                        "dem": round(dem_guess - daily_q.dem, 1),
+                        "rep": round(rep_guess - daily_q.rep, 1)
+                    },
+                    "direction": {
+                        "dem": dir_str(dem_guess, daily_q.dem),
+                        "rep": dir_str(rep_guess, daily_q.rep)
+                    }
+                }), 200
+            return jsonify({"success": False, "already_answered": True, "completed_all": completed_all}), 200
         
         # Get the daily question to get ground truth
         daily_q = session.execute(
@@ -596,10 +684,27 @@ def submit_answer():
         
         session.commit()
         
+        # Build immediate feedback payload
+        def dir_str(guess, actual):
+            if abs(guess - actual) < 1e-9:
+                return "exact"
+            return "over" if guess > actual else "under"
+
         return jsonify({
             "success": True,
             "score": round(total_score, 2),
-            "completed_all": completed_all
+            "completed_all": completed_all,
+            "question_id": question_id,
+            "actual": {"dem": round(daily_q.dem, 1), "rep": round(daily_q.rep, 1)},
+            "user": {"dem": round(dem_guess, 1), "rep": round(rep_guess, 1)},
+            "deltas": {
+                "dem": round(dem_guess - daily_q.dem, 1),
+                "rep": round(rep_guess - daily_q.rep, 1)
+            },
+            "direction": {
+                "dem": dir_str(dem_guess, daily_q.dem),
+                "rep": dir_str(rep_guess, daily_q.rep)
+            }
         })
 
 @app.route("/api/results", methods=['GET'])
@@ -643,7 +748,7 @@ def get_results():
             if not dq:
                 continue
             
-            image_url = url_for('serve_survey_image', filename=dq.img_path)
+            image_url = f"/survey_metadata/{dq.img_path}"
             results.append({
                 "id": dq.question_id,
                 "image_url": image_url,

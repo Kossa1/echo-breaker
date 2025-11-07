@@ -11,6 +11,16 @@ export default function GuessPage() {
   const [rep, setRep] = useState<number>(50)
   const [loading, setLoading] = useState(false)
   const auth = useMemo(() => getAuth(), [])
+  const [previewSeconds, setPreviewSeconds] = useState<number>(0)
+  const [previewActive, setPreviewActive] = useState<boolean>(false)
+  const [previewProgress, setPreviewProgress] = useState<number>(0)
+  const [reveal, setReveal] = useState<null | {
+    actual: { dem: number; rep: number }
+    user: { dem: number; rep: number }
+    deltas: { dem: number; rep: number }
+    direction: { dem: 'over' | 'under' | 'exact'; rep: 'over' | 'under' | 'exact' }
+    completed_all?: boolean
+  }>(null)
 
   // Multi-question support - always use 5 questions for multi-question flow
   const totalQuestions = 5
@@ -73,8 +83,34 @@ export default function GuessPage() {
         rep: 0  // Will be set from backend results
       })
       setError(null)
+      setPreviewSeconds(5)
+      setPreviewProgress(0)
+      setPreviewActive(true)
     }
   }, [gameStarted, qIndex, dailyQuestions])
+
+  // Smooth 5s reading countdown (requestAnimationFrame)
+  useEffect(() => {
+    if (!previewActive) return
+    const duration = 5000
+    const start = performance.now()
+    let raf = 0 as unknown as number
+    const loop = (now: number) => {
+      const elapsed = now - start
+      const progress = Math.min(1, elapsed / duration)
+      setPreviewProgress(progress)
+      const remaining = Math.max(0, duration - elapsed)
+      setPreviewSeconds(Math.ceil(remaining / 1000))
+      if (progress < 1) {
+        raf = requestAnimationFrame(loop)
+      } else {
+        setPreviewActive(false)
+        setPreviewSeconds(0)
+      }
+    }
+    raf = requestAnimationFrame(loop)
+    return () => cancelAnimationFrame(raf)
+  }, [previewActive, qIndex])
 
   const css = useMemo(
     () => `
@@ -581,6 +617,10 @@ export default function GuessPage() {
       navigate('/login')
       return
     }
+    if (previewActive || previewSeconds > 0 || reveal) {
+      // Block submit during preview or while reveal is visible
+      return
+    }
     setLoading(true)
 
     try {
@@ -608,27 +648,14 @@ export default function GuessPage() {
       }
 
       const resultData = await res.json()
-
-      // If user completed all questions, redirect to results
-      if (resultData.completed_all) {
-        navigate('/guess/results', { replace: false })
-      }else if (qIndex === dailyQuestions.length - 1) {
-        await new Promise(r => setTimeout(r, 5000))
-        const check = await fetch('/api/results')
-        if (check.ok) navigate('/guess/results', { replace: false })
-      }
-
-      // Move to next question
-      if (qIndex + 1 < dailyQuestions.length) {
-        setQIndex((i) => i + 1)
-        setDem(50)
-        setRep(50)
-        setLoading(false)
-      } else {
-        // Should not happen if backend logic is correct, but handle gracefully
-        setError('All questions answered, but completion not detected')
-        setLoading(false)
-      }
+      setReveal({
+        actual: resultData.actual,
+        user: resultData.user,
+        deltas: resultData.deltas,
+        direction: resultData.direction,
+        completed_all: resultData.completed_all,
+      })
+      setLoading(false)
     } catch (error) {
       console.error('Failed to submit answer:', error)
       setError('Failed to submit answer. Please try again.')
@@ -667,6 +694,61 @@ export default function GuessPage() {
           <div className="error-message">No posts available</div>
         )}
 
+        {/* Preview overlay (forces reading for 5 seconds) */}
+        {previewActive && (
+          <div style={{ position: 'fixed', top: 12, left: 12, background: 'transparent', zIndex: 40 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+              <svg width="84" height="84" viewBox="0 0 36 36">
+                <path d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32" fill="none" stroke="#e5e5e5" strokeWidth="3" />
+                <path d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32" fill="none" stroke="#1a1a1a" strokeWidth="3" strokeDasharray={`${previewProgress * 100}, 100`} strokeLinecap="round" />
+                <text x="18" y="20.5" textAnchor="middle" fontSize="10" fill="#1a1a1a" fontWeight="700">{previewSeconds}s</text>
+              </svg>
+              <div className="instruction-text" style={{ textAlign: 'center', fontSize: 12, color: '#666' }}>Read first…</div>
+            </div>
+          </div>
+        )}
+
+        {/* Reveal overlay after submit */}
+        {reveal && (
+          <div style={{ position: 'fixed', inset: 0, background: 'rgba(255,255,255,0.98)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 50 }}>
+            <div style={{ maxWidth: 560, width: '92%', background: '#fff', border: '1px solid #eee', borderRadius: 12, boxShadow: '0 10px 30px rgba(0,0,0,0.12)', padding: 20 }}>
+              <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.35rem', marginBottom: 10 }}>Ground Truth</h3>
+              <p style={{ marginBottom: 10 }}>
+                <strong>{reveal.direction.dem === 'over' ? 'You overestimated Democrats' : reveal.direction.dem === 'under' ? 'You underestimated Democrats' : 'You guessed Democrats exactly'}</strong>
+                {` by ${Math.abs(reveal.deltas.dem).toFixed(1)} points (you: ${reveal.user.dem.toFixed(1)}%, actual: ${reveal.actual.dem.toFixed(1)}%).`}
+              </p>
+              <p style={{ marginBottom: 16 }}>
+                <strong>{reveal.direction.rep === 'over' ? 'You overestimated Republicans' : reveal.direction.rep === 'under' ? 'You underestimated Republicans' : 'You guessed Republicans exactly'}</strong>
+                {` by ${Math.abs(reveal.deltas.rep).toFixed(1)} points (you: ${reveal.user.rep.toFixed(1)}%, actual: ${reveal.actual.rep.toFixed(1)}%).`}
+              </p>
+              <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                <button
+                  type="button"
+                  className="submit-btn"
+                  onClick={() => {
+                    const done = reveal.completed_all
+                    setReveal(null)
+                    if (done) {
+                      navigate('/guess/results', { replace: false })
+                      return
+                    }
+                    if (qIndex + 1 < dailyQuestions.length) {
+                      setQIndex((i) => i + 1)
+                      setDem(50)
+                      setRep(50)
+                      setPreviewSeconds(5)
+                      setPreviewProgress(0)
+                      setPreviewActive(true)
+                    }
+                  }}
+                >
+                  {reveal.completed_all ? 'See Results' : 'Next Question'}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         <form onSubmit={onSubmit} id="predictionForm">
           <div key={`form-${qIndex}`} className="prediction-form-single question-transition">
             <div className="slider-container">
@@ -682,6 +764,7 @@ export default function GuessPage() {
                     value={dem}
                     className="slider slider--dem"
                     onChange={(e) => setDem(Number(e.target.value))}
+                    disabled={previewActive || !!reveal}
                   />
                 </div>
                 <div className="value-display democrat" id="dem_val">{dem}%</div>
@@ -699,6 +782,7 @@ export default function GuessPage() {
                     value={rep}
                     className="slider slider--rep"
                     onChange={(e) => setRep(Number(e.target.value))}
+                    disabled={previewActive || !!reveal}
                   />
                 </div>
                 <div className="value-display republican" id="rep_val">{rep}%</div>
@@ -719,15 +803,11 @@ export default function GuessPage() {
           </div>
 
           <div className="submit-section">
-            <button type="submit" className="submit-btn" id="submitBtn" disabled={!post || loading || !auth.currentUser}>
-              {loading
-                ? 'Submitting…'
-                : dailyQuestions.length > 1 && qIndex + 1 < dailyQuestions.length
-                ? 'Next Question'
-                : 'Submit'}
+            <button type="submit" className="submit-btn" id="submitBtn" disabled={!post || loading || !auth.currentUser || previewActive || !!reveal}>
+              {loading ? 'Submitting…' : 'Submit'}
             </button>
-            <div className="loading" id="loading" style={{ display: loading ? 'block' : 'none' }}>
-              Processing your predictions...
+            <div className="loading" id="loading" style={{ display: loading ? 'block' : 'none', position: 'fixed', top: 12, left: 12, color: '#666', fontSize: 12 }}>
+              Processing…
             </div>
           </div>
         </form>
