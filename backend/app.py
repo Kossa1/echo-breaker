@@ -534,6 +534,8 @@ def get_daily_questions():
     
     # Sort by question_order
     questions.sort(key=lambda x: x['question_order'])
+    # Cap to configured daily count to avoid leaking extras
+    questions = questions[:DEFAULT_NUM_QUESTIONS]
     
     return jsonify({
         "date": today,
