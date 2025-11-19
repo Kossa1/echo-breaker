@@ -402,6 +402,39 @@ def api_users_ensure():
     return jsonify({"ok": True})
 
 
+@app.post("/api/users/survey")
+def api_users_survey():
+    """Save user survey responses during signup."""
+    data = request.get_json(silent=True) or {}
+    uid = (data.get("uid") or "").strip()
+    survey_responses = data.get("surveyResponses", {})
+    
+    if not uid:
+        return jsonify({"error": "uid required"}), 400
+    
+    # Convert survey responses to JSON string
+    survey_json = json.dumps(survey_responses) if survey_responses else None
+    
+    with SessionLocal() as s:
+        u = s.get(DBUser, uid)
+        if not u:
+            # User doesn't exist yet, create with survey
+            u = DBUser(
+                uid=uid,
+                display_name=None,
+                score=0.0,
+                games_played=0,
+                survey_responses=survey_json
+            )
+            s.add(u)
+        else:
+            # Update existing user's survey responses
+            u.survey_responses = survey_json
+        s.commit()
+    
+    return jsonify({"ok": True})
+
+
 @app.post("/api/users/score")
 def api_users_score():
     data = request.get_json(silent=True) or {}

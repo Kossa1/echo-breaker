@@ -86,6 +86,7 @@ class User(Base):
     display_name: Mapped[str | None] = mapped_column(String)
     score: Mapped[float | None] = mapped_column(Float, default=0.0)
     games_played: Mapped[int | None] = mapped_column(Integer, default=0)
+    survey_responses: Mapped[str | None] = mapped_column(Text)  # JSON string of survey responses
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
