@@ -107,6 +107,7 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             uid: result.user.uid,
+            email: email,
             surveyResponses,
           }),
         }).catch(() => {
@@ -117,7 +118,7 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
         console.error('Failed to save survey responses:', err)
       }
 
-      await handleResult(result.user, `Account created for ${result.user.email}`)
+      await handleResult(result.user, `Your responses have been saved — welcome to EchoBreaker!`)
     } catch (err: any) {
       setError(err?.message || String(err))
       setStatus('Account creation failed')
@@ -125,8 +126,6 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
       setLoading(false)
     }
   }
-
-  const disabled = loading || !email || !password || !displayName.trim() || !isSurveyComplete
 
   const updateSurveyResponse = (key: keyof SurveyResponses, value: string | number) => {
     setSurveyResponses((prev) => ({ ...prev, [key]: value }))
@@ -812,6 +811,29 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Second Create Account button at bottom */}
+      <div style={{ marginTop: '32px', marginBottom: '16px' }}>
+        <p className="text-sm text-gray-500 mt-6 mb-2 text-center">
+          You can also create your account here after finishing the survey.
+        </p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '16px', marginBottom: '16px' }}>
+          <button
+            onClick={createAccount}
+            disabled={loading || !email || !password || !displayName.trim() || !isSurveyComplete}
+            className="btn btn--primary"
+            style={{
+              opacity: !isSurveyComplete ? 0.6 : 1,
+              cursor: !isSurveyComplete ? 'not-allowed' : 'pointer',
+              width: '100%',
+              maxWidth: '200px',
+            }}
+            title={!isSurveyComplete ? 'Complete all questions to continue' : ''}
+          >
+            {loading ? 'Working…' : 'Create Account'}
+          </button>
         </div>
       </div>
 

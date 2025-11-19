@@ -402,15 +402,71 @@ def api_users_ensure():
     return jsonify({"ok": True})
 
 
+def save_survey_response(email, responses):
+    """Save survey responses to a local JSON file."""
+    # Ensure data directory exists
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    os.makedirs(data_dir, exist_ok=True)
+    
+    survey_file = os.path.join(data_dir, "user_surveys.json")
+    
+    # Load existing data or create empty list
+    if os.path.exists(survey_file):
+        try:
+            with open(survey_file, "r") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            data = []
+    else:
+        data = []
+    
+    # Map frontend survey response keys to backend format
+    mapped_responses = {
+        "party_identity": responses.get("partyIdentification", ""),
+        "ideology": responses.get("ideologicalOrientation", ""),
+        "warmth_dem": responses.get("feelingDemocrats"),
+        "warmth_rep": responses.get("feelingRepublicans"),
+        "engagement": responses.get("politicalNewsFollow", ""),
+        "empathy": responses.get("tryUnderstandOtherParty", ""),
+        "difference": responses.get("perceivedDifference", ""),
+        "age_range": responses.get("ageRange", ""),
+        "education_level": responses.get("educationLevel", ""),
+    }
+    
+    # Update or append
+    found = False
+    for entry in data:
+        if entry.get("email") == email:
+            entry.update(mapped_responses)
+            found = True
+            break
+    
+    if not found:
+        data.append({"email": email, **mapped_responses})
+    
+    # Save back to disk
+    with open(survey_file, "w") as f:
+        json.dump(data, f, indent=2)
+
+
 @app.post("/api/users/survey")
 def api_users_survey():
     """Save user survey responses during signup."""
     data = request.get_json(silent=True) or {}
     uid = (data.get("uid") or "").strip()
+    email = (data.get("email") or "").strip()
     survey_responses = data.get("surveyResponses", {})
     
     if not uid:
         return jsonify({"error": "uid required"}), 400
+    
+    # Save to JSON file if email is provided
+    if email:
+        try:
+            save_survey_response(email, survey_responses)
+        except Exception as e:
+            # Log error but don't block account creation
+            print(f"Failed to save survey to JSON file: {e}")
     
     # Convert survey responses to JSON string
     survey_json = json.dumps(survey_responses) if survey_responses else None
