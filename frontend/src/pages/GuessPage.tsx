@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 import { type SurveyPost } from '../lib/survey'
+import ResultComparison from '../ui/ResultComparison'
 
 export default function GuessPage() {
   const navigate = useNavigate()
@@ -711,40 +712,30 @@ export default function GuessPage() {
         {/* Reveal overlay after submit */}
         {reveal && (
           <div style={{ position: 'fixed', inset: 0, background: 'rgba(255,255,255,0.98)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 50 }}>
-            <div style={{ maxWidth: 560, width: '92%', background: '#fff', border: '1px solid #eee', borderRadius: 12, boxShadow: '0 10px 30px rgba(0,0,0,0.12)', padding: 20 }}>
-              <h3 style={{ fontFamily: 'Georgia, Times, serif', fontWeight: 400, fontSize: '1.35rem', marginBottom: 10 }}>Ground Truth</h3>
-              <p style={{ marginBottom: 10 }}>
-                <strong>{reveal.direction.dem === 'over' ? 'You overestimated Democrats' : reveal.direction.dem === 'under' ? 'You underestimated Democrats' : 'You guessed Democrats exactly'}</strong>
-                {` by ${Math.abs(reveal.deltas.dem).toFixed(1)} points (you: ${reveal.user.dem.toFixed(1)}%, actual: ${reveal.actual.dem.toFixed(1)}%).`}
-              </p>
-              <p style={{ marginBottom: 16 }}>
-                <strong>{reveal.direction.rep === 'over' ? 'You overestimated Republicans' : reveal.direction.rep === 'under' ? 'You underestimated Republicans' : 'You guessed Republicans exactly'}</strong>
-                {` by ${Math.abs(reveal.deltas.rep).toFixed(1)} points (you: ${reveal.user.rep.toFixed(1)}%, actual: ${reveal.actual.rep.toFixed(1)}%).`}
-              </p>
-              <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                <button
-                  type="button"
-                  className="submit-btn"
-                  onClick={() => {
-                    const done = reveal.completed_all
-                    setReveal(null)
-                    if (done) {
-                      navigate('/guess/results', { replace: false })
-                      return
-                    }
-                    if (qIndex + 1 < dailyQuestions.length) {
-                      setQIndex((i) => i + 1)
-                      setDem(50)
-                      setRep(50)
-                      setPreviewSeconds(5)
-                      setPreviewProgress(0)
-                      setPreviewActive(true)
-                    }
-                  }}
-                >
-                  {reveal.completed_all ? 'See Results' : 'Next Question'}
-                </button>
-              </div>
+            <div style={{ maxWidth: 640, width: '92%', background: '#fff', border: '1px solid #eee', borderRadius: 12, boxShadow: '0 10px 30px rgba(0,0,0,0.12)', padding: '32px 24px' }}>
+              <ResultComparison
+                demUser={reveal.user.dem}
+                demActual={reveal.actual.dem}
+                repUser={reveal.user.rep}
+                repActual={reveal.actual.rep}
+                onNext={() => {
+                  const done = reveal.completed_all
+                  setReveal(null)
+                  if (done) {
+                    navigate('/guess/results', { replace: false })
+                    return
+                  }
+                  if (qIndex + 1 < dailyQuestions.length) {
+                    setQIndex((i) => i + 1)
+                    setDem(50)
+                    setRep(50)
+                    setPreviewSeconds(5)
+                    setPreviewProgress(0)
+                    setPreviewActive(true)
+                  }
+                }}
+                nextButtonText={reveal.completed_all ? 'See Results' : 'Next Question'}
+              />
             </div>
           </div>
         )}
