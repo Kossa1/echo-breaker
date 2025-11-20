@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Survey Guess Results</h1>
+
+    {% for result in results %}
+        <div class="tweet-card">
+            {{ result.card_html | safe }}
+            <p><strong>Your guess:</strong></p>
+            <ul>
+                <li>Democrats: {{ result.dem_guess }}%</li>
+                <li>Republicans: {{ result.rep_guess }}%</li>
+            </ul>
+            <p><strong>Actual survey data:</strong></p>
+            <ul>
+                <li>Democrats: {{ result.dem_actual }}%</li>
+                <li>Republicans: {{ result.rep_actual }}%</li>
+            </ul>
+        </div>
+        <hr>
+    {% endfor %}
+
+    <form action="{{ url_for('index') }}">
+        <button type="submit">Try Again</button>
+    </form>
+</body>
+</html>

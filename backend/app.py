@@ -732,6 +732,8 @@ def submit_answer():
             question_id=question_id,
             dem_guess=dem_guess,
             rep_guess=rep_guess,
+            actual_dem=daily_q.dem,      # <-- store today's ground truth
+            actual_rep=daily_q.rep,
             score=total_score,
             score_dem=dem_score,
             score_rep=rep_score
@@ -1050,6 +1052,58 @@ def serve_survey_image(filename):
     directory = str(file_path.parent)
     filename_only = file_path.name
     return send_from_directory(directory, filename_only)
+
+@app.route("/api/user/guesses", methods=['GET'])
+def get_user_guesses():
+    """
+    Returns a user's history of guesses.
+    Query param: user_id (required)
+    Optional: limit, offset
+    """
+    user_id = request.args.get('user_id')
+    if not user_id:
+        return jsonify({"error": "Missing user_id parameter"}), 400
+
+    # Add limit/offset if you want pagination
+    try:
+        limit = int(request.args.get('limit', 100))
+        offset = int(request.args.get('offset', 0))
+    except Exception:
+        limit, offset = 100, 0
+
+    with SessionLocal() as session:
+        answers_q = (session.query(UserAnswer)
+            .filter(UserAnswer.user_id == user_id)
+            .order_by(UserAnswer.date.desc(), UserAnswer.submitted_at.desc())
+            .offset(offset)
+            .limit(limit)
+        )
+        answers = answers_q.all()
+        results = []
+        for ua in answers:
+            results.append({
+                "date": ua.date,
+                "question_id": ua.question_id,
+                "dem_guess": ua.dem_guess,
+                "rep_guess": ua.rep_guess,
+                "actual_dem": ua.actual_dem,
+                "actual_rep": ua.actual_rep,
+                "score": ua.score,
+                "score_dem": ua.score_dem,
+                "score_rep": ua.score_rep,
+                "submitted_at": ua.submitted_at.isoformat() if ua.submitted_at else None
+            })
+        return jsonify({"guesses": results, "total": len(results)})
+
+@app.route("/api/user_ids", methods=['GET'])
+def get_user_ids():
+    """
+    Returns a list of all user ids (and optionally display names).
+    """
+    with SessionLocal() as session:
+        users = session.query(DBUser).all()
+        results = [{"user_id": u.uid, "display_name": u.display_name} for u in users]
+    return jsonify({"users": results, "total": len(results)})
 
 if __name__ == "__main__":
     app.run(debug=True)

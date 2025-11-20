@@ -10,5 +10,17 @@
     "difference": "Completely different",
     "age_range": "<24",
     "education_level": "Post-grad degree"
+  },
+  {
+    "email": "nefwon@dneo.com",
+    "party_identity": "Independent",
+    "ideology": "Moderate",
+    "warmth_dem": 50,
+    "warmth_rep": 50,
+    "engagement": "Somewhat",
+    "empathy": "Sometimes",
+    "difference": "Moderately different",
+    "age_range": "<24",
+    "education_level": "Below college"
   }
 ]
