@@ -23,8 +23,11 @@ interface SurveyResponses {
   educationLevel?: string
 }
 
+type AuthMode = 'choice' | 'signin' | 'signup'
+
 export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps) {
   const auth = useMemo(() => getAuth(), [])
+  const [mode, setMode] = useState<AuthMode>('choice')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [displayName, setDisplayName] = useState('')
@@ -63,10 +66,19 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
     )
   }, [surveyResponses])
 
-  const handleResult = async (user: User, message: string) => {
-    await ensureUserDocument(user, displayName)
+  const handleResult = async (user: User, message: string, nameOverride?: string) => {
+    await ensureUserDocument(user, nameOverride)
     setStatus(message)
     onSignedIn?.(user)
+  }
+
+  const switchMode = (next: AuthMode) => {
+    setMode(next)
+    setError('')
+    setStatus('Idle')
+    if (next !== 'signup') {
+      setShowSurveyValidation(false)
+    }
   }
 
   const signIn = async () => {
@@ -85,6 +97,12 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
   }
 
   const createAccount = async () => {
+    if (!displayName.trim()) {
+      setError('Please choose an account name')
+      setStatus('Account name required')
+      return
+    }
+
     // Validate survey completion
     if (!isSurveyComplete) {
       setShowSurveyValidation(true)
@@ -118,7 +136,11 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
         console.error('Failed to save survey responses:', err)
       }
 
-      await handleResult(result.user, `Your responses have been saved — welcome to EchoBreaker!`)
+      await handleResult(
+        result.user,
+        `Your responses have been saved — welcome to EchoBreaker!`,
+        displayName
+      )
     } catch (err: any) {
       setError(err?.message || String(err))
       setStatus('Account creation failed')
@@ -142,8 +164,101 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
     }
   }, [isSurveyComplete, showSurveyValidation])
 
-  return (
-    <div>
+  const renderChoice = () => (
+    <div
+      style={{
+        display: 'grid',
+        gap: 16,
+        gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+        marginTop: 8,
+      }}
+    >
+      <button
+        onClick={() => switchMode('signin')}
+        className="btn btn--primary"
+        style={{ justifyContent: 'flex-start', gap: 12, padding: '16px 18px' }}
+      >
+        <span style={{ fontWeight: 700 }}>I already have an account</span>
+        <span style={{ fontSize: 13, opacity: 0.8 }}>Sign in with email + password</span>
+      </button>
+      <button
+        onClick={() => switchMode('signup')}
+        className="btn btn--primary"
+        style={{ justifyContent: 'flex-start', gap: 12, padding: '16px 18px', background: '#0ea5e9' }}
+      >
+        <span style={{ fontWeight: 700 }}>Create a new account</span>
+        <span style={{ fontSize: 13, opacity: 0.8 }}>Choose a name then take the short survey</span>
+      </button>
+    </div>
+  )
+
+  const renderSignIn = () => (
+    <div className="stack" style={{ gap: 12 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
+        <h3 style={{ margin: 0, fontSize: 18 }}>Sign in</h3>
+        <button onClick={() => switchMode('choice')} className="btn btn-ghost" style={{ padding: '6px 10px' }}>
+          Back
+        </button>
+      </div>
+      <label style={{ display: 'block' }}>
+        Email
+        <input
+          type="email"
+          autoComplete="email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+          placeholder="you@example.com"
+          className="input"
+        />
+      </label>
+
+      <label style={{ display: 'block' }}>
+        Password
+        <input
+          type="password"
+          autoComplete="current-password"
+          value={password}
+          onChange={(event) => setPassword(event.target.value)}
+          placeholder="••••••••"
+          className="input"
+        />
+      </label>
+      <button
+        onClick={signIn}
+        disabled={loading || !email || !password}
+        className="btn btn--primary"
+      >
+        {loading ? 'Working…' : 'Sign In'}
+      </button>
+      <div className="muted" style={{ fontSize: 13 }}>
+        Need an account?{' '}
+        <button onClick={() => switchMode('signup')} className="btn-link">
+          Create one instead
+        </button>
+      </div>
+    </div>
+  )
+
+  const renderSignUp = () => (
+    <div className="stack">
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
+        <h3 style={{ margin: 0, fontSize: 18 }}>Create your account</h3>
+        <button onClick={() => switchMode('choice')} className="btn btn-ghost" style={{ padding: '6px 10px' }}>
+          Back
+        </button>
+      </div>
+
+      <label style={{ display: 'block', marginBottom: 12 }}>
+        Account name
+        <input
+          type="text"
+          value={displayName}
+          onChange={(event) => setDisplayName(event.target.value)}
+          placeholder="Eg. EchoMaster"
+          className="input"
+        />
+      </label>
+
       <label style={{ display: 'block', marginBottom: 12 }}>
         Email
         <input
@@ -156,11 +271,11 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
         />
       </label>
 
-      <label style={{ display: 'block', marginBottom: 12 }}>
+      <label style={{ display: 'block', marginBottom: 16 }}>
         Password
         <input
           type="password"
-          autoComplete="current-password"
+          autoComplete="new-password"
           value={password}
           onChange={(event) => setPassword(event.target.value)}
           placeholder="••••••••"
@@ -168,44 +283,25 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
         />
       </label>
 
-      <label style={{ display: 'block', marginBottom: 16 }}>
-        Display name
-        <input
-          type="text"
-          value={displayName}
-          onChange={(event) => setDisplayName(event.target.value)}
-          placeholder="Eg. EchoMaster"
-          className="input"
-        />
-      </label>
-
-      <div style={{ display: 'flex', gap: 12 }}>
-        <button
-          onClick={signIn}
-          disabled={loading || !email || !password || !displayName.trim()}
-          className="btn btn--primary"
-        >
-          {loading ? 'Working…' : 'Sign In'}
-        </button>
-        <button
-          onClick={createAccount}
-          disabled={loading || !email || !password || !displayName.trim() || !isSurveyComplete}
-          className="btn btn--primary"
-          style={{
-            opacity: !isSurveyComplete ? 0.6 : 1,
-            cursor: !isSurveyComplete ? 'not-allowed' : 'pointer',
-          }}
-          title={!isSurveyComplete ? 'Complete all questions to continue' : ''}
-        >
-          {loading ? 'Working…' : 'Create Account'}
-        </button>
-      </div>
+      <button
+        onClick={createAccount}
+        disabled={loading || !email || !password || !displayName.trim() || !isSurveyComplete}
+        className="btn btn--primary"
+        style={{
+          opacity: !isSurveyComplete ? 0.6 : 1,
+          cursor: !isSurveyComplete ? 'not-allowed' : 'pointer',
+          alignSelf: 'flex-start',
+        }}
+        title={!isSurveyComplete ? 'Complete all questions to continue' : ''}
+      >
+        {loading ? 'Working…' : 'Create Account'}
+      </button>
       {!isSurveyComplete && (
         <p
           style={{
             fontSize: '0.75rem',
             color: '#6b7280',
-            marginTop: '8px',
+            marginTop: '4px',
             fontStyle: 'italic',
           }}
         >
@@ -213,10 +309,10 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
         </p>
       )}
 
-      {/* Survey Section - Always visible below signup form */}
+      {/* Survey Section - Only visible for signup */}
       <div
         style={{
-          marginTop: '40px',
+          marginTop: '32px',
           paddingTop: '24px',
           borderTop: '1px solid #e5e7eb',
         }}
@@ -839,6 +935,20 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
 
       <div className="muted" style={{ marginTop: 12 }}>Status: {status}</div>
       {error && <div style={{ marginTop: 8, color: 'var(--red-500)' }}>Error: {error}</div>}
+    </div>
+  )
+
+  return (
+    <div>
+      {mode === 'choice' && renderChoice()}
+      {mode === 'signin' && renderSignIn()}
+      {mode === 'signup' && renderSignUp()}
+      {mode !== 'signup' && (
+        <>
+          <div className="muted" style={{ marginTop: 12 }}>Status: {status}</div>
+          {error && <div style={{ marginTop: 8, color: 'var(--red-500)' }}>Error: {error}</div>}
+        </>
+      )}
     </div>
   )
 }

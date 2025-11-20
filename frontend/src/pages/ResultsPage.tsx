@@ -32,8 +32,16 @@ export default function ResultsPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [selfLbRank, setSelfLbRank] = useState<null | { rank: number; total: number; score: number; gamesPlayed: number }>(null)
+  const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'error'>('idle')
   const fmt = (n: unknown, digits = 1) =>
     typeof n === 'number' && isFinite(n as number) ? (n as number).toFixed(digits) : '—'
+  const formatOffText = (userValue?: number, actualValue?: number) => {
+    if (typeof userValue !== 'number' || typeof actualValue !== 'number') return '—'
+    const diff = Math.abs(userValue - actualValue)
+    if (!Number.isFinite(diff)) return '—'
+    // Trim trailing .0 to keep the share text compact
+    return diff % 1 === 0 ? diff.toFixed(0) : diff.toFixed(1)
+  }
 
   // Load results from backend API
   useEffect(() => {
@@ -180,6 +188,99 @@ export default function ResultsPage() {
       color: #666;
       margin-top: 8px;
       font-weight: 400;
+    }
+
+    .results-share {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .results-share-button {
+      position: relative;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 8px 20px;
+      background: #111;
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 10px 26px rgba(0,0,0,0.16);
+      overflow: hidden;
+      transform-origin: center;
+    }
+
+    .results-share-button::before {
+      content: '';
+      position: absolute;
+      inset: -40%;
+      background: radial-gradient(circle at 0 0, rgba(255,255,255,0.18), transparent 55%);
+      opacity: 0;
+      transform: translate3d(-40%, -40%, 0);
+    }
+
+    .results-share-button:hover::before {
+      animation: shareShimmer 1.8s ease-out infinite;
+    }
+
+    .results-share-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.18);
+    }
+
+    .results-share-button:active {
+      transform: translateY(0);
+      box-shadow: 0 8px 22px rgba(0,0,0,0.16);
+    }
+
+    .results-share-button--success {
+      background: #16a34a;
+    }
+
+    .results-share-meta {
+      font-size: 0.75rem;
+      color: #777;
+      text-align: center;
+    }
+
+    .results-share-status {
+      font-size: 0.75rem;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #16a34a;
+    }
+
+    .results-share-status--error {
+      color: #b91c1c;
+    }
+
+    .share-toast {
+      position: fixed;
+      bottom: 18px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: #0f172a;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+      font-size: 0.9rem;
+      letter-spacing: 0.01em;
+      z-index: 90;
+      animation: toastIn 0.2s ease, toastOut 0.2s ease 2.2s forwards;
+    }
+
+    .share-toast--error {
+      background: #b91c1c;
     }
     
     .results-stats-grid {
@@ -572,6 +673,30 @@ export default function ResultsPage() {
       }
     }
     
+    @keyframes shareShimmer {
+      0% {
+        opacity: 0;
+        transform: translate3d(-40%, -40%, 0);
+      }
+      45% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(40%, 40%, 0);
+      }
+    }
+
+    @keyframes toastIn {
+      from { opacity: 0; transform: translate(-50%, 10px); }
+      to { opacity: 1; transform: translate(-50%, 0); }
+    }
+
+    @keyframes toastOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    
     @media (max-width: 768px) {
       .results-page {
         padding: 0 16px;
@@ -736,6 +861,77 @@ export default function ResultsPage() {
     return worstIdx
   }, [resultsData])
 
+  const shareText = useMemo(() => {
+    if (!resultsData) return ''
+
+    const lines: string[] = []
+    const rankChunk =
+      overallRank !== null && overallRank !== undefined
+        ? resultsData.total_users_today
+          ? ` #${overallRank}/${resultsData.total_users_today}`
+          : ` #${overallRank}`
+        : ''
+
+    lines.push('EchoBreaker')
+    lines.push(`Score: ${fmt(overallAvgScore)}%${rankChunk ? ` · Rank${rankChunk}` : ''}`)
+    lines.push('off = absolute gap from actual')
+
+    if (resultsData.questions.length) {
+      lines.push('')
+      resultsData.questions.forEach((question, idx) => {
+        const demOff = formatOffText(question.user_prediction?.dem, question.ground_truth?.dem)
+        const repOff = formatOffText(question.user_prediction?.rep, question.ground_truth?.rep)
+        const demCopy = demOff === '—' ? '—' : `${demOff}%`
+        const repCopy = repOff === '—' ? '—' : `${repOff}%`
+        lines.push(`Q${idx + 1}:🟦${demCopy} off 🟥${repCopy} off`)
+      })
+    }
+
+    if (overallBestQuestion || overallWorstQuestion) {
+      lines.push('')
+      const bestText = overallBestQuestion ? `Q${overallBestQuestion}` : '—'
+      const worstText = overallWorstQuestion ? `Q${overallWorstQuestion}` : '—'
+      lines.push(`🔥 Best ${bestText} | 😬 Hard ${worstText}`)
+    }
+
+    return lines.join('\n')
+  }, [resultsData, overallAvgScore, overallRank, overallBestQuestion, overallWorstQuestion])
+
+  const handleShareResults = async () => {
+    if (!resultsData) return
+
+    try {
+      const origin =
+        typeof window !== 'undefined' && window.location && window.location.origin
+          ? window.location.origin
+          : 'https://echobreaker.app'
+      const shareUrl = `${origin}/`
+      const baseText = shareText.trim()
+      const fullText = `${baseText}${baseText ? '\n\n' : ''}Try to beat me at: ${shareUrl}`
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(fullText)
+      } else {
+        const textarea = document.createElement('textarea')
+        textarea.value = fullText
+        textarea.setAttribute('readonly', '')
+        textarea.style.position = 'absolute'
+        textarea.style.left = '-9999px'
+        document.body.appendChild(textarea)
+        textarea.select()
+        document.execCommand('copy')
+        document.body.removeChild(textarea)
+      }
+
+      setShareStatus('copied')
+      window.setTimeout(() => setShareStatus('idle'), 2500)
+    } catch (err) {
+      console.error('Share failed', err)
+      setShareStatus('error')
+      window.setTimeout(() => setShareStatus('idle'), 2500)
+    }
+  }
+
   if (loading) {
     return (
       <div>
@@ -781,6 +977,32 @@ export default function ResultsPage() {
             <h2>Average Score: {fmt(overallAvgScore)}%</h2>
             <div className="progress-bar">
               <div className="fill" style={{ width: `${overallAvgScore}%` }} />
+            </div>
+            <div className="results-share">
+              <button
+                type="button"
+                className={`results-share-button${
+                  shareStatus === 'copied' ? ' results-share-button--success' : ''
+                }`}
+                onClick={handleShareResults}
+              >
+                {shareStatus === 'copied'
+                  ? 'Copied — stats ready'
+                  : 'Copy today’s results'}
+              </button>
+              <p className="results-share-meta">
+                Emoji summary copied to your clipboard — perfect for a text thread.
+              </p>
+              {shareStatus === 'copied' && (
+                <p className="results-share-status" role="status" aria-live="polite">
+                  Stats copied to your clipboard, ready to share.
+                </p>
+              )}
+              {shareStatus === 'error' && (
+                <p className="results-share-status results-share-status--error" role="alert">
+                  Copy didn&apos;t work. Try again or paste manually.
+                </p>
+              )}
             </div>
             <section className="results-stats-grid">
               <div className="stats-col overall">
@@ -952,6 +1174,16 @@ export default function ResultsPage() {
           New questions arrive daily at midnight (ET).
         </p>
       </div>
+      {shareStatus === 'copied' && (
+        <div className="share-toast" role="status" aria-live="polite">
+          Stats copied to clipboard, ready to share.
+        </div>
+      )}
+      {shareStatus === 'error' && (
+        <div className="share-toast share-toast--error" role="alert">
+          Copy failed. Try again.
+        </div>
+      )}
     </div>
   )
 }
