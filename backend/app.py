@@ -618,7 +618,8 @@ def get_daily_questions():
     questions = []
     for dq in daily_questions:
         # Build public path to image. Using a direct path avoids url_for issues in some run modes.
-        image_url = f"/survey_metadata/{dq['img_path']}"
+        BACKEND_BASE_URL = "https://echo-breaker-backend.onrender.com"
+        image_url = f"{BACKEND_BASE_URL}/survey_metadata/{dq['img_path']}"
         questions.append({
             "id": dq['id'],
             "image_url": image_url,
