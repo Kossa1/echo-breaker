@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 
 // Subtle animated points field blending blue<->red across X axis

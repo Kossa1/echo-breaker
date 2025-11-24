@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 import { type SurveyPost } from '../lib/survey'
 import ResultComparison from '../ui/ResultComparison'
 
 export default function GuessPage() {
   const navigate = useNavigate()
-  const [searchParams, setSearchParams] = useSearchParams()
   const [post, setPost] = useState<SurveyPost | null>(null)
   const [dem, setDem] = useState<number>(50)
   const [rep, setRep] = useState<number>(50)
@@ -26,11 +25,10 @@ export default function GuessPage() {
   // Multi-question support - always use 5 questions for multi-question flow
   const totalQuestions = 5
   const [qIndex, setQIndex] = useState<number>(0) // 0-based
-  const [answers, setAnswers] = useState<Array<{ post: SurveyPost; user: { dem: number; rep: number } }>>([])
   const [gameStarted, setGameStarted] = useState<boolean>(false)
   const [error, setError] = useState<string | null>(null)
   const [dailyQuestions, setDailyQuestions] = useState<Array<{id: string; image_url: string; topic: string; question_order: number}>>([])
-  const [completed, setCompleted] = useState<boolean>(false)
+  const [_, setCompleted] = useState<boolean>(false)
 
   // Load daily questions and check completion status on mount
   useEffect(() => {

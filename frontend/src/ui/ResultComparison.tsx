@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { useMemo } from 'react'
 
 interface ResultComparisonProps {
   demUser: number
@@ -18,36 +17,7 @@ export default function ResultComparison({
   onNext,
   nextButtonText = 'Next Question',
 }: ResultComparisonProps) {
-  // Calculate deltas and directions
-  const demDelta = demUser - demActual
-  const repDelta = repUser - repActual
 
-  const demDirection = useMemo(() => {
-    if (Math.abs(demDelta) < 0.1) return 'exact'
-    return demDelta > 0 ? 'over' : 'under'
-  }, [demDelta])
-
-  const repDirection = useMemo(() => {
-    if (Math.abs(repDelta) < 0.1) return 'exact'
-    return repDelta > 0 ? 'over' : 'under'
-  }, [repDelta])
-
-  // Format summary text
-  const demSummary = useMemo(() => {
-    if (demDirection === 'exact') {
-      return `You guessed Democrats exactly (${demActual.toFixed(1)}%)`
-    }
-    const verb = demDirection === 'over' ? 'overestimated' : 'underestimated'
-    return `You ${verb} Democrats by ${Math.abs(demDelta).toFixed(1)} points`
-  }, [demDirection, demDelta, demActual])
-
-  const repSummary = useMemo(() => {
-    if (repDirection === 'exact') {
-      return `You guessed Republicans exactly (${repActual.toFixed(1)}%)`
-    }
-    const verb = repDirection === 'over' ? 'overestimated' : 'underestimated'
-    return `You ${verb} Republicans by ${Math.abs(repDelta).toFixed(1)} points`
-  }, [repDirection, repDelta, repActual])
 
   // Animation variants
   const containerVariants = {
@@ -68,7 +38,7 @@ export default function ResultComparison({
       y: 0,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1],
+        //ease: [0.42, 0, 0.58, 1]
       },
     },
   }
@@ -80,7 +50,7 @@ export default function ResultComparison({
       scale: 1,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1],
+        //ease: [0.42, 0, 0.58, 1],
         delay: 0.6,
       },
     },
@@ -93,7 +63,7 @@ export default function ResultComparison({
       width: `${targetWidth}%`,
       transition: {
         duration: 0.8,
-        ease: [0.4, 0, 0.2, 1],
+        //ease: [0.42, 0, 0.58, 1],
         delay: 0.2,
       },
     },
@@ -105,13 +75,11 @@ export default function ResultComparison({
     actualValue,
     party,
     partyName,
-    color,
   }: {
     userValue: number
     actualValue: number
     party: 'dem' | 'rep'
     partyName: string
-    color: string
   }) => {
     const delta = userValue - actualValue
     const direction = Math.abs(delta) < 0.1 ? 'exact' : delta > 0 ? 'over' : 'under'
@@ -380,7 +348,6 @@ export default function ResultComparison({
         actualValue={demActual}
         party="dem"
         partyName="Democrats"
-        color="blue"
       />
 
       {/* Republicans Bar */}
@@ -389,7 +356,6 @@ export default function ResultComparison({
         actualValue={repActual}
         party="rep"
         partyName="Republicans"
-        color="red"
       />
 
       {/* Next Button */}
