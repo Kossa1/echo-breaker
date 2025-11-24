@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
-CORS(app)
+CORS(app, origins=["https://echo-breaker-frontend.onrender.com"])
 
 # Ensure tables exist (safe to call multiple times)
 try:
