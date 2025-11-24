@@ -42,7 +42,7 @@ def nonlinear_score(user, truth, alpha=0.3, beta=5):
 # Cache available tweet posts on startup for performance
 def _load_all_posts():
     """Load all available posts and cache them."""
-    base_path = Path(__file__).resolve().parents[1] / "survey_metadata"
+    base_path = Path(__file__).resolve().parents / "survey_metadata"
     
     if not base_path.exists():
         return []
@@ -1042,7 +1042,7 @@ def random_tweet():
 @app.route("/survey_metadata/<path:filename>")
 def serve_survey_image(filename):
     """Serve images from survey_metadata directory, handling nested paths."""
-    base_path = Path(__file__).resolve().parents[1] / "survey_metadata"
+    base_path = Path(__file__).resolve().parent / "survey_metadata"
     file_path = base_path / filename
     
     # Security check: ensure the file is within the base directory
