@@ -16,7 +16,10 @@ from db import SessionLocal
 from models import UserAnswer, UserDailyScore, DailyQuestion
 from sqlalchemy import select, func
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='frontend_dist', static_url_path='')
+
+
+
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
 
 # Ensure tables exist (safe to call multiple times)
