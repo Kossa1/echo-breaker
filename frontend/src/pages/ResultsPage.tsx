@@ -61,8 +61,8 @@ export default function ResultsPage() {
         const userId = auth.currentUser.uid
         const dateParam = searchParams.get('date') // Optional date parameter
         const url = dateParam 
-          ? `/api/results?user_id=${userId}&date=${dateParam}`
-          : `/api/results?user_id=${userId}`
+          ? `${API_URL}/api/results?user_id=${userId}&date=${dateParam}`
+          : `${API_URL}/api/results?user_id=${userId}`
         
         const res = await fetch(url)
         if (!res.ok) {

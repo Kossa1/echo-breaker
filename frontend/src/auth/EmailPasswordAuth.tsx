@@ -6,6 +6,8 @@ import {
 } from 'firebase/auth'
 import type { User } from 'firebase/auth'
 import { ensureUserDocument } from '../data/users'
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 interface EmailPasswordAuthProps {
   onSignedIn?: (user: User) => void
@@ -120,7 +122,7 @@ export default function EmailPasswordAuth({ onSignedIn }: EmailPasswordAuthProps
       // Save survey responses (now mandatory)
       setStatus('Saving responses…')
       try {
-        await fetch('/api/users/survey', {
+        await fetch(`${API_URL}/api/users/survey`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
