@@ -42,7 +42,7 @@ def nonlinear_score(user, truth, alpha=0.3, beta=5):
 # Cache available tweet posts on startup for performance
 def _load_all_posts():
     """Load all available posts and cache them."""
-    base_path = Path(__file__).resolve().parents / "survey_metadata"
+    base_path = Path(__file__).resolve().parent / "survey_metadata"
     
     if not base_path.exists():
         return []
