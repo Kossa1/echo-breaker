@@ -1044,7 +1044,8 @@ def serve_survey_image(filename):
     """Serve images from survey_metadata directory, handling nested paths."""
     base_path = Path(__file__).resolve().parent / "survey_metadata"
     file_path = base_path / filename
-    
+    print(f"looking for file {file_path}")
+
     # Security check: ensure the file is within the base directory
     try:
         file_path.resolve().relative_to(base_path.resolve())
