@@ -3,6 +3,8 @@
  * and use Vite's import.meta.glob to discover assets at build time.
  */
 
+
+
 export interface SurveyPost {
   id: string
   imageUrl: string
@@ -37,7 +39,11 @@ export function loadAllSurveyPosts(): SurveyPost[] {
     try {
       const parsed = JSON.parse(raw)
       const key = toKey(jsonPath)
-      const imageUrl = imagesByKey.get(key)
+      // Suppose key looks like "../survey_metadata/foo/tweet_2"
+      const BACKEND_BASE_URL = "https://echo-breaker-backend.onrender.com";
+      // Remove leading "../survey_metadata/" and add .png/.jpg/etc extension as appropriate.
+      const relPath = key.replace("../survey_metadata/", "") + ".png"; // or ".jpg", check your mapping!
+      const imageUrl = `${BACKEND_BASE_URL}/survey_metadata/${relPath}`;
       if (!imageUrl) continue
       const dem = Number(parsed.dem)
       const rep = Number(parsed.rep)
