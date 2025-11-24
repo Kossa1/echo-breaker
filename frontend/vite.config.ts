@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+const API_URL = "https://echo-breaker-backend.onrender.com"
+
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -13,11 +15,11 @@ export default defineConfig({
     // Proxy API requests and static images to Flask backend
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: API_URL,
         changeOrigin: true,
       },
       '/survey_metadata': {
-        target: 'http://localhost:5000',
+        target: API_URL,
         changeOrigin: true,
       }
     }

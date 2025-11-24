@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 type QuestionResult = {
   question_id: string
@@ -97,7 +99,7 @@ export default function ResultsPage() {
     let cancelled = false
     ;(async () => {
       try {
-        const res = await fetch(`/api/leaderboard/user/${uid}`)
+        const res = await fetch(`${API_URL}/api/leaderboard/user/${uid}`)
         if (!res.ok) return
         const d = await res.json()
         if (!cancelled) setSelfLbRank({

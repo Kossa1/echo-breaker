@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { User } from 'firebase/auth'
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 interface LeaderboardEntry {
   id: string
@@ -19,7 +21,7 @@ export default function LeaderboardPage({ currentUser }: LeaderboardPageProps) {
     let cancelled = false
     async function load() {
       try {
-        const res = await fetch('/api/leaderboard?limit=50')
+        const res = await fetch(`${API_URL}/api/leaderboard?limit=50`)
         if (!res.ok) throw new Error('Failed to load leaderboard')
         const data = await res.json()
         const next = (data.entries || []).map((e: any) => ({

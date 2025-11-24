@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { getAuth } from 'firebase/auth'
 import { type SurveyPost } from '../lib/survey'
 import ResultComparison from '../ui/ResultComparison'
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function GuessPage() {
   const navigate = useNavigate()
@@ -41,7 +42,7 @@ export default function GuessPage() {
 
       try {
         const userId = auth.currentUser.uid
-        const res = await fetch(`/api/daily_questions?user_id=${userId}`)
+        const res = await fetch(`${API_URL}/api/daily_questions?user_id=${userId}`)
         if (!res.ok) {
           const errorData = await res.json().catch(() => ({}))
           setError(errorData.error || 'Failed to load daily questions')
@@ -631,7 +632,7 @@ export default function GuessPage() {
         user: { dem, rep }
       }
 
-      const res = await fetch('/api/submit_answer', {
+      const res = await fetch(`${API_URL}/api/submit_answer`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
