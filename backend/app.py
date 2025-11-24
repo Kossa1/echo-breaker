@@ -2,11 +2,11 @@ import os
 import random
 import json
 from pathlib import Path
-
 from flask import Flask, render_template, request, redirect, url_for, session, send_from_directory, jsonify
 from backend_logic import sample_unique_posts
 from db import SessionLocal, engine, Base
 from models import User as DBUser, UserRound as DBUserRound
+from flask_cors import CORS
 from daily_questions import (
     get_eastern_date, ensure_daily_questions, get_user_answers_for_date,
     has_user_completed_date, compute_rankings_for_date, get_user_historical_average,
@@ -16,11 +16,13 @@ from db import SessionLocal
 from models import UserAnswer, UserDailyScore, DailyQuestion
 from sqlalchemy import select, func
 
-app = Flask(__name__, static_folder='frontend_dist', static_url_path='')
+app = Flask(__name__)
+
 
 
 
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
+CORS(app)
 
 # Ensure tables exist (safe to call multiple times)
 try:
@@ -1108,5 +1110,3 @@ def get_user_ids():
         results = [{"user_id": u.uid, "display_name": u.display_name} for u in users]
     return jsonify({"users": results, "total": len(results)})
 
-if __name__ == "__main__":
-    app.run(debug=True)
