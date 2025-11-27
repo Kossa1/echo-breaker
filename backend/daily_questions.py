@@ -32,7 +32,7 @@ def load_all_available_posts():
     Load all available posts from survey_metadata directory.
     Returns list of dicts with keys: id, img_path, dem, rep, topic
     """
-    base_path = Path(__file__).resolve().parents[1] / "survey_metadata"
+    base_path = Path(__file__).resolve().parent / "survey_metadata"
     
     if not base_path.exists():
         return []
