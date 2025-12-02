@@ -14,7 +14,7 @@ from daily_questions import (
 )
 from db import SessionLocal
 from models import UserAnswer, UserDailyScore, DailyQuestion
-from sqlalchemy import select, func
+from sqlalchemy import select, func, asc
 
 app = Flask(__name__)
 
@@ -1138,7 +1138,7 @@ def users_progress():
         # Preload display names for users
         user_lookup = {
             u.uid: u.display_name
-            for u in session.query(User).filter(User.uid.in_(user_ids)).all()
+            for u in session.query(DBUser).filter(DBUser.uid.in_(user_ids)).all()
         }
         # For each such user, find first and last scores + dates
         for row in user_day_counts:
