@@ -805,3 +805,48 @@ export default function GuessPage() {
     </div>
   )
 }
+
+
+<div className="survey-banner" style={{
+  background: '#eef6fa',
+  border: '2px solid #399af7',
+  borderRadius: '8px',
+  padding: '28px 22px',
+  margin: '40px 0 24px 0',
+  textAlign: 'center',
+  boxShadow: '0 4px 16px rgba(57, 154, 247, 0.06)'
+}}>
+  <h2 style={{
+    fontSize: '1.32rem',
+    color: '#225db9',
+    fontWeight: '700',
+    marginBottom: '10px'
+  }}>
+    We ♥ your feedback!
+  </h2>
+  <p style={{ fontSize: '1rem', color: '#225db9', marginBottom: 0 }}>
+    Help us improve — <b>please fill out our quick survey!</b>
+  </p>
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSecIEbsKhfeHrm3wW8_q6CC_IGzjazP3LANNrJkyk8HvsBNag/viewform?usp=header"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: 'inline-block',
+      marginTop: '18px',
+      background: '#399af7',
+      color: '#fff',
+      padding: '12px 32px',
+      borderRadius: '6px',
+      fontSize: '1.12rem',
+      fontWeight: '600',
+      transition: 'background .2s',
+      textDecoration: 'none',
+      boxShadow: '0 2px 12px rgba(57,154,247,.13)',
+    }}
+    onMouseEnter={e => e.target.style.background = '#225db9'}
+    onMouseLeave={e => e.target.style.background = '#399af7'}
+  >
+    Take the survey
+  </a>
+</div>
