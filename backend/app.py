@@ -1112,3 +1112,55 @@ def get_user_ids():
         results = [{"user_id": u.uid, "display_name": u.display_name} for u in users]
     return jsonify({"users": results, "total": len(results)})
 
+
+@app.get("/api/users/progress")
+def users_progress():
+    """
+    Returns all users who played on more than 1 day,
+    with their first and last scores and dates.
+    """
+    results = []
+    with SessionLocal() as session:
+        # Get users who played more than 1 day (count > 1)
+        user_day_counts = (
+            session.query(
+                UserDailyScore.user_id,
+                func.count(UserDailyScore.date).label("days_played")
+            )
+            .group_by(UserDailyScore.user_id)
+            .having(func.count(UserDailyScore.date) > 1)
+            .all()
+        )
+        user_ids = [row.user_id for row in user_day_counts]
+        if not user_ids:
+            return jsonify(results)  # return empty array
+
+        # Preload display names for users
+        user_lookup = {
+            u.uid: u.display_name
+            for u in session.query(User).filter(User.uid.in_(user_ids)).all()
+        }
+        # For each such user, find first and last scores + dates
+        for row in user_day_counts:
+            scores = (
+                session.query(UserDailyScore)
+                .filter(UserDailyScore.user_id == row.user_id)
+                .order_by(asc(UserDailyScore.date))
+                .all()
+            )
+            if not scores or len(scores) < 2:
+                continue  # skip defensively
+            first = scores[0]
+            last = scores[-1]
+            results.append({
+                "user_id": row.user_id,
+                "display_name": user_lookup.get(row.user_id),
+                "first_score": round(first.avg_score, 2),
+                "first_score_date": first.date,
+                "last_score": round(last.avg_score, 2),
+                "last_score_date": last.date,
+                "days_played": row.days_played
+            })
+    # Optional: sort by most days played, or whatever you want
+    results.sort(key=lambda x: (x["days_played"], x["last_score"]), reverse=True)
+    return jsonify(results)
